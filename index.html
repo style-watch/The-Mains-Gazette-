@@ -108,6 +108,19 @@ select.sel{font:inherit;font-size:.88rem;border:1px solid var(--line);background
 .heat i.l1{background:#FDE7C2}.heat i.l2{background:#F8BF6B}.heat i.l3{background:#E58A14}.heat i.l4{background:#9A4E06}
 .heatlbl{display:grid;grid-template-columns:repeat(14,1fr);gap:3px;font-family:var(--mono);font-size:.6rem;color:var(--soft);margin-top:4px;text-align:center}
 
+/* edition contents */
+.toc{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px 18px;margin:0 0 18px;box-shadow:var(--shadow)}
+.toc summary{cursor:pointer;font-family:var(--mono);font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.toc ol{list-style:none;margin:10px 0 0;padding:0;columns:2;column-gap:28px}
+.toc li{break-inside:avoid}
+.toc button{display:flex;gap:10px;align-items:baseline;width:100%;text-align:left;border:0;background:none;padding:6px 4px;border-radius:8px;cursor:pointer}
+.toc button:hover{background:var(--paper)}
+.toc .tn{font-family:var(--mono);font-size:.72rem;color:var(--soft)}
+.toc .tt{flex:1;font-size:.9rem;font-weight:600;line-height:1.35}
+.toc .tg{display:flex;gap:3px;flex:none}
+.toc .tg .gs{font-size:.6rem;padding:1px 5px}
+@media (max-width:760px){.toc ol{columns:1}}
+.card.flash{box-shadow:0 0 0 3px var(--saffron2),var(--shadow);transition:box-shadow .3s}
 /* dossier */
 .dates{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin}
 .date{flex:none;border:1px solid var(--line);background:#fff;border-radius:12px;padding:8px 14px;text-align:center;cursor:pointer;text-decoration:none;min-width:84px}
@@ -119,7 +132,7 @@ select.sel{font:inherit;font-size:.88rem;border:1px solid var(--line);background
 .edhead h2{font-family:var(--serif);font-weight:600;font-size:1.5rem;margin:0}
 .edhead .meta{color:var(--muted);font-size:.9rem}
 .cards{display:grid;gap:18px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden}
+.card{scroll-margin-top:84px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden}
 .card .hd{padding:18px 20px 12px}
 .card .tags{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:8px}
 .card .path{font-size:.8rem;color:var(--muted);font-weight:500}
@@ -403,6 +416,7 @@ function viewDossier(date){
     const items=ed.items||[];
     h+=`<div class="dates" role="list">${eds.map(e=>{const dt=new Date(e.date+'T00:00:00');return `<a role="listitem" class="date" href="#day-${e.date}" aria-current="${e===ed}"><span>${dt.toLocaleDateString('en-IN',{month:'short'})}</span><b>${dt.getDate()}</b><span>${dt.toLocaleDateString('en-IN',{weekday:'short'})}</span></a>`}).join('')}</div>
     <div class="edhead"><h2>${esc(fmtDate(ed.date,{weekday:'long',day:'numeric',month:'long',year:'numeric'}))}</h2><span class="meta">${esc(ed.paper||'')} · ${items.length} item${items.length===1?'':'s'}</span></div>
+    <details class="toc" open><summary>In this edition: ${items.length} stories</summary><ol>${items.map((it,i)=>`<li><button data-jump="item-${esc(it.id)}"><span class="tn">${String(i+1).padStart(2,'0')}</span><span class="tt">${esc(it.title)}</span><span class="tg">${(it.gs||[]).map(g=>`<span class="gs ${esc(g)}">${esc(g)}</span>`).join('')}</span></button></li>`).join('')}</ol></details>
     <div class="tool"><label class="search">${IC.search}<span class="sr">Search this edition</span><input id="q" type="search" placeholder="Search this edition" autocomplete="off"><kbd>/</kbd></label>
     <div class="chips" id="gsf">${['All','GS1','GS2','GS3','GS4'].map((g,i)=>`<button class="chip" aria-pressed="${i===0}" data-g="${g}">${g}</button>`).join('')}</div></div>
     <div class="cards" id="cards">${items.map(it=>cardHTML(Object.assign(it,{_ed:ed}))).join('')}</div>`;
@@ -519,6 +533,7 @@ function copy(txt){(navigator.clipboard&&navigator.clipboard.writeText?navigator
 document.addEventListener('click',e=>{
   const s=e.target.closest('[data-save]');if(s){const id=s.dataset.save;SAVED.has(id)?SAVED.delete(id):SAVED.add(id);store.set('saved',[...SAVED]);s.setAttribute('aria-pressed',SAVED.has(id));s.innerHTML=IC.saved+(SAVED.has(id)?'Clipped':'Clip');toast(SAVED.has(id)?'Clipped for revision':'Removed from Clippings');nav(cur);return}
   const c=e.target.closest('[data-copy]');if(c){const it=ITEMS.find(x=>x.id===c.dataset.copy);if(it)copy(notesText(it));return}
+  const j=e.target.closest('[data-jump]');if(j){const el=document.getElementById(j.dataset.jump);if(el){el.hidden=false;el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1600)}return}
   const k=e.target.closest('.kwc');if(k){const box=k.closest('.q').querySelector('.kwdef');const on=k.getAttribute('aria-expanded')!=='true';k.closest('.kwl').querySelectorAll('.kwc').forEach(x=>x.setAttribute('aria-expanded','false'));if(on&&k.dataset.def){k.setAttribute('aria-expanded','true');box.innerHTML=`<b>${esc(k.textContent)}</b>: ${esc(k.dataset.def)}`;box.classList.add('on')}else box.classList.remove('on');return}
   if(!e.target.closest('#drawer')&&!e.target.closest('#map'))closeDrawer();
 });
