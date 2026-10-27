@@ -42,70 +42,68 @@ window.MM_DOSSIER={
      ],
      "context": "Abhinav Chandrachud argues that years-long civil suits push well-connected litigants to the police, who turn debt and contract disputes into criminal cases of 'cheating' or 'breach of trust'. This creates a parallel, coercive civil-justice system.",
      "ideas": [
-      "Justice delayed creates 'parallel justice': police summons, 'preliminary inquiries' and threats of arrest pressure debtors to settle, often without an FIR ever being registered.",
-      "A breach of contract to pay money is not cheating or criminal breach of trust; the Supreme Court has repeatedly condemned this as 'abuse of process', but the 'law in action' differs from the 'law on the books'.",
-      "Capacity gap: too few judges is a major cause; Maharashtra has 15 judges per million people and the Bombay High Court only 1.9 per million.",
-      "Structural and cultural reform is needed: archaic procedure gives defendants every chance to thwart a decree. The Privy Council said in 1872 that 'the difficulties of a litigant in India begin when he has obtained a Decree'.",
-      "Corruption risk: the article reports rumours of police taking cases on a 'commission basis', linking judicial delay to police integrity."
+      [
+       "Slow courts create a 'parallel justice' system: police summons, threats of arrest and pressure to settle, often without an FIR.",
+       "GS2 answers on judicial pendency, police reforms and access to justice."
+      ],
+      [
+       "Too few judges is a big cause: 15 per million people in Maharashtra and only 1.9 in the Bombay High Court, against about 157 in New York state.",
+       "GS2 answers on judicial vacancies and judicial infrastructure."
+      ],
+      [
+       "Turning a civil dispute into a criminal case is 'abuse of process', which the Supreme Court has repeatedly discouraged, but practice differs from the law.",
+       "GS2 rule of law; GS4 probity and misuse of power."
+      ]
      ],
      "keywords": [
       [
-       "Criminalisation of civil disputes",
-       "Giving a criminal colour to civil claims for quick relief"
-      ],
-      [
        "Abuse of process",
-       "Misusing legal proceedings; grounds for quashing"
-      ],
-      [
-       "Execution of decree",
-       "Enforcing a civil court's judgment"
+       "Misusing legal procedure for an improper aim",
+       "Any answer on misuse of police or criminal law."
       ],
       [
        "Law on the books vs law in action",
-       "Gap between legal rules and how they work in practice"
+       "Gap between what the law says and how it works",
+       "Introductions or conclusions on implementation gaps."
       ],
       [
-       "Original civil suit",
-       "Civil suit filed directly in a High Court with original jurisdiction"
+       "Execution of decree",
+       "Enforcing a civil court's judgment",
+       "Answers on delays after a case is won."
       ]
      ],
      "data": [
       [
        "79 years",
-       "A Bombay HC suit filed in 1947 that was settled out of court only this year",
-       "IE op-ed"
+       "Bombay HC suit filed in 1947, settled out of court this year",
+       "IE, The Ideas Page",
+       "Opening line for judicial delay."
       ],
       [
-       "20+ years",
-       "Usual time for a suit at the Bombay HC, per practitioners",
-       "IE op-ed"
-      ],
-      [
-       "15 vs 1.9 vs 157",
-       "Judges per million people: Maharashtra, Bombay HC, New York state",
-       "IE op-ed"
+       "1.9 judges per million",
+       "Bombay High Court (Maharashtra: 15; New York state: about 157)",
+       "IE, The Ideas Page",
+       "Argument for more judges."
       ],
       [
        "6,48,725",
-       "Cases pending at the Bombay HC (9,454 civil suits)",
-       "NJDG, via IE op-ed"
-      ],
-      [
-       "50%",
-       "Share of such police cases said to end at the preliminary-inquiry stage",
-       "IE op-ed (some accounts)"
+       "Cases pending at Bombay HC, incl. 9,454 civil suits",
+       "NJDG, via IE",
+       "Scale of pendency."
       ]
      ],
      "examples": [
       [
-       "The Godfather's Bonasera",
-       "Literary example of turning to extra-judicial power when courts fail"
+       "The Godfather (Puzo, 1969)",
+       "The undertaker turns to the mafia don when courts fail him; used by the author to explain why litigants seek other routes",
+       "",
+       "Essay or GS2 introduction on institutional failure."
       ],
       [
-       "Police officer refusing to act as a debt collector",
-       "Use for integrity and resisting improper influence",
-       "GS4"
+       "Officer pressed by an influential complainant",
+       "The author notes that not all police officers give in to such pressure",
+       "GS4",
+       "Case studies on integrity and impartiality."
       ]
      ],
      "pyqs": [
@@ -122,7 +120,23 @@ window.MM_DOSSIER={
        "Rule of law: 'law on the books' versus 'law in action' when police turn debt disputes into criminal cases."
       ]
      ],
-     "where": "The Ideas Page, page 13 (Abhinav Chandrachud)"
+     "where": "The Ideas Page, page 13 (Abhinav Chandrachud)",
+     "summary": "Civil cases in India can take decades. The Bombay High Court settled a suit filed in 1947 only this year. Writing on the Ideas page, Abhinav Chandrachud says that because courts are so slow, well-connected creditors go to the police instead, and the police turn simple money disputes into criminal cases to force a settlement.",
+     "evolution": [
+      [
+       "1872",
+       "The Privy Council observed that a litigant's difficulties in India begin when he has obtained a decree."
+      ],
+      [
+       "1947 to 2026",
+       "A Bombay High Court suit took 79 years before it was settled out of court."
+      ],
+      [
+       "Today",
+       "Bombay HC has 6,48,725 pending cases; practitioners estimate a suit there usually takes over 20 years."
+      ]
+     ],
+     "fmt": 2
     },
     {
      "id": "2026-10-27-07",
@@ -142,56 +156,62 @@ window.MM_DOSSIER={
      ],
      "context": "The Keralam Assembly passed the Senior Citizens (Care and Protection of Rights) Bill, 2026, the first state-level legal framework for elder welfare. It makes elder care rights-based, regulated and professional.",
      "ideas": [
-      "Demographic transition demands a rights-based approach: ageing societies need regulated care rather than charity, as the Chief Minister put it.",
-      "Ageing in place: the Bill recognises the right to live safely and independently at home, with institutional care as the last resort.",
-      "Dignity at the end of life: it recognises living wills on intensive care and life-sustaining interventions (link: 2026 GS2 Q12 on passive euthanasia).",
-      "Regulating the care economy: standards for care centres and hospices, certification of caregivers with police clearance, and fair pay and social security for caregivers.",
-      "Intersectionality: priority for vulnerable senior women, including widows, abandoned, disabled, survivors of violence and destitute women."
+      [
+       "Elder care is shifting from charity and family duty alone to legal rights backed by the state.",
+       "GS2 answers on welfare of vulnerable sections."
+      ],
+      [
+       "Ageing in place: care at home first, institutions as the last resort.",
+       "GS1 answers on demographic transition and changing family structure."
+      ],
+      [
+       "The care economy needs regulation: standards for care homes and certified, fairly paid caregivers.",
+       "GS2 health and social sector; GS3 jobs in the care economy."
+      ]
      ],
      "keywords": [
       [
-       "Living will / advance directive",
-       "A person's written choices on life-sustaining treatment"
+       "Living will",
+       "A person's written choices on life-sustaining treatment",
+       "GS2 answers on passive euthanasia and dignity."
       ],
       [
        "Ageing in place",
-       "Elderly people living independently at home"
+       "Older people living independently at home",
+       "GS1 ageing and family answers."
       ],
       [
-       "Geriatric care certification",
-       "Proposed framework to train and certify caregivers"
-      ],
-      [
-       "Cognisable and bailable offences",
-       "Police can arrest without warrant, but bail is a right"
+       "Cognisable and bailable",
+       "Police can arrest without warrant; bail is a right",
+       "Explaining how a welfare law is enforced."
       ]
      ],
      "data": [
       [
        "Up to 3 years + Rs 50,000",
-       "Penalty for property grabbing, cruelty or abandonment of a resident",
-       "IE"
-      ],
-      [
-       "Up to 2 years + Rs 25,000",
-       "Penalty for obstructing the Act's implementation",
-       "IE"
+       "Penalty for property grabbing, cruelty or abandonment of an elderly resident",
+       "IE p. 8",
+       "Shows the law has teeth."
       ],
       [
        "Rs 10,000",
        "Fine for failing to report suspected abuse",
-       "IE"
+       "IE p. 8",
+       "Duty to report as a protection tool."
       ]
      ],
      "examples": [
       [
        "Keralam Senior Citizens Bill, 2026",
-       "First state-level elder-rights law; compare with the central Maintenance and Welfare of Parents and Senior Citizens Act, 2007"
+       "First state-level elder-rights framework",
+       "",
+       "Best-practice example in GS2 answers."
       ],
       [
        "Caring for an elderly parent",
-       "Use for compassion, duty and family values",
-       "GS4"
+       "Compassion and duty within the family",
+       "GS4",
+       "GS4 answers on family as a source of values."
       ]
      ],
      "pyqs": [
@@ -208,7 +228,19 @@ window.MM_DOSSIER={
        "The Bill recognises living wills for senior citizens, linking to the passive-euthanasia debate."
       ]
      ],
-     "where": "Politics, page 8"
+     "where": "Politics, page 8",
+     "summary": "The Keralam Assembly passed the Senior Citizens (Care and Protection of Rights) Bill, 2026, India's first state-level legal framework for elder welfare. It recognises the right to live safely and independently at home, allows living wills, regulates care homes and caregivers, and sets penalties for abuse or abandonment.",
+     "evolution": [
+      [
+       "2007",
+       "Central Maintenance and Welfare of Parents and Senior Citizens Act focused on maintenance by children (background, not from the report)."
+      ],
+      [
+       "2026",
+       "Keralam moves to a rights-based law covering care standards, caregivers and living wills."
+      ]
+     ],
+     "fmt": 2
     },
     {
      "id": "2026-10-27-09",
@@ -226,49 +258,46 @@ window.MM_DOSSIER={
      ],
      "context": "Days after the ITBP chief spoke of face-offs at several locations in Arunachal Pradesh, China said it strictly abides by agreements and conducts normal patrols. India's MEA said friction occurs when Chinese forces depart from established patrolling patterns in border pockets.",
      "ideas": [
-      "Normalisation is fragile: both sides have rebuilt ties since Galwan (2020) through talks and summits, but patrolling friction keeps recurring.",
-      "Mechanisms matter: diplomatic and military channels, such as Corps Commander talks, are needed to avoid 'misunderstanding and miscalculation' along the LAC.",
-      "The 'three mutuals' (mutual respect, mutual sensitivity, mutual interest) remain India's framework for the relationship.",
-      "Border management and capacity: the ITBP's Shaurya commando teams handled the situation, which links to border infrastructure and policing."
+      [
+       "Relations are being rebuilt, but friction on the ground keeps returning; normalisation is fragile.",
+       "GS2 answers on India-China relations."
+      ],
+      [
+       "Talks at many levels (Corps Commander, diplomatic, leaders) are needed to stop small incidents from escalating.",
+       "GS2/GS3 answers on border management mechanisms."
+      ]
      ],
      "keywords": [
       [
-       "Line of Actual Control (LAC)",
-       "De facto India-China boundary"
-      ],
-      [
-       "Patrolling points / friction points",
-       "Areas where patrols of the two sides meet"
-      ],
-      [
-       "Corps Commander-level talks",
-       "Senior military dialogue mechanism"
+       "LAC",
+       "Line of Actual Control, the de facto India-China boundary",
+       "Any India-China answer."
       ],
       [
        "'Three mutuals'",
-       "India's formula: mutual respect, sensitivity and interest"
+       "Mutual respect, mutual sensitivity, mutual interest",
+       "Conclusion of India-China answers."
+      ],
+      [
+       "Corps Commander talks",
+       "Senior military dialogue on border issues",
+       "Answers on conflict management."
       ]
      ],
      "data": [
       [
-       "6 September 2026",
-       "Corps Commander talks at the Wacha-Damai border meeting point",
-       "IE"
-      ],
-      [
        "Over 4 years",
-       "Duration of the post-Galwan military stand-off",
-       "IE"
+       "Length of the military face-off after Galwan",
+       "IE p. 10",
+       "Shows how long normalisation took."
       ]
      ],
      "examples": [
       [
        "Taksing area, Arunachal Pradesh",
-       "Recent reports of tension; ITBP response"
-      ],
-      [
-       "Modi-Xi talks at BRICS summit, New Delhi",
-       "Emphasis on sensitivity to each other's core issues"
+       "Recent face-offs; ITBP's Shaurya commando teams handled the situation",
+       "",
+       "GS3 answers on border security."
       ]
      ],
      "pyqs": [
@@ -281,7 +310,31 @@ window.MM_DOSSIER={
        "Border management needs mechanisms like Corps Commander talks to avoid 'misunderstanding and miscalculation'."
       ]
      ],
-     "where": "Nation, page 10"
+     "where": "Nation, page 10",
+     "summary": "After the ITBP chief spoke of face-offs at several places in Arunachal Pradesh, including the Taksing area, China said it strictly follows agreements and carries out normal patrols. India's MEA said friction arises when Chinese forces depart from established patrolling patterns, and that talks should continue to avoid 'misunderstanding and miscalculation'.",
+     "evolution": [
+      [
+       "2020",
+       "Deadly Galwan clashes, followed by a military face-off that lasted over four years."
+      ],
+      [
+       "Last two years",
+       "Both sides took measures to rebuild relations."
+      ],
+      [
+       "6 Sep 2026",
+       "Corps Commander talks at the Wacha-Damai border meeting point."
+      ],
+      [
+       "Sep 2026",
+       "Modi and Xi met at the BRICS summit in New Delhi; Modi stressed the 'three mutuals'."
+      ],
+      [
+       "Oct 2026",
+       "Fresh face-offs reported in Arunachal."
+      ]
+     ],
+     "fmt": 2
     },
     {
      "id": "2026-10-27-11",
@@ -299,64 +352,62 @@ window.MM_DOSSIER={
      ],
      "context": "A former CEA member writes that India has moved from chronic power deficits to a solar-hour glut and night-time deficits. The answer, he argues, is storage, stronger transmission, demand-side management and markets that reward flexibility.",
      "ideas": [
-      "From deficit to glut: massive capacity growth cut peak and energy deficits to about 1-2%, but created a mismatch between solar hours and evening demand.",
-      "Double loss: backing down solar wastes clean power, and frequent ramping of coal plants shortens their life.",
-      "Storage economics: storage, especially pumped storage, is slow to build, and prices discovered through competitive bids are said to be non-remunerative, so projects may stall.",
-      "Reform history: the Electricity Act, 2003 unbundled SEBs and created regulators, but government interference in tariffs left discoms financially unsustainable.",
-      "Lesson from the 2010s: lending without power purchase agreements and fuel linkages stranded capacity and raised bank NPAs."
+      [
+       "Adding capacity is not enough; power must be available when people need it, at night as well as during the day.",
+       "GS3 answers on energy transition and energy security."
+      ],
+      [
+       "Storage is the missing piece, but pumped storage is slow to build and storage prices from bids are said to be unremunerative.",
+       "GS3 answers on infrastructure investment."
+      ],
+      [
+       "Wasted solar power and frequent ramping of coal plants are a double loss.",
+       "GS3 answers on efficient use of resources."
+      ]
      ],
      "keywords": [
       [
-       "Curtailment",
-       "Forcing generators to back down output the grid cannot absorb"
-      ],
-      [
-       "Minimum technical load",
-       "Lowest level a coal plant can safely run at"
-      ],
-      [
        "Pumped storage",
-       "Hydro storage using surplus power to pump water uphill"
+       "Hydro storage that pumps water uphill with surplus power",
+       "Solutions part of energy answers."
       ],
       [
        "Demand-side management",
-       "Shifting or reducing consumer demand to balance the grid"
+       "Shifting or cutting demand to balance the grid",
+       "Energy efficiency answers."
       ],
       [
-       "Unbundling",
-       "Separating generation, transmission and distribution"
+       "Curtailment",
+       "Forcing generators to cut output the grid cannot absorb",
+       "Explaining wasted solar power."
       ]
      ],
      "data": [
       [
        "~292 GW (53%)",
-       "Renewable capacity including large hydro, share of total capacity",
-       "IE op-ed"
+       "Renewable capacity incl. large hydro, share of total",
+       "IE, The Editorial Page",
+       "Progress on clean energy."
       ],
       [
        "~162 GW",
        "Solar capacity",
-       "IE op-ed"
-      ],
-      [
-       "1,00,000+ MW",
-       "Coal capacity added 2010-2020, about equal to 1947-2010",
-       "IE op-ed"
+       "IE, The Editorial Page",
+       "Scale of solar growth."
       ],
       [
        "40%",
-       "Share of Indians without electricity 30 years ago",
-       "World Bank, via IE op-ed"
+       "Indians without electricity 30 years ago",
+       "World Bank, via IE",
+       "Contrast: deficit to surplus."
       ]
      ],
      "examples": [
       [
-       "Electricity exchanges (2008)",
-       "Spot prices drove a capacity boom"
-      ],
-      [
-       "Solar glut and night deficits, 2026",
-       "Example for energy transition and grid-flexibility answers"
+       "Solar glut by day, deficit by night (2026)",
+       "Surplus during solar hours, shortage at night",
+       "",
+       "Illustration in energy-transition answers."
       ]
      ],
      "pyqs": [
@@ -373,7 +424,27 @@ window.MM_DOSSIER={
        "Cheap solar now forces coal plants to ramp up and down, shortening their life."
       ]
      ],
-     "where": "The Editorial Page, page 12 (Somit Dasgupta (teaser on page 1))"
+     "where": "The Editorial Page, page 12 (Somit Dasgupta (teaser on page 1))",
+     "summary": "A former Central Electricity Authority member writes that India has moved from chronic power shortages to surplus power during solar hours, but shortages at night. He argues for storage, a stronger transmission network, demand-side management and markets that reward flexibility.",
+     "evolution": [
+      [
+       "30 years ago",
+       "40% of Indians had no electricity (World Bank, cited in the article)."
+      ],
+      [
+       "2003",
+       "Electricity Act allowed state electricity boards to be split into separate companies."
+      ],
+      [
+       "Around 2008",
+       "Power exchanges in Delhi and Mumbai led to a capacity boom; over 1,00,000 MW of coal capacity added 2010-2020."
+      ],
+      [
+       "2026",
+       "About 292 GW renewables (53% of capacity), 162 GW solar; daytime glut, night deficit."
+      ]
+     ],
+     "fmt": 2
     },
     {
      "id": "2026-10-27-13",
@@ -391,36 +462,46 @@ window.MM_DOSSIER={
      ],
      "context": "The Ministry of Road Transport and Highways amended the Central Motor Vehicle Rules to allow flex-fuel vehicles to run on up to E100 (nearly pure ethanol). Ordinary petrol or E20 vehicles cannot use E100.",
      "ideas": [
-      "Import substitution: higher ethanol blends reduce dependence on imported crude, which is especially relevant amid West Asia supply shocks.",
-      "Emissions: ethanol has a lower fossil carbon footprint and can cut tailpipe carbon monoxide and some hydrocarbons, depending on feedstock and production pathway.",
-      "Ecosystem push: the rule paves the way for flex-fuel components, ethanol production infrastructure and vehicles.",
-      "Trade-offs to examine: feedstock competition with food and water use (sugarcane, grains), and vehicle compatibility debates seen with E20."
+      [
+       "Ethanol reduces dependence on imported crude oil.",
+       "GS3 answers on energy security."
+      ],
+      [
+       "Lower lifecycle emissions are possible, but they depend on the crop and the production process.",
+       "GS3 environment answers; give a balanced view."
+      ]
      ],
      "keywords": [
       [
        "Flex-fuel vehicle (FFV)",
-       "Vehicle that can run on varying petrol-ethanol blends"
+       "Vehicle built to run on different petrol-ethanol blends",
+       "Clean transport answers."
       ],
       [
-       "E20 / E85 / E100",
-       "Petrol with 20%, 85% or ~100% ethanol"
+       "E20 / E100",
+       "Petrol with 20% ethanol / nearly pure ethanol",
+       "Precise terms in biofuel answers."
       ],
       [
        "Lifecycle emissions",
-       "Emissions across production, transport and use"
+       "Emissions across production, transport and use",
+       "Balanced evaluation of biofuels."
       ]
      ],
      "data": [
       [
        "Up to E100",
-       "Blend now permitted for flex-fuel vehicles",
-       "MoRTH, via IE"
+       "Blend now allowed for flex-fuel vehicles",
+       "MoRTH, via IE p. 15",
+       "Latest policy step."
       ]
      ],
      "examples": [
       [
        "Fuel compatibility sticker",
-       "Motorists must check vehicle stickers and owner's manuals before choosing fuel"
+       "Motorists must check the vehicle sticker and manual before choosing fuel",
+       "",
+       "Consumer-awareness point in policy answers."
       ]
      ],
      "pyqs": [
@@ -439,7 +520,19 @@ window.MM_DOSSIER={
        "Related Explained: Centre clears way for flex-fuel up to E100",
        "https://indianexpress.com/article/explained/centre-flex-fuel-e100-why-what-changes-10937588/"
       ]
-     ]
+     ],
+     "summary": "The Road Transport Ministry amended the Central Motor Vehicle Rules to allow flex-fuel vehicles to run on up to E100, nearly pure ethanol. Ordinary petrol or E20 vehicles cannot use it. The Ministry says higher ethanol blends cut dependence on imported crude and can reduce some tailpipe emissions.",
+     "evolution": [
+      [
+       "Before Oct 2026",
+       "Ongoing debate over the use of E20 fuel (as the report notes)."
+      ],
+      [
+       "26 Oct 2026",
+       "E100 notified, but only for vehicles built as flex-fuel."
+      ]
+     ],
+     "fmt": 2
     },
     {
      "id": "2026-10-27-16",
@@ -458,45 +551,53 @@ window.MM_DOSSIER={
      ],
      "context": "The Statistics Ministry plans to add questions to its Annual Survey of Unincorporated Sector Enterprises (ASUSE) on 'women-specific constraints' such as restrictions on time and mobility and household responsibilities.",
      "ideas": [
-      "Data drives policy: measuring constraints on women entrepreneurs is the first step to designing targeted support.",
-      "Care burden: household responsibilities are a key barrier to raising the female Labour Force Participation Rate (link: 2023 GS3 Q12 on the care economy).",
-      "Youth gap is widest: the gender gap in participation is largest among 15-29 year olds."
+      [
+       "What is not measured is rarely fixed; better data is the first step to targeted support for women entrepreneurs.",
+       "GS1 women's issues; GS3 inclusive growth."
+      ],
+      [
+       "Household and care responsibilities hold back women's work; the gap is widest among the young.",
+       "GS3 answers on female labour force participation."
+      ]
      ],
      "keywords": [
       [
        "ASUSE",
-       "Annual Survey of Unincorporated Sector Enterprises"
+       "Annual Survey of Unincorporated Sector Enterprises",
+       "Data source to cite in informal-sector answers."
       ],
       [
        "Female LFPR",
-       "Share of women working or seeking work"
-      ],
-      [
-       "Women-specific constraints",
-       "Time, mobility and household-responsibility barriers"
+       "Share of women working or looking for work",
+       "Any women-and-work answer."
       ]
      ],
      "data": [
       [
        "27%",
-       "Informal enterprises headed by female proprietors",
-       "ASUSE 2025, via IE"
+       "Informal enterprises headed by women",
+       "ASUSE 2025, via IE p. 15",
+       "Women's presence in the informal economy."
       ],
       [
        "34.6% vs 77.4%",
-       "Female vs male LFPR, September",
-       "PLFS, via IE"
+       "Female vs male labour force participation, September",
+       "PLFS, via IE",
+       "The gender gap in work."
       ],
       [
        "21.5% vs 61.1%",
-       "Female vs male LFPR, ages 15-29",
-       "PLFS, via IE"
+       "Same, for ages 15-29",
+       "PLFS, via IE",
+       "The gap is widest among youth."
       ]
      ],
      "examples": [
       [
-       "ASUSE questionnaire revision",
-       "Comments invited till 15 November; example of gender-responsive statistics"
+       "Gender-responsive statistics",
+       "Adding women-specific questions to a national survey",
+       "",
+       "Good-governance example in GS1/GS3 answers."
       ]
      ],
      "pyqs": [
@@ -513,7 +614,23 @@ window.MM_DOSSIER={
        "27% of informal enterprises are headed by women; informality shapes their constraints."
       ]
      ],
-     "where": "Economy, page 15"
+     "where": "Economy, page 15",
+     "summary": "The Statistics Ministry plans to add questions on 'women-specific constraints', such as limits on time and mobility and household responsibilities, to its survey of informal businesses. About 27% of informal enterprises are headed by women. Comments on the new questionnaire are invited until 15 November.",
+     "evolution": [
+      [
+       "2021-22",
+       "First Annual Survey of Unincorporated Sector Enterprises (ASUSE)."
+      ],
+      [
+       "2025",
+       "Latest round: 27% of informal enterprises women-headed."
+      ],
+      [
+       "2026",
+       "Survey to measure women-specific constraints."
+      ]
+     ],
+     "fmt": 2
     },
     {
      "id": "2026-10-27-18",
@@ -533,76 +650,69 @@ window.MM_DOSSIER={
      ],
      "context": "The UN's Fund for Loss and Damage has allocated $21.6 million (about Rs 190 crore) to Nepal, nearly two months after devastating floods. It is the first time the Fund has earmarked a grant for a disaster-affected nation. The Indian Express argues the episode should become a case study for reforming the Fund.",
      "ideas": [
-      "Compensation, not charity: the Fund rests on the principle of climate compensation, which raises the uncomfortable question of responsibility for climate change.",
-      "Equity: Nepal accounts for barely 0.1% of global emissions yet is on the frontline of Himalayan climate risk.",
-      "Speed is justice: delays aggravate hardship, slow restoration of services and raise rebuilding costs, especially for poor countries with little fiscal room.",
-      "Precedent politics: developed countries agreed only after insisting Nepal's case is an exception, not a precedent for a permanent rapid-response mechanism.",
-      "Finance gap: pledges of $822 million cover only about a third of the claims pending; compensation will be on the agenda at COP31 in Antalya."
+      [
+       "Loss and damage is compensation, not charity, because it rests on responsibility for climate change.",
+       "GS3 climate answers; GS2 global governance."
+      ],
+      [
+       "Speed is justice: delays raise hardship and rebuilding costs, especially for poor countries.",
+       "GS3 disaster management; GS4 fairness."
+      ],
+      [
+       "Money is short: $822 million pledged, about a third of pending claims.",
+       "GS3 answers on climate finance."
+      ]
      ],
      "keywords": [
       [
        "Loss and damage",
-       "Climate impacts beyond what mitigation and adaptation can prevent"
+       "Climate impacts beyond what mitigation and adaptation can prevent",
+       "Climate-finance answers."
       ],
       [
-       "Fund for Loss and Damage",
-       "Created at COP27 (2022), operationalised a year later"
-      ],
-      [
-       "Climate reparations",
-       "Payments based on historical responsibility for emissions"
-      ],
-      [
-       "Rapid-response mechanism",
-       "Proposed fast window for disaster payouts"
+       "Climate justice",
+       "Fair sharing of climate burdens by responsibility and capacity",
+       "Ethics and climate answers."
       ]
      ],
      "data": [
       [
        "$21.6 million",
-       "Grant to Nepal (about Rs 190 crore)",
-       "IE editorial"
+       "First grant, to Nepal",
+       "IE, The Editorial Page",
+       "Latest development."
       ],
       [
        "~0.1%",
        "Nepal's share of global emissions",
-       "IE editorial"
+       "IE, The Editorial Page",
+       "The equity argument."
       ],
       [
        "1,400+",
-       "Deaths in the Bhotekoshi and Trishuli floods",
-       "IE editorial"
-      ],
-      [
-       "10%+",
-       "Share of Nepal's hydropower facilities lost",
-       "IE editorial"
-      ],
-      [
-       "$5 billion",
-       "Conservative estimate of Nepal's recovery needs",
-       "IE editorial"
-      ],
-      [
-       "119 countries",
-       "Claims awaiting approval when Nepal sought emergency funds",
-       "IE editorial"
+       "Lives lost in the floods",
+       "IE, The Editorial Page",
+       "Scale of disaster."
       ],
       [
        "$822 million",
-       "Pledges to the Fund, about a third of pending claims",
-       "IE editorial"
+       "Pledges to the Fund, about a third of claims",
+       "IE, The Editorial Page",
+       "The finance gap."
       ]
      ],
      "examples": [
       [
        "Ice-and-rock avalanche, Bhotekoshi-Trishuli",
-       "Example of cascading Himalayan hazards"
+       "Triggered flash floods; Nepal lost at least 10% of its hydropower facilities",
+       "",
+       "Himalayan cascading hazards."
       ],
       [
-       "Nepal's application invoking climate justice",
-       "Use for fairness and intergenerational equity",
-       "GS4"
+       "Nepal's climate-justice plea",
+       "Low emitter, high impact",
+       "GS4",
+       "Fairness and intergenerational equity."
       ]
      ],
      "pyqs": [
@@ -625,7 +735,27 @@ window.MM_DOSSIER={
        "Related Explained (Telegram): Why Rs 190 crore payout to Nepal matters",
        "https://t.me/indianexpress_explained/16643"
       ]
-     ]
+     ],
+     "summary": "The UN's Fund for Loss and Damage gave Nepal $21.6 million after devastating floods, the first time it has earmarked a grant for a disaster-hit country. Nepal had invoked climate justice: it produces barely 0.1% of global emissions. The Indian Express editorial says payouts must come much faster and the Fund needs reform.",
+     "evolution": [
+      [
+       "2022",
+       "Fund for Loss and Damage created at COP27, after a nearly three-decade campaign by vulnerable nations."
+      ],
+      [
+       "2023",
+       "Fund operationalised."
+      ],
+      [
+       "2026",
+       "First grant earmarked, to Nepal; developed countries insisted it is an exception, not a precedent."
+      ],
+      [
+       "9 Nov 2026",
+       "COP31 begins in Antalya, Turkey, with compensation on the agenda."
+      ]
+     ],
+     "fmt": 2
     },
     {
      "id": "2026-10-27-19",
@@ -643,60 +773,63 @@ window.MM_DOSSIER={
      ],
      "context": "Punjab has recorded 684 farm fires this season, 457 of them (69%) in Tarn Taran and Amritsar. Early harvesting of short-duration paddy in the Majha region lets farmers fit in a third crop of peas or potatoes before wheat, which leaves little time to clear fields without burning.",
      "ideas": [
-      "The problem is the crop calendar, not just machines: an Agriculture Department official says stubble-management machinery is available, but farmers squeezing in a third crop won't lose even a day.",
-      "Cost and convenience: some farmers see hiring machinery as costlier than burning, so subsidies and timing matter as much as availability.",
-      "Behaviour change: farmers need awareness of the health, soil-fertility and pollution costs of burning.",
-      "Progress is visible: fires so far are below last year's 743 and far below 2024's 1,857 for the same period.",
-      "Diversification as a long-term fix: moving away from the paddy-wheat cycle reduces residue load (see the Haryana sweet-corn example)."
+      [
+       "The real cause here is the crop calendar, not only a lack of machines.",
+       "GS3 answers on stubble burning and air pollution."
+      ],
+      [
+       "Fewer fires each year shows progress, but support and awareness matter as much as penalties.",
+       "GS3 answers on policy design."
+      ],
+      [
+       "Moving away from the paddy-wheat cycle is the long-term fix (see Manauli's sweet-corn shift).",
+       "GS3 answers on crop diversification."
+      ]
      ],
      "keywords": [
       [
-       "Crop residue management (CRM)",
-       "Machines and methods to handle straw without burning"
+       "Crop residue management",
+       "Machines and methods to handle straw without burning",
+       "Solutions in stubble answers."
       ],
       [
-       "Short-duration paddy (Pusa 1509)",
-       "Variety that frees fields early"
-      ],
-      [
-       "Majha, Doaba, Malwa",
-       "Punjab's three regions"
-      ],
-      [
-       "Satellite monitoring of fires",
-       "Tracking from 15 September each year"
+       "Short-duration paddy",
+       "Varieties like Pusa 1509 that free fields early",
+       "Explaining the timing problem."
       ]
      ],
      "data": [
       [
-       "684 / 457 (69%)",
-       "Farm fires this season / share in Tarn Taran and Amritsar",
-       "IE"
+       "684 (69% in two districts)",
+       "Farm fires this season; Tarn Taran and Amritsar",
+       "IE p. 6",
+       "Current picture."
       ],
       [
-       "743 and 1,857",
-       "Fires in the same period last year and in 2024",
-       "IE"
+       "1,857 → 743 → 684",
+       "Fires in the same period, 2024 → 2025 → 2026",
+       "IE p. 6",
+       "Trend line for progress."
       ],
       [
        "1.25 lakh",
        "Operational residue-management machines in Punjab",
-       "IE"
-      ],
-      [
-       "60 days",
-       "Duration of the green-pea crop fitted between paddy and wheat",
-       "IE"
+       "IE p. 6",
+       "Shows machines alone are not enough."
       ]
      ],
      "examples": [
       [
-       "Sanjha Mittar helpline (+91 79737 27514)",
-       "Clean Air Punjab initiative guiding farmers to alternatives"
+       "Manauli, Haryana's 'sweet corn village'",
+       "About 70% of 2,000 acres moved from paddy to sweet corn and vegetables; farmers formed an FPO",
+       "",
+       "Crop diversification success story (IE p. 4)."
       ],
       [
-       "Manauli, Sonipat: 'sweet corn village' (IE p. 4)",
-       "70% of 2,000 acres moved from paddy to sweet corn and vegetables; FPO and e-commerce tie-ups; ~Rs 50,000 profit per acre"
+       "Sanjha Mittar Farmer Support Centre",
+       "New helpline guiding farmers to alternatives",
+       "",
+       "Example of persuasion over punishment."
       ]
      ],
      "pyqs": [
@@ -713,7 +846,23 @@ window.MM_DOSSIER={
        "Farm fires and clean air: 684 fires so far against 743 last year and 1,857 in 2024."
       ]
      ],
-     "where": "Region, page 6 (Express special)"
+     "where": "Region, page 6 (Express special)",
+     "summary": "Punjab has recorded 684 farm fires this season, 69% of them in Tarn Taran and Amritsar. Farmers in this Majha region harvest short-duration paddy early and squeeze in a third crop of peas or potatoes before wheat, leaving little time to clear fields without burning. An official says machines are available; the challenge is time and awareness.",
+     "evolution": [
+      [
+       "2024",
+       "1,857 fires by this point in the season."
+      ],
+      [
+       "2025",
+       "743 fires in the same period."
+      ],
+      [
+       "2026",
+       "684 fires so far, but an early spike in Majha."
+      ]
+     ],
+     "fmt": 2
     },
     {
      "id": "2026-10-27-20",
@@ -730,55 +879,53 @@ window.MM_DOSSIER={
      ],
      "context": "Delhi is considering a Deposit Refund Scheme (DRS) in which consumers pay an extra Re 1 or Rs 2 for a plastic bottle and get it back on return, possibly using QR codes and starting with tourist spots.",
      "ideas": [
-      "Circular economy through price signals: a refundable deposit turns 'use and throw' into 'use, return and recover'.",
-      "Proven models: Uttarakhand's Kedarnath pilot raised return rates from about 20-22% to nearly 90%.",
-      "Behaviour change needs institutions: schools, colleges and RWAs are to be involved in awareness.",
-      "Complements the 2022 single-use plastic ban by tackling items that remain legal."
+      [
+       "A small refundable deposit changes behaviour better than appeals alone.",
+       "GS3 answers on solid waste management."
+      ],
+      [
+       "It moves people from 'use and throw' to 'use, return and recover', a circular economy.",
+       "GS3 environment; essay on sustainability."
+      ]
      ],
      "keywords": [
       [
-       "Deposit Refund Scheme (DRS)",
-       "Refundable deposit on containers to encourage return"
-      ],
-      [
-       "Extended Producer Responsibility (EPR)",
-       "Producers' responsibility for post-consumer waste"
+       "Deposit refund scheme",
+       "Refundable deposit on containers to encourage return",
+       "Waste-management solutions."
       ],
       [
        "Circular economy",
-       "Reusing and recycling materials to cut waste"
+       "Reusing and recycling materials to cut waste",
+       "Sustainability answers."
       ]
      ],
      "data": [
       [
-       "~1,500 tonnes/day",
+       "~1,500 tonnes a day",
        "Plastic waste generated in Delhi",
-       "Delhi govt report, via IE"
+       "Delhi govt report, via IE p. 11",
+       "Scale of the problem."
       ],
       [
        "19%",
        "Share of Delhi's plastic waste left unprocessed",
-       "IE"
+       "IE p. 11",
+       "The processing gap."
       ],
       [
        "~20-22% → ~90%",
-       "Bottle return rate in Uttarakhand after DRS",
-       "Uttarakhand official, via IE"
-      ],
-      [
-       "Rs 10 / Rs 5",
-       "Deposit per bottle in Uttarakhand / Goa",
-       "IE"
+       "Bottle return rate in Uttarakhand after the scheme",
+       "Uttarakhand official, via IE",
+       "Proof that it works."
       ]
      ],
      "examples": [
       [
-       "Kedarnath DRS pilot (2022)",
-       "Won a Digital India Award; expanded across Uttarakhand"
-      ],
-      [
-       "Singapore, Hong Kong, UK",
-       "International examples of deposit-return systems"
+       "Kedarnath deposit refund pilot (2022)",
+       "Won a Digital India Award; expanded across Uttarakhand",
+       "",
+       "Best practice from India."
       ]
      ],
      "pyqs": [
@@ -791,7 +938,23 @@ window.MM_DOSSIER={
        "Deposit-refund schemes as a collection model: Uttarakhand's returns rose from about 20% to nearly 90%."
       ]
      ],
-     "where": "Nation, page 11 (Express special)"
+     "where": "Nation, page 11 (Express special)",
+     "summary": "Delhi is considering a deposit refund scheme: buyers would pay Re 1 or Rs 2 extra for a plastic bottle and get it back on returning it. It would start at tourist spots, possibly using QR codes. The idea is borrowed from Uttarakhand and Goa, where similar schemes already run.",
+     "evolution": [
+      [
+       "2022",
+       "Single-use plastic items banned across India."
+      ],
+      [
+       "2022",
+       "Uttarakhand's pilot at Kedarnath; returns rose from about 20-22% to nearly 90%."
+      ],
+      [
+       "Now",
+       "Goa runs a Rs 5 deposit; Delhi plans its own scheme."
+      ]
+     ],
+     "fmt": 2
     },
     {
      "id": "2026-10-27-21",
@@ -807,45 +970,47 @@ window.MM_DOSSIER={
      ],
      "context": "With the IMD forecasting landfall of Cyclone Arnab on the Andhra Pradesh coast on 28 October, Andhra Pradesh began evacuating vulnerable people, and Odisha banned sea fishing and tourist entry in six districts.",
      "ideas": [
-      "Targeted, people-first preparedness: moving pregnant women to health facilities before landfall reflects vulnerability-based planning.",
-      "Layered response: NDRF, SDRF, closure of schools, fishing bans and ministers deputed to districts show coordinated governance.",
-      "Odisha's model of zero-casualty planning relies on early warning, evacuation and community readiness."
+      [
+       "Good preparedness protects the most vulnerable first, before landfall.",
+       "GS3 answers on disaster management."
+      ],
+      [
+       "Many layers act together: early warning, NDRF and SDRF teams, school closures, fishing bans and ministers on the ground.",
+       "GS3 answers on coordinated disaster response."
+      ]
      ],
      "keywords": [
       [
        "Landfall",
-       "When a cyclone's centre crosses the coast"
-      ],
-      [
-       "Severe / very severe cyclonic storm",
-       "IMD intensity categories"
+       "When a cyclone's centre crosses the coast",
+       "Cyclone answers."
       ],
       [
        "NDRF / SDRF",
-       "National and State Disaster Response Forces"
+       "National and State Disaster Response Forces",
+       "Institutional framework in disaster answers."
       ]
      ],
      "data": [
       [
        "4,711",
-       "Pregnant women in vulnerable areas moved to PHCs, CHCs and hospitals",
-       "AP officials, via IE"
+       "Pregnant women moved to health centres before landfall",
+       "AP officials, via IE p. 11",
+       "Vulnerability-based planning."
       ],
       [
        "7 NDRF + 8 SDRF",
        "Teams deployed in Andhra Pradesh",
-       "IE"
-      ],
-      [
-       "15 kmph",
-       "Speed of the system's movement over the previous six hours",
-       "IMD, via IE"
+       "IE p. 11",
+       "Scale of response."
       ]
      ],
      "examples": [
       [
-       "Evacuation of pregnant women, AP",
-       "Example of gender-sensitive disaster response"
+       "Evacuating pregnant women ahead of a cyclone",
+       "Andhra Pradesh, October 2026",
+       "GS4",
+       "Compassion in administration; gender-sensitive disaster response."
       ]
      ],
      "pyqs": [
@@ -862,7 +1027,10 @@ window.MM_DOSSIER={
        "IMD forecasts and warnings driving early action in Andhra Pradesh and Odisha."
       ]
      ],
-     "where": "Nation, page 11"
+     "where": "Nation, page 11",
+     "summary": "With Cyclone Arnab expected to make landfall on the Andhra Pradesh coast on 28 October, Andhra moved 4,711 pregnant women from vulnerable areas to health centres and hospitals and closed schools in the affected districts. Odisha's Chief Minister sent eight ministers to districts to oversee preparedness and banned sea fishing and tourist entry in six districts.",
+     "evolution": [],
+     "fmt": 2
     },
     {
      "id": "2026-10-27-22",
@@ -882,60 +1050,53 @@ window.MM_DOSSIER={
      ],
      "context": "The World Meteorological Organization has warned that the intense 2026 El Niño will peak around year-end and affect weather well into 2027. It has already weakened India's southwest monsoon.",
      "ideas": [
-      "Teleconnections: Pacific warming suppresses the Indian monsoon, raises temperatures and causes heatwaves.",
-      "Food and water security risks, plus higher fertiliser and fuel prices, are likely into 2027.",
-      "Record intensity: anomalies may exceed anything seen in four decades of ocean monitoring.",
-      "Compound crises: El Niño adds strain on global resources already stretched by conflicts such as the Strait of Hormuz crisis."
+      [
+       "El Niño weakens the Indian monsoon, causing drought and heatwaves.",
+       "GS1 answers on climatology; GS3 drought management."
+      ],
+      [
+       "Effects into 2027 threaten food and water security and could push up fertiliser and fuel prices.",
+       "GS3 food security answers."
+      ]
      ],
      "keywords": [
       [
-       "ENSO",
-       "El Niño Southern Oscillation: warm, neutral and cool (La Niña) phases"
-      ],
-      [
-       "Niño 3.4 region",
-       "Pacific region used to declare ENSO phases"
-      ],
-      [
-       "RONI",
-       "Relative Oceanic Niño Index; above +0.5°C over three months signals El Niño"
+       "El Niño (ENSO)",
+       "Warming of the central-eastern Pacific that affects global weather",
+       "GS1 climatology."
       ],
       [
        "Long period average (LPA)",
-       "Benchmark for monsoon rainfall"
+       "Benchmark for normal monsoon rainfall",
+       "Monsoon performance answers."
       ]
      ],
      "data": [
       [
        "87% of LPA",
        "India's 2026 southwest monsoon, fourth driest since 2001",
-       "IE Explained"
-      ],
-      [
-       "~70%",
-       "Share of annual rainfall from the southwest monsoon",
-       "IE Explained"
-      ],
-      [
-       "2-2.8°C",
-       "July-September RONI warming",
-       "IE Explained"
+       "IE p. 16",
+       "Impact on India."
       ],
       [
        "3.8°C",
-       "Expected anomaly at El Niño's epicentre, never recorded before",
-       "WMO, via IE"
+       "Expected warming at El Niño's centre, never recorded before",
+       "WMO, via IE p. 16",
+       "Intensity of this event."
       ],
       [
-       "2.3°C",
-       "Peak of the 2014-15 El Niño",
-       "NOAA, via IE"
+       "~70%",
+       "Share of India's annual rain from the southwest monsoon",
+       "IE p. 16",
+       "Why the monsoon matters."
       ]
      ],
      "examples": [
       [
-       "WMO warning of 21 October 2026",
-       "Use in answers on climate variability and food security"
+       "WMO warning, 21 October 2026",
+       "Effects to last well into 2027",
+       "",
+       "Recent example in climate answers."
       ]
      ],
      "pyqs": [
@@ -952,7 +1113,27 @@ window.MM_DOSSIER={
        "Effects into 2027 on food and water security."
       ]
      ],
-     "where": "Explained, page 16"
+     "where": "Explained, page 16",
+     "summary": "The World Meteorological Organization warned on 21 October that the intense 2026 El Niño will peak around year-end and affect weather well into 2027. It has already weakened India's monsoon, which ended at 87% of the long period average. The Pacific is expected to be 3.8°C warmer than normal at El Niño's centre, a level never recorded before.",
+     "evolution": [
+      [
+       "2014-15",
+       "El Niño peaked at 2.3°C (NOAA data, cited in the report)."
+      ],
+      [
+       "June 2026",
+       "Current El Niño emerged and intensified rapidly."
+      ],
+      [
+       "2026 monsoon",
+       "Ended at 87% of LPA, the fourth driest since 2001."
+      ],
+      [
+       "Into 2027",
+       "WMO expects effects to continue."
+      ]
+     ],
+     "fmt": 2
     },
     {
      "id": "2026-10-27-26",
@@ -969,55 +1150,47 @@ window.MM_DOSSIER={
      ],
      "context": "Microsoft announced a 'Voluntary Exit Offer' for eligible employees in the US, Canada, the UK and India, at its experience level 70 or below. About 60,000 people, roughly a quarter of its 223,000 workforce, are eligible. Reports link the move to the company's effort to balance a costly AI infrastructure build-out with capital efficiency.",
      "ideas": [
-      "Technology and jobs: big firms are reshaping their workforce as spending shifts to AI infrastructure, a live example of technology-driven restructuring (editor's framing).",
-      "A softer tool than layoffs: a voluntary exit with standard severance lets employees choose, but it still shrinks the workforce; this is the company's second such programme in six months.",
-      "India angle: India is one of only four countries covered, a reminder that India's large tech workforce is exposed to decisions taken by global firms (editor's framing).",
-      "Policy response to discuss: reskilling for AI-era roles and social security for white-collar and tech workers (editor's framing)."
+      [
+       "Spending is shifting to AI, and big firms are reshaping their workforce around it.",
+       "GS3 answers on technology and employment."
+      ],
+      [
+       "Even voluntary exits shrink jobs; workers need reskilling and social security for the AI era (editor's view).",
+       "GS3 answers on employment policy and skilling."
+      ]
      ],
      "keywords": [
       [
-       "Voluntary Exit Offer / VRS",
-       "Employer offers a package to employees who choose to leave"
-      ],
-      [
-       "Severance",
-       "Payment given to an employee on leaving the job"
+       "Voluntary exit / VRS",
+       "A package offered to staff who choose to leave",
+       "Answers on restructuring."
       ],
       [
        "Structural unemployment",
-       "Job loss caused by changes in technology or the structure of the economy, not by a downturn"
-      ],
-      [
-       "Reskilling",
-       "Training workers for new kinds of work"
+       "Job loss from changes in technology or the economy",
+       "GS3 unemployment answers."
       ]
      ],
      "data": [
       [
        "~60,000",
-       "Employees eligible for the Voluntary Exit Offer",
-       "CNBC (person familiar); company to GeekWire"
+       "Employees eligible for the offer",
+       "CNBC; company to GeekWire",
+       "Scale of restructuring."
       ],
       [
-       "About a quarter (27%)",
+       "About a quarter",
        "Share of Microsoft's 223,000 workforce eligible",
-       "CNBC, GeekWire"
-      ],
-      [
-       "Early December / 31 December",
-       "Decision deadline / exit date for those who accept",
-       "CNBC (person familiar)"
-      ],
-      [
-       "4 countries",
-       "US, Canada, UK and India",
-       "Microsoft memo, via CNBC"
+       "CNBC, GeekWire",
+       "Size relative to the company."
       ]
      ],
      "examples": [
       [
-       "Microsoft's spring 2026 voluntary retirement programme",
-       "Its first-ever such programme, six months earlier, for long-serving US staff (GeekWire)"
+       "Microsoft's Voluntary Exit Offer, Oct 2026",
+       "Covers staff in India among four countries",
+       "",
+       "Example of AI-era workforce change."
       ]
      ],
      "paper": "Indian Express Explained (online, shared by you)",
@@ -1049,7 +1222,19 @@ window.MM_DOSSIER={
        "GeekWire report",
        "https://www.geekwire.com/2026/microsoft-makes-new-voluntary-exit-offer-to-more-than-a-quarter-of-its-workforce-including-some-execs/"
       ]
-     ]
+     ],
+     "summary": "Microsoft has offered a voluntary exit to about 60,000 employees, roughly a quarter of its workforce, in the US, Canada, the UK and India. Those who accept leave on 31 December with standard severance. Reports link the move to the company's costly spending on AI infrastructure.",
+     "evolution": [
+      [
+       "Spring 2026",
+       "Microsoft's first-ever voluntary retirement programme for long-serving US staff (GeekWire)."
+      ],
+      [
+       "26 Oct 2026",
+       "Wider Voluntary Exit Offer covering four countries including India."
+      ]
+     ],
+     "fmt": 2
     }
    ],
    "ethics": [

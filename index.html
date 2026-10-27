@@ -91,6 +91,25 @@ nav.main .n{font-family:var(--mono);font-size:.7rem;background:var(--navy);color
 .where svg{width:16px;height:16px;flex:none;margin-top:2px;color:var(--navy)}
 .where b{color:var(--navy)}
 .where a{color:var(--saffron);font-weight:600}
+.news{margin-top:10px;background:#FFFDF8;border-left:4px solid var(--navy);border-radius:0 10px 10px 0;padding:10px 14px}
+.news p{margin:4px 0 0;font-size:1rem;line-height:1.6;color:#1F2937}
+.lbl2{font-family:var(--mono);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--saffron);font-weight:700}
+.evo{margin-top:10px;background:#F8FAFC;border:1px solid var(--line);border-radius:10px;padding:10px 14px}
+.evo ol{list-style:none;margin:8px 0 0;padding:0 0 0 14px;border-left:2px solid #F8BF6B;display:grid;gap:6px}
+.evo li{position:relative;display:grid;grid-template-columns:minmax(80px,max-content) 1fr;gap:10px;font-size:.88rem}
+.evo li::before{content:'';position:absolute;left:-20px;top:6px;width:10px;height:10px;border-radius:50%;background:var(--saffron);border:2px solid #fff}
+.evo li b{color:var(--navy);font-family:var(--mono);font-size:.76rem;padding-top:2px}
+@media (max-width:600px){.evo li{grid-template-columns:1fr;gap:0}}
+.use{display:block;margin-top:3px;font-size:.8rem;color:#6B4E16;background:#FFF8EC;border-radius:6px;padding:3px 8px}
+.card .use b{color:#B45309;font-weight:700;font-family:Inter,system-ui,sans-serif;font-size:.8rem;margin:0;display:inline}
+.card .use{font-family:Inter,system-ui,sans-serif;font-size:.8rem;font-weight:400}
+.fig .use{margin-top:5px}
+.il{margin:0;padding-left:20px;display:grid;gap:10px}
+.il li span:first-child{font-size:.93rem}
+.kwi{padding:7px 0;border-top:1px dashed var(--line)}
+.kwi:first-of-type{border-top:0}
+.kwi b{color:#92400E;margin-right:6px}
+.kwi>span{font-size:.88rem;color:#374151}
 /* essay column */
 .notes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
 .note{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px 18px;position:relative;box-shadow:var(--shadow)}
@@ -486,22 +505,32 @@ function askedFor(it){
   (it.themes||[]).forEach(k=>{const t=TH[k];if(!t)return;t.q.forEach(id=>{if(!seen.has(id)){seen.add(id);out.push(id)}})});
   out.sort((a,b)=>MM.pyq[b][1]-MM.pyq[a][1]);return out;
 }
+function norm(it){
+  const I=(it.ideas||[]).map(x=>Array.isArray(x)?x:[x,'']);
+  const K=(it.keywords||[]).map(x=>[x[0],x[1]||'',x[2]||'']);
+  const Dt=(it.data||[]).map(x=>[x[0],x[1]||'',x[2]||'',x[3]||'']);
+  const E=(it.examples||[]).map(x=>[x[0],x[1]||'',x[2]||'',x[3]||'']);
+  return {I,K,Dt,E};
+}
+const useL=u=>u?`<span class="use"><b>Use in:</b> ${esc(u)}</span>`:'';
 function cardHTML(it){
   const asked=askedFor(it).slice(0,4);
-  const ideas=(it.ideas||[]),kw=(it.keywords||[]),data=(it.data||[]),ex=(it.examples||[]);
+  const {I,K,Dt,E}=norm(it);
   const q=(k,body)=>`<div class="q ${k}"><h4><i>${LENS[k][0]}</i>${LENS[k][1]}</h4>${body||'<span class="code">—</span>'}</div>`;
+  const ev=it.evolution||[];
   return `<article class="card" id="item-${esc(it.id)}">
   <div class="hd">
     <div class="tags">${gsChips(it.gs)}<span class="path">${esc(it.syllabus||'')}</span></div>
     <h3>${esc(it.title)}</h3>
-    ${it.context?`<p class="ctx">${esc(it.context)}</p>`:''}
+    ${it.summary?`<div class="news"><span class="lbl2">The news</span><p>${esc(it.summary)}</p></div>`:(it.context?`<p class="ctx">${esc(it.context)}</p>`:'')}
+    ${ev.length?`<div class="evo"><span class="lbl2">How it has evolved</span><ol>${ev.map(e=>`<li><b>${esc(e[0])}</b><span>${esc(e[1])}</span></li>`).join('')}</ol></div>`:''}
     <div class="where">${IC.dossier}<span><b>Find it:</b> ${esc(it.paper||it._ed.paper||'')}${it.where?' · <b>'+esc(it.where)+'</b>':(it.section?' · '+esc(it.section):'')+(it.page?' · '+esc(it.page):'')} · ${esc(fmtDate(it._ed.date,{day:'numeric',month:'short',year:'numeric'}))}${(it.links||[]).map(l=>` · <a href="${esc(l[1])}" target="_blank" rel="noopener">${esc(l[0])} ↗</a>`).join('')}</span></div>
   </div>
   <div class="matrix">
-    ${q('ideas',ideas.length?`<ul>${ideas.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:'')}
-    ${q('kw',kw.length?`<div class="kwl">${kw.map((x,i)=>`<button class="kwc" aria-expanded="false" data-def="${esc(x[1]||'')}">${esc(x[0])}</button>`).join('')}</div><div class="kwdef"></div>`:'')}
-    ${q('data',data.map(x=>`<div class="fig"><b>${esc(x[0])}</b><span>${esc(x[1]||'')}${x[2]?`<small>${esc(x[2])}</small>`:''}</span></div>`).join(''))}
-    ${q('ex',ex.map(x=>`<div class="exi"><b>${esc(x[0])}</b>${x[2]==='GS4'?'<span class="gs GS4">GS4 Ethics</span>':''}${x[1]?`<br><span>${esc(x[1])}</span>`:''}</div>`).join(''))}
+    ${q('ideas',I.length?`<ol class="il">${I.map(x=>`<li><span>${esc(x[0])}</span>${useL(x[1])}</li>`).join('')}</ol>`:'')}
+    ${q('kw',K.map(x=>`<div class="kwi"><b>${esc(x[0])}</b>${x[1]?`<span>${esc(x[1])}</span>`:''}${useL(x[2])}</div>`).join(''))}
+    ${q('data',Dt.map(x=>`<div class="fig"><b>${esc(x[0])}</b><span>${esc(x[1])}${x[2]?`<small>${esc(x[2])}</small>`:''}${useL(x[3])}</span></div>`).join(''))}
+    ${q('ex',E.map(x=>`<div class="exi"><b>${esc(x[0])}</b>${x[2]==='GS4'?'<span class="gs GS4">GS4 Ethics</span>':''}${x[1]?`<br><span>${esc(x[1])}</span>`:''}${useL(x[3])}</div>`).join(''))}
   </div>
   <div class="ft">
     <div class="tlinks">${(it.themes||[]).filter(k=>TH[k]).map(k=>`<a class="tlink" href="#theme-${k}">${esc(TH[k].n)}</a>`).join('')}</div>
@@ -509,17 +538,22 @@ function cardHTML(it){
     <button class="btn" data-copy="${esc(it.id)}">${IC.copy}Copy notes</button>
   </div>
   ${it.sources?`<div class="srcn"><b>Sources:</b> ${esc(it.sources)}</div>`:''}
-  ${(it.pyqs&&it.pyqs.length)?`<div class="wfit"><h5>Asked before in Mains · where this news fits</h5><ol>${it.pyqs.filter(p=>MM.pyq[p[0]]).map(p=>`<li><div class="pq"><span class="code">${code(p[0])}</span><span>${esc(MM.pyq[p[0]][3])}</span></div><div class="pu"><b>Use it:</b> ${esc(p[1])}</div></li>`).join('')}</ol><div class="nt">Question topics are summarised. 'Use it' lines are the editor's suggestions.</div></div>`:''}
-  ${(!(it.pyqs&&it.pyqs.length)&&asked.length)?`<details class="asked"><summary>Asked before in Mains: ${asked.length===4?'4+ related questions':asked.length+' related question'+(asked.length>1?'s':'')}</summary><ul>${asked.map(id=>`<li><span class="code">${code(id)}</span><span>${esc(MM.pyq[id][3])}</span></li>`).join('')}</ul></details>`:''}
+  ${(it.pyqs&&it.pyqs.length)?`<div class="wfit"><h5>Asked before in Mains · where this news fits</h5><ol>${it.pyqs.filter(p=>MM.pyq[p[0]]).map(p=>`<li><div class="pq"><span class="code">${code(p[0])}</span><span>${esc(qtext(p[0]))}</span></div><div class="pu"><b>Use it:</b> ${esc(p[1])}</div></li>`).join('')}</ol><div class="nt">${PYQNOTE}</div></div>`:''}
+  ${(!(it.pyqs&&it.pyqs.length)&&asked.length)?`<details class="asked"><summary>Asked before in Mains: ${asked.length===4?'4+ related questions':asked.length+' related question'+(asked.length>1?'s':'')}</summary><ul>${asked.map(id=>`<li><span class="code">${code(id)}</span><span>${esc(qtext(id))}</span></li>`).join('')}</ul></details>`:''}
 </article>`;
 }
+function qtext(id){const p=MM.pyq[id];return p?(p[4]||p[3]):''}
+const PYQNOTE="Questions are given in UPSC's exact wording where verified; 'Use it' lines are the editor's suggestions.";
 function notesText(it){
   const L=[];L.push(it.title.toUpperCase());L.push(`${(it.gs||[]).join(', ')} | ${it.syllabus||''}`);L.push(`${it.paper||it._ed.paper||''}${it.where?', '+it.where:''}, ${fmtDate(it._ed.date)}`);
-  if(it.ideas&&it.ideas.length){L.push('\nIDEAS');it.ideas.forEach(x=>L.push('• '+x))}
-  if(it.keywords&&it.keywords.length){L.push('\nKEYWORDS');it.keywords.forEach(x=>L.push('• '+x[0]+(x[1]?' — '+x[1]:'')))}
-  if(it.data&&it.data.length){L.push('\nDATA');it.data.forEach(x=>L.push('• '+x[0]+' — '+(x[1]||'')+(x[2]?' ('+x[2]+')':'')))}
-  if(it.pyqs&&it.pyqs.length){L.push('\nASKED BEFORE IN MAINS');it.pyqs.forEach(p=>{if(MM.pyq[p[0]])L.push('• '+code(p[0])+' '+MM.pyq[p[0]][3]+' — use: '+p[1])})}
-  if(it.examples&&it.examples.length){L.push('\nEXAMPLES');it.examples.forEach(x=>L.push('• '+x[0]+(x[2]==='GS4'?' [GS4]':'')+(x[1]?' — '+x[1]:'')))}
+  const {I,K,Dt,E}=norm(it);const U=u=>u?' [Use in: '+u+']':'';
+  if(it.summary)L.push('\nTHE NEWS\n'+it.summary);
+  if((it.evolution||[]).length){L.push('\nHOW IT HAS EVOLVED');it.evolution.forEach(e=>L.push('• '+e[0]+': '+e[1]))}
+  if(I.length){L.push('\nIDEAS');I.forEach(x=>L.push('• '+x[0]+U(x[1])))}
+  if(K.length){L.push('\nKEYWORDS');K.forEach(x=>L.push('• '+x[0]+(x[1]?' — '+x[1]:'')+U(x[2])))}
+  if(Dt.length){L.push('\nDATA');Dt.forEach(x=>L.push('• '+x[0]+' — '+x[1]+(x[2]?' ('+x[2]+')':'')+U(x[3])))}
+  if(E.length){L.push('\nEXAMPLES');E.forEach(x=>L.push('• '+x[0]+(x[2]==='GS4'?' [GS4]':'')+(x[1]?' — '+x[1]:'')+U(x[3])))}
+  if(it.pyqs&&it.pyqs.length){L.push('\nASKED BEFORE IN MAINS');it.pyqs.forEach(p=>{if(MM.pyq[p[0]])L.push('• '+code(p[0])+': '+qtext(p[0])+'\n  Use it: '+p[1])})}
   L.push('\nThemes: '+(it.themes||[]).filter(k=>TH[k]).map(k=>TH[k].n).join('; '));
   return L.join('\n');
 }
