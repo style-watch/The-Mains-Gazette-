@@ -1,5 +1,5 @@
 import json
-P="The Indian Express (Chandigarh)"
+P="The Indian Express"
 def C(id,title,section,page,gs,syl,themes,context,ideas,kw,data,ex):
     return dict(id="2026-10-27-%02d"%id,title=title,section=section,page=page,gs=gs,syllabus=syl,themes=themes,context=context,ideas=ideas,keywords=kw,data=data,examples=ex)
 items=[

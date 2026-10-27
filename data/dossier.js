@@ -23,7 +23,7 @@ window.MM_DOSSIER={
  "editions": [
   {
    "date": "2026-10-27",
-   "paper": "The Indian Express (Chandigarh)",
+   "paper": "The Indian Express",
    "items": [
     {
      "id": "2026-10-27-04",

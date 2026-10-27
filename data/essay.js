@@ -1012,7 +1012,7 @@ window.MM_ESSAY={
  "fodder": [
   {
    "date": "2026-10-27",
-   "paper": "The Indian Express (Chandigarh)",
+   "paper": "The Indian Express",
    "items": [
     {
      "id": "e-2026-10-27-02",

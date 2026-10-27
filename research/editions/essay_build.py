@@ -133,7 +133,7 @@ out=dict(
  themes=[th[k] for k,*_ in TH],
  notes=[dict(h=h,t=t) for h,t in notes],
  # Editor's cut: strongest non-controversial material only (original numbering kept)
- fodder=[dict(date="2026-10-27",paper="The Indian Express (Chandigarh)",items=[dict(id=f"e-2026-10-27-{i+1:02d}",type=a,title=b,text=c,use=d,themes=e,src=f,topics=g) for i,(a,b,c,d,e,f,g) in enumerate(F) if i+1 in (2,4,9,12,13,14,16,19,21)])],
+ fodder=[dict(date="2026-10-27",paper="The Indian Express",items=[dict(id=f"e-2026-10-27-{i+1:02d}",type=a,title=b,text=c,use=d,themes=e,src=f,topics=g) for i,(a,b,c,d,e,f,g) in enumerate(F) if i+1 in (2,4,9,12,13,14,16,19,21)])],
  source="UPSC CSE Mains Essay papers 2013-2026, topic list as compiled by Education Province (educationprovince.com); 2026 list cross-checked with Legacy IAS.")
 s="/* The Mains Gazette, The Essay Column data: essay PYQs 2013-2026 tagged to themes, analysis notes, and daily essay material from newspapers. */\nwindow.MM_ESSAY="+json.dumps(out,ensure_ascii=False,indent=1)+";\n"
 open('/home/claude/mm/app/data/essay.js','w').write(s)
