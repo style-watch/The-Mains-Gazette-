@@ -1,0 +1,200 @@
+# source: educationprovince.com topic-wise GS1 pages (society, geography); fetched 27 Oct 2026; gists paraphrased
+SOC-DIV|2026/Q8|Unity in diversity vs communalism and regionalism
+SOC-DIV|2025/Q18|Growth of fast-food industry despite health concerns
+SOC-DIV|2024/Q20|Cultural diversity and socio-economic marginalisation
+SOC-DIV|2023/Q8|Is marriage as a sacrament losing value?
+SOC-DIV|2022/Q8|Work from home and family relationships
+SOC-DIV|2021/Q9|Uniqueness of tribal knowledge systems
+SOC-DIV|2021/Q20|How Indian society sustains traditional values amid change
+SOC-DIV|2020/Q19|Do customs suppress reason and lead to obscurantism?
+SOC-DIV|2020/Q20|Digital initiatives in India's education system
+SOC-DIV|2019/Q8|What makes Indian society unique in sustaining its culture
+SOC-DIV|2019/Q18|'Small India' cultural pockets across the nation
+SOC-DIV|2017/Q9|Regions as cultural units rather than states
+SOC-DIV|2017/Q11|Tolerance and love in Indian society, then and now
+SOC-DIV|2015/Q8|Four cultural elements of diversity and national identity
+SOC-DIV|2014/Q13|Joint family life cycle: economics vs social values
+WPPDU|2026/Q19|Challenges of demographic transition in India
+WPPDU|2025/Q8|Smart cities, urban poverty and distributive justice
+WPPDU|2025/Q19|Sustainable growth and environment vs needs of the poor
+WPPDU|2024/Q5|Why large cities attract more migrants than small towns
+WPPDU|2024/Q7|'Demographic winter' — is the world heading there?
+WPPDU|2024/Q8|Gender equality, gender equity and women's empowerment
+WPPDU|2024/Q10|Collaboration among government, NGOs and private sector
+WPPDU|2023/Q9|Rising suicide among young women in India
+WPPDU|2023/Q10|Mobile phones replacing child cuddling; child socialisation
+WPPDU|2023/Q16|Why human development lagged economic development
+WPPDU|2023/Q18|Urbanisation and segregation of the poor in metros
+WPPDU|2022/Q9|Tier-2 city growth, new middle class, consumption culture
+WPPDU|2021/Q6|Reclaiming water bodies for urban land: environmental implications
+WPPDU|2021/Q10|Gig economy and women's empowerment
+WPPDU|2021/Q17|Socio-economic implications of IT industry growth in cities
+WPPDU|2021/Q18|Objectives of Population Education
+WPPDU|2020/Q9|COVID-19 accelerating class inequality and poverty
+WPPDU|2020/Q15|Flooding in million-plus and smart cities; remedies
+WPPDU|2019/Q9|Empowering women as key to controlling population growth
+WPPDU|2019/Q16|Efficient, affordable urban mass transport and development
+WPPDU|2019/Q19|Continuing challenges for women across time and space
+WPPDU|2018/Q9|Why poverty persists despite anti-poverty programmes
+WPPDU|2018/Q18|Has the women's movement addressed lower-strata women?
+WPPDU|2017/Q18|Women's issues in 19th-century social reform
+WPPDU|2017/Q20|Cities as IT hubs: employment gains and new problems
+WPPDU|2016/Q9|Liberating the poor from deprivation
+WPPDU|2016/Q11|Quality of urban life and the Smart City Programme
+WPPDU|2016/Q17|Vulnerability of major cities to floods
+WPPDU|2015/Q9|Population growth and poverty: which causes which?
+WPPDU|2015/Q19|Smart cities and smart villages in rural-urban integration
+WPPDU|2014/Q11|Patriarchy and middle-class working women
+WPPDU|2014/Q12|Adverse sex ratios in prosperous regions
+WPPDU|2014/Q14|Drivers of feminisation of agriculture
+WPPDU|2013/Q15|Social problems of rapid urbanisation
+WPPDU|2013/Q16|Male membership in women's organisations
+WPPDU|2013/Q20a|Causes of urban heat islands
+GLOB|2026/Q20|Impact of globalisation on Indian youth
+GLOB|2025/Q9|Ethos of civil service: professionalism with nationalist consciousness
+GLOB|2025/Q10|Does globalisation produce only aggressive consumer culture?
+GLOB|2024/Q19|Migration of young unmarried women: freedom and family ties
+GLOB|2023/Q20|Post-liberalisation economy, ethnic identity and communalism
+GLOB|2022/Q20|Globalisation, new technology and scarce resources
+GLOB|2021/Q19|Cryptocurrency and its effects on society
+GLOB|2020/Q18|Does globalisation threaten diversity and pluralism?
+GLOB|2019/Q20|Losing local identity to global identity?
+GLOB|2018/Q13|Indentured labour and diaspora culture
+GLOB|2018/Q19|Cultural homogenisation vs cultural specificities
+GLOB|2016/Q8|Globalisation and India's cultural diversity
+GLOB|2015/Q12|Effects of globalisation on women
+GLOB|2013/Q17|Effects of globalisation on the aged
+SEMP|2026/Q9|Disability and an inclusive policy framework
+SEMP|2026/Q10|Does digital technology promote social empowerment?
+SEMP|2026/Q18|Is caste disappearing in urban India?
+SEMP|2025/Q20|Tribal development, displacement and rehabilitation
+SEMP|2024/Q9|Intercaste vs interreligious marriages
+SEMP|2024/Q17|Regional disparity vs diversity
+SEMP|2024/Q18|Why underprivileged don't fully benefit from affirmative action
+SEMP|2023/Q19|Caste identity: fluid and static
+SEMP|2022/Q10|When diverse tribes can be treated as one category
+SEMP|2022/Q18|Salience of sect vs caste, region, religion
+SEMP|2022/Q19|Tolerance, assimilation, pluralism in Indian secularism
+SEMP|2020/Q8|Has caste lost relevance in multicultural India?
+SEMP|2020/Q10|Regionalism and cultural assertiveness
+SEMP|2019/Q10|Challenges to cultural practices in the name of secularism
+SEMP|2018/Q8|New identities of caste; can it be eradicated?
+SEMP|2018/Q10|Indian vs Western secularism
+SEMP|2018/Q12|Do new states benefit India's economy?
+SEMP|2018/Q20|Communalism: power struggle or relative deprivation
+SEMP|2017/Q10|Legal initiatives against discrimination of STs
+SEMP|2017/Q19|Religiosity vs communalism
+SEMP|2016/Q6|Have linguistic states strengthened unity?
+SEMP|2016/Q10|Why 'Scheduled Tribes'; constitutional provisions
+SEMP|2016/Q12|Basis of regionalism and unequal development
+SEMP|2015/Q10|Sex ratios among STs vs SCs
+SEMP|2015/Q13|Dalit identity movements and annihilation of caste
+SEMP|2014/Q15|Indian vs Western secularism debates
+SEMP|2013/Q18|Regionalism and demand for separate states
+GEO-W|2026/Q7|South Asian water resources: asset and source of conflict
+GEO-W|2026/Q16|Global trade centre shifting from Atlantic to Indo-Pacific
+GEO-W|2025/Q4|Sea-level rise threatening island nations
+GEO-W|2025/Q14|Distribution of offshore oil reserves
+GEO-W|2023/Q4|Climate change and food security in tropical countries
+GEO-W|2023/Q5|Global freshwater crisis: causes
+GEO-W|2022/Q14|Ocean currents and world fishing
+GEO-W|2022/Q15|Rubber-producing countries and environmental issues
+GEO-W|2022/Q16|Straits and isthmuses in international trade
+GEO-W|2021/Q7|2021 volcanic eruptions and regional environment
+GEO-W|2021/Q14|Mountain ranges and local weather
+GEO-W|2021/Q15|Arctic vs Antarctic ice melt effects
+GEO-W|2021/Q16|Uneven global distribution of mineral oil
+GEO-W|2020/Q5|Desertification crossing climate boundaries
+GEO-W|2019/Q4|Global warming and coral reefs
+GEO-W|2018/Q5|India's interest in the Arctic
+GEO-W|2018/Q7|Marine 'dead zones'
+GEO-W|2017/Q5|NASA's Juno mission and Earth's origin
+GEO-W|2017/Q15|Refineries located away from crude producers
+GEO-W|2016/Q16|Geopolitical significance of South China Sea
+GEO-W|2015/Q11|Changing trends of labour migration
+GEO-W|2015/Q20|Arctic oil: economics and environment
+GEO-W|2014/Q19|Why tropical cyclones are confined to certain oceans
+GEO-W|2014/Q23|Changing pattern of world iron and steel industry
+GEO-W|2014/Q24|Ocean resources and world resource crisis
+GEO-W|2014/Q25|India in resource-rich Africa's economic space
+GEO-W|2013/Q24|Atomic energy and raw material availability
+GEO-I|2026/Q15|Satellite technology for climate-smart agriculture
+GEO-I|2026/Q17|Drivers of human-induced land-use change in India
+GEO-I|2025/Q5|Non-farm primary activities and physiography
+GEO-I|2025/Q6|Ecological and economic benefits of solar energy
+GEO-I|2025/Q17|Population distribution in the Ganga basin
+GEO-I|2024/Q14|Declining Gangetic groundwater and food security
+GEO-I|2023/Q7|South-West monsoon as 'Purvaiya' and its cultural influence
+GEO-I|2023/Q14|Coastline resource potential and hazard preparedness
+GEO-I|2023/Q15|Natural vegetation diversity; rainforest sanctuaries
+GEO-I|2023/Q17|India from net food importer to exporter
+GEO-I|2022/Q5|IMD colour-coded cyclone warnings
+GEO-I|2022/Q6|Natural resources of the Deccan Trap
+GEO-I|2022/Q7|Wind energy potential and limited spread
+GEO-I|2021/Q8|Why India is a sub-continent
+GEO-I|2021/Q5|Mining's low GDP share despite Gondwana origin
+GEO-I|2021/Q4|Landslides: Himalayas vs Western Ghats
+GEO-I|2020/Q6|Himalayan glacier melt and India's water resources
+GEO-I|2020/Q7|Iron and steel industries away from raw materials
+GEO-I|2020/Q14|River interlinking for droughts, floods, navigation
+GEO-I|2020/Q16|India's solar potential and regional variation
+GEO-I|2020/Q17|Forest resources and climate change
+GEO-I|2019/Q5|Mangrove depletion and coastal ecology
+GEO-I|2019/Q6|Regional-resource manufacturing and employment
+GEO-I|2019/Q7|Agro-food processing in North-West India
+GEO-I|2019/Q14|Water stress and its regional variation
+GEO-I|2019/Q15|Restoring mountain ecosystems damaged by development and tourism
+GEO-I|2018/Q4|Need for IRNSS
+GEO-I|2018/Q14|Urban water harvesting and groundwater depletion
+GEO-I|2018/Q15|Blue revolution and pisciculture
+GEO-I|2018/Q16|Industrial corridors
+GEO-I|2018/Q17|Aspirational districts strategy
+GEO-I|2017/Q6|Is coal mining inevitable?
+GEO-I|2017/Q7|Pulse cultivation advantages
+GEO-I|2017/Q16|Floods into irrigation and inland navigation
+GEO-I|2017/Q17|Monsoon climate feeding Monsoon Asia
+GEO-I|2016/Q14|Himalayan landslides and mitigation
+GEO-I|2016/Q15|Land and water management to reduce miseries
+GEO-I|2016/Q18|Indus Waters Treaty implications
+GEO-I|2016/Q19|Inland water transport: problems and prospects
+GEO-I|2016/Q20|Micro-watersheds in drought-prone regions
+GEO-I|2015/Q15|Why Delhi's air pollution is worse than Mumbai's and Kolkata's
+GEO-I|2015/Q16|Water scarcity despite abundant resources
+GEO-I|2015/Q17|Tourism and ecological carrying capacity in Himalayan states
+GEO-I|2015/Q18|Monsoon behaviour and humanised landscapes
+GEO-I|2014/Q20|Shrinking Himalayan glaciers and climate change
+GEO-I|2014/Q21|British tea gardens beyond Darjeeling
+GEO-I|2014/Q22|Why Green Revolution bypassed the east
+GEO-I|2013/Q19b|Naming of tropical cyclones (Phailin)
+GEO-I|2013/Q22a|Landslides: Himalayas vs Western Ghats
+GEO-I|2013/Q22b|Why Western Ghats rivers form no deltas
+GEO-I|2013/Q23a|New sugar mills in southern states
+GEO-I|2013/Q23b|Decentralised cotton textile industry
+GEO-I|2013/Q25|Shale oil and gas reserves
+GEO-P|2026/Q4|Fujiwhara effect on tropical cyclones
+GEO-P|2026/Q5|Tundra: fragile but economically important
+GEO-P|2026/Q6|Aeolian processes in desertification
+GEO-P|2026/Q14|Loo, Chinook and Foehn winds
+GEO-P|2025/Q7|Tsunamis: formation and consequences
+GEO-P|2025/Q15|AI, drones, GIS and remote sensing in planning
+GEO-P|2025/Q16|Tectonics reshaping continents and ocean basins
+GEO-P|2024/Q4|Sea surface temperature and tropical cyclones
+GEO-P|2024/Q6|Cloudbursts explained
+GEO-P|2024/Q15|Aurora australis and borealis
+GEO-P|2024/Q16|Twisters and the Gulf of Mexico
+GEO-P|2023/Q6|Fiords
+GEO-P|2022/Q4|Primary rocks
+GEO-P|2022/Q17|Troposphere and weather
+GEO-P|2020/Q4|Circum-Pacific Zone
+GEO-P|2019/Q17|Ocean currents, water masses, marine life
+GEO-P|2018/Q6|Mantle plume and plate tectonics
+GEO-P|2017/Q8|Cryosphere and global climate
+GEO-P|2017/Q14|Ocean salinity variations
+GEO-P|2016/Q13|Air masses and macro-climate
+GEO-P|2015/Q14|Ocean currents: climate, fishing, navigation
+GEO-P|2014/Q16|Does El Niño explain unusual climate events?
+GEO-P|2014/Q17|Fold mountains, earthquakes and volcanoes
+GEO-P|2014/Q18|Islands of Indonesia and the Philippines
+GEO-P|2013/Q19a|Continental drift
+GEO-P|2013/Q20b|Temperature inversion
+GEO-P|2013/Q21|Hot deserts on western continental margins

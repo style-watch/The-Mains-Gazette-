@@ -1,0 +1,286 @@
+# source: educationprovince.com topic-wise GS2 pages (polity, governance, social justice, IR); fetched 27 Oct 2026; gists paraphrased
+SJ-POLICY|2026/Q17|Rights-based welfare amid non-integrated governance and low public investment
+SJ-POLICY|2025/Q17|Distant decision-making from information/execution sources undermining development objectives
+SJ-POLICY|2022/Q6|Gati-Shakti connectivity goal needs government-private sector coordination
+SJ-POLICY|2019/Q8|Factors hindering ICT-based projects and measures for effective implementation
+SJ-POLICY|2019/Q16|Multi-level planning under neo-liberal development: cost-effectiveness and implementation
+SJ-POLICY|2018/Q6|Policy contradictions across sectors weakening environmental protection
+SJ-POLICY|2017/Q11|101st Amendment (GST): removing cascading taxes, common national market
+SJ-POLICY|2016/Q13|Government response to 1991 LPG reforms and what more can be done
+SJ-POLICY|2014/Q7|Pros and cons of raising FDI limits in news media
+SJ-POLICY|2014/Q8|Rail Tariff Authority: who benefits, judged by power-sector experience
+SJ-POLICY|2014/Q15|Aadhaar and NPR running concurrently; potential for equitable growth
+SJ-POLICY|2013/Q14|PURA and the basis of establishing connectivity
+DEV-NGO|2026/Q15|Pressure groups deepening pluralism vs corporate-political convergence threatening democratic autonomy
+DEV-NGO|2024/Q6|Public charitable trusts making development more inclusive
+DEV-NGO|2022/Q17|Dependence on donor agencies reducing community participation
+DEV-NGO|2021/Q8|Microfinance for women's SHGs breaking cycle of gender inequality, poverty, malnutrition
+DEV-NGO|2021/Q18|Civil society and NGOs as alternative model of public service delivery
+DEV-NGO|2020/Q17|SHGs in microfinance: asset creation, income security, women's empowerment in rural India
+DEV-NGO|2019/Q17|India's development through inter-sector cooperation, partnership and collaboration
+DEV-NGO|2017/Q16|Are SHGs a sign of state withdrawal from development? Role and promotion measures
+DEV-NGO|2015/Q8|Recent changes to FCRA rules on foreign funding of NGOs
+DEV-NGO|2015/Q9|SHG-Bank Linkage Programme: poverty alleviation and women's empowerment
+DEV-NGO|2015/Q10|Strengthening NGOs' role in environmental protection; constraints
+DEV-NGO|2014/Q10|Socio-cultural hurdles to SHG penetration in rural areas
+DEV-NGO|2013/Q11|Scrutiny of legitimacy and accountability of SHGs and microfinance institutions
+VULN|2026/Q1|Effect of 2026 amendment to Transgender Persons Act 2019 on self-identity and privacy (Art 21)
+VULN|2026/Q6|Does tribal development policy reflect equity-based governance?
+VULN|2025/Q6|Women's social capital supporting empowerment and gender equity
+VULN|2025/Q18|Challenges children face in the digital era; policies and NCPCR measures
+VULN|2023/Q17|Are welfare schemes for vulnerable sections discriminatory by nature?
+VULN|2022/Q7|RPwD Act 2016 without sensitisation of officials and citizens
+VULN|2022/Q18|RTE Act 2009 and incentive-based education without awareness
+VULN|2021/Q17|Changing patriarchal attitudes towards women beyond empowerment schemes
+VULN|2019/Q18|Welfare schemes underperform without beneficiary awareness and involvement
+VULN|2017/Q7|Does RPwD Act 2016 ensure empowerment and inclusion?
+VULN|2016/Q15|National Child Policy provisions and implementation status
+VULN|2015/Q4|Khap panchayats as extra-constitutional authorities
+VULN|2014/Q11|Schemes for backward communities and exclusion from urban businesses
+VULN|2013/Q12|Restructuring centrally sponsored schemes for state flexibility
+VULN|2013/Q13|Electronic cash transfers to minimise corruption and wastage in welfare
+SOCSEC|2026/Q18|Education: welfare obligation vs strategic investment for knowledge economy
+SOCSEC|2024/Q11|Public Examinations (Prevention of Unfair Means) Act 2024
+SOCSEC|2024/Q17|State's role in containing marketisation of public healthcare
+SOCSEC|2023/Q6|Inadequate attention to human resource development hampering progress
+SOCSEC|2023/Q18|Linkages between education, skill and employment
+SOCSEC|2022/Q16|Managing inflation and unemployment to serve the poor, beyond welfare schemes
+SOCSEC|2021/Q6|Primary health structure as moral imperative and precondition for sustainable development
+SOCSEC|2021/Q7|Strengthening 'earn while you learn' for vocational education
+SOCSEC|2021/Q16|Rural digital illiteracy and ICT access hindering socio-economic development
+SOCSEC|2020/Q6|Health policies for geriatric and maternal health
+SOCSEC|2020/Q18|Does NEP 2020 conform to SDG-4?
+SOCSEC|2019/Q6|Why balanced, inclusive development is elusive despite high growth
+SOCSEC|2018/Q7|Local community-level healthcare as prerequisite for 'Health for All'
+SOCSEC|2017/Q6|Beneficiary identification and outcomes in the WASH scheme
+SOCSEC|2016/Q9|Amartya Sen's reforms for primary education and health
+SOCSEC|2016/Q16|Demographic dividend needs educated, skilled manpower; government measures
+SOCSEC|2015/Q11|Foreign educational institutions and quality of higher education
+SOCSEC|2015/Q12|Can private sector bridge gaps in universal health coverage?
+SOCSEC|2014/Q12|State-sponsored athlete talent hunt vs cash rewards for medallists
+SOCSEC|2014/Q13|Should IITs and IIMs get greater academic independence?
+SOCSEC|2013/Q9|Mid-Day Meal scheme: objectives, mandates, success
+SOCSEC|2013/Q15|Health-related MDGs and government success
+POVERTY|2026/Q7|Malnutrition as challenge of social equity, human development, welfare governance
+POVERTY|2025/Q16|Inequality in resource ownership and the 'paradox of poverty'
+POVERTY|2024/Q7|Breaking the vicious cycle of poverty and malnutrition for human capital
+POVERTY|2020/Q16|UN Multidimensional Poverty Index: incidence and intensity
+POVERTY|2019/Q7|Divergence between poverty and hunger as social spending shrinks
+POVERTY|2018/Q17|Food availability focus diverting attention from weak human development policy
+POVERTY|2017/Q8|Progress on hunger and poverty as governance challenges
+POVERTY|2017/Q17|Poverty alleviation programmes as showpieces without political will
+POVERTY|2015/Q13|Do falling poverty estimates hold up? Urban and rural indicators
+GOV-TA|2026/Q16|Transparency and accountability building trust through rule of law and participation
+GOV-TA|2025/Q7|E-governance favouring technology and back-end integration over user-centric design
+GOV-TA|2024/Q16|Why the Citizen's Charter hasn't realised its promise
+GOV-TA|2024/Q18|Interactive Service Model of e-governance for transparency and accountability
+GOV-TA|2023/Q8|Inadequacies hampering e-governance effectiveness
+GOV-TA|2022/Q8|Limitations of Direct Benefit Transfer
+GOV-TA|2020/Q8|Fourth Industrial Revolution making e-governance integral to government
+GOV-TA|2018/Q8|Use value of information in e-governance
+GOV-TA|2018/Q18|Limitations of Citizen's Charters; improvements
+GOV-TA|2016/Q11|Government effectiveness and people's participation are interdependent
+GOV-TA|2016/Q12|Factors behind India's low integrity ranking
+GOV-TA|2015/Q14|Corporate governance changes after the Satyam scandal
+GOV-TA|2015/Q15|Proposed amendments to Whistleblowers Protection Act 2011
+GOV-TA|2013/Q16|Why Citizen's Charters haven't improved citizen satisfaction
+CIVSERV|2026/Q8|Generalist structure of civil services: advantages and limits
+CIVSERV|2024/Q8|Public perception of civil servants' integrity in democracy
+CIVSERV|2020/Q7|Civil service reforms, institutional quality and economic performance
+CIVSERV|2017/Q18|Decline of neutrality and effectiveness in civil services
+CIVSERV|2016/Q14|Traditional bureaucratic culture hampering socio-economic development
+CIVSERV|2014/Q14|Cadre-based civil services and slow progress
+CONST|2025/Q12|Procedural and substantive limits on Parliament's amending power
+CONST|2024/Q12|Privacy under Art 21 and DNA testing of unborn child
+CONST|2023/Q11|Constitution as living instrument; expanding life and personal liberty
+CONST|2023/Q12|Constitutional perspectives on gender justice, provisions and case laws
+CONST|2022/Q2|Freedom of movement and residence is not absolute
+CONST|2021/Q1|Doctrine of constitutional morality through judicial decisions
+CONST|2020/Q11|Centralising tendencies in Epidemic Diseases Act, DM Act, farm laws
+CONST|2019/Q12|Can Art 368 power be expanded to destroy basic structure?
+CONST|2017/Q12|Scope of fundamental rights after the privacy judgment
+CONST|2016/Q5|Adjectives attached to 'Republic' in the Preamble
+CONST|2016/Q6|Coelho case: judicial review as basic feature
+CONST|2016/Q7|Did GoI Act 1935 establish a federal constitution?
+CONST|2015/Q1|Factors inhibiting a uniform civil code
+CONST|2014/Q4|Free speech, hate speech and films
+CONST|2013/Q2|Section 66A of IT Act and Article 19
+FED|2026/Q13|Federal handling of diversity; asymmetric federalism; dispute resolution
+FED|2025/Q14|Evolving Centre-State financial relations and fiscal federalism
+FED|2024/Q5|Local bodies in good governance; merging rural and urban local bodies
+FED|2024/Q13|Recent changes in Centre-State relations; building trust
+FED|2023/Q3|States' reluctance to empower urban local bodies
+FED|2023/Q13|Reduced use of Article 356 since mid-1990s
+FED|2023/Q15|101st Amendment and accommodative federalism
+FED|2022/Q3|How decentralisation changed grassroots governance
+FED|2022/Q13|National parties' centralisation vs regional parties' autonomy
+FED|2021/Q3|14th Finance Commission and states' fiscal position
+FED|2021/Q11|CBI jurisdiction in states; withholding consent
+FED|2020/Q3|Cooperation, competition, confrontation in federation
+FED|2020/Q13|Local institutions beyond the 'functions, functionaries, funds' stage
+FED|2019/Q13|Women's reservation in local government and patriarchal politics
+FED|2018/Q15|Panchayat system; financing beyond government grants
+FED|2017/Q1|Local self-government as an ineffective instrument?
+FED|2016/Q2|Article 370: how temporary, future prospects
+FED|2015/Q2|Cooperative federalism and drawbacks of existing structure
+FED|2015/Q3|Panchayats and Samitis as political rather than governance institutions
+FED|2014/Q2|Federalism leaning to a strong Centre
+FED|2013/Q3|Nagaland and Article 371A
+FED|2013/Q5|Smaller states and better governance
+FED|2013/Q6|Inter-state water disputes: structural or process failure
+FED|2013/Q7|13th Finance Commission and local government finances
+SEP|2024/Q3|Cabinet system marginalising parliamentary supremacy
+SEP|2023/Q1|Judicial independence as prerequisite of democracy
+SEP|2021/Q4|Parliament ensuring executive accountability
+SEP|2020/Q12|Judicial legislation vs separation of powers; PILs for guidelines
+SEP|2019/Q1|Strict separation or checks and balances?
+SEP|2015/Q5|Ordinance power and Supreme Court rulings
+SEP|2015/Q6|Arbitration ordinance and dispute resolution
+SEP|2014/Q1|Judicial activism and basic structure
+SEP|2013/Q4|Supreme Court checks on Parliament's amending power
+COMP|2026/Q14|India vs US separation of powers; PM vs President
+COMP|2025/Q3|Pardon powers in India and USA
+COMP|2024/Q15|Indian vs US secularism
+COMP|2023/Q4|British and Indian parliamentary sovereignty
+COMP|2022/Q14|Election of Presidents of India and France
+COMP|2021/Q13|Equality in US and Indian constitutions
+COMP|2020/Q4|Indian and UK judicial systems
+COMP|2019/Q5|What France can learn from Indian secularism
+COMP|2018/Q13|Political systems of India and USA
+PARL|2026/Q2|Evolution of women's reservation from local bodies to Parliament
+PARL|2026/Q3|Lok Sabha Speaker's neutrality in a polarised House
+PARL|2025/Q4|J&K Legislative Assembly after 2019 Reorganisation Act
+PARL|2023/Q5|Presiding Officers of state legislatures
+PARL|2023/Q14|Civil society and women's representation in state legislatures
+PARL|2023/Q16|Parliamentary committees; financial committees
+PARL|2022/Q4|Vice-President as Rajya Sabha Chairman
+PARL|2021/Q14|Legislative Councils: provisions and status
+PARL|2021/Q15|Department-related standing committees and accountability
+PARL|2020/Q5|'Once a Speaker, always a Speaker'
+PARL|2020/Q14|Rajya Sabha's transformation into a useful organ
+PARL|2019/Q15|Decline of individual parliamentarians' role
+PARL|2018/Q4|Parliamentary committees; Estimates Committee
+PARL|2017/Q5|Public Accounts Committee and accountability
+PARL|2017/Q13|Joint sittings of Parliament
+PARL|2014/Q3|Uncodified parliamentary privileges
+EXEC|2026/Q11|Governor's role on bill assent; bound by ministerial advice?
+EXEC|2026/Q12|Judicial legislation; passive euthanasia and living wills
+EXEC|2025/Q8|Civil society organisations: anti-State or non-State actors?
+EXEC|2025/Q11|Judicial independence vs judicial accountability
+EXEC|2025/Q13|Collegium evolution compared with US appointments
+EXEC|2025/Q15|Environmental pressure groups in India
+EXEC|2024/Q2|Lok Adalats vs arbitration tribunals
+EXEC|2024/Q14|Growth of PIL; most powerful judiciary?
+EXEC|2022/Q1|Supreme Court constitutionalising environmental issues
+EXEC|2022/Q12|Governor's legislative powers; re-promulgation of ordinances
+EXEC|2021/Q2|Women's representation in higher judiciary
+EXEC|2021/Q5|Business associations and public policy
+EXEC|2019/Q3|Farmers' organisations influencing policymakers
+EXEC|2019/Q4|Federal supremacy and harmonious construction
+EXEC|2018/Q3|Financial Emergency
+EXEC|2018/Q11|July 2018 SC judgment on Delhi LG vs elected government
+EXEC|2017/Q2|SC judgment on NJAC Act 2014
+EXEC|2017/Q4|Pressure groups: informal vs formal
+EXEC|2016/Q1|69th Amendment and Delhi LG conflicts
+EXEC|2016/Q10|Non-state actors' role in governance
+EXEC|2015/Q7|Right to clean environment and Diwali firecrackers
+EXEC|2014/Q5|Time limit on President's decisions on mercy petitions
+EXEC|2014/Q6|Cabinet size and government efficacy
+EXEC|2013/Q10|Pressure group politics as informal politics
+RPA|2026/Q4|Is voting a fundamental right? ECI's roll revision and citizenship
+RPA|2025/Q1|Corrupt practices under RPA 1951; disproportionate assets
+RPA|2022/Q11|Election disputes for MPs and MLAs
+RPA|2020/Q1|Simplifying disqualification for corrupt practices
+RPA|2019/Q11|Grounds for disqualifying representatives
+RPA|2017/Q3|Simultaneous elections: savings vs accountability
+RPA|2017/Q14|ECI's 2016 electoral reform proposals
+RPA|2016/Q3|Indian party system in transition
+RPA|2013/Q1|Diminished role of MPs and anti-defection law
+CBODY|2026/Q5|NCSC and NCST enforcement powers
+CBODY|2025/Q5|Attorney General's role and limits
+CBODY|2024/Q1|Electoral reforms incl. One Nation One Election
+CBODY|2024/Q4|CAG: legality vs propriety of expenditure
+CBODY|2022/Q5|NCBC after constitutional status
+CBODY|2022/Q15|Election Commission and the Model Code of Conduct
+CBODY|2021/Q12|Limits of Human Rights Commissions
+CBODY|2019/Q14|Attorney-General as chief legal adviser
+CBODY|2018/Q1|ECI and EVM controversies
+CBODY|2018/Q2|NCSC and reservation in minority institutions
+CBODY|2018/Q5|CAG's appointment and powers
+CBODY|2018/Q14|Finance Commission constitution and terms of reference
+CBODY|2016/Q4|CAG audit of policy implementation
+STAT|2025/Q2|Administrative tribunals; 2021 tribunal rationalisation
+STAT|2023/Q2|Free legal aid and NALSA
+STAT|2023/Q7|CCI curbing abuse of dominance by MNCs
+STAT|2020/Q2|RTI amendments and Information Commission autonomy
+STAT|2020/Q15|Constitutional status for NCW and gender justice
+STAT|2019/Q2|CAT as independent judicial authority
+STAT|2018/Q12|Tribunals curtailing courts' jurisdiction
+STAT|2018/Q16|Merging commissions into one Human Rights Commission
+STAT|2017/Q15|NCW and women's problems in public and private spheres
+STAT|2016/Q8|Quasi-judicial bodies with examples
+STAT|2015/Q16|Independence of regulatory institutions
+STAT|2014/Q9|NHRC complementing judiciary
+STAT|2013/Q8|Merging SEBI and IRDA
+STAT|2013/Q17|Can a strong Lokpal fix immorality in public affairs?
+IR-NBR|2026/Q20|BRI making South Asia a great-power theatre; implications for India
+IR-NBR|2024/Q20|Maldives' geopolitical and energy-trade importance for India
+IR-NBR|2022/Q9|India's role in Sri Lanka's crisis
+IR-NBR|2017/Q9|China's trade surplus fuelling military power; impact on India
+IR-NBR|2015/Q19|Project Mausam's strategic dimension
+IR-NBR|2015/Q20|Soft power for India-Pakistan goodwill
+IR-NBR|2014/Q16|South China Sea and freedom of navigation
+IR-NBR|2013/Q18|ISAF withdrawal from Afghanistan and India
+IR-NBR|2013/Q19|'String of Pearls' and India's response
+IR-NBR|2013/Q21|Shahbag protests in Dhaka and India
+IR-NBR|2013/Q22|Maldives political developments and India
+IR-NBR|2013/Q23|Domestic factors in India's Sri Lanka policy
+IR-NBR|2013/Q24|Gujral Doctrine's relevance
+IR-GRP|2026/Q9|IPMDA bridging SAGAR and Quad's Indo-Pacific strategy
+IR-GRP|2026/Q10|BRICS as counterweight amplifying the Global South
+IR-GRP|2025/Q9|India-Africa digital partnership
+IR-GRP|2025/Q19|Energy security in foreign policy; Middle East
+IR-GRP|2024/Q10|India's ties with Central Asian Republics
+IR-GRP|2023/Q9|SCO functioning and India's role
+IR-GRP|2022/Q10|BIMSTEC vs SAARC
+IR-GRP|2022/Q19|I2U2 and India's global position
+IR-GRP|2021/Q9|India's growing influence in Africa
+IR-GRP|2021/Q19|SCO's aims and importance for India
+IR-GRP|2021/Q20|AUKUS and Indo-Pacific partnerships
+IR-GRP|2020/Q19|Quad: military alliance to trade bloc?
+IR-GRP|2019/Q19|India's new global role and leadership of marginalised nations
+IR-GRP|2018/Q10|Ashgabat Agreement implications
+IR-GRP|2017/Q19|Energy security and West Asia cooperation
+IR-GRP|2016/Q18|Look East Policy post-Cold War
+IR-GRP|2016/Q19|Cross-border terrorism and SAARC's future
+IR-GRP|2015/Q17|India's increasing interest in Africa
+IR-GRP|2014/Q19|NDB and AIIB significance for India
+IR-DEV|2026/Q19|Diaspora as bridge turning heritage into geopolitical influence
+IR-DEV|2025/Q10|Waning globalisation and sovereign nationalism
+IR-DEV|2024/Q9|West fostering India as alternative to China supply chains
+IR-DEV|2023/Q10|Benefits of Indian diaspora in the West
+IR-DEV|2023/Q19|NATO expansion and US-Europe partnership
+IR-DEV|2021/Q10|China as a bigger challenge to US than USSR
+IR-DEV|2020/Q10|Indian diaspora in politics and economy of America and Europe
+IR-DEV|2020/Q20|Indo-US vs Indo-Russian defence deals
+IR-DEV|2019/Q9|India-Japan strategic partnership
+IR-DEV|2019/Q20|US failure to find India a satisfying global role
+IR-DEV|2018/Q9|Depth of India-Israel relations
+IR-DEV|2018/Q20|US-Iran nuclear pact and India's interest
+IR-DEV|2017/Q20|Indian diaspora in South-East Asia
+IR-DEV|2014/Q17|IT Agreements with zero tariffs and India
+IR-DEV|2013/Q?|India-Japan economic ties constraints
+IR-INST|2025/Q20|UN reform stalled by great-power confrontation
+IR-INST|2024/Q19|UNSC Counter Terrorism Committee effectiveness
+IR-INST|2023/Q20|IMO and marine environment, maritime safety
+IR-INST|2022/Q20|India's climate policy in international fora
+IR-INST|2020/Q9|WHO and global health security in Covid-19
+IR-INST|2019/Q10|UNESCO funding after US withdrawal
+IR-INST|2018/Q19|WTO reform amid trade war
+IR-INST|2017/Q10|ECOSOC functions and commissions
+IR-INST|2016/Q17|WTO and the Doha round
+IR-INST|2016/Q20|UNESCO McBride Commission
+IR-INST|2015/Q18|India's bid for permanent UNSC seat
+IR-INST|2014/Q18|Tied aid and equipment sourcing
+IR-INST|2014/Q20|WTO mandate and India's food security stand
+IR-INST|2013/Q20|World Bank and IMF roles

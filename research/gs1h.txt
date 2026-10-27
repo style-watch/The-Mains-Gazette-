@@ -1,0 +1,97 @@
+# source: educationprovince.com GS1 art & culture, modern, post-independence, world history pages; fetched 27 Oct 2026; gists paraphrased
+CULT|2013/Q2a|Tandava dance in early Indian inscriptions
+CULT|2013/Q2b|Chola architecture as high watermark of temple architecture
+CULT|2013/Q1|Sangam literature on social and economic conditions
+CULT|2014/Q1|Indus Valley urban planning and present-day urbanisation
+CULT|2014/Q2|Gandhara sculpture's debt to Romans and Greeks
+CULT|2014/Q3|Taxila compared with Nalanda
+CULT|2014/Q5|Sufis and mystic saints' impact on society
+CULT|2015/Q1|Continuity of ancient Indian civilisation
+CULT|2015/Q2|Mesolithic rock art's aesthetic sense
+CULT|2016/Q1|Early Buddhist stupa art and folk motifs
+CULT|2016/Q2|Krishnadeva Raya as scholar and patron
+CULT|2017/Q1|Decline of Gupta numismatic art
+CULT|2018/Q1|Need to safeguard Indian art heritage
+CULT|2018/Q2|Chinese and Arab travellers as sources of history
+CULT|2018/Q11|Sri Chaitanya and the Bhakti movement
+CULT|2019/Q1|Central Asian and Greco-Bactrian elements in Gandhara art
+CULT|2020/Q1|Rock-cut architecture as a source for early Indian art
+CULT|2020/Q2|Pala period and Indian Buddhism
+CULT|2020/Q11|Indian philosophy shaping monuments and art
+CULT|2020/Q12|Persian literary sources and medieval India
+CULT|2021/Q1|Bhakti literature and its cultural contribution
+CULT|2022/Q1|Medieval temple sculptures and social life
+CULT|2022/Q12|Gupta and Chola contributions to heritage
+CULT|2022/Q13|Lion and bull figures in Indian art
+CULT|2023/Q1|Geographical factors in ancient India's development
+CULT|2023/Q11|Vedic society and religion and their persistence
+CULT|2023/Q12|Sultanate-era technological change and society
+CULT|2024/Q1|Society and economy from Rig Vedic to later Vedic
+CULT|2024/Q2|Pallava contribution to South Indian art and literature
+CULT|2024/Q11|Chola achievements in art and architecture
+CULT|2025/Q1|Features of Harappan architecture
+CULT|2025/Q2|Akbar's religious syncretism
+CULT|2025/Q3|Chandella sculpture
+CULT|2026/Q1|Ashokan inscriptions and Mauryan history
+CULT|2026/Q11|Vijayanagara architecture
+POSTIND|2026/Q12|Linguistic reorganisation of states driven from below
+POSTIND|2026/Q13|Planned economy to address colonial regional imbalances
+POSTIND|2025/Q12|India's consolidation after independence
+POSTIND|2021/Q3|Integrating the Princely States
+POSTIND|2014/Q10|Lenin's NEP and Indian policy
+POSTIND|2013/Q6|Bhoodan and Gramdan movements
+POSTIND|2013/Q7|'Jai Jawan Jai Kisan'
+POSTIND|2013/Q9|Tashkent Agreement 1966
+POSTIND|2013/Q10|India's role in Bangladesh's emergence
+MODHIST|2022/Q2|Why British armies beat larger Indian armies
+MODHIST|2022/Q3|Famines in colonial India
+MODHIST|2017/Q2|Fragmented polity of mid-18th-century India
+MODHIST|2014/Q4|Why decisive battles were fought at Panipat
+MODHIST|2026/Q2|Macaulay's Minute and colonial education
+MODHIST|2019/Q2|1857 as culmination of local rebellions
+MODHIST|2016/Q3|1857 as watershed in British policy
+MODHIST|2014/Q6|British economic policies till independence
+MODHIST|2013/Q5|Dalhousie as founder of modern India
+MODHIST|2022/Q11|Reorganisation of states since mid-19th century
+MODHIST|2021/Q11|Moderates preparing the base for the freedom movement
+MODHIST|2020/Q3|Curzon's policies and national movement
+MODHIST|2017/Q3|Why Moderates failed by the late 19th century
+MODHIST|2026/Q3|Mass mobilisation in Gandhian movements
+MODHIST|2024/Q3|Quit India Movement
+MODHIST|2023/Q2|Gandhi and Tagore on education and nationalism
+MODHIST|2021/Q12|Gandhi's constructive programme
+MODHIST|2020/Q13|Ideological strands of the 1920s
+MODHIST|2019/Q11|Many voices in the Gandhian phase
+MODHIST|2019/Q12|British role in 1940s transfer of power
+MODHIST|2018/Q3|Relevance of Gandhi's thought today
+MODHIST|2017/Q13|New objectives of independence since the 1920s
+MODHIST|2016/Q5|Bose vs Gandhi
+MODHIST|2015/Q3|Independence without Gandhi
+MODHIST|2015/Q4|Gandhi and Ambedkar on uplifting the downtrodden
+MODHIST|2015/Q5|GoI Act 1935 and the Constitution
+MODHIST|2014/Q7|Naval mutiny
+MODHIST|2013/Q8|Maulana Azad's contribution
+MODHIST|2025/Q11|Jotirao Phule's reforms for subaltern classes
+MODHIST|2023/Q13|Colonial rule and tribal responses
+MODHIST|2021/Q2|Young Bengal and Brahmo Samaj
+MODHIST|2019/Q3|19th-century renaissance and national identity
+MODHIST|2017/Q12|Decline of artisanal industry
+MODHIST|2016/Q4|Women in the freedom struggle
+MODHIST|2013/Q3|Women breaking barriers in the freedom struggle
+MODHIST|2013/Q4|Foreigners in the freedom struggle
+WORLD|2025/Q13|Relevance of the French Revolution today
+WORLD|2024/Q12|Was WWI about balance of power?
+WORLD|2024/Q13|Industrial Revolution and decline of Indian handicrafts
+WORLD|2023/Q3|Socio-economic effects of railways
+WORLD|2021/Q13|Democracies between the World Wars
+WORLD|2019/Q13|American and French revolutions and the modern world
+WORLD|2017/Q4|Decolonisation of Malaya
+WORLD|2016/Q7|West African anti-colonial struggles
+WORLD|2015/Q6|Why the Industrial Revolution began in England
+WORLD|2015/Q7|Germany's responsibility for the World Wars
+WORLD|2014/Q8|Global developments and India's anti-colonial struggle
+WORLD|2014/Q9|1956 Suez Crisis
+WORLD|2013/Q11|Japan's late industrialisation
+WORLD|2013/Q12|Africa's artificial states
+WORLD|2013/Q13|American Revolution and mercantilism
+WORLD|2013/Q14|Containing the Great Depression

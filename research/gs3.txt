@@ -1,0 +1,289 @@
+# source: educationprovince.com topic-wise GS3 pages; fetched 27 Oct 2026; gists paraphrased
+ECO-GROW|2026/Q1|Digital Rupee and India's CBDC
+ECO-GROW|2026/Q12|Startups, entrepreneurship and jobs
+ECO-GROW|2024/Q2|Persistent food inflation and RBI monetary policy
+ECO-GROW|2023/Q2|Digitalisation of the economy
+ECO-GROW|2023/Q11|Structural unemployment and its measurement
+ECO-GROW|2022/Q5|Rising life expectancy and new health challenges
+ECO-GROW|2022/Q11|Labour-productivity-led growth and job creation
+ECO-GROW|2021/Q1|GDP methodology before and after 2015
+ECO-GROW|2021/Q11|V-shaped recovery
+ECO-GROW|2020/Q2|Potential GDP and its determinants
+ECO-GROW|2019/Q2|Steady growth, low inflation: is the economy in good shape?
+ECO-GROW|2018/Q1|Energy access as SDG prerequisite
+ECO-GROW|2018/Q11|NITI Aayog vs Planning Commission
+ECO-GROW|2018/Q12|Protectionism and currency manipulation
+ECO-GROW|2017/Q1|Savings rate as growth factor
+ECO-GROW|2016/Q1|Globalisation and informalisation of employment
+ECO-GROW|2016/Q4|Smart Cities, PURA and RURBAN
+ECO-GROW|2015/Q1|Is recent growth jobless?
+ECO-GROW|2014/Q1|Services-led growth without industry
+ECO-GROW|2014/Q2|Demographic dividend vs falling employability
+INCL|2026/Q2|Financial inclusion and RBI's FI Index
+INCL|2025/Q1|HDI vs IHDI as indicator of inclusion
+INCL|2024/Q1|Post-reform public spending on social services
+INCL|2023/Q12|Care economy vs monetised economy; women
+INCL|2022/Q2|Inclusive growth in a market economy; financial inclusion
+INCL|2020/Q1|Intra- and inter-generational equity
+INCL|2019/Q11|Inclusive growth: inclusiveness and sustainability together
+INCL|2017/Q13|Features of inclusive growth; has India experienced it?
+INCL|2016/Q3|Is PMJDY necessary for the unbanked?
+INCL|2016/Q6|Challenges to inclusive growth incl. manpower
+INCL|2014/Q6|Capitalism for inclusive growth?
+INCL|2013/Q1|CSR under Companies Act 2013
+BUDGET|2025/Q11|Fiscal Health Index for states
+BUDGET|2021/Q2|Capital vs revenue budgets
+BUDGET|2020/Q12|GST compensation and federal tensions
+BUDGET|2019/Q1|Taxes subsumed in GST; revenue implications
+BUDGET|2019/Q12|Public expenditure management post-liberalisation
+BUDGET|2018/Q2|LTCG and DDT changes in Budget 2018-19
+BUDGET|2017/Q11|Budget 2017-18: transform, energise, clean India
+BUDGET|2016/Q2|Gender budgeting
+BUDGET|2015/Q7|Gold Monetisation scheme
+BUDGET|2013/Q2|FRBM Act 2003
+BUDGET|2013/Q3|Tax expenditure and the housing sector
+BUDGET|2013/Q10|Rationale for GST and its delay
+AGRI|2026/Q3|Agricultural Technology Missions and food security
+AGRI|2026/Q4|Agri-marketing inefficiency and e-commerce
+AGRI|2026/Q13|From scarcity to surplus; agricultural diversification
+AGRI|2025/Q3|Farmers' choice of high-value crops
+AGRI|2024/Q4|Millets for health and nutritional security
+AGRI|2024/Q13|Challenges to irrigation; efficient management
+AGRI|2023/Q3|e-Technology for farmers
+AGRI|2023/Q13|Cropping pattern, consumption and marketing
+AGRI|2022/Q13|Bottlenecks in agricultural marketing
+AGRI|2022/Q14|Integrated Farming System for small farmers
+AGRI|2021/Q4|Micro-irrigation and water crisis
+AGRI|2021/Q14|Crop diversification and emerging technology
+AGRI|2020/Q3|Transport and marketing constraints
+AGRI|2020/Q13|Rice-wheat system: boon to bane
+AGRI|2020/Q14|Water storage and irrigation under depletion
+AGRI|2019/Q3|Integrated Farming System
+AGRI|2019/Q4|National Watershed Project
+AGRI|2019/Q5|Visvesvaraya and Swaminathan
+AGRI|2018/Q4|Supermarkets in food supply chains
+AGRI|2018/Q13|National Horticulture Mission
+AGRI|2018/Q14|Changing cropping patterns; millets
+AGRI|2017/Q14|Declining rice-wheat yields; diversification
+AGRI|2016/Q7|Water-use efficiency and micro-irrigation
+AGRI|2016/Q8|Allelopathy
+AGRI|2015/Q4|Digital India and farm productivity
+AGRI|2014/Q3|APMCs as impediments
+AGRI|2014/Q4|Cooperative credit and agri-finance
+FARMSUB|2026/Q14|Agricultural subsidies and WTO Agreement on Agriculture
+FARMSUB|2024/Q14|Buffer stocks and price stabilisation
+FARMSUB|2023/Q14|Farm subsidies and WTO issues
+FARMSUB|2022/Q3|PDS challenges
+FARMSUB|2021/Q13|NFSA 2013 against hunger and malnutrition
+FARMSUB|2019/Q13|Reforms in food grain distribution
+FARMSUB|2018/Q3|MSP and the low-income trap
+FARMSUB|2017/Q4|Agricultural revolutions, poverty and food security
+FARMSUB|2017/Q15|Subsidies, insurance, MSP and food processing
+FARMSUB|2016/Q10|Crop insurance and PMFBY
+FARMSUB|2015/Q2|Livestock rearing and employment
+FARMSUB|2015/Q5|DBT replacing price subsidies
+FARMSUB|2013/Q4|Food Security Bill and WTO concerns
+FARMSUB|2013/Q5|Agricultural subsidies and distortions
+FARMSUB|2013/Q6|Pink revolution
+FOODPROC|2026/Q5|Biotechnology for processing perishables
+FOODPROC|2025/Q14|Food processing and employment
+FOODPROC|2025/Q4|Supply chain management for agri-commodities
+FOODPROC|2022/Q4|Scope of food processing
+FOODPROC|2020/Q4|Food processing and farmers' income
+FOODPROC|2019/Q14|Policies for food processing challenges
+FOODPROC|2017/Q5|Poor acceptance of small processing units
+FOODPROC|2015/Q6|Supply chain impediments; e-commerce
+LAND|2024/Q3|Why land reforms succeeded in some regions
+LAND|2023/Q4|Land reforms and land ceiling
+LAND|2021/Q3|Land reforms and small farmers
+LAND|2016/Q9|Land reforms in agricultural development
+LAND|2015/Q3|Contract farming and land leasing
+LAND|2014/Q5|Land Acquisition Act 2013
+LAND|2013/Q8|Land reform, productivity and poverty
+INDPOL|2025/Q2|Protectionism and bilateralism
+INDPOL|2025/Q12|PLI scheme
+INDPOL|2024/Q11|Four Labour Codes
+INDPOL|2023/Q1|Manufacturing share and MSMEs
+INDPOL|2017/Q2|Labour-intensive exports
+INDPOL|2017/Q12|Industrial growth lagging GDP
+INDPOL|2015/Q8|Make in India, Skill India, labour reforms
+INDPOL|2015/Q10|SEZs: taxation, laws, administration
+INDPOL|2013/Q7|Liberalisation and Indian companies vs MNCs
+INFRA|2026/Q11|Energy security challenges
+INFRA|2024/Q12|Regional air connectivity and UDAN
+INFRA|2022/Q12|50% renewable energy by 2030
+INFRA|2021/Q12|Infrastructure investment for inclusive growth
+INFRA|2016/Q11|Renewable energy targets and LED programme
+INFRA|2015/Q9|Falling solar tariffs and thermal power
+INFRA|2014/Q8|National Urban Transport Policy
+INFRA|2013/Q11|Green energy corridor
+INFRA|2013/Q17b|Run-of-the-river hydro
+INVEST|2022/Q1|PPP in railway station redevelopment
+INVEST|2020/Q11|PPP concession agreements
+INVEST|2017/Q3|Airports through PPP
+INVEST|2016/Q5|FDI: MoUs vs actual inflows
+INVEST|2014/Q7|PPP liabilities shifting to future generations
+INVEST|2014/Q9|Defence FDI liberalisation
+INVEST|2013/Q9a|FDI in multi-brand retail and supply chains
+INVEST|2013/Q9b|Why multi-brand retail FDI didn't pick up
+INVEST|2013/Q12|PPP model for infrastructure
+ST-LIFE|2025/Q15|Nanotechnology in agriculture
+ST-LIFE|2024/Q6|Electronic toll collection
+ST-LIFE|2023/Q5|AI in clinical diagnosis and privacy
+ST-LIFE|2023/Q6|Microorganisms for fuel
+ST-LIFE|2021/Q16|Blue LED and everyday life
+ST-LIFE|2020/Q6|Science in daily life and agriculture
+ST-LIFE|2020/Q15|Technology in managing COVID-19
+ST-LIFE|2019/Q16|Biotechnology for farmers
+ST-LIFE|2015/Q13|Cloud hosting for government
+ST-LIFE|2013/Q14|Fixed dose drug combinations
+ST-LIFE|2013/Q15|Cricket DRS technology
+ST-LIFE|2013/Q17a|FRP composites
+ST-IND|2026/Q6|Fast breeder reactors; criticality at Kalpakkam
+ST-IND|2025/Q5|India's contribution to ITER; fusion energy
+ST-IND|2025/Q6|Energy independence by 2047 through clean technology
+ST-IND|2025/Q16|India Semiconductor Mission
+ST-IND|2023/Q16|Chandrayaan-3 and Virtual Launch Control Centre
+ST-IND|2019/Q6|India's own space station
+ST-IND|2018/Q5|S.N. Bose and Bose-Einstein statistics
+ST-IND|2018/Q16|Expanding nuclear energy: facts and fears
+ST-IND|2017/Q7|Why no manned space mission yet
+ST-IND|2017/Q16|Nuclear science and fast breeder programme
+ST-IND|2016/Q12|Space achievements and socio-economic use
+ST-IND|2015/Q11|GPS vs IRNSS
+ST-IND|2014/Q10|Decline of research in universities
+ST-AWARE|2026/Q15|Mission Drishti satellite imaging
+ST-AWARE|2026/Q16|Agentic AI: working, uses, risks
+ST-AWARE|2024/Q5|IPR on life forms; low commercialisation of patents
+ST-AWARE|2024/Q16|Asteroids and extinction threat
+ST-AWARE|2022/Q6|Breakdown of cellulose
+ST-AWARE|2022/Q15|James Webb Space Telescope
+ST-AWARE|2022/Q16|Vaccine development and Indian COVID vaccines
+ST-AWARE|2021/Q5|S-400 air defence system
+ST-AWARE|2021/Q15|Applied biotechnology for the poor
+ST-AWARE|2020/Q5|Nanotechnology in health
+ST-AWARE|2019/Q15|Protecting traditional medicinal knowledge from patents
+ST-AWARE|2018/Q15|Biotechnology and biopharma
+ST-AWARE|2017/Q6|Stem cell therapy
+ST-AWARE|2016/Q13|Nanotechnology and Nano Mission
+ST-AWARE|2015/Q12|Robotics in prohibitive labour areas
+ST-AWARE|2015/Q14|Open access to TKDL
+ST-AWARE|2014/Q11|Antibiotic overuse and drug resistance
+ST-AWARE|2014/Q12|Copyrights, patents, trade secrets
+ST-AWARE|2013/Q13|Section 3(d) and the Glivec judgment
+ST-AWARE|2013/Q16a|Digital signatures
+ST-AWARE|2013/Q16b|3D printing
+ENV|2026/Q8|Kunming-Montreal biodiversity framework and India
+ENV|2026/Q17|Solid waste management: Delhi vs Indore
+ENV|2025/Q7|Carbon capture, utilisation and storage
+ENV|2025/Q8|Seawater intrusion in coastal aquifers
+ENV|2025/Q13|Groundwater depletion and government steps
+ENV|2025/Q17|Mining as environmental hazard
+ENV|2025/Q18|Paris/COP26 commitments and updated NDC
+ENV|2024/Q7|Industrial pollution of rivers
+ENV|2024/Q8|NGOs and activists in EIA outcomes
+ENV|2024/Q15|Alternative freshwater technologies
+ENV|2023/Q8|Oil pollution and marine ecosystems
+ENV|2023/Q15|Electric vehicles and emissions
+ENV|2023/Q17|Wetland conservation and Ramsar sites
+ENV|2023/Q18|One-metre sea-level rise by 2100
+ENV|2022/Q7|Photochemical smog and Gothenburg Protocol
+ENV|2022/Q17|Global warming and Kyoto Protocol
+ENV|2022/Q18|Coastal erosion in India
+ENV|2021/Q6|Green Grid Initiative and ISA
+ENV|2021/Q7|Revised WHO air quality guidelines and NCAP
+ENV|2021/Q17|COP26 outcomes and India's commitments
+ENV|2020/Q7|Draft EIA Notification 2020 vs 2006
+ENV|2020/Q8|Jal Shakti Abhiyan
+ENV|2020/Q16|Solar electricity and government initiatives
+ENV|2020/Q17|National Clean Air Programme
+ENV|2019/Q7|Coastal sand mining
+ENV|2019/Q17|Carrying capacity and regional planning
+ENV|2018/Q6|Solid and toxic waste disposal
+ENV|2018/Q7|Wetlands and Ramsar 'wise use'
+ENV|2018/Q8|Sikkim as organic state
+ENV|2018/Q17|Biodiversity and Biological Diversity Act 2002
+ENV|2017/Q8|River linking and environment
+ENV|2017/Q17|Climate change in Himalayan and coastal states
+ENV|2016/Q14|Rehabilitation impacts of major projects
+ENV|2015/Q15|Namami Gange and NMCG
+ENV|2014/Q13|Carbon credits and CDM
+ENV|2014/Q15|Pithead coal-fired thermal plants
+ENV|2013/Q19|Illegal mining and 'Go/No-Go' zones
+ENV|2013/Q20|National Water Policy and Ganga pollution
+DM|2026/Q7|Fast infrastructure vs disaster-risk reduction in fragile areas
+DM|2026/Q18|Community participation in disaster management
+DM|2024/Q17|Disaster resilience and Sendai targets
+DM|2024/Q18|Urban floods and policies
+DM|2023/Q7|Dam failures
+DM|2022/Q8|Cloudbursts in the subcontinent
+DM|2021/Q8|Earthquake vulnerability
+DM|2021/Q18|Landslides and National Landslide Risk Management Strategy
+DM|2020/Q18|Shift from reactive disaster management
+DM|2019/Q8|Disaster vulnerability and types
+DM|2019/Q18|Hazard zonation mapping for landslides
+DM|2018/Q18|DRR before and after Sendai; vs Hyogo
+DM|2017/Q18|2004 tsunami and NDMA preparedness
+DM|2016/Q15|Urban floods from intense rainfall
+DM|2016/Q16|Uttarakhand cloudbursts and NDMA measures
+DM|2015/Q16|Earthquake frequency and preparedness gaps
+DM|2014/Q14|Drought as disaster; El Niño, La Niña
+DM|2013/Q18|Vulnerability and risk assessment
+SEC-LWE|2025/Q10|LWE elimination target and measures
+SEC-LWE|2023/Q9|Winning hearts and minds in J&K
+SEC-LWE|2022/Q20|Naxalism as a development issue
+SEC-LWE|2020/Q19|Determinants of LWE in eastern India
+SEC-LWE|2018/Q10|Countering LWE despite downward trend
+SEC-LWE|2017/Q10|Survival of insurgency in the North-East
+SEC-LWE|2015/Q19|Industrial displacement of tribals
+SEC-LWE|2013/Q24|Fifth Schedule non-implementation and LWE
+SEC-EXT|2026/Q19|J&K mainstreaming; Articles 370 and 35A
+SEC-EXT|2025/Q20|Maritime security and sea trade
+SEC-EXT|2025/Q9|Terrorism in India and counter-measures
+SEC-EXT|2021/Q19|Threats from external state and non-state actors
+SEC-EXT|2018/Q9|CPEC and India's stand
+SEC-EXT|2017/Q20|Terror funding sources
+SEC-EXT|2016/Q17|Hot pursuit and surgical strikes
+SEC-EXT|2016/Q18|Terrorism as a competitive industry
+SEC-EXT|2014/Q19|IMO piracy zone shift and Arabian Sea
+SEC-EXT|2014/Q20|China-Pakistan corridor threat
+SEC-CYBER|2026/Q9|Fake news and 2021 IT Rules amendments
+SEC-CYBER|2026/Q20|Counterfeit currency, money laundering and FATF
+SEC-CYBER|2024/Q10|Digital Personal Data Protection Act 2023
+SEC-CYBER|2024/Q20|Social media and encrypted messaging threats
+SEC-CYBER|2023/Q20|Terror funding and NMFT conference
+SEC-CYBER|2022/Q19|Cyber security and national strategy
+SEC-CYBER|2021/Q9|Technology, globalisation and money laundering
+SEC-CYBER|2021/Q10|Cross-border cyber attacks
+SEC-CYBER|2021/Q20|Complexity and linkages of terrorism
+SEC-CYBER|2020/Q9|Types of cybercrime
+SEC-CYBER|2019/Q9|Over-ground workers aiding terrorists
+SEC-CYBER|2019/Q10|CyberDome project
+SEC-CYBER|2018/Q19|Srikrishna Committee on data protection
+SEC-CYBER|2017/Q9|Cyber attack threats and framework
+SEC-CYBER|2017/Q19|Mob violence
+SEC-CYBER|2016/Q20|Misuse of internet by non-state actors
+SEC-CYBER|2015/Q18|Social media radicalisation (ISIS)
+SEC-CYBER|2015/Q20|National Cyber Security Policy 2013
+SEC-CYBER|2014/Q16|Radicalism and counter-strategies
+SEC-CYBER|2014/Q17|Airspace sovereignty
+SEC-CYBER|2013/Q21|Money laundering and economic sovereignty
+SEC-CYBER|2013/Q22|Social networking and security
+SEC-CYBER|2013/Q23|Cyber warfare preparedness
+SEC-BORDER|2026/Q10|Ladakh: BADP, army civic action, Sixth Schedule demand
+SEC-BORDER|2025/Q19|North-East security and peace accords
+SEC-BORDER|2024/Q?|Narco-terrorism
+SEC-BORDER|2024/Q19|China and Pakistan borders; BADP and BIM
+SEC-BORDER|2023/Q10|Drones ferrying arms and drugs
+SEC-BORDER|2022/Q9|Organised crime and terrorism linkages
+SEC-BORDER|2020/Q10|Denying militants local support
+SEC-BORDER|2020/Q20|Myanmar, Bangladesh, Pakistan border crimes
+SEC-BORDER|2019/Q20|India-Myanmar border challenges
+SEC-BORDER|2018/Q20|Drug trafficking and linked crimes
+SEC-BORDER|2016/Q19|Border management strategies
+SEC-BORDER|2014/Q18|Illegal transborder migration
+SEC-BORDER|2013/Q25|Porous borders and internal security
+SEC-AGENCY|2023/Q19|Central intelligence and investigative agencies
+SEC-AGENCY|2022/Q10|Maritime security initiatives
+SEC-AGENCY|2019/Q19|UAPA and NIA Act amendments
+SEC-AGENCY|2015/Q17|AFSPA and Supreme Court views
