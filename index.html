@@ -9,7 +9,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="The Mains Gazette">
 <meta property="og:title" content="The Mains Gazette · Today's news, tomorrow's answers">
-<meta property="og:description" content="UPSC Mains current affairs, the newspaper way: daily Ideas, Keywords, Data and Examples, linked to every GS question since 2013, plus an Essay Column and an Ethics Casebook.">
+<meta property="og:description" content="A companion to your daily newspaper for UPSC Mains, not a replacement: the syllabus-relevant reads, with ideas, keywords, data and examples filed by theme and linked to past Mains questions.">
 <meta property="og:url" content="https://style-watch.github.io/stylewatch.github.io/mainsgazette/">
 <meta property="og:image" content="https://style-watch.github.io/stylewatch.github.io/mainsgazette/icons/og.png">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
@@ -133,6 +133,18 @@ nav.main .n{font-family:var(--mono);font-size:.7rem;background:var(--navy);color
 .secth h2{font-family:var(--serif);font-weight:600;font-size:1.5rem;margin:0}
 .secth span{color:var(--muted);font-size:.88rem}
 
+.promise{background:linear-gradient(135deg,#FFF8EC,#FDF2F8);border:1px solid #F8D9A8;border-radius:18px;padding:16px 20px;margin-bottom:22px;box-shadow:var(--shadow)}
+.promise summary{cursor:pointer;list-style:none;display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px}
+.promise summary::-webkit-details-marker{display:none}
+.promise .pk{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:#B45309;font-weight:600}
+.promise .ph{font-family:var(--serif);font-size:1.3rem;font-weight:600;color:var(--navy)}
+.promise:not([open]) .ph::after{content:' ↓';color:var(--saffron)}
+.promise .pl2{margin:10px 0 14px;font-size:.98rem;color:#374151;max-width:62rem}
+.promise .p3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:14px}
+.promise .p3 div{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.promise .p3 b{display:block;color:var(--navy);margin-bottom:3px}
+.promise .p3 span{font-size:.88rem;color:#4B5563}
+@media (max-width:760px){.promise .p3{grid-template-columns:1fr}}
 /* headline ticker */
 .ticker{background:var(--navy);color:#FAF8F3;overflow:hidden;position:relative}
 .ticker .wrap{display:flex;align-items:center;gap:14px;padding-top:7px;padding-bottom:7px}
@@ -511,7 +523,12 @@ function viewDossier(date){
     <p class="sub">Every news item is broken into the four things an answer needs, tied to its syllabus line, and filed into The Almanac for revision.</p>
     <div class="lenses">${Object.keys(LENS).map(k=>`<span class="lens"><i style="background:${LENS[k][2]}">${LENS[k][0]}</i>${LENS[k][1]}</span>`).join('')}</div>
     <div class="stats"><div><b>${eds.length}</b><span>editions</span></div><div><b>${total}</b><span>news items</span></div><div><b>${filed}</b><span>themes fed</span></div><div><b>${MM.themes.length}</b><span>priority themes</span></div></div>
-  </div></div><div class="wrap"><section class="block">`;
+  </div></div><div class="wrap"><section class="block">
+  <details class="promise" id="promise" ${store.get('promise-seen',false)?'':'open'}><summary><span class="pk">Why The Mains Gazette</span><span class="ph">A companion to your newspaper, not a replacement.</span></summary>
+   <p class="pl2">Keep reading the paper every day. The Mains Gazette helps you pick the reads that matter for the syllabus, and keeps the perspectives, keywords, data and examples you might otherwise miss or forget. Everything is filed by theme, so when you write Mains answers you have a ready store of value additions.</p>
+   <div class="p3"><div><b>1 · Read smarter</b><span>The day's syllabus-relevant stories, with the page to find each one in the paper.</span></div><div><b>2 · Never lose a point</b><span>Ideas, keywords, data and examples, saved and filed into The Almanac by theme.</span></div><div><b>3 · Write better answers</b><span>Each story linked to past Mains questions, plus material for the Essay and Ethics papers.</span></div></div>
+   <button class="btn pri" type="button" id="promise-ok">Got it</button>
+  </details>`;
   if(!ed){
     h+=`<div class="empty"><div>
       <div class="eyebrow" style="color:var(--saffron)">Vol. I · No. 1 · going to press</div>
@@ -753,6 +770,7 @@ document.addEventListener('keydown',e=>{
 });
 
 
+document.addEventListener('click',e=>{if(e.target.closest('#promise-ok')){store.set('promise-seen',true);const p=$('#promise');if(p)p.open=false}});
 // ---- headline ticker + share
 function ticker(){
   const eds=[...D.editions].sort((a,b)=>b.date<a.date?-1:1);const ed=eds[0];if(!ed||!(ed.items||[]).length)return;
@@ -763,7 +781,7 @@ function ticker(){
 }
 const SHARE_URL='https://style-watch.github.io/stylewatch.github.io/mainsgazette/';
 document.addEventListener('click',async e=>{if(!e.target.closest('#share'))return;
-  const text="The Mains Gazette: UPSC Mains current affairs, the newspaper way. Daily Ideas, Keywords, Data and Examples, linked to past GS questions, plus an Essay Column and an Ethics Casebook.";
+  const text="The Mains Gazette: a companion to your daily newspaper for UPSC Mains, not a replacement. It picks the syllabus-relevant reads and saves the ideas, keywords, data and examples by theme, linked to past Mains questions, with an Essay Column and an Ethics Casebook.";
   try{if(navigator.share){await navigator.share({title:'The Mains Gazette',text,url:SHARE_URL});return}}catch(_){return}
   window.open('https://wa.me/?text='+encodeURIComponent(text+' '+SHARE_URL),'_blank','noopener');
 });
