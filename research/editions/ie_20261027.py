@@ -304,6 +304,45 @@ C(25,"Jogen Chowdhury's art of the personal, political and social","Editorial pa
 # Editor's cut (27 Oct): keep only stories that map to recurring priority themes; drop contested/one-off items.
 KEEP={"04","07","09","11","16","18","19","20","21","22"}
 items=[it for it in items if it["id"][-2:] in KEEP]
-ed={"date":"2026-10-27","paper":P,"items":items}
+# GS4 Ethics casebook entries for this edition: facts as reported in the paper; "lesson" and "values" are the editor's framing.
+ETHICS=[
+ dict(area="env",title="Manauli, Haryana's 'sweet corn village'",card="2026-10-27-19",src="IE p. 4",
+  case="In Manauli village (Sonipat), about 70% of 2,000 acres has moved from paddy to sweet corn and vegetables over two decades. Farmer Arun Chauhan switched after seeing a friend's success with strawberries; the farmers formed an FPO and now sell directly to e-commerce firms.",
+  lesson="Sustainable change lasts when it also pays, and it spreads by example among peers rather than by order. Leaving the paddy cycle also eases the straw that drives stubble burning (our link, not the report's).",
+  values=["Environmental stewardship","Collective action","Learning from peers"]),
+ dict(area="env",title="The stubble dilemma in Punjab",card="2026-10-27-19",src="IE p. 6",
+  case="Of 684 farm fires this season, 457 (69%) are in Tarn Taran and Amritsar. Early paddy lets farmers fit in a third crop of peas or potatoes before wheat, leaving little time to clear fields without burning. Clean Air Punjab's Sanjha Mittar helpline guides farmers to alternatives.",
+  lesson="A choice that is rational for one farmer imposes a health cost on millions: private gain against public harm. Support and persuasion address the farmer's constraint; punishment alone does not.",
+  values=["Public interest","Empathy","Responsibility for consequences"]),
+ dict(area="env",title="From 'use and throw' to 'use, return and recover'",card="2026-10-27-20",src="IE p. 11",
+  case="Delhi plans a Deposit Refund Scheme: Re 1 or Rs 2 extra on a plastic bottle, refunded on return. Uttarakhand began one at Kedarnath in 2022 with a Rs 10 deposit; bottle returns rose from about 20-22% to nearly 90%. Delhi generates about 1,500 tonnes of plastic waste a day, 19% of it unprocessed.",
+  lesson="A small refundable deposit turns a civic duty into a habit: a nudge rather than a ban. Waste becomes a shared responsibility of producer, consumer and state.",
+  values=["Civic responsibility","Sustainability","Nudge in public policy"]),
+ dict(area="justice",title="Nepal and the first Loss and Damage payout",card="2026-10-27-18",src="IE p. 12",
+  case="The UN Fund for Loss and Damage allocated $21.6 million (about Rs 190 crore) to Nepal after the August floods, the first time it has earmarked a grant for a disaster-hit nation. The Indian Express argues that compensation must come faster.",
+  lesson="Those who emitted least often suffer most. Climate justice rests on common but differentiated responsibilities and on fairness to future generations; relief that comes late is justice delayed.",
+  values=["Fairness","Intergenerational equity","Global responsibility"]),
+ dict(area="public",title="When police become debt collectors",card="2026-10-27-04",src="IE p. 13 (Abhinav Chandrachud)",
+  case="With civil suits taking years (the Bombay High Court has 9,454 civil suits among about 6.49 lakh pending cases), well-connected creditors push police to turn simple debt disputes into 'cheating' or 'breach of trust' cases. The author writes that officers are sometimes offered a cut, and that not all officers give in.",
+  lesson="Discretion used for a private party is abuse of power, even when the law is technically invoked. Integrity means refusing to be an instrument of the powerful; a good case-study setting for an officer under pressure from an influential complainant.",
+  values=["Integrity","Rule of law","Impartiality"]),
+ dict(area="care",title="Keralam makes elder care a right",card="2026-10-27-07",src="IE p. 8",
+  case="The Keralam Assembly passed the Senior Citizens (Care and Protection of Rights) Bill, 2026, the first state-level law framing elder welfare as rights, with regulated and professional care.",
+  lesson="Dignity in old age moves from charity to entitlement. The state supports the family's duty of care rather than replacing it.",
+  values=["Dignity","Compassion","Duty of care"]),
+ dict(area="care",title="Cyclone Arnab: the most vulnerable first",card="2026-10-27-21",src="IE p. 11",
+  case="Before landfall, Andhra Pradesh moved 4,711 pregnant women from vulnerable areas to health centres and hospitals. Odisha's Chief Minister deputed eight ministers to districts to oversee preparedness.",
+  lesson="Compassion in administration means planning for the weakest first (Antyodaya). Leaders on the ground make accountability visible.",
+  values=["Compassion","Antyodaya","Accountability"]),
+ dict(area="gender",title="Counting what women carry",card="2026-10-27-16",src="IE p. 15",
+  case="The Statistics Ministry plans to add questions on 'women-specific constraints' (limits on time and mobility, household responsibilities) to its survey of unincorporated enterprises.",
+  lesson="What is not measured is rarely addressed. Equity needs the invisible burden of unpaid care to be seen first.",
+  values=["Gender justice","Equity","Evidence-based policy"]),
+ dict(area="lives",title="Two fathers, two sons and a language",card=None,src="IE p. 17 (Sports)",
+  case="Tilak Varma and Nitish Kumar Reddy put on 69 off 30 balls, speaking Telugu, to win the second T20I in New Zealand. Nitish's father Mutyala Reddy left a stable job at Hindustan Zinc to support his training; Tilak's father Nagaraju, an electrician, spent sleepless nights making ends meet. Mutyala said he usually prays for his own son, 'that is my self-interest', but this time prayed for both.",
+  lesson="Sacrifice by parents, friendship over rivalry, and pride in one's mother tongue without show. A ready example for going beyond self-interest and for family as a source of values.",
+  values=["Sacrifice","Magnanimity","Cultural pride"]),
+]
+ed={"date":"2026-10-27","paper":P,"items":items,"ethics":ETHICS}
 open('/home/claude/mm/build/ed_20261027.json','w').write(json.dumps(ed,ensure_ascii=False,indent=1))
 print(len(items))

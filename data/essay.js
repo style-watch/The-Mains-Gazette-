@@ -1102,6 +1102,24 @@ window.MM_ESSAY={
      ]
     },
     {
+     "id": "e-2026-10-27-13",
+     "type": "Story",
+     "title": "Two fathers, two sons and a language",
+     "text": "Tilak Varma and Nitish Reddy won a T20I in New Zealand while talking to each other in Telugu. Nitish's father left a stable job to support his training; Tilak's father, an electrician, spent sleepless nights making ends meet. The fathers now send each other good-morning messages daily.",
+     "use": "For 'A grateful mind is very beautiful', 'Life is a journey between human being and being humane' and 'Culture is what we are': pride in one's language on a world stage.",
+     "themes": [
+      "inner",
+      "journey",
+      "history"
+     ],
+     "src": "IE p. 17",
+     "topics": [
+      "2026A2",
+      "2020A1",
+      "2020B1"
+     ]
+    },
+    {
      "id": "e-2026-10-27-14",
      "type": "Story",
      "title": "Angkrish Raghuvanshi's maiden century",

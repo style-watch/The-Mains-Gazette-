@@ -56,6 +56,28 @@ nav.main .n{font-family:var(--mono);font-size:.7rem;background:var(--navy);color
   .word small{display:none}
 }
 
+/* ethics casebook */
+.ecase{background:#fff;border:1px solid var(--line);border-left:5px solid var(--gs4);border-radius:14px;padding:14px 18px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:7px}
+.ecase .ar{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gs4);font-weight:600}
+.ecase h4{margin:0;font-family:var(--serif);font-weight:600;font-size:1.1rem;line-height:1.3}
+.ecase p{margin:0;font-size:.92rem;color:#374151}
+.ecase .ls{background:#FDF2F8;border-radius:8px;padding:8px 10px;font-size:.9rem}
+.ecase .ls b{color:var(--gs4)}
+.ecase .vs{display:flex;flex-wrap:wrap;gap:6px}
+.ecase .vs span{font-size:.74rem;font-weight:600;background:#F3F4F6;border-radius:99px;padding:3px 9px;color:#374151}
+.ecase .ft2{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;padding-top:6px;border-top:1px dashed var(--line)}
+.ecase .src{font-size:.76rem;color:var(--soft)}
+.egrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media (max-width:760px){.egrid{grid-template-columns:1fr}}
+.eband{margin-top:34px;padding:20px;border-radius:18px;background:#FDF2F8;border:1px solid #FBCFE8}
+.eband .secth{margin:0 0 14px}
+.eband .secth h2{color:var(--gs4)}
+.cbk{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;background:#FDF2F8;border:1px solid #FBCFE8;border-radius:16px;padding:14px 18px;margin-bottom:18px;text-decoration:none;color:inherit}
+.cbk b{font-family:var(--serif);font-size:1.15rem;color:var(--gs4)}
+.cbk span{font-size:.9rem;color:#374151}
+.egrp{margin-top:26px}
+.egrp h3{font-family:var(--serif);font-weight:600;font-size:1.25rem;margin:0 0 4px;color:var(--gs4)}
+.egrp .gd{font-size:.88rem;color:var(--muted);margin:0 0 12px}
 /* essay column */
 .notes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
 .note{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px 18px;position:relative;box-shadow:var(--shadow)}
@@ -460,10 +482,12 @@ function viewDossier(date){
     const items=ed.items||[];
     h+=`<div class="dates" role="list">${eds.map(e=>{const dt=new Date(e.date+'T00:00:00');return `<a role="listitem" class="date" href="#day-${e.date}" aria-current="${e===ed}"><span>${dt.toLocaleDateString('en-IN',{month:'short'})}</span><b>${dt.getDate()}</b><span>${dt.toLocaleDateString('en-IN',{weekday:'short'})}</span></a>`}).join('')}</div>
     <div class="edhead"><h2>${esc(fmtDate(ed.date,{weekday:'long',day:'numeric',month:'long',year:'numeric'}))}</h2><span class="meta">${esc(ed.paper||'')} · ${items.length} item${items.length===1?'':'s'}</span></div>
-    <details class="toc" open><summary>In this edition: ${items.length} stories</summary><ol>${items.map((it,i)=>`<li><button data-jump="item-${esc(it.id)}"><span class="tn">${String(i+1).padStart(2,'0')}</span><span class="tt">${esc(it.title)}</span><span class="tg">${(it.gs||[]).map(g=>`<span class="gs ${esc(g)}">${esc(g)}</span>`).join('')}</span></button></li>`).join('')}</ol></details>
+    <details class="toc" open><summary>In this edition: ${items.length} stories</summary><ol>${items.map((it,i)=>`<li><button data-jump="item-${esc(it.id)}"><span class="tn">${String(i+1).padStart(2,'0')}</span><span class="tt">${esc(it.title)}</span><span class="tg">${(it.gs||[]).map(g=>`<span class="gs ${esc(g)}">${esc(g)}</span>`).join('')}</span></button></li>`).join('')}</ol>${(ed.ethics||[]).length?`<button class="btn" style="margin-top:10px" data-jump="ethics-today">For the Ethics paper (GS4): ${ed.ethics.length} cases ↓</button>`:''}</details>
     <div class="tool"><label class="search">${IC.search}<span class="sr">Search this edition</span><input id="q" type="search" placeholder="Search this edition" autocomplete="off"><kbd>/</kbd></label>
     <div class="chips" id="gsf">${['All','GS1','GS2','GS3','GS4'].map((g,i)=>`<button class="chip" aria-pressed="${i===0}" data-g="${g}">${g}</button>`).join('')}</div></div>
     <div class="cards" id="cards">${items.map(it=>cardHTML(Object.assign(it,{_ed:ed}))).join('')}</div>`;
+    const ec=CASES.filter(c=>c._ed===ed);
+    if(ec.length)h+=`<div class="eband" id="ethics-today"><div class="secth"><h2>For the Ethics paper (GS4)</h2><span>${ec.length} cases from today's paper · <a href="#ethics">Open the Ethics Casebook →</a></span></div><div class="egrid">${ec.map(c=>ecaseHTML(c,false)).join('')}</div></div>`;
   }
   h+=`</section></div>`;
   $('#main').innerHTML=h;fx();
@@ -483,6 +507,7 @@ function viewVault(){
     <p class="sub">Themes come from every GS 1, 2 and 3 Mains question from 2013 to 2026. Each Morning Edition item is filed under its themes, so before the exam you can revise a whole theme in one place.</p>
     <div class="stats"><div><b>${MM.meta.total}</b><span>Mains questions mapped</span></div><div><b>${MM.themes.length}</b><span>themes</span></div><div><b>${top}</b><span>top-priority themes</span></div><div><b>${ITEMS.length}</b><span>entries filed</span></div></div>
   </div></div><div class="wrap"><section class="block">
+  <a class="cbk" href="#ethics"><span><b>The Ethics Casebook (GS4)</b><br>${CASES.length} real cases from the news, sorted by area of applied ethics</span><span class="btn pri">Open →</span></a>
   <div class="tool"><label class="search">${IC.search}<span class="sr">Search themes</span><input id="q" type="search" placeholder="Search the Almanac, e.g. women, SHG, railways" autocomplete="off"><kbd>/</kbd></label>
   <select class="sel" id="sort" aria-label="Sort themes"><option value="g">By subject</option><option value="p">By priority</option><option value="e">Most entries</option><option value="a">A–Z</option></select></div>
   <div class="legend">Questions asked per year: <i style="background:var(--line2)"></i>0 <i style="background:#FDE7C2"></i>1 <i style="background:#F8BF6B"></i>2 <i style="background:#E58A14"></i>3 <i style="background:#9A4E06"></i>4+ · <b style="margin-left:6px">Top</b>&nbsp;= the 15 highest-ranked themes</div>
@@ -573,6 +598,33 @@ function viewSaved(){
 }
 
 
+
+// ---- The Ethics Casebook (GS4)
+const EAREA={env:['Environmental ethics','Our duties to nature and to those who share it: pollution, waste, land and water.'],justice:['Climate and global justice','Fairness between nations and generations.'],public:['Public service ethics','Integrity, impartiality and the use of power by those who serve the public.'],care:['Ethics of care and compassion','Dignity of the vulnerable: the old, the sick, those in danger.'],gender:['Gender justice','Equity that starts by seeing women\'s invisible burdens.'],lives:['Lessons from lives','Values shown by real people: sacrifice, courage, magnanimity.']};
+const CASES=[];(D.editions||[]).forEach(ed=>(ed.ethics||[]).forEach((c,i)=>{c._ed=ed;c._id=ed.date+'-e'+i;CASES.push(c)}));
+CASES.sort((a,b)=>b._ed.date<a._ed.date?-1:b._ed.date>a._ed.date?1:0);
+function ecaseHTML(c,showDate){
+  const A=EAREA[c.area]||[c.area,''];
+  return `<article class="ecase" data-area="${esc(c.area)}"><span class="ar">${esc(A[0])}</span><h4>${esc(c.title)}</h4><p>${esc(c.case)}</p>
+   <div class="ls"><b>Ethical lesson:</b> ${esc(c.lesson)}</div><div class="vs">${(c.values||[]).map(v=>`<span>${esc(v)}</span>`).join('')}</div>
+   <div class="ft2"><span class="src">${esc(c.src||'')}${showDate?' · '+esc(fmtDate(c._ed.date,{day:'numeric',month:'short',year:'numeric'})):''}</span><span>
+   ${c.card?(showDate?`<a class="btn" href="#day-${c._ed.date}">GS card</a>`:`<button class="btn" data-jump="item-${esc(c.card)}">GS card</button>`):''}
+   <button class="btn" data-ccopy="${esc(c._id)}">${IC.copy}Copy</button></span></div></article>`;
+}
+function viewCasebook(){
+  const areas=Object.keys(EAREA).filter(a=>CASES.some(c=>c.area===a));
+  $('#main').innerHTML=`<div class="hero"><canvas id="fx" aria-hidden="true"></canvas><div class="wrap">
+   <a class="back" href="#almanac">← The Almanac</a><div class="eyebrow">The Ethics Casebook · GS4</div>
+   <h1>Real cases for the Ethics paper.</h1>
+   <p class="sub">Every edition adds examples from the news, sorted by area of applied ethics. Each case gives the facts as reported, the ethical lesson, and the values it shows, ready for GS4 answers and case studies.</p>
+   <div class="stats"><div><b>${CASES.length}</b><span>cases filed</span></div><div><b>${areas.length}</b><span>areas of ethics</span></div><div><b>${new Set(CASES.map(c=>c._ed.date)).size}</b><span>editions</span></div></div>
+  </div></div><div class="wrap"><section class="block">
+   <div class="tool"><div class="chips" id="ear"><button class="chip" aria-pressed="true" data-a="">All</button>${areas.map(a=>`<button class="chip" aria-pressed="false" data-a="${a}">${esc(EAREA[a][0])}</button>`).join('')}</div></div>
+   ${areas.map(a=>{const cs=CASES.filter(c=>c.area===a);return `<div class="egrp" data-g="${a}"><h3>${esc(EAREA[a][0])} <span class="code">${cs.length}</span></h3><p class="gd">${esc(EAREA[a][1])}</p><div class="egrid">${cs.map(c=>ecaseHTML(c,true)).join('')}</div></div>`}).join('')||'<div class="nothing">Cases appear here with each edition.</div>'}
+  </section></div>`;fx();
+  $('#ear').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;document.querySelectorAll('#ear .chip').forEach(x=>x.setAttribute('aria-pressed',x===b));document.querySelectorAll('.egrp').forEach(g=>g.hidden=!!b.dataset.a&&g.dataset.g!==b.dataset.a)});
+}
+
 // ---- The Essay Column
 const E=window.MM_ESSAY||{topics:{},themes:[],notes:[],fodder:[]};
 const ETH={};E.themes.forEach(t=>{ETH[t.k]=t;t.newQ=[];t.oldQ=[]});
@@ -643,6 +695,7 @@ function viewEssayTheme(k){
 function copy(txt){(navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(txt):Promise.reject()).then(()=>toast('Copied to clipboard')).catch(()=>{const ta=document.createElement('textarea');ta.value=txt;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');toast('Copied to clipboard')}catch(e){toast('Copy not available here')}ta.remove()})}
 document.addEventListener('click',e=>{
   const s=e.target.closest('[data-save]');if(s){const id=s.dataset.save;SAVED.has(id)?SAVED.delete(id):SAVED.add(id);store.set('saved',[...SAVED]);s.setAttribute('aria-pressed',SAVED.has(id));s.innerHTML=IC.saved+(SAVED.has(id)?'Clipped':'Clip');toast(SAVED.has(id)?'Clipped for revision':'Removed from Clippings');nav(cur);return}
+  const cc=e.target.closest('[data-ccopy]');if(cc){const c=CASES.find(x=>x._id===cc.dataset.ccopy);if(c)copy(`GS4 ETHICS · ${(EAREA[c.area]||[c.area])[0]}\n${c.title}\n${c.case}\nEthical lesson: ${c.lesson}\nValues: ${(c.values||[]).join(', ')}\n(${c.src}, ${fmtDate(c._ed.date)})`);return}
   const ec=e.target.closest('[data-ecopy]');if(ec){const it=FOD.find(x=>x.id===ec.dataset.ecopy);if(it)copy(`${it.type.toUpperCase()}: ${it.title}\n${it.text}\nUse it for: ${it.use}\n(${it.src}, ${fmtDate(it._ed.date)})`);return}
   const c=e.target.closest('[data-copy]');if(c){const it=ITEMS.find(x=>x.id===c.dataset.copy);if(it)copy(notesText(it));return}
   const j=e.target.closest('[data-jump]');if(j){const el=document.getElementById(j.dataset.jump);if(el){el.hidden=false;el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1600)}return}
@@ -669,6 +722,7 @@ function route(){
   const h=(location.hash||'#edition').slice(1);closeDrawer();
   let m;const G='The Mains Gazette';
   if(h==='almanac'){cur='almanac';viewVault();document.title='The Almanac · '+G}
+  else if(h==='ethics'){cur='almanac';viewCasebook();document.title='The Ethics Casebook · '+G}
   else if(h==='essay'){cur='essay';viewEssay();document.title='The Essay Column · '+G}
   else if((m=h.match(/^essay-([a-z]+)$/))){cur='essay';viewEssayTheme(m[1]);document.title='Essay: '+(ETH[m[1]]?ETH[m[1]].n:'')+' · '+G}
   else if(h==='index'){cur='index';viewMap();document.title='PYQ Index · '+G}
