@@ -118,6 +118,10 @@ window.MM_DOSSIER={
       [
        "GS2-2026/Q16",
        "Rule of law: 'law on the books' versus 'law in action' when police turn debt disputes into criminal cases."
+      ],
+      [
+       "GS4-2023/Q5b",
+       "The police-as-debt-collector trend shows why probity matters for governance and public trust."
       ]
      ],
      "where": "The Ideas Page, page 13 (Abhinav Chandrachud)",
@@ -727,6 +731,10 @@ window.MM_DOSSIER={
       [
        "GS3-2026/Q7",
        "Nepal lost at least 10% of its hydropower facilities: infrastructure in fragile terrain."
+      ],
+      [
+       "GS4-2024/Q2b",
+       "Nepal's case shows who pays for 'development' driven by greed: low emitters, high losses."
       ]
      ],
      "where": "The Editorial Page, page 12 (editorial)",
@@ -936,6 +944,10 @@ window.MM_DOSSIER={
       [
        "GS3-2018/Q6",
        "Deposit-refund schemes as a collection model: Uttarakhand's returns rose from about 20% to nearly 90%."
+      ],
+      [
+       "GS4-2015/Q1a",
+       "Use the bottle-return scheme as an environmental issue seen through environmental ethics."
       ]
      ],
      "where": "Nation, page 11 (Express special)",
@@ -1025,6 +1037,10 @@ window.MM_DOSSIER={
       [
        "GS1-2022/Q5",
        "IMD forecasts and warnings driving early action in Andhra Pradesh and Odisha."
+      ],
+      [
+       "GS4-2019/Q7",
+       "Prioritising pregnant women before landfall: compassion and planning in disaster response."
       ]
      ],
      "where": "Nation, page 11",

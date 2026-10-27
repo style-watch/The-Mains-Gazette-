@@ -114,5 +114,14 @@ for it in ed["items"]:
     it["summary"]=v["summary"]; it["evolution"]=v["evolution"]
     it["ideas"]=v["ideas"]; it["keywords"]=v["keywords"]; it["data"]=v["data"]; it["examples"]=v["examples"]
     it["fmt"]=2
+
+# GS4 links added after the Ethics themes were built
+G4={"04":[["GS4-2023/Q5b","The police-as-debt-collector trend shows why probity matters for governance and public trust."]],
+    "18":[["GS4-2024/Q2b","Nepal's case shows who pays for 'development' driven by greed: low emitters, high losses."]],
+    "20":[["GS4-2015/Q1a","Use the bottle-return scheme as an environmental issue seen through environmental ethics."]],
+    "21":[["GS4-2019/Q7","Prioritising pregnant women before landfall: compassion and planning in disaster response."]]}
+for it in ed["items"]:
+    k=it["id"][-2:]
+    if k in G4: it["pyqs"]=[p for p in it.get("pyqs",[]) if not p[0].startswith("GS4")]+G4[k]
 open('/home/claude/mm/build/ed_20261027.json','w').write(json.dumps(ed,ensure_ascii=False,indent=1))
 print("v2 applied to",len(ed["items"]))

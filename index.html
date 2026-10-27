@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Mains Gazette</title>
-<meta name="description" content="The Mains Gazette: read the newspaper the UPSC Mains way. The Morning Edition turns each news item into Ideas, Keywords, Data and Examples; The Almanac files them under priority themes drawn from every GS 1–3 Mains question, 2013–2026.">
+<meta name="description" content="The Mains Gazette: read the newspaper the UPSC Mains way. The Morning Edition turns each news item into Ideas, Keywords, Data and Examples; The Almanac files them under priority themes drawn from every GS 1–4 Mains question, 2013–2026.">
 <meta name="theme-color" content="#14213D">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="The Mains Gazette">
@@ -110,6 +110,7 @@ nav.main .n{font-family:var(--mono);font-size:.7rem;background:var(--navy);color
 .kwi:first-of-type{border-top:0}
 .kwi b{color:#92400E;margin-right:6px}
 .kwi>span{font-size:.88rem;color:#374151}
+.case summary{cursor:pointer;list-style:none}.case summary::-webkit-details-marker{display:none}.case summary b{color:var(--saffron);white-space:nowrap}.case[open] summary{display:none}.case div{white-space:pre-line}
 /* essay column */
 .notes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
 .note{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px 18px;position:relative;box-shadow:var(--shadow)}
@@ -448,7 +449,7 @@ const TH={};MM.themes.forEach((t,i)=>{TH[t.k]=t;t.i=i;
   t.score=t.yrs*10+t.recent*6+t.q.length;
 });
 const ranked=[...MM.themes].sort((a,b)=>b.score-a.score);ranked.forEach((t,i)=>t.rank=i+1);
-function prio(t){return t.rank<=15?3:(t.rank<=35?2:1)}
+function prio(t){return t.yrs>=13?3:(t.yrs>=10?2:1)}
 const PRIO=['','Steady','High','Top'];
 function lvl(n){return n>=4?4:n>=3?3:n>=2?2:n>=1?1:0}
 
@@ -495,7 +496,7 @@ function heatHTML(t,big){
   return `<div class="heat">${t.byYear.map((n,i)=>`<i class="l${lvl(n)}" title="${YEARS[i]}: ${n} question${n===1?'':'s'}">${big&&n?n:''}</i>`).join('')}</div><div class="heatlbl">${YEARS.map(y=>`<span>${big?"'"+String(y).slice(2):(y===2013||y===2026?"'"+String(y).slice(2):'')}</span>`).join('')}</div>`;
 }
 function gsChips(a){return (a||[]).map(g=>`<span class="gs ${esc(g)}">${esc(g)}</span>`).join('')}
-function code(id){const [p,y,q]=MM.pyq[id];return `${p} · ${y}${q&&q!=='Q?'?' · '+q:''}`}
+function code(id){const [p,y,q]=MM.pyq[id];return `${p} · ${y}${q&&q!=='Q?'?' · '+q:''}${MM.pyq[id][6]?' · Case study':''}`}
 function fmtDate(s,o){try{return new Date(s+'T00:00:00').toLocaleDateString('en-IN',o||{day:'numeric',month:'long',year:'numeric'})}catch(e){return s}}
 function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>t.classList.remove('on'),1800)}
 
@@ -542,6 +543,8 @@ function cardHTML(it){
   ${(!(it.pyqs&&it.pyqs.length)&&asked.length)?`<details class="asked"><summary>Asked before in Mains: ${asked.length===4?'4+ related questions':asked.length+' related question'+(asked.length>1?'s':'')}</summary><ul>${asked.map(id=>`<li><span class="code">${code(id)}</span><span>${esc(qtext(id))}</span></li>`).join('')}</ul></details>`:''}
 </article>`;
 }
+function srcFlag(id){const p=MM.pyq[id];return p&&p[5]===1?' <sup title="Found in one compilation only">¹</sup>':''}
+function qHTML(id){const p=MM.pyq[id];if(!p)return '';const t=qtext(id);if(p[6]&&t.length>260)return `<details class="case"><summary>${esc(t.slice(0,220))}… <b>Read the full case</b></summary><div>${esc(t)}</div></details>`;return esc(t)}
 function qtext(id){const p=MM.pyq[id];return p?(p[4]||p[3]):''}
 const PYQNOTE="Questions are given in UPSC's exact wording where verified; 'Use it' lines are the editor's suggestions.";
 function notesText(it){
@@ -602,7 +605,7 @@ function viewDossier(date){
 }
 
 function tileHTML(t){
-  const n=(byTheme[t.k]||[]).length,p=prio(t);
+  const n=t.k.startsWith('g4')?CASES.filter(c=>(EMAP[c.area]||[]).includes(t.k)).length:(byTheme[t.k]||[]).length,p=prio(t);
   return `<a class="tile" href="#theme-${t.k}"><span class="rk">#${t.rank}</span><h4>${esc(t.n)}</h4><div class="pl">${esc(t.pl)}</div>${heatHTML(t)}<div class="nums"><span><b>${t.q.length}</b> Qs · <b>${t.yrs}</b>/14 yrs<span class="prio p${p}">${PRIO[p]}</span></span><span class="ent ${n?'':'zero'}">${n?n+' entr'+(n===1?'y':'ies'):'no entries yet'}</span></div></a>`;
 }
 function viewVault(){
@@ -610,13 +613,13 @@ function viewVault(){
   let h=`<div class="hero"><canvas id="fx" aria-hidden="true"></canvas><div class="wrap">
     <div class="eyebrow">The Almanac · the year, theme by theme</div>
     <h1>Priority themes, filled with the year's news.</h1>
-    <p class="sub">Themes come from every GS 1, 2 and 3 Mains question from 2013 to 2026. Each Morning Edition item is filed under its themes, so before the exam you can revise a whole theme in one place.</p>
+    <p class="sub">Themes come from every GS 1, 2, 3 and 4 (Ethics) Mains question from 2013 to 2026. Each Morning Edition item is filed under its themes, so before the exam you can revise a whole theme in one place.</p>
     <div class="stats"><div><b>${MM.meta.total}</b><span>Mains questions mapped</span></div><div><b>${MM.themes.length}</b><span>themes</span></div><div><b>${top}</b><span>top-priority themes</span></div><div><b>${ITEMS.length}</b><span>entries filed</span></div></div>
   </div></div><div class="wrap"><section class="block">
   <a class="cbk" href="#ethics"><span><b>The Ethics Casebook (GS4)</b><br>${CASES.length} real cases from the news, sorted by area of applied ethics</span><span class="btn pri">Open →</span></a>
   <div class="tool"><label class="search">${IC.search}<span class="sr">Search themes</span><input id="q" type="search" placeholder="Search the Almanac, e.g. women, SHG, railways" autocomplete="off"><kbd>/</kbd></label>
   <select class="sel" id="sort" aria-label="Sort themes"><option value="g">By subject</option><option value="p">By priority</option><option value="e">Most entries</option><option value="a">A–Z</option></select></div>
-  <div class="legend">Questions asked per year: <i style="background:var(--line2)"></i>0 <i style="background:#FDE7C2"></i>1 <i style="background:#F8BF6B"></i>2 <i style="background:#E58A14"></i>3 <i style="background:#9A4E06"></i>4+ · <b style="margin-left:6px">Top</b>&nbsp;= the 15 highest-ranked themes</div>
+  <div class="legend">Questions asked per year: <i style="background:var(--line2)"></i>0 <i style="background:#FDE7C2"></i>1 <i style="background:#F8BF6B"></i>2 <i style="background:#E58A14"></i>3 <i style="background:#9A4E06"></i>4+ · <b style="margin-left:6px">Top</b>&nbsp;= asked in 13–14 of the 14 papers · <b>High</b>&nbsp;= 10–12 · <b>Steady</b>&nbsp;= fewer</div>
   <div id="tiles"></div></section></div>`;
   $('#main').innerHTML=h;fx();
   const sort=$('#sort'),qi=$('#q');sort.value=store.get('vsort','g');
@@ -649,6 +652,7 @@ function viewTheme(k,tab){
   <div id="tabbody"></div></section></div>`;
   $('#main').innerHTML=h;fx();
   function sheet(){
+    if(k.startsWith('g4')){const cs=CASES.filter(c=>(EMAP[c.area]||[]).includes(k));return `<p class="note" style="margin-top:0">Cases from the news filed under this theme (from <a href="#ethics">The Ethics Casebook</a>). See the Past questions tab for every GS4 question on this theme.</p>`+(cs.length?`<div class="egrid">${cs.map(c=>ecaseHTML(c,true)).join('')}</div>`:`<div class="nothing">No news cases filed under this theme yet. They appear here as editions add them.</div>`)}
     if(!items.length)return `<div class="nothing">No news entries filed under this theme yet. As Morning Editions are added, their Ideas, Keywords, Data and Examples collect here, newest first.<br><br><a class="btn" href="#theme-${k}" data-tab="pyq">See the ${t.q.length} past questions</a></div>`;
     const row=(txt,it)=>`<div class="row">${txt}<span class="when"><a href="#day-${it._ed.date}">${esc(fmtDate(it._ed.date,{day:'numeric',month:'short'}))}</a> · ${esc(it.title)}</span></div>`;
     const box=(key,rows)=>`<div class="box"><h4 style="color:${LENS[key][2]}"><i style="background:${LENS[key][2]}">${LENS[key][0]}</i>${LENS[key][1]}</h4>${rows.join('')||'<span class="code">—</span>'}</div>`;
@@ -659,8 +663,8 @@ function viewTheme(k,tab){
   function cards(){return items.length?`<div class="cards">${items.map(cardHTML).join('')}</div>`:`<div class="nothing">No entries yet.</div>`}
   function pyq(){
     const by={};t.q.forEach(id=>{const y=MM.pyq[id][1];(by[y]=by[y]||[]).push(id)});
-    return `<div class="pyqs">${Object.keys(by).sort((a,b)=>b-a).map(y=>`<div class="yr"><b>${y}</b><ul>${by[y].sort((a,b)=>MM.pyq[a][0].localeCompare(MM.pyq[b][0])).map(id=>{const [pp,,q,g]=MM.pyq[id];return `<li><span class="gs ${pp}">${pp}</span><span class="code">${q&&q!=='Q?'?esc(q):''}</span><span>${esc(g)}</span></li>`}).join('')}</ul></div>`).join('')}</div>
-    <p class="note">These are short paraphrases of each question, not UPSC's exact wording. Use the year and question number to find the original in that year's paper. Papers covered: ${gsOf.join(', ')}.</p>`;
+    return `<div class="pyqs">${Object.keys(by).sort((a,b)=>b-a).map(y=>`<div class="yr"><b>${y}</b><ul>${by[y].sort((a,b)=>MM.pyq[a][0].localeCompare(MM.pyq[b][0])).map(id=>{const [pp,,q,g]=MM.pyq[id];return `<li><span class="gs ${pp}">${pp}</span><span class="code">${q&&q!=='Q?'?esc(q):''}${MM.pyq[id][6]?' · Case':''}</span><span>${qHTML(id)}${srcFlag(id)}</span></li>`}).join('')}</ul></div>`).join('')}</div>
+    <p class="note">Questions are shown in UPSC's exact wording, cross-checked across independent public compilations. Questions marked ¹ were found in only one compilation; verify them against the official paper on upsc.gov.in. Papers covered: ${gsOf.join(', ')}.</p>`;
   }
   function show(which){document.querySelectorAll('.tabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.t===which));$('#tabbody').innerHTML=which==='pyq'?pyq():which==='cards'?cards():sheet();
     const c=$('#cpy');if(c)c.onclick=()=>{const txt=[t.n.toUpperCase(),''].concat(['ideas','keywords','data','examples'].map(L=>{const rows=[];items.forEach(it=>(it[L]||[]).forEach(x=>rows.push('• '+(Array.isArray(x)?x.filter((v,i)=>i<2&&v).join(' — '):x)+'  ['+fmtDate(it._ed.date,{day:'numeric',month:'short'})+']')));return rows.length?L.toUpperCase()+'\n'+rows.join('\n'):''}).filter(Boolean)).join('\n\n');copy(txt)};
@@ -675,14 +679,14 @@ function viewMap(){
     <div class="eyebrow">PYQ Index · 2013 to 2026</div>
     <h1>Where the Mains paper keeps coming back.</h1>
     <p class="sub">Each row is a theme, each column a year. Darker cells mean more questions on that theme that year. Select a cell to read the questions.</p>
-    <div class="stats"><div><b>${MM.meta.total}</b><span>questions, GS 1–3</span></div><div><b>14</b><span>years</span></div><div><b>${MM.themes.length}</b><span>themes</span></div><div><b>${ranked.filter(t=>t.yrs===14).length}</b><span>asked every year</span></div></div>
+    <div class="stats"><div><b>${MM.meta.total}</b><span>questions, GS 1–4</span></div><div><b>14</b><span>years</span></div><div><b>${MM.themes.length}</b><span>themes</span></div><div><b>${ranked.filter(t=>t.yrs===14).length}</b><span>asked every year</span></div></div>
   </div></div><div class="wrap"><section class="block">
   <div class="tool"><select class="sel" id="msort" aria-label="Order rows"><option value="g">Group by subject</option><option value="p">Order by priority</option></select><div class="legend" style="margin:0">Questions in a year: <i style="background:#FDE7C2"></i>1 <i style="background:#F8BF6B"></i>2 <i style="background:#E58A14"></i>3 <i style="background:#9A4E06"></i>4+</div></div>
   <div class="mapwrap"><table class="map" id="map"></table></div>
   <div class="method">
     <div><b>Where the questions come from</b>${esc(MM.meta.source)}</div>
     <div><b>How themes were built</b>Each question was placed by its syllabus sub-topic, then by key terms in the question, then checked by hand. A question can sit in more than one theme: one on women's SHGs counts for Women and for SHGs.</div>
-    <div><b>How priority is ranked</b>By the number of years a theme was asked, how many of the last five papers asked it, and its total number of questions. The 15 highest-ranked themes are marked Top, the next 20 High.</div>
+    <div><b>How priority is ranked</b>Themes are labelled by how many of the 14 papers (2013–2026) asked them: Top = 13 or 14 papers, High = 10 to 12, Steady = fewer. Within a label, themes are ordered by years asked, how many of the last five papers asked them, and total questions.</div>
   </div></section></div>`;
   $('#main').innerHTML=h;fx();
   const sel=$('#msort');sel.value=store.get('msort','g');
@@ -693,7 +697,7 @@ function viewMap(){
     $('#map').innerHTML=`<thead><tr><th class="tn">Theme</th>${YEARS.map(y=>`<th scope="col">'${String(y).slice(2)}</th>`).join('')}<th scope="col" style="text-align:right;padding-right:12px">Total</th></tr></thead><tbody>${b}</tbody>`}
   sel.addEventListener('change',draw);draw();
   $('#map').addEventListener('click',e=>{const b=e.target.closest('button[data-k]');if(!b)return;const t=TH[b.dataset.k],y=+b.dataset.y;const ids=t.q.filter(id=>MM.pyq[id][1]===y);if(!ids.length)return;
-    $('#drawer-in').innerHTML=`<div style="display:flex;justify-content:space-between;gap:12px;align-items:flex-start"><h3 id="drawer-h">${esc(t.n)} · ${y}</h3><button class="btn" id="dclose">Close</button></div><ul style="list-style:none;padding:0;margin:0">${ids.map(id=>{const [pp,,q,g]=MM.pyq[id];return `<li style="display:flex;gap:10px;align-items:baseline;padding:6px 0;border-top:1px solid var(--line2)"><span class="gs ${pp}">${pp}</span><span class="code">${q&&q!=='Q?'?esc(q):''}</span><span>${esc(g)}</span></li>`}).join('')}</ul><p class="note"><a href="#theme-${t.k}">Open the ${esc(t.n)} theme →</a></p>`;
+    $('#drawer-in').innerHTML=`<div style="display:flex;justify-content:space-between;gap:12px;align-items:flex-start"><h3 id="drawer-h">${esc(t.n)} · ${y}</h3><button class="btn" id="dclose">Close</button></div><ul style="list-style:none;padding:0;margin:0">${ids.map(id=>{const [pp,,q,g]=MM.pyq[id];return `<li style="display:flex;gap:10px;align-items:baseline;padding:6px 0;border-top:1px solid var(--line2)"><span class="gs ${pp}">${pp}</span><span class="code">${q&&q!=='Q?'?esc(q):''}${MM.pyq[id][6]?' · Case':''}</span><span>${qHTML(id)}${srcFlag(id)}</span></li>`}).join('')}</ul><p class="note"><a href="#theme-${t.k}">Open the ${esc(t.n)} theme →</a></p>`;
     $('#drawer').classList.add('on');$('#dclose').onclick=closeDrawer;$('#dclose').focus()});
 }
 function closeDrawer(){$('#drawer').classList.remove('on')}
@@ -706,6 +710,7 @@ function viewSaved(){
 
 
 // ---- The Ethics Casebook (GS4)
+const EMAP={env:['g4env'],justice:['g4intl','g4gender'],public:['g4probity','g4integrity','g4leadership'],care:['g4psv','g4aptitude'],gender:['g4gender'],lives:['g4values']};
 const EAREA={env:['Environmental ethics','Our duties to nature and to those who share it: pollution, waste, land and water.'],justice:['Climate and global justice','Fairness between nations and generations.'],public:['Public service ethics','Integrity, impartiality and the use of power by those who serve the public.'],care:['Ethics of care and compassion','Dignity of the vulnerable: the old, the sick, those in danger.'],gender:['Gender justice','Equity that starts by seeing women\'s invisible burdens.'],lives:['Lessons from lives','Values shown by real people: sacrifice, courage, magnanimity.']};
 const CASES=[];(D.editions||[]).forEach(ed=>(ed.ethics||[]).forEach((c,i)=>{c._ed=ed;c._id=ed.date+'-e'+i;CASES.push(c)}));
 CASES.sort((a,b)=>b._ed.date<a._ed.date?-1:b._ed.date>a._ed.date?1:0);
@@ -858,7 +863,7 @@ function route(){
   else if((m=h.match(/^essay-([a-z]+)$/))){cur='essay';viewEssayTheme(m[1]);document.title='Essay: '+(ETH[m[1]]?ETH[m[1]].n:'')+' · '+G}
   else if(h==='index'){cur='index';viewMap();document.title='PYQ Index · '+G}
   else if(h==='clippings'){cur='clippings';viewSaved();document.title='Clippings · '+G}
-  else if((m=h.match(/^theme-([a-z]+)(?:-(pyq|cards))?$/))){cur='almanac';viewTheme(m[1],m[2]);document.title=(TH[m[1]]?TH[m[1]].n+' · ':'')+G}
+  else if((m=h.match(/^theme-([a-z0-9]+)(?:-(pyq|cards))?$/))){cur='almanac';viewTheme(m[1],m[2]);document.title=(TH[m[1]]?TH[m[1]].n+' · ':'')+G}
   else if((m=h.match(/^day-(\d{4}-\d{2}-\d{2})$/))){cur='edition';viewDossier(m[1]);document.title='Morning Edition · '+G}
   else{cur='edition';viewDossier();document.title=G+' · Morning Edition'}
   dateline();ticker();

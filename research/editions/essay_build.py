@@ -9,7 +9,7 @@ T=[ # (id, year, section, text, themes)
 ("2026B3",2026,"B","Shelving hard decisions is the least ethical course.",["ethics","power"]),
 ("2026B4",2026,"B","A good leader is one who follows the followers.",["power"]),
 ("2025A1",2025,"A","Truth knows no colour.",["ethics","reason"]),
-("2025A2",2025,"A","Supreme art of war is to subdue the enemy without fighting.",["power"]),
+("2025A2",2025,"A","The supreme art of war is to subdue the enemy without fighting.",["power"]),
 ("2025A3",2025,"A","Thought finds a world and creates one also.",["reason","learning"]),
 ("2025A4",2025,"A","Best lessons are learnt through bitter experiences.",["journey"]),
 ("2025B1",2025,"B","Muddy water is best cleared by leaving it alone.",["inner","ethics"]),

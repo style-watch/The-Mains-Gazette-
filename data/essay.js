@@ -82,7 +82,7 @@ window.MM_ESSAY={
   "2025A2": [
    2025,
    "A",
-   "Supreme art of war is to subdue the enemy without fighting.",
+   "The supreme art of war is to subdue the enemy without fighting.",
    [
     "power"
    ]
