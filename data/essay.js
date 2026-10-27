@@ -1015,26 +1015,10 @@ window.MM_ESSAY={
    "paper": "The Indian Express (Chandigarh)",
    "items": [
     {
-     "id": "e-2026-10-27-01",
-     "type": "Story",
-     "title": "Tigress T-138: not all who wander are lost",
-     "text": "Airlifted from Bihar to West Bengal's Buxa reserve to restart a tiger population, T-138 walked 35 km into Assam's Raimona National Park. Forest officials chose to let her explore, saying it is natural for tigers to range 70-80 km before settling.",
-     "use": "An opening anecdote for 'Not all who wander are lost': wandering as exploration, not failure. Also nature and the futility of drawing borders around life.",
-     "themes": [
-      "journey",
-      "nature"
-     ],
-     "src": "IE p. 11",
-     "topics": [
-      "2023A3",
-      "2026B1"
-     ]
-    },
-    {
      "id": "e-2026-10-27-02",
      "type": "Story",
      "title": "Jogen Chowdhury: refugee to master painter",
-     "text": "Born to a landed family in Faridpur (now Bangladesh), he became a penniless post-Partition refugee in Calcutta. He turned village women's kantha and alpona art into a modern idiom. The tribute calls him a 'hard optimist' and a 'dreamer of institutions'.",
+     "text": "Born into a landed family in Faridpur in pre-Partition East Bengal, he suffered a great reversal of fortune and became a post-Partition refugee in Calcutta. Drawing on memories of the kantha embroidery and alpona floor art of Bengal's village women, he built a personal modern idiom. The tribute calls him a 'hard optimist' and a 'dreamer of institutions'.",
      "use": "For 'A thorn is a changed bud', 'Best lessons are learnt through bitter experiences' and 'magical in the mundane' (art from folk floor drawings).",
      "themes": [
       "journey",
@@ -1051,9 +1035,9 @@ window.MM_ESSAY={
     {
      "id": "e-2026-10-27-04",
      "type": "Example",
-     "title": "Nepal and the climate 'elephants'",
-     "text": "Nepal produces about 0.1% of global emissions, yet lost over 1,400 lives and 10% of its hydropower in Himalayan floods. Rich countries agreed to the first loss-and-damage grant only after insisting it set no precedent.",
-     "use": "The perfect contemporary illustration of 'When two elephants fight, it is the grass that gets trampled', and of justice versus charity (compensation, not aid).",
+     "title": "Nepal and the first loss-and-damage grant",
+     "text": "Nepal accounts for barely 0.1% of global emissions, yet floods triggered by an ice-and-rock avalanche claimed more than 1,400 lives and destroyed at least 10% of its hydropower facilities. Developed countries agreed to the grant only after insisting it be treated as an exception, not a precedent.",
+     "use": "Our suggested link: a contemporary illustration of 'When two elephants fight, it is the grass that gets trampled', and of justice versus charity (compensation, not aid).",
      "themes": [
       "power",
       "justice",
@@ -1104,19 +1088,16 @@ window.MM_ESSAY={
     {
      "id": "e-2026-10-27-13",
      "type": "Story",
-     "title": "Two fathers, two sons and a language",
-     "text": "Tilak Varma and Nitish Reddy won a T20I in New Zealand while talking to each other in Telugu. Nitish's father left a stable job to support his training; Tilak's father, an electrician, spent sleepless nights making ends meet. The fathers now send each other good-morning messages daily.",
-     "use": "For 'A grateful mind is very beautiful', 'Life is a journey between human being and being humane' and 'Culture is what we are': pride in one's language on a world stage.",
+     "title": "Two fathers behind two India cricketers",
+     "text": "Behind Tilak Varma and Nitish Kumar Reddy, who won a T20I for India in New Zealand, stand two fathers who had hard years. Nitish's father, Mutyala Reddy, left a stable job at Hindustan Zinc Limited to support his son's practice in Visakhapatnam. Tilak's father, Nagaraju, an electrician, spent sleepless nights making ends meet so that his son could concentrate on cricket.",
+     "use": "For the role of parents and family in shaping a child's future: sacrifice made quietly, years before any success is visible. Fits 'Hand that rocks the cradle rules the world' (the family as the first institution).",
      "themes": [
-      "inner",
-      "journey",
-      "history"
+      "ethics",
+      "inner"
      ],
      "src": "IE p. 17",
      "topics": [
-      "2026A2",
-      "2020A1",
-      "2020B1"
+      "2021B1"
      ]
     },
     {
@@ -1139,7 +1120,7 @@ window.MM_ESSAY={
      "id": "e-2026-10-27-16",
      "type": "Data",
      "title": "FIDE's first survey of women in chess",
-     "text": "76% of 672 female respondents from 127 federations reported discrimination or harassment. 44% considered quitting, and 54% never had a female mentor. India was the largest contributor, with 69 respondents.",
+     "text": "76% of 672 female respondents from 127 federations reported discrimination or harassment. 44% considered stepping away from chess, and 54% never had a female role model or mentor. India was the largest contributor, with 69 respondents.",
      "use": "Fresh data for gender-justice essays ('Patriarchy is the least noticed yet most significant structure...'). The lack of mentors shows 'restrictions' at work.",
      "themes": [
       "justice"

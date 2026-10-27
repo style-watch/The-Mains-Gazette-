@@ -394,7 +394,7 @@ window.MM_DOSSIER={
       "intl",
       "neighbour"
      ],
-     "context": "The UN's Fund for Loss and Damage has allocated $21.6 million (about Rs 190 crore) to Nepal after the August floods. It is the first time the Fund has earmarked a grant for a disaster-affected nation. The Indian Express argues the episode should become a case study for reforming the Fund.",
+     "context": "The UN's Fund for Loss and Damage has allocated $21.6 million (about Rs 190 crore) to Nepal, nearly two months after devastating floods. It is the first time the Fund has earmarked a grant for a disaster-affected nation. The Indian Express argues the episode should become a case study for reforming the Fund.",
      "ideas": [
       "Compensation, not charity: the Fund rests on the principle of climate compensation, which raises the uncomfortable question of responsibility for climate change.",
       "Equity: Nepal accounts for barely 0.1% of global emissions yet is on the frontline of Himalayan climate risk.",
@@ -485,8 +485,8 @@ window.MM_DOSSIER={
      ],
      "context": "Punjab has recorded 684 farm fires this season, 457 of them (69%) in Tarn Taran and Amritsar. Early harvesting of short-duration paddy in the Majha region lets farmers fit in a third crop of peas or potatoes before wheat, which leaves little time to clear fields without burning.",
      "ideas": [
-      "The problem is the crop calendar, not just machines: both districts have enough residue machines, but farmers squeezing in a third crop won't lose even a day.",
-      "Cost and convenience: hiring machinery can cost more than burning, so subsidies and timing matter as much as availability.",
+      "The problem is the crop calendar, not just machines: an Agriculture Department official says stubble-management machinery is available, but farmers squeezing in a third crop won't lose even a day.",
+      "Cost and convenience: some farmers see hiring machinery as costlier than burning, so subsidies and timing matter as much as availability.",
       "Behaviour change: farmers need awareness of the health, soil-fertility and pollution costs of burning.",
       "Progress is visible: fires so far are below last year's 743 and far below 2024's 1,857 for the same period.",
       "Diversification as a long-term fix: moving away from the paddy-wheat cycle reduces residue load (see the Haryana sweet-corn example)."
@@ -760,7 +760,7 @@ window.MM_DOSSIER={
      "title": "The stubble dilemma in Punjab",
      "card": "2026-10-27-19",
      "src": "IE p. 6",
-     "case": "Of 684 farm fires this season, 457 (69%) are in Tarn Taran and Amritsar. Early paddy lets farmers fit in a third crop of peas or potatoes before wheat, leaving little time to clear fields without burning. Clean Air Punjab's Sanjha Mittar helpline guides farmers to alternatives.",
+     "case": "Of 684 farm fires this season, 457 (69%) are in Tarn Taran and Amritsar. Early paddy lets farmers fit in a third crop of peas or potatoes before wheat, leaving little time to clear fields without burning. A new helpline from the Sanjha Mittar Farmer Support Centre (associated with Clean Air Punjab) supports farmers. An official says the challenge is not only machinery but making farmers aware of the health and environmental harm of burning.",
      "lesson": "A choice that is rational for one farmer imposes a health cost on millions: private gain against public harm. Support and persuasion address the farmer's constraint; punishment alone does not.",
      "values": [
       "Public interest",
@@ -786,7 +786,7 @@ window.MM_DOSSIER={
      "title": "Nepal and the first Loss and Damage payout",
      "card": "2026-10-27-18",
      "src": "IE p. 12",
-     "case": "The UN Fund for Loss and Damage allocated $21.6 million (about Rs 190 crore) to Nepal after the August floods, the first time it has earmarked a grant for a disaster-hit nation. The Indian Express argues that compensation must come faster.",
+     "case": "The UN Fund for Loss and Damage allocated $21.6 million (about Rs 190 crore) to Nepal nearly two months after devastating floods, the first time it has earmarked a grant for a disaster-hit nation. The Indian Express argues that compensation must come faster.",
      "lesson": "Those who emitted least often suffer most. Climate justice rests on common but differentiated responsibilities and on fairness to future generations; relief that comes late is justice delayed.",
      "values": [
       "Fairness",
@@ -848,15 +848,15 @@ window.MM_DOSSIER={
     },
     {
      "area": "lives",
-     "title": "Two fathers, two sons and a language",
+     "title": "Two fathers behind two India cricketers",
      "card": null,
      "src": "IE p. 17 (Sports)",
-     "case": "Tilak Varma and Nitish Kumar Reddy put on 69 off 30 balls, speaking Telugu, to win the second T20I in New Zealand. Nitish's father Mutyala Reddy left a stable job at Hindustan Zinc to support his training; Tilak's father Nagaraju, an electrician, spent sleepless nights making ends meet. Mutyala said he usually prays for his own son, 'that is my self-interest', but this time prayed for both.",
-     "lesson": "Sacrifice by parents, friendship over rivalry, and pride in one's mother tongue without show. A ready example for going beyond self-interest and for family as a source of values.",
+     "case": "Tilak Varma and Nitish Kumar Reddy won a T20I for India in New Zealand. The report notes that both fathers had hard years: Nitish's father, Mutyala Reddy, left a stable job at Hindustan Zinc Limited to support his son's practice in Visakhapatnam; Tilak's father, Nagaraju, an electrician, spent sleepless nights making ends meet so that his son could concentrate on cricket.",
+     "lesson": "Parents and family are the first shapers of a child's future. Their quiet sacrifice, made years before any success is visible, is how values like commitment and perseverance are passed on.",
      "values": [
-      "Sacrifice",
-      "Magnanimity",
-      "Cultural pride"
+      "Parental sacrifice",
+      "Role of family",
+      "Commitment"
      ]
     }
    ]
