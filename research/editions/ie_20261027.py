@@ -301,9 +301,65 @@ C(25,"Jogen Chowdhury's art of the personal, political and social","Editorial pa
  [["87","Age at death","IE"],["1972","Became Keeper of Art at Rashtrapati Bhavan","IE"],["1987","Joined Kala Bhavan, Santiniketan","IE"]],
  [["Jogen Chowdhury","Example of Partition's influence on modern Indian art"]]),
 ]
+
+# ---- Shared by the user (Telegram link to IE Explained, 27 Oct). IE site is not readable from here, so facts are taken only from
+# reports confirmed by CNBC (26 Oct 2026), GeekWire and CBS News. India-specific details from the IE explainer are not included.
+MS=C(26,"Microsoft offers voluntary exit to about 60,000 employees, including staff in India","Shared link","Online, 26-27 Oct",["GS3"],
+ "GS3 › Indian economy: employment; Science and technology: developments and their effects (AI)",
+ ["jobs","techai"],
+ "Microsoft announced a 'Voluntary Exit Offer' for eligible employees in the US, Canada, the UK and India, at its experience level 70 or below. About 60,000 people, roughly a quarter of its 223,000 workforce, are eligible. Reports link the move to the company's effort to balance a costly AI infrastructure build-out with capital efficiency.",
+ ["Technology and jobs: big firms are reshaping their workforce as spending shifts to AI infrastructure, a live example of technology-driven restructuring (editor's framing).",
+  "A softer tool than layoffs: a voluntary exit with standard severance lets employees choose, but it still shrinks the workforce; this is the company's second such programme in six months.",
+  "India angle: India is one of only four countries covered, a reminder that India's large tech workforce is exposed to decisions taken by global firms (editor's framing).",
+  "Policy response to discuss: reskilling for AI-era roles and social security for white-collar and tech workers (editor's framing)."],
+ [["Voluntary Exit Offer / VRS","Employer offers a package to employees who choose to leave"],["Severance","Payment given to an employee on leaving the job"],["Structural unemployment","Job loss caused by changes in technology or the structure of the economy, not by a downturn"],["Reskilling","Training workers for new kinds of work"]],
+ [["~60,000","Employees eligible for the Voluntary Exit Offer","CNBC (person familiar); company to GeekWire"],["About a quarter (27%)","Share of Microsoft's 223,000 workforce eligible","CNBC, GeekWire"],["Early December / 31 December","Decision deadline / exit date for those who accept","CNBC (person familiar)"],["4 countries","US, Canada, UK and India","Microsoft memo, via CNBC"]],
+ [["Microsoft's spring 2026 voluntary retirement programme","Its first-ever such programme, six months earlier, for long-serving US staff (GeekWire)"]])
+MS["paper"]="Indian Express Explained (online, shared by you)"
+MS["sources"]="Facts from CNBC (26 Oct 2026), GeekWire and CBS News. The Indian Express explainer you shared could not be opened here, so its India-specific details are not included."
+items.append(MS)
+
 # Editor's cut (27 Oct): keep only stories that map to recurring priority themes; drop contested/one-off items.
-KEEP={"04","07","09","11","16","18","19","20","21","22"}
+KEEP={"04","07","09","11","13","16","18","19","20","21","22","26"}
 items=[it for it in items if it["id"][-2:] in KEEP]
+# ---- "Asked before in Mains": curated PYQs per card, with where this news fits in the answer (editor's suggestions).
+PY={
+"04":[["GS2-2023/Q2","Free legal aid is not enough if justice takes decades: cite the 79-year Bombay HC suit and 1.9 judges per million."],
+      ["GS2-2024/Q2","Argue for Lok Adalats and ADR: when civil suits take 20+ years, settlements move to police stations instead."],
+      ["GS2-2026/Q16","Rule of law: 'law on the books' versus 'law in action' when police turn debt disputes into criminal cases."]],
+"07":[["GS1-2026/Q19","Ageing is a core challenge of the demographic transition; Keralam's law is a policy response."],
+      ["GS1-2013/Q17","As family support weakens, the state steps in with a rights framework for the aged."],
+      ["GS2-2026/Q12","The Bill recognises living wills for senior citizens, linking to the passive-euthanasia debate."]],
+"09":[["GS3-2024/Q19","Face-offs in Arunachal's Taksing area and the ITBP's role on the China border."],
+      ["GS3-2016/Q19","Border management needs mechanisms like Corps Commander talks to avoid 'misunderstanding and miscalculation'."]],
+"11":[["GS3-2022/Q12","Capacity is not the only target: a solar-hour glut with night deficits shows storage and transmission are the bottleneck."],
+      ["GS3-2026/Q11","Grid flexibility and storage as part of energy security."],
+      ["GS3-2015/Q9","Cheap solar now forces coal plants to ramp up and down, shortening their life."]],
+"13":[["GS3-2026/Q11","Higher ethanol blends reduce dependence on imported crude."],
+      ["GS3-2023/Q15","Flex-fuel vehicles as a parallel route to cleaner transport alongside EVs."]],
+"16":[["GS3-2023/Q12","Measuring household responsibilities makes the care burden on women entrepreneurs visible."],
+      ["GS1-2024/Q8","Use the LFPR gap (34.6% women vs 77.4% men) to show equity needs targeted support."],
+      ["GS3-2016/Q1","27% of informal enterprises are headed by women; informality shapes their constraints."]],
+"18":[["GS3-2025/Q18","Loss-and-damage finance as part of climate commitments: first grant, $822 million pledged against far larger claims."],
+      ["GS3-2017/Q17","Nepal's avalanche-triggered floods as a Himalayan climate hazard with cross-border lessons."],
+      ["GS3-2026/Q7","Nepal lost at least 10% of its hydropower facilities: infrastructure in fragile terrain."]],
+"19":[["GS3-2021/Q14","Majha's third crop and Manauli's shift to sweet corn show diversification in practice."],
+      ["GS3-2025/Q3","Why farmers choose high-value crops: Manauli's returns and market links."],
+      ["GS3-2020/Q17","Farm fires and clean air: 684 fires so far against 743 last year and 1,857 in 2024."]],
+"20":[["GS3-2026/Q17","Directly usable: Delhi's 1,500 tonnes of plastic waste a day, 19% unprocessed, and the deposit-refund fix."],
+      ["GS3-2018/Q6","Deposit-refund schemes as a collection model: Uttarakhand's returns rose from about 20% to nearly 90%."]],
+"21":[["GS3-2020/Q18","Proactive rather than reactive: 4,711 pregnant women moved to health centres before landfall."],
+      ["GS3-2024/Q17","Resilience means protecting the most vulnerable first; NDRF and SDRF teams in place early."],
+      ["GS1-2022/Q5","IMD forecasts and warnings driving early action in Andhra Pradesh and Odisha."]],
+"22":[["GS3-2014/Q14","El Niño as a drought driver: the 2026 monsoon ended at 87% of LPA."],
+      ["GS1-2014/Q16","WMO warning: anomaly of 3.8°C expected, never recorded in four decades of monitoring."],
+      ["GS1-2023/Q4","Effects into 2027 on food and water security."]],
+"26":[["GS3-2026/Q16","AI is reshaping work: firms are cutting staff to fund AI infrastructure."],
+      ["GS3-2023/Q11","Technology-driven job loss as structural unemployment."],
+      ["GS1-2021/Q17","India's tech workforce in IT cities is exposed to global restructuring."]],
+}
+for it in items: it["pyqs"]=PY.get(it["id"][-2:],[])
+
 # GS4 Ethics casebook entries for this edition: facts as reported in the paper; "lesson" and "values" are the editor's framing.
 ETHICS=[
  dict(area="env",title="Manauli, Haryana's 'sweet corn village'",card="2026-10-27-19",src="IE p. 4",

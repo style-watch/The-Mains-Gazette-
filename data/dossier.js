@@ -107,6 +107,20 @@ window.MM_DOSSIER={
        "Use for integrity and resisting improper influence",
        "GS4"
       ]
+     ],
+     "pyqs": [
+      [
+       "GS2-2023/Q2",
+       "Free legal aid is not enough if justice takes decades: cite the 79-year Bombay HC suit and 1.9 judges per million."
+      ],
+      [
+       "GS2-2024/Q2",
+       "Argue for Lok Adalats and ADR: when civil suits take 20+ years, settlements move to police stations instead."
+      ],
+      [
+       "GS2-2026/Q16",
+       "Rule of law: 'law on the books' versus 'law in action' when police turn debt disputes into criminal cases."
+      ]
      ]
     },
     {
@@ -178,6 +192,20 @@ window.MM_DOSSIER={
        "Use for compassion, duty and family values",
        "GS4"
       ]
+     ],
+     "pyqs": [
+      [
+       "GS1-2026/Q19",
+       "Ageing is a core challenge of the demographic transition; Keralam's law is a policy response."
+      ],
+      [
+       "GS1-2013/Q17",
+       "As family support weakens, the state steps in with a rights framework for the aged."
+      ],
+      [
+       "GS2-2026/Q12",
+       "The Bill recognises living wills for senior citizens, linking to the passive-euthanasia debate."
+      ]
      ]
     },
     {
@@ -239,6 +267,16 @@ window.MM_DOSSIER={
       [
        "Modi-Xi talks at BRICS summit, New Delhi",
        "Emphasis on sensitivity to each other's core issues"
+      ]
+     ],
+     "pyqs": [
+      [
+       "GS3-2024/Q19",
+       "Face-offs in Arunachal's Taksing area and the ITBP's role on the China border."
+      ],
+      [
+       "GS3-2016/Q19",
+       "Border management needs mechanisms like Corps Commander talks to avoid 'misunderstanding and miscalculation'."
       ]
      ]
     },
@@ -317,6 +355,79 @@ window.MM_DOSSIER={
        "Solar glut and night deficits, 2026",
        "Example for energy transition and grid-flexibility answers"
       ]
+     ],
+     "pyqs": [
+      [
+       "GS3-2022/Q12",
+       "Capacity is not the only target: a solar-hour glut with night deficits shows storage and transmission are the bottleneck."
+      ],
+      [
+       "GS3-2026/Q11",
+       "Grid flexibility and storage as part of energy security."
+      ],
+      [
+       "GS3-2015/Q9",
+       "Cheap solar now forces coal plants to ramp up and down, shortening their life."
+      ]
+     ]
+    },
+    {
+     "id": "2026-10-27-13",
+     "title": "Govt notifies E100 as auto fuel for flex-fuel vehicles",
+     "section": "Economy",
+     "page": "p. 15",
+     "gs": [
+      "GS3"
+     ],
+     "syllabus": "GS3 › Infrastructure: energy; Environment (pollution); Agriculture-linked industry",
+     "themes": [
+      "energy",
+      "climate",
+      "pollution"
+     ],
+     "context": "The Ministry of Road Transport and Highways amended the Central Motor Vehicle Rules to allow flex-fuel vehicles to run on up to E100 (nearly pure ethanol). Ordinary petrol or E20 vehicles cannot use E100.",
+     "ideas": [
+      "Import substitution: higher ethanol blends reduce dependence on imported crude, which is especially relevant amid West Asia supply shocks.",
+      "Emissions: ethanol has a lower fossil carbon footprint and can cut tailpipe carbon monoxide and some hydrocarbons, depending on feedstock and production pathway.",
+      "Ecosystem push: the rule paves the way for flex-fuel components, ethanol production infrastructure and vehicles.",
+      "Trade-offs to examine: feedstock competition with food and water use (sugarcane, grains), and vehicle compatibility debates seen with E20."
+     ],
+     "keywords": [
+      [
+       "Flex-fuel vehicle (FFV)",
+       "Vehicle that can run on varying petrol-ethanol blends"
+      ],
+      [
+       "E20 / E85 / E100",
+       "Petrol with 20%, 85% or ~100% ethanol"
+      ],
+      [
+       "Lifecycle emissions",
+       "Emissions across production, transport and use"
+      ]
+     ],
+     "data": [
+      [
+       "Up to E100",
+       "Blend now permitted for flex-fuel vehicles",
+       "MoRTH, via IE"
+      ]
+     ],
+     "examples": [
+      [
+       "Fuel compatibility sticker",
+       "Motorists must check vehicle stickers and owner's manuals before choosing fuel"
+      ]
+     ],
+     "pyqs": [
+      [
+       "GS3-2026/Q11",
+       "Higher ethanol blends reduce dependence on imported crude."
+      ],
+      [
+       "GS3-2023/Q15",
+       "Flex-fuel vehicles as a parallel route to cleaner transport alongside EVs."
+      ]
      ]
     },
     {
@@ -375,6 +486,20 @@ window.MM_DOSSIER={
       [
        "ASUSE questionnaire revision",
        "Comments invited till 15 November; example of gender-responsive statistics"
+      ]
+     ],
+     "pyqs": [
+      [
+       "GS3-2023/Q12",
+       "Measuring household responsibilities makes the care burden on women entrepreneurs visible."
+      ],
+      [
+       "GS1-2024/Q8",
+       "Use the LFPR gap (34.6% women vs 77.4% men) to show equity needs targeted support."
+      ],
+      [
+       "GS3-2016/Q1",
+       "27% of informal enterprises are headed by women; informality shapes their constraints."
       ]
      ]
     },
@@ -467,6 +592,20 @@ window.MM_DOSSIER={
        "Use for fairness and intergenerational equity",
        "GS4"
       ]
+     ],
+     "pyqs": [
+      [
+       "GS3-2025/Q18",
+       "Loss-and-damage finance as part of climate commitments: first grant, $822 million pledged against far larger claims."
+      ],
+      [
+       "GS3-2017/Q17",
+       "Nepal's avalanche-triggered floods as a Himalayan climate hazard with cross-border lessons."
+      ],
+      [
+       "GS3-2026/Q7",
+       "Nepal lost at least 10% of its hydropower facilities: infrastructure in fragile terrain."
+      ]
      ]
     },
     {
@@ -540,6 +679,20 @@ window.MM_DOSSIER={
        "Manauli, Sonipat: 'sweet corn village' (IE p. 4)",
        "70% of 2,000 acres moved from paddy to sweet corn and vegetables; FPO and e-commerce tie-ups; ~Rs 50,000 profit per acre"
       ]
+     ],
+     "pyqs": [
+      [
+       "GS3-2021/Q14",
+       "Majha's third crop and Manauli's shift to sweet corn show diversification in practice."
+      ],
+      [
+       "GS3-2025/Q3",
+       "Why farmers choose high-value crops: Manauli's returns and market links."
+      ],
+      [
+       "GS3-2020/Q17",
+       "Farm fires and clean air: 684 fires so far against 743 last year and 1,857 in 2024."
+      ]
      ]
     },
     {
@@ -607,6 +760,16 @@ window.MM_DOSSIER={
        "Singapore, Hong Kong, UK",
        "International examples of deposit-return systems"
       ]
+     ],
+     "pyqs": [
+      [
+       "GS3-2026/Q17",
+       "Directly usable: Delhi's 1,500 tonnes of plastic waste a day, 19% unprocessed, and the deposit-refund fix."
+      ],
+      [
+       "GS3-2018/Q6",
+       "Deposit-refund schemes as a collection model: Uttarakhand's returns rose from about 20% to nearly 90%."
+      ]
      ]
     },
     {
@@ -662,6 +825,20 @@ window.MM_DOSSIER={
       [
        "Evacuation of pregnant women, AP",
        "Example of gender-sensitive disaster response"
+      ]
+     ],
+     "pyqs": [
+      [
+       "GS3-2020/Q18",
+       "Proactive rather than reactive: 4,711 pregnant women moved to health centres before landfall."
+      ],
+      [
+       "GS3-2024/Q17",
+       "Resilience means protecting the most vulnerable first; NDRF and SDRF teams in place early."
+      ],
+      [
+       "GS1-2022/Q5",
+       "IMD forecasts and warnings driving early action in Andhra Pradesh and Odisha."
       ]
      ]
     },
@@ -737,6 +914,103 @@ window.MM_DOSSIER={
       [
        "WMO warning of 21 October 2026",
        "Use in answers on climate variability and food security"
+      ]
+     ],
+     "pyqs": [
+      [
+       "GS3-2014/Q14",
+       "El Niño as a drought driver: the 2026 monsoon ended at 87% of LPA."
+      ],
+      [
+       "GS1-2014/Q16",
+       "WMO warning: anomaly of 3.8°C expected, never recorded in four decades of monitoring."
+      ],
+      [
+       "GS1-2023/Q4",
+       "Effects into 2027 on food and water security."
+      ]
+     ]
+    },
+    {
+     "id": "2026-10-27-26",
+     "title": "Microsoft offers voluntary exit to about 60,000 employees, including staff in India",
+     "section": "Shared link",
+     "page": "Online, 26-27 Oct",
+     "gs": [
+      "GS3"
+     ],
+     "syllabus": "GS3 › Indian economy: employment; Science and technology: developments and their effects (AI)",
+     "themes": [
+      "jobs",
+      "techai"
+     ],
+     "context": "Microsoft announced a 'Voluntary Exit Offer' for eligible employees in the US, Canada, the UK and India, at its experience level 70 or below. About 60,000 people, roughly a quarter of its 223,000 workforce, are eligible. Reports link the move to the company's effort to balance a costly AI infrastructure build-out with capital efficiency.",
+     "ideas": [
+      "Technology and jobs: big firms are reshaping their workforce as spending shifts to AI infrastructure, a live example of technology-driven restructuring (editor's framing).",
+      "A softer tool than layoffs: a voluntary exit with standard severance lets employees choose, but it still shrinks the workforce; this is the company's second such programme in six months.",
+      "India angle: India is one of only four countries covered, a reminder that India's large tech workforce is exposed to decisions taken by global firms (editor's framing).",
+      "Policy response to discuss: reskilling for AI-era roles and social security for white-collar and tech workers (editor's framing)."
+     ],
+     "keywords": [
+      [
+       "Voluntary Exit Offer / VRS",
+       "Employer offers a package to employees who choose to leave"
+      ],
+      [
+       "Severance",
+       "Payment given to an employee on leaving the job"
+      ],
+      [
+       "Structural unemployment",
+       "Job loss caused by changes in technology or the structure of the economy, not by a downturn"
+      ],
+      [
+       "Reskilling",
+       "Training workers for new kinds of work"
+      ]
+     ],
+     "data": [
+      [
+       "~60,000",
+       "Employees eligible for the Voluntary Exit Offer",
+       "CNBC (person familiar); company to GeekWire"
+      ],
+      [
+       "About a quarter (27%)",
+       "Share of Microsoft's 223,000 workforce eligible",
+       "CNBC, GeekWire"
+      ],
+      [
+       "Early December / 31 December",
+       "Decision deadline / exit date for those who accept",
+       "CNBC (person familiar)"
+      ],
+      [
+       "4 countries",
+       "US, Canada, UK and India",
+       "Microsoft memo, via CNBC"
+      ]
+     ],
+     "examples": [
+      [
+       "Microsoft's spring 2026 voluntary retirement programme",
+       "Its first-ever such programme, six months earlier, for long-serving US staff (GeekWire)"
+      ]
+     ],
+     "paper": "Indian Express Explained (online, shared by you)",
+     "sources": "Facts from CNBC (26 Oct 2026), GeekWire and CBS News. The Indian Express explainer you shared could not be opened here, so its India-specific details are not included.",
+     "pyqs": [
+      [
+       "GS3-2026/Q16",
+       "AI is reshaping work: firms are cutting staff to fund AI infrastructure."
+      ],
+      [
+       "GS3-2023/Q11",
+       "Technology-driven job loss as structural unemployment."
+      ],
+      [
+       "GS1-2021/Q17",
+       "India's tech workforce in IT cities is exposed to global restructuring."
       ]
      ]
     }

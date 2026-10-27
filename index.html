@@ -233,6 +233,15 @@ select.sel{font:inherit;font-size:.88rem;border:1px solid var(--line);background
 .tlinks{display:flex;flex-wrap:wrap;gap:6px;flex:1}
 .tlink{font-size:.8rem;font-weight:600;text-decoration:none;color:var(--navy);background:#EEF1F8;border-radius:8px;padding:3px 9px}
 .tlink:hover{background:#DFE5F3}
+.wfit{border-top:1px solid var(--line);padding:14px 20px 16px;background:#F5F7FC}
+.wfit h5{margin:0 0 8px;font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--navy);font-weight:600}
+.wfit ol{margin:0;padding:0;list-style:none;display:grid;gap:8px}
+.wfit li{display:block;background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 12px}
+.wfit .pq{display:flex;gap:8px;align-items:baseline;font-weight:600;font-size:.9rem}
+.wfit .pu{font-size:.86rem;color:#374151;margin-top:3px}
+.wfit .pu b{color:var(--saffron)}
+.wfit .nt{font-size:.74rem;color:var(--soft);margin-top:8px}
+.srcn{font-size:.8rem;color:var(--muted);background:#FFF8EC;border-radius:8px;padding:6px 10px;margin:0 20px 12px}
 .asked{border-top:1px dashed var(--line);padding:10px 20px 14px;background:#FCFBF8;font-size:.86rem}
 .asked summary{cursor:pointer;font-weight:600;color:var(--muted)}
 .asked ul{margin:8px 0 0;padding-left:0;list-style:none}
@@ -431,7 +440,7 @@ function cardHTML(it){
     <div class="tags">${gsChips(it.gs)}<span class="path">${esc(it.syllabus||'')}</span></div>
     <h3>${esc(it.title)}</h3>
     ${it.context?`<p class="ctx">${esc(it.context)}</p>`:''}
-    <div class="src">${esc(it._ed.paper||'')}${it.section?' · '+esc(it.section):''}${it.page?' · '+esc(it.page):''} · ${esc(fmtDate(it._ed.date,{day:'numeric',month:'short',year:'numeric'}))}${it.url?` · <a href="${esc(it.url)}" target="_blank" rel="noopener">Read the article</a>`:''}</div>
+    <div class="src">${esc(it.paper||it._ed.paper||'')}${it.section?' · '+esc(it.section):''}${it.page?' · '+esc(it.page):''} · ${esc(fmtDate(it._ed.date,{day:'numeric',month:'short',year:'numeric'}))}${it.url?` · <a href="${esc(it.url)}" target="_blank" rel="noopener">Read the article</a>`:''}</div>
   </div>
   <div class="matrix">
     ${q('ideas',ideas.length?`<ul>${ideas.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:'')}
@@ -444,14 +453,17 @@ function cardHTML(it){
     <button class="btn" data-save="${esc(it.id)}" aria-pressed="${SAVED.has(it.id)}">${IC.saved}${SAVED.has(it.id)?'Clipped':'Clip'}</button>
     <button class="btn" data-copy="${esc(it.id)}">${IC.copy}Copy notes</button>
   </div>
-  ${asked.length?`<details class="asked"><summary>Asked before in Mains: ${asked.length===4?'4+ related questions':asked.length+' related question'+(asked.length>1?'s':'')}</summary><ul>${asked.map(id=>`<li><span class="code">${code(id)}</span><span>${esc(MM.pyq[id][3])}</span></li>`).join('')}</ul></details>`:''}
+  ${it.sources?`<div class="srcn"><b>Sources:</b> ${esc(it.sources)}</div>`:''}
+  ${(it.pyqs&&it.pyqs.length)?`<div class="wfit"><h5>Asked before in Mains · where this news fits</h5><ol>${it.pyqs.filter(p=>MM.pyq[p[0]]).map(p=>`<li><div class="pq"><span class="code">${code(p[0])}</span><span>${esc(MM.pyq[p[0]][3])}</span></div><div class="pu"><b>Use it:</b> ${esc(p[1])}</div></li>`).join('')}</ol><div class="nt">Question topics are summarised. 'Use it' lines are the editor's suggestions.</div></div>`:''}
+  ${(!(it.pyqs&&it.pyqs.length)&&asked.length)?`<details class="asked"><summary>Asked before in Mains: ${asked.length===4?'4+ related questions':asked.length+' related question'+(asked.length>1?'s':'')}</summary><ul>${asked.map(id=>`<li><span class="code">${code(id)}</span><span>${esc(MM.pyq[id][3])}</span></li>`).join('')}</ul></details>`:''}
 </article>`;
 }
 function notesText(it){
-  const L=[];L.push(it.title.toUpperCase());L.push(`${(it.gs||[]).join(', ')} | ${it.syllabus||''}`);L.push(`${it._ed.paper||''}, ${fmtDate(it._ed.date)}`);
+  const L=[];L.push(it.title.toUpperCase());L.push(`${(it.gs||[]).join(', ')} | ${it.syllabus||''}`);L.push(`${it.paper||it._ed.paper||''}, ${fmtDate(it._ed.date)}`);
   if(it.ideas&&it.ideas.length){L.push('\nIDEAS');it.ideas.forEach(x=>L.push('• '+x))}
   if(it.keywords&&it.keywords.length){L.push('\nKEYWORDS');it.keywords.forEach(x=>L.push('• '+x[0]+(x[1]?' — '+x[1]:'')))}
   if(it.data&&it.data.length){L.push('\nDATA');it.data.forEach(x=>L.push('• '+x[0]+' — '+(x[1]||'')+(x[2]?' ('+x[2]+')':'')))}
+  if(it.pyqs&&it.pyqs.length){L.push('\nASKED BEFORE IN MAINS');it.pyqs.forEach(p=>{if(MM.pyq[p[0]])L.push('• '+code(p[0])+' '+MM.pyq[p[0]][3]+' — use: '+p[1])})}
   if(it.examples&&it.examples.length){L.push('\nEXAMPLES');it.examples.forEach(x=>L.push('• '+x[0]+(x[2]==='GS4'?' [GS4]':'')+(x[1]?' — '+x[1]:'')))}
   L.push('\nThemes: '+(it.themes||[]).filter(k=>TH[k]).map(k=>TH[k].n).join('; '));
   return L.join('\n');
