@@ -2,7 +2,7 @@
   "name": "The Mains Gazette",
   "short_name": "Mains Gazette",
   "description": "Read the newspaper the UPSC Mains way: Morning Edition and The Almanac.",
-  "start_url": "./#edition",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#FAF8F3",
