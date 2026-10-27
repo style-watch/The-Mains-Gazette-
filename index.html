@@ -657,6 +657,7 @@ function cardHTML(it){
   ${(!(it.pyqs&&it.pyqs.length)&&asked.length)?`<details class="asked"><summary>Asked before in Mains: ${asked.length} related questions</summary><ul>${asked.map(id=>`<li><span class="code">${code(id)}</span><span>${qHTML(id)}</span></li>`).join('')}</ul></details>`:''}
 </article>`;
 }
+function srcFlag(id){const p=MM.pyq[id];return p&&p[5]===1?' <sup title="Found in one compilation only">¹</sup>':''}
 function qHTML(id){const p=MM.pyq[id];if(!p)return '';const t=qtext(id);if(p[6]&&t.length>260)return `<details class="case"><summary>${esc(t.slice(0,220))}… <b>Read the full case</b></summary><div>${esc(t)}</div></details>`;return esc(t)}
 function qtext(id){const p=MM.pyq[id];return p?(p[4]||p[3]):''}
 const PYQNOTE="Questions are given in UPSC's exact wording where verified; 'Use it' lines are the editor's suggestions.";
@@ -821,7 +822,18 @@ const PAPERS=[
  ['gs3','GS Paper 3','Economy, agriculture, environment, science and technology, security and disaster management'],
  ['gs4','GS Paper 4','Ethics, integrity and aptitude, including case studies']];
 function paperCount(t,P){return t.q.filter(id=>MM.pyq[id][0]===P).length}
-function inPaper(t,p){const P=p.toUpperCase(),c=paperCount(t,P);return c>=3||(t.q.length&&c/t.q.length>=0.3)}
+// Each theme is placed under the paper(s) whose official syllabus covers it.
+const SYLLABUS_PAPERS={
+ // GS1: culture, history, society, geography
+ heritage:['gs1'],history:['gs1'],physgeo:['gs1'],diversity:['gs1'],glob:['gs1'],secular:['gs1'],demography:['gs1'],urban:['gs1'],mining:['gs1'],
+ women:['gs1','gs2'],caste:['gs1','gs2'],tribal:['gs1','gs2'],poverty:['gs1','gs2'],water:['gs1','gs3'],
+ // GS2: polity, governance, social justice, international relations
+ children:['gs2'],vulnerable:['gs2'],health:['gs2'],education:['gs2'],localgov:['gs2'],federal:['gs2'],parl:['gs2'],judiciary:['gs2'],exec:['gs2'],elections:['gs2'],bodies:['gs2'],rights:['gs2'],egov:['gs2'],civserv:['gs2'],shgngo:['gs2'],welfare:['gs2'],
+ neighbour:['gs2'],indopac:['gs2'],groupings:['gs2'],powers:['gs2'],diaspora:['gs2'],intl:['gs2'],regions:['gs2'],
+ // GS3: economy, agriculture, infrastructure, S&T, environment, disaster management, security
+ inclusive:['gs3'],jobs:['gs3'],agri:['gs3'],food:['gs3'],foodproc:['gs3'],industry:['gs3'],transport:['gs3'],energy:['gs3'],invest:['gs3'],fiscal:['gs3'],growth:['gs3'],digital:['gs3'],
+ climate:['gs3'],pollution:['gs3'],biodiv:['gs3'],disaster:['gs3'],space:['gs3'],biotech:['gs3'],techai:['gs3'],cyber:['gs3'],terror:['gs3'],border:['gs3'],jk:['gs3']};
+function inPaper(t,p){if(t.k.startsWith('g4'))return p==='gs4';const m=SYLLABUS_PAPERS[t.k];return m?m.includes(p):paperCount(t,p.toUpperCase())>=3}
 function entriesFor(k){return k.startsWith('g4')?CASES.filter(c=>(EMAP[c.area]||[]).includes(k)).length:(byTheme[k]||[]).length}
 let lastPaper='';
 function viewVault(){
