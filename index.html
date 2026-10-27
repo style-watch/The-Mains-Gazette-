@@ -146,6 +146,40 @@ nav.main .n{font-family:var(--mono);font-size:.7rem;background:var(--navy);color
 @media (max-width:900px){.fp{grid-template-columns:1fr;margin-top:-40px}.also ul{grid-template-columns:1fr 1fr}.why3{grid-template-columns:1fr}}
 @media (max-width:480px){.also ul{grid-template-columns:1fr}.door h2{font-size:1.45rem}}
 
+/* almanac landing, paper pages, compiled notes */
+.pnote{margin:0 0 14px;color:#374151;font-size:.92rem}.pnote strong{color:var(--navy)}
+.papers{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.paper{display:flex;flex-direction:column;gap:8px;height:100%;box-sizing:border-box;text-decoration:none;color:inherit;background:#fff;border:1px solid var(--line);border-top:6px solid var(--navy);border-radius:18px;padding:20px 22px;box-shadow:var(--shadow);transition:transform .15s}
+.paper:hover,.paper:focus-visible{transform:translateY(-2px);border-color:var(--saffron)}
+.papers li:nth-child(1) .paper{border-top-color:var(--gs1)}.papers li:nth-child(2) .paper{border-top-color:var(--gs2)}.papers li:nth-child(3) .paper{border-top-color:var(--gs3)}.papers li:nth-child(4) .paper{border-top-color:var(--gs4)}.paper.essay{border-top-color:#7C3AED}
+.paper .pn{font-family:var(--serif);font-size:1.6rem;font-weight:600}
+.paper .pd{color:#374151;font-size:.95rem}
+.paper .pm{margin-top:auto;font-family:var(--mono);font-size:.72rem;color:var(--muted);letter-spacing:.04em}
+.tlist{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:10px}
+.tlist a{display:grid;grid-template-columns:1fr auto;gap:4px 10px;align-items:center;text-decoration:none;color:inherit;background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px 16px}
+.tlist a:hover,.tlist a:focus-visible{border-color:var(--saffron)}
+.tlist .tn2{font-weight:600;font-size:1rem}
+.tlist .tm{grid-column:1/-1;font-size:.82rem;color:var(--muted)}
+.tlist .tm b{color:var(--navy)}
+.cday{margin-bottom:22px}
+.cdate{font-family:var(--mono);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;margin:0 0 10px;padding-bottom:6px;border-bottom:3px double var(--navy)}
+.cdate a{color:var(--navy);text-decoration:none}
+.issue{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px 20px;margin-bottom:14px;box-shadow:var(--shadow)}
+.issue h4{margin:0 0 6px;font-family:var(--serif);font-size:1.2rem;font-weight:600}
+.issue .one{margin:0 0 10px;font-size:.95rem;color:#1F2937}
+.issue .one b{color:var(--saffron)}
+.cgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.cl h5{margin:0 0 4px;display:flex;align-items:center;gap:6px;font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase}
+.cl h5 i{width:18px;height:18px;border-radius:5px;color:#fff;display:grid;place-items:center;font-style:normal;font-size:.64rem}
+.cl ul{margin:0;padding-left:18px;display:grid;gap:5px;font-size:.9rem}
+.cl .u2{display:block;font-size:.78rem;color:#92400E}
+.issue .src2{margin:10px 0 0;font-size:.8rem;color:var(--muted)}
+@media (max-width:760px){.cgrid{grid-template-columns:1fr}.tlist{grid-template-columns:1fr}}
+.edlist{list-style:none;margin:0 0 16px;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.edlist a{display:inline-flex;gap:8px;align-items:baseline;text-decoration:none;color:var(--navy);background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-weight:600;font-size:.9rem}
+.edlist a[aria-current="true"]{background:var(--navy);color:#fff}
+.edlist a span{font-weight:400;font-size:.78rem;opacity:.8}
+
 /* essay column */
 .notes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
 .note{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px 18px;position:relative;box-shadow:var(--shadow)}
@@ -620,7 +654,7 @@ function viewDossier(date){
     <div class="anat" aria-label="The four parts of every card">${Object.keys(LENS).map(k=>`<div style="background:${LENS[k][2]}" data-k="${LENS[k][0]}"><b>${LENS[k][1]}</b><span>${LENS[k][3]}</span></div>`).join('')}</div></div>`;
   }else{
     const items=ed.items||[];
-    h+=`<div class="dates" role="list">${eds.map(e=>{const dt=new Date(e.date+'T00:00:00');return `<a role="listitem" class="date" href="#day-${e.date}" aria-current="${e===ed}"><span>${dt.toLocaleDateString('en-IN',{month:'short'})}</span><b>${dt.getDate()}</b><span>${dt.toLocaleDateString('en-IN',{weekday:'short'})}</span></a>`}).join('')}</div>
+    h+=`<nav aria-labelledby="edh"><h2 id="edh" class="cdate" style="border:0;margin:0 0 8px">Editions by date</h2><ul class="edlist">${eds.map(e=>`<li><a href="#day-${e.date}" aria-current="${e===ed}">${esc(fmtDate(e.date,{day:'numeric',month:'long'}))} <span>${esc(fmtDate(e.date,{weekday:'long'}))} · ${(e.items||[]).length} stories</span></a></li>`).join('')}</ul></nav>
     <div class="edhead"><h2>${esc(fmtDate(ed.date,{weekday:'long',day:'numeric',month:'long',year:'numeric'}))}</h2><span class="meta">${esc(ed.paper||'')} · ${items.length} item${items.length===1?'':'s'}</span></div>
     <details class="toc" open><summary>In this edition: ${items.length} stories</summary><ol>${items.map((it,i)=>`<li><button data-jump="item-${esc(it.id)}"><span class="tn">${String(i+1).padStart(2,'0')}</span><span class="tt">${esc(it.title)}${it.where?` <span class="code" style="font-weight:400">· ${esc(it.where.split(" (")[0])}</span>`:""}</span><span class="tg">${(it.gs||[]).map(g=>`<span class="gs ${esc(g)}">${esc(g)}</span>`).join('')}</span></button></li>`).join('')}</ol>${(ed.ethics||[]).length?`<button class="btn" style="margin-top:10px" data-jump="ethics-today">For the Ethics paper (GS4): ${ed.ethics.length} cases ↓</button>`:''}</details>
     <div class="tool"><label class="search">${IC.search}<span class="sr">Search this edition</span><input id="q" type="search" placeholder="Search this edition" autocomplete="off"><kbd>/</kbd></label>
@@ -639,7 +673,7 @@ function tileHTML(t){
   const n=t.k.startsWith('g4')?CASES.filter(c=>(EMAP[c.area]||[]).includes(t.k)).length:(byTheme[t.k]||[]).length,p=prio(t);
   return `<a class="tile" href="#theme-${t.k}"><span class="rk">#${t.rank}</span><h4>${esc(t.n)}</h4><div class="pl">${esc(t.pl)}</div>${heatHTML(t)}<div class="nums"><span><b>${t.q.length}</b> Qs · <b>${t.yrs}</b>/14 yrs<span class="prio p${p}">${PRIO[p]}</span></span><span class="ent ${n?'':'zero'}">${n?n+' entr'+(n===1?'y':'ies'):'no entries yet'}</span></div></a>`;
 }
-function viewVault(){
+function viewAllThemes(){
   const top=ranked.filter(t=>prio(t)===3).length;
   let h=`<div class="hero"><canvas id="fx" aria-hidden="true"></canvas><div class="wrap">
     <div class="eyebrow">The Almanac · the year, theme by theme</div>
@@ -673,23 +707,19 @@ function viewTheme(k,tab){
   const p=prio(t);
   const gsOf=[...new Set(t.q.map(id=>MM.pyq[id][0]))];
   let h=`<div class="hero"><canvas id="fx" aria-hidden="true"></canvas><div class="wrap thhead">
-    <a class="back" href="#almanac">← The Almanac</a>
+    <a class="back" href="#${lastPaper?'paper-'+lastPaper:'almanac'}">← ${lastPaper?esc(lastPaper.toUpperCase())+' themes':'The Almanac'}</a>
     <h1>${esc(t.n)}</h1>
     <div class="pl">${esc(t.pl)} · rank #${t.rank} of ${MM.themes.length} · <span class="prio p${p}">${PRIO[p]} priority</span></div>
     <div class="stats"><div><b>${t.q.length}</b><span>Mains questions</span></div><div><b>${t.yrs}/14</b><span>years asked</span></div><div><b>${t.recent}/5</b><span>of the last 5 papers</span></div><div><b>${items.length}</b><span>entries this year</span></div></div>
     <div class="bigheat">${heatHTML(t,true)}</div>
   </div></div><div class="wrap"><section class="block">
-  <div class="tabs" role="tablist"><button role="tab" data-t="sheet" aria-selected="${tab!=='pyq'&&tab!=='cards'}">Revision sheet</button><button role="tab" data-t="cards" aria-selected="${tab==='cards'}">Entries (${items.length})</button><button role="tab" data-t="pyq" aria-selected="${tab==='pyq'}">Past questions (${t.q.length})</button></div>
+  <div class="tabs" role="tablist"><button role="tab" data-t="sheet" aria-selected="${tab!=='pyq'}">Compiled notes (${k.startsWith('g4')?entriesFor(k):items.length})</button><button role="tab" data-t="pyq" aria-selected="${tab==='pyq'}">Past questions (${t.q.length})</button></div>
   <div id="tabbody"></div></section></div>`;
   $('#main').innerHTML=h;fx();
   function sheet(){
     if(k.startsWith('g4')){const cs=CASES.filter(c=>(EMAP[c.area]||[]).includes(k));return `<p class="note" style="margin-top:0">Cases from the news filed under this theme (from <a href="#ethics">The Ethics Casebook</a>). See the Past questions tab for every GS4 question on this theme.</p>`+(cs.length?`<div class="egrid">${cs.map(c=>ecaseHTML(c,true)).join('')}</div>`:`<div class="nothing">No news cases filed under this theme yet. They appear here as editions add them.</div>`)}
-    if(!items.length)return `<div class="nothing">No news entries filed under this theme yet. As Morning Editions are added, their Ideas, Keywords, Data and Examples collect here, newest first.<br><br><a class="btn" href="#theme-${k}" data-tab="pyq">See the ${t.q.length} past questions</a></div>`;
-    const row=(txt,it)=>`<div class="row">${txt}<span class="when"><a href="#day-${it._ed.date}">${esc(fmtDate(it._ed.date,{day:'numeric',month:'short'}))}</a> · ${esc(it.title)}</span></div>`;
-    const box=(key,rows)=>`<div class="box"><h4 style="color:${LENS[key][2]}"><i style="background:${LENS[key][2]}">${LENS[key][0]}</i>${LENS[key][1]}</h4>${rows.join('')||'<span class="code">—</span>'}</div>`;
-    const I=[],K=[],Dt=[],E=[];
-    items.forEach(it=>{(it.ideas||[]).forEach(x=>I.push(row(esc(x),it)));(it.keywords||[]).forEach(x=>K.push(row(`<b>${esc(x[0])}</b>${x[1]?' — '+esc(x[1]):''}`,it)));(it.data||[]).forEach(x=>Dt.push(row(`<b style="color:var(--data)">${esc(x[0])}</b> ${esc(x[1]||'')}${x[2]?` <span class="code">(${esc(x[2])})</span>`:''}`,it)));(it.examples||[]).forEach(x=>E.push(row(`<b>${esc(x[0])}</b>${x[2]==='GS4'?' <span class="gs GS4">GS4</span>':''}${x[1]?' — '+esc(x[1]):''}`,it)))});
-    return `<div class="tool" style="justify-content:flex-end"><button class="btn" id="cpy">${IC.copy}Copy revision sheet</button><button class="btn" onclick="window.print()">${IC.print}Print</button></div><div class="sheet">${box('ideas',I)}${box('kw',K)}${box('data',Dt)}${box('ex',E)}</div>`;
+    if(!items.length)return `<div class="nothing">No news stories filed under this theme yet. As Morning Editions carry stories on this theme, they are compiled here automatically, newest first, with ideas, keywords, data and examples.<br><br><a class="btn" href="#theme-${k}" data-tab="pyq">See the ${t.q.length} past questions</a></div>`;
+    return `<div class="tool" style="justify-content:space-between"><p class="note" style="margin:0">${items.length} news ${items.length===1?'story':'stories'} on this theme, newest first.</p><span><button class="btn" id="cpy">${IC.copy}Copy notes</button> <button class="btn" onclick="window.print()">${IC.print}Print</button></span></div>${compiledHTML(items)}`;
   }
   function cards(){return items.length?`<div class="cards">${items.map(cardHTML).join('')}</div>`:`<div class="nothing">No entries yet.</div>`}
   function pyq(){
@@ -697,8 +727,8 @@ function viewTheme(k,tab){
     return `<div class="pyqs">${Object.keys(by).sort((a,b)=>b-a).map(y=>`<div class="yr"><b>${y}</b><ul>${by[y].sort((a,b)=>MM.pyq[a][0].localeCompare(MM.pyq[b][0])).map(id=>{const [pp,,q,g]=MM.pyq[id];return `<li><span class="gs ${pp}">${pp}</span><span class="code">${q&&q!=='Q?'?esc(q):''}${MM.pyq[id][6]?' · Case':''}</span><span>${qHTML(id)}${srcFlag(id)}</span></li>`}).join('')}</ul></div>`).join('')}</div>
     <p class="note">Questions are shown in UPSC's exact wording, cross-checked across independent public compilations. Questions marked ¹ were found in only one compilation; verify them against the official paper on upsc.gov.in. Papers covered: ${gsOf.join(', ')}.</p>`;
   }
-  function show(which){document.querySelectorAll('.tabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.t===which));$('#tabbody').innerHTML=which==='pyq'?pyq():which==='cards'?cards():sheet();
-    const c=$('#cpy');if(c)c.onclick=()=>{const txt=[t.n.toUpperCase(),''].concat(['ideas','keywords','data','examples'].map(L=>{const rows=[];items.forEach(it=>(it[L]||[]).forEach(x=>rows.push('• '+(Array.isArray(x)?x.filter((v,i)=>i<2&&v).join(' — '):x)+'  ['+fmtDate(it._ed.date,{day:'numeric',month:'short'})+']')));return rows.length?L.toUpperCase()+'\n'+rows.join('\n'):''}).filter(Boolean)).join('\n\n');copy(txt)};
+  function show(which){document.querySelectorAll('.tabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.t===which));$('#tabbody').innerHTML=which==='pyq'?pyq():sheet();
+    const c=$('#cpy');if(c)c.onclick=()=>copy(compiledText(t,items));
     const a=document.querySelector('[data-tab="pyq"]');if(a)a.onclick=e=>{e.preventDefault();show('pyq')};
   }
   document.querySelector('.tabs').addEventListener('click',e=>{const b=e.target.closest('button');if(b)show(b.dataset.t)});
@@ -739,6 +769,70 @@ function viewSaved(){
 }
 
 
+
+// ---- Almanac landing: papers -> themes -> compiled notes
+const PAPERS=[
+ ['gs1','GS Paper 1','Indian heritage and culture, history, geography of the world, and Indian society'],
+ ['gs2','GS Paper 2','Governance, Constitution, polity, social justice and international relations'],
+ ['gs3','GS Paper 3','Economy, agriculture, environment, science and technology, security and disaster management'],
+ ['gs4','GS Paper 4','Ethics, integrity and aptitude, including case studies']];
+function paperCount(t,P){return t.q.filter(id=>MM.pyq[id][0]===P).length}
+function inPaper(t,p){const P=p.toUpperCase(),c=paperCount(t,P);return c>=3||(t.q.length&&c/t.q.length>=0.3)}
+function entriesFor(k){return k.startsWith('g4')?CASES.filter(c=>(EMAP[c.area]||[]).includes(k)).length:(byTheme[k]||[]).length}
+let lastPaper='';
+function viewVault(){
+  const card=([p,name,desc])=>{const ths=MM.themes.filter(t=>inPaper(t,p));const qn=Object.values(MM.pyq).filter(x=>x[0]===p.toUpperCase()).length;const ent=ths.reduce((s,t)=>s+entriesFor(t.k),0);
+    return `<li><a class="paper" href="#paper-${p}"><span class="pn">${esc(name)}</span><span class="pd">${esc(desc)}</span><span class="pm">${ths.length} themes · ${qn} past questions · ${ent} news entries</span></a></li>`};
+  $('#main').innerHTML=`<div class="hero"><canvas id="fx" aria-hidden="true"></canvas><div class="wrap">
+    <div class="eyebrow">The Almanac · the year, theme by theme · press 2</div>
+    <h1>Choose a paper.</h1>
+    <p class="sub">Pick a paper, then a theme. Each theme page compiles every news story filed under it, story by story, with ideas, keywords, data and examples, and grows with each new Morning Edition.</p>
+  </div></div><div class="wrap"><section class="block">
+   <ul class="papers">${PAPERS.map(card).join('')}
+    <li><a class="paper essay" href="#essay"><span class="pn">Essay</span><span class="pd">Essay topics since 2013, the pattern since 2020, and essay material from the news</span><span class="pm">${Object.keys(E.topics).length} topics · ${FOD.length} pieces of material</span></a></li>
+   </ul>
+   <div class="also" style="margin-top:22px"><ul style="grid-template-columns:repeat(2,minmax(0,1fr))">
+     <li><a href="#ethics"><i aria-hidden="true" style="background:var(--gs4)">${IC.saved}</i><div><b>The Ethics Casebook</b><span>Real cases from the news for GS4, by area of ethics</span></div></a></li>
+     <li><a href="#almanac-all"><i aria-hidden="true" style="background:var(--navy)">${IC.vault}</i><div><b>All ${MM.themes.length} themes</b><span>Search and sort every theme in one view</span></div></a></li>
+   </ul></div>
+  </section></div>`;fx();
+}
+function viewPaper(p){
+  const P=PAPERS.find(x=>x[0]===p);if(!P){location.hash='#almanac';return}lastPaper=p;
+  const ths=MM.themes.filter(t=>inPaper(t,p)).sort((a,b)=>prio(b)-prio(a)||a.rank-b.rank);
+  const qn=Object.values(MM.pyq).filter(x=>x[0]===p.toUpperCase()).length;
+  $('#main').innerHTML=`<div class="hero"><canvas id="fx" aria-hidden="true"></canvas><div class="wrap thhead">
+    <a class="back" href="#almanac">← The Almanac</a>
+    <h1>${esc(P[1])}</h1><div class="pl">${esc(P[2])}</div>
+    <div class="stats"><div><b>${ths.length}</b><span>themes</span></div><div><b>${qn}</b><span>past questions, 2013–2026</span></div><div><b>${ths.filter(t=>prio(t)===3).length}</b><span>Top-priority themes</span></div></div>
+  </div></div><div class="wrap"><section class="block">
+   <p class="pnote">Listed by priority. <strong>Top</strong>: asked in 13–14 of the 14 papers. <strong>High</strong>: 10–12. <strong>Steady</strong>: fewer. Press Enter on a theme to open its compiled notes.</p>
+   <ol class="tlist">${ths.map(t=>{const pr=prio(t),n=entriesFor(t.k),c=paperCount(t,p.toUpperCase());return `<li><a href="#theme-${t.k}"><span class="tn2">${esc(t.n)}</span><span class="prio p${pr}">${PRIO[pr]}</span><span class="tm">${c} ${p.toUpperCase()} questions · asked in ${t.yrs} of 14 years · ${n?`<b>${n} news ${n===1?'entry':'entries'}</b>`:'no news entries yet'}</span></a></li>`}).join('')}</ol>
+   ${p==='gs4'?`<p style="margin-top:18px"><a class="btn pri" href="#ethics">Open The Ethics Casebook →</a></p>`:''}
+  </section></div>`;fx();
+}
+function compiledHTML(items){
+  const byDate={};items.forEach(it=>{(byDate[it._ed.date]=byDate[it._ed.date]||[]).push(it)});
+  const lens=(k,arr,f)=>arr.length?`<div class="cl ${k}"><h5 style="color:${LENS[k][2]}"><i style="background:${LENS[k][2]}" aria-hidden="true">${LENS[k][0]}</i>${LENS[k][1]}</h5><ul>${arr.map(f).join('')}</ul></div>`:'';
+  return Object.keys(byDate).sort().reverse().map(d=>`<section class="cday" aria-label="${esc(fmtDate(d,{weekday:'long',day:'numeric',month:'long',year:'numeric'}))}"><h3 class="cdate"><a href="#day-${d}">${esc(fmtDate(d,{weekday:'short',day:'numeric',month:'long',year:'numeric'}))}</a></h3>
+   ${byDate[d].map(it=>{const {I,K,Dt,E}=norm(it);const one=(it.summary||it.context||'').split(/(?<=\.)\s/)[0];
+    return `<article class="issue"><h4>${esc(it.title)}</h4>${one?`<p class="one"><b>In one line:</b> ${esc(one)}</p>`:''}
+     <div class="cgrid">${lens('ideas',I,x=>`<li>${esc(x[0])}${x[1]?`<span class="u2">Use in: ${esc(x[1])}</span>`:''}</li>`)}
+     ${lens('kw',K,x=>`<li><b>${esc(x[0])}</b>${x[1]?': '+esc(x[1]):''}</li>`)}
+     ${lens('data',Dt,x=>`<li><b>${esc(x[0])}</b> ${esc(x[1])}${x[2]?` <span class="code">(${esc(x[2])})</span>`:''}</li>`)}
+     ${lens('ex',E,x=>`<li><b>${esc(x[0])}</b>${x[1]?': '+esc(x[1]):''}${x[2]==='GS4'?' <span class="gs GS4">GS4</span>':''}</li>`)}</div>
+     <p class="src2">${esc(it.paper||it._ed.paper||'')}${it.where?', '+esc(it.where):''} · <a href="#day-${d}" data-jump2="item-${esc(it.id)}">Open the full story</a></p></article>`}).join('')}</section>`).join('');
+}
+function compiledText(t,items){
+  const L=[t.n.toUpperCase()+' — compiled notes',''];
+  items.forEach(it=>{const {I,K,Dt,E}=norm(it);L.push(fmtDate(it._ed.date)+' · '+it.title);const one=(it.summary||it.context||'').split(/(?<=\.)\s/)[0];if(one)L.push('In one line: '+one);
+    if(I.length){L.push('Ideas:');I.forEach(x=>L.push('• '+x[0]+(x[1]?' [Use in: '+x[1]+']':'')))}
+    if(K.length){L.push('Keywords:');K.forEach(x=>L.push('• '+x[0]+(x[1]?': '+x[1]:'')))}
+    if(Dt.length){L.push('Data:');Dt.forEach(x=>L.push('• '+x[0]+' '+x[1]+(x[2]?' ('+x[2]+')':'')))}
+    if(E.length){L.push('Examples:');E.forEach(x=>L.push('• '+x[0]+(x[1]?': '+x[1]:'')))}
+    L.push('')});
+  return L.join('\n');
+}
 
 // ---- Home: the front page
 function viewHome(){
@@ -882,6 +976,7 @@ document.addEventListener('click',e=>{
   const cc=e.target.closest('[data-ccopy]');if(cc){const c=CASES.find(x=>x._id===cc.dataset.ccopy);if(c)copy(`GS4 ETHICS · ${(EAREA[c.area]||[c.area])[0]}\n${c.title}\n${c.case}\nEthical lesson: ${c.lesson}\nValues: ${(c.values||[]).join(', ')}\n(${c.src}, ${fmtDate(c._ed.date)})`);return}
   const ec=e.target.closest('[data-ecopy]');if(ec){const it=FOD.find(x=>x.id===ec.dataset.ecopy);if(it)copy(`${it.type.toUpperCase()}: ${it.title}\n${it.text}\nUse it for: ${it.use}\n(${it.src}, ${fmtDate(it._ed.date)})`);return}
   const c=e.target.closest('[data-copy]');if(c){const it=ITEMS.find(x=>x.id===c.dataset.copy);if(it)copy(notesText(it));return}
+  const j2=e.target.closest('[data-jump2]');if(j2){e.preventDefault();const id=j2.dataset.jump2;location.hash=j2.getAttribute('href');setTimeout(()=>{const el=document.getElementById(id);if(el){el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.add('flash');el.setAttribute('tabindex','-1');el.focus({preventScroll:true});setTimeout(()=>el.classList.remove('flash'),1600)}},400);return}
   const j=e.target.closest('[data-jump]');if(j){const el=document.getElementById(j.dataset.jump);if(el){el.hidden=false;el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1600)}return}
   const k=e.target.closest('.kwc');if(k){const box=k.closest('.q').querySelector('.kwdef');const on=k.getAttribute('aria-expanded')!=='true';k.closest('.kwl').querySelectorAll('.kwc').forEach(x=>x.setAttribute('aria-expanded','false'));if(on&&k.dataset.def){k.setAttribute('aria-expanded','true');box.innerHTML=`<b>${esc(k.textContent)}</b>: ${esc(k.dataset.def)}`;box.classList.add('on')}else box.classList.remove('on');return}
   if(!e.target.closest('#drawer')&&!e.target.closest('#map'))closeDrawer();
@@ -934,6 +1029,8 @@ function route(){
   let m;const G='The Mains Gazette';
   if(h==='home'){cur='home';viewHome();document.title=G+' · Today\'s news, tomorrow\'s answers'}
   else if(h==='edition'){cur='edition';viewDossier();document.title='Morning Edition · '+G}
+  else if(h==='almanac-all'){cur='almanac';viewAllThemes();document.title='All themes · The Almanac · '+G}
+  else if((m=h.match(/^paper-(gs[1-4])$/))){cur='almanac';viewPaper(m[1]);document.title=m[1].toUpperCase()+' · The Almanac · '+G}
   else if(h==='almanac'){cur='almanac';viewVault();document.title='The Almanac · '+G}
   else if(h==='ethics'){cur='almanac';viewCasebook();document.title='The Ethics Casebook · '+G}
   else if(h==='essay'){cur='essay';viewEssay();document.title='The Essay Column · '+G}
