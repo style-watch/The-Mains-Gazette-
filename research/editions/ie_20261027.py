@@ -301,6 +301,9 @@ C(25,"Jogen Chowdhury's art of the personal, political and social","Editorial pa
  [["87","Age at death","IE"],["1972","Became Keeper of Art at Rashtrapati Bhavan","IE"],["1987","Joined Kala Bhavan, Santiniketan","IE"]],
  [["Jogen Chowdhury","Example of Partition's influence on modern Indian art"]]),
 ]
+# Editor's cut (27 Oct): keep only stories that map to recurring priority themes; drop contested/one-off items.
+KEEP={"04","07","09","11","16","18","19","20","21","22"}
+items=[it for it in items if it["id"][-2:] in KEEP]
 ed={"date":"2026-10-27","paper":P,"items":items}
 open('/home/claude/mm/build/ed_20261027.json','w').write(json.dumps(ed,ensure_ascii=False,indent=1))
 print(len(items))

@@ -1049,22 +1049,6 @@ window.MM_ESSAY={
      ]
     },
     {
-     "id": "e-2026-10-27-03",
-     "type": "Story",
-     "title": "Lula's comeback at 80",
-     "text": "Brazil's Lula finished second in the first round, then won the runoff. No candidate had done that since direct elections returned in 1989. He was re-elected for a record fourth term at 80, after mobilising young voters, though he does not own a mobile phone.",
-     "use": "For resilience and 'the cost of being wrong is less than the cost of doing nothing'. Also for leadership and 'leader follows the followers' (youth mobilisation).",
-     "themes": [
-      "journey",
-      "power"
-     ],
-     "src": "IE p. 14, 16",
-     "topics": [
-      "2024B4",
-      "2026B4"
-     ]
-    },
-    {
      "id": "e-2026-10-27-04",
      "type": "Example",
      "title": "Nepal and the climate 'elephants'",
@@ -1079,73 +1063,6 @@ window.MM_ESSAY={
      "topics": [
       "2026A4",
       "2023B3"
-     ]
-    },
-    {
-     "id": "e-2026-10-27-05",
-     "type": "Quote",
-     "title": "Privy Council, 1872",
-     "text": "'The difficulties of a litigant in India begin when he has obtained a Decree', a line still true 150 years later, according to the Ideas-page article on slow civil courts.",
-     "use": "For 'History repeats itself' and for irony ('Oxymorons reflect the ironies of life'): winning is the start of the struggle.",
-     "themes": [
-      "history",
-      "justice",
-      "inner"
-     ],
-     "src": "IE p. 13 (Abhinav Chandrachud)",
-     "topics": [
-      "2021B3",
-      "2026A1"
-     ]
-    },
-    {
-     "id": "e-2026-10-27-06",
-     "type": "Book",
-     "title": "The Godfather (Mario Puzo, 1969)",
-     "text": "The undertaker Bonasera turns to the mafia don when the courts fail him. The author uses it to explain why Indian litigants turn to police 'justice' when civil courts take decades.",
-     "use": "For 'A society that has more justice needs less charity' (or less coercion), and for institutions and the rule of law.",
-     "themes": [
-      "justice",
-      "power"
-     ],
-     "src": "IE p. 13",
-     "topics": [
-      "2023B3"
-     ]
-    },
-    {
-     "id": "e-2026-10-27-07",
-     "type": "Example",
-     "title": "When a verdict becomes 'one opinion among many'",
-     "text": "In the Ankita Bhandari case the courts convicted all three accused within about three years. Yet viral, disputed audio clips revived a cover-up narrative. A senior police officer writes that evidence must survive cross-examination while social media runs on plausibility and outrage.",
-     "use": "For 'Truth knows no colour', 'The doubter is a true man of science' (healthy versus cynical doubt), and social media topics.",
-     "themes": [
-      "reason",
-      "tech",
-      "ethics"
-     ],
-     "src": "IE p. 13 (Abhinav Kumar)",
-     "topics": [
-      "2025A1",
-      "2024A4",
-      "2024B1"
-     ]
-    },
-    {
-     "id": "e-2026-10-27-08",
-     "type": "Example",
-     "title": "Dissent inside the Election Commission",
-     "text": "Two Election Commissioners recorded 14 written notes of objection in 10 months. Several safeguards they proposed, such as an expert committee to check the software, were later adopted by the Commission.",
-     "use": "For 'Thinking is like a game; it does not begin unless there is an opposite team': recorded dissent improves institutional decisions. Also for 'Shelving hard decisions is the least ethical course'.",
-     "themes": [
-      "reason",
-      "ethics",
-      "power"
-     ],
-     "src": "IE p. 1-2",
-     "topics": [
-      "2023A1",
-      "2026B3"
      ]
     },
     {
@@ -1167,39 +1084,6 @@ window.MM_ESSAY={
      ]
     },
     {
-     "id": "e-2026-10-27-10",
-     "type": "Quote",
-     "title": "Arthur C Clarke's Third Law",
-     "text": "'Any sufficiently advanced technology is indistinguishable from magic.'",
-     "use": "Intro or turn for technology essays, and for 'Thought finds a world and creates one also'.",
-     "themes": [
-      "tech",
-      "learning"
-     ],
-     "src": "IE p. 12 editorial",
-     "topics": [
-      "2025A3",
-      "2020B4"
-     ]
-    },
-    {
-     "id": "e-2026-10-27-11",
-     "type": "Example",
-     "title": "Glut by day, shortage by night",
-     "text": "India's power sector has moved from chronic deficits to a solar surplus in daylight and shortages after dark, so it wastes clean power while scrambling at night. The fix, storage, is slow and needs investment before the crisis.",
-     "use": "A modern paradox for 'Oxymorons reflect the ironies of life', and a policy example for 'The time to repair the roof is when the sun is shining'.",
-     "themes": [
-      "inner",
-      "ethics",
-      "nature"
-     ],
-     "src": "IE p. 12 (Somit Dasgupta)",
-     "topics": [
-      "2026A1",
-      "2022B1"
-     ]
-    },
-    {
      "id": "e-2026-10-27-12",
      "type": "Story",
      "title": "The farmer who copied a friend's strawberries",
@@ -1215,24 +1099,6 @@ window.MM_ESSAY={
       "2024B4",
       "2024B3",
       "2022A4"
-     ]
-    },
-    {
-     "id": "e-2026-10-27-13",
-     "type": "Story",
-     "title": "Two fathers, two sons and a language",
-     "text": "Tilak Varma and Nitish Reddy won a T20I in New Zealand while talking to each other in Telugu. Nitish's father left a stable job to support his training; Tilak's father, an electrician, spent sleepless nights making ends meet. The fathers now send each other good-morning messages daily.",
-     "use": "For 'A grateful mind is very beautiful', 'Life is a journey between human being and being humane' and 'Culture is what we are': pride in one's language on a world stage.",
-     "themes": [
-      "inner",
-      "journey",
-      "history"
-     ],
-     "src": "IE p. 17",
-     "topics": [
-      "2026A2",
-      "2020A1",
-      "2020B1"
      ]
     },
     {
@@ -1252,22 +1118,6 @@ window.MM_ESSAY={
      ]
     },
     {
-     "id": "e-2026-10-27-15",
-     "type": "Story",
-     "title": "Harmanpreet Singh's homecoming",
-     "text": "The India hockey captain once trained on a tiny astro-turf patch behind the goal at Jalandhar's Surjit Singh stadium. He played there in an India jersey for the first time when international hockey returned to Punjab after 17 years. He said playing there felt like returning to his mother's lap.",
-     "use": "For 'The years teach much which the days never know', gratitude and roots, and the journey over the destination.",
-     "themes": [
-      "journey",
-      "inner"
-     ],
-     "src": "IE p. 18",
-     "topics": [
-      "2025B2",
-      "2025B3"
-     ]
-    },
-    {
      "id": "e-2026-10-27-16",
      "type": "Data",
      "title": "FIDE's first survey of women in chess",
@@ -1280,37 +1130,6 @@ window.MM_ESSAY={
      "topics": [
       "2020B3",
       "2023B1"
-     ]
-    },
-    {
-     "id": "e-2026-10-27-17",
-     "type": "Example",
-     "title": "Make the world want India, and need India",
-     "text": "Radha Goenka argues for building cultural power that makes the world want India, and economic capability that makes the world need India. Her examples: Taiwan's TSMC makes nearly three-quarters of contract-manufactured chips, and France's tourism earns 9.1% of GDP.",
-     "use": "For 'The empires of the future will be the empires of the mind' and for soft power ('subdue the enemy without fighting').",
-     "themes": [
-      "power",
-      "learning"
-     ],
-     "src": "IE p. 13 (Radha Goenka)",
-     "topics": [
-      "2024A2",
-      "2025A2"
-     ]
-    },
-    {
-     "id": "e-2026-10-27-18",
-     "type": "Quote",
-     "title": "Voting is a civic sacrament",
-     "text": "Theodore Hesburgh, quoted as the day's 'Wordly Wise'.",
-     "use": "A conclusion line for democracy, citizenship and 'leader follows the followers' essays.",
-     "themes": [
-      "ethics",
-      "power"
-     ],
-     "src": "IE p. 12",
-     "topics": [
-      "2026B4"
      ]
     },
     {
@@ -1327,22 +1146,6 @@ window.MM_ESSAY={
      "topics": [
       "2024B3",
       "2026B1"
-     ]
-    },
-    {
-     "id": "e-2026-10-27-20",
-     "type": "Example",
-     "title": "A century-old antivenom gets an upgrade",
-     "text": "Antivenom treatment had barely changed in a century, while India loses an estimated 50,000 people a year to snakebite. IISc and Danish scientists built an antibody cocktail that saved mice even 30 minutes after cobra venom was injected.",
-     "use": "For 'What is research, but a blind date with knowledge' and 'A well-educated mind will always have more questions than answers'.",
-     "themes": [
-      "reason",
-      "learning"
-     ],
-     "src": "IE p. 16",
-     "topics": [
-      "2021B2",
-      "2026B2"
      ]
     },
     {
