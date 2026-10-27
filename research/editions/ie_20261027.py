@@ -360,6 +360,20 @@ PY={
 }
 for it in items: it["pyqs"]=PY.get(it["id"][-2:],[])
 
+# ---- Where to find each story in the printed paper (page titles as printed), plus links that are known to exist.
+WHERE={"04":("The Ideas Page","13","Abhinav Chandrachud"),"07":("Politics","8",None),"09":("Nation","10",None),
+ "11":("The Editorial Page","12","Somit Dasgupta (teaser on page 1)"),"13":("Economy","15",None),"16":("Economy","15",None),
+ "18":("The Editorial Page","12","editorial"),"19":("Region","6","Express special"),"20":("Nation","11","Express special"),
+ "21":("Nation","11",None),"22":("Explained","16",None)}
+LINKS={"13":[["Related Explained: Centre clears way for flex-fuel up to E100","https://indianexpress.com/article/explained/centre-flex-fuel-e100-why-what-changes-10937588/"]],
+ "18":[["Related Explained (Telegram): Why Rs 190 crore payout to Nepal matters","https://t.me/indianexpress_explained/16643"]],
+ "26":[["Indian Express Explained (the link you shared)","https://indianexpress.com/article/explained/explained-sci-tech/microsoft-india-voluntary-exit-offer-eligibility-deadline-10938408/"],["CNBC report, 26 Oct 2026","https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html"],["GeekWire report","https://www.geekwire.com/2026/microsoft-makes-new-voluntary-exit-offer-to-more-than-a-quarter-of-its-workforce-including-some-execs/"]]}
+for it in items:
+    k=it["id"][-2:]
+    if k in WHERE:
+        pg,no,note=WHERE[k]; it["section"]=pg; it["page"]="Page "+no; it["where"]=f"{pg}, page {no}"+(f" ({note})" if note else "")
+    if k in LINKS: it["links"]=LINKS[k]
+
 # GS4 Ethics casebook entries for this edition: facts as reported in the paper; "lesson" and "values" are the editor's framing.
 ETHICS=[
  dict(area="env",title="Manauli, Haryana's 'sweet corn village'",card="2026-10-27-19",src="IE p. 4",

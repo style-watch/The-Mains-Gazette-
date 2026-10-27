@@ -28,8 +28,8 @@ window.MM_DOSSIER={
     {
      "id": "2026-10-27-04",
      "title": "When courts are too slow, police replace judges",
-     "section": "Ideas page (Abhinav Chandrachud)",
-     "page": "p. 13",
+     "section": "The Ideas Page",
+     "page": "Page 13",
      "gs": [
       "GS2",
       "GS4"
@@ -121,13 +121,14 @@ window.MM_DOSSIER={
        "GS2-2026/Q16",
        "Rule of law: 'law on the books' versus 'law in action' when police turn debt disputes into criminal cases."
       ]
-     ]
+     ],
+     "where": "The Ideas Page, page 13 (Abhinav Chandrachud)"
     },
     {
      "id": "2026-10-27-07",
      "title": "Keralam passes India's first state law to protect senior citizens' rights",
      "section": "Politics",
-     "page": "p. 8",
+     "page": "Page 8",
      "gs": [
       "GS2",
       "GS1"
@@ -206,13 +207,14 @@ window.MM_DOSSIER={
        "GS2-2026/Q12",
        "The Bill recognises living wills for senior citizens, linking to the passive-euthanasia debate."
       ]
-     ]
+     ],
+     "where": "Politics, page 8"
     },
     {
      "id": "2026-10-27-09",
      "title": "China says it is strictly abiding by pacts with India amid LAC face-offs in Arunachal",
      "section": "Nation",
-     "page": "p. 10",
+     "page": "Page 10",
      "gs": [
       "GS2",
       "GS3"
@@ -278,13 +280,14 @@ window.MM_DOSSIER={
        "GS3-2016/Q19",
        "Border management needs mechanisms like Corps Commander talks to avoid 'misunderstanding and miscalculation'."
       ]
-     ]
+     ],
+     "where": "Nation, page 10"
     },
     {
      "id": "2026-10-27-11",
      "title": "To ease energy transition, ramp up storage, strengthen transmission",
-     "section": "Editorial page (Somit Dasgupta)",
-     "page": "p. 12",
+     "section": "The Editorial Page",
+     "page": "Page 12",
      "gs": [
       "GS3"
      ],
@@ -369,13 +372,14 @@ window.MM_DOSSIER={
        "GS3-2015/Q9",
        "Cheap solar now forces coal plants to ramp up and down, shortening their life."
       ]
-     ]
+     ],
+     "where": "The Editorial Page, page 12 (Somit Dasgupta (teaser on page 1))"
     },
     {
      "id": "2026-10-27-13",
      "title": "Govt notifies E100 as auto fuel for flex-fuel vehicles",
      "section": "Economy",
-     "page": "p. 15",
+     "page": "Page 15",
      "gs": [
       "GS3"
      ],
@@ -428,13 +432,20 @@ window.MM_DOSSIER={
        "GS3-2023/Q15",
        "Flex-fuel vehicles as a parallel route to cleaner transport alongside EVs."
       ]
+     ],
+     "where": "Economy, page 15",
+     "links": [
+      [
+       "Related Explained: Centre clears way for flex-fuel up to E100",
+       "https://indianexpress.com/article/explained/centre-flex-fuel-e100-why-what-changes-10937588/"
+      ]
      ]
     },
     {
      "id": "2026-10-27-16",
      "title": "Govt to study hurdles faced by women-led informal businesses",
      "section": "Economy",
-     "page": "p. 15",
+     "page": "Page 15",
      "gs": [
       "GS1",
       "GS3"
@@ -501,13 +512,14 @@ window.MM_DOSSIER={
        "GS3-2016/Q1",
        "27% of informal enterprises are headed by women; informality shapes their constraints."
       ]
-     ]
+     ],
+     "where": "Economy, page 15"
     },
     {
      "id": "2026-10-27-18",
      "title": "Climate justice needs quicker compensation: first Loss and Damage payout to Nepal",
-     "section": "Editorial",
-     "page": "p. 12",
+     "section": "The Editorial Page",
+     "page": "Page 12",
      "gs": [
       "GS3",
       "GS2"
@@ -606,13 +618,20 @@ window.MM_DOSSIER={
        "GS3-2026/Q7",
        "Nepal lost at least 10% of its hydropower facilities: infrastructure in fragile terrain."
       ]
+     ],
+     "where": "The Editorial Page, page 12 (editorial)",
+     "links": [
+      [
+       "Related Explained (Telegram): Why Rs 190 crore payout to Nepal matters",
+       "https://t.me/indianexpress_explained/16643"
+      ]
      ]
     },
     {
      "id": "2026-10-27-19",
      "title": "Punjab farm fires: why most stubble-burning incidents are in two districts",
-     "section": "Region (Express special)",
-     "page": "p. 6",
+     "section": "Region",
+     "page": "Page 6",
      "gs": [
       "GS3"
      ],
@@ -693,13 +712,14 @@ window.MM_DOSSIER={
        "GS3-2020/Q17",
        "Farm fires and clean air: 684 fires so far against 743 last year and 1,857 in 2024."
       ]
-     ]
+     ],
+     "where": "Region, page 6 (Express special)"
     },
     {
      "id": "2026-10-27-20",
      "title": "Delhi plans a bottle-return scheme, taking a cue from Uttarakhand and Goa",
-     "section": "Nation (Express special)",
-     "page": "p. 11",
+     "section": "Nation",
+     "page": "Page 11",
      "gs": [
       "GS3"
      ],
@@ -770,13 +790,14 @@ window.MM_DOSSIER={
        "GS3-2018/Q6",
        "Deposit-refund schemes as a collection model: Uttarakhand's returns rose from about 20% to nearly 90%."
       ]
-     ]
+     ],
+     "where": "Nation, page 11 (Express special)"
     },
     {
      "id": "2026-10-27-21",
      "title": "Ahead of Cyclone Arnab, Andhra evacuates pregnant women; Odisha deploys ministers",
      "section": "Nation",
-     "page": "p. 11",
+     "page": "Page 11",
      "gs": [
       "GS3"
      ],
@@ -840,13 +861,14 @@ window.MM_DOSSIER={
        "GS1-2022/Q5",
        "IMD forecasts and warnings driving early action in Andhra Pradesh and Odisha."
       ]
-     ]
+     ],
+     "where": "Nation, page 11"
     },
     {
      "id": "2026-10-27-22",
      "title": "'Godzilla' El Niño effects to be felt into 2027: decoding the WMO warning",
      "section": "Explained",
-     "page": "p. 16",
+     "page": "Page 16",
      "gs": [
       "GS1",
       "GS3"
@@ -929,7 +951,8 @@ window.MM_DOSSIER={
        "GS1-2023/Q4",
        "Effects into 2027 on food and water security."
       ]
-     ]
+     ],
+     "where": "Explained, page 16"
     },
     {
      "id": "2026-10-27-26",
@@ -1011,6 +1034,20 @@ window.MM_DOSSIER={
       [
        "GS1-2021/Q17",
        "India's tech workforce in IT cities is exposed to global restructuring."
+      ]
+     ],
+     "links": [
+      [
+       "Indian Express Explained (the link you shared)",
+       "https://indianexpress.com/article/explained/explained-sci-tech/microsoft-india-voluntary-exit-offer-eligibility-deadline-10938408/"
+      ],
+      [
+       "CNBC report, 26 Oct 2026",
+       "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html"
+      ],
+      [
+       "GeekWire report",
+       "https://www.geekwire.com/2026/microsoft-makes-new-voluntary-exit-offer-to-more-than-a-quarter-of-its-workforce-including-some-execs/"
       ]
      ]
     }
