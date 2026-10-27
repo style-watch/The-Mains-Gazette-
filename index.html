@@ -145,6 +145,12 @@ nav.main .n{font-family:var(--mono);font-size:.7rem;background:var(--navy);color
 .promise .p3 b{display:block;color:var(--navy);margin-bottom:3px}
 .promise .p3 span{font-size:.88rem;color:#4B5563}
 @media (max-width:760px){.promise .p3{grid-template-columns:1fr}}
+.top .wrap{position:relative}
+.sharemenu{position:absolute;right:20px;top:calc(100% - 4px);z-index:40;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 12px 32px rgba(20,33,61,.18);padding:6px;min-width:200px;display:grid}
+.sharemenu[hidden]{display:none}
+.sharemenu a,.sharemenu button{all:unset;cursor:pointer;display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:9px;font-weight:600;font-size:.9rem;color:var(--ink,#111827)}
+.sharemenu a:hover,.sharemenu button:hover,.sharemenu a:focus-visible,.sharemenu button:focus-visible{background:var(--paper)}
+.sharemenu i{width:26px;height:26px;border-radius:7px;display:grid;place-items:center;color:#fff;font-style:normal;font-size:.8rem;font-weight:700}
 /* headline ticker */
 .ticker{background:var(--navy);color:#FAF8F3;overflow:hidden;position:relative}
 .ticker .wrap{display:flex;align-items:center;gap:14px;padding-top:7px;padding-bottom:7px}
@@ -390,7 +396,13 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
     <span class="word"><small class="pre">The</small><b>Mains <i>Gazette</i></b><small>Today's news · tomorrow's answers</small></span>
   </a>
   <nav class="main" aria-label="Main" id="nav"></nav>
-  <button class="share" id="share" type="button" aria-label="Share The Mains Gazette"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg><span>Share</span></button>
+  <button class="share" id="share" type="button" aria-label="Share The Mains Gazette" aria-haspopup="menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg><span>Share</span></button>
+  <div class="sharemenu" id="sharemenu" role="menu" hidden>
+   <a role="menuitem" data-sh="wa" target="_blank" rel="noopener" id="sh-wa"><i style="background:#25D366">W</i>WhatsApp</a>
+   <a role="menuitem" data-sh="tg" target="_blank" rel="noopener" id="sh-tg"><i style="background:#229ED9">T</i>Telegram</a>
+   <button role="menuitem" type="button" data-sh="copy"><i style="background:var(--navy)">⧉</i>Copy link</button>
+   <button role="menuitem" type="button" data-sh="more" id="sh-more" hidden><i style="background:var(--saffron)">…</i>More options</button>
+  </div>
 </div></header>
 <div class="dateline"><div class="wrap"><span id="dl-vol"></span><span id="dl-date"></span><span class="hide-s">UPSC CSE · Mains edition</span></div></div>
 <div class="ticker" id="ticker" hidden><div class="wrap"><span class="lbl">Today</span><div class="vp"><div class="rail" id="rail"></div></div></div></div>
@@ -780,11 +792,19 @@ function ticker(){
     if(cur!=='edition'){location.hash='#edition';setTimeout(go,350)}else go()});
 }
 const SHARE_URL='https://style-watch.github.io/stylewatch.github.io/mainsgazette/';
-document.addEventListener('click',async e=>{if(!e.target.closest('#share'))return;
-  const text="The Mains Gazette: a companion to your daily newspaper for UPSC Mains, not a replacement. It picks the syllabus-relevant reads and saves the ideas, keywords, data and examples by theme, linked to past Mains questions, with an Essay Column and an Ethics Casebook.";
-  try{if(navigator.share){await navigator.share({title:'The Mains Gazette',text,url:SHARE_URL});return}}catch(_){return}
-  window.open('https://wa.me/?text='+encodeURIComponent(text+' '+SHARE_URL),'_blank','noopener');
+const SHARE_TEXT="The Mains Gazette: a companion to your daily newspaper for UPSC Mains, not a replacement. It picks the syllabus-relevant reads and saves the ideas, keywords, data and examples by theme, linked to past Mains questions, with an Essay Column and an Ethics Casebook.";
+function closeShare(){const m=$('#sharemenu');if(m){m.hidden=true;$('#share').setAttribute('aria-expanded','false')}}
+document.addEventListener('click',async e=>{
+  const sb=e.target.closest('#share');const m=$('#sharemenu');
+  if(sb){const open=m.hidden;m.hidden=!open;sb.setAttribute('aria-expanded',String(open));if(open)m.querySelector('a,button').focus();return}
+  const it=e.target.closest('[data-sh]');
+  if(it){const k=it.dataset.sh;
+    if(k==='copy'){try{await navigator.clipboard.writeText(SHARE_URL);toast('Link copied')}catch(_){prompt('Copy this link',SHARE_URL)}}
+    if(k==='more'){try{await navigator.share({title:'The Mains Gazette',text:SHARE_TEXT,url:SHARE_URL})}catch(_){}}
+    closeShare();return}
+  if(m&&!m.hidden&&!e.target.closest('#sharemenu'))closeShare();
 });
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeShare()});
 
 // ---- dateline: Vol. (year of publication) · No. (edition count) · today's date
 function dateline(){
@@ -808,6 +828,9 @@ function route(){
   else if((m=h.match(/^day-(\d{4}-\d{2}-\d{2})$/))){cur='edition';viewDossier(m[1]);document.title='Morning Edition · '+G}
   else{cur='edition';viewDossier();document.title=G+' · Morning Edition'}
   dateline();ticker();
+  $('#sh-wa').href='https://wa.me/?text='+encodeURIComponent(SHARE_TEXT+' '+SHARE_URL);
+  $('#sh-tg').href='https://t.me/share/url?url='+encodeURIComponent(SHARE_URL)+'&text='+encodeURIComponent(SHARE_TEXT);
+  if(navigator.share)$('#sh-more').hidden=false;
   nav(cur);window.scrollTo(0,0);
 }
 window.addEventListener('hashchange',route);route();
