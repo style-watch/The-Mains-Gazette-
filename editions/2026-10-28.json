@@ -670,6 +670,926 @@
      ]
     }
    ]
+  },
+  {
+   "id": "2026-10-28-03",
+   "title": "Workforce shake-up is here to stay. Brace for it",
+   "section": "Editorial",
+   "page": "Page 10",
+   "where": "The Editorial Page, page 10",
+   "gs": [
+    "GS3",
+    "GS1"
+   ],
+   "syllabus": "GS3 › Indian economy: employment; Effects of science and technology (AI) on everyday life · GS1 › Population and associated issues",
+   "themes": [
+    "jobs",
+    "techai",
+    "demography"
+   ],
+   "summary": "The Indian Express argues that AI-led layoffs, like Microsoft's exit offer to 60,000 staff, will hit Indian IT and should make policymakers rethink job strategy for a young India.",
+   "evolution": [
+    [
+     "July 2026",
+     "Microsoft offers a voluntary retirement programme to over 8,700 staff; over 30% accept, and it then fires 4,800 more (as the editorial notes)."
+    ],
+    [
+     "2026",
+     "Barclays, HSBC, Oracle, Meta and Amazon are reported to have shed significant parts of their workforce, even as profits grow."
+    ],
+    [
+     "26 Oct 2026",
+     "Microsoft's voluntary exit offer to about 60,000 employees, 27% of its workforce, including India (filed on 27 Oct)."
+    ],
+    [
+     "28 Oct 2026",
+     "The Indian Express editorial: the shake-up is structural, and India's policymakers must prepare."
+    ]
+   ],
+   "ideas": [
+    [
+     "AI lets firms do more with fewer people and frees money for AI infrastructure, so layoffs now come even when profits rise.",
+     "GS3 · Technology and jobs",
+     "AI-led restructuring is cutting jobs even in profitable firms, as Microsoft's 2026 exit offer to 60,000 staff shows."
+    ],
+    [
+     "Indian IT, the largest provider of white-collar jobs, may gain some AI work in the short term but faces headwinds over the medium term.",
+     "GS3 · IT sector / services",
+     "AI threatens the IT sector, India's largest white-collar employer, more in the medium term than the short term."
+    ],
+    [
+     "The timing is the danger: a youth bulge, too few quality jobs and growing unrest among the young.",
+     "GS1 demography · GS3 employment",
+     "AI's labour-replacing power arrives just as India's youth bulge needs quality jobs, risking a demographic burden instead of a dividend."
+    ]
+   ],
+   "keywords": [
+    [
+     "Technological unemployment",
+     "Jobs lost to new technology",
+     "AI and work",
+     "AI is creating technological unemployment in white-collar work, once thought safe."
+    ],
+    [
+     "Jobless growth",
+     "Output and profits rise without new jobs",
+     "Employment answers",
+     "Firms growing profits while cutting staff show jobless growth driven by AI."
+    ],
+    [
+     "Demographic dividend vs demographic burden",
+     "A young population helps only if it is employed",
+     "GS1 / GS3 introductions",
+     "Without quality jobs, India's demographic dividend can turn into a demographic burden."
+    ],
+    [
+     "White-collar automation",
+     "AI taking over office and knowledge work",
+     "IT and services answers",
+     "Unlike earlier automation, AI targets white-collar work such as coding and customer support."
+    ],
+    [
+     "Reskilling and upskilling",
+     "Training workers for changed or new jobs",
+     "Way forward",
+     "Large-scale reskilling must keep pace with AI adoption."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "Microsoft's voluntary exit offer (Oct 2026)",
+     "About 60,000 staff, 27% of its workforce, in the US, Canada, the UK and India",
+     "",
+     "AI and jobs",
+     "Microsoft's 2026 exit offer to 27% of its workforce, including India, shows AI-era restructuring."
+    ],
+    [
+     "Global layoffs in 2026",
+     "Barclays, HSBC, Oracle, Meta and Amazon reported to have shed staff despite rising profits",
+     "",
+     "Trend across sectors",
+     "From banking (HSBC, Barclays) to tech (Meta, Amazon), 2026 layoffs show AI's reach across sectors."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS3-2023/Q11",
+     "AI-led job loss is structural unemployment: skills, not demand, are the mismatch."
+    ],
+    [
+     "GS3-2015/Q1",
+     "Profits up, staff down: AI-era restructuring is a new form of jobless growth."
+    ],
+    [
+     "GS3-2014/Q2",
+     "The demographic dividend depends on employability, now threatened by AI."
+    ],
+    [
+     "GS2-2016/Q16",
+     "A skilled, creative workforce is the only answer to AI's challenge to the demographic dividend."
+    ],
+    [
+     "GS2-2023/Q18",
+     "Skilling must now be linked to AI-era jobs."
+    ],
+    [
+     "GS1-2026/Q19",
+     "A youth bulge without quality jobs is a challenge of demographic transition."
+    ],
+    [
+     "GS3-2026/Q16",
+     "Agentic AI can do whole tasks on its own, which is why white-collar jobs are at risk."
+    ]
+   ],
+   "trend": {
+    "t": "Employment questions have moved from jobless growth (2015) and formal-sector job loss through globalisation (2016) to structural unemployment (2023), and from the demographic dividend (2014, 2016) to the challenges of demographic transition (2026). AI itself has entered as a technology topic (2023 AI in health, 2026 agentic AI). The link between AI and jobs has not yet been asked directly.",
+    "watch": "Jobless growth, structural unemployment and the demographic dividend have each come up repeatedly, and AI is now in the technology questions. AI and employment is the natural next question: study it.",
+    "focus": [
+     "Impact of AI on employment and India's IT-services model",
+     "Skilling for the AI economy: Skill India, IndiaAI Mission, industry–academia links",
+     "Social security for displaced and gig workers",
+     "Youth bulge, quality jobs and the demographic dividend"
+    ]
+   },
+   "potential": [
+    "Artificial Intelligence threatens to turn India's demographic dividend into a demographic burden. Discuss the impact of AI on employment in India and suggest a policy response. (15 marks)",
+    "Is AI-led restructuring a new form of jobless growth? Examine with reference to India's IT sector. (10 marks)",
+    "What should India's skilling strategy look like in the age of Artificial Intelligence? Discuss. (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "Artificial Intelligence threatens to turn India's demographic dividend into a demographic burden. Discuss the impact of AI on employment in India and suggest a policy response.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction: AI-led layoffs and India's youth bulge (one line, with facts)",
+      "Impact of AI on employment: risks",
+      "Impact of AI on employment: opportunities",
+      "Challenges for policymakers",
+      "Policy response (15 marks, so a separate part)",
+      "Conclusion (one line)"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "Microsoft's 2026 exit offer to 60,000 staff, 27% of its workforce including India, comes as India faces a youth bulge and a shortage of quality jobs."
+      },
+      {
+       "h": "Impact on employment: the risks",
+       "pts": [
+        {
+         "k": "IT and business services",
+         "t": "India's largest white-collar employer runs on coding, testing and support work that AI does fastest.",
+         "ex": "Microsoft, Oracle and Amazon cut staff in 2026."
+        },
+        {
+         "k": "Entry-level jobs",
+         "t": "AI takes over junior tasks first, closing the door through which graduates entered the workforce.",
+         "ex": ""
+        },
+        {
+         "k": "Banking and back-office work",
+         "t": "Customer service, processing and compliance are being automated.",
+         "ex": "Barclays and HSBC layoffs, 2026."
+        },
+        {
+         "k": "Jobless growth",
+         "t": "Firms raise profits while shrinking staff, so growth stops creating jobs.",
+         "ex": ""
+        },
+        {
+         "k": "Widening inequality",
+         "t": "Gains flow to capital and highly skilled workers; routine workers lose out.",
+         "ex": ""
+        },
+        {
+         "k": "Social stress",
+         "t": "Unemployed educated youth feed unrest and migration pressure.",
+         "ex": "The editorial notes 'growing unrest among the young'."
+        }
+       ]
+      },
+      {
+       "h": "Impact on employment: the opportunities",
+       "pts": [
+        {
+         "k": "New AI jobs",
+         "t": "Data annotation, model training, AI safety and deployment create fresh roles.",
+         "ex": ""
+        },
+        {
+         "k": "Productivity",
+         "t": "AI tools let small firms and professionals do more, raising incomes.",
+         "ex": ""
+        },
+        {
+         "k": "Public services",
+         "t": "AI in health, agriculture and education can extend reach and create local jobs.",
+         "ex": "AI-based crop advisories, telemedicine."
+        },
+        {
+         "k": "Global capability centres",
+         "t": "Multinationals expanding AI work in India add high-value jobs.",
+         "ex": ""
+        },
+        {
+         "k": "Startups",
+         "t": "AI lowers the cost of starting businesses in new areas.",
+         "ex": ""
+        },
+        {
+         "k": "Short-term transition work",
+         "t": "Firms need people to adopt and integrate AI.",
+         "ex": "The editorial expects some short-term opportunities."
+        }
+       ]
+      },
+      {
+       "h": "Challenges for policymakers",
+       "pts": [
+        {
+         "k": "Pace of change",
+         "t": "AI moves faster than education and training systems can adapt.",
+         "ex": ""
+        },
+        {
+         "k": "Skill gaps",
+         "t": "Many graduates lack the digital and analytical skills AI-era jobs need.",
+         "ex": ""
+        },
+        {
+         "k": "Weak safety net",
+         "t": "Most workers are informal, with little unemployment protection.",
+         "ex": ""
+        },
+        {
+         "k": "Data gaps",
+         "t": "Labour data does not yet track AI-related job loss.",
+         "ex": ""
+        },
+        {
+         "k": "Global spillovers",
+         "t": "Decisions by foreign firms shape Indian jobs.",
+         "ex": "Microsoft's offer covers its India staff."
+        },
+        {
+         "k": "Balancing innovation and jobs",
+         "t": "Curbing AI could cost competitiveness; ignoring it could cost jobs.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Policy response",
+       "pts": [
+        {
+         "k": "Reskill at scale",
+         "t": "Link Skill India and PMKVY to AI-era skills, with industry co-designing courses.",
+         "ex": ""
+        },
+        {
+         "k": "Reform education",
+         "t": "Teach AI literacy, problem-solving and creativity from school to university.",
+         "ex": ""
+        },
+        {
+         "k": "Social security for transitions",
+         "t": "Use the Code on Social Security, 2020 to cover gig and displaced workers.",
+         "ex": ""
+        },
+        {
+         "k": "Labour-intensive growth",
+         "t": "Push sectors AI cannot easily replace: care, tourism, food processing, construction.",
+         "ex": ""
+        },
+        {
+         "k": "Build AI at home",
+         "t": "Use the IndiaAI Mission to create AI jobs in India, not just consume AI.",
+         "ex": ""
+        },
+        {
+         "k": "Track and plan",
+         "t": "Add AI-impact questions to labour surveys to guide policy.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "With reskilling, a safety net and labour-intensive growth, India can make AI a tool for its youth rather than a threat to them."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-10-28-04",
+   "title": "A visit to Baku, a gateway to a changing Eurasia",
+   "section": "Raja Mandala (column)",
+   "page": "Page 10",
+   "where": "The Editorial Page, page 10 (C Raja Mohan)",
+   "gs": [
+    "GS2"
+   ],
+   "syllabus": "GS2 › India and its neighbourhood – relations; Bilateral, regional and global groupings affecting India's interests; Effect of policies of other countries on India",
+   "themes": [
+    "regions",
+    "powers",
+    "groupings",
+    "neighbour"
+   ],
+   "summary": "C Raja Mohan argues that Jaishankar's Baku visit resets ties with Azerbaijan and shows national interest outweighs religious or ethnic blocs, opening the Caucasus and Central Asia to India.",
+   "evolution": [
+    [
+     "2009",
+     "Turkic Council set up; it becomes the Organisation of Turkic States (OTS) in 2021."
+    ],
+    [
+     "2021",
+     "Islamabad Declaration by Turkey, Azerbaijan and Pakistan backs Pakistan on Kashmir; 'Three Brothers' military exercise in Azerbaijan."
+    ],
+    [
+     "May 2025",
+     "During Op Sindoor, Indian perceptions of a Turkey–Azerbaijan–Pakistan bloc harden; calls to boycott Turkey and Azerbaijan."
+    ],
+    [
+     "Oct 2026",
+     "Jaishankar visits Baku; Azerbaijan hands the OTS chair to Turkey amid Ankara–Baku friction."
+    ]
+   ],
+   "ideas": [
+    [
+     "National interest outweighs religion and ethnicity: the 'Three Brothers' bloc is thinner than its rhetoric.",
+     "GS2 · Foreign policy principles",
+     "Azerbaijan's friction with Turkey shows that shared religion and ethnicity do not make a strategic bloc; national interest decides."
+    ],
+    [
+     "Central Asian states follow 'multi-vector' policies, like India's multi-alignment, and refuse to join blocs.",
+     "GS2 · Central Asia",
+     "Central Asia's multi-vector diplomacy, mirroring India's multi-alignment, makes it open to Indian engagement."
+    ],
+    [
+     "The Caucasus is a gateway: Azerbaijan borders Russia and Iran and looks across the Caspian to Central Asia.",
+     "GS2 · Connectivity / continental strategy",
+     "Azerbaijan, bordering Russia and Iran and facing Central Asia across the Caspian, is a gateway for India's continental diplomacy."
+    ],
+    [
+     "Don't give Islamabad a veto: India should seek neutrality from Pakistan's friends and work on shared interests.",
+     "GS2 · India–Pakistan / diplomacy",
+     "Engaging Pakistan's friends on shared interests is better than giving Islamabad a veto over India's diplomacy."
+    ]
+   ],
+   "keywords": [
+    [
+     "Multi-alignment / multi-vector diplomacy",
+     "Working with many powers without joining a bloc",
+     "Foreign policy answers",
+     "Like India's multi-alignment, Central Asia's multi-vector diplomacy keeps options open."
+    ],
+    [
+     "Pan-Turkism",
+     "The idea of political unity among Turkic peoples, promoted by Turkey",
+     "Eurasia answers",
+     "Pan-Turkism, like pan-Arabism before it, struggles against national interests."
+    ],
+    [
+     "Organisation of Turkic States (OTS)",
+     "Turkey, Azerbaijan, Kazakhstan, Kyrgyzstan, Uzbekistan; Turkmenistan an observer",
+     "Regional groupings",
+     "Even the OTS avoids becoming a military bloc; Kazakhstan's Tokayev rejected that idea."
+    ],
+    [
+     "'Three Brothers'",
+     "Label for the Turkey–Azerbaijan–Pakistan partnership",
+     "India–Pakistan diplomacy",
+     "The 'Three Brothers' partnership of Turkey, Azerbaijan and Pakistan is weaker than its label suggests."
+    ],
+    [
+     "International North-South Transport Corridor (INSTC)",
+     "India–Iran–Caucasus–Russia trade route",
+     "Connectivity",
+     "Azerbaijan matters to India as a link on the INSTC."
+    ],
+    [
+     "Continental strategy",
+     "India's outreach to inner Eurasia beyond its maritime focus",
+     "Conclusion",
+     "Engaging the Caucasus strengthens India's continental strategy alongside its Indo-Pacific focus."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "Islamabad Declaration (2021)",
+     "Turkey, Azerbaijan and Pakistan backed Pakistan's position on Kashmir",
+     "",
+     "India–Pakistan diplomacy",
+     "The 2021 Islamabad Declaration showed Pakistan using friends to internationalise Kashmir."
+    ],
+    [
+     "Kazakhstan rejects a Turkic military bloc",
+     "President Tokayev opposed turning the OTS into a military alliance",
+     "",
+     "Central Asian autonomy",
+     "Kazakhstan's refusal to militarise the OTS shows Central Asia guarding its sovereignty."
+    ],
+    [
+     "India–Canada turnaround",
+     "Ties revived over the past year and a half after a deep low",
+     "",
+     "Pragmatic diplomacy",
+     "Like the India–Canada reset, the Baku opening shows diplomacy can repair ties with 'hostile' countries."
+    ],
+    [
+     "Azerbaijan–Turkey friction",
+     "Headscarf restrictions and Baku's ties with Israel divide the two",
+     "",
+     "Limits of identity blocs",
+     "Baku's secularism and Israel ties have strained its bond with Turkey."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS2-2024/Q10",
+     "Directly relevant: Central Asia's multi-vector policy and Azerbaijan as a gateway across the Caspian."
+    ],
+    [
+     "GS2-2018/Q10",
+     "Outside powers in Central Asia: Russia, China, Turkey and Iran all compete there."
+    ],
+    [
+     "GS2-2017/Q19",
+     "Energy: India's energy interests in Azerbaijan add to its West Asian energy ties."
+    ],
+    [
+     "GS2-2018/Q20",
+     "Iran's role: the INSTC runs through Iran, and sanctions shape India's Eurasian plans."
+    ],
+    [
+     "GS2-2026/Q20",
+     "China's growing presence in Eurasia, like the BRI in South Asia, is part of great-power competition."
+    ]
+   ],
+   "trend": {
+    "t": "UPSC asks India's neighbourhood beyond South Asia mainly through Central Asia (2018 Ashgabat and outside powers, 2024 Central Asian Republics) and West Asia, especially energy (2017) and Iran (2018). The angle has moved from connectivity agreements to India's overall relations and strategic weight in the region.",
+    "watch": "Central Asia has come in 2018 and 2024, and West Asia and Iran repeatedly. India's 'extended neighbourhood' in Eurasia is a must-study area, beyond Pakistan and China.",
+    "focus": [
+     "India's Central Asia policy: connectivity (INSTC, Chabahar), energy, security",
+     "Competition among Russia, China, Turkey and Iran in Eurasia",
+     "India's multi-alignment and balancing between rival partners (e.g. Armenia and Azerbaijan)",
+     "Pakistan's partnerships in the Islamic world and India's response"
+    ]
+   },
+   "potential": [
+    "Discuss the significance of the South Caucasus and Central Asia for India's continental strategy. What challenges does India face in the region? (15 marks)",
+    "'Shared religion and ethnicity do not automatically produce strategic blocs.' Examine in the context of India's relations with Turkey, Azerbaijan and Pakistan. (10 marks)",
+    "How can the International North-South Transport Corridor reshape India's access to Eurasia? Discuss its prospects and constraints. (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "Discuss the significance of the South Caucasus and Central Asia for India's continental strategy. What challenges does India face in the region?",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction: the Baku reset and India's Eurasian outreach (one line, with facts)",
+      "Significance of the region for India (multi-dimensional)",
+      "Challenges India faces",
+      "Way forward (15 marks, so a separate part)",
+      "Conclusion (one line)"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "EAM Jaishankar's Baku visit (October 2026) reset ties with Azerbaijan, a gateway between Russia, Iran and Central Asia, after strains during Op Sindoor (2025)."
+      },
+      {
+       "h": "Significance for India",
+       "pts": [
+        {
+         "k": "Connectivity",
+         "t": "The region links India to Russia and Europe overland, bypassing Pakistan.",
+         "ex": "INSTC through Iran and the Caucasus; Chabahar."
+        },
+        {
+         "k": "Energy security",
+         "t": "Caspian and Central Asian oil, gas and uranium can diversify India's supplies.",
+         "ex": "India's energy interests in Azerbaijan; uranium from Kazakhstan."
+        },
+        {
+         "k": "Geostrategic location",
+         "t": "Azerbaijan borders Russia and Iran; Central Asia borders China and Afghanistan.",
+         "ex": ""
+        },
+        {
+         "k": "Like-minded diplomacy",
+         "t": "Multi-vector states share India's preference for multi-alignment over blocs.",
+         "ex": "Kazakhstan rejected a Turkic military alliance."
+        },
+        {
+         "k": "Security",
+         "t": "Stability here affects terrorism, drugs and extremism flowing from Afghanistan.",
+         "ex": ""
+        },
+        {
+         "k": "Economic opportunity",
+         "t": "New ports, railways and customs reforms are reshaping inner Eurasia's markets.",
+         "ex": "Turkic and Caspian transport projects."
+        }
+       ]
+      },
+      {
+       "h": "Challenges",
+       "pts": [
+        {
+         "k": "Pakistan's partnerships",
+         "t": "Turkey and Azerbaijan have backed Pakistan on Kashmir.",
+         "ex": "Islamabad Declaration, 2021; 'Three Brothers' exercise."
+        },
+        {
+         "k": "No direct land access",
+         "t": "Pakistan and Afghanistan block India's shortest route.",
+         "ex": ""
+        },
+        {
+         "k": "China's growing presence",
+         "t": "BRI investment and trade give China an edge.",
+         "ex": ""
+        },
+        {
+         "k": "Russia's sphere of influence",
+         "t": "Moscow's security role limits outside players.",
+         "ex": "Kazakhstan and Kyrgyzstan are in the Russia-led CSTO."
+        },
+        {
+         "k": "Rival partners",
+         "t": "Ties with Armenia and Azerbaijan must be balanced.",
+         "ex": "India's partnership with Armenia."
+        },
+        {
+         "k": "Slow connectivity projects",
+         "t": "INSTC and Chabahar face sanctions on Iran and funding delays.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "Interest-based engagement",
+         "t": "Work with Pakistan's friends on shared interests; don't give Islamabad a veto.",
+         "ex": "The Baku reset."
+        },
+        {
+         "k": "Fast-track connectivity",
+         "t": "Complete INSTC and Chabahar links; explore Caspian routes.",
+         "ex": ""
+        },
+        {
+         "k": "Energy and minerals partnerships",
+         "t": "Long-term deals for oil, gas, uranium and critical minerals.",
+         "ex": ""
+        },
+        {
+         "k": "Balance rivals",
+         "t": "Deepen ties with Azerbaijan while keeping the Armenia partnership.",
+         "ex": ""
+        },
+        {
+         "k": "Use institutions",
+         "t": "SCO and the India–Central Asia Summit as platforms.",
+         "ex": ""
+        },
+        {
+         "k": "Soft power",
+         "t": "Education, IT, health and cultural links build goodwill.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "By engaging the Caucasus and Central Asia on interests rather than identities, India can widen its continental reach beyond Pakistan's veto."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-10-28-05",
+   "title": "Not just welfare for elderly, Keralam needs silver economy",
+   "section": "Op-ed",
+   "page": "Page 10",
+   "where": "The Editorial Page, page 10 (Muhammed Riyas)",
+   "gs": [
+    "GS1",
+    "GS2",
+    "GS3"
+   ],
+   "syllabus": "GS1 › Population and associated issues · GS2 › Welfare of vulnerable sections; Local government · GS3 › Employment; Inclusive growth",
+   "themes": [
+    "demography",
+    "vulnerable",
+    "welfare",
+    "localgov",
+    "jobs"
+   ],
+   "summary": "After Keralam's elder-rights Bill, the writer argues the state should build a 'silver economy' of care, services and jobs, anchored in local governments, without weakening welfare.",
+   "evolution": [
+    [
+     "2021",
+     "About 15% of Keralam's people are aged 60 and above."
+    ],
+    [
+     "26 Oct 2026",
+     "Keralam Assembly unanimously passes the Senior Citizens (Care and Protection of Rights) Bill, 2026 (filed on 27 Oct)."
+    ],
+    [
+     "28 Oct 2026",
+     "Op-ed: go beyond welfare to a silver economy."
+    ],
+    [
+     "2051 (projected)",
+     "The share of the elderly is projected to reach 30% (International Institute of Migration and Development)."
+    ]
+   ],
+   "ideas": [
+    [
+     "A silver economy turns ageing into opportunity: goods and services for older people that also create jobs for the young.",
+     "GS1 ageing · GS3 jobs",
+     "A silver economy of home care, assistive technology and age-friendly services can turn ageing into jobs for the young."
+    ],
+    [
+     "Productive ageing must be a choice, not a duty; pensions, healthcare and protection stay non-negotiable.",
+     "GS2 · Welfare",
+     "Productive ageing should be a choice for the elderly, never a substitute for pensions, healthcare and protection."
+    ],
+    [
+     "Local governments should anchor elder care through a senior citizens' sub-plan with predictable funding.",
+     "GS2 · Local government",
+     "A senior citizens' sub-plan with funds for panchayats can make elder care local and accountable."
+    ]
+   ],
+   "keywords": [
+    [
+     "Silver economy",
+     "Goods and services for an ageing population",
+     "Ageing answers",
+     "A silver economy can make ageing an engine of jobs and services."
+    ],
+    [
+     "Productive ageing",
+     "Older people choosing to keep working, mentoring or volunteering",
+     "Ageing and work",
+     "Productive ageing taps the skills of retired teachers, nurses and engineers."
+    ],
+    [
+     "Intergenerational solidarity",
+     "Mutual support between young and old",
+     "Conclusions / essay",
+     "Elder care built on intergenerational solidarity serves both generations."
+    ],
+    [
+     "Senior citizens' sub-plan",
+     "Earmarked funds and duties for local bodies for the elderly",
+     "Local government answers",
+     "Like the SC/ST sub-plans, a senior citizens' sub-plan can earmark funds for the elderly."
+    ],
+    [
+     "Care economy",
+     "Paid and unpaid work of looking after others",
+     "Women / jobs",
+     "Certified caregivers with fair wages and social security can make the care economy decent work."
+    ]
+   ],
+   "data": [
+    [
+     "15% → 30%",
+     "Share of Keralam's population aged 60+, 2021 → 2051 (projected)",
+     "International Institute of Migration and Development, via IE",
+     "Ageing (Kerala as India's future)",
+     "Keralam's elderly share is set to double from 15% (2021) to 30% (2051), a preview of India's ageing."
+    ]
+   ],
+   "examples": [
+    [
+     "Keralam Senior Citizens Bill, 2026",
+     "Care-centre regulation, caregiver certification, living wills, ageing at home, a State Reserve Fund",
+     "",
+     "Best practice",
+     "Keralam's 2026 Bill combines rights, care standards and a State Reserve Fund for the elderly."
+    ],
+    [
+     "Kerala's retired professionals",
+     "Teachers, nurses, engineers and artisans who could mentor and train",
+     "",
+     "Productive ageing",
+     "Kerala's retired teachers and nurses can mentor the young through universities and local bodies."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS1-2026/Q19",
+     "Ageing is a core challenge of the demographic transition; the silver economy is one response."
+    ],
+    [
+     "GS1-2024/Q7",
+     "Kerala's fast ageing is an Indian preview of a 'demographic winter'."
+    ],
+    [
+     "GS1-2013/Q17",
+     "Globalisation, migration and nuclear families weaken traditional elder care; the state and the market must fill the gap."
+    ],
+    [
+     "GS2-2020/Q6",
+     "Geriatric healthcare is central to social development; home healthcare is part of the silver economy."
+    ],
+    [
+     "GS2-2016/Q16",
+     "Using older people's skills extends the demographic dividend beyond youth."
+    ]
+   ],
+   "trend": {
+    "t": "Population questions have moved from the demographic dividend (2014, 2016) to ageing: the aged and globalisation (2013), geriatric healthcare (2020), the 'demographic winter' (2024) and the challenges of demographic transition (2026). Ageing has gone from a welfare footnote to a central population question.",
+    "watch": "Ageing and demographic transition have come in 2013, 2020, 2024 and 2026. With southern states ageing fast, the elderly are a must-study topic in GS1 and GS2.",
+    "focus": [
+     "Ageing as a challenge and an opportunity: the silver economy",
+     "Elder care: law, institutions, caregivers and local governments",
+     "Pensions and old-age income security",
+     "Regional demographic divergence: ageing south, young north"
+    ]
+   },
+   "potential": [
+    "Ageing is both a challenge and an opportunity for India. Examine with reference to the idea of a 'silver economy'. (15 marks)",
+    "Discuss the role of local governments in elder care in India. (10 marks)",
+    "India's demographic transition is uneven across states. Examine its implications for public policy. (15 marks)"
+   ],
+   "practice": [
+    {
+     "q": "Ageing is both a challenge and an opportunity for India. Examine with reference to the idea of a 'silver economy'.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction: ageing in numbers (one line, with facts)",
+      "Ageing as a challenge (multi-dimensional)",
+      "Ageing as an opportunity: the silver economy",
+      "Challenges in realising the silver economy",
+      "Way forward (15 marks, so a separate part)",
+      "Conclusion (one line)"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "India's elderly, about one in ten today, are projected to be one in five by 2050 (UNFPA India Ageing Report 2023); Keralam already nears 15% and may reach 30% by 2051."
+      },
+      {
+       "h": "Ageing as a challenge",
+       "pts": [
+        {
+         "k": "Fiscal pressure",
+         "t": "Pensions and health spending rise as the working-age share falls.",
+         "ex": ""
+        },
+        {
+         "k": "Health burden",
+         "t": "Chronic diseases, disability and dementia need long-term care.",
+         "ex": ""
+        },
+        {
+         "k": "Care deficit",
+         "t": "Nuclear families and migration of the young leave the old alone.",
+         "ex": "Kerala's large emigrant population."
+        },
+        {
+         "k": "Feminisation of ageing",
+         "t": "Older women live longer, often widowed and without income.",
+         "ex": ""
+        },
+        {
+         "k": "Abuse and neglect",
+         "t": "Elder abuse and abandonment remain under-reported.",
+         "ex": "Keralam's Bill penalises abandonment."
+        },
+        {
+         "k": "Digital and physical exclusion",
+         "t": "Inaccessible services, transport and technology isolate the old.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Ageing as an opportunity: the silver economy",
+       "pts": [
+        {
+         "k": "Care jobs",
+         "t": "Home healthcare, physiotherapy and assisted living create work for the young.",
+         "ex": ""
+        },
+        {
+         "k": "Age-friendly products",
+         "t": "Assistive technology and accessible housing are growing markets.",
+         "ex": ""
+        },
+        {
+         "k": "Experience as a resource",
+         "t": "Retired professionals can mentor, train and start enterprises.",
+         "ex": "Kerala's retired teachers, nurses and engineers."
+        },
+        {
+         "k": "Lifelong learning",
+         "t": "Universities can offer courses that keep older people active.",
+         "ex": ""
+        },
+        {
+         "k": "Health-tech and services",
+         "t": "Telemedicine and home diagnostics serve the elderly.",
+         "ex": ""
+        },
+        {
+         "k": "Intergenerational solidarity",
+         "t": "Mentoring links young and old, building social capital.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Challenges in realising it",
+       "pts": [
+        {
+         "k": "Affordability",
+         "t": "Most elderly lack savings, so markets alone exclude the poor.",
+         "ex": ""
+        },
+        {
+         "k": "Weak care workforce",
+         "t": "Caregivers are untrained, poorly paid and mostly women.",
+         "ex": ""
+        },
+        {
+         "k": "Informal sector",
+         "t": "Most workers retire without pensions.",
+         "ex": ""
+        },
+        {
+         "k": "Regulatory gaps",
+         "t": "Care homes and services are largely unregulated.",
+         "ex": ""
+        },
+        {
+         "k": "Risk of shifting the burden",
+         "t": "Pushing 'productive ageing' can replace state support.",
+         "ex": "The writer warns against this."
+        },
+        {
+         "k": "Uneven ageing",
+         "t": "Southern states age faster, needing different policies from the north.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "Protect the floor",
+         "t": "Universal old-age pensions and health cover remain the base.",
+         "ex": "Ayushman Vayo Vandana for those 70+."
+        },
+        {
+         "k": "Professionalise care",
+         "t": "Certify caregivers with fair wages and social security.",
+         "ex": "Keralam's caregiver certification."
+        },
+        {
+         "k": "Local delivery",
+         "t": "A senior citizens' sub-plan with funds for panchayats and municipalities.",
+         "ex": ""
+        },
+        {
+         "k": "Enable choice-based work",
+         "t": "Platforms for mentoring, part-time work and enterprise by the elderly.",
+         "ex": ""
+        },
+        {
+         "k": "Age-friendly infrastructure",
+         "t": "Accessible transport, housing and digital services.",
+         "ex": ""
+        },
+        {
+         "k": "Rights-based law",
+         "t": "Build on the 2007 Maintenance and Welfare Act with rights-based laws like Keralam's.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "With a firm welfare floor and a growing silver economy, India can turn longer lives into a dividend of care, experience and intergenerational solidarity."
+      }
+     ]
+    }
+   ]
   }
  ],
  "ethics": [
