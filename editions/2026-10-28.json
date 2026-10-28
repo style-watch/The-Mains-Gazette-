@@ -154,16 +154,17 @@
      "marks": 10,
      "words": 150,
      "parts": [
-      "Introduction: tensions with Pakistan, yet engagement through the SCO",
+      "Introduction: frozen ties, yet SCO engagement (one line, with facts)",
       "India's engagement with Pakistan at the SCO (multi-dimensional)",
-      "Significance of multilateral engagement for India: positives (multi-dimensional)",
+      "Significance of multilateral engagement for India",
       "Limits and challenges",
-      "Way forward with conclusion (10 marks, so combined)"
+      "Way forward",
+      "Conclusion (one line)"
      ],
      "answer": [
       {
        "h": "Introduction",
-       "t": "India–Pakistan ties have been frozen over cross-border terrorism, from Pathankot and Uri (2016) to Pahalgam (2025). Yet India still engages Pakistan at the SCO, most recently inviting its culture minister to the Civilisational Dialogue Forum in New Delhi (Nov 2026)."
+       "t": "Despite ties frozen since Pathankot–Uri (2016) and Op Sindoor (2025), India has invited Pakistan's culture minister to the SCO Civilisational Dialogue Forum, New Delhi (Nov 2026)."
       },
       {
        "h": "How India engages Pakistan through the SCO",
@@ -240,42 +241,92 @@
        "pts": [
         {
          "k": "Terror resets every gain",
-         "t": "Engagement cannot survive repeated attacks.",
+         "t": "No forum can sustain engagement through repeated attacks.",
          "ex": "Pahalgam, 2025."
         },
         {
          "k": "China–Pakistan axis",
-         "t": "China's weight and closeness to Pakistan can tilt SCO positions against India's interests.",
-         "ex": "India's opposition to CPEC through PoK."
+         "t": "China's weight and closeness to Pakistan can tilt SCO positions against India.",
+         "ex": "CPEC through PoK, which India opposes."
         },
         {
-         "k": "Consensus and declaratory outcomes",
-         "t": "Hostile members dilute joint positions, so results stay on paper.",
-         "ex": "India declined the SCO Defence Ministers' statement in June 2025 as it omitted Pahalgam."
+         "k": "Bilateral disputes brought into a multilateral forum",
+         "t": "Pakistan uses SCO platforms to push its Kashmir narrative, against the SCO's norm of keeping bilateral issues out.",
+         "ex": "India's NSA walked out of an SCO NSA meeting (2020) over Pakistan's distorted map."
+        },
+        {
+         "k": "Denial of overland transit",
+         "t": "Pakistan blocks India's land route to Afghanistan and Central Asia, limiting the SCO's connectivity promise.",
+         "ex": ""
+        },
+        {
+         "k": "Consensus-bound, declaratory outcomes",
+         "t": "Every member has a veto, so terror language gets diluted.",
+         "ex": "India declined the SCO Defence Ministers' statement (June 2025) as it omitted Pahalgam."
+        },
+        {
+         "k": "Divergence on the Belt and Road",
+         "t": "India stays out of SCO endorsements of BRI on sovereignty grounds, isolating it on connectivity texts.",
+         "ex": ""
         }
        ]
       },
       {
-       "h": "Way forward and conclusion",
-       "t": "India should use the SCO to keep terror on the agenda, advance connectivity and culture where interests meet, and tie any bilateral step to verifiable action against terror. Done this way, multilateral engagement lets India stay firm on security and present in Eurasia: principle and pragmatism together."
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "Zero tolerance first",
+         "t": "Use RATS and SCO declarations to name cross-border terror; no dilution for consensus.",
+         "ex": ""
+        },
+        {
+         "k": "Calibrated engagement",
+         "t": "Keep cultural and multilateral channels open, but tie any bilateral step to verifiable action on terror.",
+         "ex": ""
+        },
+        {
+         "k": "Connectivity around the blockade",
+         "t": "Push Chabahar, INSTC and the Ashgabat route to reach Central Asia without Pakistan.",
+         "ex": ""
+        },
+        {
+         "k": "Issue-based coalitions",
+         "t": "Work with Russia and Central Asian members on terror, Afghanistan and connectivity.",
+         "ex": ""
+        },
+        {
+         "k": "Bilateral depth with Central Asia",
+         "t": "Build on the India–Central Asia Summit and Dialogue formats.",
+         "ex": ""
+        },
+        {
+         "k": "Agenda-setting",
+         "t": "Use India's SECURE SCO vision (security, economy, connectivity, unity, sovereignty, environment) to frame initiatives.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "'Bilateral freeze, multilateral engagement' keeps the door ajar for India without lowering its guard on terror."
       }
      ]
     }
    ],
    "trend": {
-    "t": "UPSC has moved from India–Pakistan as a bilateral question (soft power, 2015) to the regional groupings that frame it: SAARC stalled by terror (2016), the SCO asked twice in three years (2021, 2023) and Central Asia connectivity (2018, 2024). The newer questions ask about India's role, not just facts about the grouping.",
+    "t": "UPSC has moved from India–Pakistan as a bilateral question (2015) to the regional frameworks around it: SAARC stalled by terror (2016), the SCO twice in three years (2021, 2023), and Central Asia in 2018 and 2024. The direction is clear: from the troubled neighbour to the wider Eurasian neighbourhood, and from facts about groupings to India's role in them.",
     "focus": [
-     "India's leadership and agenda-setting in the SCO amid conflict among members",
-     "Terrorism in multilateral forums: can a grouping work when members are hostile?",
-     "Connectivity to Central Asia and Pakistan as the missing link",
-     "Cultural and civilisational diplomacy as a tool of foreign policy"
+     "Connectivity that bypasses Pakistan: Chabahar, INSTC and the Ashgabat Agreement",
+     "Afghanistan as the gateway to Central Asia: security, trade and humanitarian engagement",
+     "Energy and critical minerals of Central Asia (uranium, rare earths) for India's energy transition",
+     "Competition with China's Belt and Road in Central Asia, and the India–Central Asia Summit format"
     ]
    },
    "potential": [
     "Despite frozen bilateral ties, India continues to engage Pakistan through the Shanghai Cooperation Organisation (SCO). Discuss the significance of such multilateral engagement for India. (10 marks)",
     "'With SAARC dormant, the SCO has become India's principal regional platform in its western neighbourhood.' Critically analyse. (15 marks)",
-    "Civilisational diplomacy can build bridges where political dialogue has stalled. Examine in the context of India's initiatives in the SCO. (10 marks)",
-    "Connectivity is central to India's Central Asia policy, yet its western neighbourhood remains the missing link. Discuss the challenges and suggest a way forward. (15 marks)"
+    "Connectivity is central to India's Central Asia policy, yet its western neighbourhood remains the missing link. Discuss the challenges and suggest a way forward. (15 marks)",
+    "What is the significance of Afghanistan for India's engagement with Central Asia? Examine in the light of recent developments. (10 marks)"
    ]
   }
  ],
