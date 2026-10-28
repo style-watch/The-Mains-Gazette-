@@ -3531,6 +3531,122 @@
      "Women excel, yet social attitudes stay patriarchal: women in chess face bias despite success."
     ]
    ]
+  },
+  {
+   "id": "2026-10-28-14",
+   "title": "How these physicists brought STEM to the doorstep of women, rural youth",
+   "section": "Pune city",
+   "page": "Page 4",
+   "where": "Pune city page (Anuradha Mascarenhas)",
+   "gs": [
+    "GS3",
+    "GS1",
+    "GS2"
+   ],
+   "syllabus": "GS3 › Science and technology: awareness and popularisation · GS1 › Role of women · GS2 › Education; Role of NGOs",
+   "themes": [
+    "education",
+    "women",
+    "shgngo"
+   ],
+   "summary": "Pune-based VigyanShaala International links rural youth and young women with STEM mentors and a free AI mentor on WhatsApp; over 20,000 young women in 28 states have joined its She for STEM programme.",
+   "ideas": [
+    [
+     "Mentorship closes the access gap: curious students in remote areas often lack teachers who can answer them; sustained mentoring bridges that gap.",
+     "GS3 · S&T popularisation",
+     "VigyanShaala shows that sustained mentorship can bring science to students whose schools cannot answer their questions."
+    ],
+    [
+     "Technology scales guidance: a free AI mentor on WhatsApp ('Curie') lets a student in a remote college ask a career question at midnight.",
+     "GS3 · AI for good / Digital education",
+     "AI tools like VigyanShaala's WhatsApp mentor 'Curie' can scale career guidance to remote students."
+    ],
+    [
+     "Women in STEM and first-generation learners: over 70% of the 20,000 young women in She for STEM are first-generation learners.",
+     "GS1 · Women / GS2 education",
+     "Over 70% of the 20,000 young women in She for STEM are first-generation learners, proof that mentoring widens women's access to science."
+    ],
+    [
+     "Civil society complements the state: a non-profit network of 1,000 mentors fills gaps in science education and career guidance.",
+     "GS2 · Role of NGOs",
+     "Civil-society networks like VigyanShaala complement public science education with mentorship the state cannot provide alone."
+    ]
+   ],
+   "keywords": [
+    [
+     "Women in STEM",
+     "Women's participation in science, technology, engineering and maths",
+     "GS1 / GS3",
+     "Mentoring and role models are key to raising women in STEM."
+    ],
+    [
+     "First-generation learners",
+     "Students whose parents did not reach higher education",
+     "Education / equity",
+     "Most She for STEM participants are first-generation learners."
+    ],
+    [
+     "Scientific temper",
+     "Questioning, evidence-based thinking (Article 51A(h))",
+     "GS3 / essay",
+     "Encouraging children's questions builds the scientific temper the Constitution asks of citizens."
+    ],
+    [
+     "Role models and mentorship",
+     "Guidance from people who have walked the path",
+     "Way forward",
+     "Role models make science careers imaginable for rural girls."
+    ],
+    [
+     "AI for inclusion",
+     "Using AI to widen access, not replace people",
+     "GS3 · AI",
+     "An AI mentor on WhatsApp is an example of AI for inclusion."
+    ]
+   ],
+   "data": [
+    [
+     "20,000+ in 28 states (70% first-generation)",
+     "Young women who have joined She for STEM",
+     "IE (Pune)",
+     "Women in STEM",
+     "Over 20,000 young women across 28 states have joined She for STEM; more than 70% are first-generation learners."
+    ]
+   ],
+   "examples": [
+    [
+     "VigyanShaala International (Pune)",
+     "1,000 STEM mentors, a free AI mentor on WhatsApp; Nikkei Asia Prize (2025), Schlumberger Foundation's Faculty for the Future Impact Prize (2026)",
+     "",
+     "Best practice in science outreach",
+     "VigyanShaala, winner of the 2025 Nikkei Asia Prize, brings STEM mentors to rural youth and women."
+    ],
+    [
+     "Diksha Nagarkoti, Pithoragarh",
+     "A girl from an Indo-Nepal border district whose teachers could not answer her questions found mentors through VigyanShaala",
+     "",
+     "Human story / essay",
+     "Diksha from Pithoragarh, whose questions outran her teachers, found her path through STEM mentoring."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS1-2020/Q20",
+     "Digital initiatives in education: an AI mentor on WhatsApp is one."
+    ],
+    [
+     "GS2-2026/Q18",
+     "Education as strategic investment: building scientific talent among rural youth and women."
+    ],
+    [
+     "GS1-2024/Q8",
+     "Gender equity in practice: targeted mentoring for young women in science."
+    ],
+    [
+     "GS1-2019/Q19",
+     "Women's challenges 'against time and space': access to science careers in remote areas."
+    ]
+   ]
   }
  ],
  "ethics": [
@@ -3810,6 +3926,22 @@
    "topics": [
     "2020B3",
     "2023B1"
+   ]
+  },
+  {
+   "id": "e-2026-10-28-07",
+   "type": "Story",
+   "title": "The girl whose questions outran her teachers",
+   "text": "Diksha Nagarkoti grew up in Pithoragarh, on the Indo-Nepal border, watching the mountains change with the seasons and wondering how ecosystems worked. Her teachers could not answer all her questions. She found her answers through VigyanShaala's STEM mentors; over 20,000 young women, most of them first-generation learners, have joined its She for STEM programme.",
+   "use": "Open or illustrate: 'A well-educated mind will always have more questions than answers' (2026), 'The Empires of the future will be the empires of the mind' (2024).",
+   "themes": [
+    "learning",
+    "justice"
+   ],
+   "src": "IE Pune (Anuradha Mascarenhas)",
+   "topics": [
+    "2026B2",
+    "2024A2"
    ]
   }
  ]
