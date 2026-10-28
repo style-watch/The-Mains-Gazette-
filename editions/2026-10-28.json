@@ -1525,6 +1525,11 @@
      "Ageing with dignity is an ethical duty: care, autonomy and respect for the old, with the state supporting families, not replacing them.",
      "GS4 · Ethics of care / Essay",
      "Dignity in old age is the test of a caring society: care, autonomy and respect, not charity."
+    ],
+    [
+     "Compassion towards the weaker sections: the poor, widowed and dependent elderly need a state that cares, not just one that regulates.",
+     "GS4 · Compassion towards weaker sections",
+     "Keralam's elder-rights law reflects compassion towards the weaker sections: the state caring for those who can no longer care for themselves."
     ]
    ],
    "keywords": [
@@ -1599,6 +1604,12 @@
      "Keralam Bill's funding and care-quality tools",
      "Best practice",
      "Keralam's Bill pairs a State Reserve Fund with caregiver certification."
+    ],
+    [
+     "Compassion towards the weaker sections",
+     "A foundational value for civil servants (GS4 syllabus)",
+     "GS4 answers",
+     "Elder care tests the civil servant's compassion towards the weaker sections."
     ]
    ],
    "data": [
@@ -2189,7 +2200,7 @@
     "GS2",
     "GS4"
    ],
-   "syllabus": "GS3 › Environmental pollution and degradation · GS2 › Government policies and interventions; Inter-ministerial coordination · GS4 › Accountability; form versus substance",
+   "syllabus": "GS3 › Environmental pollution and degradation · GS2 › Government policies and interventions; Inter-ministerial coordination · GS4 › Environmental ethics; Accountability",
    "themes": [
     "pollution",
     "urban",
@@ -3747,26 +3758,25 @@
   },
   {
    "id": "2026-10-28-e5",
-   "area": "public",
+   "area": "env",
    "themes": [
-    "g4workculture",
-    "g4probity"
+    "g4env"
    ],
    "card": "2026-10-28-07",
    "src": "IE p. 11",
    "title": "Form over substance: clean-air rankings",
    "news": "City clean-air rankings reward swept roads and plans; actual pollution cuts are just 2.5% of the score.",
-   "syllabus": "Work culture and quality of service delivery · Accountability",
-   "link": "Meeting procedures while the air stays toxic is form without substance; officials must serve the purpose, not the checklist.",
+   "syllabus": "Environmental ethics · Accountability in public service",
+   "link": "Clean air is a duty to people and nature; chasing rankings while the air stays toxic fails that duty. Environmental ethics demands results, not paperwork.",
    "pyq": [
     "GS4-2024/Q4b",
     "GS4-2022/Q2a"
    ],
    "question": "As a Municipal Commissioner, your city ranks high in clean-air rankings, yet its air remains hazardous. What will you do differently, and why?",
    "keywords": [
-    "Form versus substance",
-    "Accountability",
-    "Outcome orientation"
+    "Environmental ethics",
+    "Right to clean air",
+    "Accountability"
    ]
   },
   {
@@ -3902,15 +3912,14 @@
    "type": "Example",
    "title": "Seven years of arguing over theatre commands",
    "text": "India's services have debated theatre commands for seven years; the US took four decades and several disasters to reach true jointness. 'The next security crisis will not wait for the services to finish arguing.'",
-   "use": "For 'Shelving hard decisions is the least ethical course' and 'A ship in harbour is safe, but that is not what ship is for'.",
+   "use": "For 'Shelving hard decisions is the least ethical course': seven years of delay on a reform everyone agrees is needed.",
    "themes": [
     "ethics",
     "power"
    ],
    "src": "IE p. 11 (Arun Prakash)",
    "topics": [
-    "2026B3",
-    "2022A4"
+    "2026B3"
    ]
   },
   {

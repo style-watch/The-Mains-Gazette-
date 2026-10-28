@@ -49,6 +49,7 @@ repository stays small (roughly 50-60 MB of data a year, against GitHub Pages' 1
      7. Facts only from the news or well-established sources.
      8. Where it helps (processes, cycles, cause-effect), add a simple diagram: a section's `flow` list, drawn as boxes joined by arrows.
      Point format in `pts`: {"k": key phrase, "t": explanation, "ex": example}.
+   - Fit check before filing: link an essay topic only if the story genuinely illustrates it (e.g. a delayed reform fits 'Shelving hard decisions', not 'A ship in harbour'); file an ethics case under the dimension it truly shows (pollution → environmental ethics, not work culture); name the GS4 value directly where it applies (e.g. compassion towards the weaker sections for elder care).
    - Look for the GS4 angle in every story and add an `ethics` case for it.
    - Ethics cases: `id`, `news` (one line), `syllabus` (GS4 line), `link` (the connection), `question` (practice), `pyq` (GS4 ids), `keywords`, `themes` (g4 keys), `area`, `card` (story id). No ideas, data or examples.
    - `themes` must use keys from `data/themes.js` (essay material: keys from `data/essay.js`).
