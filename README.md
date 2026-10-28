@@ -2,17 +2,29 @@
 
 Today's news, tomorrow's answers. A UPSC Mains current-affairs app.
 
-## How editions are added
+## How the data is stored
 
-The Mains Gazette has two pages:
+One file per newspaper day is the only thing the editor writes:
 
-- **Morning Edition**: each newspaper item is turned into a card with four parts: Ideas, Keywords, Data and Examples.
-- **The Almanac**: the same card is filed automatically under every theme key listed in its `themes`.
+    editions/YYYY-MM-DD.json   { date, paper, items: [...], ethics: [...], essay: [...] }
+
+`node tools/build.js` then files everything automatically (never edit these by hand):
+
+    data/index.json                    small summary: editions list and counts
+    data/themes/<theme>/<YYYY-MM>.json every story under a theme, month by month (the Almanac)
+    data/ethics/<area>/<YYYY-MM>.json  Ethics Casebook cases by area
+    data/essay/<theme>/<YYYY-MM>.json  essay material by essay theme
+
+The app downloads only what a page needs: the Morning Edition loads one day; an Almanac theme
+page loads that theme's months and shows its whole trajectory. Past months never change, so the
+repository stays small (roughly 50-60 MB of data a year, against GitHub Pages' 1 GB limit).
 
 ## Daily workflow
 1. The owner sends the newspaper (PDF, photos or links) and the list of items to cover.
-2. For each item, add an object to a new edition at the **top** of `editions` in `data/dossier.js`. The field format is documented in that file.
-3. Rules:
+2. Write `editions/YYYY-MM-DD.json` (copy the latest one for the field format).
+   Story ids start with the date (`2026-10-28-01`); ethics ids are `2026-10-28-e1`.
+3. Run `node tools/build.js`. It stops and lists any unknown theme key or duplicate id.
+4. Rules:
    - Work only from the article itself. Never add figures or examples that are not in the source.
    - Ideas must be tied to a specific GS syllabus line, and `syllabus` names that line.
    - Mark Ethics-usable examples with a third value: `"GS4"`.
@@ -20,9 +32,9 @@ The Mains Gazette has two pages:
    - Data: only figures that can be quoted in many answers (national, priority themes such as women). Leave `data: []` if nothing qualifies; the card says so.
    - Examples: relatable and broadly usable, not narrow. Keywords: terms that sharpen an answer (e.g. 'duck curve', 'time poverty'), not the obvious ones.
    - Look for the GS4 angle in every story and add an `ethics` case for it.
-   - Ethics cases (`ethics` in each edition): `news` (one line), `syllabus` (GS4 line), `link` (the connection), `question` (practice), `pyq` (GS4 ids), `keywords`, `themes` (g4 keys), `card` (story id). No ideas, data or examples.
-   - `themes` must use keys from `data/themes.js`. Run the check below to see them.
-4. Commit and push to `main`. GitHub Pages updates in about a minute.
+   - Ethics cases: `id`, `news` (one line), `syllabus` (GS4 line), `link` (the connection), `question` (practice), `pyq` (GS4 ids), `keywords`, `themes` (g4 keys), `area`, `card` (story id). No ideas, data or examples.
+   - `themes` must use keys from `data/themes.js` (essay material: keys from `data/essay.js`).
+5. Commit and push to `main`. GitHub Pages updates in about a minute.
 
 Check theme keys:
 

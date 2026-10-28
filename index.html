@@ -176,6 +176,19 @@ nav.main .n{font-family:var(--mono);font-size:.7rem;background:var(--navy);color
 .cday{margin-bottom:22px}
 .cdate{font-family:var(--mono);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;margin:0 0 10px;padding-bottom:6px;border-bottom:3px double var(--navy)}
 .cdate a{color:var(--navy);text-decoration:none}
+.traj{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px 20px;margin:0 0 18px;box-shadow:var(--shadow)}
+.trh{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.trh h2{margin:0;font-family:var(--serif);font-size:1.25rem}
+.trh span{font-family:var(--mono);font-size:.7rem;color:var(--muted);letter-spacing:.06em}
+.traj ol{list-style:none;margin:0;padding:0 0 0 14px;border-left:2px solid var(--saffron);display:grid;gap:12px}
+.traj li{position:relative;display:grid;grid-template-columns:70px 1fr;gap:10px;align-items:baseline}
+.traj li::before{content:'';position:absolute;left:-21px;top:6px;width:10px;height:10px;border-radius:50%;background:#fff;border:2px solid var(--saffron)}
+.traj time{font-family:var(--mono);font-size:.74rem;color:var(--saffron);font-weight:600}
+.traj li a{font-weight:600;color:var(--ink,#111827);text-decoration:none}.traj li a:hover{text-decoration:underline}
+.traj li span{display:block;font-size:.88rem;color:#4B5563;margin-top:2px}
+.traj .tm{margin:0 0 10px}.traj .tm summary{cursor:pointer;font-weight:600;font-size:.92rem;margin-bottom:8px}.traj .tm summary span{font-family:var(--mono);font-size:.7rem;color:var(--muted);margin-left:6px}
+.tnote{margin:10px 0 0;font-size:.8rem;color:var(--soft)}
+@media (max-width:600px){.traj li{grid-template-columns:1fr;gap:0}}
 .issue{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px 20px;margin-bottom:14px;box-shadow:var(--shadow)}
 .issue h4{margin:0 0 6px;font-family:var(--serif);font-size:1.2rem;font-weight:600}
 .issue .one{margin:0 0 10px;font-size:.95rem;color:#1F2937}
@@ -570,12 +583,11 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script src="data/themes.js"></script>
-<script src="data/dossier.js"></script>
 <script src="data/essay.js"></script>
 <script>
 (function(){
 'use strict';
-const MM=window.MM, D=(window.MM_DOSSIER||{editions:[]});
+const MM=window.MM;
 const $=s=>document.querySelector(s);
 const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const YEARS=MM.meta.years;
@@ -590,9 +602,42 @@ function prio(t){return t.yrs>=13?3:(t.yrs>=10?2:1)}
 const PRIO=['','Steady','High','Top'];
 function lvl(n){return n>=4?4:n>=3?3:n>=2?2:n>=1?1:0}
 
-// ---- dossier index: every item, with edition reference
-const ITEMS=[];D.editions.forEach(ed=>(ed.items||[]).forEach(it=>{it._ed=ed;ITEMS.push(it)}));
-const byTheme={};ITEMS.forEach(it=>(it.themes||[]).forEach(k=>{(byTheme[k]=byTheme[k]||[]).push(it)}));
+// ---- data: loaded on demand.
+// editions/<date>.json holds one day; data/themes/<k>.json holds a theme's stories from every day;
+// data/index.json is a small summary (editions list, counts). Nothing large is downloaded up front.
+let IDX={latest:null,editions:[],themes:{},areas:{},essay:{},totals:{stories:0,cases:0,essay:0}};
+const D={editions:[]};          // editions loaded so far (full day files)
+const ITEMS=[],CASES=[],FOD=[];  // every story, case and essay piece loaded so far
+const TFILE={},AFILE={},EFILE={};// theme, ethics-area and essay-theme files loaded so far
+const _got={};
+function getJSON(u){if(!_got[u])_got[u]=fetch(u,{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error(u+' '+r.status);return r.json()}).catch(e=>{delete _got[u];throw e});return _got[u]}
+function edRef(o){let ed=D.editions.find(e=>e.date===o.date);if(!ed){ed=IDX.editions.find(e=>e.date===o.date)||{date:o.date,paper:o.paper};}return ed}
+function regItem(it,ed){const ex=ITEMS.find(x=>x.id===it.id);if(ex)return ex;it._ed=ed;ITEMS.push(it);return it}
+function regCase(c,ed){const ex=CASES.find(x=>x.id===c.id);if(ex)return ex;c._ed=ed;c._id=c.id;CASES.push(c);return c}
+function regFod(f,ed){const ex=FOD.find(x=>x.id===f.id);if(ex)return ex;f._ed=ed;FOD.push(f);return f}
+async function loadIndex(){try{IDX=await getJSON('data/index.json')}catch(e){}}
+async function loadDay(date){
+  if(!date)return null;let ed=D.editions.find(e=>e.date===date&&e.items);if(ed)return ed;
+  const j=await getJSON('editions/'+date+'.json');
+  ed={date:j.date,paper:j.paper};
+  ed.items=(j.items||[]).map(it=>regItem(it,ed));
+  ed.ethics=(j.ethics||[]).map(c=>regCase(c,ed));
+  ed.essay=(j.essay||[]).map(f=>regFod(f,ed));
+  // stories met earlier through a theme file now point to the full edition
+  [ITEMS,CASES,FOD].forEach(A=>A.forEach(x=>{if(x._ed&&x._ed.date===date)x._ed=ed}));
+  D.editions=D.editions.filter(e=>e.date!==date).concat(ed).sort((a,b)=>b.date<a.date?-1:1);
+  return ed;
+}
+// A folder holds one file per month; fetch every month listed in the index, in parallel.
+async function loadFolder(dir,k,kind){const ms=Object.keys(((IDX.months||{})[kind]||{})[k]||{}).sort().reverse();
+  const parts=await Promise.all(ms.map(m=>getJSON(`data/${dir}/${k}/${m}.json`)));return [].concat(...parts)}
+async function loadTheme(k){if(TFILE[k])return TFILE[k];if(!IDX.themes[k])return TFILE[k]=[];
+  const l=await loadFolder('themes',k,'themes');return TFILE[k]=l.map(x=>k.startsWith('g4')?regCase(x,edRef(x)):regItem(x,edRef(x)))}
+async function loadArea(a){if(AFILE[a])return AFILE[a];if(!IDX.areas[a])return AFILE[a]=[];
+  const l=await loadFolder('ethics',a,'areas');return AFILE[a]=l.map(x=>regCase(x,edRef(x)))}
+async function loadEssay(k){if(EFILE[k])return EFILE[k];if(!IDX.essay[k])return EFILE[k]=[];
+  const l=await loadFolder('essay',k,'essay');return EFILE[k]=l.map(x=>regFod(x,edRef(x)))}
+const latestEd=()=>D.editions.find(e=>e.date===IDX.latest)||null;
 
 // ---- storage (per viewer, optional)
 const store={get(k,d){try{const v=localStorage.getItem('mm-'+k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem('mm-'+k,JSON.stringify(v))}catch(e){}}};
@@ -709,9 +754,9 @@ function notesText(it){
 
 // ---- views
 function viewDossier(date){
-  const eds=[...D.editions].sort((a,b)=>b.date<a.date?-1:1);
-  const ed=eds.find(e=>e.date===date)||eds[0];
-  const total=ITEMS.length,filed=Object.keys(byTheme).length;
+  const eds=IDX.editions;
+  const ed=D.editions.find(e=>e.date===(date||IDX.latest))||null;
+  const total=IDX.totals.stories,filed=Object.keys(IDX.themes).filter(k=>!k.startsWith('g4')).length;
   let h=`<div class="hero"><canvas id="fx" aria-hidden="true"></canvas><div class="wrap">
     <div class="eyebrow">Today's news · tomorrow's answers</div>
     <h1>The Morning Edition.</h1>
@@ -731,13 +776,13 @@ function viewDossier(date){
     <div class="anat" aria-label="The four parts of every card">${Object.keys(LENS).map(k=>`<div style="background:${LENS[k][2]}" data-k="${LENS[k][0]}"><b>${LENS[k][1]}</b><span>${LENS[k][3]}</span></div>`).join('')}</div></div>`;
   }else{
     const items=ed.items||[];
-    h+=`<nav aria-labelledby="edh"><h2 id="edh" class="cdate" style="border:0;margin:0 0 8px">Editions by date</h2><ul class="edlist">${eds.map(e=>`<li><a href="#day-${e.date}" aria-current="${e===ed}">${esc(fmtDate(e.date,{day:'numeric',month:'long'}))} <span>${esc(fmtDate(e.date,{weekday:'long'}))} · ${(e.items||[]).length} stories</span></a></li>`).join('')}</ul></nav>
+    h+=`<nav aria-labelledby="edh"><h2 id="edh" class="cdate" style="border:0;margin:0 0 8px">Editions by date</h2><ul class="edlist">${eds.map(e=>`<li><a href="#day-${e.date}" aria-current="${e.date===ed.date}">${esc(fmtDate(e.date,{day:'numeric',month:'long'}))} <span>${esc(fmtDate(e.date,{weekday:'long'}))} · ${e.stories} stories</span></a></li>`).join('')}</ul></nav>
     <div class="edhead"><h2>${esc(fmtDate(ed.date,{weekday:'long',day:'numeric',month:'long',year:'numeric'}))}</h2><span class="meta">${esc(ed.paper||'')} · ${items.length} item${items.length===1?'':'s'}</span></div>
     <details class="toc" open><summary>In this edition: ${items.length} stories</summary><ol>${items.map((it,i)=>`<li><button data-jump="item-${esc(it.id)}"><span class="tn">${String(i+1).padStart(2,'0')}</span><span class="tt">${esc(it.title)}${it.where?` <span class="code" style="font-weight:400">· ${esc(it.where.split(" (")[0])}</span>`:""}</span><span class="tg">${(it.gs||[]).map(g=>`<span class="gs ${esc(g)}">${esc(g)}</span>`).join('')}</span></button></li>`).join('')}</ol>${(ed.ethics||[]).length?`<button class="btn" style="margin-top:10px" data-jump="ethics-today">For the Ethics paper (GS4): ${ed.ethics.length} cases ↓</button>`:''}</details>
     <div class="tool"><label class="search">${IC.search}<span class="sr">Search this edition</span><input id="q" type="search" placeholder="Search this edition" autocomplete="off"><kbd>/</kbd></label>
     <div class="chips" id="gsf">${['All','GS1','GS2','GS3','GS4'].map((g,i)=>`<button class="chip" aria-pressed="${i===0}" data-g="${g}">${g}</button>`).join('')}</div></div>
     <div class="cards" id="cards">${items.map(it=>cardHTML(Object.assign(it,{_ed:ed}))).join('')}</div>`;
-    const ec=CASES.filter(c=>c._ed===ed);
+    const ec=ed.ethics||[];
     if(ec.length)h+=`<div class="eband" id="ethics-today"><div class="secth"><h2>For the Ethics paper (GS4)</h2><span>${ec.length} cases from today's paper · <a href="#ethics">Open the Ethics Casebook →</a></span></div><div class="egrid">${ec.map(c=>ecaseHTML(c,false)).join('')}</div></div>`;
   }
   h+=`</section></div>`;
@@ -756,9 +801,9 @@ function viewAllThemes(){
     <div class="eyebrow">The Almanac · the year, theme by theme</div>
     <h1>Priority themes, filled with the year's news.</h1>
     <p class="sub">Themes come from every GS 1, 2, 3 and 4 (Ethics) Mains question from 2013 to 2026. Each Morning Edition item is filed under its themes, so before the exam you can revise a whole theme in one place.</p>
-    <div class="stats"><div><b>${MM.meta.total}</b><span>Mains questions mapped</span></div><div><b>${MM.themes.length}</b><span>themes</span></div><div><b>${top}</b><span>top-priority themes</span></div><div><b>${ITEMS.length}</b><span>entries filed</span></div></div>
+    <div class="stats"><div><b>${MM.meta.total}</b><span>Mains questions mapped</span></div><div><b>${MM.themes.length}</b><span>themes</span></div><div><b>${top}</b><span>top-priority themes</span></div><div><b>${IDX.totals.stories}</b><span>entries filed</span></div></div>
   </div></div><div class="wrap"><section class="block">
-  <a class="cbk" href="#ethics"><span><b>The Ethics Casebook (GS4)</b><br>${CASES.length} real cases from the news, sorted by area of applied ethics</span><span class="btn pri">Open →</span></a>
+  <a class="cbk" href="#ethics"><span><b>The Ethics Casebook (GS4)</b><br>${IDX.totals.cases} real cases from the news, sorted by area of applied ethics</span><span class="btn pri">Open →</span></a>
   <div class="tool"><label class="search">${IC.search}<span class="sr">Search themes</span><input id="q" type="search" placeholder="Search the Almanac, e.g. women, SHG, railways" autocomplete="off"><kbd>/</kbd></label>
   <select class="sel" id="sort" aria-label="Sort themes"><option value="g">By subject</option><option value="p">By priority</option><option value="e">Most entries</option><option value="a">A–Z</option></select></div>
   <div class="legend">Questions asked per year: <i style="background:var(--line2)"></i>0 <i style="background:#FDE7C2"></i>1 <i style="background:#F8BF6B"></i>2 <i style="background:#E58A14"></i>3 <i style="background:#9A4E06"></i>4+ · <b style="margin-left:6px">Top</b>&nbsp;= asked in 13–14 of the 14 papers · <b>High</b>&nbsp;= 10–12 · <b>Steady</b>&nbsp;= fewer</div>
@@ -772,7 +817,7 @@ function viewAllThemes(){
     let list=MM.themes.filter(t=>!s||(t.n+' '+t.pl+' '+t.k).toLowerCase().includes(s)||(t.n+' '+t.k).toLowerCase().includes(syn));
     let out='';
     if(m==='g'){MM.groups.forEach((g,gi)=>{const l=list.filter(t=>t.g===gi).sort((a,b)=>a.rank-b.rank);if(l.length)out+=`<div class="grp"><h3>${esc(g)}</h3></div><div class="tiles">${l.map(tileHTML).join('')}</div>`})}
-    else{const l=[...list].sort(m==='p'?(a,b)=>a.rank-b.rank:m==='e'?(a,b)=>((byTheme[b.k]||[]).length-(byTheme[a.k]||[]).length)||a.rank-b.rank:(a,b)=>a.n.localeCompare(b.n));out=`<div class="tiles" style="margin-top:8px">${l.map(tileHTML).join('')}</div>`}
+    else{const l=[...list].sort(m==='p'?(a,b)=>a.rank-b.rank:m==='e'?(a,b)=>(entriesFor(b.k)-entriesFor(a.k))||a.rank-b.rank:(a,b)=>a.n.localeCompare(b.n));out=`<div class="tiles" style="margin-top:8px">${l.map(tileHTML).join('')}</div>`}
     $('#tiles').innerHTML=out||`<div class="nothing">No theme matches “${esc(s)}”. Try a broader word.</div>`;
   }
   qi.addEventListener('input',run);sort.addEventListener('change',run);run();
@@ -780,7 +825,7 @@ function viewAllThemes(){
 
 function viewTheme(k,tab){
   const t=TH[k];if(!t){location.hash='#almanac';return}
-  const items=(byTheme[k]||[]).slice().sort((a,b)=>b._ed.date<a._ed.date?-1:1);
+  const items=k.startsWith('g4')?[]:(TFILE[k]||[]).slice().sort((a,b)=>b._ed.date<a._ed.date?-1:1);
   const p=prio(t);
   const gsOf=[...new Set(t.q.map(id=>MM.pyq[id][0]))];
   let h=`<div class="hero"><canvas id="fx" aria-hidden="true"></canvas><div class="wrap thhead">
@@ -794,9 +839,9 @@ function viewTheme(k,tab){
   <div id="tabbody"></div></section></div>`;
   $('#main').innerHTML=h;fx();
   function sheet(){
-    if(k.startsWith('g4')){const cs=CASES.filter(c=>caseThemes(c).includes(k));return `<p class="note" style="margin-top:0">Cases from the news filed under this theme (from <a href="#ethics">The Ethics Casebook</a>). See the Past questions tab for every GS4 question on this theme.</p>`+(cs.length?`<div class="egrid">${cs.map(c=>ecaseHTML(c,true)).join('')}</div>`:`<div class="nothing">No news cases filed under this theme yet. They appear here as editions add them.</div>`)}
+    if(k.startsWith('g4')){const cs=(TFILE[k]||[]).slice().sort((a,b)=>b._ed.date<a._ed.date?-1:1);return trajHTML(cs,true)+`<p class="note" style="margin-top:0">Cases from the news filed under this theme (from <a href="#ethics">The Ethics Casebook</a>). See the Past questions tab for every GS4 question on this theme.</p>`+(cs.length?`<div class="egrid">${cs.slice(0,60).map(c=>ecaseHTML(c,true)).join('')}</div>${cs.length>60?`<p class="pnote">Showing the latest 60 of ${cs.length} cases. The trajectory above lists every one; the full set by area is in <a href="#ethics">The Ethics Casebook</a>.</p>`:''}`:`<div class="nothing">No news cases filed under this theme yet. They appear here as editions add them.</div>`)}
     if(!items.length)return `<div class="nothing">No news stories filed under this theme yet. As Morning Editions carry stories on this theme, they are compiled here automatically, newest first, with ideas, keywords, data and examples.<br><br><a class="btn" href="#theme-${k}" data-tab="pyq">See the ${t.q.length} past questions</a></div>`;
-    return `<div class="tool" style="justify-content:space-between"><p class="note" style="margin:0">${items.length} news ${items.length===1?'story':'stories'} on this theme, newest first.</p><span><button class="btn" id="cpy">${IC.copy}Copy notes</button> <button class="btn" onclick="window.print()">${IC.print}Print</button></span></div>${compiledHTML(items)}`;
+    return trajHTML(items,false)+`<div class="tool" style="justify-content:space-between"><p class="note" style="margin:0">${items.length} news ${items.length===1?'story':'stories'} on this theme, newest first.</p><span><button class="btn" id="cpy">${IC.copy}Copy notes</button> <button class="btn" onclick="window.print()">${IC.print}Print</button></span></div><div id="cnotes">${compiledHTML(items.slice(0,PAGE))}</div>${items.length>PAGE?`<p style="text-align:center"><button class="btn" id="more">Show earlier notes (${items.length-PAGE} more)</button></p>`:''}`;
   }
   function cards(){return items.length?`<div class="cards">${items.map(cardHTML).join('')}</div>`:`<div class="nothing">No entries yet.</div>`}
   function pyq(){
@@ -806,6 +851,9 @@ function viewTheme(k,tab){
   }
   function show(which){document.querySelectorAll('.tabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.t===which));$('#tabbody').innerHTML=which==='pyq'?pyq():sheet();
     const c=$('#cpy');if(c)c.onclick=()=>copy(compiledText(t,items));
+    let shown=PAGE;const mo=$('#more');if(mo)mo.onclick=()=>{shown+=PAGE;$('#cnotes').innerHTML=compiledHTML(items.slice(0,shown));if(shown>=items.length)mo.remove();else mo.textContent=`Show earlier notes (${items.length-shown} more)`};
+    // timeline links to notes not yet drawn: draw up to that note first
+    document.querySelectorAll('[data-tj^="note-"]').forEach(a=>a.addEventListener('click',()=>{const id=a.dataset.tj.slice(5);const i=items.findIndex(x=>x.id===id);if(i>=shown){shown=Math.ceil((i+1)/PAGE)*PAGE;$('#cnotes').innerHTML=compiledHTML(items.slice(0,shown));const m=$('#more');if(m){if(shown>=items.length)m.remove();else m.textContent=`Show earlier notes (${items.length-shown} more)`}}},true));
     const a=document.querySelector('[data-tab="pyq"]');if(a)a.onclick=e=>{e.preventDefault();show('pyq')};
   }
   document.querySelector('.tabs').addEventListener('click',e=>{const b=e.target.closest('button');if(b)show(b.dataset.t)});
@@ -841,7 +889,7 @@ function viewMap(){
 function closeDrawer(){$('#drawer').classList.remove('on')}
 
 function viewSaved(){
-  const items=ITEMS.filter(it=>SAVED.has(it.id));
+  const items=ITEMS.filter(it=>SAVED.has(it.id)).sort((a,b)=>b._ed.date<a._ed.date?-1:1);
   $('#main').innerHTML=`<div class="hero"><canvas id="fx" aria-hidden="true"></canvas><div class="wrap"><div class="eyebrow">Clippings</div><h1>Your cut-outs for revision.</h1><p class="sub">Cards you clip stay on this device and in this browser.</p></div></div><div class="wrap"><section class="block">${items.length?`<div class="cards">${items.map(cardHTML).join('')}</div>`:`<div class="nothing">No clippings yet. Use <b>Clip</b> on any Morning Edition card.</div>`}</section></div>`;fx();
 }
 
@@ -867,7 +915,7 @@ const SYLLABUS_PAPERS={
  climate:['gs3'],pollution:['gs3'],biodiv:['gs3'],disaster:['gs3'],space:['gs3'],biotech:['gs3'],techai:['gs3'],cyber:['gs3'],terror:['gs3'],border:['gs3'],jk:['gs3']};
 function inPaper(t,p){if(t.k.startsWith('g4'))return p==='gs4';const m=SYLLABUS_PAPERS[t.k];return m?m.includes(p):paperCount(t,p.toUpperCase())>=3}
 function caseThemes(c){return c.themes||EMAP[c.area]||[]}
-function entriesFor(k){return k.startsWith('g4')?CASES.filter(c=>caseThemes(c).includes(k)).length:(byTheme[k]||[]).length}
+function entriesFor(k){return IDX.themes[k]||0}
 let lastPaper='';
 function viewVault(){
   const card=([p,name,desc])=>{const ths=MM.themes.filter(t=>inPaper(t,p));const qn=Object.values(MM.pyq).filter(x=>x[0]===p.toUpperCase()).length;const ent=ths.reduce((s,t)=>s+entriesFor(t.k),0);
@@ -878,7 +926,7 @@ function viewVault(){
     <p class="sub">Pick a paper, then a theme. Each theme page compiles every news story filed under it, story by story, with ideas, keywords, data and examples, and grows with each new Morning Edition.</p>
   </div></div><div class="wrap"><section class="block">
    <ul class="papers">${PAPERS.map(card).join('')}
-    <li><a class="paper essay" href="#paper-essay"><span class="pn">Essay</span><span class="pd">Essay themes, with every story, quote and example from the news filed under each</span><span class="pm">${E.themes.length} themes · ${Object.keys(E.topics).length} past topics · ${FOD.length} pieces of material</span></a></li>
+    <li><a class="paper essay" href="#paper-essay"><span class="pn">Essay</span><span class="pd">Essay themes, with every story, quote and example from the news filed under each</span><span class="pm">${E.themes.length} themes · ${Object.keys(E.topics).length} past topics · ${IDX.totals.essay} pieces of material</span></a></li>
    </ul>
    <div class="also" style="margin-top:22px"><ul style="grid-template-columns:repeat(2,minmax(0,1fr))">
      <li><a href="#ethics"><i aria-hidden="true" style="background:var(--gs4)">${IC.saved}</i><div><b>The Ethics Casebook</b><span>Real cases from the news for GS4, by area of ethics</span></div></a></li>
@@ -900,12 +948,24 @@ function viewPaper(p){
    ${p==='gs4'?`<p style="margin-top:18px"><a class="btn pri" href="#ethics">Open The Ethics Casebook →</a></p>`:''}
   </section></div>`;fx();
 }
+// The trajectory: every entry on a theme, oldest first, one line each.
+const PAGE=15;
+function trajHTML(list,isCase){
+  if(!list.length)return '';
+  const asc=list.slice().sort((a,b)=>a._ed.date<b._ed.date?-1:a._ed.date>b._ed.date?1:0);
+  return `<section class="traj" aria-labelledby="trh"><div class="trh"><h2 id="trh">The trajectory</h2><span>${asc.length} ${asc.length===1?'entry':'entries'} · ${esc(fmtDate(asc[0]._ed.date,{day:'numeric',month:'short'}))}${asc.length>1?' to '+esc(fmtDate(asc[asc.length-1]._ed.date,{day:'numeric',month:'short',year:'numeric'})):''}</span></div>
+   ${(()=>{const li=x=>`<li><time datetime="${esc(x._ed.date)}">${esc(fmtDate(x._ed.date,{day:'numeric',month:'short'}))}</time><div><a href="#" data-tj="${isCase?'case':'note'}-${esc(x.id)}">${esc(x.title)}</a><span>${esc(isCase?(x.news||x.case||''):(x.summary||x.context||''))}</span></div></li>`;
+     if(asc.length<=30)return `<ol>${asc.map(li).join('')}</ol>`;
+     const bm={};asc.forEach(x=>(bm[x._ed.date.slice(0,7)]=bm[x._ed.date.slice(0,7)]||[]).push(x));const ms=Object.keys(bm).sort();
+     return ms.map((m,i)=>{const lab=fmtDate(m+'-01',{month:'long',year:'numeric'}),open=i>=ms.length-2;return `<details class="tm"${open?' open':''}><summary>${esc(lab)} <span>${bm[m].length} ${bm[m].length===1?'entry':'entries'}</span></summary><ol>${bm[m].map(li).join('')}</ol></details>`}).join('')})()}
+   ${asc.length>1?'':'<p class="tnote">The line grows as more stories on this theme appear in the Morning Edition.</p>'}</section>`;
+}
 function compiledHTML(items){
   const byDate={};items.forEach(it=>{(byDate[it._ed.date]=byDate[it._ed.date]||[]).push(it)});
   const lens=(k,arr,f)=>arr.length?`<div class="cl ${k}"><h5 style="color:${LENS[k][2]}"><i style="background:${LENS[k][2]}" aria-hidden="true">${LENS[k][0]}</i>${LENS[k][1]}</h5><ul>${arr.map(f).join('')}</ul></div>`:'';
   return Object.keys(byDate).sort().reverse().map(d=>`<section class="cday" aria-label="${esc(fmtDate(d,{weekday:'long',day:'numeric',month:'long',year:'numeric'}))}"><h3 class="cdate"><a href="#day-${d}">${esc(fmtDate(d,{weekday:'short',day:'numeric',month:'long',year:'numeric'}))}</a></h3>
    ${byDate[d].map(it=>{const {I,K,Dt,E}=norm(it);const one=it.summary||it.context||'';
-    return `<article class="issue"><h4>${esc(it.title)}</h4>${one?`<p class="one"><b>In one line:</b> ${esc(one)}</p>`:''}
+    return `<article class="issue" id="note-${esc(it.id)}"><h4>${esc(it.title)}</h4>${one?`<p class="one"><b>In one line:</b> ${esc(one)}</p>`:''}
      <div class="cgrid"><div>${lens('ideas',I,x=>`<li>${esc(x[0])}${x[1]?`<span class="u2">Use in: ${esc(x[1])}</span>`:''}</li>`)}
      ${lens('data',Dt,x=>`<li><b>${esc(x[0])}</b> ${esc(x[1])}${x[2]?` <span class="code">(${esc(x[2])})</span>`:''}</li>`)}</div>
      <div>${lens('kw',K,x=>`<li><b>${esc(x[0])}</b>${x[1]?': '+esc(x[1]):''}</li>`)}
@@ -925,7 +985,7 @@ function compiledText(t,items){
 
 // ---- Home: the front page
 function viewHome(){
-  const eds=[...D.editions].sort((a,b)=>b.date<a.date?-1:1);const ed=eds[0];
+  const ed=latestEd();
   const items=ed?ed.items||[]:[];
   const topAll=ranked.filter(t=>prio(t)===3);const top=topAll.slice(0,6);
   const today=ed?fmtDate(ed.date,{weekday:'long',day:'numeric',month:'long'}):'';
@@ -952,12 +1012,12 @@ function viewHome(){
    <div class="fp fp2">
     <section class="door sm" style="--dc:#7C3AED" aria-labelledby="d3">
       <div class="dk"><i aria-hidden="true">${IC.pen}</i><div><div class="dsub">Essay paper · press 3</div><h2 id="d3">The Essay Column</h2></div></div>
-      <p>The pattern of essay topics since 2020, and today's stories, quotes and examples that can carry an essay.${FOD.length?` ${FOD.filter(f=>f._ed===((E.fodder||[]).slice().sort((a,b)=>b.date<a.date?-1:1)[0])).length} pieces from today's paper.`:''}</p>
+      <p>The pattern of essay topics since 2020, and today's stories, quotes and examples that can carry an essay.${ed&&(ed.essay||[]).length?` ${ed.essay.length} pieces from today's paper.`:''}</p>
       <div class="go"><a class="btn pri" href="#essay">Open The Essay Column →</a></div>
     </section>
     <section class="door sm" style="--dc:var(--gs4)" aria-labelledby="d4">
       <div class="dk"><i aria-hidden="true">${IC.scale}</i><div><div class="dsub">GS Paper 4 · press 4</div><h2 id="d4">The Ethics Casebook</h2></div></div>
-      <p>${CASES.length} cases from the news, each with the GS4 syllabus line it connects to, a practice question and keywords.${ed&&(ed.ethics||[]).length?` ${ed.ethics.length} from today's paper.`:''}</p>
+      <p>${IDX.totals.cases} cases from the news, each with the GS4 syllabus line it connects to, a practice question and keywords.${ed&&(ed.ethics||[]).length?` ${ed.ethics.length} from today's paper.`:''}</p>
       <div class="go"><a class="btn pri" href="#ethics">Open The Ethics Casebook →</a></div>
     </section>
    </div>
@@ -978,8 +1038,6 @@ function viewHome(){
 // ---- The Ethics Casebook (GS4)
 const EMAP={attitude:['g4attitude'],env:['g4env'],justice:['g4intl','g4gender'],public:['g4probity','g4integrity','g4leadership'],care:['g4psv','g4aptitude'],gender:['g4gender'],lives:['g4values']};
 const EAREA={env:['Environmental ethics','Our duties to nature and to those who share it: pollution, waste, land and water.'],justice:['Climate and global justice','Fairness between nations and generations.'],public:['Public service ethics','Integrity, impartiality and the use of power by those who serve the public.'],care:['Ethics of care and compassion','Dignity of the vulnerable: the old, the sick, those in danger.'],gender:['Gender justice','Equity that starts by seeing women\'s invisible burdens.'],lives:['Lessons from lives','Values shown by real people: sacrifice, courage, magnanimity.'],attitude:['Attitude and persuasion','How attitudes change: social influence, example and persuasion.']};
-const CASES=[];(D.editions||[]).forEach(ed=>(ed.ethics||[]).forEach((c,i)=>{c._ed=ed;c._id=ed.date+'-e'+i;CASES.push(c)}));
-CASES.sort((a,b)=>b._ed.date<a._ed.date?-1:b._ed.date>a._ed.date?1:0);
 function ecaseHTML(c,showDate){
   const A=EAREA[c.area]||[c.area,''];
   if(!c.syllabus){ // older format
@@ -1000,18 +1058,23 @@ function ecaseHTML(c,showDate){
    ${c.card?(showDate?`<a class="btn" href="#day-${c._ed.date}" data-jump2="item-${esc(c.card)}">The story</a>`:`<button class="btn" data-jump="item-${esc(c.card)}">The story</button>`):''}
    <button class="btn" data-ccopy="${esc(c._id)}">${IC.copy}Copy</button></span></div></article>`;
 }
-function viewCasebook(){
-  const areas=Object.keys(EAREA).filter(a=>CASES.some(c=>c.area===a));
+function viewCasebook(area){
+  const ed=latestEd();
+  const areas=Object.keys(EAREA).filter(a=>IDX.areas[a]);
+  const list=area?(AFILE[area]||[]):(ed?ed.ethics||[]:[]);
+  const groups=area?[area]:areas.filter(a=>list.some(c=>c.area===a));
   $('#main').innerHTML=`<div class="hero"><canvas id="fx" aria-hidden="true"></canvas><div class="wrap">
    <div class="eyebrow">The Ethics Casebook · GS4 · press 4</div>
    <h1>Real cases for the Ethics paper.</h1>
    <p class="sub">The news in one line (read the full story in the Morning Edition), the GS4 syllabus line it connects to, a practice question, and keywords for your answer.</p>
-   <div class="stats"><div><b>${CASES.length}</b><span>cases filed</span></div><div><b>${areas.length}</b><span>areas of ethics</span></div><div><b>${new Set(CASES.map(c=>c._ed.date)).size}</b><span>editions</span></div></div>
+   <div class="stats"><div><b>${IDX.totals.cases}</b><span>cases filed</span></div><div><b>${areas.length}</b><span>areas of ethics</span></div><div><b>${IDX.editions.filter(e=>e.cases).length}</b><span>editions</span></div></div>
   </div></div><div class="wrap"><section class="block">
-   <div class="tool"><div class="chips" id="ear"><button class="chip" aria-pressed="true" data-a="">All</button>${areas.map(a=>`<button class="chip" aria-pressed="false" data-a="${a}">${esc(EAREA[a][0])}</button>`).join('')}</div></div>
-   ${areas.map(a=>{const cs=CASES.filter(c=>c.area===a);return `<div class="egrp" data-g="${a}"><h3>${esc(EAREA[a][0])} <span class="code">${cs.length}</span></h3><p class="gd">${esc(EAREA[a][1])}</p><div class="egrid">${cs.map(c=>ecaseHTML(c,true)).join('')}</div></div>`}).join('')||'<div class="nothing">Cases appear here with each edition.</div>'}
+   <div class="tool"><div class="chips" id="ear"><button class="chip" aria-pressed="${!area}" data-a="">Today's cases</button>${areas.map(a=>`<button class="chip" aria-pressed="${area===a}" data-a="${a}">${esc(EAREA[a][0])} <span class="code">${IDX.areas[a]}</span></button>`).join('')}</div></div>
+   <p class="pnote">${area?`Every case on ${esc(EAREA[area][0].toLowerCase())}, newest first.`:`From ${ed?esc(fmtDate(ed.date,{weekday:'long',day:'numeric',month:'long'})):'the latest edition'}. Choose an area to see every case filed under it.`}</p>
+   ${groups.map(a=>{const cs=list.filter(c=>c.area===a).sort((x,y)=>y._ed.date<x._ed.date?-1:1);const lim=viewCasebook.lim||40;return `<div class="egrp" data-g="${a}"><h3>${esc(EAREA[a][0])} <span class="code">${cs.length}</span></h3><p class="gd">${esc(EAREA[a][1])}</p><div class="egrid">${cs.slice(0,lim).map(c=>ecaseHTML(c,true)).join('')}</div>${cs.length>lim?`<p style="text-align:center"><button class="btn" id="cmore">Show earlier cases (${cs.length-lim} more)</button></p>`:''}</div>`}).join('')||'<div class="nothing">Cases appear here with each edition.</div>'}
   </section></div>`;fx();
-  const ear=$('#ear');if(ear)ear.addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;document.querySelectorAll('#ear .chip').forEach(x=>x.setAttribute('aria-pressed',x===b));document.querySelectorAll('.egrp').forEach(g=>g.hidden=!!b.dataset.a&&g.dataset.g!==b.dataset.a)});
+  $('#ear').addEventListener('click',async e=>{const b=e.target.closest('.chip');if(!b)return;const a=b.dataset.a;viewCasebook.lim=40;if(a){b.setAttribute('aria-busy','true');try{await loadArea(a)}catch(_){toast('Could not load. Check your connection.');return}}viewCasebook(a);nav(cur)});
+  const cm=$('#cmore');if(cm)cm.onclick=()=>{viewCasebook.lim=(viewCasebook.lim||40)+40;const y=scrollY;viewCasebook(area);scrollTo(0,y)};
   if(viewCasebook.focus){const el=document.getElementById('case-'+viewCasebook.focus);viewCasebook.focus='';if(el)setTimeout(()=>{el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1600)},150)}
 }
 
@@ -1020,7 +1083,6 @@ const E=window.MM_ESSAY||{topics:{},themes:[],notes:[],fodder:[]};
 const ETH={};E.themes.forEach(t=>{ETH[t.k]=t;t.newQ=[];t.oldQ=[]});
 Object.entries(E.topics).forEach(([id,[y,sec,txt,ths]])=>ths.forEach(k=>{if(ETH[k])(y>=2020?ETH[k].newQ:ETH[k].oldQ).push(id)}));
 E.themes.forEach(t=>t.score=t.newQ.length*3+t.oldQ.length);
-const FOD=[];(E.fodder||[]).forEach(ed=>(ed.items||[]).forEach(it=>{it._ed=ed;FOD.push(it)}));
 function etopic(id){const t=E.topics[id];return t?t[2]:''}
 function fodHTML(it){
   const rel=(it.topics||[]).filter(id=>E.topics[id]).map(id=>`<q>${esc(etopic(id))}</q> <span class="code">${E.topics[id][0]}</span>`).join('; ');
@@ -1038,13 +1100,13 @@ function viewEssay(){
   const since=Object.values(E.topics).filter(t=>t[0]>=2020).length,tot=Object.keys(E.topics).length;
   const ranked=[...E.themes].sort((a,b)=>b.score-a.score),max=ranked[0]?ranked[0].score:1;
   const years=[...new Set(Object.values(E.topics).map(t=>t[0]))].filter(y=>y>=2020).sort((a,b)=>b-a);
-  const latest=(E.fodder||[]).slice().sort((a,b)=>b.date<a.date?-1:1)[0];
-  const types=['All',...new Set(FOD.filter(f=>latest&&f._ed===latest).map(f=>f.type))];
+  const latest=latestEd();const today=latest?latest.essay||[]:[];
+  const types=['All',...new Set(today.map(f=>f.type))];
   $('#main').innerHTML=`<div class="hero"><canvas id="fx" aria-hidden="true"></canvas><div class="wrap">
    <div class="eyebrow">The Essay Column</div>
    <h1>Ideas that outlive the news.</h1>
    <p class="sub">What UPSC keeps asking, and the day's stories, quotes and examples that can carry those essays.</p>
-   <div class="stats"><div><b>${tot}</b><span>essay topics, 2013–2026</span></div><div><b>${since}</b><span>since 2020 (weighted ×3)</span></div><div><b>${E.themes.length}</b><span>essay themes</span></div><div><b>${FOD.length}</b><span>pieces of essay material</span></div></div>
+   <div class="stats"><div><b>${tot}</b><span>essay topics, 2013–2026</span></div><div><b>${since}</b><span>since 2020 (weighted ×3)</span></div><div><b>${E.themes.length}</b><span>essay themes</span></div><div><b>${IDX.totals.essay}</b><span>pieces of essay material</span></div></div>
   </div></div><div class="wrap"><section class="block">
    <div class="secth"><h2>The pattern in brief</h2><span>From the essay papers, 2013–2026</span></div>
    <div class="notes">${E.notes.map((n,i)=>`<div class="note"><i>${i+1}</i><b>${esc(n.h)}</b><p>${esc(n.t)}</p></div>`).join('')}</div>
@@ -1056,7 +1118,7 @@ function viewEssay(){
    <div class="secth"><h2>From today's paper: essay material</h2><span>${latest?esc(latest.paper)+' · '+esc(fmtDate(latest.date))+' · ':''}<a href="#paper-essay">Earlier material, theme by theme, in The Almanac →</a></span></div>
    <div class="tool"><div class="chips" id="ety">${types.map((t,i)=>`<button class="chip" aria-pressed="${i===0}" data-t="${esc(t)}">${esc(t)}</button>`).join('')}</div>
    <select class="sel" id="eth" aria-label="Filter by theme"><option value="">All themes</option>${E.themes.map(t=>`<option value="${t.k}">${esc(t.n)}</option>`).join('')}</select></div>
-   <div class="fod" id="fod">${FOD.filter(f=>latest&&f._ed===latest).map(fodHTML).join('')||'<div class="nothing">Essay material appears here with each edition.</div>'}</div>
+   <div class="fod" id="fod">${today.map(fodHTML).join('')||'<div class="nothing">Essay material appears here with each edition.</div>'}</div>
 
    <div class="secth"><h2>The topic wall, 2020–2026</h2><span>Every essay topic set since 2020, with its themes</span></div>
    <div class="wall">${years.map(y=>{const ids=Object.keys(E.topics).filter(id=>E.topics[id][0]===y);const col=sec=>ids.filter(id=>E.topics[id][1]===sec).map(id=>`<li>${esc(E.topics[id][2])} ${E.topics[id][3].map(k=>`<a href="#essay-${k}">${esc(ETH[k]?ETH[k].n.split(/[,:&]/)[0]:k)}</a>`).join('')}</li>`).join('');return `<div class="wyr"><b>${y}</b><div><h5>SECTION A</h5><ul>${col('A')}</ul></div><div><h5>SECTION B</h5><ul>${col('B')}</ul></div></div>`}).join('')}</div>
@@ -1069,11 +1131,11 @@ function viewEssay(){
 function viewEssayPaper(){
   lastPaper='essay';
   const rk=[...E.themes].sort((a,b)=>b.score-a.score);
-  const cnt=k=>FOD.filter(f=>(f.themes||[]).includes(k)).length;
+  const cnt=k=>IDX.essay[k]||0;
   $('#main').innerHTML=`<div class="hero"><canvas id="fx" aria-hidden="true"></canvas><div class="wrap thhead">
     <a class="back" href="#almanac">← The Almanac</a>
     <h1>Essay</h1><div class="pl">Essay themes ranked by how often UPSC has asked them since 2020. Each theme collects the essay material from every edition.</div>
-    <div class="stats"><div><b>${E.themes.length}</b><span>essay themes</span></div><div><b>${Object.keys(E.topics).length}</b><span>past topics, 2013–2026</span></div><div><b>${FOD.length}</b><span>pieces of material filed</span></div></div>
+    <div class="stats"><div><b>${E.themes.length}</b><span>essay themes</span></div><div><b>${Object.keys(E.topics).length}</b><span>past topics, 2013–2026</span></div><div><b>${IDX.totals.essay}</b><span>pieces of material filed</span></div></div>
   </div></div><div class="wrap"><section class="block">
    <p class="pnote">Press Enter on a theme to see its past topics and every story, quote and example filed under it. <a href="#essay">Open The Essay Column →</a></p>
    <ol class="tlist">${rk.map(t=>{const n=cnt(t.k);return `<li><a href="#essay-${t.k}"><span class="tn2">${esc(t.n)}</span><span class="prio p${t.newQ.length>=10?3:t.newQ.length>=6?2:1}">${t.newQ.length>=10?'Top':t.newQ.length>=6?'High':'Steady'}</span><span class="tm">${t.newQ.length} topics since 2020 · ${t.oldQ.length} before · ${n?`<b>${n} ${n===1?'piece':'pieces'} of material</b>`:'no material yet'}</span></a></li>`}).join('')}</ol>
@@ -1081,7 +1143,7 @@ function viewEssayPaper(){
 }
 function viewEssayTheme(k){
   const t=ETH[k];if(!t){location.hash='#essay';return}
-  const items=FOD.filter(f=>(f.themes||[]).includes(k));
+  const items=(EFILE[k]||[]).slice().sort((a,b)=>a._ed.date<b._ed.date?-1:1);
   const li=ids=>ids.sort((a,b)=>E.topics[b][0]-E.topics[a][0]).map(id=>`<li style="display:flex;gap:10px;align-items:baseline;padding:6px 0;border-top:1px solid var(--line2)"><span class="code">${E.topics[id][0]}${E.topics[id][1]!=='-'?' · '+E.topics[id][1]:''}</span><span>${esc(E.topics[id][2])}</span></li>`).join('');
   $('#main').innerHTML=`<div class="hero"><canvas id="fx" aria-hidden="true"></canvas><div class="wrap thhead">
    ${lastPaper==='essay'?'<a class="back" href="#paper-essay">← The Almanac · Essay</a>':'<a class="back" href="#essay">← The Essay Column</a>'}<h1>${esc(t.n)}</h1><div class="pl">${esc(t.d)}</div>
@@ -1091,8 +1153,9 @@ function viewEssayTheme(k){
    <div class="sheet"><div class="box"><h4 style="color:var(--saffron)">Asked since 2020</h4><ul style="list-style:none;margin:0;padding:0">${li(t.newQ.slice())||'<span class="code">—</span>'}</ul></div>
    <div class="box"><h4 style="color:var(--muted)">Asked 2013–2019</h4><ul style="list-style:none;margin:0;padding:0;opacity:.8">${li(t.oldQ.slice())||'<span class="code">—</span>'}</ul></div></div>
    <div class="secth"><h2>Material collected</h2><span>Newest first, from each day's paper</span></div>
-   <div class="fod">${items.slice().reverse().map(fodHTML).join('')||'<div class="nothing">Nothing filed under this theme yet.</div>'}</div>
+   <div class="fod" id="efod">${items.slice().reverse().slice(0,30).map(fodHTML).join('')||'<div class="nothing">Nothing filed under this theme yet.</div>'}</div>${items.length>30?`<p style="text-align:center"><button class="btn" id="emore">Show earlier material (${items.length-30} more)</button></p>`:''}
   </section></div>`;fx();
+  let shown=30;const em=$('#emore');if(em)em.onclick=()=>{shown+=30;$('#efod').innerHTML=items.slice().reverse().slice(0,shown).map(fodHTML).join('');if(shown>=items.length)em.remove();else em.textContent=`Show earlier material (${items.length-shown} more)`};
 }
 
 // ---- global clicks: save, copy, keyword definitions
@@ -1103,6 +1166,7 @@ document.addEventListener('click',e=>{
   const dc=e.target.closest('[data-case]');if(dc){viewCasebook.focus=dc.dataset.case}
   const ec=e.target.closest('[data-ecopy]');if(ec){const it=FOD.find(x=>x.id===ec.dataset.ecopy);if(it)copy(`${it.type.toUpperCase()}: ${it.title}\n${it.text}\nUse it for: ${it.use}\n(${it.src}, ${fmtDate(it._ed.date)})`);return}
   const c=e.target.closest('[data-copy]');if(c){const it=ITEMS.find(x=>x.id===c.dataset.copy);if(it)copy(notesText(it));return}
+  const tj=e.target.closest('[data-tj]');if(tj){e.preventDefault();const el=document.getElementById(tj.dataset.tj);if(el){el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1600)}return}
   const j2=e.target.closest('[data-jump2]');if(j2){e.preventDefault();const id=j2.dataset.jump2;location.hash=j2.getAttribute('href');setTimeout(()=>{const el=document.getElementById(id);if(el){el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.add('flash');el.setAttribute('tabindex','-1');el.focus({preventScroll:true});setTimeout(()=>el.classList.remove('flash'),1600)}},400);return}
   const j=e.target.closest('[data-jump]');if(j){const el=document.getElementById(j.dataset.jump);if(el){el.hidden=false;el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1600)}return}
   const k=e.target.closest('.kwc');if(k){const box=k.closest('.q').querySelector('.kwdef');const on=k.getAttribute('aria-expanded')!=='true';k.closest('.kwl').querySelectorAll('.kwc').forEach(x=>x.setAttribute('aria-expanded','false'));if(on&&k.dataset.def){k.setAttribute('aria-expanded','true');box.innerHTML=`<b>${esc(k.textContent)}</b>: ${esc(k.dataset.def)}`;box.classList.add('on')}else box.classList.remove('on');return}
@@ -1120,7 +1184,7 @@ document.addEventListener('keydown',e=>{
 document.addEventListener('click',e=>{if(e.target.closest('#promise-ok')){store.set('promise-seen',true);const p=$('#promise');if(p)p.open=false}});
 // ---- headline ticker + share
 function ticker(){
-  const eds=[...D.editions].sort((a,b)=>b.date<a.date?-1:1);const ed=eds[0];if(!ed||!(ed.items||[]).length)return;
+  const ed=latestEd();if(!ed||!(ed.items||[]).length)return;if(ticker.done===ed.date)return;ticker.done=ed.date;
   const one=ed.items.map(it=>`<button data-tick="item-${esc(it.id)}">${esc(it.title)}</button>`).join('');
   $('#rail').innerHTML=one+one.replace(/<button /g,'<button tabindex="-1" aria-hidden="true" ');$('#ticker').hidden=false;
   $('#rail').addEventListener('click',e=>{const b=e.target.closest('[data-tick]');if(!b)return;const go=()=>{const el=document.getElementById(b.dataset.tick);if(el){el.hidden=false;el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1600)}};
@@ -1143,7 +1207,7 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')closeShare()});
 
 // ---- dateline: Vol. (year of publication) · No. (edition count) · today's date
 function dateline(){
-  const n=D.editions.length,start=n?D.editions.map(e=>e.date).sort()[0].slice(0,4):String(new Date().getFullYear());
+  const n=IDX.editions.length,start=n?IDX.editions.map(e=>e.date).sort()[0].slice(0,4):String(new Date().getFullYear());
   const vol=['I','II','III','IV','V','VI','VII','VIII','IX','X'][Math.max(0,new Date().getFullYear()-(+start))]||'I';
   $('#dl-vol').textContent=`Vol. ${vol} · No. ${n||'—'}`;
   $('#dl-date').textContent=new Date().toLocaleDateString('en-IN',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
@@ -1151,8 +1215,23 @@ function dateline(){
 // ---- router (plain #name hashes so links work everywhere)
 let cur='home';
 route.n=0;
-function route(){
+// Fetch only what the requested page needs, then draw it.
+async function prepare(h){
+  let m;const need=[];
+  if(!IDX.latest&&!prepare.idx){prepare.idx=1;await loadIndex()}
+  if(IDX.latest)need.push(loadDay(IDX.latest));
+  if((m=h.match(/^day-(\d{4}-\d{2}-\d{2})$/)))need.push(loadDay(m[1]));
+  if((m=h.match(/^theme-([a-z0-9]+)/)))need.push(loadTheme(m[1]));
+  if((m=h.match(/^essay-([a-z]+)$/)))need.push(loadEssay(m[1]));
+  if(h==='clippings')[...new Set([...SAVED].map(id=>String(id).slice(0,10)).filter(d=>/^\d{4}-\d{2}-\d{2}$/.test(d)))].forEach(d=>need.push(loadDay(d).catch(()=>null)));
+  await Promise.all(need);
+}
+async function route(){
   const h=(location.hash||'#home').slice(1);closeDrawer();
+  const my=route.seq=(route.seq||0)+1;
+  const slow=setTimeout(()=>{if(my===route.seq)$('#main').innerHTML='<div class="wrap"><div class="nothing" style="margin:40px 0">Loading…</div></div>'},250);
+  try{await prepare(h)}catch(e){clearTimeout(slow);if(my!==route.seq)return;$('#main').innerHTML='<div class="wrap"><div class="nothing" style="margin:40px 0">This page could not be loaded. Check your internet connection and try again.<br><br><button class="btn" onclick="location.reload()">Try again</button></div></div>';return}
+  clearTimeout(slow);if(my!==route.seq)return;
   let m;const G='The Mains Gazette';
   if(h==='home'){cur='home';viewHome();document.title=G+' · Today\'s news, tomorrow\'s answers'}
   else if(h==='edition'){cur='edition';viewDossier();document.title='Morning Edition · '+G}
