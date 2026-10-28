@@ -110,6 +110,10 @@ nav.main .n{font-family:var(--mono);font-size:.7rem;background:var(--navy);color
 .evo li::before{content:'';position:absolute;left:-20px;top:6px;width:10px;height:10px;border-radius:50%;background:var(--saffron);border:2px solid #fff}
 .evo li b{color:var(--navy);font-family:var(--mono);font-size:.76rem;padding-top:2px}
 @media (max-width:600px){.evo li{grid-template-columns:1fr;gap:0}}
+.app{display:block;margin-top:5px}
+.app .tg{display:inline-block;font-family:var(--mono);font-size:.66rem;letter-spacing:.06em;text-transform:uppercase;color:#92400E;background:#FDECC8;border-radius:5px;padding:2px 6px;margin-bottom:3px}
+.card .app .wr{display:block;font-family:Inter,system-ui,sans-serif;font-size:.86rem;line-height:1.45;color:#1F2937;border-left:3px solid var(--saffron);padding:2px 0 2px 9px;font-style:italic}
+.card .app .wr b{font-style:normal;color:#B45309;font-weight:700;margin:0;display:inline;font-size:.8rem}
 .use{display:block;margin-top:3px;font-size:.8rem;color:#6B4E16;background:#FFF8EC;border-radius:6px;padding:3px 8px}
 .card .use b{color:#B45309;font-weight:700;font-family:Inter,system-ui,sans-serif;font-size:.8rem;margin:0;display:inline}
 .card .use{font-family:Inter,system-ui,sans-serif;font-size:.8rem;font-weight:400}
@@ -698,16 +702,17 @@ function askedFor(it){
   out.sort((a,b)=>MM.pyq[b][1]-MM.pyq[a][1]);return out;
 }
 function norm(it){
-  const I=(it.ideas||[]).map(x=>Array.isArray(x)?x:[x,'']);
-  const K=(it.keywords||[]).map(x=>[x[0],x[1]||'',x[2]||'']);
-  const Dt=(it.data||[]).map(x=>[x[0],x[1]||'',x[2]||'',x[3]||'']);
-  const E=(it.examples||[]).map(x=>[x[0],x[1]||'',x[2]||'',x[3]||'']);
+  // optional last value in each entry: a ready-to-write sentence for the answer
+  const I=(it.ideas||[]).map(x=>Array.isArray(x)?[x[0],x[1]||'',x[2]||'']:[x,'','']);
+  const K=(it.keywords||[]).map(x=>[x[0],x[1]||'',x[2]||'',x[3]||'']);
+  const Dt=(it.data||[]).map(x=>[x[0],x[1]||'',x[2]||'',x[3]||'',x[4]||'']);
+  const E=(it.examples||[]).map(x=>[x[0],x[1]||'',x[2]||'',x[3]||'',x[4]||'']);
   return {I,K,Dt,E};
 }
 const NONE='<p class="none">Nothing to add from this story.</p>';
 const NONE_D='<p class="none">No figure in this story is worth quoting.</p>';
 const NONE_E='<p class="none">No example worth carrying from this story.</p>';
-const useL=u=>u?`<span class="use"><b>Use in:</b> ${esc(u)}</span>`:'';
+const useL=(u,w)=>w?`<span class="app"><span class="tg">${esc(u)}</span><span class="wr"><b>Write:</b> ${esc(w)}</span></span>`:(u?`<span class="use"><b>Use in:</b> ${esc(u)}</span>`:'');
 function cardHTML(it){
   const asked=askedFor(it).slice(0,4);
   const {I,K,Dt,E}=norm(it);
@@ -723,11 +728,11 @@ function cardHTML(it){
   ${ev.length?`<aside class="sofar" aria-label="The story so far"><span class="lbl2">The story so far</span><ol>${ev.map(e=>`<li><b>${esc(e[0])}</b><span>${esc(e[1])}</span></li>`).join('')}</ol></aside>`:''}
   <div class="abody two">
   <div class="col">
-  ${sec('ideas',I.length?`<ol class="il2">${I.map(x=>`<li><p>${esc(x[0])}</p>${useL(x[1])}</li>`).join('')}</ol>`:NONE)}
-  ${sec('data',Dt.length?`<div class="figs">${Dt.map(x=>`<div class="fg"><b>${esc(x[0])}</b><span>${esc(x[1])}</span>${x[2]?`<small>Source: ${esc(x[2])}</small>`:''}${useL(x[3])}</div>`).join('')}</div>`:NONE_D)}
+  ${sec('ideas',I.length?`<ol class="il2">${I.map(x=>`<li><p>${esc(x[0])}</p>${useL(x[1],x[2])}</li>`).join('')}</ol>`:NONE)}
+  ${sec('data',Dt.length?`<div class="figs">${Dt.map(x=>`<div class="fg"><b>${esc(x[0])}</b><span>${esc(x[1])}</span>${x[2]?`<small>Source: ${esc(x[2])}</small>`:''}${useL(x[3],x[4])}</div>`).join('')}</div>`:NONE_D)}
   </div><div class="col">
-  ${sec('kw',K.length?`<dl class="kwl2">${K.map(x=>`<div><dt>${esc(x[0])}</dt><dd>${esc(x[1])}${useL(x[2])}</dd></div>`).join('')}</dl>`:NONE)}
-  ${sec('ex',E.length?`<ul class="exl">${E.map(x=>`<li><b>${esc(x[0])}</b>${x[2]==='GS4'?' <span class="gs GS4">GS4 Ethics</span>':''}${x[1]?`<span class="ed">${esc(x[1])}</span>`:''}${useL(x[3])}</li>`).join('')}</ul>`:NONE_E)}
+  ${sec('kw',K.length?`<dl class="kwl2">${K.map(x=>`<div><dt>${esc(x[0])}</dt><dd>${esc(x[1])}${useL(x[2],x[3])}</dd></div>`).join('')}</dl>`:NONE)}
+  ${sec('ex',E.length?`<ul class="exl">${E.map(x=>`<li><b>${esc(x[0])}</b>${x[2]==='GS4'?' <span class="gs GS4">GS4 Ethics</span>':''}${x[1]?`<span class="ed">${esc(x[1])}</span>`:''}${useL(x[3],x[4])}</li>`).join('')}</ul>`:NONE_E)}
   </div>
   </div>
   ${eth.length?`<div class="eangle"><b>Ethics angle (GS4):</b> ${eth.map(c=>`${esc(c.syllabus)}. ${esc(c.link)}`).join(' ')} <a href="#ethics" data-case="${esc(eth[0]._id)}">Open in the Ethics Casebook →</a></div>`:''}
@@ -748,13 +753,13 @@ function qtext(id){const p=MM.pyq[id];return p?(p[4]||p[3]):''}
 const PYQNOTE="Questions are reproduced in UPSC's exact wording, cross-checked against independent published copies of the papers. The 'Use it' lines are the editor's suggestions.";
 function notesText(it){
   const L=[];L.push(it.title.toUpperCase());L.push(`${(it.gs||[]).join(', ')} | ${it.syllabus||''}`);L.push(`${it.paper||it._ed.paper||''}${it.where?', '+it.where:''}, ${fmtDate(it._ed.date)}`);
-  const {I,K,Dt,E}=norm(it);const U=u=>u?' [Use in: '+u+']':'';
+  const {I,K,Dt,E}=norm(it);const U=(u,w)=>w?'\n  ['+u+'] Write: '+w:(u?' [Use in: '+u+']':'');
   if(it.summary)L.push('\nTHE NEWS\n'+it.summary);
   if((it.evolution||[]).length){L.push('\nHOW IT HAS EVOLVED');it.evolution.forEach(e=>L.push('• '+e[0]+': '+e[1]))}
-  if(I.length){L.push('\nIDEAS');I.forEach(x=>L.push('• '+x[0]+U(x[1])))}
-  if(K.length){L.push('\nKEYWORDS');K.forEach(x=>L.push('• '+x[0]+(x[1]?' — '+x[1]:'')+U(x[2])))}
-  if(Dt.length){L.push('\nDATA');Dt.forEach(x=>L.push('• '+x[0]+' — '+x[1]+(x[2]?' ('+x[2]+')':'')+U(x[3])))}
-  if(E.length){L.push('\nEXAMPLES');E.forEach(x=>L.push('• '+x[0]+(x[2]==='GS4'?' [GS4]':'')+(x[1]?' — '+x[1]:'')+U(x[3])))}
+  if(I.length){L.push('\nIDEAS');I.forEach(x=>L.push('• '+x[0]+U(x[1],x[2])))}
+  if(K.length){L.push('\nKEYWORDS');K.forEach(x=>L.push('• '+x[0]+(x[1]?' — '+x[1]:'')+U(x[2],x[3])))}
+  if(Dt.length){L.push('\nDATA');Dt.forEach(x=>L.push('• '+x[0]+' — '+x[1]+(x[2]?' ('+x[2]+')':'')+U(x[3],x[4])))}
+  if(E.length){L.push('\nEXAMPLES');E.forEach(x=>L.push('• '+x[0]+(x[2]==='GS4'?' [GS4]':'')+(x[1]?' — '+x[1]:'')+U(x[3],x[4])))}
   if(it.pyqs&&it.pyqs.length){L.push('\nASKED BEFORE IN MAINS');it.pyqs.forEach(p=>{if(MM.pyq[p[0]])L.push('• '+code(p[0])+': '+qtext(p[0])+'\n  Use it: '+p[1])})}
   L.push('\nThemes: '+(it.themes||[]).filter(k=>TH[k]).map(k=>TH[k].n).join('; '));
   return L.join('\n');
@@ -1007,19 +1012,19 @@ function compiledHTML(items){
   return Object.keys(byDate).sort().reverse().map(d=>`<section class="cday" aria-label="${esc(fmtDate(d,{weekday:'long',day:'numeric',month:'long',year:'numeric'}))}"><h3 class="cdate"><a href="#day-${d}">${esc(fmtDate(d,{weekday:'short',day:'numeric',month:'long',year:'numeric'}))}</a></h3>
    ${byDate[d].map(it=>{const {I,K,Dt,E}=norm(it);const one=it.summary||it.context||'';
     return `<article class="issue" id="note-${esc(it.id)}"><h4>${esc(it.title)}</h4>${one?`<p class="one"><b>In one line:</b> ${esc(one)}</p>`:''}
-     <div class="cgrid"><div>${lens('ideas',I,x=>`<li>${esc(x[0])}${x[1]?`<span class="u2">Use in: ${esc(x[1])}</span>`:''}</li>`)}
+     <div class="cgrid"><div>${lens('ideas',I,x=>`<li>${esc(x[0])}${x[2]?`<span class="u2">Write: ${esc(x[2])}</span>`:x[1]?`<span class="u2">Use in: ${esc(x[1])}</span>`:''}</li>`)}
      ${lens('data',Dt,x=>`<li><b>${esc(x[0])}</b> ${esc(x[1])}${x[2]?` <span class="code">(${esc(x[2])})</span>`:''}</li>`)}</div>
-     <div>${lens('kw',K,x=>`<li><b>${esc(x[0])}</b>${x[1]?': '+esc(x[1]):''}</li>`)}
-     ${lens('ex',E,x=>`<li><b>${esc(x[0])}</b>${x[1]?': '+esc(x[1]):''}${x[2]==='GS4'?' <span class="gs GS4">GS4</span>':''}</li>`)}</div></div>
+     <div>${lens('kw',K,x=>`<li><b>${esc(x[0])}</b>${x[1]?': '+esc(x[1]):''}${x[3]?`<span class="u2">Write: ${esc(x[3])}</span>`:''}</li>`)}
+     ${lens('ex',E,x=>`<li><b>${esc(x[0])}</b>${x[1]?': '+esc(x[1]):''}${x[2]==='GS4'?' <span class="gs GS4">GS4</span>':''}${x[4]?`<span class="u2">Write: ${esc(x[4])}</span>`:''}</li>`)}</div></div>
      <p class="src2">${esc(it.paper||it._ed.paper||'')}${it.where?', '+esc(it.where):''} · <a href="#day-${d}" data-jump2="item-${esc(it.id)}">Open the full story</a></p></article>`}).join('')}</section>`).join('');
 }
 function compiledText(t,items){
   const L=[t.n.toUpperCase()+' — compiled notes',''];
   items.forEach(it=>{const {I,K,Dt,E}=norm(it);L.push(fmtDate(it._ed.date)+' · '+it.title);const one=(it.summary||it.context||'').split(/(?<=\.)\s/)[0];if(one)L.push('In one line: '+one);
-    if(I.length){L.push('Ideas:');I.forEach(x=>L.push('• '+x[0]+(x[1]?' [Use in: '+x[1]+']':'')))}
-    if(K.length){L.push('Keywords:');K.forEach(x=>L.push('• '+x[0]+(x[1]?': '+x[1]:'')))}
+    if(I.length){L.push('Ideas:');I.forEach(x=>L.push('• '+x[0]+(x[2]?'\n  Write: '+x[2]:x[1]?' [Use in: '+x[1]+']':'')))}
+    if(K.length){L.push('Keywords:');K.forEach(x=>L.push('• '+x[0]+(x[1]?': '+x[1]:'')+(x[3]?'\n  Write: '+x[3]:'')))}
     if(Dt.length){L.push('Data:');Dt.forEach(x=>L.push('• '+x[0]+' '+x[1]+(x[2]?' ('+x[2]+')':'')))}
-    if(E.length){L.push('Examples:');E.forEach(x=>L.push('• '+x[0]+(x[1]?': '+x[1]:'')))}
+    if(E.length){L.push('Examples:');E.forEach(x=>L.push('• '+x[0]+(x[1]?': '+x[1]:'')+(x[4]?'\n  Write: '+x[4]:'')))}
     L.push('')});
   return L.join('\n');
 }

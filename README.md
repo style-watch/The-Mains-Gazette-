@@ -31,6 +31,7 @@ repository stays small (roughly 50-60 MB of data a year, against GitHub Pages' 1
    - `summary` is ONE line. Readers read the paper; the app is a reminder.
    - Data: only figures that can be quoted in many answers (national, priority themes such as women). Leave `data: []` if nothing qualifies; the card says so.
    - Examples: relatable and broadly usable, not narrow. Keywords: terms that sharpen an answer (e.g. 'duck curve', 'time poverty'), not the obvious ones.
+   - Every idea, keyword, data point and example ends with two parts: a short tag (where it fits, e.g. "GS2 · India–Pakistan") and a "Write" line, ONE sentence (under ~25 words) the candidate can put straight into an answer. Entry format: ideas [text, tag, write]; keywords [term, meaning, tag, write]; data [figure, measure, source, tag, write]; examples [name, what, "GS4"|"", tag, write]. Keep the main text to one line.
    - Look for the GS4 angle in every story and add an `ethics` case for it.
    - Ethics cases: `id`, `news` (one line), `syllabus` (GS4 line), `link` (the connection), `question` (practice), `pyq` (GS4 ids), `keywords`, `themes` (g4 keys), `area`, `card` (story id). No ideas, data or examples.
    - `themes` must use keys from `data/themes.js` (essay material: keys from `data/essay.js`).

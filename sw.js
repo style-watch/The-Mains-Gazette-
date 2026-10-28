@@ -1,5 +1,5 @@
 /* The Mains Gazette offline support: the app shell is cached; data files (index, editions, theme folders) are fetched fresh when online and kept for offline reading. */
-const CACHE='mainsgazette-v20';
+const CACHE='mainsgazette-v21';
 const SHELL=['./','index.html','data/themes.js','data/index.json','data/essay.js','manifest.webmanifest','icons/icon.svg','icons/icon-192.png'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
