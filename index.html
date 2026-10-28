@@ -462,6 +462,9 @@ select.sel{font:inherit;font-size:.88rem;border:1px solid var(--line);background
 .tlink{font-size:.8rem;font-weight:600;text-decoration:none;color:var(--navy);background:#EEF1F8;border-radius:8px;padding:3px 9px}
 .tlink:hover{background:#DFE5F3}
 .prac{border-top:1px solid var(--line);padding:14px 20px 16px;background:#F7F5FF}
+.trend{margin-top:12px;background:#fff;border:1px solid var(--line);border-left:4px solid var(--navy);border-radius:10px;padding:10px 14px;font-size:.9rem}
+.trend h5{margin:0 0 4px!important}.trend p{margin:0 0 6px}.trend ul{margin:2px 0 0;padding-left:18px;display:grid;gap:2px}
+.potq{margin:0 0 14px;padding-left:20px;display:grid;gap:5px;font-size:.92rem}
 .prac h5{margin:0 0 8px;font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:#5B21B6;font-weight:600}
 .pq3{background:#fff;border:1px solid #DDD6FE;border-radius:12px;padding:12px 14px;margin-bottom:10px}
 .pqh{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:center}
@@ -759,16 +762,19 @@ function cardHTML(it){
     <button class="btn" data-copy="${esc(it.id)}">${IC.copy}Copy notes</button>
   </div>
   ${it.sources?`<div class="srcn"><b>Sources:</b> ${esc(it.sources)}</div>`:''}
-  ${(it.pyqs&&it.pyqs.length)?`<div class="wfit"><h5>Asked before in Mains · where this news fits</h5><ol>${it.pyqs.filter(p=>MM.pyq[p[0]]).map(p=>`<li><div class="pq"><span class="code">${code(p[0])}</span><span>“${qHTML(p[0])}”</span></div><div class="pu"><b>Use it:</b> ${esc(p[1])}</div></li>`).join('')}</ol><div class="nt">${PYQNOTE}</div></div>`:''}
+  ${(it.pyqs&&it.pyqs.length)?`<div class="wfit"><h5>Asked before in Mains · where this news fits</h5><ol>${it.pyqs.filter(p=>MM.pyq[p[0]]).map(p=>`<li><div class="pq"><span class="code">${code(p[0])}</span><span>“${qHTML(p[0])}”</span></div><div class="pu"><b>Use it:</b> ${esc(p[1])}</div></li>`).join('')}</ol><div class="nt">${PYQNOTE}</div>${trendHTML(it)}</div>`:''}
   ${practiceHTML(it)}
   ${(!(it.pyqs&&it.pyqs.length)&&asked.length)?`<details class="asked"><summary>Asked before in Mains: ${asked.length} related questions</summary><ul>${asked.map(id=>`<li><span class="code">${code(id)}</span><span>${qHTML(id)}</span></li>`).join('')}</ul></details>`:''}
 </article>`;
 }
 // ---- Practice questions (editor's), in UPSC pattern, with model answers hidden until asked for.
 // it.practice = [{q, marks, words, parts:["part 1", ...], answer:[{h:"Introduction", t:"..."} | {h:"Part heading", pts:["..."]}]}]
+// it.trend = {t: "brief reading of how these questions have moved", focus: ["where the next question may come from", ...]}
+function trendHTML(it){const T=it.trend;if(!T)return '';return `<div class="trend"><h5>The trend in these questions</h5><p>${esc(T.t)}</p>${(T.focus||[]).length?`<b>Where the next question may focus:</b><ul>${T.focus.map(f=>`<li>${esc(f)}</li>`).join('')}</ul>`:''}</div>`}
+// it.potential = ["possible question", ...]; it.practice = one question with a model answer
 function practiceHTML(it){
-  const P=it.practice||[];if(!P.length)return '';
-  return `<div class="prac"><h5>Practice questions · in UPSC pattern</h5>${P.map((x,i)=>`<div class="pq3">
+  const P=it.practice||[],Q=it.potential||[];if(!P.length&&!Q.length)return '';
+  return `<div class="prac">${Q.length?`<h5>Potential questions · in UPSC pattern</h5><ol class="potq">${Q.map(q=>`<li>${esc(q)}</li>`).join('')}</ol>`:''}${P.length?`<h5>Practice question with model answer</h5>`:''}${P.map((x,i)=>`<div class="pq3">
    <div class="pqh"><span class="tag2">Practice question (editor's)</span><span class="code">${x.marks||10} marks · ${x.words||(x.marks==15?250:150)} words</span></div>
    <p class="pqq">${esc(x.q)}</p>
    ${(x.parts||[]).length?`<div class="flow"><b>The parts of this question:</b><ol>${x.parts.map(p=>`<li>${esc(p)}</li>`).join('')}</ol></div>`:''}
@@ -799,6 +805,8 @@ function notesText(it){
   if(K.length){L.push('\nKEYWORDS');K.forEach(x=>L.push('• '+x[0]+(x[1]?' — '+x[1]:'')+U(x[2],x[3])))}
   if(Dt.length){L.push('\nDATA');Dt.forEach(x=>L.push('• '+x[0]+' — '+x[1]+(x[2]?' ('+x[2]+')':'')+U(x[3],x[4])))}
   if(E.length){L.push('\nEXAMPLES');E.forEach(x=>L.push('• '+x[0]+(x[2]==='GS4'?' [GS4]':'')+(x[1]?' — '+x[1]:'')+U(x[3],x[4])))}
+  if(it.trend){L.push('\nTREND IN PAST QUESTIONS\n'+it.trend.t);(it.trend.focus||[]).forEach(f=>L.push('• '+f))}
+  if((it.potential||[]).length){L.push('\nPOTENTIAL QUESTIONS');it.potential.forEach(q=>L.push('• '+q))}
   (it.practice||[]).forEach((x,i)=>L.push('\n'+practiceText(it,i)));
   if(it.pyqs&&it.pyqs.length){L.push('\nASKED BEFORE IN MAINS');it.pyqs.forEach(p=>{if(MM.pyq[p[0]])L.push('• '+code(p[0])+': '+qtext(p[0])+'\n  Use it: '+p[1])})}
   L.push('\nThemes: '+(it.themes||[]).filter(k=>TH[k]).map(k=>TH[k].n).join('; '));

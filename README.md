@@ -32,6 +32,8 @@ repository stays small (roughly 50-60 MB of data a year, against GitHub Pages' 1
    - Data: only figures that can be quoted in many answers (national, priority themes such as women). Leave `data: []` if nothing qualifies; the card says so.
    - Examples: relatable and broadly usable, not narrow. Keywords: terms that sharpen an answer (e.g. 'duck curve', 'time poverty'), not the obvious ones.
    - Every idea, keyword, data point and example ends with two parts: a short tag (where it fits, e.g. "GS2 · India–Pakistan") and a "Write" line, ONE sentence (under ~25 words) the candidate can put straight into an answer. Entry format: ideas [text, tag, write]; keywords [term, meaning, tag, write]; data [figure, measure, source, tag, write]; examples [name, what, "GS4"|"", tag, write]. Keep the main text to one line.
+   - The learning loop on each key story: past questions (`pyqs`) → a brief trend reading (`trend`: {t, focus[]}, 2–3 sentences plus 3–4 focus areas) → `potential` questions (3–4, UPSC pattern, with marks) → ONE of them as `practice` with a model answer.
+   - Model answers answer the QUESTION, not the news: draw on the whole syllabus for multi-dimensional points; the news supplies examples. Keep each point to about two lines: key phrase, one explaining sentence, a short example (examples optional where the point stands alone).
    - Practice questions (`practice` on a story): 1–2 per key story, in UPSC's pattern and directive words, labelled as the editor's. Each has `q`, `marks` (10 = 150 words, 15 = 250 words), `parts` and `answer` (sections of {h, t} or {h, pts}).
    - Model answers, the owner's rules:
      1. First understand the flow of the question and identify its parts; each part becomes a small heading.
