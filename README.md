@@ -39,7 +39,10 @@ repository stays small (roughly 50-60 MB of data a year, against GitHub Pages' 1
      3. Each main part: about 6 points, multi-dimensional (diplomatic, connectivity, trade, security, cultural, economic...), each a point plus example. Use frameworks named in the news (e.g. "connectivity, transit and trade").
      4. "Discuss" means two sides: positives, then limits/challenges.
      5. 10 marks: way forward is combined with the conclusion. 15 marks: way forward is its own part, then a final conclusion.
-     6. Crisp: point plus example; facts only from the news or well-established sources.
+     6. No one-liners: each point is self-explanatory: a key phrase, then one or two explaining sentences using sharp keywords, then an example. Word limit is not a constraint.
+     7. Facts only from the news or well-established sources.
+     8. Where it helps (processes, cycles, cause-effect), add a simple diagram: a section's `flow` list, drawn as boxes joined by arrows.
+     Point format in `pts`: {"k": key phrase, "t": explanation, "ex": example}.
    - Look for the GS4 angle in every story and add an `ethics` case for it.
    - Ethics cases: `id`, `news` (one line), `syllabus` (GS4 line), `link` (the connection), `question` (practice), `pyq` (GS4 ids), `keywords`, `themes` (g4 keys), `area`, `card` (story id). No ideas, data or examples.
    - `themes` must use keys from `data/themes.js` (essay material: keys from `data/essay.js`).

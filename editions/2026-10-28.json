@@ -155,41 +155,101 @@
      "answer": [
       {
        "h": "Introduction",
-       "t": "Ties with Pakistan have stayed frozen since Pathankot and Uri (2016) and Pahalgam and Op Sindoor (2025), yet India has invited Pakistan's culture minister to the SCO Civilisational Dialogue Forum in New Delhi (Nov 2026)."
+       "t": "India–Pakistan bilateral relations have remained frozen for a decade over Pakistan's state policy of cross-border terrorism, from the Pathankot and Uri attacks (2016) to the Pahalgam attack and Operation Sindoor (2025). Yet India continues to engage Pakistan on multilateral platforms, most recently by inviting Pakistan's culture minister to the SCO Civilisational Dialogue Forum in New Delhi (20–21 November 2026)."
       },
       {
        "h": "India's engagement with Pakistan at the SCO",
        "pts": [
-        "Diplomatic: as host, India invites all members, Pakistan included.",
-        "High-level contact: Bilawal Bhutto in Goa (2023); Jaishankar in Islamabad (2024).",
-        "Connectivity: 'connectivity, regional connectivity' flagged at Islamabad (2026).",
-        "Transit: access routes to Central Asia raised on the SCO table.",
-        "Trade: placed on the agenda despite suspended bilateral trade.",
-        "Cultural: Civilisational Dialogue on shared Eurasian heritage."
+        {
+         "k": "Diplomatic obligation of the host",
+         "t": "As host of an SCO event, India must invite every member state; engagement here is a matter of institutional rules, not a bilateral concession.",
+         "ex": "India's invitation to Pakistan's culture minister for the Civilisational Dialogue Forum, 2026."
+        },
+        {
+         "k": "Continuity of high-level contact",
+         "t": "The SCO has kept ministerial contact alive even when bilateral visits stopped, avoiding a complete diplomatic breakdown.",
+         "ex": "Bilawal Bhutto attended the SCO Foreign Ministers' meeting in Goa (2023); EAM Jaishankar went to Islamabad for the SCO Heads of Government meeting (2024)."
+        },
+        {
+         "k": "Regional connectivity",
+         "t": "India uses the SCO to push connectivity, which Pakistan's position between India and Central Asia makes central to any regional plan.",
+         "ex": "An Indian Additional Secretary flagged 'connectivity, regional connectivity, transit and trade' at the SCO national coordinators' meeting in Islamabad (2026)."
+        },
+        {
+         "k": "Transit access",
+         "t": "Overland transit through Pakistan is India's shortest route to Afghanistan and Central Asia; the SCO is the only forum where both sit at the same table on it.",
+         "ex": "Transit was among the issues India raised in Islamabad (2026)."
+        },
+        {
+         "k": "Trade on a multilateral table",
+         "t": "With bilateral trade largely suspended, the SCO keeps the idea of regional economic cooperation alive.",
+         "ex": "'Trade' was part of the agenda India flagged at the SCO coordinators' meeting (2026)."
+        },
+        {
+         "k": "Cultural and civilisational dialogue",
+         "t": "A soft, low-risk track that rests on shared heritage rather than disputed politics.",
+         "ex": "The Civilisational Dialogue Forum, proposed by PM Modi at the Tianjin summit (2025), on shared Eurasian heritage, art and literature."
+        }
        ]
       },
       {
-       "h": "Significance for India",
+       "h": "Significance of multilateral engagement for India",
        "pts": [
-        "Strategic: 'bilateral freeze, multilateral engagement' keeps terror pressure without isolation.",
-        "Security: SCO counter-terror framework (RATS) to raise cross-border terror.",
-        "Economic: gateway to Central Asian markets and energy.",
-        "Soft power: civilisational diplomacy builds people-to-people goodwill.",
-        "Geopolitical: presence in a 'Eurasian and Asian landmass' grouping alongside Russia and China.",
-        "Agenda-setting: PM's Tianjin (2025) proposal shows India shaping the SCO."
+        {
+         "k": "Strategic posture: bilateral freeze, multilateral engagement",
+         "t": "India keeps up pressure on Pakistan over terror while avoiding the appearance of isolating itself or blocking regional cooperation.",
+         "ex": "Inviting Pakistan to Delhi while bilateral ties stay frozen."
+        },
+        {
+         "k": "Security cooperation",
+         "t": "The SCO's counter-terrorism framework gives India a platform to raise cross-border terrorism before Pakistan and its partners.",
+         "ex": "The SCO Regional Anti-Terrorist Structure (RATS) as a venue to press India's concerns."
+        },
+        {
+         "k": "Economic gateway to Central Asia",
+         "t": "The SCO links India to energy-rich, landlocked Central Asian markets that matter for its trade and energy security.",
+         "ex": "Connectivity and transit raised alongside Central Asian members such as Kazakhstan and Uzbekistan."
+        },
+        {
+         "k": "Soft power and people-to-people ties",
+         "t": "Civilisational diplomacy projects India's cultural leadership and builds goodwill beyond governments.",
+         "ex": "The Civilisational Dialogue is expected to be held at one of Delhi's iconic monuments."
+        },
+        {
+         "k": "Geopolitical presence in Eurasia",
+         "t": "Membership keeps India inside a grouping of Russia, China and Central Asia, balancing its ties with the West.",
+         "ex": "India's SCO coordinator described the SCO as a journey where 'Eurasian and Asian landmass member states have come together'."
+        },
+        {
+         "k": "Agenda-setting role",
+         "t": "Proposing and hosting new initiatives lets India shape the grouping instead of reacting to it.",
+         "ex": "PM Modi's Tianjin (2025) proposal became an SCO forum hosted by India in 2026."
+        }
        ]
       },
       {
        "h": "Limits and challenges",
        "pts": [
-        "Continued cross-border terror limits any thaw.",
-        "China–Pakistan closeness can blunt India's positions.",
-        "Consensus-based SCO yields few binding outcomes."
+        {
+         "k": "Persistent cross-border terrorism",
+         "t": "Multilateral courtesy cannot substitute for an end to terror; every attack resets ties.",
+         "ex": "The Pahalgam attack (2025) followed years of engagement attempts."
+        },
+        {
+         "k": "China–Pakistan alignment",
+         "t": "China's closeness to Pakistan can dilute SCO positions that India wants on terror and connectivity.",
+         "ex": "India's opposition to the China–Pakistan Economic Corridor, which passes through Pakistan-occupied Kashmir."
+        },
+        {
+         "k": "Consensus-based functioning",
+         "t": "Decisions need every member's agreement, so outcomes are often declaratory rather than binding.",
+         "ex": "India declined to endorse the SCO Defence Ministers' joint statement in June 2025 because it left out the Pahalgam attack."
+        }
        ]
       },
       {
        "h": "Way forward and conclusion",
-       "t": "India should use the SCO to press on terror while advancing connectivity and culture, and tie any bilateral step to verifiable action on terror. Multilateral engagement lets India stay firm yet diplomatically present."
+       "t": "India should use the SCO to keep raising terrorism through RATS, advance connectivity and culture where interests converge, and link any bilateral step to verifiable action by Pakistan against terror. Multilateral engagement thus lets India remain firm on security while staying diplomatically present in Eurasia, a pragmatic balance between principle and interest."
       }
      ]
     }

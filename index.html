@@ -473,6 +473,9 @@ select.sel{font:inherit;font-size:.88rem;border:1px solid var(--line);background
 .ms{margin-top:10px}.ms h6{margin:0 0 4px;font-size:.86rem;color:#1F2937;font-family:Inter,system-ui,sans-serif;border-bottom:1px solid #EDE9FE;padding-bottom:2px}
 .ms p{margin:0;font-size:.9rem}.ms ul{margin:0;padding-left:18px;font-size:.9rem;display:grid;gap:3px}
 .model .btn{margin-top:10px}
+.ms ul{gap:7px}.ms li b{color:#3B0764}
+.ms .eg{display:block;font-size:.86rem;color:#4B5563;margin-top:1px}.ms .eg i{color:#7C3AED;font-style:normal;font-weight:600}
+.dgm{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:8px 0}.dgm span{background:#EDE9FE;border:1px solid #C4B5FD;border-radius:8px;padding:5px 9px;font-size:.84rem;font-weight:600;color:#3B0764}.dgm i{font-style:normal;color:#7C3AED;font-weight:700}
 .prac .nt{font-size:.74rem;color:var(--soft);margin-top:4px}
 .wfit{border-top:1px solid var(--line);padding:14px 20px 16px;background:#F5F7FC}
 .wfit h5{margin:0 0 8px;font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--navy);font-weight:600}
@@ -770,14 +773,19 @@ function practiceHTML(it){
    <p class="pqq">${esc(x.q)}</p>
    ${(x.parts||[]).length?`<div class="flow"><b>The parts of this question:</b><ol>${x.parts.map(p=>`<li>${esc(p)}</li>`).join('')}</ol></div>`:''}
    <details class="model"><summary>Show model answer (editor's) · try it yourself first</summary>
-    ${(x.answer||[]).map(sec=>`<div class="ms"><h6>${esc(sec.h)}</h6>${sec.t?`<p>${esc(sec.t)}</p>`:''}${(sec.pts||[]).length?`<ul>${sec.pts.map(pt=>`<li>${esc(pt)}</li>`).join('')}</ul>`:''}</div>`).join('')}
+    ${(x.answer||[]).map(sec=>`<div class="ms"><h6>${esc(sec.h)}</h6>${sec.t?`<p>${esc(sec.t)}</p>`:''}${(sec.pts||[]).length?`<ul>${sec.pts.map(ptHTML).join('')}</ul>`:''}${(sec.flow||[]).length?flowHTML(sec.flow):''}</div>`).join('')}
     <button class="btn" data-pcopy="${esc(it.id)}|${i}">${IC.copy}Copy question and answer</button>
    </details></div>`).join('')}
    <div class="nt">Practice questions and model answers are written by the editor in UPSC's pattern; they are not UPSC questions. Facts come from the day's news and well-established sources.</div></div>`;
 }
+// a point is a string, or {k: key phrase, t: explanation, ex: example}
+function ptHTML(pt){if(typeof pt==='string')return `<li>${esc(pt)}</li>`;return `<li><b>${esc(pt.k)}:</b> ${esc(pt.t)}${pt.ex?`<span class="eg"><i>Example:</i> ${esc(pt.ex)}</span>`:''}</li>`}
+function ptText(pt){return typeof pt==='string'?pt:pt.k+': '+pt.t+(pt.ex?' Example: '+pt.ex:'')}
+// a simple diagram: boxes joined by arrows (sec.flow = ["step 1","step 2",...])
+function flowHTML(f){return `<div class="dgm" role="img" aria-label="${esc(f.join(' leads to '))}">${f.map(x=>`<span>${esc(x)}</span>`).join('<i aria-hidden="true">→</i>')}</div>`}
 function practiceText(it,i){const x=(it.practice||[])[i];if(!x)return '';const L=['PRACTICE QUESTION (editor\'s) · '+(x.marks||10)+' marks',x.q,''];
   if((x.parts||[]).length){L.push('Parts: '+x.parts.join(' | '),'')}
-  (x.answer||[]).forEach(sec=>{L.push(sec.h.toUpperCase());if(sec.t)L.push(sec.t);(sec.pts||[]).forEach(pt=>L.push('• '+pt));L.push('')});return L.join('\n')}
+  (x.answer||[]).forEach(sec=>{L.push(sec.h.toUpperCase());if(sec.t)L.push(sec.t);(sec.pts||[]).forEach(pt=>L.push('• '+ptText(pt)));if((sec.flow||[]).length)L.push('['+sec.flow.join(' → ')+']');L.push('')});return L.join('\n')}
 function srcFlag(id){const p=MM.pyq[id];return p&&p[5]===1?' <sup title="Found in one compilation only">¹</sup>':''}
 function qHTML(id){const p=MM.pyq[id];if(!p)return '';const t=qtext(id);if(p[6]&&t.length>260)return `<details class="case"><summary>${esc(t.slice(0,220))}… <b>Read the full case</b></summary><div>${esc(t)}</div></details>`;return esc(t)}
 function qtext(id){const p=MM.pyq[id];return p?(p[4]||p[3]):''}
