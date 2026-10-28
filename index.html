@@ -461,6 +461,19 @@ select.sel{font:inherit;font-size:.88rem;border:1px solid var(--line);background
 .tlinks{display:flex;flex-wrap:wrap;gap:6px;flex:1}
 .tlink{font-size:.8rem;font-weight:600;text-decoration:none;color:var(--navy);background:#EEF1F8;border-radius:8px;padding:3px 9px}
 .tlink:hover{background:#DFE5F3}
+.prac{border-top:1px solid var(--line);padding:14px 20px 16px;background:#F7F5FF}
+.prac h5{margin:0 0 8px;font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:#5B21B6;font-weight:600}
+.pq3{background:#fff;border:1px solid #DDD6FE;border-radius:12px;padding:12px 14px;margin-bottom:10px}
+.pqh{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:center}
+.tag2{font-family:var(--mono);font-size:.64rem;letter-spacing:.08em;text-transform:uppercase;background:#EDE9FE;color:#5B21B6;border-radius:5px;padding:2px 7px}
+.pqq{margin:8px 0;font-weight:600;font-size:.98rem;line-height:1.5}
+.flow{font-size:.86rem;color:#374151;background:#FAFAFF;border-radius:8px;padding:8px 10px}
+.flow ol{margin:4px 0 0;padding-left:20px}
+.model{margin-top:10px}.model summary{cursor:pointer;font-weight:600;color:#5B21B6;font-size:.9rem}
+.ms{margin-top:10px}.ms h6{margin:0 0 4px;font-size:.86rem;color:#1F2937;font-family:Inter,system-ui,sans-serif;border-bottom:1px solid #EDE9FE;padding-bottom:2px}
+.ms p{margin:0;font-size:.9rem}.ms ul{margin:0;padding-left:18px;font-size:.9rem;display:grid;gap:3px}
+.model .btn{margin-top:10px}
+.prac .nt{font-size:.74rem;color:var(--soft);margin-top:4px}
 .wfit{border-top:1px solid var(--line);padding:14px 20px 16px;background:#F5F7FC}
 .wfit h5{margin:0 0 8px;font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--navy);font-weight:600}
 .wfit ol{margin:0;padding:0;list-style:none;display:grid;gap:8px}
@@ -744,9 +757,27 @@ function cardHTML(it){
   </div>
   ${it.sources?`<div class="srcn"><b>Sources:</b> ${esc(it.sources)}</div>`:''}
   ${(it.pyqs&&it.pyqs.length)?`<div class="wfit"><h5>Asked before in Mains · where this news fits</h5><ol>${it.pyqs.filter(p=>MM.pyq[p[0]]).map(p=>`<li><div class="pq"><span class="code">${code(p[0])}</span><span>“${qHTML(p[0])}”</span></div><div class="pu"><b>Use it:</b> ${esc(p[1])}</div></li>`).join('')}</ol><div class="nt">${PYQNOTE}</div></div>`:''}
+  ${practiceHTML(it)}
   ${(!(it.pyqs&&it.pyqs.length)&&asked.length)?`<details class="asked"><summary>Asked before in Mains: ${asked.length} related questions</summary><ul>${asked.map(id=>`<li><span class="code">${code(id)}</span><span>${qHTML(id)}</span></li>`).join('')}</ul></details>`:''}
 </article>`;
 }
+// ---- Practice questions (editor's), in UPSC pattern, with model answers hidden until asked for.
+// it.practice = [{q, marks, words, parts:["part 1", ...], answer:[{h:"Introduction", t:"..."} | {h:"Part heading", pts:["..."]}]}]
+function practiceHTML(it){
+  const P=it.practice||[];if(!P.length)return '';
+  return `<div class="prac"><h5>Practice questions · in UPSC pattern</h5>${P.map((x,i)=>`<div class="pq3">
+   <div class="pqh"><span class="tag2">Practice question (editor's)</span><span class="code">${x.marks||10} marks · ${x.words||(x.marks==15?250:150)} words</span></div>
+   <p class="pqq">${esc(x.q)}</p>
+   ${(x.parts||[]).length?`<div class="flow"><b>The parts of this question:</b><ol>${x.parts.map(p=>`<li>${esc(p)}</li>`).join('')}</ol></div>`:''}
+   <details class="model"><summary>Show model answer (editor's) · try it yourself first</summary>
+    ${(x.answer||[]).map(sec=>`<div class="ms"><h6>${esc(sec.h)}</h6>${sec.t?`<p>${esc(sec.t)}</p>`:''}${(sec.pts||[]).length?`<ul>${sec.pts.map(pt=>`<li>${esc(pt)}</li>`).join('')}</ul>`:''}</div>`).join('')}
+    <button class="btn" data-pcopy="${esc(it.id)}|${i}">${IC.copy}Copy question and answer</button>
+   </details></div>`).join('')}
+   <div class="nt">Practice questions and model answers are written by the editor in UPSC's pattern; they are not UPSC questions. Facts come from the day's news and well-established sources.</div></div>`;
+}
+function practiceText(it,i){const x=(it.practice||[])[i];if(!x)return '';const L=['PRACTICE QUESTION (editor\'s) · '+(x.marks||10)+' marks',x.q,''];
+  if((x.parts||[]).length){L.push('Parts: '+x.parts.join(' | '),'')}
+  (x.answer||[]).forEach(sec=>{L.push(sec.h.toUpperCase());if(sec.t)L.push(sec.t);(sec.pts||[]).forEach(pt=>L.push('• '+pt));L.push('')});return L.join('\n')}
 function srcFlag(id){const p=MM.pyq[id];return p&&p[5]===1?' <sup title="Found in one compilation only">¹</sup>':''}
 function qHTML(id){const p=MM.pyq[id];if(!p)return '';const t=qtext(id);if(p[6]&&t.length>260)return `<details class="case"><summary>${esc(t.slice(0,220))}… <b>Read the full case</b></summary><div>${esc(t)}</div></details>`;return esc(t)}
 function qtext(id){const p=MM.pyq[id];return p?(p[4]||p[3]):''}
@@ -760,6 +791,7 @@ function notesText(it){
   if(K.length){L.push('\nKEYWORDS');K.forEach(x=>L.push('• '+x[0]+(x[1]?' — '+x[1]:'')+U(x[2],x[3])))}
   if(Dt.length){L.push('\nDATA');Dt.forEach(x=>L.push('• '+x[0]+' — '+x[1]+(x[2]?' ('+x[2]+')':'')+U(x[3],x[4])))}
   if(E.length){L.push('\nEXAMPLES');E.forEach(x=>L.push('• '+x[0]+(x[2]==='GS4'?' [GS4]':'')+(x[1]?' — '+x[1]:'')+U(x[3],x[4])))}
+  (it.practice||[]).forEach((x,i)=>L.push('\n'+practiceText(it,i)));
   if(it.pyqs&&it.pyqs.length){L.push('\nASKED BEFORE IN MAINS');it.pyqs.forEach(p=>{if(MM.pyq[p[0]])L.push('• '+code(p[0])+': '+qtext(p[0])+'\n  Use it: '+p[1])})}
   L.push('\nThemes: '+(it.themes||[]).filter(k=>TH[k]).map(k=>TH[k].n).join('; '));
   return L.join('\n');
@@ -1211,6 +1243,7 @@ document.addEventListener('click',e=>{
   const cc=e.target.closest('[data-ccopy]');if(cc){const c=CASES.find(x=>x._id===cc.dataset.ccopy);if(c)copy(c.syllabus?`GS4 ETHICS · ${(EAREA[c.area]||[c.area])[0]}\n${c.title}\n${c.news}\nSyllabus: ${c.syllabus}\nConnection: ${c.link}\nPractice question: ${c.question}\n${(c.pyq||[]).filter(id=>MM.pyq[id]).map(id=>'Asked before: '+code(id)+': '+qtext(id)).join('\n')}\nKeywords: ${(c.keywords||[]).join(', ')}\n(${c.src}, ${fmtDate(c._ed.date)})`:`GS4 ETHICS · ${(EAREA[c.area]||[c.area])[0]}\n${c.title}\n${c.case}\nEthical lesson: ${c.lesson}\nValues: ${(c.values||[]).join(', ')}\n(${c.src}, ${fmtDate(c._ed.date)})`);return}
   const dc=e.target.closest('[data-case]');if(dc){viewCasebook.focus=dc.dataset.case}
   const ec=e.target.closest('[data-ecopy]');if(ec){const it=FOD.find(x=>x.id===ec.dataset.ecopy);if(it)copy(`${it.type.toUpperCase()}: ${it.title}\n${it.text}\nUse it for: ${it.use}\n(${it.src}, ${fmtDate(it._ed.date)})`);return}
+  const pc=e.target.closest('[data-pcopy]');if(pc){const [id,i]=pc.dataset.pcopy.split('|');const it=ITEMS.find(x=>x.id===id);if(it)copy(practiceText(it,+i));return}
   const c=e.target.closest('[data-copy]');if(c){const it=ITEMS.find(x=>x.id===c.dataset.copy);if(it)copy(notesText(it));return}
   const tj=e.target.closest('[data-tj]');if(tj){e.preventDefault();const el=document.getElementById(tj.dataset.tj);if(el){el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1600)}return}
   const j2=e.target.closest('[data-jump2]');if(j2){e.preventDefault();const id=j2.dataset.jump2;location.hash=j2.getAttribute('href');setTimeout(()=>{const el=document.getElementById(id);if(el){el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.add('flash');el.setAttribute('tabindex','-1');el.focus({preventScroll:true});setTimeout(()=>el.classList.remove('flash'),1600)}},400);return}

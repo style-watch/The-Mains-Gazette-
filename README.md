@@ -32,6 +32,14 @@ repository stays small (roughly 50-60 MB of data a year, against GitHub Pages' 1
    - Data: only figures that can be quoted in many answers (national, priority themes such as women). Leave `data: []` if nothing qualifies; the card says so.
    - Examples: relatable and broadly usable, not narrow. Keywords: terms that sharpen an answer (e.g. 'duck curve', 'time poverty'), not the obvious ones.
    - Every idea, keyword, data point and example ends with two parts: a short tag (where it fits, e.g. "GS2 · India–Pakistan") and a "Write" line, ONE sentence (under ~25 words) the candidate can put straight into an answer. Entry format: ideas [text, tag, write]; keywords [term, meaning, tag, write]; data [figure, measure, source, tag, write]; examples [name, what, "GS4"|"", tag, write]. Keep the main text to one line.
+   - Practice questions (`practice` on a story): 1–2 per key story, in UPSC's pattern and directive words, labelled as the editor's. Each has `q`, `marks` (10 = 150 words, 15 = 250 words), `parts` and `answer` (sections of {h, t} or {h, pts}).
+   - Model answers, the owner's rules:
+     1. First understand the flow of the question and identify its parts; each part becomes a small heading.
+     2. Introduction: set up the question's premise (e.g. tensions, yet engagement).
+     3. Each main part: about 6 points, multi-dimensional (diplomatic, connectivity, trade, security, cultural, economic...), each a point plus example. Use frameworks named in the news (e.g. "connectivity, transit and trade").
+     4. "Discuss" means two sides: positives, then limits/challenges.
+     5. 10 marks: way forward is combined with the conclusion. 15 marks: way forward is its own part, then a final conclusion.
+     6. Crisp: point plus example; facts only from the news or well-established sources.
    - Look for the GS4 angle in every story and add an `ethics` case for it.
    - Ethics cases: `id`, `news` (one line), `syllabus` (GS4 line), `link` (the connection), `question` (practice), `pyq` (GS4 ids), `keywords`, `themes` (g4 keys), `area`, `card` (story id). No ideas, data or examples.
    - `themes` must use keys from `data/themes.js` (essay material: keys from `data/essay.js`).
