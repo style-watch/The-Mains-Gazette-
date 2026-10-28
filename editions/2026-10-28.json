@@ -676,17 +676,20 @@
    "title": "Workforce shake-up is here to stay. Brace for it",
    "section": "Editorial",
    "page": "Page 10",
-   "where": "The Editorial Page, page 10",
+   "where": "The Editorial Page, page 10; also Explained, page 12 (Soumyarendra Barik)",
    "gs": [
     "GS3",
     "GS1",
+    "GS2",
     "GS4"
    ],
    "syllabus": "GS3 › Indian economy: employment; Effects of science and technology (AI) on everyday life · GS1 › Population and associated issues · GS4 › Work culture; Ethical concerns in private institutions",
    "themes": [
     "jobs",
     "techai",
-    "demography"
+    "demography",
+    "diaspora",
+    "g4workculture"
    ],
    "summary": "The Indian Express argues that AI-led layoffs, like Microsoft's exit offer to 60,000 staff, will hit Indian IT and should make policymakers rethink job strategy for a young India.",
    "evolution": [
@@ -724,12 +727,28 @@
      "AI's labour-replacing power arrives just as India's youth bulge needs quality jobs, risking a demographic burden instead of a dividend."
     ],
     [
+     "AI can affect everyone: TCS's cut of about 12,000 jobs (2025) fell mainly on middle and senior managers, not just juniors.",
+     "GS3 employment · GS4 work culture",
+     "AI-led restructuring spares no level: TCS's 2025 cuts fell mainly on middle and senior managers."
+    ],
+    [
+     "The diaspora angle: Indian engineers in the US on H-1B visas must find a new sponsor within about 60 days of losing their job, or leave.",
+     "GS2 · Indian diaspora",
+     "AI-led layoffs hit the Indian diaspora hard: H-1B workers have about 60 days to find a new sponsor or leave the US."
+    ],
+    [
      "Technological disruption is also an ethical question of work culture: how firms treat people they no longer need, and the job insecurity and stress that follow.",
      "GS4 · Work culture",
      "An ethical work culture treats layoffs with transparency, fair compensation and support, not pressure to 'choose' an exit."
     ]
    ],
    "keywords": [
+    [
+     "AI-led job disruption",
+     "Job losses or hiring freezes as AI takes over tasks",
+     "GS3 · Technology and jobs",
+     "AI-led job disruption is reshaping white-collar work worldwide, from Microsoft to TCS."
+    ],
     [
      "Technological unemployment",
      "Jobs lost to new technology",
@@ -783,6 +802,18 @@
      "An offer that is voluntary in name but pressured in practice",
      "GS4 ethics",
      "A 'voluntary' exit backed by the threat of later layoffs is a coerced choice."
+    ],
+    [
+     "H-1B grace period",
+     "About 60 days for a laid-off H-1B worker to find a new employer or leave",
+     "GS2 · Diaspora",
+     "Laid-off Indian H-1B workers get only about 60 days to find a new sponsor."
+    ],
+    [
+     "Human-in-the-loop",
+     "Keeping people for complex tasks AI cannot handle",
+     "Balanced view",
+     "Klarna's return to human agents shows AI still needs humans in the loop."
     ]
    ],
    "data": [],
@@ -807,6 +838,34 @@
      "GS4",
      "Work culture",
      "Offering exits 'with support' while signalling future layoffs raises questions of honesty and fairness in work culture."
+    ],
+    [
+     "TCS cuts about 12,000 jobs (July 2025)",
+     "Mainly middle and senior management, amid generative AI adoption; TCS cited skill mismatch",
+     "GS4",
+     "Employment / work culture",
+     "TCS's 2025 cuts, mainly in middle and senior management, show AI can affect every level."
+    ],
+    [
+     "Block and Salesforce",
+     "Block cut over 4,000 jobs, nearly half its staff, citing AI (2026); Salesforce cut support staff from about 9,000 to 5,000 (2025)",
+     "",
+     "AI and jobs",
+     "Block's founder directly blamed AI for cutting nearly half its workforce."
+    ],
+    [
+     "Klarna rehires humans",
+     "After saying AI could do the work of 700 agents, it recruited human staff again",
+     "",
+     "Limits of AI",
+     "Klarna's U-turn shows AI cannot fully replace human judgement and care."
+    ],
+    [
+     "Livspace (India)",
+     "Laid off about 1,000 employees, 12% of its staff, shifting to an AI-led model (2026)",
+     "",
+     "Indian example",
+     "Livspace's 2026 layoffs show AI restructuring has reached Indian start-ups."
     ]
    ],
    "pyqs": [
@@ -845,6 +904,14 @@
     [
      "GS4-2024/Q1a",
      "AI in decision-making: the ethics of letting AI replace human judgement and human jobs."
+    ],
+    [
+     "GS2-2023/Q10",
+     "Diaspora in the West: AI layoffs and visa rules now threaten Indian professionals there."
+    ],
+    [
+     "GS2-2020/Q10",
+     "The Indian diaspora's role in the US economy: H-1B engineers are its core."
     ]
    ],
    "trend": {
@@ -2456,6 +2523,673 @@
      ]
     }
    ]
+  },
+  {
+   "id": "2026-10-28-08",
+   "title": "Punishment and pendency: Need for, role of a sentencing council",
+   "section": "Explained (Experts Explain)",
+   "page": "Page 12",
+   "where": "Explained, page 12 (Sidharth Luthra & Raghav Sengupta)",
+   "gs": [
+    "GS2",
+    "GS4"
+   ],
+   "syllabus": "GS2 › Structure, organisation and functioning of the judiciary; Fundamental rights (Art 14, 21) · GS4 › Objectivity and impartiality",
+   "themes": [
+    "judiciary",
+    "rights",
+    "g4aptitude"
+   ],
+   "summary": "Two legal experts argue that India's sentences depend on the judge, not the law, and propose a statutory Sentencing Council with guidelines and a national database, as in England.",
+   "evolution": [
+    [
+     "1971",
+     "Law Commission's 47th Report flags inconsistent sentencing (over 50 years ago)."
+    ],
+    [
+     "2012",
+     "Soman v State of Kerala: the SC calls sentencing one of the weakest parts of criminal justice."
+    ],
+    [
+     "2024",
+     "Sunita Devi v State of Bihar: 'sentencing shall not be a mere lottery'; Centre told to examine a national sentencing policy, perhaps via a Sentencing Commission."
+    ],
+    [
+     "Now",
+     "The Law Commission is examining the issue; recommendations expected soon."
+    ]
+   ],
+   "ideas": [
+    [
+     "Same crime, different sentence: punishment depends on the judge or Bench, not the law, because statutes give only maximums and minimums.",
+     "GS2 · Judiciary / criminal justice",
+     "In India, two people convicted of the same crime can get very different sentences, depending more on the judge than the law."
+    ],
+    [
+     "Unguided discretion violates equality: arbitrary disparity offends Articles 14 and 21; research shows sentences cut for irrelevant factors such as a victim's 'chastity'.",
+     "GS2 · Fundamental rights",
+     "Unguided sentencing discretion produces arbitrary disparity that is hard to square with Articles 14 and 21."
+    ],
+    [
+     "Probation and alternatives to prison exist in law (BNSS Sections 401–402; Probation of Offenders Act, 1958) but are rarely used without a framework.",
+     "GS2 · Prison reform",
+     "Alternatives to custody exist under the BNSS and the Probation of Offenders Act, but without guidance courts seldom use them."
+    ],
+    [
+     "Appeals burden: higher courts correct sentences case by case, without a common yardstick, adding to pendency.",
+     "GS2 · Pendency",
+     "Without sentencing guidelines, appellate courts spend scarce time correcting harsh or lenient sentences case by case."
+    ],
+    [
+     "A Sentencing Council by law: offence-wise guidelines (seriousness, starting point, individualisation), a national database on the NJDG, and guidelines placed before Parliament, presumptive but not binding.",
+     "GS2 · Way forward / judicial reform",
+     "A statutory Sentencing Council, as in England, can make judicial discretion accountable without ending judicial independence."
+    ]
+   ],
+   "keywords": [
+    [
+     "'Sentencing shall not be a mere lottery'",
+     "Supreme Court in Sunita Devi v State of Bihar (2024)",
+     "Introduction",
+     "As the Supreme Court put it in Sunita Devi (2024), 'sentencing shall not be a mere lottery'."
+    ],
+    [
+     "Comprehensive national sentencing policy",
+     "Uniform principles for deciding punishment",
+     "Way forward",
+     "The SC asked the Centre to examine a comprehensive national sentencing policy."
+    ],
+    [
+     "National Sentencing Commission / Council",
+     "Statutory body to frame sentencing guidelines",
+     "Institutions",
+     "A National Sentencing Commission could frame offence-wise guidelines."
+    ],
+    [
+     "Sentencing Code (England and Wales)",
+     "Law that backs England's Sentencing Council",
+     "Best practice",
+     "England's Sentencing Council, backed by a Sentencing Code, is the model India can adapt."
+    ],
+    [
+     "Articles 14 and 21",
+     "Equality before law; fair, just and reasonable procedure",
+     "Rights angle",
+     "Arbitrary sentencing disparity offends Article 14's equality and Article 21's fair procedure."
+    ],
+    [
+     "Aggravating and mitigating factors",
+     "Circumstances that raise or lower punishment",
+     "Criminal justice",
+     "Without a checklist of aggravating and mitigating factors, sentencing remains subjective."
+    ],
+    [
+     "Culpability and harm",
+     "England's two-step test of seriousness",
+     "Best practice",
+     "English guidelines classify offences by culpability and harm before fixing a starting point."
+    ],
+    [
+     "Structured discretion",
+     "Judges keep discretion but must give reasons when they depart from guidelines",
+     "Balanced view",
+     "Guidelines structure discretion without removing it, preserving judicial independence."
+    ],
+    [
+     "National Judicial Data Grid (NJDG)",
+     "Court data platform that can host a sentencing database",
+     "Data-driven reform",
+     "A sentencing database on the NJDG can show where disparity lies."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "Sunita Devi v State of Bihar (2024)",
+     "SC: 'sentencing shall not be a mere lottery'; asks Centre to examine a sentencing policy",
+     "",
+     "Case to quote",
+     "In Sunita Devi (2024), the SC asked the Centre to examine a national sentencing policy."
+    ],
+    [
+     "Soman v State of Kerala (2012)",
+     "SC called sentencing one of the weakest parts of criminal justice",
+     "",
+     "Case to quote",
+     "The SC in Soman (2012) called sentencing one of the weakest links of criminal justice."
+    ],
+    [
+     "Law Commission, 47th Report",
+     "Raised the same concern over 50 years ago; Parliament never acted",
+     "",
+     "Policy inertia",
+     "The Law Commission flagged sentencing disparity over 50 years ago, yet Parliament has not acted."
+    ],
+    [
+     "England and Wales Sentencing Council",
+     "Step-by-step guidelines: culpability and harm, starting point, then adjustment",
+     "",
+     "Best practice",
+     "England's Sentencing Council gives judges a step-by-step guide while leaving them discretion."
+    ],
+    [
+     "Equal sentencing as objectivity",
+     "Like cases treated alike, decisions based on law not personal views",
+     "GS4",
+     "Ethics: objectivity",
+     "Consistent sentencing is objectivity in action: like cases treated alike."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS2-2020/Q12",
+     "Judicial legislation: the SC asked the Centre to frame a sentencing policy rather than writing one itself."
+    ],
+    [
+     "GS2-2026/Q12",
+     "Courts filling legislative gaps: sentencing guidance is another area where Parliament has not acted."
+    ],
+    [
+     "GS2-2023/Q2",
+     "Access to justice includes fair and consistent sentences, not just legal aid."
+    ],
+    [
+     "GS2-2024/Q2",
+     "Lok Adalats and alternatives reduce pendency; sentencing guidelines would cut appeals too."
+    ],
+    [
+     "GS2-2014/Q5",
+     "Delays and arbitrariness in punishment, from mercy petitions to sentencing, erode justice."
+    ]
+   ],
+   "trend": {
+    "t": "Judiciary questions have moved from institutions (Lok Adalats, legal aid, collegium) to how courts use their power: judicial legislation (2020, 2026) and judicial appointments compared with the US (2025). Criminal justice has come through mercy petitions (2014) and the new criminal laws are now in force.",
+    "watch": "Judicial power and its limits come up almost every year. Criminal justice reform under the new laws (BNS, BNSS), including sentencing, undertrials and prisons, is a must-study area.",
+    "focus": [
+     "Sentencing policy and a Sentencing Commission",
+     "Criminal justice reform under BNS and BNSS: probation, community service, undertrials",
+     "Judicial pendency and appellate burden",
+     "Judicial discretion versus accountability"
+    ]
+   },
+   "potential": [
+    "'Sentencing shall not be a mere lottery.' In the light of this observation, discuss the need for a national sentencing policy in India. (15 marks)",
+    "Examine how unguided judicial discretion in sentencing affects the right to equality under Article 14. (10 marks)",
+    "Discuss the role of probation and alternatives to imprisonment in India's criminal justice system. (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "'Sentencing shall not be a mere lottery.' In the light of this observation, discuss the need for a national sentencing policy in India.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction: the SC's observation (one line, with facts)",
+      "Why sentencing is inconsistent today",
+      "Need for a national sentencing policy",
+      "Challenges",
+      "Way forward (15 marks, so a separate part)",
+      "Conclusion (one line)"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "In Sunita Devi v State of Bihar (2024), the Supreme Court said 'sentencing shall not be a mere lottery' and asked the Centre to examine a national sentencing policy."
+      },
+      {
+       "h": "Why sentencing is inconsistent",
+       "pts": [
+        {
+         "k": "Only outer limits",
+         "t": "Statutes give maximum and minimum sentences, leaving the rest to the judge.",
+         "ex": ""
+        },
+        {
+         "k": "No checklist",
+         "t": "Aggravating and mitigating factors are not defined.",
+         "ex": ""
+        },
+        {
+         "k": "Irrelevant factors",
+         "t": "Courts have reduced sentences for reasons like a victim's 'chastity'.",
+         "ex": "Dr Mrinal Satish's research on rape sentencing."
+        },
+        {
+         "k": "Weak sentencing hearings",
+         "t": "Hearings on sentence after conviction are often a formality.",
+         "ex": "Section 258(2), BNSS."
+        },
+        {
+         "k": "Under-used alternatives",
+         "t": "Probation and community sanctions are rarely applied.",
+         "ex": "Probation of Offenders Act, 1958."
+        },
+        {
+         "k": "Long neglect",
+         "t": "The concern was raised over 50 years ago.",
+         "ex": "Law Commission, 47th Report."
+        }
+       ]
+      },
+      {
+       "h": "Need for a national policy",
+       "pts": [
+        {
+         "k": "Equality before law",
+         "t": "Like cases treated alike, as Article 14 demands.",
+         "ex": ""
+        },
+        {
+         "k": "Fair procedure",
+         "t": "Reasoned, predictable sentences satisfy Article 21.",
+         "ex": ""
+        },
+        {
+         "k": "Less pendency",
+         "t": "Fewer appeals to correct sentences.",
+         "ex": ""
+        },
+        {
+         "k": "Prison reform",
+         "t": "Guided use of probation eases overcrowding.",
+         "ex": ""
+        },
+        {
+         "k": "Victims' justice",
+         "t": "Harm and breach of trust get due weight.",
+         "ex": ""
+        },
+        {
+         "k": "Public trust",
+         "t": "Transparent sentencing builds faith in courts.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Challenges",
+       "pts": [
+        {
+         "k": "Judicial independence",
+         "t": "Judges may see guidelines as interference.",
+         "ex": ""
+        },
+        {
+         "k": "Diversity of cases",
+         "t": "One formula may not fit varied facts and regions.",
+         "ex": ""
+        },
+        {
+         "k": "Data gaps",
+         "t": "No national data on sentences to build guidelines.",
+         "ex": ""
+        },
+        {
+         "k": "Legislative inertia",
+         "t": "Parliament has not acted for decades.",
+         "ex": ""
+        },
+        {
+         "k": "Prison capacity",
+         "t": "Guidelines must fit available prisons and probation services.",
+         "ex": ""
+        },
+        {
+         "k": "Capacity of trial courts",
+         "t": "Overloaded judges may follow guidelines mechanically.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "A statutory Sentencing Council",
+         "t": "Created by Parliament, as in England.",
+         "ex": "England's Sentencing Council and Sentencing Code."
+        },
+        {
+         "k": "Three-step guidelines",
+         "t": "Seriousness (culpability and harm), starting point, then individual factors.",
+         "ex": ""
+        },
+        {
+         "k": "Presumptive, not binding",
+         "t": "Judges must consider guidelines and give reasons to depart.",
+         "ex": ""
+        },
+        {
+         "k": "National sentencing database",
+         "t": "Built on the NJDG to track disparity.",
+         "ex": ""
+        },
+        {
+         "k": "Strengthen probation",
+         "t": "Officers and community sentences as real alternatives.",
+         "ex": ""
+        },
+        {
+         "k": "Train judges",
+         "t": "Judicial academies to teach structured sentencing.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "A statutory Sentencing Council can make punishment predictable and fair while keeping judges independent, so that justice is equal, not a lottery."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-10-28-09",
+   "title": "Israel polls: How its electoral system works and government is formed",
+   "section": "Explained (Global)",
+   "page": "Page 12",
+   "where": "Explained, page 12 (Moinuddin Ahmad)",
+   "gs": [
+    "GS2"
+   ],
+   "syllabus": "GS2 › Comparison of the Indian constitutional scheme with that of other countries; Salient features of the Representation of People's Act",
+   "themes": [
+    "elections",
+    "parl",
+    "exec"
+   ],
+   "summary": "Israel elects a 120-member Knesset by nationwide proportional representation with a 3.25% threshold; no party has ever won a majority alone, so every government is a coalition.",
+   "evolution": [
+    [
+     "1951",
+     "Electoral threshold starts at 1%; raised to 1.5% (1992), 2% (2003) and 3.25% (2014)."
+    ],
+    [
+     "2023 onwards",
+     "Judicial reform debates, the October 7 attack and war shape politics."
+    ],
+    [
+     "27 Oct 2026",
+     "Israel votes for the 26th Knesset, the first since 1988 to complete a full four-year term."
+    ]
+   ],
+   "ideas": [
+    [
+     "Parliamentary democracy with a unicameral legislature: a 120-member Knesset elected nationally for four years; the PM needs a working majority of 61.",
+     "GS2 · Comparative polity",
+     "Like India, Israel is a parliamentary democracy, but with a single-house, 120-member Knesset where the PM needs a 61-seat working majority."
+    ],
+    [
+     "Proportional representation by party lists, not first-past-the-post: seats match vote share, but a 3.25% threshold keeps out tiny parties.",
+     "GS2 · Electoral systems",
+     "Israel's list-based proportional representation, with a 3.25% threshold, contrasts with India's first-past-the-post system."
+    ],
+    [
+     "PR brings permanent coalitions: no party has ever won 61 seats alone, so small parties gain leverage and government formation takes time.",
+     "GS2 · Coalition politics",
+     "Proportional representation has made every Israeli government a coalition, giving small parties outsized leverage."
+    ],
+    [
+     "The President picks who forms the government (28 days plus 14), and a caretaker government continues if talks fail.",
+     "GS2 · Executive / President's role",
+     "Like India's President after a hung verdict, Israel's President invites the leader most likely to command a majority."
+    ],
+    [
+     "Parties can be disqualified for denying Israel as a Jewish and democratic state, racism or support for armed struggle (Section 7A, Basic Law: The Knesset).",
+     "GS2 · Elections / democracy",
+     "Israel's Section 7A lets its election body bar parties that deny the state or back armed struggle."
+    ]
+   ],
+   "keywords": [
+    [
+     "Unicameral legislature",
+     "A single-house parliament (Israel's Knesset)",
+     "Comparison with India's bicameral Parliament",
+     "Unlike India's bicameral Parliament, Israel has a single-house Knesset."
+    ],
+    [
+     "Proportional representation (party-list)",
+     "Seats in proportion to votes for party lists",
+     "Electoral systems",
+     "Israel uses nationwide party-list proportional representation; India uses first-past-the-post."
+    ],
+    [
+     "Electoral threshold",
+     "Minimum vote share to win seats (3.25% in Israel)",
+     "Electoral reforms",
+     "A 3.25% threshold balances representation with stability."
+    ],
+    [
+     "Working majority",
+     "Support of at least 61 of 120 members",
+     "Executive accountability",
+     "An Israeli government must keep a 61-seat working majority."
+    ],
+    [
+     "Wasted votes",
+     "Votes for parties below the threshold, reallocated to others",
+     "Electoral systems",
+     "Votes for parties below 3.25% become wasted votes."
+    ],
+    [
+     "Coalition government",
+     "Government formed by several parties together",
+     "Comparison",
+     "Every Israeli government has been a coalition."
+    ],
+    [
+     "Caretaker government",
+     "Outgoing government that runs affairs till a new one is formed",
+     "Executive",
+     "If talks fail, a caretaker government under the current PM continues."
+    ],
+    [
+     "Basic Laws",
+     "Israel's set of constitutional laws in place of a single written constitution",
+     "Comparison",
+     "Israel has Basic Laws instead of a single written constitution like India's."
+    ],
+    [
+     "Central Elections Committee",
+     "Israel's election body (compare Election Commission of India)",
+     "Institutions",
+     "Israel's Central Elections Committee, like India's Election Commission, runs national elections."
+    ]
+   ],
+   "data": [
+    [
+     "3.25%",
+     "Israel's electoral threshold, giving at least 4 of 120 seats",
+     "IE Explained",
+     "Electoral systems",
+     "Israel's 3.25% threshold guarantees a qualifying party at least four of 120 seats."
+    ],
+    [
+     "61 of 120",
+     "Working majority needed to govern",
+     "IE Explained",
+     "Coalition politics",
+     "An Israeli government needs at least 61 of the Knesset's 120 seats."
+    ]
+   ],
+   "examples": [
+    [
+     "Israel's 2026 election",
+     "38 parties contest; about 11 expected to clear the threshold",
+     "",
+     "PR and fragmentation",
+     "In 2026, 38 parties contested but only about 11 were expected to win seats."
+    ],
+    [
+     "Mergers before polls",
+     "The high threshold pushes small parties into joint lists",
+     "",
+     "Effects of a threshold",
+     "Israel's threshold pushes small factions into joint slates, as seen in 2026."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS2-2026/Q14",
+     "Comparison of systems: India's parliamentary model versus others; Israel shows a pure parliamentary model with PR."
+    ],
+    [
+     "GS2-2023/Q4",
+     "Parliamentary sovereignty compared: Israel, without a single written constitution, is closer to the British model."
+    ],
+    [
+     "GS2-2018/Q13",
+     "Basic tenets of democracies compared; Israel adds a proportional-representation contrast."
+    ],
+    [
+     "GS2-2021/Q13",
+     "Equality in constitutions compared; Israel's 'Jewish and democratic' identity is a contrast."
+    ],
+    [
+     "GS2-2022/Q19",
+     "India–Israel ties (I2U2): knowing Israel's politics helps answer foreign-policy questions."
+    ]
+   ],
+   "trend": {
+    "t": "Comparing India's Constitution with others has become a near-annual question: the US in 2018, 2021, 2024, 2025 (twice) and 2026, and Britain in 2023. The questions compare specific features: separation of powers, pardon, equality, secularism, parliamentary sovereignty, judicial appointments.",
+    "watch": "A comparison question has come almost every year since 2021, mostly with the US and UK. Prominent elections abroad (Israel now) make other systems likely: study comparisons by feature.",
+    "focus": [
+     "Electoral systems: first-past-the-post versus proportional representation",
+     "Parliamentary versus presidential executives; coalition governments",
+     "Written constitution versus Basic Laws; parliamentary sovereignty versus judicial review",
+     "Legislature (unicameral vs bicameral), executive, judiciary, voting rights compared"
+    ]
+   },
+   "potential": [
+    "Compare the parliamentary democracies of India and Israel with reference to their legislature, executive, judiciary and electoral systems. (15 marks)",
+    "Would proportional representation suit India better than first-past-the-post? Discuss with reference to countries that use it. (15 marks)",
+    "Coalition governments are a feature of proportional representation. Examine their merits and demerits with examples. (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "Compare the parliamentary democracies of India and Israel with reference to their legislature, executive, judiciary and electoral systems.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction: both parliamentary democracies, Israel just voted (one line, with facts)",
+      "Legislature",
+      "Executive",
+      "Judiciary and constitution",
+      "Electoral system and nature of democracy",
+      "Conclusion: lessons (one line)"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "India and Israel are both parliamentary democracies, but Israel's 27 October 2026 election, under proportional representation, shows how differently they work."
+      },
+      {
+       "h": "Legislature",
+       "pts": [
+        {
+         "k": "Structure",
+         "t": "India is bicameral (Lok Sabha, Rajya Sabha); Israel's Knesset is unicameral with 120 members.",
+         "ex": ""
+        },
+        {
+         "k": "Term",
+         "t": "Both elect the lower house for a fixed term, five years in India and four in Israel.",
+         "ex": "The 2026 Knesset is the first since 1988 to complete its term."
+        },
+        {
+         "k": "Federal representation",
+         "t": "India's Rajya Sabha represents states; Israel, a unitary state, has no such house.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Executive",
+       "pts": [
+        {
+         "k": "Prime Minister",
+         "t": "In both, the PM leads and must keep the confidence of the house.",
+         "ex": "Israel's 61-seat working majority."
+        },
+        {
+         "k": "Head of State",
+         "t": "Both Presidents are largely ceremonial but invite the leader most likely to form a government.",
+         "ex": "Israel: 28 days plus a 14-day extension."
+        },
+        {
+         "k": "Coalitions",
+         "t": "Every Israeli government has been a coalition; India has had both single-party and coalition governments.",
+         "ex": ""
+        },
+        {
+         "k": "Caretaker rule",
+         "t": "Both allow caretaker governments until a new one is formed.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Judiciary and constitution",
+       "pts": [
+        {
+         "k": "Constitution",
+         "t": "India has a single written constitution; Israel relies on Basic Laws.",
+         "ex": ""
+        },
+        {
+         "k": "Judicial review",
+         "t": "India's courts can strike down even amendments under the basic structure doctrine; Israel's Supreme Court interprets Basic Laws.",
+         "ex": "Kesavananda Bharati (1973)."
+        },
+        {
+         "k": "Recent tensions",
+         "t": "Both have seen debates over the judiciary's power.",
+         "ex": "Israel's judicial reform protests from 2023."
+        }
+       ]
+      },
+      {
+       "h": "Electoral system and nature of democracy",
+       "pts": [
+        {
+         "k": "Method",
+         "t": "India uses first-past-the-post in constituencies; Israel uses nationwide party-list PR.",
+         "ex": ""
+        },
+        {
+         "k": "Threshold",
+         "t": "Israel needs 3.25% to win seats; India has no threshold.",
+         "ex": ""
+        },
+        {
+         "k": "Fragmentation",
+         "t": "PR gives small parties a voice but also leverage; FPTP gives stabler majorities.",
+         "ex": "38 parties contested in Israel."
+        },
+        {
+         "k": "Election body",
+         "t": "India's Election Commission and Israel's Central Elections Committee run polls.",
+         "ex": ""
+        },
+        {
+         "k": "Barring parties",
+         "t": "Israel can bar parties under Section 7A; India deregisters parties on narrower grounds.",
+         "ex": ""
+        },
+        {
+         "k": "Voting rights",
+         "t": "Both have universal adult franchise.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "Israel shows PR's gain in representation and its cost in stability; India's FPTP, with a written constitution and strong judicial review, trades some representation for stable government."
+      }
+     ]
+    }
+   ]
   }
  ],
  "ethics": [
@@ -2493,7 +3227,7 @@
    "card": "2026-10-28-03",
    "src": "IE p. 10 (Editorial)",
    "title": "AI, layoffs and an ethical work culture",
-   "news": "Microsoft has offered 'voluntary' exits to 60,000 staff after earlier exits and firings, as AI reshapes work.",
+   "news": "Microsoft offered 'voluntary' exits to 60,000 staff; TCS cut about 12,000 jobs in 2025, mainly middle and senior managers, as AI reshapes work.",
    "syllabus": "Work culture · Ethical concerns and dilemmas in private institutions",
    "link": "Technological disruption tests whether firms act with honesty, fairness and care for workers' livelihoods and mental health.",
    "pyq": [
@@ -2596,6 +3330,29 @@
     "Leadership",
     "National interest",
     "Decisiveness"
+   ]
+  },
+  {
+   "id": "2026-10-28-e7",
+   "area": "public",
+   "themes": [
+    "g4aptitude"
+   ],
+   "card": "2026-10-28-08",
+   "src": "IE p. 12 (Explained)",
+   "title": "Sentencing and objectivity",
+   "news": "Two experts show that similar offenders get very different sentences depending on the judge, and propose a Sentencing Council.",
+   "syllabus": "Foundational values: objectivity, impartiality",
+   "link": "Objectivity means like cases treated alike, on law and evidence, not personal views; guidelines make discretion accountable.",
+   "pyq": [
+    "GS4-2021/Q5b",
+    "GS4-2019/Q1a"
+   ],
+   "question": "Discretion is essential in administration, yet it can become arbitrary. How can objectivity be ensured in discretionary decisions? Illustrate with an example.",
+   "keywords": [
+    "Objectivity",
+    "Impartiality",
+    "Structured discretion"
    ]
   }
  ],
