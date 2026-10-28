@@ -476,6 +476,10 @@
      "Shreya Singhal and Section 66A: vague restrictions with a chilling effect, the same argument the publishers now make."
     ],
     [
+     "GS2-2014/Q4",
+     "Limits of free speech: the same Article 19 now invoked by the press against a privacy law."
+    ],
+    [
      "GS3-2018/Q19",
      "The Srikrishna-era draft excluded journalism, the petitioners say; the final Act did not."
     ],
@@ -485,13 +489,13 @@
     ]
    ],
    "trend": {
-    "t": "Privacy has moved from a principle to the laws that apply it: the right itself after Puttaswamy (2017), then data security (Srikrishna Committee, 2018) and the DPDP Act (2024). Free speech has been asked through specific laws: Section 66A (2013) and the IT Rules (2026).",
-    "watch": "Privacy under Article 21 has come in 2017, 2024 and 2026, and data protection in 2018 and 2024. The right to privacy and the DPDP Act are must-study topics for both GS II and GS III.",
+    "t": "Rights questions follow one pattern: a right is stated, then tested against a specific law or competing claim. Free speech was tested against Section 66A (2013) and hate speech (2014); Article 21 against bursting crackers (2015). After Puttaswamy, privacy took centre stage: its scope (2017), then privacy against a paternity DNA test (2024) and self-identity under the 2026 amendment to the Transgender Persons Act (2026). GS III asks the same right as data law: Srikrishna Committee (2018), DPDP Act (2024).",
+    "watch": "Privacy under Article 21 has come three times in GS II (2017, 2024, 2026) and twice as data protection in GS III (2018, 2024). The favourite format is a right in conflict with another right or interest, so privacy versus other fundamental rights is a must-study area.",
     "focus": [
-     "Balancing privacy with press freedom and RTI: the DPDP case before the Supreme Court",
-     "Powers and independence of the Data Protection Board",
-     "Rules for digital and social media and their effect on free speech",
-     "Privacy in new technology: Aadhaar, surveillance, AI"
+     "Privacy versus freedom of the press (Article 19(1)(a)): the DPDP case now in the Supreme Court",
+     "Privacy versus the right to information (RTI)",
+     "Privacy versus State interests: surveillance, security, Aadhaar",
+     "Free speech versus regulation of digital media (IT Rules)"
     ]
    },
    "potential": [
