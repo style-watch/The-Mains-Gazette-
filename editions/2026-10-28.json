@@ -679,9 +679,10 @@
    "where": "The Editorial Page, page 10",
    "gs": [
     "GS3",
-    "GS1"
+    "GS1",
+    "GS4"
    ],
-   "syllabus": "GS3 › Indian economy: employment; Effects of science and technology (AI) on everyday life · GS1 › Population and associated issues",
+   "syllabus": "GS3 › Indian economy: employment; Effects of science and technology (AI) on everyday life · GS1 › Population and associated issues · GS4 › Work culture; Ethical concerns in private institutions",
    "themes": [
     "jobs",
     "techai",
@@ -721,6 +722,11 @@
      "The timing is the danger: a youth bulge, too few quality jobs and growing unrest among the young.",
      "GS1 demography · GS3 employment",
      "AI's labour-replacing power arrives just as India's youth bulge needs quality jobs, risking a demographic burden instead of a dividend."
+    ],
+    [
+     "Technological disruption is also an ethical question of work culture: how firms treat people they no longer need, and the job insecurity and stress that follow.",
+     "GS4 · Work culture",
+     "An ethical work culture treats layoffs with transparency, fair compensation and support, not pressure to 'choose' an exit."
     ]
    ],
    "keywords": [
@@ -753,6 +759,30 @@
      "Training workers for changed or new jobs",
      "Way forward",
      "Large-scale reskilling must keep pace with AI adoption."
+    ],
+    [
+     "Ethical work culture",
+     "Fairness, transparency and care for employees",
+     "GS4 work culture",
+     "An ethical work culture manages technological change with transparency and support for those displaced."
+    ],
+    [
+     "Job insecurity and mental health",
+     "Fear of redundancy raising stress and burnout",
+     "GS4 / GS2 health",
+     "AI-driven job insecurity is becoming a workplace mental-health issue."
+    ],
+    [
+     "Just transition",
+     "Change that protects the workers it affects",
+     "Way forward",
+     "Like the energy transition, the AI transition must be a just transition for workers."
+    ],
+    [
+     "Coerced choice",
+     "An offer that is voluntary in name but pressured in practice",
+     "GS4 ethics",
+     "A 'voluntary' exit backed by the threat of later layoffs is a coerced choice."
     ]
    ],
    "data": [],
@@ -770,6 +800,13 @@
      "",
      "Trend across sectors",
      "From banking (HSBC, Barclays) to tech (Meta, Amazon), 2026 layoffs show AI's reach across sectors."
+    ],
+    [
+     "Microsoft's 'voluntary' exit, followed by firings",
+     "Over 30% took the July offer; it then fired 4,800 more (as the editorial notes)",
+     "GS4",
+     "Work culture",
+     "Offering exits 'with support' while signalling future layoffs raises questions of honesty and fairness in work culture."
     ]
    ],
    "pyqs": [
@@ -800,6 +837,14 @@
     [
      "GS3-2026/Q16",
      "Agentic AI can do whole tasks on its own, which is why white-collar jobs are at risk."
+    ],
+    [
+     "GS4-2025/Q6a",
+     "Value-based work culture: how firms manage AI-led layoffs tests their code of ethics."
+    ],
+    [
+     "GS4-2024/Q1a",
+     "AI in decision-making: the ethics of letting AI replace human judgement and human jobs."
     ]
    ],
    "trend": {
@@ -990,9 +1035,10 @@
    "page": "Page 10",
    "where": "The Editorial Page, page 10 (C Raja Mohan)",
    "gs": [
-    "GS2"
+    "GS2",
+    "GS4"
    ],
-   "syllabus": "GS2 › India and its neighbourhood – relations; Bilateral, regional and global groupings affecting India's interests; Effect of policies of other countries on India",
+   "syllabus": "GS2 › India and its neighbourhood – relations; Bilateral, regional and global groupings affecting India's interests; Effect of policies of other countries on India · GS4 › Ethical issues in international relations",
    "themes": [
     "regions",
     "powers",
@@ -1025,6 +1071,11 @@
      "Azerbaijan's friction with Turkey shows that shared religion and ethnicity do not make a strategic bloc; national interest decides."
     ],
     [
+     "The Turkish factor: Azerbaijan's tilt to Pakistan came through Turkey, and Ankara–Baku friction (secularism, Israel) now loosens it, a chance for India and later a reset with Turkey.",
+     "GS2 · Turkey and West Asia",
+     "Azerbaijan's ties with Pakistan flowed through Turkey; as Ankara and Baku drift apart, India can engage Baku and, in time, reset ties with Ankara."
+    ],
+    [
      "Central Asian states follow 'multi-vector' policies, like India's multi-alignment, and refuse to join blocs.",
      "GS2 · Central Asia",
      "Central Asia's multi-vector diplomacy, mirroring India's multi-alignment, makes it open to Indian engagement."
@@ -1038,9 +1089,38 @@
      "Don't give Islamabad a veto: India should seek neutrality from Pakistan's friends and work on shared interests.",
      "GS2 · India–Pakistan / diplomacy",
      "Engaging Pakistan's friends on shared interests is better than giving Islamabad a veto over India's diplomacy."
+    ],
+    [
+     "Prudence over passion: diplomacy driven by national interest, not social-media outrage, is the Kautilyan way.",
+     "GS4 · Ethics in international relations",
+     "As Kautilya taught, prudence and national interest, not public outrage, should guide foreign policy; the Baku reset is a case in point."
     ]
    ],
    "keywords": [
+    [
+     "Productive diplomacy",
+     "Engaging even 'hostile' countries to secure interests",
+     "Foreign policy introduction",
+     "The Baku reset shows productive diplomacy is possible even with countries public opinion dismisses as hostile."
+    ],
+    [
+     "Turkish factor",
+     "Turkey's influence behind Azerbaijan's tilt to Pakistan",
+     "India–Turkey–Azerbaijan",
+     "Azerbaijan's pro-Pakistan stance largely reflected its closeness to Turkey."
+    ],
+    [
+     "National interest over identity",
+     "States act on interests, not shared religion or ethnicity",
+     "Analytical framing",
+     "Shared faith or ethnicity does not make a strategic bloc; national interest does."
+    ],
+    [
+     "Pan-Turkism / pan-Islamism / pan-Arabism",
+     "Transnational identity projects that have struggled against national interests",
+     "West Asia / Eurasia",
+     "Like pan-Arabism and pan-Islamism, pan-Turkism falters on national interests."
+    ],
     [
      "Multi-alignment / multi-vector diplomacy",
      "Working with many powers without joining a bloc",
@@ -1076,6 +1156,30 @@
      "India's outreach to inner Eurasia beyond its maritime focus",
      "Conclusion",
      "Engaging the Caucasus strengthens India's continental strategy alongside its Indo-Pacific focus."
+    ],
+    [
+     "Islamabad's veto",
+     "Letting Pakistan's friendships dictate India's diplomacy",
+     "India–Pakistan",
+     "India should not give Islamabad a veto over its diplomatic choices."
+    ],
+    [
+     "Neutrality in India–Pakistan disputes",
+     "What India seeks from Pakistan's friends",
+     "Diplomacy",
+     "India accepts others' ties with Pakistan but seeks their neutrality in India–Pakistan disputes."
+    ],
+    [
+     "Strategic autonomy",
+     "Freedom to choose partners issue by issue",
+     "Conclusion",
+     "Engaging Baku while keeping Armenia shows India's strategic autonomy."
+    ],
+    [
+     "Kautilya's mandala and realism",
+     "Foreign policy based on interest and circles of states",
+     "GS4 / essay",
+     "Kautilya's mandala reminds us that alignments shift with interests, not sentiment."
     ]
    ],
    "data": [],
@@ -1107,6 +1211,13 @@
      "",
      "Limits of identity blocs",
      "Baku's secularism and Israel ties have strained its bond with Turkey."
+    ],
+    [
+     "Kautilya's Arthashastra",
+     "Foreign policy guided by national interest and prudence (the mandala theory)",
+     "GS4",
+     "Ethics in IR",
+     "The Baku reset reflects Kautilyan prudence: engage on interests, not emotions."
     ]
    ],
    "pyqs": [
@@ -1129,6 +1240,18 @@
     [
      "GS2-2026/Q20",
      "China's growing presence in Eurasia, like the BRI in South Asia, is part of great-power competition."
+    ],
+    [
+     "GS4-2026/Q5b",
+     "Directly usable: India puts strategic interest first in Baku, but seeks neutrality, not hostility, an ethically defensible realism."
+    ],
+    [
+     "GS4-2015/Q11",
+     "National interest in bilateral ties: the Baku reset shows interests can converge."
+    ],
+    [
+     "GS4-2020/Q3b",
+     "Power guided by rationality: prudent diplomacy over public outrage."
     ]
    ],
    "trend": {
@@ -1202,8 +1325,8 @@
        "h": "Challenges",
        "pts": [
         {
-         "k": "Pakistan's partnerships",
-         "t": "Turkey and Azerbaijan have backed Pakistan on Kashmir.",
+         "k": "The Turkish factor",
+         "t": "Turkey, Pakistan's close ally, pulled Azerbaijan into a pro-Pakistan stance on Kashmir.",
          "ex": "Islamabad Declaration, 2021; 'Three Brothers' exercise."
         },
         {
@@ -1285,9 +1408,10 @@
    "gs": [
     "GS1",
     "GS2",
-    "GS3"
+    "GS3",
+    "GS4"
    ],
-   "syllabus": "GS1 › Population and associated issues · GS2 › Welfare of vulnerable sections; Local government · GS3 › Employment; Inclusive growth",
+   "syllabus": "GS1 › Population and associated issues · GS2 › Welfare of vulnerable sections; Local government · GS3 › Employment; Inclusive growth · GS4 › Compassion towards weaker sections",
    "themes": [
     "demography",
     "vulnerable",
@@ -1326,9 +1450,14 @@
      "Productive ageing should be a choice for the elderly, never a substitute for pensions, healthcare and protection."
     ],
     [
-     "Local governments should anchor elder care through a senior citizens' sub-plan with predictable funding.",
-     "GS2 · Local government",
-     "A senior citizens' sub-plan with funds for panchayats can make elder care local and accountable."
+     "Panchayats and municipalities should anchor elder care: assess needs, run home-based and day care, and link retired experts to local needs, through a senior citizens' sub-plan with predictable funds.",
+     "GS2 · PRIs and local government",
+     "Panchayats and municipalities, funded through a senior citizens' sub-plan, are best placed to deliver home-based care and tap older people's skills locally."
+    ],
+    [
+     "Ageing with dignity is an ethical duty: care, autonomy and respect for the old, with the state supporting families, not replacing them.",
+     "GS4 · Ethics of care / Essay",
+     "Dignity in old age is the test of a caring society: care, autonomy and respect, not charity."
     ]
    ],
    "keywords": [
@@ -1361,6 +1490,48 @@
      "Paid and unpaid work of looking after others",
      "Women / jobs",
      "Certified caregivers with fair wages and social security can make the care economy decent work."
+    ],
+    [
+     "Ageing in place",
+     "Older people living safely at home as long as possible",
+     "Ageing",
+     "Home-based care lets the elderly age in place, close to family and community."
+    ],
+    [
+     "Active ageing",
+     "Health, participation and security in old age (WHO)",
+     "Ageing",
+     "Active ageing combines health, participation and security for older people."
+    ],
+    [
+     "Longevity dividend",
+     "Gains from longer, healthier lives",
+     "Introduction",
+     "Longer lives can yield a longevity dividend if older people stay healthy and engaged."
+    ],
+    [
+     "Feminisation of ageing",
+     "Women outlive men and are more often poor and alone in old age",
+     "Women / ageing",
+     "Ageing in India is feminised: older women are more likely to be widowed and poor."
+    ],
+    [
+     "Care deficit",
+     "Gap between care needed and care available",
+     "Ageing",
+     "Migration of the young creates a care deficit for Kerala's elderly."
+    ],
+    [
+     "Panchayati Raj / Gram Sabha",
+     "Local self-government that can deliver elder care (11th Schedule: social welfare)",
+     "Local government",
+     "Social welfare under the 11th Schedule makes panchayats natural providers of elder care."
+    ],
+    [
+     "State Reserve Fund / caregiver certification",
+     "Keralam Bill's funding and care-quality tools",
+     "Best practice",
+     "Keralam's Bill pairs a State Reserve Fund with caregiver certification."
     ]
    ],
    "data": [
@@ -1386,6 +1557,13 @@
      "",
      "Productive ageing",
      "Kerala's retired teachers and nurses can mentor the young through universities and local bodies."
+    ],
+    [
+     "Local government as care provider",
+     "The writer proposes panchayats and municipalities assess needs and coordinate care",
+     "",
+     "Decentralised welfare",
+     "Panchayats can map elder needs and run day-care, as the writer proposes for Keralam."
     ]
    ],
    "pyqs": [
@@ -1408,6 +1586,10 @@
     [
      "GS2-2016/Q16",
      "Using older people's skills extends the demographic dividend beyond youth."
+    ],
+    [
+     "GS4-2022/Q1b",
+     "Empathy and compassion in public service: dignified elder care."
     ]
    ],
    "trend": {
@@ -1616,7 +1798,123 @@
     "Public interest",
     "Media ethics"
    ]
+  },
+  {
+   "id": "2026-10-28-e2",
+   "area": "work",
+   "themes": [
+    "g4workculture",
+    "g4applied"
+   ],
+   "card": "2026-10-28-03",
+   "src": "IE p. 10 (Editorial)",
+   "title": "AI, layoffs and an ethical work culture",
+   "news": "Microsoft has offered 'voluntary' exits to 60,000 staff after earlier exits and firings, as AI reshapes work.",
+   "syllabus": "Work culture · Ethical concerns and dilemmas in private institutions",
+   "link": "Technological disruption tests whether firms act with honesty, fairness and care for workers' livelihoods and mental health.",
+   "pyq": [
+    "GS4-2025/Q6a",
+    "GS4-2024/Q1a"
+   ],
+   "question": "As HR head of an IT firm adopting AI, you must cut 20% of staff. How will you manage the transition ethically, keeping in mind employees' livelihoods and mental health?",
+   "keywords": [
+    "Ethical work culture",
+    "Just transition",
+    "Employee well-being"
+   ]
+  },
+  {
+   "id": "2026-10-28-e3",
+   "area": "intl",
+   "themes": [
+    "g4intl"
+   ],
+   "card": "2026-10-28-04",
+   "src": "IE p. 10 (Raja Mandala)",
+   "title": "Prudence over passion: the Baku reset",
+   "news": "India reset ties with Azerbaijan despite public anger over Baku's support to Pakistan during Op Sindoor.",
+   "syllabus": "Ethical issues in international relations · Kautilya's ideas on statecraft",
+   "link": "Kautilyan prudence: foreign policy should follow national interest and reason, not public outrage.",
+   "pyq": [
+    "GS4-2026/Q5b",
+    "GS4-2015/Q11",
+    "GS4-2020/Q3b"
+   ],
+   "question": "'Prudence, not public sentiment, should guide foreign policy.' Examine with reference to Kautilya's ideas and India's recent diplomacy.",
+   "keywords": [
+    "Prudence",
+    "National interest",
+    "Realism with restraint"
+   ]
+  },
+  {
+   "id": "2026-10-28-e4",
+   "area": "care",
+   "themes": [
+    "g4aptitude",
+    "g4values"
+   ],
+   "card": "2026-10-28-05",
+   "src": "IE p. 10 (Op-ed)",
+   "title": "Ageing with dignity",
+   "news": "After its elder-rights law, Keralam is urged to build a silver economy without weakening welfare.",
+   "syllabus": "Compassion towards the weaker sections · Role of family and society in inculcating values",
+   "link": "Respect and care for the old, and their right to choose how they participate, is a test of a society's values.",
+   "pyq": [
+    "GS4-2022/Q1b"
+   ],
+   "question": "Is 'productive ageing' an opportunity for the elderly or a way to shift the state's responsibility onto them? Discuss ethically.",
+   "keywords": [
+    "Dignity",
+    "Autonomy",
+    "Intergenerational solidarity"
+   ]
   }
  ],
- "essay": []
+ "essay": [
+  {
+   "id": "e-2026-10-28-01",
+   "type": "Example",
+   "title": "AI and the end of 'safe' jobs",
+   "text": "Microsoft offered exits to 60,000 staff, 27% of its workforce, as AI lets firms do more with fewer people; banks and tech giants shed staff in 2026 even as profits grew.",
+   "use": "For 'Rise of Artificial Intelligence: the threat of jobless future or better job opportunities through reskilling and upskilling' and technology essays.",
+   "themes": [
+    "tech"
+   ],
+   "src": "IE p. 10 (Editorial)",
+   "topics": [
+    "2019B4"
+   ]
+  },
+  {
+   "id": "e-2026-10-28-02",
+   "type": "Example",
+   "title": "Baku: interest over identity",
+   "text": "Azerbaijan stood with Turkey and Pakistan in 2021 and during Op Sindoor, yet India reset ties in 2026 as Baku drifted from Ankara over secularism and Israel. Shared faith did not make a lasting bloc.",
+   "use": "For essays on power and statecraft: 'The supreme art of war is to subdue the enemy without fighting' (diplomacy over hostility).",
+   "themes": [
+    "power"
+   ],
+   "src": "IE p. 10 (C Raja Mohan)",
+   "topics": [
+    "2025A2"
+   ]
+  },
+  {
+   "id": "e-2026-10-28-03",
+   "type": "Phrase",
+   "title": "'An economy of care, experience and intergenerational solidarity'",
+   "text": "Keralam, where the elderly may be 30% of the people by 2051, is urged to turn ageing into a silver economy: care jobs for the young, mentoring by retired teachers and nurses, and dignity for the old.",
+   "use": "For journey and justice essays: 'The years teach much which the days never know', 'Life is a long journey between human being and being humane'.",
+   "themes": [
+    "journey",
+    "justice"
+   ],
+   "src": "IE p. 10 (Muhammed Riyas)",
+   "topics": [
+    "2025B2",
+    "2020A1"
+   ]
+  }
+ ]
 }
