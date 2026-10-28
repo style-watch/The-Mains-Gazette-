@@ -686,7 +686,8 @@ function heatHTML(t,big){
   return `<div class="heat">${t.byYear.map((n,i)=>`<i class="l${lvl(n)}" title="${YEARS[i]}: ${n} question${n===1?'':'s'}">${big&&n?n:''}</i>`).join('')}</div><div class="heatlbl">${YEARS.map(y=>`<span>${big?"'"+String(y).slice(2):(y===2013||y===2026?"'"+String(y).slice(2):'')}</span>`).join('')}</div>`;
 }
 function gsChips(a){return (a||[]).map(g=>`<span class="gs ${esc(g)}">${esc(g)}</span>`).join('')}
-function code(id){const [p,y,q]=MM.pyq[id];return `${p} · ${y}${q&&q!=='Q?'?' · '+q:''}${MM.pyq[id][6]?' · Case study':''}`}
+const ROMAN={GS1:'I',GS2:'II',GS3:'III',GS4:'IV'};
+function code(id){const [p,y,q]=MM.pyq[id];return `UPSC CSE Mains ${y} · GS Paper ${ROMAN[p]||p}${q&&q!=='Q?'?' · '+q:''}${MM.pyq[id][6]?' · Case study':''}`}
 function fmtDate(s,o){try{return new Date(s+'T00:00:00').toLocaleDateString('en-IN',o||{day:'numeric',month:'long',year:'numeric'})}catch(e){return s}}
 function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>t.classList.remove('on'),1800)}
 
@@ -737,14 +738,14 @@ function cardHTML(it){
     <button class="btn" data-copy="${esc(it.id)}">${IC.copy}Copy notes</button>
   </div>
   ${it.sources?`<div class="srcn"><b>Sources:</b> ${esc(it.sources)}</div>`:''}
-  ${(it.pyqs&&it.pyqs.length)?`<div class="wfit"><h5>Asked before in Mains · where this news fits</h5><ol>${it.pyqs.filter(p=>MM.pyq[p[0]]).map(p=>`<li><div class="pq"><span class="code">${code(p[0])}</span><span>${qHTML(p[0])}</span></div><div class="pu"><b>Use it:</b> ${esc(p[1])}</div></li>`).join('')}</ol><div class="nt">${PYQNOTE}</div></div>`:''}
+  ${(it.pyqs&&it.pyqs.length)?`<div class="wfit"><h5>Asked before in Mains · where this news fits</h5><ol>${it.pyqs.filter(p=>MM.pyq[p[0]]).map(p=>`<li><div class="pq"><span class="code">${code(p[0])}</span><span>“${qHTML(p[0])}”</span></div><div class="pu"><b>Use it:</b> ${esc(p[1])}</div></li>`).join('')}</ol><div class="nt">${PYQNOTE}</div></div>`:''}
   ${(!(it.pyqs&&it.pyqs.length)&&asked.length)?`<details class="asked"><summary>Asked before in Mains: ${asked.length} related questions</summary><ul>${asked.map(id=>`<li><span class="code">${code(id)}</span><span>${qHTML(id)}</span></li>`).join('')}</ul></details>`:''}
 </article>`;
 }
 function srcFlag(id){const p=MM.pyq[id];return p&&p[5]===1?' <sup title="Found in one compilation only">¹</sup>':''}
 function qHTML(id){const p=MM.pyq[id];if(!p)return '';const t=qtext(id);if(p[6]&&t.length>260)return `<details class="case"><summary>${esc(t.slice(0,220))}… <b>Read the full case</b></summary><div>${esc(t)}</div></details>`;return esc(t)}
 function qtext(id){const p=MM.pyq[id];return p?(p[4]||p[3]):''}
-const PYQNOTE="Questions are given in UPSC's exact wording where verified; 'Use it' lines are the editor's suggestions.";
+const PYQNOTE="Questions are reproduced in UPSC's exact wording, cross-checked against independent published copies of the papers. The 'Use it' lines are the editor's suggestions.";
 function notesText(it){
   const L=[];L.push(it.title.toUpperCase());L.push(`${(it.gs||[]).join(', ')} | ${it.syllabus||''}`);L.push(`${it.paper||it._ed.paper||''}${it.where?', '+it.where:''}, ${fmtDate(it._ed.date)}`);
   const {I,K,Dt,E}=norm(it);const U=u=>u?' [Use in: '+u+']':'';
