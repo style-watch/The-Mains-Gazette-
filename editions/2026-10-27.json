@@ -21,37 +21,44 @@
    "ideas": [
     [
      "Delay breeds a 'parallel justice' system: police summons and threats of arrest replace a court's verdict.",
-     "GS2 judicial pendency, police reforms, access to justice."
+     "GS2 · Pendency / police reforms",
+     "Judicial delay has bred 'parallel justice', with police summons and arrest threats replacing a court's verdict in civil disputes."
     ],
     [
      "The root is too few judges: about 15 per million people in Maharashtra against about 157 in New York state.",
-     "GS2 judicial vacancies and infrastructure."
+     "GS2 · Judicial vacancies",
+     "Maharashtra has about 15 judges per million people against about 157 in New York state; vacancies feed delay."
     ],
     [
      "Using criminal law to settle a civil debt is abuse of process; the Supreme Court has discouraged it, but practice lags the law.",
-     "GS2 rule of law; GS4 probity and misuse of power."
+     "GS2 rule of law · GS4 probity",
+     "Turning a civil debt into a criminal case is abuse of process, discouraged by the Supreme Court but common in practice."
     ]
    ],
    "keywords": [
     [
      "Criminalisation of civil disputes",
      "Turning debt or contract quarrels into 'cheating' cases",
-     "Police reforms and rule-of-law answers."
+     "Police reforms",
+     "The criminalisation of civil disputes shows police discretion being misused for private ends."
     ],
     [
      "Abuse of process",
      "Using legal procedure for an improper aim",
-     "Any answer on misuse of police or criminal law."
+     "Misuse of criminal law",
+     "Using criminal law to recover a debt is a textbook abuse of process."
     ],
     [
      "Justice delayed is justice denied",
      "Delay itself defeats the purpose of justice",
-     "Introductions on pendency."
+     "Pendency introduction",
+     "A Bombay HC suit filed in 1947 settled only in 2026: justice delayed is justice denied."
     ],
     [
      "Law in the books vs law in action",
      "The gap between what the law says and how it works",
-     "Conclusions on implementation gaps."
+     "Conclusion",
+     "Reform must close the gap between law in the books and law in action."
     ]
    ],
    "data": [
@@ -59,13 +66,15 @@
      "~15 vs ~157",
      "Judges per million people: Maharashtra vs New York state",
      "IE, The Ideas Page",
-     "Argument for more judges."
+     "Judicial vacancies",
+     "With about 15 judges per million in Maharashtra against about 157 in New York state, India's courts are short-staffed."
     ],
     [
      "79 years",
      "A Bombay HC suit filed in 1947, settled only this year",
      "IE, The Ideas Page",
-     "A striking opening line on judicial delay."
+     "Opening line",
+     "A Bombay High Court suit filed in 1947 was settled only after 79 years."
     ]
    ],
    "examples": [
@@ -73,13 +82,15 @@
      "The Godfather (Puzo, 1969)",
      "When courts fail him, the undertaker turns to the mafia don; the author uses it to show why people seek other routes",
      "",
-     "Essay or GS2 introduction on institutional failure."
+     "Essay / GS2 introduction",
+     "As in The Godfather, when courts fail, citizens turn to other, often coercive, sources of 'justice'."
     ],
     [
      "The officer who refuses an influential complainant",
      "The author notes that not every officer gives in to pressure",
      "GS4",
-     "Case studies on integrity and impartiality."
+     "GS4 · Integrity",
+     "An officer who refuses an influential complainant's pressure upholds impartiality and the rule of law."
     ]
    ],
    "pyqs": [
@@ -135,37 +146,44 @@
    "ideas": [
     [
      "Elder care moves from charity and family duty to rights backed by the state.",
-     "GS2 welfare of vulnerable sections; GS4 dignity and compassion."
+     "GS2 · Vulnerable sections",
+     "Keralam's 2026 law moves elder care from charity to enforceable rights."
     ],
     [
      "Ageing in place: care at home first, institutions as the last resort.",
-     "GS1 demographic transition and changing family structure."
+     "GS1 · Ageing and family",
+     "With joint families shrinking, 'ageing in place', care at home first, is the humane model."
     ],
     [
      "The care economy needs standards: regulated care homes and certified caregivers.",
-     "GS2 social sector; GS3 jobs in the care economy."
+     "GS2 social sector · GS3 jobs",
+     "Regulated care homes and certified caregivers can turn the care economy into decent jobs."
     ]
    ],
    "keywords": [
     [
      "Rights-based approach",
      "Welfare as an entitlement, not a favour",
-     "Any welfare answer; lifts it above scheme-listing."
+     "Any welfare answer",
+     "A rights-based approach treats welfare as an entitlement, as Keralam's elder-rights law does."
     ],
     [
      "Ageing in place",
      "Older people living independently at home",
-     "GS1 ageing and family answers."
+     "GS1 · Ageing",
+     "Keralam's law gives senior citizens the right to age in place, safely at home."
     ],
     [
      "Living will",
      "Advance written choice on life-sustaining treatment",
-     "Passive euthanasia and dignity in death."
+     "Passive euthanasia",
+     "Keralam's law recognises living wills, extending dignity to the end of life."
     ],
     [
      "Care economy",
      "Paid and unpaid work of looking after others",
-     "Ageing, women and jobs answers."
+     "Ageing / women / jobs",
+     "Ageing raises demand for the care economy, much of it unpaid work by women."
     ]
    ],
    "data": [],
@@ -174,7 +192,8 @@
      "Keralam Senior Citizens (Care and Protection of Rights) Bill, 2026",
      "India's first state-level elder-rights framework",
      "",
-     "Best practice in GS2 answers on the aged."
+     "Best practice",
+     "Keralam's Senior Citizens Bill, 2026, India's first state elder-rights law, is a model for other ageing states."
     ]
    ],
    "pyqs": [
@@ -223,33 +242,39 @@
    "ideas": [
     [
      "Normalisation since Galwan is real but fragile: friction on the ground keeps returning.",
-     "GS2 India-China relations."
+     "GS2 · India–China",
+     "Six years after Galwan, India–China normalisation remains fragile as face-offs recur along the LAC."
     ],
     [
      "Dialogue at many levels (Corps Commander, diplomatic, leaders) keeps small incidents from escalating.",
-     "GS2/GS3 border management mechanisms."
+     "GS2/GS3 · Border management",
+     "Multi-level talks, from Corps Commanders to leaders, keep LAC incidents from escalating."
     ]
    ],
    "keywords": [
     [
      "Trust deficit",
      "Mutual suspicion that outlasts agreements",
-     "Any India-China answer."
+     "Any India–China answer",
+     "A persistent trust deficit outlasts every India–China border agreement."
     ],
     [
      "Disengagement, de-escalation, de-induction",
      "The three stages of easing a military stand-off",
-     "Shows precise understanding of LAC talks."
+     "LAC talks",
+     "Disengagement must be followed by de-escalation and de-induction for real peace on the LAC."
     ],
     [
      "Confidence-building measures (CBMs)",
      "Steps that reduce the risk of miscalculation",
-     "Border management answers."
+     "Border management",
+     "Confidence-building measures reduce the risk of 'misunderstanding and miscalculation' on the LAC."
     ],
     [
      "'Three mutuals'",
      "Mutual respect, sensitivity and interest",
-     "Conclusion of India-China answers."
+     "Conclusion",
+     "Ties must rest on the 'three mutuals': mutual respect, sensitivity and interest."
     ]
    ],
    "data": [],
@@ -258,7 +283,8 @@
      "Galwan, 2020",
      "Deadly clash followed by a stand-off of over four years",
      "",
-     "Reference point for the state of India-China ties."
+     "India–China background",
+     "The 2020 Galwan clash was followed by a military stand-off of over four years."
     ]
    ],
    "pyqs": [
@@ -315,37 +341,44 @@
    "ideas": [
     [
      "Capacity is not the goal; power when people need it, by night as well as by day, is.",
-     "GS3 energy transition and energy security."
+     "GS3 · Energy transition",
+     "India has moved from shortages to a solar-hour surplus, but night-time deficits show capacity is not enough."
     ],
     [
      "Storage is the bottleneck: pumped storage is slow to build and bid prices are said to be unremunerative.",
-     "GS3 infrastructure investment."
+     "GS3 · Infrastructure",
+     "Storage is the bottleneck of India's energy transition; pumped storage is slow to build."
     ],
     [
      "Wasted solar power and constant ramping of coal plants are a double loss.",
-     "GS3 efficient use of resources."
+     "GS3 · Resource efficiency",
+     "Curtailed solar and constant ramping of coal plants are a double loss for the grid."
     ]
    ],
    "keywords": [
     [
      "Duck curve",
      "Midday solar glut, evening demand peak",
-     "Explains the day-night mismatch in one term."
+     "Energy answers",
+     "India's grid now faces a duck curve: a midday solar glut and an evening demand peak."
     ],
     [
      "Round-the-clock (RTC) power",
      "Clean power supplied at all hours",
-     "Solutions part of energy answers."
+     "Way forward",
+     "Storage and transmission are needed to deliver round-the-clock clean power."
     ],
     [
      "Curtailment",
      "Forcing generators to cut output the grid cannot absorb",
-     "Explaining wasted solar power."
+     "Energy answers",
+     "Without storage, solar power is curtailed, wasting cheap clean energy."
     ],
     [
      "Demand-side management",
      "Shifting or cutting demand to balance the grid",
-     "Energy efficiency answers."
+     "Way forward",
+     "Demand-side management can shift use to solar hours and ease the evening peak."
     ]
    ],
    "data": [
@@ -353,19 +386,22 @@
      "~292 GW (53%)",
      "Renewable capacity incl. large hydro, and its share of the total",
      "IE, The Editorial Page",
-     "Progress on clean energy."
+     "Clean-energy progress",
+     "Renewables, including large hydro, are about 292 GW, roughly 53% of India's installed capacity."
     ],
     [
      "~162 GW",
      "Solar capacity",
      "IE, The Editorial Page",
-     "Scale of solar growth."
+     "Solar growth",
+     "India's solar capacity has reached about 162 GW."
     ],
     [
      "40%",
      "Indians without electricity 30 years ago",
      "World Bank, via IE",
-     "Contrast: from deficit to surplus."
+     "Introduction",
+     "Thirty years ago 40% of Indians had no electricity (World Bank); today India has a daytime surplus."
     ]
    ],
    "examples": [],
@@ -423,33 +459,39 @@
    "ideas": [
     [
      "Ethanol reduces dependence on imported crude oil.",
-     "GS3 answers on energy security."
+     "GS3 · Energy security",
+     "Higher ethanol blends such as E100 cut India's dependence on imported crude."
     ],
     [
      "Lower lifecycle emissions are possible, but they depend on the crop and the production process.",
-     "GS3 environment answers; give a balanced view."
+     "GS3 · Environment (balanced view)",
+     "Ethanol's climate benefit depends on the crop and process used, so lifecycle emissions must be counted."
     ]
    ],
    "keywords": [
     [
      "Food vs fuel",
      "Crops for ethanol compete with crops for food and water",
-     "Gives the balanced view examiners look for."
+     "Balanced view",
+     "Biofuel policy must manage the food-vs-fuel trade-off over land and water."
     ],
     [
      "Flex-fuel vehicle (FFV)",
      "Vehicle built to run on different petrol-ethanol blends",
-     "Clean transport answers."
+     "Clean transport",
+     "Flex-fuel vehicles, now allowed to run on E100, offer a parallel route to cleaner transport alongside EVs."
     ],
     [
      "Lifecycle emissions",
      "Emissions across production, transport and use",
-     "Balanced evaluation of biofuels."
+     "Biofuel evaluation",
+     "Judged by lifecycle emissions, not tailpipe alone, biofuels are not automatically green."
     ],
     [
      "Import dependence",
      "Reliance on imported crude oil",
-     "Energy security answers."
+     "Energy security",
+     "Ethanol blending reduces import dependence and the oil import bill."
     ]
    ],
    "data": [],
@@ -503,33 +545,39 @@
    "ideas": [
     [
      "What is not measured is rarely fixed; better data is the first step to targeted support for women entrepreneurs.",
-     "GS1 women's issues; GS3 inclusive growth."
+     "GS1 women · GS3 inclusive growth",
+     "What is not measured is rarely fixed; MoSPI's new survey questions are a first step to supporting women entrepreneurs."
     ],
     [
      "Household and care responsibilities hold back women's work; the gap is widest among the young.",
-     "GS3 answers on female labour force participation."
+     "GS3 · Female LFPR",
+     "Household and care duties hold back women's work most among the young."
     ]
    ],
    "keywords": [
     [
      "Time poverty",
      "Too little free time because of unpaid work",
-     "Explains why women's work stays low."
+     "Women and work",
+     "Time poverty from unpaid care work keeps India's women out of paid work."
     ],
     [
      "Unpaid care work",
      "Household and care work that is not paid or counted",
-     "Women, labour and GDP answers."
+     "Women / GDP",
+     "Unpaid care work remains invisible in GDP but sustains the economy."
     ],
     [
      "Gender-disaggregated data",
      "Statistics broken down by sex",
-     "Governance and policy-design answers."
+     "Policy design",
+     "Gender-disaggregated data is the basis of gender-responsive policy."
     ],
     [
      "Female LFPR",
      "Share of women working or looking for work",
-     "Any women-and-work answer."
+     "Women and work",
+     "India's female LFPR, at 34.6% against 77.4% for men (PLFS), shows the gender gap in work."
     ]
    ],
    "data": [
@@ -537,19 +585,22 @@
      "34.6% vs 77.4%",
      "Female vs male labour force participation (Sept)",
      "PLFS, via IE",
-     "The gender gap in work."
+     "Gender gap",
+     "Women's labour force participation is 34.6% against 77.4% for men (PLFS, September)."
     ],
     [
      "21.5% vs 61.1%",
      "The same, for ages 15-29",
      "PLFS, via IE",
-     "The gap is widest among the young."
+     "Youth gender gap",
+     "Among 15–29-year-olds, women's participation is just 21.5% against 61.1% for men."
     ],
     [
      "27%",
      "Informal enterprises headed by women",
      "ASUSE 2025, via IE p. 15",
-     "Women's place in the informal economy."
+     "Informal economy",
+     "About 27% of India's informal enterprises are headed by women (ASUSE 2025)."
     ]
    ],
    "examples": [
@@ -557,7 +608,8 @@
      "MoSPI's gender-responsive survey",
      "Adding women-specific questions to a national survey",
      "",
-     "Good-governance example: measure before you fix."
+     "Good governance",
+     "MoSPI's adding women-specific constraints to its enterprise survey shows the state measuring before it fixes."
     ]
    ],
    "pyqs": [
@@ -613,37 +665,44 @@
    "ideas": [
     [
      "Loss and damage is compensation, not charity, because it rests on responsibility for climate change.",
-     "GS3 climate answers; GS2 global governance."
+     "GS3 climate · GS2 global governance",
+     "Loss and damage finance is compensation owed, not charity, because it rests on responsibility for emissions."
     ],
     [
      "Speed is justice: delays raise hardship and rebuilding costs, especially for poor countries.",
-     "GS3 disaster management; GS4 fairness."
+     "GS3 DM · GS4 fairness",
+     "Delayed climate compensation is justice denied: it raises hardship and rebuilding costs."
     ],
     [
      "Money is short: $822 million pledged, about a third of pending claims.",
-     "GS3 answers on climate finance."
+     "GS3 · Climate finance",
+     "The Loss and Damage Fund has only $822 million pledged, about a third of pending claims."
     ]
    ],
    "keywords": [
     [
      "Loss and damage",
      "Climate harm beyond what mitigation and adaptation can prevent",
-     "Climate-finance answers."
+     "Climate finance",
+     "Loss and damage covers harm beyond what mitigation and adaptation can prevent."
     ],
     [
      "Climate justice",
      "Sharing climate burdens by responsibility and capacity",
-     "Ethics and climate answers."
+     "Ethics / climate",
+     "Climate justice demands that burdens be shared by responsibility and capacity."
     ],
     [
      "CBDR-RC",
      "Common but differentiated responsibilities and respective capabilities",
-     "Any global climate negotiation answer."
+     "Global negotiations",
+     "India's climate diplomacy rests on CBDR-RC: common but differentiated responsibilities."
     ],
     [
      "Polluter pays principle",
      "Those who cause harm bear its cost",
-     "Compensation versus charity."
+     "Compensation vs charity",
+     "The polluter pays principle makes loss and damage a duty of high emitters."
     ]
    ],
    "data": [
@@ -651,13 +710,15 @@
      "~0.1%",
      "Nepal's share of global emissions",
      "IE, The Editorial Page",
-     "Low emitter, high loss: the equity argument."
+     "Equity argument",
+     "Nepal emits barely 0.1% of global emissions yet suffers some of the worst climate disasters."
     ],
     [
      "$822 million",
      "Pledged to the Fund, about a third of pending claims",
      "IE, The Editorial Page",
-     "The climate-finance gap."
+     "Finance gap",
+     "Pledges of $822 million cover only about a third of pending loss-and-damage claims."
     ]
    ],
    "examples": [
@@ -665,13 +726,15 @@
      "Nepal: low emitter, high impact",
      "Barely 0.1% of emissions, yet among the hardest hit",
      "GS4",
-     "Fairness and intergenerational equity."
+     "GS4 · Fairness",
+     "Nepal, a low emitter facing high losses, shows why climate justice is a moral question."
     ],
     [
      "Avalanche-triggered floods in Nepal",
      "An ice-and-rock avalanche set off flash floods and wrecked hydropower plants",
      "",
-     "Cascading Himalayan hazards in disaster answers."
+     "Disaster answers",
+     "Nepal's avalanche-triggered floods show cascading Himalayan hazards that destroy infrastructure."
     ]
    ],
    "pyqs": [
@@ -739,37 +802,44 @@
    "ideas": [
     [
      "The real cause is the crop calendar, not just a lack of machines.",
-     "GS3 stubble burning and air pollution."
+     "GS3 · Stubble burning",
+     "Stubble burning in Majha is driven by the crop calendar, not merely a lack of machines."
     ],
     [
      "Fires are falling year on year; support and awareness matter as much as penalties.",
-     "GS3 policy design; GS4 persuasion over punishment."
+     "GS3 policy · GS4 persuasion",
+     "Falling farm fires show that support and awareness work alongside penalties."
     ],
     [
      "Leaving the paddy-wheat cycle is the long-term fix (see Manauli's sweet-corn shift).",
-     "GS3 crop diversification."
+     "GS3 · Crop diversification",
+     "Moving out of the paddy-wheat cycle, as Manauli did, is the long-term fix for stubble burning."
     ]
    ],
    "keywords": [
     [
      "Paddy-wheat lock-in",
      "Farmers stuck in one crop cycle by MSP and habit",
-     "Root-cause analysis in agriculture answers."
+     "Root cause",
+     "A paddy-wheat lock-in leaves farmers little choice but to burn straw before the next crop."
     ],
     [
      "Negative externality",
      "A private act that imposes costs on others",
-     "Economics of pollution; GS4 public interest."
+     "Economics of pollution",
+     "Stubble burning is a negative externality: a private saving that imposes health costs on millions."
     ],
     [
      "In-situ / ex-situ residue management",
      "Handling straw in the field / removing it for use elsewhere",
-     "Solutions in stubble answers."
+     "Solutions",
+     "In-situ and ex-situ residue management offer alternatives to burning."
     ],
     [
      "Crop diversification",
      "Moving to a wider mix of crops",
-     "Long-term fix in agriculture answers."
+     "Way forward",
+     "Crop diversification is the durable answer to stubble burning and groundwater stress."
     ]
    ],
    "data": [
@@ -777,13 +847,15 @@
      "1,857 → 743 → 684",
      "Farm fires by this point in the season, 2024 → 2025 → 2026",
      "IE p. 6",
-     "Trend line showing progress."
+     "Progress",
+     "Punjab's farm fires fell from 1,857 (2024) to 743 (2025) to 684 (2026) by the same point in the season."
     ],
     [
      "1.25 lakh",
      "Residue-management machines operational in Punjab",
      "IE p. 6",
-     "Machines alone are not enough."
+     "Limits of machines",
+     "Despite 1.25 lakh residue-management machines, Punjab still sees farm fires."
     ]
    ],
    "examples": [
@@ -791,7 +863,8 @@
      "Manauli, Haryana's 'sweet corn village'",
      "About 70% of 2,000 acres moved from paddy to sweet corn and vegetables; farmers formed an FPO",
      "",
-     "Crop diversification success story (IE p. 4)."
+     "Success story",
+     "Manauli in Haryana moved about 70% of its land from paddy to sweet corn and vegetables and formed an FPO."
     ]
    ],
    "pyqs": [
@@ -844,37 +917,44 @@
    "ideas": [
     [
      "A small refundable deposit changes behaviour more than appeals alone.",
-     "GS3 solid waste management."
+     "GS3 · Waste management",
+     "A small refundable deposit changes behaviour more than appeals alone."
     ],
     [
      "It moves people from 'use and throw' to 'use, return and recover': a circular economy.",
-     "GS3 environment; essay on sustainability."
+     "GS3 environment · Essay",
+     "Deposit schemes move citizens from 'use and throw' to 'use, return and recover'."
     ],
     [
      "Environmental ethics in public administration: the state designs incentives so that the right choice becomes the easy one.",
-     "GS4 environmental ethics; ethics in governance."
+     "GS4 · Environmental ethics",
+     "In a deposit scheme the state designs incentives so the environmentally right choice becomes the easy one."
     ]
    ],
    "keywords": [
     [
      "Nudge",
      "Changing behaviour through incentives, not orders",
-     "GS3 policy design; GS4 persuasion."
+     "Policy design · GS4",
+     "A refundable deposit is a nudge: behaviour change without coercion."
     ],
     [
      "Extended Producer Responsibility (EPR)",
      "Producers made responsible for their products' waste",
-     "Plastic waste answers."
+     "Plastic waste",
+     "Extended Producer Responsibility makes producers accountable for their plastic waste."
     ],
     [
      "Circular economy",
      "Reusing and recycling materials to cut waste",
-     "Sustainability answers."
+     "Sustainability",
+     "A circular economy keeps materials in use and cuts waste."
     ],
     [
      "Deposit refund scheme",
      "Refundable deposit on containers to encourage return",
-     "Waste-management solutions."
+     "Solutions",
+     "Deposit refund schemes, as in Uttarakhand and Goa, raise container returns."
     ]
    ],
    "data": [
@@ -882,13 +962,15 @@
      "~20% → ~90%",
      "Bottle return rate in Uttarakhand after its deposit scheme",
      "Uttarakhand official, via IE",
-     "Proof that the idea works."
+     "Proof it works",
+     "Uttarakhand's deposit scheme raised bottle returns from about 20% to nearly 90%."
     ],
     [
      "~1,500 tonnes a day",
      "Plastic waste generated in Delhi",
      "Delhi govt report, via IE p. 11",
-     "Scale of urban plastic waste."
+     "Scale of problem",
+     "Delhi generates about 1,500 tonnes of plastic waste a day."
     ]
    ],
    "examples": [
@@ -896,7 +978,8 @@
      "Kedarnath deposit refund pilot (2022)",
      "Won a Digital India Award and was expanded across Uttarakhand",
      "GS4",
-     "Best practice in waste management; environmental ethics in action."
+     "Best practice · GS4",
+     "Uttarakhand's Kedarnath deposit refund pilot (2022) won a Digital India Award and was scaled statewide."
     ]
    ],
    "pyqs": [
@@ -948,37 +1031,44 @@
    "ideas": [
     [
      "Good preparedness protects the most vulnerable first, before landfall.",
-     "GS3 disaster management best practice."
+     "GS3 · DM best practice",
+     "Good preparedness protects the most vulnerable first, before landfall."
     ],
     [
      "Many layers act together: early warning, NDRF and SDRF teams, school closures, fishing bans and ministers on the ground.",
-     "GS3 coordinated disaster response."
+     "GS3 · Coordinated response",
+     "Early warning, NDRF and SDRF teams, school closures and fishing bans work best together."
     ],
     [
      "The state's ethics of care: planning for those who cannot protect themselves.",
-     "GS4 compassion towards weaker sections; accountability."
+     "GS4 · Ethics of care",
+     "Evacuating pregnant women first reflects the state's ethics of care."
     ]
    ],
    "keywords": [
     [
      "Zero-casualty approach",
      "Preparedness aimed at saving every life",
-     "Sharp framing for cyclone answers."
+     "Cyclone answers",
+     "Cyclone preparedness should aim at zero casualties, protecting the most vulnerable first."
     ],
     [
      "Vulnerability mapping",
      "Identifying who is most at risk before a disaster",
-     "Shows planning, not just response."
+     "Planning",
+     "Vulnerability mapping lets the state protect those most at risk before disaster strikes."
     ],
     [
      "Ethics of care",
      "Moral duty to attend to the needs of the vulnerable",
-     "GS4 answers on compassionate administration."
+     "GS4 · Compassion",
+     "The ethics of care asks administrators to put the most vulnerable first."
     ],
     [
      "NDRF / SDRF",
      "National and State Disaster Response Forces",
-     "Institutional framework in disaster answers."
+     "Institutional framework",
+     "NDRF and SDRF teams pre-positioned before landfall save lives."
     ]
    ],
    "data": [],
@@ -987,13 +1077,15 @@
      "4,711 pregnant women evacuated (Andhra Pradesh, Oct 2026)",
      "Moved to health centres before Cyclone Arnab's landfall",
      "GS4",
-     "Best practice in DM; care ethics of the state; gender-sensitive response."
+     "Best practice · GS4",
+     "Before Cyclone Arnab, Andhra Pradesh moved 4,711 pregnant women to health centres: gender-sensitive, caring administration."
     ],
     [
      "Odisha sends ministers to districts",
      "Eight ministers deputed to oversee cyclone preparedness",
      "GS4",
-     "Visible accountability of political leadership."
+     "Accountability · GS4",
+     "Odisha deputed eight ministers to districts to oversee cyclone preparedness, making accountability visible."
     ]
    ],
    "pyqs": [
@@ -1039,33 +1131,39 @@
    "ideas": [
     [
      "El Niño weakens the Indian monsoon, causing drought and heatwaves.",
-     "GS1 answers on climatology; GS3 drought management."
+     "GS1 climatology · GS3 drought",
+     "El Niño weakens the Indian monsoon, bringing drought and heatwaves."
     ],
     [
      "Effects into 2027 threaten food and water security and could push up fertiliser and fuel prices.",
-     "GS3 food security answers."
+     "GS3 · Food security",
+     "The 2026 El Niño, lasting into 2027, threatens food and water security and could raise fertiliser and fuel prices."
     ]
    ],
    "keywords": [
     [
      "Drought-proofing",
      "Preparing farming and water systems to withstand dry years",
-     "Solutions part of drought answers."
+     "Way forward",
+     "Drought-proofing farming and water systems is the answer to recurring El Niño years."
     ],
     [
      "Food inflation",
      "Rising food prices after a poor harvest",
-     "Links climate to the economy and the poor."
+     "Climate and economy",
+     "A weak monsoon feeds food inflation, hurting the poor most."
     ],
     [
      "Monsoon-dependent agriculture",
      "Farming that relies on rain, not irrigation",
-     "Explains why El Niño hurts India."
+     "Why India is vulnerable",
+     "Monsoon-dependent agriculture leaves India exposed to every El Niño."
     ],
     [
      "Cascading risks",
      "One shock triggering others: drought, prices, water",
-     "Shows systems thinking."
+     "Systems thinking",
+     "El Niño brings cascading risks: drought, prices, water shortage."
     ]
    ],
    "data": [
@@ -1073,13 +1171,15 @@
      "~70%",
      "Share of India's annual rain from the southwest monsoon",
      "IE p. 16",
-     "Why the monsoon matters."
+     "Why the monsoon matters",
+     "The southwest monsoon brings about 70% of India's annual rainfall."
     ],
     [
      "87% of LPA",
      "India's 2026 monsoon, the fourth driest since 2001",
      "IE p. 16",
-     "Impact of El Niño on India."
+     "Impact on India",
+     "India's 2026 monsoon ended at 87% of the long period average, the fourth driest since 2001."
     ]
    ],
    "examples": [],
@@ -1136,28 +1236,33 @@
    "ideas": [
     [
      "Spending is shifting to AI, and big firms are reshaping their workforce around it.",
-     "GS3 answers on technology and employment."
+     "GS3 · Technology and jobs",
+     "Big tech is reshaping its workforce to fund AI, as Microsoft's 2026 exit offer shows."
     ],
     [
      "Even voluntary exits shrink jobs; workers need reskilling and social security for the AI era (editor's view).",
-     "GS3 answers on employment policy and skilling."
+     "GS3 · Skilling",
+     "Even voluntary exits shrink jobs; India needs reskilling and social security for the AI era."
     ]
    ],
    "keywords": [
     [
      "Technological unemployment",
      "Jobs lost to new technology",
-     "GS3 answers on AI and work."
+     "AI and work",
+     "AI raises the risk of technological unemployment in white-collar jobs."
     ],
     [
      "Reskilling and upskilling",
      "Training workers for new or better jobs",
-     "Solutions part of employment answers."
+     "Way forward",
+     "Large-scale reskilling and upskilling must keep pace with AI adoption."
     ],
     [
      "Social security net",
      "Income support for workers between jobs",
-     "Policy response to job churn."
+     "Policy response",
+     "A social security net must cushion workers displaced by technology."
     ]
    ],
    "data": [],
@@ -1166,7 +1271,8 @@
      "Microsoft's Voluntary Exit Offer (Oct 2026)",
      "Big tech trimming staff to fund AI, including in India",
      "",
-     "Example of AI-era workforce change."
+     "Example",
+     "Microsoft's 2026 voluntary exit offer, covering staff in India, shows AI-era workforce change."
     ]
    ],
    "paper": "Indian Express Explained (online, shared by you)",
