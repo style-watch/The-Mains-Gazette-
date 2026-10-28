@@ -176,6 +176,13 @@ nav.main .n{font-family:var(--mono);font-size:.7rem;background:var(--navy);color
 .cday{margin-bottom:22px}
 .cdate{font-family:var(--mono);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;margin:0 0 10px;padding-bottom:6px;border-bottom:3px double var(--navy)}
 .cdate a{color:var(--navy);text-decoration:none}
+.keep{background:#fff;border:1px solid var(--line);border-left:5px solid var(--saffron);border-radius:16px;padding:14px 18px;margin:0 0 20px;box-shadow:var(--shadow)}
+.keep .kh{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.keep .kh span{font-family:var(--mono);font-size:.72rem;color:var(--muted)}
+.keep ul{margin:8px 0 12px;padding-left:18px;font-size:.9rem;color:#374151;display:grid;gap:4px}
+.keep .kb{display:flex;flex-wrap:wrap;gap:8px}
+#rsbox{margin-top:12px;font-size:.88rem}
+.rsrow{display:flex;gap:8px;margin-top:6px}.rsrow input{flex:1;min-width:0;border:1px solid var(--line);border-radius:10px;padding:10px 12px;font:inherit}
 .traj{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px 20px;margin:0 0 18px;box-shadow:var(--shadow)}
 .trh{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:10px}
 .trh h2{margin:0;font-family:var(--serif);font-size:1.25rem}
@@ -888,9 +895,42 @@ function viewMap(){
 }
 function closeDrawer(){$('#drawer').classList.remove('on')}
 
+// ---- Clippings backup: the list of clipped story ids, packed into a short link.
+// 2026-10-27-04, 2026-10-27-07 -> "20261027.04.07"; days joined by "~".
+function packClips(ids){const by={};[...ids].forEach(id=>{const m=String(id).match(/^(\d{4})-(\d{2})-(\d{2})-(\w+)$/);if(m)(by[m[1]+m[2]+m[3]]=by[m[1]+m[2]+m[3]]||[]).push(m[4])});
+  return Object.keys(by).sort().map(d=>d+'.'+by[d].sort().join('.')).join('~')}
+function unpackClips(code){const out=[];String(code||'').split('~').forEach(g=>{const p=g.split('.');const d=p.shift();if(!/^\d{8}$/.test(d))return;p.forEach(n=>{if(/^\w+$/.test(n))out.push(`${d.slice(0,4)}-${d.slice(4,6)}-${d.slice(6,8)}-${n}`)})});return out}
+function backupLink(){return SHARE_URL+'#restore='+packClips(SAVED)}
+function codeFrom(txt){txt=String(txt||'').trim();const m=txt.match(/restore=([0-9A-Za-z.~]+)/);return m?m[1]:txt.replace(/[^0-9A-Za-z.~]/g,'')}
 function viewSaved(){
   const items=ITEMS.filter(it=>SAVED.has(it.id)).sort((a,b)=>b._ed.date<a._ed.date?-1:1);
-  $('#main').innerHTML=`<div class="hero"><canvas id="fx" aria-hidden="true"></canvas><div class="wrap"><div class="eyebrow">Clippings</div><h1>Your cut-outs for revision.</h1><p class="sub">Cards you clip stay on this device and in this browser.</p></div></div><div class="wrap"><section class="block">${items.length?`<div class="cards">${items.map(cardHTML).join('')}</div>`:`<div class="nothing">No clippings yet. Use <b>Clip</b> on any Morning Edition card.</div>`}</section></div>`;fx();
+  const msg=()=>`My Mains Gazette clippings (${SAVED.size}). Open this link on any phone to restore them: ${backupLink()}`;
+  $('#main').innerHTML=`<div class="hero"><canvas id="fx" aria-hidden="true"></canvas><div class="wrap"><div class="eyebrow">Clippings · press 6</div><h1>Your cut-outs for revision.</h1><p class="sub">Clip any story to keep it here. No login: your clippings are saved on this phone, in this browser.</p></div></div><div class="wrap"><section class="block">
+   <div class="keep">
+    <div class="kh"><b>Keep your clippings safe</b><span>${SAVED.size} clipped</span></div>
+    <ul>
+     <li>Add the app to your home screen. Android (Chrome): ⋮ menu → <i>Add to Home screen</i>. iPhone (Safari): Share → <i>Add to Home Screen</i>.</li>
+     <li>Clearing browser data, private/incognito tabs or a new phone will lose them, so send yourself a backup now and then.</li>
+    </ul>
+    <div class="kb">${SAVED.size?`<a class="btn pri" id="bk-wa" target="_blank" rel="noopener" href="https://wa.me/?text=${encodeURIComponent(msg())}">Back up to WhatsApp</a>
+     <a class="btn" id="bk-tg" target="_blank" rel="noopener" href="https://t.me/share/url?url=${encodeURIComponent(backupLink())}&text=${encodeURIComponent('My Mains Gazette clippings ('+SAVED.size+'). Open the link to restore them.')}">Back up to Telegram</a>
+     <button class="btn" id="bk-copy" type="button">${IC.copy}Copy backup link</button>`:''}
+     <button class="btn" id="bk-rs" type="button" aria-expanded="false" aria-controls="rsbox">Restore from a backup</button></div>
+    <div id="rsbox" hidden><label for="rsin">Paste your backup link (or open the link itself on this phone):</label><div class="rsrow"><input id="rsin" type="text" inputmode="url" autocomplete="off" placeholder="https://style-watch.github.io/The-Mains-Gazette-/#restore=…"><button class="btn pri" id="rsgo" type="button">Restore</button></div></div>
+   </div>
+   ${items.length?`<div class="cards">${items.map(cardHTML).join('')}</div>`:`<div class="nothing">No clippings yet. Use <b>Clip</b> on any Morning Edition story.</div>`}</section></div>`;fx();
+  const c=$('#bk-copy');if(c)c.onclick=()=>copy(backupLink());
+  $('#bk-rs').onclick=e=>{const b=$('#rsbox');b.hidden=!b.hidden;e.currentTarget.setAttribute('aria-expanded',String(!b.hidden));if(!b.hidden)$('#rsin').focus()};
+  const go=()=>{const code=codeFrom($('#rsin').value);if(!unpackClips(code).length){toast('That does not look like a backup link');return}location.hash='#restore='+code};
+  $('#rsgo').onclick=go;$('#rsin').addEventListener('keydown',e=>{if(e.key==='Enter')go()});
+}
+// Opening a backup link: show what will be restored, then merge (never deletes existing clippings).
+function viewRestore(code){
+  const ids=unpackClips(code),fresh=ids.filter(id=>!SAVED.has(id));
+  $('#main').innerHTML=`<div class="hero"><canvas id="fx" aria-hidden="true"></canvas><div class="wrap"><div class="eyebrow">Clippings · restore</div><h1>Restore your clippings.</h1><p class="sub">${ids.length?`This backup has ${ids.length} clipped ${ids.length===1?'story':'stories'}${fresh.length<ids.length?`; ${ids.length-fresh.length} already on this phone`:''}. Restoring adds them to the clippings here and removes nothing.`:'This backup link is empty or damaged.'}</p></div></div><div class="wrap"><section class="block">
+   ${ids.length?`<p><button class="btn pri" id="rsok" type="button">Restore ${fresh.length||ids.length} ${(fresh.length||ids.length)===1?'clipping':'clippings'}</button> <a class="btn" href="#clippings">Cancel</a></p>`:`<p><a class="btn" href="#clippings">Back to Clippings</a></p>`}
+  </section></div>`;fx();
+  const ok=$('#rsok');if(ok){ok.focus();ok.onclick=()=>{ids.forEach(id=>SAVED.add(id));store.set('saved',[...SAVED]);toast(`Restored ${fresh.length} ${fresh.length===1?'clipping':'clippings'}`);location.hash='#clippings'}}
 }
 
 
@@ -1244,6 +1284,7 @@ async function route(){
   else if((m=h.match(/^essay-([a-z]+)$/))){cur='essay';viewEssayTheme(m[1]);document.title='Essay: '+(ETH[m[1]]?ETH[m[1]].n:'')+' · '+G}
   else if(h==='index'){cur='index';viewMap();document.title='PYQ Index · '+G}
   else if(h==='clippings'){cur='clippings';viewSaved();document.title='Clippings · '+G}
+  else if((m=h.match(/^restore=([0-9A-Za-z.~]*)$/))){cur='clippings';viewRestore(m[1]);document.title='Restore clippings · '+G}
   else if((m=h.match(/^theme-([a-z0-9]+)(?:-(pyq|cards))?$/))){cur='almanac';viewTheme(m[1],m[2]);document.title=(TH[m[1]]?TH[m[1]].n+' · ':'')+G}
   else if((m=h.match(/^day-(\d{4}-\d{2}-\d{2})$/))){cur='edition';viewDossier(m[1]);document.title='Morning Edition · '+G}
   else{cur='home';viewHome();document.title=G+' · Today\'s news, tomorrow\'s answers'}
