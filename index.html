@@ -782,14 +782,11 @@ function cardHTML(it){
 // ---- Practice questions (editor's), in UPSC pattern, with model answers hidden until asked for.
 // it.practice = [{q, marks, words, parts:["part 1", ...], answer:[{h:"Introduction", t:"..."} | {h:"Part heading", pts:["..."]}]}]
 // it.trend = {t: "brief reading of how these questions have moved", focus: ["where the next question may come from", ...]}
+// it.trend = {t: the trajectory in 2–3 sentences, watch: what repeats and so must be studied, focus: [where to focus next]}
 function trendHTML(it){const T=it.trend;if(!T)return '';
-  if(!T.asked)return `<div class="trend"><h5 class="lh">The Trendline <span>How these questions have moved</span></h5><p>${esc(T.t)}</p>${(T.focus||[]).length?`<b>Where the next question may come from:</b><ul>${T.focus.map(f=>`<li>${esc(f)}</li>`).join('')}</ul>`:''}</div>`;
-  // T = {asked:[[year,"paper","angle"]], shift:"what changed", y2026:"what the 2026 paper signals", opens:["next area", ...]}
-  return `<div class="trend"><h5 class="lh">The Trendline <span>What was asked · what changed · where it opens next</span></h5>
-   <b class="tl">What has been asked</b><ol class="tlist2">${T.asked.map(a=>`<li${a[0]>=2026?' class="y26"':''}><time>${esc(a[0])}</time><span class="pp">${esc(a[1])}</span><span>${esc(a[2])}</span></li>`).join('')}</ol>
-   <b class="tl">What changed</b><p>${esc(T.shift)}</p>
-   ${T.y2026?`<div class="sig"><b>The 2026 signal</b><p>${esc(T.y2026)}</p></div>`:''}
-   <b class="tl">Where it opens next</b><ul>${(T.opens||[]).map(f=>`<li>${esc(f)}</li>`).join('')}</ul></div>`}
+  return `<div class="trend"><h5 class="lh">The Trendline <span>How these questions have moved, and where to focus</span></h5><p>${esc(T.t)}</p>
+   ${T.watch?`<div class="sig"><b>Must watch</b><p>${esc(T.watch)}</p></div>`:''}
+   ${(T.focus||[]).length?`<b class="tl">Where to focus</b><ul>${T.focus.map(f=>`<li>${esc(f)}</li>`).join('')}</ul>`:''}</div>`}
 // it.potential = ["possible question", ...]; it.practice = one question with a model answer
 function practiceHTML(it){
   const P=it.practice||[],Q=it.potential||[];if(!P.length&&!Q.length)return '';
@@ -824,7 +821,7 @@ function notesText(it){
   if(K.length){L.push('\nKEYWORDS');K.forEach(x=>L.push('• '+x[0]+(x[1]?' — '+x[1]:'')+U(x[2],x[3])))}
   if(Dt.length){L.push('\nDATA');Dt.forEach(x=>L.push('• '+x[0]+' — '+x[1]+(x[2]?' ('+x[2]+')':'')+U(x[3],x[4])))}
   if(E.length){L.push('\nEXAMPLES');E.forEach(x=>L.push('• '+x[0]+(x[2]==='GS4'?' [GS4]':'')+(x[1]?' — '+x[1]:'')+U(x[3],x[4])))}
-  if(it.trend){const T=it.trend;L.push('\nTHE TRENDLINE');if(T.asked){T.asked.forEach(a=>L.push(a[0]+' '+a[1]+': '+a[2]));L.push('What changed: '+T.shift);if(T.y2026)L.push('2026 signal: '+T.y2026);L.push('Opens next:');(T.opens||[]).forEach(f=>L.push('• '+f))}else{L.push(T.t);(T.focus||[]).forEach(f=>L.push('• '+f))}}
+  if(it.trend){const T=it.trend;L.push('\nTHE TRENDLINE\n'+T.t);if(T.watch)L.push('Must watch: '+T.watch);(T.focus||[]).forEach(f=>L.push('• '+f))}
   if((it.potential||[]).length){L.push('\nPOTENTIAL QUESTIONS');it.potential.forEach(q=>L.push('• '+q))}
   (it.practice||[]).forEach((x,i)=>L.push('\n'+practiceText(it,i)));
   if(it.pyqs&&it.pyqs.length){L.push('\nASKED BEFORE IN MAINS');it.pyqs.forEach(p=>{if(MM.pyq[p[0]])L.push('• '+code(p[0])+': '+qtext(p[0])+'\n  Use it: '+p[1])})}

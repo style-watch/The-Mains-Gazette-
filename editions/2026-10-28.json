@@ -314,60 +314,13 @@
     }
    ],
    "trend": {
-    "asked": [
-     [
-      2015,
-      "GS II",
-      "India–Pakistan: soft power, sports and culture for goodwill"
-     ],
-     [
-      2016,
-      "GS II",
-      "SAARC stalled by cross-border terror"
-     ],
-     [
-      2018,
-      "GS II",
-      "Central Asia: Ashgabat Agreement and outside powers"
-     ],
-     [
-      2021,
-      "GS II",
-      "SCO: aims and importance for India"
-     ],
-     [
-      2023,
-      "GS II",
-      "SCO: 'virus of conflict' and India's role"
-     ],
-     [
-      2024,
-      "GS II",
-      "Central Asian Republics: India's evolving ties"
-     ],
-     [
-      2026,
-      "GS II",
-      "BRICS as a counterweight voicing the Global South"
-     ],
-     [
-      2026,
-      "GS II",
-      "China's BRI turning South Asia into a theatre of great-power competition"
-     ],
-     [
-      2026,
-      "GS II",
-      "Diaspora turning cultural heritage into geopolitical influence"
-     ]
-    ],
-    "shift": "From India–Pakistan as a bilateral quarrel (2015–16) to the groupings and regions around it (SCO, Central Asia), and from describing groupings to judging India's role in them.",
-    "y2026": "The 2026 paper asks how groupings and initiatives reshape power: BRICS as a counterweight, BRI as great-power competition in South Asia, heritage as geopolitical leverage. Expect questions on the SCO's place in a multipolar order, not on its structure.",
-    "opens": [
-     "SCO and BRICS in a multipolar order: India's balancing between them and the West",
-     "Countering BRI with connectivity: Chabahar, INSTC and Central Asia",
-     "Cultural heritage and civilisational links as strategic leverage",
-     "Terror financing and multilateral pressure (FATF) on Pakistan"
+    "t": "UPSC has moved from India–Pakistan as a bilateral issue (2015, 2016) to the groupings and regions around it: the SCO (2021, 2023) and Central Asia (2018, 2024). The newer questions ask about India's role, not just facts about the grouping.",
+    "watch": "The SCO has come twice in three years (2021, 2023) and Central Asia twice (2018, 2024). When you study international organisations, the SCO and India's Central Asia policy are must-study topics.",
+    "focus": [
+     "India's role in the SCO when members are in conflict",
+     "Connectivity to Central Asia that bypasses Pakistan: Chabahar, INSTC, Ashgabat",
+     "Afghanistan as India's gateway to Central Asia",
+     "China's growing footprint in the region (BRI) and India's response"
     ]
    },
    "potential": [
@@ -532,60 +485,13 @@
     ]
    ],
    "trend": {
-    "asked": [
-     [
-      2013,
-      "GS II",
-      "Section 66A of the IT Act versus Article 19"
-     ],
-     [
-      2017,
-      "GS II",
-      "Scope of fundamental rights after the privacy judgment"
-     ],
-     [
-      2018,
-      "GS III",
-      "Data security and the Srikrishna Committee"
-     ],
-     [
-      2024,
-      "GS II",
-      "Privacy under Article 21: DNA testing of a child in the womb"
-     ],
-     [
-      2024,
-      "GS III",
-      "Salient features of the DPDP Act, 2023"
-     ],
-     [
-      2026,
-      "GS II",
-      "Privacy and self-identity: the 2026 amendment to the Transgender Persons Act"
-     ],
-     [
-      2026,
-      "GS III",
-      "Fake news and the amended IT Rules (Digital Media Ethics Code)"
-     ],
-     [
-      2026,
-      "GS III",
-      "Agentic AI: working, uses, risks"
-     ],
-     [
-      2026,
-      "GS IV",
-      "A professor using AI to write a PhD evaluation: accountability and integrity"
-     ]
-    ],
-    "shift": "From privacy as a principle (2017) to the laws that apply it (DPDP Act 2024), and from free speech in the abstract to specific digital rules (66A, IT Rules).",
-    "y2026": "In 2026 UPSC asked about a law amended that same year, the IT Rules on digital media, and AI in all three papers (GS II rights, GS III technology, GS IV ethics). Current legislation and its court challenges are now fair game within months, and AI is a cross-paper theme.",
-    "opens": [
-     "DPDP Act versus press freedom and RTI: the case now before the Supreme Court",
-     "Regulating AI: deepfakes, accountability for automated decisions, data used to train AI",
-     "Digital media regulation and the Digital Media Ethics Code",
-     "Ethics of data and AI in public service (GS IV case studies)"
+    "t": "Privacy has moved from a principle to the laws that apply it: the right itself after Puttaswamy (2017), then data security (Srikrishna Committee, 2018) and the DPDP Act (2024). Free speech has been asked through specific laws: Section 66A (2013) and the IT Rules (2026).",
+    "watch": "Privacy under Article 21 has come in 2017, 2024 and 2026, and data protection in 2018 and 2024. The right to privacy and the DPDP Act are must-study topics for both GS II and GS III.",
+    "focus": [
+     "Balancing privacy with press freedom and RTI: the DPDP case before the Supreme Court",
+     "Powers and independence of the Data Protection Board",
+     "Rules for digital and social media and their effect on free speech",
+     "Privacy in new technology: Aadhaar, surveillance, AI"
     ]
    },
    "potential": [
