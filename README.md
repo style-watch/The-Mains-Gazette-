@@ -16,6 +16,11 @@ The Mains Gazette has two pages:
    - Work only from the article itself. Never add figures or examples that are not in the source.
    - Ideas must be tied to a specific GS syllabus line, and `syllabus` names that line.
    - Mark Ethics-usable examples with a third value: `"GS4"`.
+   - `summary` is ONE line. Readers read the paper; the app is a reminder.
+   - Data: only figures that can be quoted in many answers (national, priority themes such as women). Leave `data: []` if nothing qualifies; the card says so.
+   - Examples: relatable and broadly usable, not narrow. Keywords: terms that sharpen an answer (e.g. 'duck curve', 'time poverty'), not the obvious ones.
+   - Look for the GS4 angle in every story and add an `ethics` case for it.
+   - Ethics cases (`ethics` in each edition): `news` (one line), `syllabus` (GS4 line), `link` (the connection), `question` (practice), `pyq` (GS4 ids), `keywords`, `themes` (g4 keys), `card` (story id). No ideas, data or examples.
    - `themes` must use keys from `data/themes.js`. Run the check below to see them.
 4. Commit and push to `main`. GitHub Pages updates in about a minute.
 

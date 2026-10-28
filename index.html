@@ -70,6 +70,16 @@ nav.main .n{font-family:var(--mono);font-size:.7rem;background:var(--navy);color
 .ecase .ar{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gs4);font-weight:600}
 .ecase h4{margin:0;font-family:var(--serif);font-weight:600;font-size:1.1rem;line-height:1.3}
 .ecase p{margin:0;font-size:.92rem;color:#374151}
+.ecase .nw{font-size:.95rem;color:#1F2937}
+.ecase .sl{display:grid;grid-template-columns:92px 1fr;gap:8px;font-size:.88rem;align-items:baseline}
+.ecase .sl b{font-family:var(--mono);font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gs4)}
+.ecase .sl a{color:var(--navy);font-weight:600}
+.ecase .pq2{background:#FDF2F8;border-radius:10px;padding:9px 12px}
+.ecase .pq2 b{font-family:var(--mono);font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gs4)}
+.ecase .pq2 p{margin:3px 0 0;font-size:.93rem;color:#111827;font-weight:500}
+.asked2{font-size:.85rem}.asked2 summary{cursor:pointer;font-weight:600;color:var(--muted)}
+.asked2 ul{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:6px}.asked2 li{display:grid;gap:2px}
+@media (max-width:600px){.ecase .sl{grid-template-columns:1fr;gap:0}}
 .ecase .ls{background:#FDF2F8;border-radius:8px;padding:8px 10px;font-size:.9rem}
 .ecase .ls b{color:var(--gs4)}
 .ecase .vs{display:flex;flex-wrap:wrap;gap:6px}
@@ -113,6 +123,8 @@ nav.main .n{font-family:var(--mono);font-size:.7rem;background:var(--navy);color
 .case summary{cursor:pointer;list-style:none}.case summary::-webkit-details-marker{display:none}.case summary b{color:var(--saffron);white-space:nowrap}.case[open] summary{display:none}.case div{white-space:pre-line}
 /* home: the front page */
 .fp{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:-56px;position:relative;z-index:2}
+.fp.fp2{margin-top:20px}
+.door.sm{padding:20px 24px;gap:10px}.door.sm h2{font-size:1.4rem}.door.sm .dk i{width:40px;height:40px}
 .door{background:#fff;border:1px solid var(--line);border-radius:22px;padding:24px 26px;box-shadow:0 18px 40px rgba(20,33,61,.12);display:flex;flex-direction:column;gap:12px;position:relative;overflow:hidden}
 .door::before{content:'';position:absolute;inset:0 0 auto 0;height:6px;background:var(--dc,var(--saffron))}
 .door .dk{display:flex;align-items:center;gap:12px}
@@ -143,7 +155,7 @@ nav.main .n{font-family:var(--mono);font-size:.7rem;background:var(--navy);color
 .why3 div{background:linear-gradient(135deg,#FFF8EC,#FDF2F8);border:1px solid #F8D9A8;border-radius:14px;padding:14px 16px}
 .why3 b{display:block;color:var(--navy);margin-bottom:3px}
 .why3 span{font-size:.88rem;color:#4B5563}
-@media (max-width:900px){.fp{grid-template-columns:1fr;margin-top:-40px}.also ul{grid-template-columns:1fr 1fr}.why3{grid-template-columns:1fr}}
+@media (max-width:900px){.fp{grid-template-columns:1fr;margin-top:-40px}.fp.fp2{margin-top:16px}.also ul{grid-template-columns:1fr 1fr}.why3{grid-template-columns:1fr}}
 @media (max-width:480px){.also ul{grid-template-columns:1fr}.door h2{font-size:1.45rem}}
 
 /* almanac landing, paper pages, compiled notes */
@@ -168,13 +180,15 @@ nav.main .n{font-family:var(--mono);font-size:.7rem;background:var(--navy);color
 .issue h4{margin:0 0 6px;font-family:var(--serif);font-size:1.2rem;font-weight:600}
 .issue .one{margin:0 0 10px;font-size:.95rem;color:#1F2937}
 .issue .one b{color:var(--saffron)}
-.cgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.cgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px 24px}
+.cgrid>div{display:grid;gap:12px;align-content:start;min-width:0}
+.cgrid>div+div{border-left:1px solid var(--line2);padding-left:24px}
 .cl h5{margin:0 0 4px;display:flex;align-items:center;gap:6px;font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase}
 .cl h5 i{width:18px;height:18px;border-radius:5px;color:#fff;display:grid;place-items:center;font-style:normal;font-size:.64rem}
 .cl ul{margin:0;padding-left:18px;display:grid;gap:5px;font-size:.9rem}
 .cl .u2{display:block;font-size:.78rem;color:#92400E}
 .issue .src2{margin:10px 0 0;font-size:.8rem;color:var(--muted)}
-@media (max-width:760px){.cgrid{grid-template-columns:1fr}.tlist{grid-template-columns:1fr}}
+@media (max-width:760px){.cgrid{grid-template-columns:1fr}.cgrid>div+div{border-left:0;padding-left:0}.tlist{grid-template-columns:1fr}}
 .edlist{list-style:none;margin:0 0 16px;padding:0;display:flex;flex-wrap:wrap;gap:8px}
 .edlist a{display:inline-flex;gap:8px;align-items:baseline;text-decoration:none;color:var(--navy);background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-weight:600;font-size:.9rem}
 .edlist a[aria-current="true"]{background:var(--navy);color:#fff}
@@ -186,7 +200,7 @@ nav.main .n{font-family:var(--mono);font-size:.7rem;background:var(--navy);color
 .art .kick .path{font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase}
 .art .hl{margin:10px 0 10px;font-family:var(--serif);font-size:clamp(1.5rem,2.6vw,2.15rem);line-height:1.15;font-weight:700;letter-spacing:-.01em}
 .art .stand{margin:0;font-family:var(--serif);font-size:1.12rem;line-height:1.6;color:#1F2937}
-.art .stand::first-letter{float:left;font-size:3.3em;line-height:.82;padding:6px 8px 0 0;color:var(--saffron);font-weight:700}
+.art .stand::before{content:'In one line';display:inline-block;margin-right:10px;font-family:var(--mono);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:var(--saffron);border-radius:6px;padding:3px 7px;vertical-align:3px}
 .art .byl{margin:12px 0 0;padding:8px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--muted)}
 .art .byl a{color:var(--saffron);font-weight:600}
 .sofar{margin:16px 0 0;background:#F8FAFC;border-left:4px solid var(--saffron);border-radius:0 12px 12px 0;padding:12px 16px}
@@ -195,6 +209,15 @@ nav.main .n{font-family:var(--mono);font-size:.7rem;background:var(--navy);color
 .sofar li b{font-family:var(--mono);font-size:.74rem;color:var(--navy);padding-top:2px}
 @media (max-width:600px){.sofar li{grid-template-columns:1fr;gap:0}.art{padding:20px 18px 0}}
 .abody{margin-top:6px}
+.abody.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0 28px;margin-top:10px}
+.abody.two .col{min-width:0}
+.abody.two .col+.col{border-left:1px solid var(--line);padding-left:28px}
+.abody.two .kwl2,.abody.two .figs{grid-template-columns:1fr}
+.none{margin:0;font-size:.86rem;color:var(--soft);font-style:italic}
+.eangle{margin:14px 0 0;background:#FDF2F8;border:1px solid #FBCFE8;border-radius:12px;padding:10px 14px;font-size:.9rem;color:#374151}
+.eangle b{color:var(--gs4)}
+.eangle a{color:var(--gs4);font-weight:600;white-space:nowrap}
+@media (max-width:760px){.abody.two{grid-template-columns:1fr}.abody.two .col+.col{border-left:0;padding-left:0}}
 .sec{padding:16px 0;border-bottom:1px solid var(--line)}
 .sec h4{display:flex;align-items:center;gap:8px;margin:0 0 10px;font-family:var(--mono);font-size:.74rem;letter-spacing:.16em;text-transform:uppercase}
 .sec h4 i{width:22px;height:22px;border-radius:6px;color:#fff;display:grid;place-items:center;font-style:normal;font-size:.7rem}
@@ -542,7 +565,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
 <div class="ticker" id="ticker" hidden><div class="wrap"><span class="lbl">Today</span><div class="vp"><div class="rail" id="rail"></div></div></div></div>
 <main id="main"></main>
 <nav class="tabbar" aria-label="Main" id="tabbar"></nav>
-<footer><div class="wrap"><span>The Mains Gazette · for UPSC CSE Mains aspirants</span><span>Keyboard: <span class="kbd">/</span> search · <span class="kbd">0</span> home · <span class="kbd">1</span>–<span class="kbd">5</span> switch pages</span></div></footer>
+<footer><div class="wrap"><span>The Mains Gazette · for UPSC CSE Mains aspirants</span><span>Keyboard: <span class="kbd">/</span> search · <span class="kbd">0</span> home · <span class="kbd">1</span>–<span class="kbd">6</span> switch pages</span></div></footer>
 <div class="drawer" id="drawer" role="dialog" aria-modal="false" aria-labelledby="drawer-h"><div class="wrap" id="drawer-in"></div></div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
@@ -583,15 +606,16 @@ const IC={
  saved:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',
  copy:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>',
  search:'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8A93A3" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>',
+ scale:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M7 21h10M5 7h14"/><path d="m5 7-3 6a3 3 0 0 0 6 0zM19 7l-3 6a3 3 0 0 0 6 0z"/></svg>',
  pen:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>',
  print:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M7 14h10v7H7z"/></svg>'
 };
 const LENS={ideas:['I','Ideas','var(--ideas)','Perspectives and arguments, tied strictly to a syllabus line'],kw:['K','Keywords','var(--kw)','Terms that make an answer sharp'],data:['D','Data','var(--data)','Figures you can quote, with their source'],ex:['E','Examples','var(--ex)','Cases, initiatives and stories, including GS4 Ethics examples']};
 
 // ---- nav
-const PAGES=[['edition','Morning Edition','Edition'],['almanac','The Almanac','Almanac'],['essay','The Essay Column','Essay'],['index','PYQ Index','Index'],['clippings','Clippings','Clippings']];
+const PAGES=[['edition','Morning Edition','Edition'],['almanac','The Almanac','Almanac'],['essay','The Essay Column','Essay'],['ethics','The Ethics Casebook','Ethics'],['index','PYQ Index','Index'],['clippings','Clippings','Clippings']];
 function nav(cur){
-  const ic={edition:IC.dossier,almanac:IC.vault,essay:IC.pen,index:IC.map,clippings:IC.saved};
+  const ic={edition:IC.dossier,almanac:IC.vault,essay:IC.pen,ethics:IC.scale,index:IC.map,clippings:IC.saved};
   $('#nav').innerHTML=PAGES.map(([k,l])=>`<a href="#${k}" ${cur===k?'aria-current="page"':''}>${esc(l)}${k==='clippings'&&SAVED.size?`<span class="n">${SAVED.size}</span>`:''}</a>`).join('');
   $('#tabbar').innerHTML=`<a href="#home" ${cur==='home'?'aria-current="page"':''}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>Home</a>`+PAGES.map(([k,,s])=>`<a href="#${k}" ${cur===k?'aria-current="page"':''}>${ic[k]}${esc(s)}</a>`).join('');
 }
@@ -627,6 +651,9 @@ function norm(it){
   const E=(it.examples||[]).map(x=>[x[0],x[1]||'',x[2]||'',x[3]||'']);
   return {I,K,Dt,E};
 }
+const NONE='<p class="none">Nothing to add from this story.</p>';
+const NONE_D='<p class="none">No figure in this story is worth quoting.</p>';
+const NONE_E='<p class="none">No example worth carrying from this story.</p>';
 const useL=u=>u?`<span class="use"><b>Use in:</b> ${esc(u)}</span>`:'';
 function cardHTML(it){
   const asked=askedFor(it).slice(0,4);
@@ -634,18 +661,23 @@ function cardHTML(it){
   const ev=it.evolution||[];
   const sec=(k,body)=>body?`<section class="sec s-${k}"><h4><i aria-hidden="true">${LENS[k][0]}</i>${LENS[k][1]}</h4>${body}</section>`:'';
   const ths=(it.themes||[]).filter(k=>TH[k]);
+  const eth=CASES.filter(c=>c.card===it.id&&c.syllabus);
   return `<article class="card art" id="item-${esc(it.id)}">
   <div class="kick">${gsChips(it.gs)}<span class="path">${esc(it.syllabus||'')}</span></div>
   <h3 class="hl">${esc(it.title)}</h3>
-  ${it.summary?`<p class="stand">${esc(it.summary)}</p>`:(it.context?`<p class="stand">${esc(it.context)}</p>`:'')}
+  ${(it.summary||it.context)?`<p class="stand">${esc(it.summary||it.context)}</p>`:''}
   <p class="byl">${esc(it.paper||it._ed.paper||'')}${it.where?' · '+esc(it.where):(it.section?' · '+esc(it.section):'')+(it.page?' · '+esc(it.page):'')} · ${esc(fmtDate(it._ed.date,{day:'numeric',month:'short',year:'numeric'}))}${(it.links||[]).map(l=>` · <a href="${esc(l[1])}" target="_blank" rel="noopener">${esc(l[0])} ↗</a>`).join('')}</p>
   ${ev.length?`<aside class="sofar" aria-label="The story so far"><span class="lbl2">The story so far</span><ol>${ev.map(e=>`<li><b>${esc(e[0])}</b><span>${esc(e[1])}</span></li>`).join('')}</ol></aside>`:''}
-  <div class="abody">
-  ${sec('ideas',I.length?`<ol class="il2">${I.map(x=>`<li><p>${esc(x[0])}</p>${useL(x[1])}</li>`).join('')}</ol>`:'')}
-  ${sec('kw',K.length?`<dl class="kwl2">${K.map(x=>`<div><dt>${esc(x[0])}</dt><dd>${esc(x[1])}${useL(x[2])}</dd></div>`).join('')}</dl>`:'')}
-  ${sec('data',Dt.length?`<div class="figs">${Dt.map(x=>`<div class="fg"><b>${esc(x[0])}</b><span>${esc(x[1])}</span>${x[2]?`<small>Source: ${esc(x[2])}</small>`:''}${useL(x[3])}</div>`).join('')}</div>`:'')}
-  ${sec('ex',E.length?`<ul class="exl">${E.map(x=>`<li><b>${esc(x[0])}</b>${x[2]==='GS4'?' <span class="gs GS4">GS4 Ethics</span>':''}${x[1]?`<span class="ed">${esc(x[1])}</span>`:''}${useL(x[3])}</li>`).join('')}</ul>`:'')}
+  <div class="abody two">
+  <div class="col">
+  ${sec('ideas',I.length?`<ol class="il2">${I.map(x=>`<li><p>${esc(x[0])}</p>${useL(x[1])}</li>`).join('')}</ol>`:NONE)}
+  ${sec('data',Dt.length?`<div class="figs">${Dt.map(x=>`<div class="fg"><b>${esc(x[0])}</b><span>${esc(x[1])}</span>${x[2]?`<small>Source: ${esc(x[2])}</small>`:''}${useL(x[3])}</div>`).join('')}</div>`:NONE_D)}
+  </div><div class="col">
+  ${sec('kw',K.length?`<dl class="kwl2">${K.map(x=>`<div><dt>${esc(x[0])}</dt><dd>${esc(x[1])}${useL(x[2])}</dd></div>`).join('')}</dl>`:NONE)}
+  ${sec('ex',E.length?`<ul class="exl">${E.map(x=>`<li><b>${esc(x[0])}</b>${x[2]==='GS4'?' <span class="gs GS4">GS4 Ethics</span>':''}${x[1]?`<span class="ed">${esc(x[1])}</span>`:''}${useL(x[3])}</li>`).join('')}</ul>`:NONE_E)}
   </div>
+  </div>
+  ${eth.length?`<div class="eangle"><b>Ethics angle (GS4):</b> ${eth.map(c=>`${esc(c.syllabus)}. ${esc(c.link)}`).join(' ')} <a href="#ethics" data-case="${esc(eth[0]._id)}">Open in the Ethics Casebook →</a></div>`:''}
   <div class="filed">${IC.vault}<div><b>Filed in The Almanac under:</b> ${ths.map(k=>`<a href="#theme-${k}">${esc(TH[k].n)}</a>`).join(' · ')}<small>Come back to these themes anytime to revise every story on them.</small></div></div>
   <div class="ft">
     <span></span>
@@ -715,7 +747,7 @@ function viewDossier(date){
 }
 
 function tileHTML(t){
-  const n=t.k.startsWith('g4')?CASES.filter(c=>(EMAP[c.area]||[]).includes(t.k)).length:(byTheme[t.k]||[]).length,p=prio(t);
+  const n=entriesFor(t.k),p=prio(t);
   return `<a class="tile" href="#theme-${t.k}"><span class="rk">#${t.rank}</span><h4>${esc(t.n)}</h4><div class="pl">${esc(t.pl)}</div>${heatHTML(t)}<div class="nums"><span><b>${t.q.length}</b> Qs · <b>${t.yrs}</b>/14 yrs<span class="prio p${p}">${PRIO[p]}</span></span><span class="ent ${n?'':'zero'}">${n?n+' entr'+(n===1?'y':'ies'):'no entries yet'}</span></div></a>`;
 }
 function viewAllThemes(){
@@ -762,7 +794,7 @@ function viewTheme(k,tab){
   <div id="tabbody"></div></section></div>`;
   $('#main').innerHTML=h;fx();
   function sheet(){
-    if(k.startsWith('g4')){const cs=CASES.filter(c=>(EMAP[c.area]||[]).includes(k));return `<p class="note" style="margin-top:0">Cases from the news filed under this theme (from <a href="#ethics">The Ethics Casebook</a>). See the Past questions tab for every GS4 question on this theme.</p>`+(cs.length?`<div class="egrid">${cs.map(c=>ecaseHTML(c,true)).join('')}</div>`:`<div class="nothing">No news cases filed under this theme yet. They appear here as editions add them.</div>`)}
+    if(k.startsWith('g4')){const cs=CASES.filter(c=>caseThemes(c).includes(k));return `<p class="note" style="margin-top:0">Cases from the news filed under this theme (from <a href="#ethics">The Ethics Casebook</a>). See the Past questions tab for every GS4 question on this theme.</p>`+(cs.length?`<div class="egrid">${cs.map(c=>ecaseHTML(c,true)).join('')}</div>`:`<div class="nothing">No news cases filed under this theme yet. They appear here as editions add them.</div>`)}
     if(!items.length)return `<div class="nothing">No news stories filed under this theme yet. As Morning Editions carry stories on this theme, they are compiled here automatically, newest first, with ideas, keywords, data and examples.<br><br><a class="btn" href="#theme-${k}" data-tab="pyq">See the ${t.q.length} past questions</a></div>`;
     return `<div class="tool" style="justify-content:space-between"><p class="note" style="margin:0">${items.length} news ${items.length===1?'story':'stories'} on this theme, newest first.</p><span><button class="btn" id="cpy">${IC.copy}Copy notes</button> <button class="btn" onclick="window.print()">${IC.print}Print</button></span></div>${compiledHTML(items)}`;
   }
@@ -834,7 +866,8 @@ const SYLLABUS_PAPERS={
  inclusive:['gs3'],jobs:['gs3'],agri:['gs3'],food:['gs3'],foodproc:['gs3'],industry:['gs3'],transport:['gs3'],energy:['gs3'],invest:['gs3'],fiscal:['gs3'],growth:['gs3'],digital:['gs3'],
  climate:['gs3'],pollution:['gs3'],biodiv:['gs3'],disaster:['gs3'],space:['gs3'],biotech:['gs3'],techai:['gs3'],cyber:['gs3'],terror:['gs3'],border:['gs3'],jk:['gs3']};
 function inPaper(t,p){if(t.k.startsWith('g4'))return p==='gs4';const m=SYLLABUS_PAPERS[t.k];return m?m.includes(p):paperCount(t,p.toUpperCase())>=3}
-function entriesFor(k){return k.startsWith('g4')?CASES.filter(c=>(EMAP[c.area]||[]).includes(k)).length:(byTheme[k]||[]).length}
+function caseThemes(c){return c.themes||EMAP[c.area]||[]}
+function entriesFor(k){return k.startsWith('g4')?CASES.filter(c=>caseThemes(c).includes(k)).length:(byTheme[k]||[]).length}
 let lastPaper='';
 function viewVault(){
   const card=([p,name,desc])=>{const ths=MM.themes.filter(t=>inPaper(t,p));const qn=Object.values(MM.pyq).filter(x=>x[0]===p.toUpperCase()).length;const ent=ths.reduce((s,t)=>s+entriesFor(t.k),0);
@@ -845,7 +878,7 @@ function viewVault(){
     <p class="sub">Pick a paper, then a theme. Each theme page compiles every news story filed under it, story by story, with ideas, keywords, data and examples, and grows with each new Morning Edition.</p>
   </div></div><div class="wrap"><section class="block">
    <ul class="papers">${PAPERS.map(card).join('')}
-    <li><a class="paper essay" href="#essay"><span class="pn">Essay</span><span class="pd">Essay topics since 2013, the pattern since 2020, and essay material from the news</span><span class="pm">${Object.keys(E.topics).length} topics · ${FOD.length} pieces of material</span></a></li>
+    <li><a class="paper essay" href="#paper-essay"><span class="pn">Essay</span><span class="pd">Essay themes, with every story, quote and example from the news filed under each</span><span class="pm">${E.themes.length} themes · ${Object.keys(E.topics).length} past topics · ${FOD.length} pieces of material</span></a></li>
    </ul>
    <div class="also" style="margin-top:22px"><ul style="grid-template-columns:repeat(2,minmax(0,1fr))">
      <li><a href="#ethics"><i aria-hidden="true" style="background:var(--gs4)">${IC.saved}</i><div><b>The Ethics Casebook</b><span>Real cases from the news for GS4, by area of ethics</span></div></a></li>
@@ -871,12 +904,12 @@ function compiledHTML(items){
   const byDate={};items.forEach(it=>{(byDate[it._ed.date]=byDate[it._ed.date]||[]).push(it)});
   const lens=(k,arr,f)=>arr.length?`<div class="cl ${k}"><h5 style="color:${LENS[k][2]}"><i style="background:${LENS[k][2]}" aria-hidden="true">${LENS[k][0]}</i>${LENS[k][1]}</h5><ul>${arr.map(f).join('')}</ul></div>`:'';
   return Object.keys(byDate).sort().reverse().map(d=>`<section class="cday" aria-label="${esc(fmtDate(d,{weekday:'long',day:'numeric',month:'long',year:'numeric'}))}"><h3 class="cdate"><a href="#day-${d}">${esc(fmtDate(d,{weekday:'short',day:'numeric',month:'long',year:'numeric'}))}</a></h3>
-   ${byDate[d].map(it=>{const {I,K,Dt,E}=norm(it);const one=(it.summary||it.context||'').split(/(?<=\.)\s/)[0];
+   ${byDate[d].map(it=>{const {I,K,Dt,E}=norm(it);const one=it.summary||it.context||'';
     return `<article class="issue"><h4>${esc(it.title)}</h4>${one?`<p class="one"><b>In one line:</b> ${esc(one)}</p>`:''}
-     <div class="cgrid">${lens('ideas',I,x=>`<li>${esc(x[0])}${x[1]?`<span class="u2">Use in: ${esc(x[1])}</span>`:''}</li>`)}
-     ${lens('kw',K,x=>`<li><b>${esc(x[0])}</b>${x[1]?': '+esc(x[1]):''}</li>`)}
-     ${lens('data',Dt,x=>`<li><b>${esc(x[0])}</b> ${esc(x[1])}${x[2]?` <span class="code">(${esc(x[2])})</span>`:''}</li>`)}
-     ${lens('ex',E,x=>`<li><b>${esc(x[0])}</b>${x[1]?': '+esc(x[1]):''}${x[2]==='GS4'?' <span class="gs GS4">GS4</span>':''}</li>`)}</div>
+     <div class="cgrid"><div>${lens('ideas',I,x=>`<li>${esc(x[0])}${x[1]?`<span class="u2">Use in: ${esc(x[1])}</span>`:''}</li>`)}
+     ${lens('data',Dt,x=>`<li><b>${esc(x[0])}</b> ${esc(x[1])}${x[2]?` <span class="code">(${esc(x[2])})</span>`:''}</li>`)}</div>
+     <div>${lens('kw',K,x=>`<li><b>${esc(x[0])}</b>${x[1]?': '+esc(x[1]):''}</li>`)}
+     ${lens('ex',E,x=>`<li><b>${esc(x[0])}</b>${x[1]?': '+esc(x[1]):''}${x[2]==='GS4'?' <span class="gs GS4">GS4</span>':''}</li>`)}</div></div>
      <p class="src2">${esc(it.paper||it._ed.paper||'')}${it.where?', '+esc(it.where):''} · <a href="#day-${d}" data-jump2="item-${esc(it.id)}">Open the full story</a></p></article>`}).join('')}</section>`).join('');
 }
 function compiledText(t,items){
@@ -916,11 +949,21 @@ function viewHome(){
       <div class="go"><a class="btn pri" href="#almanac">Open The Almanac →</a><small>Includes the GS4 Ethics themes and the Ethics Casebook</small></div>
     </section>
    </div>
-   <nav class="also" aria-labelledby="also-h"><h2 id="also-h">Also in the Gazette</h2><ul>
-     <li><a href="#essay"><i aria-hidden="true" style="background:#7C3AED">${IC.pen}</i><div><b>The Essay Column</b><span>Essay topics since 2013 and material from the news. Press 3</span></div></a></li>
-     <li><a href="#ethics"><i aria-hidden="true" style="background:var(--gs4)">${IC.saved}</i><div><b>The Ethics Casebook</b><span>Real cases for GS4, by area of ethics</span></div></a></li>
-     <li><a href="#index"><i aria-hidden="true" style="background:#0F766E">${IC.map}</i><div><b>PYQ Index</b><span>Every theme across 14 years at a glance. Press 4</span></div></a></li>
-     <li><a href="#clippings"><i aria-hidden="true" style="background:#475569">${IC.saved}</i><div><b>Clippings</b><span>Stories you saved for revision. Press 5</span></div></a></li>
+   <div class="fp fp2">
+    <section class="door sm" style="--dc:#7C3AED" aria-labelledby="d3">
+      <div class="dk"><i aria-hidden="true">${IC.pen}</i><div><div class="dsub">Essay paper · press 3</div><h2 id="d3">The Essay Column</h2></div></div>
+      <p>The pattern of essay topics since 2020, and today's stories, quotes and examples that can carry an essay.${FOD.length?` ${FOD.filter(f=>f._ed===((E.fodder||[]).slice().sort((a,b)=>b.date<a.date?-1:1)[0])).length} pieces from today's paper.`:''}</p>
+      <div class="go"><a class="btn pri" href="#essay">Open The Essay Column →</a></div>
+    </section>
+    <section class="door sm" style="--dc:var(--gs4)" aria-labelledby="d4">
+      <div class="dk"><i aria-hidden="true">${IC.scale}</i><div><div class="dsub">GS Paper 4 · press 4</div><h2 id="d4">The Ethics Casebook</h2></div></div>
+      <p>${CASES.length} cases from the news, each with the GS4 syllabus line it connects to, a practice question and keywords.${ed&&(ed.ethics||[]).length?` ${ed.ethics.length} from today's paper.`:''}</p>
+      <div class="go"><a class="btn pri" href="#ethics">Open The Ethics Casebook →</a></div>
+    </section>
+   </div>
+   <nav class="also" aria-labelledby="also-h"><h2 id="also-h">Also in the Gazette</h2><ul style="grid-template-columns:repeat(2,minmax(0,1fr))">
+     <li><a href="#index"><i aria-hidden="true" style="background:#0F766E">${IC.map}</i><div><b>PYQ Index</b><span>Every theme across 14 years at a glance. Press 5</span></div></a></li>
+     <li><a href="#clippings"><i aria-hidden="true" style="background:#475569">${IC.saved}</i><div><b>Clippings</b><span>Stories you saved for revision. Press 6</span></div></a></li>
    </ul></nav>
    <div class="why3" role="list" aria-label="Why The Mains Gazette">
      <div role="listitem"><b>Read smarter</b><span>The day's syllabus-relevant stories, with the page to find each one in the paper.</span></div>
@@ -933,30 +976,43 @@ function viewHome(){
 }
 
 // ---- The Ethics Casebook (GS4)
-const EMAP={env:['g4env'],justice:['g4intl','g4gender'],public:['g4probity','g4integrity','g4leadership'],care:['g4psv','g4aptitude'],gender:['g4gender'],lives:['g4values']};
-const EAREA={env:['Environmental ethics','Our duties to nature and to those who share it: pollution, waste, land and water.'],justice:['Climate and global justice','Fairness between nations and generations.'],public:['Public service ethics','Integrity, impartiality and the use of power by those who serve the public.'],care:['Ethics of care and compassion','Dignity of the vulnerable: the old, the sick, those in danger.'],gender:['Gender justice','Equity that starts by seeing women\'s invisible burdens.'],lives:['Lessons from lives','Values shown by real people: sacrifice, courage, magnanimity.']};
+const EMAP={attitude:['g4attitude'],env:['g4env'],justice:['g4intl','g4gender'],public:['g4probity','g4integrity','g4leadership'],care:['g4psv','g4aptitude'],gender:['g4gender'],lives:['g4values']};
+const EAREA={env:['Environmental ethics','Our duties to nature and to those who share it: pollution, waste, land and water.'],justice:['Climate and global justice','Fairness between nations and generations.'],public:['Public service ethics','Integrity, impartiality and the use of power by those who serve the public.'],care:['Ethics of care and compassion','Dignity of the vulnerable: the old, the sick, those in danger.'],gender:['Gender justice','Equity that starts by seeing women\'s invisible burdens.'],lives:['Lessons from lives','Values shown by real people: sacrifice, courage, magnanimity.'],attitude:['Attitude and persuasion','How attitudes change: social influence, example and persuasion.']};
 const CASES=[];(D.editions||[]).forEach(ed=>(ed.ethics||[]).forEach((c,i)=>{c._ed=ed;c._id=ed.date+'-e'+i;CASES.push(c)}));
 CASES.sort((a,b)=>b._ed.date<a._ed.date?-1:b._ed.date>a._ed.date?1:0);
 function ecaseHTML(c,showDate){
   const A=EAREA[c.area]||[c.area,''];
-  return `<article class="ecase" data-area="${esc(c.area)}"><span class="ar">${esc(A[0])}</span><h4>${esc(c.title)}</h4><p>${esc(c.case)}</p>
+  if(!c.syllabus){ // older format
+    return `<article class="ecase" id="case-${esc(c._id)}" data-area="${esc(c.area)}"><span class="ar">${esc(A[0])}</span><h4>${esc(c.title)}</h4><p>${esc(c.case)}</p>
    <div class="ls"><b>Ethical lesson:</b> ${esc(c.lesson)}</div><div class="vs">${(c.values||[]).map(v=>`<span>${esc(v)}</span>`).join('')}</div>
+   <div class="ft2"><span class="src">${esc(c.src||'')}${showDate?' · '+esc(fmtDate(c._ed.date,{day:'numeric',month:'short',year:'numeric'})):''}</span><span><button class="btn" data-ccopy="${esc(c._id)}">${IC.copy}Copy</button></span></div></article>`;
+  }
+  const pq=(c.pyq||[]).filter(id=>MM.pyq[id]);
+  return `<article class="ecase" id="case-${esc(c._id)}" data-area="${esc(c.area)}"><span class="ar">${esc(A[0])}</span><h4>${esc(c.title)}</h4>
+   <p class="nw">${esc(c.news)}</p>
+   <div class="sl"><b>Syllabus</b><span>${esc(c.syllabus)}</span></div>
+   <div class="sl"><b>Connection</b><span>${esc(c.link)}</span></div>
+   ${caseThemes(c).filter(k=>TH[k]).length?`<div class="sl"><b>Theme</b><span>${caseThemes(c).filter(k=>TH[k]).map(k=>`<a href="#theme-${k}">${esc(TH[k].n)}</a>`).join(' · ')}</span></div>`:''}
+   <div class="pq2"><b>Practice question</b><p>${esc(c.question)}</p></div>
+   ${pq.length?`<details class="asked2"><summary>Asked before in GS4 (${pq.length})</summary><ul>${pq.map(id=>`<li><span class="code">${code(id)}</span><span>${qHTML(id)}</span></li>`).join('')}</ul></details>`:''}
+   <div class="vs">${(c.keywords||[]).map(v=>`<span>${esc(v)}</span>`).join('')}</div>
    <div class="ft2"><span class="src">${esc(c.src||'')}${showDate?' · '+esc(fmtDate(c._ed.date,{day:'numeric',month:'short',year:'numeric'})):''}</span><span>
-   ${c.card?(showDate?`<a class="btn" href="#day-${c._ed.date}">GS card</a>`:`<button class="btn" data-jump="item-${esc(c.card)}">GS card</button>`):''}
+   ${c.card?(showDate?`<a class="btn" href="#day-${c._ed.date}" data-jump2="item-${esc(c.card)}">The story</a>`:`<button class="btn" data-jump="item-${esc(c.card)}">The story</button>`):''}
    <button class="btn" data-ccopy="${esc(c._id)}">${IC.copy}Copy</button></span></div></article>`;
 }
 function viewCasebook(){
   const areas=Object.keys(EAREA).filter(a=>CASES.some(c=>c.area===a));
   $('#main').innerHTML=`<div class="hero"><canvas id="fx" aria-hidden="true"></canvas><div class="wrap">
-   <a class="back" href="#almanac">← The Almanac</a><div class="eyebrow">The Ethics Casebook · GS4</div>
+   <div class="eyebrow">The Ethics Casebook · GS4 · press 4</div>
    <h1>Real cases for the Ethics paper.</h1>
-   <p class="sub">Every edition adds examples from the news, sorted by area of applied ethics. Each case gives the facts as reported, the ethical lesson, and the values it shows, ready for GS4 answers and case studies.</p>
+   <p class="sub">The news in one line (read the full story in the Morning Edition), the GS4 syllabus line it connects to, a practice question, and keywords for your answer.</p>
    <div class="stats"><div><b>${CASES.length}</b><span>cases filed</span></div><div><b>${areas.length}</b><span>areas of ethics</span></div><div><b>${new Set(CASES.map(c=>c._ed.date)).size}</b><span>editions</span></div></div>
   </div></div><div class="wrap"><section class="block">
    <div class="tool"><div class="chips" id="ear"><button class="chip" aria-pressed="true" data-a="">All</button>${areas.map(a=>`<button class="chip" aria-pressed="false" data-a="${a}">${esc(EAREA[a][0])}</button>`).join('')}</div></div>
    ${areas.map(a=>{const cs=CASES.filter(c=>c.area===a);return `<div class="egrp" data-g="${a}"><h3>${esc(EAREA[a][0])} <span class="code">${cs.length}</span></h3><p class="gd">${esc(EAREA[a][1])}</p><div class="egrid">${cs.map(c=>ecaseHTML(c,true)).join('')}</div></div>`}).join('')||'<div class="nothing">Cases appear here with each edition.</div>'}
   </section></div>`;fx();
-  $('#ear').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;document.querySelectorAll('#ear .chip').forEach(x=>x.setAttribute('aria-pressed',x===b));document.querySelectorAll('.egrp').forEach(g=>g.hidden=!!b.dataset.a&&g.dataset.g!==b.dataset.a)});
+  const ear=$('#ear');if(ear)ear.addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;document.querySelectorAll('#ear .chip').forEach(x=>x.setAttribute('aria-pressed',x===b));document.querySelectorAll('.egrp').forEach(g=>g.hidden=!!b.dataset.a&&g.dataset.g!==b.dataset.a)});
+  if(viewCasebook.focus){const el=document.getElementById('case-'+viewCasebook.focus);viewCasebook.focus='';if(el)setTimeout(()=>{el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1600)},150)}
 }
 
 // ---- The Essay Column
@@ -978,28 +1034,29 @@ function fodHTML(it){
    <button class="btn" data-ecopy="${esc(it.id)}">${IC.copy}Copy</button></div></article>`;
 }
 function viewEssay(){
+  lastPaper='';
   const since=Object.values(E.topics).filter(t=>t[0]>=2020).length,tot=Object.keys(E.topics).length;
   const ranked=[...E.themes].sort((a,b)=>b.score-a.score),max=ranked[0]?ranked[0].score:1;
   const years=[...new Set(Object.values(E.topics).map(t=>t[0]))].filter(y=>y>=2020).sort((a,b)=>b-a);
   const latest=(E.fodder||[]).slice().sort((a,b)=>b.date<a.date?-1:1)[0];
-  const types=['All',...new Set(FOD.map(f=>f.type))];
+  const types=['All',...new Set(FOD.filter(f=>latest&&f._ed===latest).map(f=>f.type))];
   $('#main').innerHTML=`<div class="hero"><canvas id="fx" aria-hidden="true"></canvas><div class="wrap">
    <div class="eyebrow">The Essay Column</div>
    <h1>Ideas that outlive the news.</h1>
-   <p class="sub">Essay topics since 2020 are philosophical. This page maps what UPSC keeps asking, and every day collects the stories, quotes, examples and data from the paper that can carry those essays.</p>
+   <p class="sub">What UPSC keeps asking, and the day's stories, quotes and examples that can carry those essays.</p>
    <div class="stats"><div><b>${tot}</b><span>essay topics, 2013–2026</span></div><div><b>${since}</b><span>since 2020 (weighted ×3)</span></div><div><b>${E.themes.length}</b><span>essay themes</span></div><div><b>${FOD.length}</b><span>pieces of essay material</span></div></div>
   </div></div><div class="wrap"><section class="block">
-   <div class="secth"><h2>Reading the pattern</h2><span>Editor's notes from analysing the essay papers</span></div>
+   <div class="secth"><h2>The pattern in brief</h2><span>From the essay papers, 2013–2026</span></div>
    <div class="notes">${E.notes.map((n,i)=>`<div class="note"><i>${i+1}</i><b>${esc(n.h)}</b><p>${esc(n.t)}</p></div>`).join('')}</div>
 
    <div class="secth"><h2>Where the essays come from</h2><span><i style="display:inline-block;width:12px;height:10px;background:var(--saffron);border-radius:3px"></i> 2020–2026 (×3) &nbsp; <i style="display:inline-block;width:12px;height:10px;background:#F8D9A8;border-radius:3px"></i> 2013–2019</span></div>
    <div class="bars">${ranked.map(t=>`<a class="bar" href="#essay-${t.k}"><span class="nm">${esc(t.n)}</span><span class="tr"><i class="n" style="width:${t.newQ.length*3/max*100}%"></i><i class="o" style="width:${t.oldQ.length/max*100}%"></i></span><span class="ct">${t.newQ.length} since 2020 · ${t.oldQ.length} before</span></a>`).join('')}</div>
    <p class="note" style="box-shadow:none;margin-top:10px;font-size:.82rem;color:var(--muted)">A topic can belong to two themes. ${esc(E.source||'')}</p>
 
-   <div class="secth"><h2>From today's paper: essay material</h2><span>${latest?esc(latest.paper)+' · '+esc(fmtDate(latest.date)):''}</span></div>
+   <div class="secth"><h2>From today's paper: essay material</h2><span>${latest?esc(latest.paper)+' · '+esc(fmtDate(latest.date))+' · ':''}<a href="#paper-essay">Earlier material, theme by theme, in The Almanac →</a></span></div>
    <div class="tool"><div class="chips" id="ety">${types.map((t,i)=>`<button class="chip" aria-pressed="${i===0}" data-t="${esc(t)}">${esc(t)}</button>`).join('')}</div>
    <select class="sel" id="eth" aria-label="Filter by theme"><option value="">All themes</option>${E.themes.map(t=>`<option value="${t.k}">${esc(t.n)}</option>`).join('')}</select></div>
-   <div class="fod" id="fod">${FOD.map(fodHTML).join('')||'<div class="nothing">Essay material appears here with each edition.</div>'}</div>
+   <div class="fod" id="fod">${FOD.filter(f=>latest&&f._ed===latest).map(fodHTML).join('')||'<div class="nothing">Essay material appears here with each edition.</div>'}</div>
 
    <div class="secth"><h2>The topic wall, 2020–2026</h2><span>Every essay topic set since 2020, with its themes</span></div>
    <div class="wall">${years.map(y=>{const ids=Object.keys(E.topics).filter(id=>E.topics[id][0]===y);const col=sec=>ids.filter(id=>E.topics[id][1]===sec).map(id=>`<li>${esc(E.topics[id][2])} ${E.topics[id][3].map(k=>`<a href="#essay-${k}">${esc(ETH[k]?ETH[k].n.split(/[,:&]/)[0]:k)}</a>`).join('')}</li>`).join('');return `<div class="wyr"><b>${y}</b><div><h5>SECTION A</h5><ul>${col('A')}</ul></div><div><h5>SECTION B</h5><ul>${col('B')}</ul></div></div>`}).join('')}</div>
@@ -1009,12 +1066,25 @@ function viewEssay(){
   $('#ety').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;ty=b.dataset.t;document.querySelectorAll('#ety .chip').forEach(x=>x.setAttribute('aria-pressed',x===b));run()});
   $('#eth').addEventListener('change',run);
 }
+function viewEssayPaper(){
+  lastPaper='essay';
+  const rk=[...E.themes].sort((a,b)=>b.score-a.score);
+  const cnt=k=>FOD.filter(f=>(f.themes||[]).includes(k)).length;
+  $('#main').innerHTML=`<div class="hero"><canvas id="fx" aria-hidden="true"></canvas><div class="wrap thhead">
+    <a class="back" href="#almanac">← The Almanac</a>
+    <h1>Essay</h1><div class="pl">Essay themes ranked by how often UPSC has asked them since 2020. Each theme collects the essay material from every edition.</div>
+    <div class="stats"><div><b>${E.themes.length}</b><span>essay themes</span></div><div><b>${Object.keys(E.topics).length}</b><span>past topics, 2013–2026</span></div><div><b>${FOD.length}</b><span>pieces of material filed</span></div></div>
+  </div></div><div class="wrap"><section class="block">
+   <p class="pnote">Press Enter on a theme to see its past topics and every story, quote and example filed under it. <a href="#essay">Open The Essay Column →</a></p>
+   <ol class="tlist">${rk.map(t=>{const n=cnt(t.k);return `<li><a href="#essay-${t.k}"><span class="tn2">${esc(t.n)}</span><span class="prio p${t.newQ.length>=10?3:t.newQ.length>=6?2:1}">${t.newQ.length>=10?'Top':t.newQ.length>=6?'High':'Steady'}</span><span class="tm">${t.newQ.length} topics since 2020 · ${t.oldQ.length} before · ${n?`<b>${n} ${n===1?'piece':'pieces'} of material</b>`:'no material yet'}</span></a></li>`}).join('')}</ol>
+  </section></div>`;fx();
+}
 function viewEssayTheme(k){
   const t=ETH[k];if(!t){location.hash='#essay';return}
   const items=FOD.filter(f=>(f.themes||[]).includes(k));
   const li=ids=>ids.sort((a,b)=>E.topics[b][0]-E.topics[a][0]).map(id=>`<li style="display:flex;gap:10px;align-items:baseline;padding:6px 0;border-top:1px solid var(--line2)"><span class="code">${E.topics[id][0]}${E.topics[id][1]!=='-'?' · '+E.topics[id][1]:''}</span><span>${esc(E.topics[id][2])}</span></li>`).join('');
   $('#main').innerHTML=`<div class="hero"><canvas id="fx" aria-hidden="true"></canvas><div class="wrap thhead">
-   <a class="back" href="#essay">← The Essay Column</a><h1>${esc(t.n)}</h1><div class="pl">${esc(t.d)}</div>
+   ${lastPaper==='essay'?'<a class="back" href="#paper-essay">← The Almanac · Essay</a>':'<a class="back" href="#essay">← The Essay Column</a>'}<h1>${esc(t.n)}</h1><div class="pl">${esc(t.d)}</div>
    <div class="stats"><div><b>${t.newQ.length}</b><span>topics since 2020</span></div><div><b>${t.oldQ.length}</b><span>topics 2013–2019</span></div><div><b>${items.length}</b><span>pieces of material</span></div><div><b>#${[...E.themes].sort((a,b)=>b.score-a.score).indexOf(t)+1}</b><span>rank of ${E.themes.length}</span></div></div>
   </div></div><div class="wrap"><section class="block">
    <div class="note" style="margin-bottom:18px"><b>How to approach it</b><p>${esc(t.tip)}</p></div>
@@ -1029,7 +1099,8 @@ function viewEssayTheme(k){
 function copy(txt){(navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(txt):Promise.reject()).then(()=>toast('Copied to clipboard')).catch(()=>{const ta=document.createElement('textarea');ta.value=txt;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');toast('Copied to clipboard')}catch(e){toast('Copy not available here')}ta.remove()})}
 document.addEventListener('click',e=>{
   const s=e.target.closest('[data-save]');if(s){const id=s.dataset.save;SAVED.has(id)?SAVED.delete(id):SAVED.add(id);store.set('saved',[...SAVED]);s.setAttribute('aria-pressed',SAVED.has(id));s.innerHTML=IC.saved+(SAVED.has(id)?'Clipped':'Clip');toast(SAVED.has(id)?'Clipped for revision':'Removed from Clippings');nav(cur);return}
-  const cc=e.target.closest('[data-ccopy]');if(cc){const c=CASES.find(x=>x._id===cc.dataset.ccopy);if(c)copy(`GS4 ETHICS · ${(EAREA[c.area]||[c.area])[0]}\n${c.title}\n${c.case}\nEthical lesson: ${c.lesson}\nValues: ${(c.values||[]).join(', ')}\n(${c.src}, ${fmtDate(c._ed.date)})`);return}
+  const cc=e.target.closest('[data-ccopy]');if(cc){const c=CASES.find(x=>x._id===cc.dataset.ccopy);if(c)copy(c.syllabus?`GS4 ETHICS · ${(EAREA[c.area]||[c.area])[0]}\n${c.title}\n${c.news}\nSyllabus: ${c.syllabus}\nConnection: ${c.link}\nPractice question: ${c.question}\n${(c.pyq||[]).filter(id=>MM.pyq[id]).map(id=>'Asked before: '+code(id)+': '+qtext(id)).join('\n')}\nKeywords: ${(c.keywords||[]).join(', ')}\n(${c.src}, ${fmtDate(c._ed.date)})`:`GS4 ETHICS · ${(EAREA[c.area]||[c.area])[0]}\n${c.title}\n${c.case}\nEthical lesson: ${c.lesson}\nValues: ${(c.values||[]).join(', ')}\n(${c.src}, ${fmtDate(c._ed.date)})`);return}
+  const dc=e.target.closest('[data-case]');if(dc){viewCasebook.focus=dc.dataset.case}
   const ec=e.target.closest('[data-ecopy]');if(ec){const it=FOD.find(x=>x.id===ec.dataset.ecopy);if(it)copy(`${it.type.toUpperCase()}: ${it.title}\n${it.text}\nUse it for: ${it.use}\n(${it.src}, ${fmtDate(it._ed.date)})`);return}
   const c=e.target.closest('[data-copy]');if(c){const it=ITEMS.find(x=>x.id===c.dataset.copy);if(it)copy(notesText(it));return}
   const j2=e.target.closest('[data-jump2]');if(j2){e.preventDefault();const id=j2.dataset.jump2;location.hash=j2.getAttribute('href');setTimeout(()=>{const el=document.getElementById(id);if(el){el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.add('flash');el.setAttribute('tabindex','-1');el.focus({preventScroll:true});setTimeout(()=>el.classList.remove('flash'),1600)}},400);return}
@@ -1042,7 +1113,7 @@ document.addEventListener('keydown',e=>{
   const typing=/input|textarea|select/i.test((e.target.tagName||''));if(typing||e.metaKey||e.ctrlKey||e.altKey)return;
   if(e.key==='/'){const q=$('#q');if(q){e.preventDefault();q.focus()}}
   if(e.key==='0'||e.key==='h'){location.hash='#home';return}
-    const n=['1','2','3','4','5'].indexOf(e.key);if(n>=0){location.hash='#'+PAGES[n][0]}
+    const n=['1','2','3','4','5','6'].indexOf(e.key);if(n>=0){location.hash='#'+PAGES[n][0]}
 });
 
 
@@ -1086,9 +1157,10 @@ function route(){
   if(h==='home'){cur='home';viewHome();document.title=G+' · Today\'s news, tomorrow\'s answers'}
   else if(h==='edition'){cur='edition';viewDossier();document.title='Morning Edition · '+G}
   else if(h==='almanac-all'){cur='almanac';viewAllThemes();document.title='All themes · The Almanac · '+G}
+  else if(h==='paper-essay'){cur='almanac';viewEssayPaper();document.title='Essay · The Almanac · '+G}
   else if((m=h.match(/^paper-(gs[1-4])$/))){cur='almanac';viewPaper(m[1]);document.title=m[1].toUpperCase()+' · The Almanac · '+G}
   else if(h==='almanac'){cur='almanac';viewVault();document.title='The Almanac · '+G}
-  else if(h==='ethics'){cur='almanac';viewCasebook();document.title='The Ethics Casebook · '+G}
+  else if(h==='ethics'){cur='ethics';viewCasebook();document.title='The Ethics Casebook · '+G}
   else if(h==='essay'){cur='essay';viewEssay();document.title='The Essay Column · '+G}
   else if((m=h.match(/^essay-([a-z]+)$/))){cur='essay';viewEssayTheme(m[1]);document.title='Essay: '+(ETH[m[1]]?ETH[m[1]].n:'')+' · '+G}
   else if(h==='index'){cur='index';viewMap();document.title='PYQ Index · '+G}

@@ -97,12 +97,9 @@ TH=[
 ("policy","India's development & governance","Direct policy-style debates: farming, federalism, growth, tourism.","Mostly before 2020; useful as a source of examples for the philosophical topics now asked."),
 ]
 notes=[
- ("Philosophy has replaced policy","From 2013 to 2017, many topics were direct policy debates (federalism, tourism, farming, jobless growth). Since 2020, all 56 topics are aphorisms or abstract ideas. Both sections now test how you think, not what you know."),
- ("Five clusters dominate since 2020","Life as a journey and resilience; reason, doubt and knowledge; happiness and the inner self; choices, ethics and action; and leadership and power. Together they account for most topics. Nature (forests appear in 2022, 2024 and 2026) and gender justice are steady side-streams."),
- ("Paradox is the house style","'A thorn is a changed bud', 'Oxymorons reflect the ironies of life', 'The real is rational', 'A good leader follows the followers': most topics hide a contradiction. A thesis, then antithesis, then synthesis structure suits them well."),
- ("Power and conflict are rising","2024's 'test character by giving power', 2025's 'subdue the enemy without fighting', and 2026's 'elephants fight, grass gets trampled' and 'leader follows the followers' suggest leadership and conflict will keep appearing, given wars in West Asia and Europe."),
- ("Your raw material is the newspaper","Philosophical topics are won with concrete stories: a farmer, a judge, a sportsperson, a scientist. Each day's paper gives one or two of these. The Essay Column below files them under these themes so you have a ready bank by exam time."),
- ("A simple bank per theme","For each theme, aim to collect two stories (one Indian, one global), two short quotes, two data points, one historical example and one book reference. Rotate the dimensions (individual, society, nation, world, future) in the body."),
+ ("Philosophical since 2020","All 56 topics set since 2020 are aphorisms or abstract ideas. Direct policy debates have gone."),
+ ("The themes repeat","Life as a journey, resilience and perseverance (13 topics since 2020); doubt, reason and rationality (13); and education (11) return every year. Social justice through gender is asked steadily (6 topics since 2020, 7 before). Parts of the paper are predictable."),
+ ("So build a bank","Collect stories, quotes and examples under these themes from the daily paper. They are filed theme by theme in The Almanac."),
 ]
 F=[ # fodder items from IE 27 Oct 2026: (type,title,text,use,themes,src,link-topics)
 ("Story","Tigress T-138: not all who wander are lost","Airlifted from Bihar to West Bengal's Buxa reserve to restart a tiger population, T-138 walked 35 km into Assam's Raimona National Park. Forest officials chose to let her explore, saying it is natural for tigers to range 70-80 km before settling.","An opening anecdote for 'Not all who wander are lost': wandering as exploration, not failure. Also nature and the futility of drawing borders around life.",["journey","nature"],"IE p. 11",["2023A3","2026B1"]),

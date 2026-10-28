@@ -985,28 +985,16 @@ window.MM_ESSAY={
  ],
  "notes": [
   {
-   "h": "Philosophy has replaced policy",
-   "t": "From 2013 to 2017, many topics were direct policy debates (federalism, tourism, farming, jobless growth). Since 2020, all 56 topics are aphorisms or abstract ideas. Both sections now test how you think, not what you know."
+   "h": "Philosophical since 2020",
+   "t": "All 56 topics set since 2020 are aphorisms or abstract ideas. Direct policy debates have gone."
   },
   {
-   "h": "Five clusters dominate since 2020",
-   "t": "Life as a journey and resilience; reason, doubt and knowledge; happiness and the inner self; choices, ethics and action; and leadership and power. Together they account for most topics. Nature (forests appear in 2022, 2024 and 2026) and gender justice are steady side-streams."
+   "h": "The themes repeat",
+   "t": "Life as a journey, resilience and perseverance (13 topics since 2020); doubt, reason and rationality (13); and education (11) return every year. Social justice through gender is asked steadily (6 topics since 2020, 7 before). Parts of the paper are predictable."
   },
   {
-   "h": "Paradox is the house style",
-   "t": "'A thorn is a changed bud', 'Oxymorons reflect the ironies of life', 'The real is rational', 'A good leader follows the followers': most topics hide a contradiction. A thesis, then antithesis, then synthesis structure suits them well."
-  },
-  {
-   "h": "Power and conflict are rising",
-   "t": "2024's 'test character by giving power', 2025's 'subdue the enemy without fighting', and 2026's 'elephants fight, grass gets trampled' and 'leader follows the followers' suggest leadership and conflict will keep appearing, given wars in West Asia and Europe."
-  },
-  {
-   "h": "Your raw material is the newspaper",
-   "t": "Philosophical topics are won with concrete stories: a farmer, a judge, a sportsperson, a scientist. Each day's paper gives one or two of these. The Essay Column below files them under these themes so you have a ready bank by exam time."
-  },
-  {
-   "h": "A simple bank per theme",
-   "t": "For each theme, aim to collect two stories (one Indian, one global), two short quotes, two data points, one historical example and one book reference. Rotate the dimensions (individual, society, nation, world, future) in the body."
+   "h": "So build a bank",
+   "t": "Collect stories, quotes and examples under these themes from the daily paper. They are filed theme by theme in The Almanac."
   }
  ],
  "fodder": [
