@@ -322,9 +322,370 @@
      ]
     }
    ]
+  },
+  {
+   "id": "2026-10-29-02",
+   "title": "To counter AI misinformation, invest in skills, literacy",
+   "section": "The Ideas Page",
+   "page": "Page 9",
+   "where": "The Ideas Page, page 9 (Tim Curtis, UNESCO)",
+   "gs": [
+    "GS3",
+    "GS2",
+    "GS4"
+   ],
+   "syllabus": "GS3 › Challenges to internal security through communication networks; role of media and social networking sites; Awareness in IT and AI · GS2 › Education; Government policies · GS4 › Ethics in media and technology",
+   "themes": [
+    "cyber",
+    "techai",
+    "education",
+    "rights",
+    "g4applied"
+   ],
+   "summary": "UNESCO's South Asia head argues that laws and AI labels cannot keep pace with AI-made misinformation; India must build media and information literacy (MIL) for all, with platforms, newsrooms and creators sharing the job.",
+   "ideas": [
+    [
+     "From access to judgement: generative AI makes convincing fakes cheap, so the question is no longer how to find information but how to judge what is reliable. Media and information literacy (MIL) is the answer.",
+     "GS3 · AI and misinformation",
+     "With generative AI making fakes cheap, the challenge has shifted from accessing information to judging it, which makes media and information literacy essential."
+    ],
+    [
+     "Connectivity is not capability: India has over a billion internet subscribers, but few can navigate the information space; platforms reward emotionally charged content, which deepens polarisation.",
+     "GS3 · Digital divide / social media",
+     "India's billion internet users show connectivity, not capability: only 18% of adults can file a cybercrime complaint online."
+    ],
+    [
+     "Misinformation does most harm in crises and elections, when people most need reliable information.",
+     "GS3 internal security · GS2 elections",
+     "Misinformation is most dangerous in crises and elections, as out-of-context flood videos in Nepal and a fake AI audio in Slovakia's election show."
+    ],
+    [
+     "Laws and labels are not enough: labelling AI content helps, but no law or detection tool can match the speed of synthetic content; people need skills, through trained teachers, local-language materials, and outreach beyond classrooms to rural people, women and persons with disabilities.",
+     "GS3 · Way forward / GS2 education",
+     "No law or detection tool can keep pace with AI fakes; lasting defence lies in citizens' skills, taught in local languages and beyond classrooms."
+    ],
+    [
+     "'We All Play a Part': platforms must be transparent about algorithms, label synthetic media and moderate beyond English and Hindi; newsrooms must explain how they verify; creators need verification skills and ethics.",
+     "GS3 governance · GS4 media ethics",
+     "Countering misinformation is a shared duty: transparent platforms, newsrooms that explain verification, and creators trained in ethics."
+    ],
+    [
+     "MIL is an investment in democracy: children grow up in AI-shaped feeds before they can question them, so MIL builds critical thinking, social trust and collective resilience.",
+     "GS2 democracy · Essay",
+     "Media literacy is not just safe technology use; it is an investment in critical thinking, social trust and democratic resilience."
+    ]
+   ],
+   "keywords": [
+    [
+     "Media and information literacy (MIL)",
+     "Ability to access, understand, evaluate and share information responsibly",
+     "Way forward in misinformation answers",
+     "Media and information literacy is the most durable defence against AI-made misinformation."
+    ],
+    [
+     "Generative AI / synthetic media",
+     "AI that creates realistic text, images, audio and video",
+     "AI answers",
+     "Generative AI has made synthetic media cheap and convincing."
+    ],
+    [
+     "Deepfakes",
+     "AI-made fake audio or video of real people",
+     "Elections / security",
+     "A deepfake audio before Slovakia's 2023 election shows the threat to elections."
+    ],
+    [
+     "Labelling AI-generated content",
+     "Marking synthetic content as AI-made",
+     "Regulation",
+     "Labelling AI content helps but cannot stop deception or the misuse of genuine footage."
+    ],
+    [
+     "Algorithmic amplification / attention economy",
+     "Platforms promoting content that grabs attention, often emotional",
+     "Social media answers",
+     "Platforms built for attention amplify emotionally charged and divisive content."
+    ],
+    [
+     "Polarisation",
+     "Society splitting into hostile camps",
+     "Democracy / internal security",
+     "Unchecked misinformation deepens polarisation."
+    ],
+    [
+     "Content moderation beyond English and Hindi",
+     "Policing harmful content in all Indian languages",
+     "Platform accountability",
+     "In multilingual India, moderation must work beyond English and Hindi."
+    ],
+    [
+     "Liar's dividend",
+     "Real evidence dismissed as fake because fakes are common",
+     "Analytical depth",
+     "The spread of deepfakes lets people dismiss genuine footage as fake: the liar's dividend."
+    ],
+    [
+     "Collective resilience",
+     "A society's shared ability to resist manipulation",
+     "Conclusion",
+     "MIL builds collective resilience against disinformation."
+    ]
+   ],
+   "data": [
+    [
+     "1 billion+",
+     "Internet subscribers in India",
+     "TRAI, via IE",
+     "Digital India / scale of the challenge",
+     "India has over a billion internet subscribers (TRAI)."
+    ],
+    [
+     "18%",
+     "People aged 15+ able to file a cybercrime complaint through the official portal",
+     "NSO survey 2025, via IE",
+     "Digital capability gap",
+     "Only 18% of Indians aged 15 and above can file a cybercrime complaint online (NSO, 2025)."
+    ]
+   ],
+   "examples": [
+    [
+     "UNESCO Global Media and Information Literacy Week (2026)",
+     "Theme: 'We All Play a Part: Media and Information Literacy for the People'",
+     "",
+     "Global initiative / shared responsibility",
+     "UNESCO's 2026 MIL Week theme, 'We All Play a Part', stresses that countering misinformation is everyone's job."
+    ],
+    [
+     "Nepal floods, August 2026",
+     "Videos with images taken out of context circulated online",
+     "",
+     "Misinformation in disasters",
+     "During Nepal's August floods, out-of-context videos distorted public understanding when reliable information mattered most."
+    ],
+    [
+     "UNESCO Guidelines for the Governance of Digital Platforms",
+     "A framework for platform transparency and accountability",
+     "",
+     "Best practice in platform governance",
+     "UNESCO's Guidelines for the Governance of Digital Platforms offer a framework for transparency and accountability."
+    ],
+    [
+     "Slovakia's 2023 election",
+     "An AI-generated audio falsely implicated politicians two days before the vote",
+     "",
+     "AI and elections",
+     "An AI-faked audio two days before Slovakia's 2023 election shows the risk to electoral integrity."
+    ],
+    [
+     "UNESCO's 'AI Answers. You Decide' module",
+     "Teaches learners how AI works and how to assess its outputs",
+     "",
+     "Best practice in AI literacy",
+     "UNESCO's 'AI Answers. You Decide' module teaches students to question AI outputs."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS3-2026/Q9",
+     "Directly usable: fake news threatens internal security; MIL complements the amended IT Rules."
+    ],
+    [
+     "GS3-2024/Q20",
+     "Social media as a security challenge: AI-made misinformation is the newest form."
+    ],
+    [
+     "GS3-2016/Q20",
+     "Misuse of social media: today the tool is generative AI, the answer includes literacy."
+    ],
+    [
+     "GS3-2026/Q16",
+     "AI's risks include cheap, fast misinformation."
+    ],
+    [
+     "GS3-2024/Q17",
+     "Disaster resilience includes reliable information; misinformation during Nepal's floods shows the risk."
+    ],
+    [
+     "GS4-2025/Q1a",
+     "Ethical issues of social media: platform, creator and user responsibility."
+    ],
+    [
+     "GS4-2024/Q1a",
+     "Relying on AI outputs without judgement is an ethical risk; MIL teaches people to question them."
+    ]
+   ],
+   "trend": {
+    "t": "Social media has moved through the papers from a tool of terror (ISIS recruitment 2015, non-state actors 2016) to a security challenge (social media and encryption 2024) to fake news and its regulation (IT Rules 2026). GS4 has added the ethics of social media (2025) and of AI (2024, 2026).",
+    "watch": "Social media and misinformation have come in four GS3 papers and in GS4 2025, and AI in 2023, 2024 and 2026. AI-driven misinformation joins both threads and is a must-study topic.",
+    "focus": [
+     "Deepfakes and AI misinformation in elections and public order",
+     "Media and information literacy as a long-term solution",
+     "Platform governance: IT Rules, labelling AI content, transparency of algorithms",
+     "Misinformation during disasters and crises"
+    ]
+   },
+   "potential": [
+    "Generative AI has made misinformation cheaper and faster. Discuss the threats it poses to democracy and internal security in India and suggest a strategy that goes beyond regulation. (15 marks)",
+    "'Connectivity does not automatically translate into capability.' Examine the need for media and information literacy in India. (10 marks)",
+    "Discuss the role of digital platforms in countering misinformation. Should they be regulated more strictly? (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "Generative AI has made misinformation cheaper and faster. Discuss the threats it poses to democracy and internal security in India and suggest a strategy that goes beyond regulation.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction: generative AI and the misinformation challenge (one line, with facts)",
+      "Threats to democracy and internal security",
+      "Why regulation alone falls short",
+      "Strategy beyond regulation (way forward, its own part)",
+      "Conclusion (one line)"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "India has over a billion internet users (TRAI), yet only 18% of adults can file a cybercrime complaint online (NSO, 2025), and generative AI now makes convincing fakes cheap."
+      },
+      {
+       "h": "Threats to democracy and internal security",
+       "pts": [
+        {
+         "k": "Election manipulation",
+         "t": "Deepfakes released just before polls can sway voters before they are debunked.",
+         "ex": "AI audio two days before Slovakia's 2023 election."
+        },
+        {
+         "k": "Communal tension and public order",
+         "t": "Fabricated videos can spark violence within hours.",
+         "ex": ""
+        },
+        {
+         "k": "Disaster misinformation",
+         "t": "False content in crises misleads people when they most need facts.",
+         "ex": "Out-of-context videos during Nepal's 2026 floods."
+        },
+        {
+         "k": "Polarisation",
+         "t": "Algorithms reward outrage, splitting society into hostile camps.",
+         "ex": ""
+        },
+        {
+         "k": "Erosion of trust",
+         "t": "When fakes abound, genuine evidence is also doubted (the liar's dividend).",
+         "ex": ""
+        },
+        {
+         "k": "Fraud and cybercrime",
+         "t": "AI voice clones and fake identities enable scams.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Why regulation alone falls short",
+       "pts": [
+        {
+         "k": "Speed",
+         "t": "Synthetic content spreads faster than any law or detection tool can act.",
+         "ex": ""
+        },
+        {
+         "k": "Labels are limited",
+         "t": "Labelling AI content cannot stop deception or the misuse of genuine footage.",
+         "ex": ""
+        },
+        {
+         "k": "Free speech",
+         "t": "Heavy regulation risks censorship of legitimate expression.",
+         "ex": "Article 19(1)(a)."
+        },
+        {
+         "k": "Languages",
+         "t": "Moderation rarely works well beyond English and Hindi.",
+         "ex": ""
+        },
+        {
+         "k": "Cross-border platforms",
+         "t": "Content and platforms often lie outside Indian jurisdiction.",
+         "ex": ""
+        },
+        {
+         "k": "Low digital capability",
+         "t": "Many users cannot report or verify content.",
+         "ex": "Only 18% can file a cybercrime complaint online."
+        }
+       ]
+      },
+      {
+       "h": "Strategy beyond regulation",
+       "pts": [
+        {
+         "k": "Media and information literacy in schools",
+         "t": "Teach students to evaluate sources, spot bias and understand algorithms, with trained teachers and local-language material.",
+         "ex": "UNESCO's 'AI Answers. You Decide' module."
+        },
+        {
+         "k": "Reach beyond classrooms",
+         "t": "Bring MIL to rural people, women and persons with disabilities.",
+         "ex": ""
+        },
+        {
+         "k": "Trusted local messengers",
+         "t": "Community radio, local journalists and health workers can share verified information, especially in emergencies.",
+         "ex": ""
+        },
+        {
+         "k": "Platform accountability",
+         "t": "Transparent algorithms, labelled synthetic media and rapid crisis response.",
+         "ex": "UNESCO Guidelines for the Governance of Digital Platforms."
+        },
+        {
+         "k": "Responsible newsrooms and creators",
+         "t": "Explain verification; train influencers in fact-checking and ethics.",
+         "ex": ""
+        },
+        {
+         "k": "Shared responsibility",
+         "t": "Government, platforms, media, schools and citizens each play a part.",
+         "ex": "UNESCO MIL Week 2026: 'We All Play a Part'."
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "Laws can slow misinformation, but only a media-literate public can defeat it; MIL is an investment in democracy itself."
+      }
+     ]
+    }
+   ]
   }
  ],
- "ethics": [],
+ "ethics": [
+  {
+   "id": "2026-10-29-e1",
+   "area": "public",
+   "themes": [
+    "g4applied",
+    "g4values"
+   ],
+   "card": "2026-10-29-02",
+   "src": "IE p. 9 (Tim Curtis)",
+   "title": "Everyone's duty in the information age",
+   "news": "UNESCO's South Asia head says platforms, newsrooms, creators and citizens must all fight AI-made misinformation.",
+   "syllabus": "Ethical issues in media and technology · Role of education in inculcating values",
+   "link": "Sharing information carries responsibility: platforms owe transparency, creators owe verification, and citizens owe a pause before forwarding.",
+   "pyq": [
+    "GS4-2025/Q1a",
+    "GS4-2024/Q1a"
+   ],
+   "question": "As a district collector during floods, you find doctored videos spreading panic on social media. How will you respond while respecting freedom of expression?",
+   "keywords": [
+    "Responsibility",
+    "Truthfulness",
+    "Critical thinking"
+   ]
+  }
+ ],
  "essay": [
   {
    "id": "e-2026-10-29-01",
@@ -338,6 +699,23 @@
    "src": "IE p. 9 (Ishan Bakshi)",
    "topics": [
     "2020B2"
+   ]
+  },
+  {
+   "id": "e-2026-10-29-02",
+   "type": "Example",
+   "title": "From access to judgement",
+   "text": "India has over a billion internet users, but only 18% of adults can file a cybercrime complaint online. As generative AI makes fakes cheap, 'the question is no longer how to access information, but how to judge what is reliable'. Children meet AI-shaped feeds before they can question them.",
+   "use": "For 'A well-educated mind will always have more questions than answers' (2026) and 'Biased media is a real threat to Indian democracy' (2019).",
+   "themes": [
+    "learning",
+    "tech",
+    "reason"
+   ],
+   "src": "IE p. 9 (Tim Curtis)",
+   "topics": [
+    "2026B2",
+    "2019B3"
    ]
   }
  ]
