@@ -334,11 +334,13 @@
     "GS2",
     "GS4"
    ],
-   "syllabus": "GS3 › Challenges to internal security through communication networks; role of media and social networking sites; Awareness in IT and AI · GS2 › Education; Government policies · GS4 › Ethics in media and technology",
+   "syllabus": "GS3 › Internal security: role of media and social networking sites; Cyber security; Science and technology: AI · GS2 › Education (digital and media literacy); Elections · GS4 › Ethics in media and technology; Role of education in inculcating values",
    "themes": [
     "cyber",
     "techai",
     "education",
+    "elections",
+    "disaster",
     "rights",
     "g4applied"
    ],
