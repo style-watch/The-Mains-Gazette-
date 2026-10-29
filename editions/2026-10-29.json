@@ -965,6 +965,78 @@
      ]
     }
    ]
+  },
+  {
+   "id": "2026-10-29-04",
+   "title": "RBI to hire agency to manage social media presence",
+   "section": "Economy",
+   "page": "Page 11",
+   "where": "Economy, page 11 (George Mathew & Akash Mandal)",
+   "gs": [
+    "GS2",
+    "GS3",
+    "GS4"
+   ],
+   "syllabus": "GS2 › E-governance; Transparency and accountability · GS3 › Monetary policy and its communication · GS4 › Citizen-centric governance; Quality of service delivery",
+   "themes": [
+    "egov",
+    "fiscal",
+    "g4transparency"
+   ],
+   "summary": "The RBI has invited bids for an agency to run its social media round the clock, with podcasts, digital content and responses to the public, to communicate better in a digital-first information environment.",
+   "ideas": [
+    [
+     "E-governance: the RBI is taking its policies, decisions and public-awareness messages directly to citizens through social media and podcasts.",
+     "GS2 · E-governance",
+     "The RBI's round-the-clock social media outreach shows public institutions adapting to a digital-first information environment."
+    ],
+    [
+     "Clear communication strengthens monetary policy: when people understand the central bank's signals, policy works better.",
+     "GS3 · Monetary policy",
+     "Effective communication by the RBI makes monetary policy more credible and effective."
+    ],
+    [
+     "People-centric good governance: listening to online conversations and answering the public makes an institution more transparent and responsive.",
+     "GS4 · Citizen-centric governance",
+     "By tracking and answering public responses online, the RBI models citizen-centric, responsive governance."
+    ]
+   ],
+   "keywords": [
+    [
+     "Digital-first information environment",
+     "A setting where people get information mainly online",
+     "E-governance / media",
+     "Public institutions must communicate effectively in a digital-first information environment."
+    ],
+    [
+     "Citizen-centric governance",
+     "Governance designed around citizens' needs and feedback",
+     "GS2 / GS4",
+     "Two-way digital outreach makes governance citizen-centric."
+    ],
+    [
+     "Central bank communication",
+     "How the RBI explains its policy to markets and the public",
+     "GS3 monetary policy",
+     "Clear central bank communication anchors public expectations."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "RBI's social media tender (Oct 2026)",
+     "24x7 social media, podcasts, digital content and public responses, run by its Department of Communication",
+     "GS4",
+     "Best practice: people-centric, good governance",
+     "The RBI's 2026 move to run 24x7 social media and podcasts is a best practice in people-centric governance."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS4-2022/Q4a",
+     "Good governance and e-governance: the RBI's direct digital outreach to citizens is an example."
+    ]
+   ]
   }
  ],
  "ethics": [
