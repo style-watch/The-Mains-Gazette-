@@ -1049,6 +1049,473 @@
     ]
    ],
    "pyqs": []
+  },
+  {
+   "id": "2026-10-30-07",
+   "title": "May make banks pay digital arrest victims if no due diligence: SC",
+   "section": "Front Page",
+   "page": "Page 1",
+   "where": "Front page, continued on page 2 (Ananthakrishnan G)",
+   "gs": [
+    "GS3",
+    "GS2",
+    "GS4"
+   ],
+   "syllabus": "GS3 › Challenges to internal security through communication networks; Basics of cyber security; Money laundering · GS2 › Structure and functioning of the judiciary; Statutory, regulatory and quasi-judicial bodies · GS4 › Compassion towards the weaker sections; Probity",
+   "themes": [
+    "cyber",
+    "judiciary",
+    "bodies"
+   ],
+   "summary": "In its own case on digital arrest scams, the Supreme Court said it may make banks compensate victims and face prosecution where poor due diligence enabled the fraud, and faulted the RBI for 'soft pedalling'.",
+   "ideas": [
+    [
+     "A fraud on the economy: the Court called digital arrest the biggest financial fraud on the country's economy, running into thousands of crores; it is now a systemic threat, not a scattered crime.",
+     "GS3 · Cybercrime / financial security",
+     "Digital arrest scams, called by the Supreme Court the biggest financial fraud on the economy, have become a systemic cyber-security threat."
+    ],
+    [
+     "Accountability shifted to banks: the Court proposes that banks compensate victims and face prosecution if lapses enabled the fraud, with a mandatory rule to suspend unusual transactions until full verification.",
+     "GS3 banking · GS2 judiciary",
+     "Placing liability on banks that fail due diligence puts the cost of fraud on the institution best placed to stop it."
+    ],
+    [
+     "A regulator too soft: the Court faulted the RBI for consulting banks while the Court sought action against them, and called 'guidelines' too weak a word; rules need teeth.",
+     "GS2 · Regulatory bodies",
+     "Advisory guidelines invite regulatory soft-pedalling; mandatory rules with liability make regulators effective."
+    ],
+    [
+     "Insiders in the fraud: the Court noted that some bank officials are involved; the Attorney General said not every employee colludes and some have acted to stop frauds.",
+     "GS3 · Insider threat in banking",
+     "Insider collusion turns banks from the first line of defence into a channel for cyber fraud."
+    ],
+    [
+     "A three-level response: the Attorney General said prevention works through awareness, bank checks at the right stage, and RBI and MeitY rules due by December, and that complaints have fallen since the Court stepped in.",
+     "GS3 · Way forward",
+     "Countering digital arrest needs awareness, bank-level checks and binding regulation working together."
+    ]
+   ],
+   "keywords": [
+    [
+     "Digital arrest",
+     "Scammers posing as officials hold victims in a fake 'arrest' over video calls until they pay",
+     "GS3 · Cybercrime",
+     "Digital arrest scams exploit fear of authority rather than technical loopholes."
+    ],
+    [
+     "Social engineering",
+     "Manipulating people psychologically rather than hacking systems",
+     "GS3 · Cyber security",
+     "Digital arrest is social engineering: the weakest link is human fear, not software."
+    ],
+    [
+     "Burden on the best-placed actor",
+     "Making the party that can most easily prevent a loss bear it",
+     "GS2 · Regulation",
+     "Liability should rest with the actor best placed to stop fraud: the bank."
+    ],
+    [
+     "Regulatory soft-pedalling",
+     "A regulator going easy on those it regulates",
+     "GS2 · Regulatory bodies",
+     "The Court's rebuke of the RBI warns against regulatory soft-pedalling."
+    ],
+    [
+     "Insider collusion",
+     "Employees helping outside criminals",
+     "GS3 · Banking security",
+     "Insider collusion makes internal controls as important as cyber defences."
+    ],
+    [
+     "Suo motu jurisdiction",
+     "A court acting on its own, without a petition",
+     "GS2 · Judiciary",
+     "Through suo motu action, the Court made a scattered crime a matter of national accountability."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "The Supreme Court's suo motu case",
+     "The Court took up digital arrest scams on its own, without waiting for a petition",
+     "",
+     "GS2 · Judiciary / people-centric governance",
+     "The Supreme Court's suo motu case on digital arrests shows the judiciary stepping in to protect citizens where others were slow."
+    ],
+    [
+     "Victim's money stays untouched, the bank pays",
+     "The proposed rule puts the burden on the strong institution, not the frightened individual",
+     "GS4",
+     "GS4 · Compassion towards the weaker sections",
+     "Making banks, not frightened victims, bear the loss reflects compassion towards the vulnerable."
+    ],
+    [
+     "Bank officials helping fraudsters",
+     "The Court noted some bank officials are involved in digital arrest frauds",
+     "GS4",
+     "GS4 · Corruption and probity",
+     "Insider collusion by bank officials is corruption that betrays the public trust placed in institutions."
+    ],
+    [
+     "Mandatory checks, not soft guidelines",
+     "The Court pushed the RBI to make transaction checks compulsory rather than advisory",
+     "",
+     "GS2 · Proactive governance in regulation",
+     "Regulators must act before harm spreads: binding rules, not advisory guidelines."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS3-2020/Q9",
+     "Types of cybercrime and measures: digital arrest is the newest major type, with bank liability as a measure."
+    ],
+    [
+     "GS3-2022/Q19",
+     "A comprehensive cyber security strategy: financial fraud shows gaps across banks, regulators and citizens."
+    ],
+    [
+     "GS2-2024/Q14",
+     "The growth of PIL and a powerful Supreme Court: suo motu action on digital arrest is a fresh example."
+    ],
+    [
+     "GS2-2015/Q16",
+     "Independent, effective regulators: the Court's rebuke of the RBI's soft-pedalling."
+    ]
+   ],
+   "trend": {
+    "t": "Cyber questions have come almost every year: cyber warfare (2013), the cyber security policy (2015), threats and frameworks (2017), data security (2018), CyberDome (2019), types of cybercrime (2020), cross-border attacks (2021) and a national strategy (2022). The focus has moved from threats to the state towards crimes against citizens and the institutional response.",
+    "watch": "Cyber security appeared every year from 2017 to 2022. It is a must-study GS3 area, now with financial fraud at its centre.",
+    "focus": [
+     "Types of cybercrime, especially financial fraud",
+     "Institutional liability of banks and regulators",
+     "National cyber security strategy and coordination",
+     "Citizen awareness and digital literacy"
+    ]
+   },
+   "potential": [
+    "\"Digital arrest scams expose gaps in both banking safeguards and regulatory enforcement.\" Discuss, and suggest a framework to protect citizens. (15 marks)",
+    "Should banks be held liable for losses suffered by victims of cyber fraud? Critically examine. (10 marks)",
+    "Examine the role of the Supreme Court's suo motu interventions in addressing gaps in governance, with recent examples. (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "Should banks be held liable for losses suffered by victims of cyber fraud? Critically examine.",
+     "marks": 10,
+     "words": 150,
+     "parts": [
+      "Introduction: the Supreme Court's proposal in one line",
+      "Arguments for bank liability",
+      "Concerns",
+      "Way forward with conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "In October 2026 the Supreme Court proposed making banks compensate digital arrest victims where failure of due diligence enabled the fraud."
+      },
+      {
+       "h": "Arguments for bank liability",
+       "pts": [
+        {
+         "k": "Best-placed to prevent",
+         "t": "Banks see transactions in real time and can stop unusual transfers.",
+         "ex": "Mandatory suspension pending verification."
+        },
+        {
+         "k": "Insider collusion",
+         "t": "Some frauds involve bank officials; liability strengthens internal controls.",
+         "ex": ""
+        },
+        {
+         "k": "Protecting the vulnerable",
+         "t": "Victims act under fear and manipulation; the system must protect them.",
+         "ex": ""
+        },
+        {
+         "k": "Incentive for diligence",
+         "t": "Liability pushes banks to invest in fraud detection.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Concerns",
+       "pts": [
+        {
+         "k": "Moral hazard",
+         "t": "Customers may become careless if banks always pay.",
+         "ex": ""
+        },
+        {
+         "k": "Cost burden",
+         "t": "Compensation costs may be passed on to all customers.",
+         "ex": ""
+        },
+        {
+         "k": "Friction for genuine users",
+         "t": "Excessive holds may delay legitimate transactions.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Way forward and conclusion",
+       "pts": [
+        {
+         "k": "Graded liability",
+         "t": "Link liability to proven lapses in due diligence.",
+         "ex": ""
+        },
+        {
+         "k": "Binding regulation",
+         "t": "Mandatory RBI rules rather than advisory guidelines.",
+         "ex": ""
+        },
+        {
+         "k": "Awareness",
+         "t": "Citizen awareness that no agency 'arrests' anyone over a video call.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "Liability tied to due diligence can make banks the first line of defence against cyber fraud rather than its conduit."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-10-30-08",
+   "title": "'Can take on grenade, what about idle youths?': Punjab Police despair in border areas",
+   "section": "Front Page",
+   "page": "Page 1",
+   "where": "Front page anchor, continued on page 2 (Man Aman Singh Chhina)",
+   "gs": [
+    "GS3",
+    "GS2",
+    "GS1",
+    "GS4"
+   ],
+   "syllabus": "GS3 › Linkages between organised crime and terrorism; Role of external state and non-state actors; Security challenges in border areas · GS2 › India and its neighbourhood; Indian diaspora · GS1 › Youth and unemployment · GS4 › Probity, courage",
+   "themes": [
+    "terror",
+    "border",
+    "neighbour",
+    "diaspora",
+    "jobs"
+   ],
+   "summary": "In Punjab's border districts, gangs with handlers abroad have killed policemen and sarpanchs this year; officers say idle youth drawn to gangs is the deeper problem. (Linked to today's card on Punjab's drug crisis.)",
+   "ideas": [
+    [
+     "Crime, terror and handlers abroad: 10–15 gangs operate in Punjab with leaders abroad, in extortion and drugs, reportedly backed by Pakistan's ISI; gangs post videos claiming killings, and an ISI-linked outfit keeps surfacing.",
+     "GS3 · Organised crime–terror nexus",
+     "Punjab's gangs fuse extortion, drugs and cross-border backing, a textbook crime–terror nexus."
+    ],
+    [
+     "Local officials as targets: since February, six attacks on police personnel have killed five, and sarpanchs and their relatives are being killed; exposed posts, some without boundary walls, show a thinly protected front line.",
+     "GS3 · Border area policing",
+     "Attacks on police posts and village heads show how border-area governance itself has become a target."
+    ],
+    [
+     "Idle youth, the deeper problem: officers say it is a socio-economic challenge, as young people seek 'work' from gangs, gangsters build social media followings, and quick bail weakens deterrence.",
+     "GS1 youth · GS3 internal security",
+     "Unemployed youth in border districts become recruits for gangs, making jobs a security issue."
+    ],
+    [
+     "Crime money in politics: the Gurdaspur MP warns of extortion and drug money entering elections through gangsters' relatives and has sought ED and Income Tax probes.",
+     "GS2 · Criminalisation of politics",
+     "Crime money entering elections threatens the integrity of democracy in border states."
+    ],
+    [
+     "Beyond policing: police offer rewards for information, and a senior officer suggests reserving 1–2% of vacancies in the Army, police and central forces for border youth.",
+     "GS3 · Border area development",
+     "Employment and community trust are as vital to border security as policing."
+    ]
+   ],
+   "keywords": [
+    [
+     "Crime–terror nexus",
+     "Criminal gangs and terror networks working together",
+     "GS3 · Internal security",
+     "The crime–terror nexus in Punjab blurs the line between gang violence and terrorism."
+    ],
+    [
+     "Proxy violence",
+     "A hostile state acting through local criminals",
+     "GS3 · External state actors",
+     "Pakistan-backed gangs show proxy violence through local criminals."
+    ],
+    [
+     "Diaspora-based handlers",
+     "Gang leaders directing operations from abroad",
+     "GS2 diaspora · GS3 security",
+     "Diaspora-based handlers make Punjab's gang problem transnational."
+    ],
+    [
+     "Deterrence deficit",
+     "Quick bail weakening the fear of punishment",
+     "GS3 · Criminal justice",
+     "A deterrence deficit lets hired shooters return to crime within months."
+    ],
+    [
+     "Criminalisation of politics",
+     "Crime money and criminals entering the electoral process",
+     "GS2 · Elections",
+     "Gang money in elections deepens the criminalisation of politics."
+    ],
+    [
+     "Winning hearts and minds",
+     "Earning local trust to deny support to criminals and militants",
+     "GS3 · Border management",
+     "Jobs and trust deny gangs local support, the core of winning hearts and minds."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "Recruitment quota for border youth",
+     "A senior officer proposes 1–2% of Army, police and central force vacancies for youth from border areas",
+     "",
+     "GS3 · Border area development",
+     "Reserving security-force jobs for border youth turns potential gang recruits into stakeholders in security."
+    ],
+    [
+     "Exposed police posts in border districts",
+     "Posts with no boundary walls and few personnel face grenade and gun attacks",
+     "",
+     "GS3 · Border management",
+     "Punjab's exposed border posts show why border management needs infrastructure, not just manpower."
+    ],
+    [
+     "Idle youth seeking 'work' from gangs",
+     "Officers say young people with time on their hands turn to gangs",
+     "",
+     "GS1 · Consequences of unemployment",
+     "In Punjab's border districts, unemployment pushes youth into gangs, showing joblessness as a security risk."
+    ],
+    [
+     "Pakistan-backed gangs and narco-terror networks",
+     "Gangs reportedly backed by the ISI; a Pakistan-based gangster is a growing name in cross-border narco-terror",
+     "",
+     "GS2 · India–Pakistan relations",
+     "Pakistan's backing of gangs in Punjab shows proxy war as a continuing hurdle in India–Pakistan relations."
+    ],
+    [
+     "Gang leaders abroad",
+     "10–15 gangs run by leaders based in the US, UK, Canada and other countries",
+     "",
+     "GS2 · Indian diaspora",
+     "Gang networks run from abroad show the misuse of diaspora networks and the need for cooperation with host countries."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS3-2022/Q9",
+     "Linkages between terrorists and organised crime: Punjab's ISI-backed gangs are the live case."
+    ],
+    [
+     "GS3-2021/Q19",
+     "External state and non-state actors: Pakistan-backed gangs and handlers abroad."
+    ],
+    [
+     "GS3-2020/Q10",
+     "Denying local support in border areas: jobs and trust for border youth."
+    ]
+   ],
+   "trend": {
+    "t": "Border and security questions moved from managing local perception in border areas (2020) to the challenges of external state and non-state actors (2021) and the crime–terror nexus (2022), and then to border-wide challenges with China and Pakistan (2024) and development-led approaches such as BADP in Ladakh (2026).",
+    "watch": "Security with a people angle recurs: winning local support (2020) and border area development (2026). The crime–terror nexus and external actors are must-study areas.",
+    "focus": [
+     "Organised crime–terror nexus and narco-terrorism",
+     "External state and non-state actors, including diaspora-based handlers",
+     "Border area development and youth employment",
+     "Criminalisation of politics in border states"
+    ]
+   },
+   "potential": [
+    "\"Punjab's border districts face a security challenge rooted as much in youth unemployment as in cross-border networks.\" Examine, and suggest a holistic strategy. (15 marks)",
+    "Discuss how diaspora-based criminal networks pose a threat to India's internal security. What measures are needed? (10 marks)",
+    "Explain the linkages between organised crime and terrorism in India's border states, with examples. (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "Discuss how diaspora-based criminal networks pose a threat to India's internal security. What measures are needed?",
+     "marks": 10,
+     "words": 150,
+     "parts": [
+      "Introduction: the Punjab example in one line",
+      "Threats posed",
+      "Way forward with conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "Punjab Police estimate 10–15 gangs operate in the state with leaders based in the US, UK, Canada and other countries."
+      },
+      {
+       "h": "Threats posed",
+       "pts": [
+        {
+         "k": "Remote command",
+         "t": "Leaders abroad direct killings and extortion beyond the reach of Indian law.",
+         "ex": "Attacks on police and sarpanchs in Punjab's border districts."
+        },
+        {
+         "k": "Crime–terror nexus",
+         "t": "Gangs merge with terror and narco networks backed by hostile states.",
+         "ex": "Reported ISI backing."
+        },
+        {
+         "k": "Recruitment of idle youth",
+         "t": "Handlers hire local youth cheaply through social media.",
+         "ex": ""
+        },
+        {
+         "k": "Funding and money laundering",
+         "t": "Extortion and drug money flows across borders.",
+         "ex": ""
+        },
+        {
+         "k": "Diplomatic friction",
+         "t": "Host countries' reluctance to act strains bilateral ties.",
+         "ex": ""
+        },
+        {
+         "k": "Criminalisation of politics",
+         "t": "Crime money enters elections through gangsters' relatives.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Way forward and conclusion",
+       "pts": [
+        {
+         "k": "International cooperation",
+         "t": "Extradition treaties, mutual legal assistance and intelligence sharing with host countries.",
+         "ex": ""
+        },
+        {
+         "k": "Follow the money",
+         "t": "Financial investigation of extortion and drug proceeds.",
+         "ex": ""
+        },
+        {
+         "k": "Jobs for border youth",
+         "t": "Employment schemes and recruitment quotas to deny gangs recruits.",
+         "ex": "Proposed 1–2% quota in security forces."
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "A transnational threat needs a transnational response, paired with jobs and trust at home."
+      }
+     ]
+    }
+   ]
   }
  ],
  "ethics": [
@@ -1245,6 +1712,52 @@
     "Self-reliance",
     "Due diligence",
     "Public good"
+   ]
+  },
+  {
+   "id": "2026-10-30-e9",
+   "area": "care",
+   "themes": [
+    "g4aptitude",
+    "g4probity"
+   ],
+   "card": "2026-10-30-07",
+   "src": "IE p. 1 (Ananthakrishnan G)",
+   "title": "Who should bear the loss?",
+   "news": "The Supreme Court may make banks compensate digital arrest victims where poor due diligence enabled the fraud, and noted some bank officials are involved.",
+   "syllabus": "Compassion towards the weaker sections · Corruption and probity",
+   "link": "Institutions that hold public money owe a duty of care: the frightened victim should not bear the loss, and insiders who collude betray public trust.",
+   "pyq": [],
+   "question": "\"Institutions, not frightened citizens, must bear the cost of systemic failures.\" Discuss with reference to cyber fraud.",
+   "keywords": [
+    "Duty of care",
+    "Compassion",
+    "Probity",
+    "Institutional accountability"
+   ]
+  },
+  {
+   "id": "2026-10-30-e10",
+   "area": "public",
+   "themes": [
+    "g4probity",
+    "g4psv"
+   ],
+   "card": "2026-10-30-08",
+   "src": "IE p. 1 (Man Aman Singh Chhina)",
+   "title": "Duty under fire, and money in politics",
+   "news": "Punjab policemen keep manning exposed border posts despite deadly attacks, while an MP warns of gang money entering elections.",
+   "syllabus": "Foundational values: dedication, fortitude · Probity in public life",
+   "link": "Fortitude keeps the front line standing; probity in politics decides whether that sacrifice is undermined by crime money.",
+   "pyq": [
+    "GS4-2019/Q11"
+   ],
+   "question": "As SP of a border district, you learn that gangsters' relatives are contesting local elections with extortion money. What will you do?",
+   "keywords": [
+    "Fortitude",
+    "Dedication",
+    "Probity",
+    "Criminalisation of politics"
    ]
   }
  ],
