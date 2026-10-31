@@ -718,6 +718,70 @@
      ]
     }
    ]
+  },
+  {
+   "id": "2026-10-30-04",
+   "title": "Siang dam: Why the project to counter China faces opposition in Arunachal",
+   "section": "Explained",
+   "page": "Page 12",
+   "where": "Explained, page 12 (Shinjini Ghosh)",
+   "gs": [
+    "GS2"
+   ],
+   "syllabus": "GS2 › India and its neighbourhood: relations; Bilateral agreements affecting India's interests; Effect of policies and politics of other countries on India's interests",
+   "themes": [
+    "powers",
+    "neighbour"
+   ],
+   "summary": "India's 11,200 MW Siang Upper Multipurpose Project, meant to counter China's 60,000 MW upstream dam on the Yarlung Tsangpo, faces protests from the local Adi community.",
+   "ideas": [
+    [
+     "Hydro-hegemony: China, the upstream power on the Yarlung Tsangpo (the Siang in India), approved a 60,000 MW project in December 2024. India, downstream, fears China could release water at will; India's 11,200 MW Siang project is pitched as a counter, and experts say India has a right to details of China's project.",
+     "GS2 · India–China / water as a strategic tool",
+     "Upstream control of the Brahmaputra lets China practise hydro-hegemony, making transboundary rivers a new front in India–China relations."
+    ],
+    [
+     "Domestic factors shape foreign policy: the Siang project's strategic logic runs into local resistance over ancestral land, livelihood and culture; experts say it cannot go ahead without the local community's cooperation.",
+     "GS2 · Domestic factors in foreign policy",
+     "The Siang protests show that India's external strategy depends on domestic consent: foreign policy begins at home."
+    ]
+   ],
+   "keywords": [
+    [
+     "Hydro-hegemony",
+     "Using upstream control of a river for power over downstream states",
+     "GS2 · India–China",
+     "China's mega-dam on the Yarlung Tsangpo raises fears of hydro-hegemony over the Brahmaputra."
+    ],
+    [
+     "Upper riparian advantage",
+     "The leverage an upstream state has over water flowing downstream",
+     "GS2 · Transboundary rivers",
+     "As the upper riparian, China holds leverage over India's Brahmaputra flows."
+    ],
+    [
+     "Two-level game",
+     "Leaders must satisfy both foreign counterparts and domestic constituencies",
+     "GS2 · Foreign policy",
+     "The Siang project is a two-level game: countering China abroad while winning local consent at home."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "Adi community protests",
+     "Local residents in Arunachal's Siang belt oppose the dam over loss of ancestral land and livelihood",
+     "",
+     "GS2 · Domestic factors in IR",
+     "Adi protests against the Siang dam show how local concerns can complicate a strategic project aimed at China."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS2-2013/Q23",
+     "Domestic factors influencing foreign policy: the Siang protests are a fresh India–China example."
+    ]
+   ]
   }
  ],
  "ethics": [
@@ -844,6 +908,30 @@
     "Algorithmic amplification",
     "Value inculcation"
    ]
+  },
+  {
+   "id": "2026-10-30-e6",
+   "area": "public",
+   "themes": [
+    "g4probity",
+    "g4transparency"
+   ],
+   "src": "IE p. 12 (Gulshan Sachdeva)",
+   "title": "When corruption costs power",
+   "news": "A student-led movement in Serbia, sparked by a deadly canopy collapse seen as a symbol of alleged corruption, won elections and unseated the President after over a decade.",
+   "syllabus": "Corruption and probity in governance · Accountability",
+   "link": "Corruption erodes public trust until citizens demand accountability; a peaceful, organised movement turned that anger into political change.",
+   "pyq": [
+    "GS4-2016/Q12",
+    "GS4-2023/Q2a"
+   ],
+   "question": "\"Unchecked corruption ultimately erodes the legitimacy of those in power.\" Discuss with examples.",
+   "keywords": [
+    "Accountability",
+    "Public trust",
+    "Legitimacy",
+    "Citizen participation"
+   ]
   }
  ],
  "essay": [
@@ -892,6 +980,22 @@
     "2024B1",
     "2021A1",
     "2017B4"
+   ]
+  },
+  {
+   "id": "e-2026-10-30-04",
+   "type": "Story",
+   "title": "Serbia: from a canopy collapse to a change of government",
+   "text": "In November 2024 a canopy collapsed at Novi Sad railway station in Serbia, killing 16. It became a symbol of alleged corruption and lack of accountability. Students began with campus assemblies and blockades; teachers, farmers and actors joined. In two years their 'Student List' won 141 of 250 seats, peacefully unseating President Vučić after over a decade in power.",
+   "use": "For 'With greater power comes greater responsibility' (2014) and 'Nearly all men can stand adversity, but to test the character, give him power' (2024).",
+   "themes": [
+    "power",
+    "justice"
+   ],
+   "src": "IE p. 12 (Gulshan Sachdeva)",
+   "topics": [
+    "2014A1",
+    "2024B2"
    ]
   }
  ]
