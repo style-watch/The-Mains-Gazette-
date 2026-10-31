@@ -484,6 +484,240 @@
      ]
     }
    ]
+  },
+  {
+   "id": "2026-10-30-03",
+   "title": "For affordable cancer care, go beyond price caps",
+   "section": "The Editorial Page",
+   "page": "Page 10",
+   "where": "The Editorial Page, page 10 (Editorial)",
+   "gs": [
+    "GS2",
+    "GS3",
+    "GS4"
+   ],
+   "syllabus": "GS2 › Issues relating to development and management of health; Government policies and interventions · GS3 › Issues relating to intellectual property rights · GS4 › Ethics in business",
+   "themes": [
+    "health",
+    "biotech",
+    "bodies"
+   ],
+   "summary": "The government has capped the seller's profit on non-scheduled cancer drugs at 30% of the MRP; the editorial argues the cap alone will not make treatment affordable.",
+   "ideas": [
+    [
+     "The cap tackles only the middlemen: it limits the margin on sale to patients, not the price at which companies sell to distributors or hospitals. If that starting price is high, the drug stays unaffordable.",
+     "GS2 · Health / regulation",
+     "Capping trade margins treats the symptom downstream while the real cost is set upstream by the manufacturer's price."
+    ],
+    [
+     "Patents give pricing power: patented cancer drugs face little generic competition, so manufacturers control prices, and earlier caps on the same drugs did not stop prices from rising.",
+     "GS3 · IPR and access to medicines",
+     "Where patents shut out generics, price caps on margins cannot discipline the manufacturer's price."
+    ],
+    [
+     "Hidden discounts hide the real price: steep discounts on a few units to select corporate hospitals, with most stock sold higher, make the true market price hard for regulators to know.",
+     "GS2 · Regulatory capacity",
+     "Selective discounts distort the market price, so margin regulation needs scrutiny of manufacturers' prices and transparent sales data."
+    ],
+    [
+     "A blanket cap can backfire: pharmacies have genuine storage and handling costs; a rigid cap could disrupt supplies to underserved areas, and hospitals may pass costs on through higher room rents.",
+     "GS2 · Policy design",
+     "A blanket price cap risks shortages in underserved areas and cost-shifting by hospitals."
+    ],
+    [
+     "Price control works only with the health system: stronger public health services, wider insurance coverage and more research on generics must accompany the cap.",
+     "GS2 · Universal health coverage",
+     "Affordable cancer care needs price regulation backed by public health services, insurance and generics."
+    ]
+   ],
+   "keywords": [
+    [
+     "Trade Margin Rationalisation (TMR)",
+     "NPPA's tool of capping margins between manufacturer and patient",
+     "GS2 · Health regulation",
+     "Trade Margin Rationalisation caps the chain's margin but leaves the manufacturer's price untouched."
+    ],
+    [
+     "Upstream pricing vs downstream margins",
+     "Where the cost is set versus where the cap bites",
+     "GS2 · Policy analysis",
+     "Regulation that targets downstream margins misses upstream pricing power."
+    ],
+    [
+     "Price opacity",
+     "When the true market price cannot be known",
+     "GS2 · Regulatory capacity",
+     "Selective discounts create price opacity that defeats margin regulation."
+    ],
+    [
+     "Cost-shifting",
+     "Recovering a capped margin through other charges",
+     "GS2 · Health regulation",
+     "Hospitals may offset drug caps by cost-shifting to room rents."
+    ],
+    [
+     "Catastrophic out-of-pocket expenditure",
+     "Health spending that pushes households into distress",
+     "GS2 · Health / poverty",
+     "Unaffordable cancer drugs are a leading cause of catastrophic out-of-pocket expenditure."
+    ],
+    [
+     "Access–innovation trade-off",
+     "Balancing affordable medicines with incentives for research",
+     "GS3 · IPR",
+     "Drug pricing policy must balance access with incentives for innovation."
+    ]
+   ],
+   "data": [
+    [
+     "~170%",
+     "Average profit mark-up added by intermediaries (stockists, distributors, hospital pharmacies, wholesalers) on cancer drugs",
+     "NPPA, via IE",
+     "GS2 · Health / drug pricing",
+     "Intermediaries add an average mark-up of about 170% on cancer drug prices (NPPA)."
+    ],
+    [
+     "30% of MRP",
+     "New cap on the seller's profit on non-scheduled cancer drugs",
+     "IE, Editorial",
+     "GS2 · Health regulation",
+     "The government has capped the seller's profit on non-scheduled cancer drugs at 30% of the MRP."
+    ],
+    [
+     "₹58,000 → ₹78,000",
+     "Reported monthly cost of the breast cancer drug ribociclib, despite profit restrictions in 2019",
+     "IE, Editorial",
+     "GS2 health · GS3 IPR",
+     "Ribociclib's monthly cost reportedly rose from ₹58,000 to ₹78,000 despite 2019 profit caps."
+    ]
+   ],
+   "examples": [
+    [
+     "Ribociclib",
+     "A breast cancer drug whose price rose despite margin caps",
+     "",
+     "GS3 · IPR / drug pricing",
+     "Ribociclib shows that margin caps fail when patents leave the manufacturer's price unchecked."
+    ],
+    [
+     "Patients skipping doses",
+     "Unaffordable drugs lead patients to delay treatment, skip doses or stop medication",
+     "GS4",
+     "GS2 social justice · GS4 compassion",
+     "When cancer drugs are unaffordable, patients delay treatment or skip doses, turning cost into lost lives."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS2-2024/Q17",
+     "The State's role against marketisation of healthcare: drug-price regulation is one such tool, with its limits."
+    ],
+    [
+     "GS2-2015/Q12",
+     "Limits of the public health system and the private sector's role: affordable medicines are part of universal coverage."
+    ],
+    [
+     "GS3-2013/Q13",
+     "Section 3(d) and the Novartis case: patents versus access to affordable medicines."
+    ]
+   ],
+   "trend": {
+    "t": "Health questions moved from goals and access (MDGs 2013, universal coverage 2015, community-level care 2018) to the State's moral and practical role (primary health 2021) and, most recently, to containing the marketisation of healthcare (2024). In GS3, patents and access to medicines appeared in 2013.",
+    "watch": "The balance between the State and the private sector in health has come in 2015 and 2024. Regulation of the health market is a must-study area.",
+    "focus": [
+     "State regulation of drug prices and hospital charges",
+     "Universal health coverage and out-of-pocket expenditure",
+     "Patents, generics and access to medicines",
+     "Public health infrastructure and insurance"
+    ]
+   },
+   "potential": [
+    "\"Regulating trade margins alone cannot ensure affordable access to essential medicines in India.\" Critically examine. (15 marks)",
+    "Discuss the role of intellectual property rights in the pricing of life-saving drugs in India. How can access be balanced with innovation? (10 marks)",
+    "Examine the challenges in regulating the prices of medicines in India and suggest measures. (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "Examine the challenges in regulating the prices of medicines in India and suggest measures.",
+     "marks": 10,
+     "words": 150,
+     "parts": [
+      "Introduction: the price cap in one line, with facts",
+      "Challenges in regulating medicine prices",
+      "Way forward with conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "The government has capped the seller's profit on non-scheduled cancer drugs at 30% of the MRP, where intermediaries added an average 170% mark-up (NPPA)."
+      },
+      {
+       "h": "Challenges",
+       "pts": [
+        {
+         "k": "Upstream pricing untouched",
+         "t": "Margin caps do not cover the manufacturer's price to distributors and hospitals.",
+         "ex": "Ribociclib's cost rose from ₹58,000 to ₹78,000 despite 2019 caps."
+        },
+        {
+         "k": "Patent-driven pricing power",
+         "t": "Patented drugs face little generic competition, so prices stay high.",
+         "ex": ""
+        },
+        {
+         "k": "Price opacity",
+         "t": "Selective discounts to corporate hospitals hide the real market price.",
+         "ex": ""
+        },
+        {
+         "k": "Cost-shifting",
+         "t": "Hospitals may recover capped margins through room rents and other charges.",
+         "ex": ""
+        },
+        {
+         "k": "Supply disruption",
+         "t": "Rigid caps may make supply to underserved areas unviable for pharmacies.",
+         "ex": ""
+        },
+        {
+         "k": "Weak health financing",
+         "t": "Low insurance coverage leaves patients paying out of pocket.",
+         "ex": "Patients delay treatment or skip doses."
+        }
+       ]
+      },
+      {
+       "h": "Way forward and conclusion",
+       "pts": [
+        {
+         "k": "Scrutinise manufacturers' prices",
+         "t": "Mandatory reporting of sales and discounts.",
+         "ex": ""
+        },
+        {
+         "k": "Promote generics",
+         "t": "More research on and production of generic versions.",
+         "ex": ""
+        },
+        {
+         "k": "Widen insurance and public services",
+         "t": "Strengthen public hospitals and coverage for cancer care.",
+         "ex": ""
+        },
+        {
+         "k": "Calibrated caps",
+         "t": "Allow for legitimate storage and handling costs.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "Price caps can lower bills, but only a strong public health system can make cancer care truly affordable."
+      }
+     ]
+    }
+   ]
   }
  ],
  "ethics": [
@@ -535,6 +769,81 @@
     "Nexus",
     "Public trust"
    ]
+  },
+  {
+   "id": "2026-10-30-e3",
+   "area": "care",
+   "themes": [
+    "g4applied",
+    "g4aptitude"
+   ],
+   "card": "2026-10-30-03",
+   "src": "IE p. 10 (Editorial)",
+   "title": "Profit on a life-saving drug",
+   "news": "Intermediaries add an average 170% mark-up on cancer drugs; the government has capped the seller's profit at 30% of the MRP.",
+   "syllabus": "Ethics in business and medicine · Compassion towards the weaker sections",
+   "link": "When profit on life-saving medicines pushes patients to skip doses, business ethics demands that access to treatment come before margins.",
+   "pyq": [
+    "GS4-2015/Q16",
+    "GS4-2024/Q12"
+   ],
+   "question": "\"Life-saving medicines are a matter of right, not a market commodity.\" Examine the ethical issues in drug pricing.",
+   "keywords": [
+    "Business ethics",
+    "Compassion",
+    "Distributive justice",
+    "Right to health"
+   ]
+  },
+  {
+   "id": "2026-10-30-e4",
+   "area": "work",
+   "themes": [
+    "g4thinkers",
+    "g4psv"
+   ],
+   "src": "IE p. 10 (Wordly Wise)",
+   "title": "Slow, but never stopping",
+   "news": "The Editorial Page's Wordly Wise: \"It does not matter how slowly you go as long as you do not stop\" (commonly attributed to Confucius).",
+   "syllabus": "Contributions of moral thinkers · Foundational values: dedication to public service, perseverance",
+   "link": "Reform in governance is slow; a civil servant's dedication shows in persisting through delay and setback rather than giving up.",
+   "pyq": [
+    "GS4-2021/Q3a"
+   ],
+   "question": "\"It does not matter how slowly you go as long as you do not stop.\" What does this quotation convey to you in the context of public service?",
+   "keywords": [
+    "Perseverance",
+    "Dedication to duty",
+    "Resilience",
+    "Incrementalism"
+   ]
+  },
+  {
+   "id": "2026-10-30-e5",
+   "area": "attitude",
+   "themes": [
+    "g4attitude",
+    "g4ei",
+    "g4values"
+   ],
+   "src": "IE p. 11 (Nalini Sorensen)",
+   "title": "Comparison as a loop",
+   "news": "A mother of two teenagers writes how social media turns comparison into a loop of envy, and how to break it.",
+   "syllabus": "Attitude: social influence and persuasion · Emotional intelligence · Role of family in inculcating values",
+   "link": "Feeds that compare curated highlights with unfiltered lives shape attitudes; families that motivate by comparison pass the habit on, and self-awareness breaks the loop.",
+   "pyq": [
+    "GS4-2025/Q1a",
+    "GS4-2016/Q3",
+    "GS4-2020/Q2b"
+   ],
+   "question": "\"Social media has turned comparison from an occasional act into a constant habit.\" Discuss its ethical implications and the role of family in building a healthy sense of self among the youth.",
+   "keywords": [
+    "Social influence",
+    "Self-awareness",
+    "Self-regulation",
+    "Algorithmic amplification",
+    "Value inculcation"
+   ]
   }
  ],
  "essay": [
@@ -552,6 +861,37 @@
    "topics": [
     "2022A4",
     "2019A4"
+   ]
+  },
+  {
+   "id": "e-2026-10-30-02",
+   "type": "Phrase",
+   "title": "Slow, but never stopping",
+   "text": "\"It does not matter how slowly you go as long as you do not stop.\" (commonly attributed to Confucius). Bridging line: nations, like individuals, are built not by sprints but by unbroken stride.",
+   "use": "As an opener or closer for essays on perseverance and incremental change, e.g. 'Courage to accept and dedication to improve are two keys to success' (2019).",
+   "themes": [
+    "journey"
+   ],
+   "src": "IE p. 10 (Wordly Wise)",
+   "topics": [
+    "2019A4"
+   ]
+  },
+  {
+   "id": "e-2026-10-30-03",
+   "type": "Example",
+   "title": "The great leveller in reverse",
+   "text": "A mother of two teenagers writes that social media makes us compare others' curated highlights with our own unfiltered lives. Quoting James Clear, 'Comparison is useful as a point and destructive as a loop.' Her answer: name the comparison, curate the feed, treat others' success as a mirror, and measure yourself against who you were yesterday.",
+   "use": "For 'Social media is Triggering Fear of Missing Out amongst the youth' (2024), 'The process of self-discovery has now been technologically outsourced' (2021) and 'Social media is inherently a selfish medium' (2017).",
+   "themes": [
+    "tech",
+    "inner"
+   ],
+   "src": "IE p. 11 (Nalini Sorensen)",
+   "topics": [
+    "2024B1",
+    "2021A1",
+    "2017B4"
    ]
   }
  ]
