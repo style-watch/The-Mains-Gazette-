@@ -1143,12 +1143,12 @@
     "GS2",
     "GS3"
    ],
-   "syllabus": "GS2 › Bilateral, regional and global groupings; Important international institutions · GS3 › Terrorism; Security of sea lanes",
+   "syllabus": "GS2 › Important international institutions, agencies and fora (G20); Bilateral, regional and global groupings · GS3 › Terrorism; Security of sea lanes",
    "themes": [
+    "intl",
     "groupings",
     "terror",
     "indopac",
-    "intl",
     "powers"
    ],
    "summary": "At the G20 foreign ministers' meeting in Atlanta, Jaishankar warned against tolerating terrorism for tactical gain and spoke for seafarers, freedom of navigation and fair access to markets.",
@@ -1160,7 +1160,7 @@
     ],
     [
      "Diplomacy over force: on the wars in Ukraine and West Asia, he said military solutions will not work and diplomacy must be given a chance.",
-     "GS2 · India's global role",
+     "GS2 · International institutions (G20)",
      "India positions itself as a voice for dialogue and diplomacy in today's conflicts."
     ],
     [
@@ -1170,7 +1170,7 @@
     ],
     [
      "Law of the sea: India called for freedom of navigation and an end to attacks under international law, especially UNCLOS, and has launched a joint initiative with Liberia to protect seafarers.",
-     "GS2 · International law / Maritime",
+     "GS2 · International institutions / Law of the sea",
      "India backs a rules-based maritime order under UNCLOS and acts on seafarer safety with Liberia."
     ],
     [
@@ -1232,7 +1232,7 @@
      "G20 'family photo' cancelled",
      "The US scrapped the ministers' photo after Europeans objected to being pictured with Russia's Lavrov",
      "",
-     "GS2 · Groupings",
+     "GS2 · International institutions (G20)",
      "The scrapped G20 photo shows how the Ukraine war divides the grouping."
     ],
     [
@@ -1245,6 +1245,10 @@
    ],
    "pyqs": [
     [
+     "GS2-2024/Q19",
+     "Global institutions against terrorism: the UNSC's counter-terror bodies; the G20 is another forum India uses."
+    ],
+    [
      "GS2-2024/Q9",
      "The West fostering India as an alternative to China's supply chains."
     ],
@@ -1255,10 +1259,6 @@
     [
      "GS2-2014/Q16",
      "Maritime security and freedom of navigation."
-    ],
-    [
-     "GS2-2024/Q19",
-     "Terrorism as a global threat and the UNSC's counter-terror bodies."
     ],
     [
      "GS2-2026/Q10",
@@ -1277,7 +1277,8 @@
    },
    "potential": [
     "\"Economic security has become inseparable from national security.\" Discuss with reference to supply chains and sea lanes. (15 marks)",
-    "How has India used the G20 to raise the concerns of the Global South? Illustrate with recent examples. (10 marks)"
+    "How has India used the G20 to raise the concerns of the Global South? Illustrate with recent examples. (10 marks)",
+    "Assess the effectiveness of the G20 as a forum for global governance amid great-power rivalry. (10 marks)"
    ],
    "practice": [
     {
@@ -1597,270 +1598,40 @@
    ]
   },
   {
-   "id": "2026-10-31-09",
-   "title": "The intricate system to elect MLCs",
-   "section": "Explained",
-   "page": "Page 20",
-   "where": "Explained, page 20 (Chakshu Roy & Yashika Kedia, PRS Legislative Research); with 'Ballot papers in Indian elections' (Vikas Pathak)",
-   "gs": [
-    "GS2"
-   ],
-   "syllabus": "GS2 › State legislature: structure, functioning, conduct of business, powers · Representation of People's Act · Comparison of the Indian constitutional scheme",
-   "themes": [
-    "parl",
-    "federal",
-    "elections"
-   ],
-   "summary": "After elections to 28 Legislative Council seats in four states, PRS explains how MLCs are chosen by MLAs, local bodies, graduates, teachers and the Governor.",
-   "ideas": [
-    [
-     "An optional second chamber: the Constituent Assembly split on state upper houses (voice of reason, check on haste vs cost, delay and patronage), so states were allowed to choose. Six states have Councils.",
-     "GS2 · State legislature",
-     "Legislative Councils were made optional because the Constituent Assembly was divided on their value."
-    ],
-    [
-     "A mixed electorate by design: under Article 171, MLAs elect one-third, local bodies one-third, graduates one-twelfth, teachers one-twelfth, and the Governor nominates the rest.",
-     "GS2 · Constitutional design",
-     "Article 171 builds functional representation of local bodies, graduates and teachers into the Council."
-    ],
-    [
-     "Roots in functional representation: the idea comes from the Government of India Act, 1935; Shibban Lal Saxena suggested Councils represent the intelligentsia.",
-     "GS2 · Constitutional history",
-     "Graduate and teacher seats reflect the founders' wish to bring expertise into legislatures."
-    ],
-    [
-     "Limited powers, uncertain life: Councils lack the constitutional mandate to shape legislation passed by the Assembly, and Assemblies can recommend their creation or abolition.",
-     "GS2 · Bicameralism",
-     "A Council can only delay, not block, an Assembly's Bills, so its value lies in deliberation."
-    ],
-    [
-     "Need for a national policy: a 2013 parliamentary panel said Councils should not be abolished at the whim of a new government and a national policy is needed.",
-     "GS2 · Federalism / Reform",
-     "A national policy on creating and abolishing Councils would end their use as political tools."
-    ]
-   ],
-   "keywords": [
-    [
-     "Single transferable vote (STV)",
-     "Voters rank candidates; surplus and eliminated votes transfer",
-     "GS2 · Elections",
-     "MLC and Rajya Sabha elections use STV, which needs ballot papers, not EVMs."
-    ],
-    [
-     "Functional representation",
-     "Seats for occupational or social groups rather than territory alone",
-     "GS2 · Constitutional design",
-     "Graduate and teacher constituencies are India's main experiment in functional representation."
-    ],
-    [
-     "Revising chamber",
-     "An upper house that reviews and delays rather than vetoes",
-     "GS2 · Bicameralism",
-     "Legislative Councils act as revising chambers, adding deliberation without veto power."
-    ],
-    [
-     "Article 169",
-     "Parliament creates or abolishes a Council on the Assembly's resolution",
-     "GS2 · Federalism",
-     "Under Article 169, a Council's existence depends on the Assembly's resolution and Parliament's law."
-    ]
-   ],
-   "data": [
-    [
-     "6 states",
-     "Have Legislative Councils: Andhra Pradesh, Bihar, Karnataka, Maharashtra, Telangana, Uttar Pradesh",
-     "PRS, via IE Explained",
-     "GS2 · State legislature",
-     "Only six states have Legislative Councils."
-    ],
-    [
-     "Min 40; max one-third",
-     "Size limits of a Council relative to the Assembly (Article 171)",
-     "Constitution, via IE Explained",
-     "GS2 · State legislature",
-     "A Council must have at least 40 members and at most one-third of the Assembly's strength."
-    ],
-    [
-     "53%",
-     "Share of states conducting gram panchayat elections with ballot papers (IIPA study, 2023)",
-     "IIPA via IE Explained",
-     "GS2 · Local government / Elections",
-     "53% of states still hold gram panchayat polls on ballot papers (IIPA, 2023)."
-    ]
-   ],
-   "examples": [
-    [
-     "Graduate and teacher rolls",
-     "Prepared afresh before every election; voters must re-apply",
-     "",
-     "GS2 · Elections",
-     "Graduate and teacher constituencies show a special electorate with its own rolls and qualifying date."
-    ],
-    [
-     "Kerala, Sikkim, DNH&DD",
-     "Only places using EVMs in all gram panchayat constituencies",
-     "",
-     "GS2 · Local government",
-     "Kerala and Sikkim show EVM use in panchayat polls is possible despite cost and awareness concerns."
-    ]
-   ],
-   "pyqs": [
-    [
-     "GS2-2021/Q14",
-     "Constitutional provisions for Legislative Councils and their working and status."
-    ],
-    [
-     "GS2-2020/Q14",
-     "The Rajya Sabha's transformation into a useful supporting chamber."
-    ]
-   ],
-   "trend": {
-    "t": "Upper houses are asked in pairs: the Rajya Sabha's role (2020) and the Chairman's role (2022) at the Centre, and Legislative Councils' provisions and working (2021) in the states. State legislatures also came through presiding officers (2023).",
-    "watch": "Bicameralism comes every two or three years. Councils were asked directly in 2021, so prepare their powers, composition and the debate on their usefulness.",
-    "focus": [
-     "Article 169 and 171: creation and composition",
-     "Usefulness vs cost of Councils",
-     "Functional representation: graduates and teachers",
-     "Comparison with the Rajya Sabha"
-    ]
-   },
-   "potential": [
-    "\"Legislative Councils are a useful revising chamber but an uneven presence in Indian federalism.\" Discuss. (15 marks)",
-    "Examine the rationale for graduate and teacher constituencies in Legislative Councils. Are they still relevant? (10 marks)"
-   ],
-   "practice": [
-    {
-     "q": "Examine the rationale for graduate and teacher constituencies in Legislative Councils. Are they still relevant?",
-     "marks": 10,
-     "words": 150,
-     "parts": [
-      "Introduction: Article 171, with facts",
-      "Rationale",
-      "Relevance today: for and against",
-      "Way forward with conclusion"
-     ],
-     "answer": [
-      {
-       "h": "Introduction",
-       "t": "Under Article 171, graduates and teachers each elect one-twelfth of a Legislative Council, a feature found in the six states that have Councils."
-      },
-      {
-       "h": "Rationale",
-       "pts": [
-        {
-         "k": "Intelligentsia in law-making",
-         "t": "Shibban Lal Saxena wanted Councils to represent educated opinion.",
-         "ex": ""
-        },
-        {
-         "k": "Functional representation",
-         "t": "Drawn from the Government of India Act, 1935.",
-         "ex": ""
-        },
-        {
-         "k": "Expert deliberation",
-         "t": "Teachers and graduates bring knowledge to debate.",
-         "ex": ""
-        }
-       ]
-      },
-      {
-       "h": "Relevance today",
-       "pts": [
-        {
-         "k": "For: voice for education",
-         "t": "Teachers' seats bring education issues to the House.",
-         "ex": ""
-        },
-        {
-         "k": "For: deliberation",
-         "t": "A revising chamber can slow hasty laws.",
-         "ex": ""
-        },
-        {
-         "k": "Against: mass education",
-         "t": "Graduates are no longer a small elite.",
-         "ex": ""
-        },
-        {
-         "k": "Against: partisan contests",
-         "t": "Party politics dominates these seats.",
-         "ex": ""
-        },
-        {
-         "k": "Against: elitist franchise",
-         "t": "Some citizens get an extra vote.",
-         "ex": ""
-        }
-       ]
-      },
-      {
-       "h": "Way forward and conclusion",
-       "pts": [
-        {
-         "k": "National policy",
-         "t": "As a 2013 parliamentary panel urged.",
-         "ex": ""
-        },
-        {
-         "k": "Widen expertise",
-         "t": "Consider other professional groups.",
-         "ex": ""
-        }
-       ]
-      },
-      {
-       "h": "Conclusion",
-       "t": "Graduate and teacher seats still add expert voice, but only if they rise above party contests and Councils are reformed through a national policy."
-      }
-     ]
-    }
-   ]
-  },
-  {
    "id": "2026-10-31-10",
    "title": "CBIC mandates immediate halt on GST arrests",
    "section": "Economy",
    "page": "Page 23",
    "where": "Economy, page 23 (Aanchal Magazine); letter on Reforms 3.0, page 13",
    "gs": [
-    "GS3",
     "GS2",
-    "GS4"
+    "GS4",
+    "GS3"
    ],
-   "syllabus": "GS3 › Government budgeting; Tax reform · GS2 › Government policies; Transparency and accountability · GS4 › Trust in governance",
+   "syllabus": "GS2 › Citizen-centric governance; Transparency and accountability · GS4 › Probity in governance; trust between State and citizen · GS3 › Tax reform (minor)",
    "themes": [
-    "fiscal",
     "egov",
+    "civserv",
     "g4transparency",
-    "civserv"
+    "g4probity",
+    "fiscal"
    ],
-   "summary": "CBIC has told its field offices to stop GST arrests and to apply the GST Council's relaxed rules on e-way bill checks and show-cause notices before the law is amended.",
+   "summary": "Minor topic: CBIC has stopped GST arrests and curbed random e-way bill checks, an example of trust-based, citizen-centric governance.",
    "ideas": [
     [
-     "From suspicion to trust: the GST Council recommended removing the power of arrest by omitting Section 69 of the CGST Act; CBIC has stopped arrests now, ahead of the amendments due from April 1, 2027.",
-     "GS3 · Tax reform",
-     "Removing arrest powers moves GST towards trust-based tax administration."
+     "From suspicion to trust: the GST Council recommended omitting the arrest power (Section 69, CGST Act); CBIC has stopped arrests now, before the law changes from April 1, 2027.",
+     "GS2 · Trust-based governance",
+     "Removing arrest powers shows the State treating taxpayers as honest stakeholders, not suspects."
     ],
     [
-     "Inspection only on intelligence: vehicles can be stopped only on specific intelligence authorised in writing by an officer not below Joint Commissioner, and only by the supplier's or recipient's state.",
-     "GS2 · Accountability",
-     "Written reasons and senior authorisation curb harassment through random roadside checks."
+     "Discretion with accountability: vehicles may be stopped only on specific intelligence, authorised in writing by an officer not below Joint Commissioner.",
+     "GS2 · Accountability / GS4 · Probity",
+     "Written reasons and senior authorisation curb harassment and the scope for petty corruption."
     ],
     [
-     "Small cases out of litigation: a minimum ₹10,000 threshold for show-cause notices aims to cut low-value disputes and compliance costs.",
-     "GS3 · Ease of doing business",
-     "Thresholds for notices reduce low-value litigation and compliance costs."
-    ],
-    [
-     "Law must follow intent: experts warned the Council's recommendations lack legal force until Parliament and states amend their GST laws, so the interim order fills the gap.",
-     "GS2 · Rule of law / Cooperative federalism",
-     "Council recommendations need legislative backing in Parliament and states to bind officers."
-    ],
-    [
-     "Part of a wider trust agenda: readers urge self-declaration, deemed approvals and statutory timelines for routine permissions, with time-bound grievance redress.",
-     "GS2 · Governance reform",
-     "Trust-based governance treats citizens as honest stakeholders through self-declaration and deemed approvals."
+     "Citizen-centric reform: a ₹10,000 floor on show-cause notices cuts low-value litigation; readers urge self-declaration, deemed approvals and statutory timelines for routine permissions.",
+     "GS2 · Citizen-centric governance",
+     "Citizen-centric governance shifts the cost of delay and doubt from the citizen to the State."
     ]
    ],
    "keywords": [
@@ -1869,12 +1640,6 @@
      "Assuming honesty and targeting enforcement at risk",
      "GS2 · Governance / GS3 · Tax",
      "Trust-based compliance focuses enforcement on high-risk cases, not every taxpayer."
-    ],
-    [
-     "Risk-based enforcement",
-     "Using intelligence and data to choose whom to inspect",
-     "GS3 · Tax administration",
-     "Risk-based enforcement replaces random checks with intelligence-led action."
     ],
     [
      "Deemed approval",
@@ -1887,12 +1652,6 @@
      "Discretionary inspection powers that invite harassment",
      "GS2 · Governance / GS4 · Probity",
      "Curbing roadside GST checks reduces inspector raj."
-    ],
-    [
-     "Cooperative federalism",
-     "Centre and states deciding jointly",
-     "GS2 · Federalism",
-     "The GST Council is India's leading example of cooperative federalism."
     ]
    ],
    "data": [
@@ -1902,13 +1661,6 @@
      "CBIC / GST Council, via IE",
      "GS3 · Tax administration",
      "A ₹10,000 floor on show-cause notices will cut low-value GST disputes."
-    ],
-    [
-     "42.1%",
-     "Centre's fiscal deficit in April-September as a share of the full-year target (36.5% a year ago)",
-     "CGA via IE (Briefly, page 23)",
-     "GS3 · Fiscal policy",
-     "The Centre used 42.1% of its full-year fiscal deficit target in the first half (CGA)."
     ]
    ],
    "examples": [
@@ -1942,7 +1694,7 @@
     ]
    ],
    "potential": [
-    "\"Trust-based governance is the next frontier of tax reform in India.\" Discuss with reference to GST. (10 marks)"
+    "\"Trust-based governance treats the citizen as an honest stakeholder.\" Discuss with examples. (10 marks)"
    ]
   },
   {
