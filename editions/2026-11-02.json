@@ -1,0 +1,310 @@
+{
+ "date": "2026-11-02",
+ "paper": "The Indian Express",
+ "items": [
+  {
+   "id": "2026-11-02-01",
+   "title": "Challenge is wages, not jobs. Expanding Jan Vishwas interventions can help",
+   "section": "The Editorial Page",
+   "page": "Page 8",
+   "where": "The Editorial Page, page 8 (Manish Sabharwal, Teamlease Services)",
+   "gs": [
+    "GS3",
+    "GS2",
+    "GS4"
+   ],
+   "syllabus": "GS3 › Employment; Growth and development · GS2 › Government policies; Transparency and accountability; Citizen-centric governance · GS4 › Probity in governance",
+   "themes": [
+    "jobs",
+    "civserv",
+    "egov",
+    "inclusive",
+    "g4transparency"
+   ],
+   "summary": "After decriminalising thousands of offences, the writer argues the next Jan Vishwas phase should make every rule published, knowable and trust-based, because India's problem is low wages, not a lack of jobs.",
+   "ideas": [
+    [
+     "Wages, not jobs: India's problem is job quality, not quantity; a third of the workforce is in employed poverty, trapped in informal wage work and self-employment.",
+     "GS3 · Employment",
+     "India's employment challenge is low-wage informality, not joblessness; the fix lies in formal, high-wage job creation."
+    ],
+    [
+     "Regulatory cholesterol: China's per-capita GDP is five times India's (on par in 1991), not because of effort but because of India's lack of transparency, consistency and trust in law enforcement.",
+     "GS3 · Growth / GS2 · Governance",
+     "Regulatory cholesterol, not lack of talent or effort, explains much of India's per-capita income gap with China."
+    ],
+    [
+     "Six toxic thought worlds: prior approval (prohibited till permitted), enforcing the unenforceable, process as punishment, blindness to 25+ instruments below Acts, laws for edge cases, and excessive criminalisation.",
+     "GS2 · Administrative reform",
+     "India's regulatory mindset (prior approval, process as punishment, over-criminalisation) treats the citizen as a suspect."
+    ],
+    [
+     "Three next steps: Siddhant (trust-based regulation on freedom, necessity, proportionality, adopted by 30 million+ civil servants), Sangreh (a single legal record as DPI) and Ashwasan (only published obligations are enforceable).",
+     "GS2 · Citizen-centric governance",
+     "Jan Vishwas must move from decriminalisation to trust, knowability and certainty through Siddhant, Sangreh and Ashwasan."
+    ],
+    [
+     "Law must be knowable: ignorance of law is no excuse only if the State makes law accessible; earlier attempts failed on design, capacity, fragmented power, attention and technology, and lacked a binding duty to publish.",
+     "GS2 · Rule of law / Transparency",
+     "A citizen's duty to obey the law presupposes the State's duty to publish it; unpublished rules breed uncertainty and corruption."
+    ]
+   ],
+   "keywords": [
+    [
+     "Regulatory cholesterol",
+     "Accumulated rules, filings and permissions that clog enterprise",
+     "GS3 · Ease of doing business",
+     "Regulatory cholesterol raises the cost of formality and pushes firms into informality."
+    ],
+    [
+     "Employed poverty",
+     "Working but still poor",
+     "GS3 · Employment",
+     "Employed poverty shows India's real problem is wage quality, not job quantity."
+    ],
+    [
+     "Prohibited till permitted",
+     "The prior-approval mindset",
+     "GS2 · Governance",
+     "A prohibited-till-permitted regime presumes guilt and slows enterprise."
+    ],
+    [
+     "Process is punishment",
+     "The procedure itself harasses the innocent",
+     "GS2 · Governance / GS4",
+     "When process is punishment, even compliant citizens bear the cost of regulation."
+    ],
+    [
+     "Ignorantia juris non excusat",
+     "Ignorance of the law is no excuse",
+     "GS2 · Rule of law",
+     "Ignorantia juris holds only when the State makes the law knowable."
+    ],
+    [
+     "Legal digital public infrastructure",
+     "One machine-readable source for every legal obligation (Sangreh)",
+     "GS2 · E-governance",
+     "A legal DPI like Sangreh can do for compliance what UPI did for payments."
+    ]
+   ],
+   "data": [
+    [
+     "128th",
+     "India's rank in global per-capita GDP",
+     "Writer, via IE",
+     "GS3 · Growth",
+     "India ranks 128th in per-capita GDP, so mass prosperity remains the task."
+    ],
+    [
+     "About one-third",
+     "Share of India's labour force in employed poverty",
+     "Writer, via IE",
+     "GS3 · Employment",
+     "A third of India's workforce toils in employed poverty: working, yet poor."
+    ],
+    [
+     "5 times",
+     "China's per-capita GDP relative to India's; the two were on par in 1991",
+     "Writer, via IE",
+     "GS3 · Growth",
+     "India and China were on par in 1991; China's per-capita GDP is now five times higher."
+    ]
+   ],
+   "examples": [
+    [
+     "Supreme Court on knowable law",
+     "Harla v State of Rajasthan (1952) rejected secret laws; B K Srinivasan (1987) moved to knowability; Viraj Impex (2019) held law operative only when published",
+     "",
+     "GS2 · Judiciary / Rule of law",
+     "From Harla (1952) to Viraj Impex (2019), courts have held unpublished law cannot bind citizens."
+    ],
+    [
+     "Global single-source registers",
+     "US Federal Register, UK legislation.gov.uk, EU EUR-Lex, Singapore Statutes Online",
+     "",
+     "GS2 · Comparative governance",
+     "Democracies like the US, UK and Singapore publish all binding rules in one register; India's Sangreh can follow."
+    ],
+    [
+     "Transparency of Rules Act (TORA)",
+     "Sanjeev Sanyal's draft: every enforceable obligation must be published on Sangreh",
+     "GS4",
+     "GS2 · Transparency / GS4 · Probity",
+     "TORA would make publication a precondition for enforcement, curbing discretion and corruption."
+    ],
+    [
+     "Adam Smith and the Constitution",
+     "250 years of The Wealth of Nations, 76 of the Constitution: both see government as expanding freedom",
+     "",
+     "GS2 · Constitutional values / Essay",
+     "Both Adam Smith and the Constitution see the State as an enabler of freedom, not its gatekeeper."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS2-2026/Q16",
+     "Trust through rule of law: Sangreh and Ashwasan are trust tools."
+    ],
+    [
+     "GS3-2022/Q11",
+     "Job-rich, productive growth: formal high-wage jobs through deregulation."
+    ],
+    [
+     "GS3-2016/Q1",
+     "Informalisation: regulatory cholesterol as a cause."
+    ],
+    [
+     "GS2-2015/Q16",
+     "Independence of regulatory institutions."
+    ],
+    [
+     "GS4-2025/Q5b",
+     "Civil servant as enabler: Siddhant's adoption by civil servants."
+    ]
+   ],
+   "trend": {
+    "t": "Governance questions moved from regulatory autonomy (2015) to the e-governance interactive model (2024) and trust built through rule of law and participation (2026). Employment moved from informalisation (2016) to job-rich, productive growth (2022). GS4 (2025) asks the civil servant to be an enabler, not a regulator.",
+    "watch": "'Trust' is the new keyword in GS2 and GS4. Prepare trust-based, citizen-centric governance with examples such as Jan Vishwas, GST arrest powers and self-certification.",
+    "focus": [
+     "Trust-based regulation and decriminalisation",
+     "Job quality: wages, informality, productivity",
+     "Rule of law: knowability of law",
+     "Civil servant as enabler"
+    ]
+   },
+   "potential": [
+    "\"India's challenge is not jobs but wages.\" Examine, and suggest reforms to promote formal, high-wage employment. (15 marks)",
+    "Discuss the significance of the Jan Vishwas initiative for trust-based governance in India. What further reforms are needed? (10 marks)",
+    "\"The citizen's duty to know the law presupposes the State's duty to make it knowable.\" Comment. (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "Discuss the significance of the Jan Vishwas initiative for trust-based governance in India. What further reforms are needed?",
+     "marks": 10,
+     "words": 150,
+     "parts": [
+      "Introduction",
+      "Significance",
+      "Way forward",
+      "Conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "Jan Vishwas has decriminalised thousands of offences, yet a third of India's workforce remains in employed poverty, held back by regulatory cholesterol."
+      },
+      {
+       "h": "Significance",
+       "pts": [
+        {
+         "k": "Presumption of honesty",
+         "t": "The State treats citizens and firms as honest stakeholders, not suspects.",
+         "ex": ""
+        },
+        {
+         "k": "Lower cost of formality",
+         "t": "Fewer jail terms for minor lapses reduce the fear of becoming formal.",
+         "ex": ""
+        },
+        {
+         "k": "Ease of doing business",
+         "t": "Less 'process is punishment' lets firms combine land, labour and capital.",
+         "ex": ""
+        },
+        {
+         "k": "Less corruption",
+         "t": "Less discretion means fewer chances for rent-seeking.",
+         "ex": ""
+        },
+        {
+         "k": "Faster justice",
+         "t": "Fewer petty cases clog courts.",
+         "ex": ""
+        },
+        {
+         "k": "High-wage jobs",
+         "t": "It attacks the root of informality.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "Siddhant",
+         "t": "Freedom, necessity and proportionality to guide regulation, adopted by 30 million+ civil servants.",
+         "ex": ""
+        },
+        {
+         "k": "Sangreh",
+         "t": "One machine-readable legal DPI, unifying gazettes and India Code.",
+         "ex": ""
+        },
+        {
+         "k": "Ashwasan / TORA",
+         "t": "Only published obligations should be enforceable.",
+         "ex": ""
+        },
+        {
+         "k": "Sunset reviews",
+         "t": "Periodic pruning of circulars and rules.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "Jan Vishwas must move from decriminalisation to certainty, so that what is wrong with India's regulation is fixed by what is right with its democracy."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "ethics": [
+  {
+   "id": "2026-11-02-e1",
+   "area": "public",
+   "themes": [
+    "g4transparency",
+    "g4probity"
+   ],
+   "card": "2026-11-02-01",
+   "src": "IE p. 8 (Manish Sabharwal)",
+   "title": "The State's duty to be knowable",
+   "news": "A writer proposes that only rules published on one national legal register should be enforceable against citizens.",
+   "syllabus": "Transparency; Rule of law; Probity in governance; Trust",
+   "link": "A government that enforces rules citizens cannot find betrays fairness; publishing every obligation is an ethical duty that limits discretion and corruption.",
+   "pyq": [
+    "GS4-2025/Q5b",
+    "GS4-2022/Q2a"
+   ],
+   "question": "\"Hidden rules are the soil in which corruption grows.\" Discuss.",
+   "keywords": [
+    "Transparency",
+    "Rule of law",
+    "Discretion",
+    "Trust deficit"
+   ]
+  }
+ ],
+ "essay": [
+  {
+   "id": "e-2026-11-02-01",
+   "type": "Anecdote",
+   "title": "Hammurabi's eye for an eye",
+   "text": "In Hammurabi's code, blinding an aristocrat cost you an eye, but blinding a slave cost only a fine: punishment reflected power, not principle. Sabharwal sees the same disease in regulation today: show me the employer, and I'll show you the rule.",
+   "use": "For 'A society that has more justice is a society that needs less charity' (2023) and 'There can be no social justice without economic prosperity, but economic prosperity without social justice is meaningless' (2020).",
+   "themes": [
+    "justice",
+    "policy"
+   ],
+   "src": "IE p. 8 (Manish Sabharwal)",
+   "topics": [
+    "2023B3",
+    "2020B2"
+   ]
+  }
+ ]
+}
