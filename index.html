@@ -144,8 +144,10 @@ nav.main .n{font-family:var(--mono);font-size:.7rem;background:var(--navy);color
 .door .go{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
 .door .go a.btn{font-size:1rem;padding:12px 20px}
 .door .go small{color:var(--muted);font-size:.8rem}
-.door .chips2{display:flex;flex-wrap:wrap;gap:6px}
-.door .chips2 a{font-size:.8rem;font-weight:600;text-decoration:none;background:#EEF1F8;color:var(--navy);border-radius:99px;padding:5px 10px}
+.door .chips2,.aboutnote .chips2{display:flex;flex-wrap:wrap;gap:6px}
+.pjump{list-style:none;margin:4px 0 0;padding:0;display:grid;gap:8px}.pjump a{display:flex;justify-content:space-between;align-items:baseline;gap:10px;text-decoration:none;border:1px solid var(--line);border-radius:10px;padding:9px 12px;color:var(--navy)}.pjump a:hover{border-color:var(--saffron)}.pjump span{font-family:inherit;letter-spacing:0;font-size:.85rem;color:#6B7280}
+.aboutnote{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px 18px;margin-bottom:18px}.aboutnote p{margin:0 0 10px;color:#374151;font-size:.95rem}
+.door .chips2 a,.aboutnote .chips2 a{font-size:.8rem;font-weight:600;text-decoration:none;background:#EEF1F8;color:var(--navy);border-radius:99px;padding:5px 10px}
 .also{margin-top:26px}
 .also h2{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0 0 10px}
 .also ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
@@ -871,7 +873,7 @@ function viewDossier(date){
   let h=`<div class="hero"><canvas id="fx" aria-hidden="true"></canvas><div class="wrap">
     <div class="eyebrow">Today's news · tomorrow's answers</div>
     <h1>The Morning Edition.</h1>
-    <p class="sub">Every news item is broken into the four things an answer needs, tied to its syllabus line, and filed into The Almanac for revision.</p>
+    <p class="sub">A companion to your newspaper, not a replacement: read the paper, and use this to pick what matters for the syllabus. Every news item is broken into the four things an answer needs, tied to its syllabus line, and filed into The Almanac for revision.</p>
     <div class="lenses">${Object.keys(LENS).map(k=>`<span class="lens"><i style="background:${LENS[k][2]}">${LENS[k][0]}</i>${LENS[k][1]}</span>`).join('')}</div>
     <div class="stats"><div><b>${eds.length}</b><span>editions</span></div><div><b>${total}</b><span>news items</span></div><div><b>${filed}</b><span>themes fed</span></div><div><b>${MM.themes.length}</b><span>priority themes</span></div></div>
   </div></div><div class="wrap"><section class="block">
@@ -1069,6 +1071,7 @@ function viewVault(){
     <h1>Choose a paper.</h1>
     <p class="sub">Pick a paper, then a theme. Each theme page compiles every news story filed under it, story by story, with ideas, keywords, data and examples, and grows with each new Morning Edition.</p>
   </div></div><div class="wrap"><section class="block">
+   <div class="aboutnote"><p>${MM.themes.length} priority themes drawn from all ${MM.meta.total.toLocaleString("en-IN")} GS 1–4 Mains questions since 2013, in UPSC's exact wording, including the GS4 Ethics themes. ${ranked.filter(t=>prio(t)===3).length} themes were asked in almost every paper:</p><div class="chips2">${ranked.filter(t=>prio(t)===3).slice(0,6).map(t=>`<a href="#theme-${t.k}">${esc(t.n)}</a>`).join('')}</div></div>
    <ul class="papers">${PAPERS.map(card).join('')}
     <li><a class="paper essay" href="#paper-essay"><span class="pn">Essay</span><span class="pd">Essay themes, with every story, quote and example from the news filed under each</span><span class="pm">${E.themes.length} themes · ${Object.keys(E.topics).length} past topics · ${IDX.totals.essay} pieces of material</span></a></li>
    </ul>
@@ -1131,49 +1134,42 @@ function compiledText(t,items){
 function viewHome(){
   const ed=latestEd();
   const items=ed?ed.items||[]:[];
-  const topAll=ranked.filter(t=>prio(t)===3);const top=topAll.slice(0,6);
   const today=ed?fmtDate(ed.date,{weekday:'long',day:'numeric',month:'long'}):'';
   $('#main').innerHTML=`<div class="hero"><canvas id="fx" aria-hidden="true"></canvas><div class="wrap" style="padding-bottom:84px">
     <div class="eyebrow">The front page${today?' · '+esc(today):''}</div>
     <h1>Today's news. Tomorrow's answers.</h1>
-    <p class="sub">A companion to your newspaper for UPSC Mains, not a replacement. Read the paper; we help you pick what matters for the syllabus and keep every idea, keyword, data point and example, filed by theme for your answers.</p>
   </div></div>
   <div class="wrap"><section class="block" style="padding-top:0" aria-label="Choose where to go">
    <div class="fp">
     <section class="door" style="--dc:var(--navy)" aria-labelledby="d1">
-      <div class="dk"><i aria-hidden="true">${IC.dossier}</i><div><div class="dsub">Daily · press 1</div><h2 id="d1">The Morning Edition</h2></div></div>
-      <p>${ed?`Today's ${items.length} stories from ${esc(ed.paper)}, ${esc(fmtDate(ed.date,{day:'numeric',month:'long'}))}. Each comes with the news in brief, ideas, keywords, data, examples and the past questions it fits.`:'The first edition goes to press soon.'}</p>
+      <div class="dk"><i aria-hidden="true">${IC.dossier}</i><div><div class="dsub">Daily</div><h2 id="d1">The Morning Edition</h2></div></div>
+      <p>${ed?`${items.length} stories · ${esc(ed.paper)}, ${esc(fmtDate(ed.date,{day:'numeric',month:'long'}))}`:'The first edition goes to press soon.'}</p>
       ${items.length?`<h3 class="sr">Top stories today</h3><ul>${items.slice(0,4).map((it,i)=>`<li><a href="#edition" data-goto="item-${esc(it.id)}"><span aria-hidden="true">${String(i+1).padStart(2,'0')}</span>${esc(it.title)}</a></li>`).join('')}</ul>`:''}
       <div class="go"><a class="btn pri" href="#edition">Read today's edition →</a><small>${items.length>4?`and ${items.length-4} more stories`:''}</small></div>
     </section>
     <section class="door" style="--dc:var(--saffron)" aria-labelledby="d2">
-      <div class="dk"><i aria-hidden="true">${IC.vault}</i><div><div class="dsub">The year, theme by theme · press 2</div><h2 id="d2">The Almanac</h2></div></div>
-      <p>${MM.themes.length} priority themes drawn from all ${MM.meta.total.toLocaleString("en-IN")} GS 1–4 Mains questions since 2013, in UPSC's exact wording. Every day's news is filed under its themes, so revision before the exam is in one place. ${topAll.length} themes were asked in almost every paper.</p>
-      <h3 class="sr">Most-asked themes</h3><div class="chips2">${top.map(t=>`<a href="#theme-${t.k}">${esc(t.n)}</a>`).join('')}</div>
-      <div class="go"><a class="btn pri" href="#almanac">Open The Almanac →</a><small>Includes the GS4 Ethics themes and the Ethics Casebook</small></div>
+      <div class="dk"><i aria-hidden="true">${IC.vault}</i><div><div class="dsub">Theme by theme</div><h2 id="d2">The Almanac</h2></div></div>
+      <p>Every story filed under its syllabus theme, for revision.</p>
+      <ul class="pjump">${[['gs1','GS Paper 1','Society, history, geography'],['gs2','GS Paper 2','Polity, governance, IR'],['gs3','GS Paper 3','Economy, environment, security'],['gs4','GS Paper 4','Ethics'],['essay','Essay','Essay themes']].map(([k,n,d])=>`<li><a href="#paper-${k}"><b>${n}</b><span>${d}</span></a></li>`).join('')}</ul>
+      <div class="go"><a class="btn pri" href="#almanac">Open The Almanac →</a></div>
     </section>
    </div>
    <div class="fp fp2">
     <section class="door sm" style="--dc:#7C3AED" aria-labelledby="d3">
-      <div class="dk"><i aria-hidden="true">${IC.pen}</i><div><div class="dsub">Essay paper · press 3</div><h2 id="d3">The Essay Column</h2></div></div>
-      <p>The pattern of essay topics since 2020, and today's stories, quotes and examples that can carry an essay.${ed&&(ed.essay||[]).length?` ${ed.essay.length} pieces from today's paper.`:''}</p>
+      <div class="dk"><i aria-hidden="true">${IC.pen}</i><div><div class="dsub">Essay paper</div><h2 id="d3">The Essay Column</h2></div></div>
+      <p>Stories, quotes and examples for your essays.${ed&&(ed.essay||[]).length?` ${ed.essay.length} new today.`:''}</p>
       <div class="go"><a class="btn pri" href="#essay">Open The Essay Column →</a></div>
     </section>
     <section class="door sm" style="--dc:var(--gs4)" aria-labelledby="d4">
-      <div class="dk"><i aria-hidden="true">${IC.scale}</i><div><div class="dsub">GS Paper 4 · press 4</div><h2 id="d4">The Ethics Casebook</h2></div></div>
-      <p>${IDX.totals.cases} cases from the news, each with the GS4 syllabus line it connects to, a practice question and keywords.${ed&&(ed.ethics||[]).length?` ${ed.ethics.length} from today's paper.`:''}</p>
+      <div class="dk"><i aria-hidden="true">${IC.scale}</i><div><div class="dsub">GS Paper 4</div><h2 id="d4">The Ethics Casebook</h2></div></div>
+      <p>Real cases from the news for GS4.${ed&&(ed.ethics||[]).length?` ${ed.ethics.length} new today.`:''}</p>
       <div class="go"><a class="btn pri" href="#ethics">Open The Ethics Casebook →</a></div>
     </section>
    </div>
    <nav class="also" aria-labelledby="also-h"><h2 id="also-h">Also in the Gazette</h2><ul style="grid-template-columns:repeat(2,minmax(0,1fr))">
-     <li><a href="#index"><i aria-hidden="true" style="background:#0F766E">${IC.map}</i><div><b>PYQ Index</b><span>Every theme across 14 years at a glance. Press 5</span></div></a></li>
-     <li><a href="#clippings"><i aria-hidden="true" style="background:#475569">${IC.saved}</i><div><b>Clippings</b><span>Stories you saved for revision. Press 6</span></div></a></li>
+     <li><a href="#index"><i aria-hidden="true" style="background:#0F766E">${IC.map}</i><div><b>PYQ Index</b><span>Past questions by theme</span></div></a></li>
+     <li><a href="#clippings"><i aria-hidden="true" style="background:#475569">${IC.saved}</i><div><b>Clippings</b><span>Your saved stories</span></div></a></li>
    </ul></nav>
-   <div class="why3" role="list" aria-label="Why The Mains Gazette">
-     <div role="listitem"><b>Read smarter</b><span>The day's syllabus-relevant stories, with the page to find each one in the paper.</span></div>
-     <div role="listitem"><b>Never lose a point</b><span>Ideas, keywords, data and examples, saved and filed by theme.</span></div>
-     <div role="listitem"><b>Write better answers</b><span>Each story linked to past Mains questions, plus Essay and Ethics material.</span></div>
-   </div>
   </section></div>`;
   fx();
   $('#main').querySelectorAll('[data-goto]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const id=a.dataset.goto;location.hash='#edition';setTimeout(()=>{const el=document.getElementById(id);if(el){el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.add('flash');el.setAttribute('tabindex','-1');el.focus({preventScroll:true});setTimeout(()=>el.classList.remove('flash'),1600)}},350)}));
