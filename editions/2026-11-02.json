@@ -1337,6 +1337,178 @@
    "potential": [
     "Discuss the challenges faced by regulatory bodies in balancing public safety with the commercial viability of regulated services. Illustrate with examples. (10 marks)"
    ]
+  },
+  {
+   "id": "2026-11-02-07",
+   "title": "How welfare board will function, what changes for unorganised, gig workers",
+   "section": "Economy",
+   "page": "Page 10",
+   "where": "Economy, page 10 (Ravi Dutta Mishra & Aanchal Magazine)",
+   "gs": [
+    "GS3",
+    "GS2"
+   ],
+   "syllabus": "GS3 › Employment; Labour reforms · GS2 › Welfare schemes for vulnerable sections; Statutory bodies",
+   "themes": [
+    "jobs",
+    "welfare",
+    "digital",
+    "vulnerable"
+   ],
+   "summary": "Follow-up: the Labour Ministry has notified two social security boards (40 members for unorganised workers, 22 for gig and platform workers) under the Code on Social Security.",
+   "evolution": [
+    [
+     "31 Oct 2026",
+     "Labour Ministry notifies the National Social Security Board under the Code on Social Security (Economy, page 23)."
+    ],
+    [
+     "2 Nov 2026",
+     "Details: two boards, aggregator contributions to a social security fund, and EPFO coverage widened."
+    ]
+   ],
+   "ideas": [
+    [
+     "Two boards, not one: a 40-member board for unorganised workers and a 22-member board for gig and platform workers, which includes aggregators such as quick-commerce and delivery platforms.",
+     "GS2 · Statutory bodies",
+     "Separate boards recognise that gig and platform workers need schemes designed for platform work."
+    ],
+    [
+     "Who pays: aggregators must contribute 1–2% of annual turnover to a social security fund, capped at 5% of what they pay workers; the fund also draws on governments, CSR and fines.",
+     "GS3 · Labour / GS2 · Welfare",
+     "Aggregator contributions put part of the cost of gig workers' security on the platforms that profit from them."
+    ],
+    [
+     "What it covers: schemes for life and disability cover, accident insurance, health and maternity benefits, old-age protection and crèches.",
+     "GS2 · Welfare",
+     "Social security for gig workers spans life-cycle risks, from maternity to old age."
+    ],
+    [
+     "Wider formal coverage: EPFO provisions now apply to all establishments with 20 or more employees, regardless of industry, not only those in the old schedule.",
+     "GS3 · Labour reforms",
+     "Extending EPFO to all establishments with 20+ workers widens formal social security."
+    ]
+   ],
+   "keywords": [
+    [
+     "Social Security Fund",
+     "Pooled fund for unorganised, gig and platform workers",
+     "GS2 · Welfare",
+     "A dedicated Social Security Fund gives gig workers' schemes a stable financing base."
+    ],
+    [
+     "Aggregator levy",
+     "Platforms paying a share of turnover towards workers' welfare",
+     "GS3 · Labour",
+     "The aggregator levy shares the cost of social protection with platforms."
+    ]
+   ],
+   "data": [
+    [
+     "1–2% of turnover (cap 5%)",
+     "Aggregators' contribution to the social security fund, capped at 5% of amounts payable to workers",
+     "Code on Social Security, via IE",
+     "GS3 · Labour / GS2 · Welfare",
+     "Aggregators must contribute 1–2% of turnover to gig workers' social security, capped at 5% of payouts (Code on Social Security)."
+    ]
+   ],
+   "examples": [
+    [
+     "Aggregators on the gig workers' board",
+     "Platforms sit with worker bodies to design welfare schemes",
+     "",
+     "GS2 · Tripartism, statutory bodies · GS3 · Digital economy",
+     "Putting aggregators and worker bodies on one board shows tripartism adapting to the platform economy."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS1-2021/Q10",
+     "The gig economy and women's empowerment."
+    ],
+    [
+     "GS3-2024/Q11",
+     "The four Labour Codes."
+    ]
+   ],
+   "potential": []
+  },
+  {
+   "id": "2026-11-02-08",
+   "title": "Retirement fund body unveils services to ease provident fund access; Digi Yatra trials for overseas flyers",
+   "section": "Economy",
+   "page": "Page 10",
+   "where": "Economy, page 10 (ENS Economic Bureau; Briefly, PTI)",
+   "gs": [
+    "GS2",
+    "GS4"
+   ],
+   "syllabus": "GS2 › E-governance: applications, models, successes; Citizen-centric governance · GS4 › Empathy and compassion in public service",
+   "themes": [
+    "egov",
+    "civserv",
+    "g4workculture"
+   ],
+   "summary": "Minor topic: EPFO launched verified WhatsApp services and automatic settlement of small inoperative accounts; Digi Yatra trials for international passengers began at seven airports.",
+   "ideas": [
+    [
+     "Services where people already are: EPFO's verified WhatsApp service gives PF balance, transactions and passbook, and guidance on the Employment Linked Incentive scheme, reducing office visits.",
+     "GS2 · E-governance",
+     "Delivering services on familiar platforms like WhatsApp makes e-governance truly citizen-centric."
+    ],
+    [
+     "From claims to automatic delivery: Aadhaar-verified inoperative EPF accounts with balances up to ₹1,000 will be settled without individual claims.",
+     "GS2 · Citizen-centric governance",
+     "Automatic settlement shifts the burden from the citizen to the State, the essence of proactive governance."
+    ],
+    [
+     "Human sensitivity in social security: the Labour Minister said every worker's grievance must be met with compassion and empathy, treating workers as nation-builders.",
+     "GS4 · Empathy in public service",
+     "Social security administration must combine efficiency with empathy for the worker."
+    ],
+    [
+     "Paperless travel goes international: Digi Yatra trials for Indian e-passport holders on select international flights have begun at seven airports, with wider rollout expected in 2027.",
+     "GS2 · E-governance / GS3 · Infrastructure",
+     "Digi Yatra shows digital public infrastructure extending from domestic to international travel."
+    ]
+   ],
+   "keywords": [
+    [
+     "Proactive (no-claim) delivery",
+     "Benefits paid automatically without application",
+     "GS2 · Governance",
+     "No-claim settlement is proactive delivery: the State reaches the citizen first."
+    ],
+    [
+     "Last-mile digital access",
+     "Services on platforms citizens already use",
+     "GS2 · E-governance",
+     "WhatsApp-based services improve last-mile digital access."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "EPFO WhatsApp and auto-settlement",
+     "Verified WhatsApp services; small inoperative accounts settled without claims",
+     "GS4",
+     "GS2 · E-governance, citizen-centric governance · GS4 · Innovation and empathy in public service",
+     "EPFO's WhatsApp service and no-claim settlement show innovation in public service that saves citizens time and trips."
+    ],
+    [
+     "Digi Yatra for international flyers",
+     "Trials at Delhi, Bengaluru, Hyderabad, Cochin, Mumbai, Chennai and Amritsar",
+     "",
+     "GS2 · E-governance · GS3 · Infrastructure",
+     "Digi Yatra's international trials show digital identity easing travel, while raising data-protection questions."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS2-2024/Q18",
+     "E-governance beyond technology: the interactive service model."
+    ]
+   ],
+   "potential": []
   }
  ],
  "ethics": [
