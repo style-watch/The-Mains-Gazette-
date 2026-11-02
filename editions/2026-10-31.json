@@ -1,0 +1,3104 @@
+{
+ "date": "2026-10-31",
+ "paper": "The Indian Express",
+ "items": [
+  {
+   "id": "2026-10-31-01",
+   "title": "Extreme poverty in India halved to 2.6% in 2023 from year ago: World Bank data",
+   "section": "Front Page",
+   "page": "Page 1",
+   "where": "Front page, continued on page 2 (Siddharth Upasani)",
+   "gs": [
+    "GS1",
+    "GS2",
+    "GS3"
+   ],
+   "syllabus": "GS1 › Poverty and developmental issues; Role of women · GS2 › Issues relating to poverty and hunger · GS3 › Inclusive growth; Employment · GS2 › International institutions (World Bank)",
+   "themes": [
+    "poverty",
+    "inclusive",
+    "jobs",
+    "women",
+    "intl"
+   ],
+   "summary": "The World Bank's Poverty & Equity Brief puts India's extreme poverty ($3 a day, 2021 PPP) at 2.6% in 2023, but flags wage gaps, regional concentration and low-productivity jobs.",
+   "ideas": [
+    [
+     "Fast fall, on every line: extreme poverty fell from 27.1% (2011) to 5.3% (2022-23) and 2.6% (2023); the lower-middle-income line ($4.2) fell from 57.7% to 16.1%, lifting about 496 million people.",
+     "GS1 · Poverty",
+     "India recorded one of the world's fastest poverty declines, in monetary and non-monetary terms, says the World Bank."
+    ],
+    [
+     "Poverty is now a place, not just a condition: about 57% of India's poor live in one belt from Uttar Pradesh to West Bengal, so further gains depend on productive jobs in these states.",
+     "GS1 · Regional disparity / GS3 · Inclusive growth",
+     "With poverty concentrated geographically, the next phase of poverty reduction is a question of regional, job-rich growth."
+    ],
+    [
+     "Jobs grew, earnings did not: employment rose by 13.4 crore (2017-2023), led by rural women entering paid work, but real earnings stayed flat and jobs were in low-productivity activities.",
+     "GS3 · Employment",
+     "Employment growth without real wage growth signals a quantity-quality gap in India's labour market."
+    ],
+    [
+     "Inequality looks lower but may be understated: the consumption Gini fell to 23.0, yet the Bank warns surveys may miss richer households, and the top 10% earn about 13 times the bottom 10%.",
+     "GS2 · Poverty / GS3 · Inequality",
+     "Falling consumption inequality coexists with sharp wage inequality; survey design may understate the gap at the top."
+    ],
+    [
+     "Lines and measurement matter: the Bank uses three lines ($3, $4.2, $8.3) in 2021 PPP; new Indian survey data have revised global poverty counts before, so methodology shapes the story.",
+     "GS2 · International institutions / GS3 · Measurement",
+     "Poverty estimates depend on the line, the PPP base and survey design; India's data revisions shift global counts."
+    ]
+   ],
+   "keywords": [
+    [
+     "Purchasing Power Parity (PPP)",
+     "Converts incomes to a common currency after adjusting for price levels",
+     "GS3 · Measurement",
+     "PPP lines measure what money buys, not its exchange value, so poverty comparisons stay meaningful across countries."
+    ],
+    [
+     "Geographic concentration of poverty",
+     "Poverty clustering in a few lagging regions",
+     "GS1 · Regional disparity",
+     "As poverty concentrates geographically, place-based strategies matter more than nationwide schemes."
+    ],
+    [
+     "Working poverty",
+     "Being employed yet earning too little to move up",
+     "GS3 · Employment",
+     "Jobs concentrated in low-productivity work keep many in working poverty."
+    ],
+    [
+     "Feminisation of the workforce",
+     "Women's rising entry into paid work",
+     "GS1 · Women",
+     "The rise of rural women in paid work is driving India's employment growth."
+    ],
+    [
+     "Last-mile poverty",
+     "The hardest residual poverty, harder to reduce than the first gains",
+     "GS2 · Welfare",
+     "As headline poverty falls, last-mile poverty needs targeted, region-specific interventions."
+    ],
+    [
+     "Earnings inequality vs consumption inequality",
+     "Gaps in pay can widen even as gaps in spending narrow",
+     "GS3 · Inequality",
+     "Consumption inequality may fall while earnings inequality stays pronounced."
+    ]
+   ],
+   "data": [
+    [
+     "2.6% (2023)",
+     "Extreme poverty ($3/day, 2021 PPP), down from 5.3% (2022-23) and 27.1% (2011)",
+     "World Bank, Poverty & Equity Brief",
+     "GS1 · Poverty",
+     "Extreme poverty fell from 27.1% in 2011 to 2.6% in 2023 (World Bank)."
+    ],
+    [
+     "16.1% (2023)",
+     "Below the $4.2 line, down from 57.7% in 2011: about 496 million lifted out",
+     "World Bank",
+     "GS1 · Poverty / GS3 · Inclusive growth",
+     "About 496 million Indians crossed the $4.2-a-day line between 2011 and 2023 (World Bank)."
+    ],
+    [
+     "~57%",
+     "Share of India's poor living in the belt from Uttar Pradesh to West Bengal",
+     "World Bank",
+     "GS1 · Regional disparity",
+     "Nearly 57% of India's poor live in the UP–West Bengal belt (World Bank)."
+    ],
+    [
+     "13.4 crore",
+     "Rise in employment, 2017-2023, nearly twice the rise in working-age population; led by rural women",
+     "World Bank",
+     "GS3 · Employment / GS1 · Women",
+     "Employment grew by 13.4 crore in 2017-23, driven by rural women entering paid work (World Bank)."
+    ],
+    [
+     "~13 times",
+     "Median earnings of the top 10% of workers over the bottom 10%",
+     "World Bank",
+     "GS3 · Inequality",
+     "The top 10% of workers earn about 13 times the bottom 10% (World Bank)."
+    ],
+    [
+     "14.6% → 15.9%",
+     "Youth unemployment, Q1 of 2025-26 to Q1 of this fiscal",
+     "World Bank",
+     "GS3 · Employment",
+     "Youth unemployment rose from 14.6% to 15.9% in a year, even as overall jobs grew."
+    ]
+   ],
+   "examples": [
+    [
+     "UP–West Bengal poverty belt",
+     "Where most of India's remaining poor live",
+     "",
+     "GS1 · Regional disparity / GS3 · Inclusive growth",
+     "The UP–West Bengal belt shows why balanced regional development is now central to poverty reduction."
+    ],
+    [
+     "Women Home Guard aspirants, Jharkhand",
+     "About 6,000 women ran trials in Ramgarh for 284 Home Guard posts (Big Picture, page 21)",
+     "GS4",
+     "GS1 · Women and work",
+     "Thousands of rural women racing for a few Home Guard posts show both the aspiration and the scarcity of decent jobs."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS2-2025/Q16",
+     "Poverty and unequal ownership of resources: the 13-times wage gap and concentrated poverty fit here."
+    ],
+    [
+     "GS1-2018/Q9",
+     "Why poverty persists despite schemes: regional concentration and low-productivity jobs are fresh reasons."
+    ],
+    [
+     "GS2-2020/Q16",
+     "Incidence and intensity beyond income: the Bank's multiple lines and non-monetary progress."
+    ],
+    [
+     "GS3-2017/Q13",
+     "Is India's growth inclusive: falling poverty with flat real earnings is a two-sided answer."
+    ],
+    [
+     "GS3-2022/Q11",
+     "Labour-led growth vs productivity: jobs grew in low-productivity activities."
+    ]
+   ],
+   "trend": {
+    "t": "GS1 asked why poverty persists (2016, 2018) and how COVID deepened it (2020); GS2 moved to measurement (multidimensional poverty, 2020) and to structural causes such as unequal ownership of resources (2025). GS3 keeps asking whether growth is inclusive (2017, 2019, 2022, 2024, 2025).",
+    "watch": "Inclusive growth is asked almost every year in GS3, and poverty's structural causes keep returning in GS1 and GS2. Know both the numbers and the reasons poverty persists.",
+    "focus": [
+     "Measuring poverty: lines, PPP and multidimensional indices",
+     "Why poverty persists: regions, assets and job quality",
+     "Inclusive growth and productive employment",
+     "Women's work and household poverty"
+    ]
+   },
+   "potential": [
+    "\"Falling poverty in India is increasingly a question of where the poor live and what work they do.\" Discuss. (15 marks)",
+    "India's poverty has declined sharply, yet earnings inequality remains pronounced. Examine the reasons and suggest measures. (10 marks)",
+    "Discuss the role of rural women's entry into paid work in India's recent employment growth. What limits its impact on poverty? (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "\"Falling poverty in India is increasingly a question of where the poor live and what work they do.\" Discuss.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction: the decline, with facts",
+      "Where the poor live: regional concentration",
+      "What work they do: jobs and earnings",
+      "Way forward",
+      "Conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "The World Bank estimates India's extreme poverty fell from 27.1% in 2011 to 2.6% in 2023, but about 57% of the remaining poor live in one belt from Uttar Pradesh to West Bengal."
+      },
+      {
+       "h": "Where the poor live",
+       "pts": [
+        {
+         "k": "Geographic concentration",
+         "t": "Lagging states in the Gangetic plain hold most residual poverty, so national averages hide regional gaps.",
+         "ex": "The UP–West Bengal belt holds about 57% of the poor."
+        },
+        {
+         "k": "Weak urbanisation and industry",
+         "t": "These states have fewer manufacturing and urban jobs to absorb farm labour.",
+         "ex": ""
+        },
+        {
+         "k": "Demographic pressure",
+         "t": "High population growth and young cohorts strain jobs and services.",
+         "ex": ""
+        },
+        {
+         "k": "Agrarian distress",
+         "t": "Small holdings and flood-prone lands keep rural incomes low and volatile.",
+         "ex": ""
+        },
+        {
+         "k": "Infrastructure and capital gaps",
+         "t": "Lower investment, credit and connectivity limit enterprise.",
+         "ex": ""
+        },
+        {
+         "k": "Governance capacity",
+         "t": "Weaker delivery of health, education and schemes slows human-capital gains.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "What work they do",
+       "pts": [
+        {
+         "k": "Low-productivity employment",
+         "t": "Jobs grew by 13.4 crore (2017-23), but mostly in low-productivity activities.",
+         "ex": "Real earnings stayed broadly unchanged."
+        },
+        {
+         "k": "Women's entry into paid work",
+         "t": "Rural women drove job growth, often in self-employment and unpaid family work.",
+         "ex": ""
+        },
+        {
+         "k": "Wage inequality",
+         "t": "The top 10% earn about 13 times the bottom 10%.",
+         "ex": ""
+        },
+        {
+         "k": "Youth unemployment",
+         "t": "It rose from 14.6% to 15.9% in a year.",
+         "ex": ""
+        },
+        {
+         "k": "Informality",
+         "t": "Most workers lack contracts and social security, so shocks push them back into poverty.",
+         "ex": ""
+        },
+        {
+         "k": "Skill mismatch",
+         "t": "Education does not translate into productive jobs.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "Place-based growth",
+         "t": "Industrial corridors, MSME clusters and agro-processing in the eastern belt.",
+         "ex": ""
+        },
+        {
+         "k": "Labour-intensive manufacturing",
+         "t": "Textiles, food processing and electronics assembly to absorb farm labour.",
+         "ex": ""
+        },
+        {
+         "k": "Skills tied to local demand",
+         "t": "Apprenticeships linked with employers.",
+         "ex": ""
+        },
+        {
+         "k": "Support women's work",
+         "t": "Childcare, safe transport and SHG credit to move women into better-paid work.",
+         "ex": ""
+        },
+        {
+         "k": "Social security for informal workers",
+         "t": "Portable benefits under the Code on Social Security.",
+         "ex": ""
+        },
+        {
+         "k": "Better data",
+         "t": "Regular surveys that capture top incomes and earnings.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "With the poorest now concentrated in a few regions and in low-paid work, the next fall in poverty will come from productive jobs in the eastern belt, not from transfers alone."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-10-31-02",
+   "title": "For energy security, E100 alone is not the answer",
+   "section": "The Editorial Page",
+   "page": "Page 12",
+   "where": "The Editorial Page, page 12 (A Das, CSEP)",
+   "gs": [
+    "GS3",
+    "GS2"
+   ],
+   "syllabus": "GS3 › Infrastructure: energy; Conservation; Government policies · GS2 › Energy security and foreign policy",
+   "themes": [
+    "energy",
+    "climate",
+    "agri"
+   ],
+   "summary": "After E20 and a rules change that allows pure-ethanol (E100) vehicles, the writer argues ethanol cannot cut crude imports much unless biofuel policy also tackles diesel.",
+   "ideas": [
+    [
+     "Policy has moved fast: India has made the transition to E20 petrol, and an amendment to the Central Motor Vehicles Rules, 1989 now allows vehicles to run on pure ethanol (E100).",
+     "GS3 · Energy policy",
+     "The move from E20 to E100 shows biofuels becoming a pillar of India's energy-security strategy."
+    ],
+    [
+     "The barrel limits the gain: petrol is only 15-18% of what a barrel of crude yields, while diesel is about 44-45%, so ethanol addresses a small slice of oil demand.",
+     "GS3 · Energy security",
+     "Ethanol can only displace petrol, a minor share of the crude barrel, so its import savings are limited."
+    ],
+    [
+     "Diesel is the real dependence: India consumed about 503 million tonnes of diesel against 200 million tonnes of petrol (FY21-FY25); freight, farming and logistics run on it.",
+     "GS3 · Energy / Infrastructure",
+     "Diesel, not petrol, drives India's oil demand, so biofuel policy must target diesel."
+    ],
+    [
+     "Less petrol does not mean less crude: refineries can shift product yields only a little, so petrol displaced is not the same as crude imports reduced.",
+     "GS3 · Energy security",
+     "Policymakers must separate petrol displaced, spending avoided and actual reduction in crude imports."
+    ],
+    [
+     "Measure outcomes, not volumes: biodiesel lags its 5% target; success should be judged by lower crude demand and import bills, not litres of ethanol blended.",
+     "GS3 · Policy evaluation",
+     "The test of biofuel policy is reduced import dependence, not the volume of ethanol blended."
+    ]
+   ],
+   "keywords": [
+    [
+     "Refinery yield rigidity",
+     "Limited flexibility to change the mix of products from a barrel",
+     "GS3 · Energy",
+     "Refinery yield rigidity means cutting petrol demand does not cut crude throughput proportionately."
+    ],
+    [
+     "Output vs outcome metrics",
+     "Measuring litres blended versus imports avoided",
+     "GS2 · Governance / GS3 · Energy",
+     "Biofuel policy should track outcomes such as imports avoided, not outputs like blending rates."
+    ],
+    [
+     "Import exposure",
+     "Vulnerability to price and supply shocks from imported oil",
+     "GS3 · Energy security",
+     "With over 80% of crude imported, India's import exposure makes West Asian conflicts a domestic risk."
+    ],
+    [
+     "Energy-content penalty",
+     "Ethanol carries less energy than petrol, cutting fuel economy",
+     "GS3 · Energy",
+     "Ethanol's lower energy content means a 20% blend cuts petrol use by less than 20%."
+    ],
+    [
+     "Feedstock security",
+     "Reliable supply of raw material for biofuels",
+     "GS3 · Agriculture / Energy",
+     "Scaling biodiesel needs feedstock security from non-edible oils and used cooking oil."
+    ]
+   ],
+   "data": [
+    [
+     "Over 80%",
+     "Share of India's crude oil requirement that is imported",
+     "IE, Editorial page",
+     "GS3 · Energy security",
+     "India imports over 80% of its crude oil, leaving it exposed to price and geopolitical shocks."
+    ],
+    [
+     "Petrol 15-18% vs diesel 44-45%",
+     "Share of each in products from a barrel of crude",
+     "IE, Editorial page (CSEP)",
+     "GS3 · Energy",
+     "Petrol is only 15-18% of the crude barrel; diesel is 44-45%."
+    ],
+    [
+     "503 MT vs 200 MT",
+     "Diesel vs petrol consumed, FY 2020-21 to FY 2024-25",
+     "IE, Editorial page (CSEP)",
+     "GS3 · Energy / Infrastructure",
+     "India used about 503 million tonnes of diesel and 200 million tonnes of petrol in FY21-FY25."
+    ],
+    [
+     "~15.56%",
+     "Modelled fall in petrol consumption from a 20% ethanol blend",
+     "IE, Editorial page (CSEP)",
+     "GS3 · Energy",
+     "E20 may cut petrol use by about 15.56%, not 20%, because ethanol has lower energy content."
+    ]
+   ],
+   "examples": [
+    [
+     "E20 rollout",
+     "India's transition to 20% ethanol-blended petrol",
+     "",
+     "GS3 · Energy / Agriculture",
+     "The E20 rollout shows how biofuels can link farm income with energy security."
+    ],
+    [
+     "West Asia conflict and oil trade",
+     "The ongoing conflict has disrupted oil trade, the writer notes",
+     "",
+     "GS2 · Energy security and foreign policy",
+     "The West Asia conflict shows why diversifying away from imported oil is a strategic need."
+    ],
+    [
+     "Used cooking oil for biodiesel",
+     "Past efforts on non-edible oils and used cooking oil faced feedstock and supply-chain hurdles",
+     "GS4",
+     "GS3 · Waste to energy / GS4 · Environmental ethics",
+     "Turning used cooking oil into biodiesel joins waste management with energy security."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS3-2026/Q11",
+     "Challenges to energy security and measures: the petrol-diesel asymmetry is a sharp point."
+    ],
+    [
+     "GS2-2025/Q19",
+     "Energy security and foreign policy in West Asia: import exposure is the link."
+    ],
+    [
+     "GS2-2017/Q19",
+     "India's energy cooperation with West Asia: biofuels reduce but do not end dependence."
+    ],
+    [
+     "GS1-2017/Q15",
+     "Refinery location and its implications: refinery economics shape import needs."
+    ]
+   ],
+   "trend": {
+    "t": "Energy questions moved from cooperation with West Asia (2017) to energy security as the core of foreign policy (2025) and, in 2026, to the challenges of energy security alongside growth and sustainability. Geography touched refineries (2017).",
+    "watch": "Energy security has been asked in 2017, 2025 and 2026, in both GS2 and GS3. Prepare it as a cross-paper topic: diplomacy, domestic supply and transition.",
+    "focus": [
+     "Import dependence and diversification of suppliers",
+     "Biofuels, EVs and the energy transition",
+     "West Asia, sea lanes and energy diplomacy",
+     "Strategic reserves and refining"
+    ]
+   },
+   "potential": [
+    "\"Ethanol blending can reduce petrol consumption, but not India's dependence on imported crude in the same proportion.\" Examine. (15 marks)",
+    "Why has biodiesel lagged behind ethanol in India's biofuel programme? Suggest measures to scale it up. (10 marks)",
+    "Discuss the opportunities and challenges of moving from E20 to E100 in India. (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "\"Ethanol blending can reduce petrol consumption, but not India's dependence on imported crude in the same proportion.\" Examine.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction: E20 to E100, with facts",
+      "How ethanol helps",
+      "Why import dependence falls less",
+      "Way forward",
+      "Conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "India has moved to E20 and amended the Central Motor Vehicles Rules, 1989 to allow E100, while it still imports over 80% of its crude oil."
+      },
+      {
+       "h": "How ethanol helps",
+       "pts": [
+        {
+         "k": "Displaces petrol",
+         "t": "A 20% blend can cut petrol use by about 15.56%.",
+         "ex": ""
+        },
+        {
+         "k": "Saves foreign exchange",
+         "t": "Lower petrol demand reduces spending on its supply.",
+         "ex": ""
+        },
+        {
+         "k": "Farm income",
+         "t": "Sugarcane and grain feedstock link energy with rural incomes.",
+         "ex": ""
+        },
+        {
+         "k": "Cleaner fuel",
+         "t": "Ethanol lowers some tailpipe emissions.",
+         "ex": ""
+        },
+        {
+         "k": "Domestic value chain",
+         "t": "Distilleries and flex-fuel vehicles build an industry.",
+         "ex": ""
+        },
+        {
+         "k": "Shock buffer",
+         "t": "A domestic fuel softens the impact of crises.",
+         "ex": "The West Asia conflict has disrupted oil trade."
+        }
+       ]
+      },
+      {
+       "h": "Why import dependence falls less",
+       "pts": [
+        {
+         "k": "Petrol is a small slice",
+         "t": "It is only 15-18% of a crude barrel; diesel is 44-45%.",
+         "ex": ""
+        },
+        {
+         "k": "Diesel dominates demand",
+         "t": "About 503 MT of diesel against 200 MT of petrol in FY21-FY25.",
+         "ex": ""
+        },
+        {
+         "k": "Refinery yield rigidity",
+         "t": "Refineries cannot freely raise diesel yields, so crude throughput falls little.",
+         "ex": ""
+        },
+        {
+         "k": "Energy-content penalty",
+         "t": "Ethanol's lower energy content reduces fuel economy.",
+         "ex": ""
+        },
+        {
+         "k": "Biodiesel lag",
+         "t": "The 5% target was missed; feedstock and supply chains are weak.",
+         "ex": ""
+        },
+        {
+         "k": "Wrong metric",
+         "t": "Counting litres blended overstates import savings.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "Target diesel",
+         "t": "R&D and blending targets for biodiesel and renewable diesel.",
+         "ex": ""
+        },
+        {
+         "k": "Feedstock systems",
+         "t": "Collection of used cooking oil and non-edible oilseeds.",
+         "ex": ""
+        },
+        {
+         "k": "Outcome metrics",
+         "t": "Track crude demand and import bills.",
+         "ex": ""
+        },
+        {
+         "k": "Electrify freight and farms",
+         "t": "Electric trucks, rail freight and solar pumps cut diesel.",
+         "ex": ""
+        },
+        {
+         "k": "Supplier diversification",
+         "t": "Reserves and diverse sources against shocks.",
+         "ex": ""
+        },
+        {
+         "k": "Food-fuel balance",
+         "t": "Avoid diverting water-intensive crops.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "The real test of India's biofuel strategy is how far it cuts imported oil, which means looking beyond the petrol pump to diesel."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-10-31-03",
+   "title": "The Communist Party of Xi Jinping",
+   "section": "The Editorial Page",
+   "page": "Page 12",
+   "where": "The Editorial Page, page 12 (Takshashila Institution)",
+   "gs": [
+    "GS2",
+    "GS3"
+   ],
+   "syllabus": "GS2 › India and its neighbourhood; Effect of policies and politics of other countries on India's interests · GS3 › Security challenges in border areas",
+   "themes": [
+    "powers",
+    "border",
+    "neighbour"
+   ],
+   "summary": "The CPC's fifth plenum confirmed sweeping purges, left the Central Military Commission with two members, and expelled the former chief of the command that faces India on the LAC.",
+   "ideas": [
+    [
+     "Discipline over capacity: the plenum's theme was 'rigorous self-governance of the Party'; 33 members and alternates were expelled (14 a year ago), and attendance was the lowest since the Mao era.",
+     "GS2 · China's internal politics",
+     "Xi is choosing understaffed but loyal institutions over efficient but suspect ones."
+    ],
+    [
+     "A hollowed-out high command: the Central Military Commission, long a seven-member body, now has two members, Xi and discipline chief Zhang Shengmin, who was elevated to the Politburo mid-term.",
+     "GS2 · China / GS3 · Security",
+     "A two-member CMC commanding the world's largest military concentrates power and weakens checks."
+    ],
+    [
+     "Purges reach Xi's inner circle: removals include former vice-chairman Zhang Youxia, former Western Theatre commander Wang Haijiang and two directors of Xi's military secretariat.",
+     "GS2 · China",
+     "When the purge reaches the leader's own secretariat, fear rather than performance shapes careers."
+    ],
+    [
+     "Risk for India on the LAC: the Western Theatre Command, which is responsible for the LAC, has seen its former chief expelled; commanders may prove loyalty through assertiveness, not restraint.",
+     "GS3 · Border security / GS2 · India–China",
+     "Political purges in the PLA can make LAC commanders more assertive, raising the risk of incidents."
+    ],
+    [
+     "Errors stop travelling upward: when every cadre watches his back, bad news rarely reaches the top; and China's military production will likely be sustained, so turmoil is no reassurance.",
+     "GS2 · Policies of other countries",
+     "Purge-driven systems hide errors, so India should not read Chinese turmoil as weakness."
+    ]
+   ],
+   "keywords": [
+    [
+     "Central Military Commission (CMC)",
+     "China's top military body, chaired by Xi",
+     "GS2 · China",
+     "With the CMC reduced to two members, military command in China is more centralised than ever."
+    ],
+    [
+     "Western Theatre Command",
+     "The PLA formation responsible for the LAC with India",
+     "GS3 · Border security",
+     "Turmoil in the Western Theatre Command bears directly on stability along the LAC."
+    ],
+    [
+     "Loyalty signalling",
+     "Proving allegiance through visible assertive action",
+     "GS3 · Security",
+     "Under purges, commanders may engage in loyalty signalling through assertive moves on the border."
+    ],
+    [
+     "Information bottleneck",
+     "Bad news failing to reach the top in a climate of fear",
+     "GS2 · Governance / China",
+     "Purges create an information bottleneck in which errors rarely travel upward."
+    ],
+    [
+     "21st Party Congress (2027)",
+     "The next CPC congress, due in October 2027",
+     "GS2 · China",
+     "Personnel churn ahead of the 21st Party Congress will shape China's posture towards India."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "Two-member CMC",
+     "A body that was long seven-member now has only Xi and his discipline chief",
+     "",
+     "GS2 · China / GS4 · Concentration of power",
+     "China's two-member CMC shows how anti-corruption drives can concentrate power."
+    ],
+    [
+     "Expelled Western Theatre commander",
+     "The former chief of the command facing India was among those removed",
+     "",
+     "GS3 · Border management",
+     "The expulsion of the Western Theatre commander shows why India must watch China's internal politics for border risk."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS2-2017/Q9",
+     "China's trade surplus and military power, and its impact on India."
+    ],
+    [
+     "GS3-2024/Q19",
+     "Security challenges along the China border: an assertive LAC command is one."
+    ],
+    [
+     "GS2-2026/Q20",
+     "China's BRI and great-power competition in South Asia."
+    ],
+    [
+     "GS2-2021/Q10",
+     "China as a challenge greater than the Soviet Union for the US."
+    ]
+   ],
+   "trend": {
+    "t": "China questions moved from economic and military power and its impact on India (2017) and CPEC (2014, 2018) to China in global power competition (2021) and the BRI turning South Asia into a theatre of rivalry (2026). GS3 tested border security with China and Pakistan (2024).",
+    "watch": "China is asked almost every few years across GS2 and GS3, usually through India's security and neighbourhood. Prepare China's internal drivers along with the LAC and the BRI.",
+    "focus": [
+     "LAC management and border infrastructure",
+     "China in South Asia: BRI and CPEC",
+     "Decoding China's internal politics for India",
+     "De-risking supply chains from China"
+    ]
+   },
+   "potential": [
+    "How do internal political developments in China affect India's security interests along the Line of Actual Control? Discuss. (10 marks)",
+    "\"Centralisation of power in China's military leadership may make the India–China border less, not more, predictable.\" Examine. (15 marks)"
+   ],
+   "practice": [
+    {
+     "q": "How do internal political developments in China affect India's security interests along the Line of Actual Control? Discuss.",
+     "marks": 10,
+     "words": 150,
+     "parts": [
+      "Introduction: the plenum, with facts",
+      "How China's internal politics affects the LAC",
+      "Way forward with conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "The CPC's fifth plenum confirmed 33 expulsions and left the CMC with two members, while the former chief of the Western Theatre Command, which faces India, was expelled."
+      },
+      {
+       "h": "How it affects the LAC",
+       "pts": [
+        {
+         "k": "Assertive commanders",
+         "t": "Officers may prove loyalty through assertiveness, not restraint.",
+         "ex": ""
+        },
+        {
+         "k": "Centralised decisions",
+         "t": "A two-member CMC means fewer checks on risky moves.",
+         "ex": ""
+        },
+        {
+         "k": "Information bottleneck",
+         "t": "Errors and local incidents may not be reported upward in time.",
+         "ex": ""
+        },
+        {
+         "k": "Nationalism as legitimacy",
+         "t": "Pressure at home can turn into firmness abroad.",
+         "ex": ""
+        },
+        {
+         "k": "Sustained capability",
+         "t": "Military production is likely to continue despite purges.",
+         "ex": ""
+        },
+        {
+         "k": "Unclear interlocutors",
+         "t": "Churn complicates military talks and confidence-building.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Way forward and conclusion",
+       "pts": [
+        {
+         "k": "Deterrence on the ground",
+         "t": "Border infrastructure, surveillance and force posture.",
+         "ex": ""
+        },
+        {
+         "k": "Keep channels open",
+         "t": "Corps-commander talks and hotlines.",
+         "ex": ""
+        },
+        {
+         "k": "China studies capacity",
+         "t": "Deeper expertise to read Chinese politics.",
+         "ex": ""
+        },
+        {
+         "k": "Partnerships",
+         "t": "Quad and coordination with like-minded states.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "India must read purges in Beijing as a source of risk, not relief, and pair firm deterrence with open channels on the LAC."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-10-31-04",
+   "title": "A step forward in Jamia, a long road ahead",
+   "section": "The Editorial Page",
+   "page": "Page 12",
+   "where": "The Editorial Page, page 12 (Editorial); report on page 4",
+   "gs": [
+    "GS2",
+    "GS1",
+    "GS4"
+   ],
+   "syllabus": "GS2 › Issues relating to education; Democratic participation · GS1 › Youth and society · GS4 › Trust, dialogue and leadership",
+   "themes": [
+    "education",
+    "children",
+    "rights"
+   ],
+   "summary": "After an 18-day protest, Jamia Millia Islamia agreed to restore student union elections, dissolved since 2006, within a fixed timeline.",
+   "ideas": [
+    [
+     "A guideline turned into a ban: the Lyngdoh Committee (2005) wanted to curb money, muscle power and outside political influence in campus polls; universities used it to scrap elections altogether.",
+     "GS2 · Education governance",
+     "Reforms meant to clean up student politics have often been used to suspend it."
+    ],
+    [
+     "Campus democracy is a school of citizenship: elections open campus decisions to students and give their grievances a channel; their absence infantilises young adults.",
+     "GS2 · Democracy / GS1 · Youth",
+     "Student union elections train young adults in representative democracy and grievance redress."
+    ],
+    [
+     "Trust, not restriction: disciplinary action and curbs on essential services deepened the breakdown of trust; resolution came only through talks and a fixed timeline.",
+     "GS2 · Governance / GS4 · Dialogue",
+     "Fixed timelines and dialogue resolve campus disputes better than punitive discipline."
+    ],
+    [
+     "A wider pattern: Karnataka has approved student polls, Madhya Pradesh saw judicial intervention, Maharashtra set up a committee and Odisha is holding talks.",
+     "GS2 · Federal practice in education",
+     "Several states are reviving student elections, showing a shift towards participatory campuses."
+    ],
+    [
+     "Youth demands for accountability: the protest echoed the movement at Aligarh Muslim University and the wider Gen Z protests seeking a say in decisions.",
+     "GS1 · Youth / Social change",
+     "Campus movements reflect a wider youth demand for voice and accountability."
+    ]
+   ],
+   "keywords": [
+    [
+     "Lyngdoh Committee (2005)",
+     "Guidelines for transparent, accountable student elections",
+     "GS2 · Education",
+     "The Lyngdoh Committee sought cleaner campus polls, not their abolition."
+    ],
+    [
+     "Infantilisation of young adults",
+     "Treating adult students as unfit to decide",
+     "GS1 · Youth",
+     "Suspending student polls infantilises young adults instead of trusting them with responsibility."
+    ],
+    [
+     "Participatory campus governance",
+     "Students sharing in decisions that affect them",
+     "GS2 · Education governance",
+     "Participatory campus governance builds ownership and reduces conflict."
+    ],
+    [
+     "Graduated trust",
+     "Building trust through time-bound commitments",
+     "GS4 · Leadership",
+     "Time-bound commitments create graduated trust between administrations and students."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "Jamia's fixed timeline",
+     "Elections to be held about six weeks after 16 July 2027; disciplinary cases withdrawn",
+     "GS4",
+     "GS2 · Governance / GS4 · Conflict resolution",
+     "Jamia's dispute ended only when the administration offered a fixed timeline, showing that credibility needs dates."
+    ],
+    [
+     "States reviving student polls",
+     "Karnataka, Madhya Pradesh, Maharashtra and Odisha moving towards campus elections",
+     "",
+     "GS2 · Education",
+     "Several states reviving student polls shows campus democracy returning to the policy agenda."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS1-2026/Q20",
+     "Globalisation's impact on Indian youth, including the political sphere."
+    ],
+    [
+     "GS2-2014/Q13",
+     "Autonomy for premier institutions: governance inside universities."
+    ]
+   ],
+   "potential": [
+    "\"Student union elections are a nursery of democratic citizenship.\" Examine the case for and against their revival in Indian universities. (10 marks)"
+   ]
+  },
+  {
+   "id": "2026-10-31-05",
+   "title": "Construction ban in NCR from Nov 5, WFH for 50% in Noida, Gurugram, too",
+   "section": "Front Page",
+   "page": "Page 1",
+   "where": "Front page, continued on page 2 (Nikhil Ghanekar)",
+   "gs": [
+    "GS3",
+    "GS2",
+    "GS1"
+   ],
+   "syllabus": "GS3 › Environmental pollution and degradation · GS2 › Statutory bodies (CAQM); Health · GS1 › Urbanisation, its problems and remedies",
+   "themes": [
+    "pollution",
+    "urban",
+    "health",
+    "bodies",
+    "federal"
+   ],
+   "summary": "Citing historically peak pollution in November, CAQM ordered a 15-day ban on dust-generating construction across NCR from November 5 and up to 50% work from home.",
+   "ideas": [
+    [
+     "From reaction to anticipation: CAQM acted before pollution peaked, citing a recurring pattern of 'Severe' AQI in early to mid-November (2018-2025) and the region's 'seasonal vulnerability'.",
+     "GS3 · Pollution control",
+     "Pollution control must be anticipatory, acting on known seasonal patterns before air turns severe."
+    ],
+    [
+     "Many sources, one airshed: dust, vehicles, open burning, industry and stubble burning add up, while low winds and a shallow boundary layer trap pollutants.",
+     "GS3 · Pollution / GS1 · Climate",
+     "Delhi's winter smog combines local emissions with meteorology that traps them."
+    ],
+    [
+     "Graded restrictions with exemptions: essential projects (Railways, Metro, airports, hospitals, water and sanitation, defence) are exempt; highways, flyovers, power lines and pipelines are not.",
+     "GS3 · Infrastructure vs environment",
+     "Pollution curbs must balance essential services against emissions."
+    ],
+    [
+     "Layers of action: CAQM's ban adds to Delhi's 10-point Winter Action Plan (Nov 1 to Feb 28), which denies fuel to vehicles without valid PUC certificates and bars non-BS-VI outside vehicles.",
+     "GS2 · Centre-state coordination",
+     "Air quality needs a regional body (CAQM) and city plans working together."
+    ],
+    [
+     "Technology for enforcement: CAQM's Integrated Command and Control Centre uses live camera feeds to spot violations such as open burning.",
+     "GS3 · Technology in governance",
+     "Real-time monitoring turns pollution rules into enforceable action."
+    ]
+   ],
+   "keywords": [
+    [
+     "Airshed approach",
+     "Managing air quality across a whole region, not one city",
+     "GS3 · Pollution",
+     "Delhi's smog needs an airshed approach across NCR states, which CAQM is meant to provide."
+    ],
+    [
+     "Boundary-layer inversion",
+     "A shallow mixing layer that traps pollutants near the ground",
+     "GS1 · Climate / GS3 · Pollution",
+     "In winter, a shallow boundary layer and weak winds trap pollutants over the Indo-Gangetic plain."
+    ],
+    [
+     "Anticipatory regulation",
+     "Acting on forecasts and patterns before a crisis",
+     "GS3 · Governance",
+     "CAQM's November ban is an example of anticipatory regulation."
+    ],
+    [
+     "Secondary pollutants",
+     "Pollutants formed when primary emissions react in air",
+     "GS3 · Pollution",
+     "PM2.5 binds with gases to form secondary pollutants, worsening health risks."
+    ],
+    [
+     "Seasonal vulnerability",
+     "Recurring periods when a region is most exposed",
+     "GS3 · Disaster-like risk",
+     "Recognising seasonal vulnerability lets authorities plan curbs in advance."
+    ]
+   ],
+   "data": [
+    [
+     "2018-2025",
+     "November AQI data show a recurring early-to-mid-November peak in 'Severe' and 'Severe+' categories",
+     "CAQM, via IE",
+     "GS3 · Pollution",
+     "Eight years of AQI data show NCR's pollution peaks every early November (CAQM)."
+    ]
+   ],
+   "examples": [
+    [
+     "CAQM's 15-day construction ban",
+     "November 5-20 curbs on dust-generating demolition and outdoor construction",
+     "",
+     "GS3 · Pollution / GS2 · Statutory bodies",
+     "CAQM's pre-emptive November ban shows a statutory body using data to act before a crisis."
+    ],
+    [
+     "Delhi's Winter Action Plan",
+     "No fuel without a valid PUC; non-BS-VI outside vehicles barred",
+     "",
+     "GS2 · Governance / GS3 · Pollution",
+     "Delhi's 'no PUC, no fuel' rule links enforcement to a routine point of contact."
+    ],
+    [
+     "Work from home as pollution policy",
+     "Up to 50% of staff in Delhi and five NCR districts",
+     "GS4",
+     "GS3 · Pollution / GS4 · Shared responsibility",
+     "Work from home during smog shows citizens and employers sharing responsibility for clean air."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS1-2015/Q15",
+     "Why Delhi's air pollution is worse than Mumbai's or Kolkata's: geography and meteorology."
+    ],
+    [
+     "GS3-2021/Q7",
+     "WHO's revised Air Quality Guidelines and changes needed in NCAP."
+    ],
+    [
+     "GS3-2022/Q7",
+     "Photochemical smog: formation, effects and mitigation."
+    ]
+   ],
+   "trend": {
+    "t": "Air pollution entered through geography: why Delhi is worse than other megacities (GS1, 2015). GS3 then tested standards (WHO guidelines and NCAP, 2021) and the science of smog (2022).",
+    "watch": "Air pollution is asked roughly every few years and swings between science, standards and Delhi's geography. Prepare the causes, the institutions (CAQM, NCAP) and the science together.",
+    "focus": [
+     "Meteorology of winter smog in the Indo-Gangetic plain",
+     "Institutions: CAQM, NCAP, GRAP",
+     "Sources: dust, vehicles, stubble, industry",
+     "Health and economic costs"
+    ]
+   },
+   "potential": [
+    "\"Delhi's air crisis is as much a problem of governance as of geography.\" Discuss. (15 marks)",
+    "Evaluate the role of the Commission for Air Quality Management in tackling pollution in the National Capital Region. (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "\"Delhi's air crisis is as much a problem of governance as of geography.\" Discuss.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction: the November pattern, with facts",
+      "Geography",
+      "Governance",
+      "Way forward",
+      "Conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "Citing 'Severe' AQI every early November from 2018 to 2025, CAQM has ordered a 15-day construction ban across NCR from November 5."
+      },
+      {
+       "h": "Geography",
+       "pts": [
+        {
+         "k": "Landlocked plain",
+         "t": "Delhi sits in the Indo-Gangetic plain, far from sea breezes.",
+         "ex": ""
+        },
+        {
+         "k": "Winter meteorology",
+         "t": "Low winds and a shallow boundary layer limit dispersion.",
+         "ex": ""
+        },
+        {
+         "k": "Stubble season",
+         "t": "Paddy harvest in Punjab and Haryana coincides with the peak.",
+         "ex": ""
+        },
+        {
+         "k": "Dust",
+         "t": "Dry conditions and construction raise PM10 and PM2.5.",
+         "ex": ""
+        },
+        {
+         "k": "Secondary pollutants",
+         "t": "PM2.5 reacts with gases to form secondary particles.",
+         "ex": ""
+        },
+        {
+         "k": "Regional airshed",
+         "t": "Pollution crosses state borders.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Governance",
+       "pts": [
+        {
+         "k": "Fragmented authority",
+         "t": "Many states and agencies share one airshed.",
+         "ex": ""
+        },
+        {
+         "k": "Enforcement gaps",
+         "t": "Rules on PUC, dust and burning are weakly enforced.",
+         "ex": "Delhi now denies fuel without a valid PUC."
+        },
+        {
+         "k": "Reactive action",
+         "t": "Curbs often come after the AQI turns severe.",
+         "ex": ""
+        },
+        {
+         "k": "Farmer incentives",
+         "t": "Stubble alternatives are costly for small farmers.",
+         "ex": ""
+        },
+        {
+         "k": "Vehicle and industrial emissions",
+         "t": "Old vehicles and polluting fuels persist.",
+         "ex": ""
+        },
+        {
+         "k": "Monitoring gaps",
+         "t": "Limited real-time data on violations.",
+         "ex": "CAQM's new command centre uses live feeds."
+        }
+       ]
+      },
+      {
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "Anticipatory action",
+         "t": "Act on seasonal forecasts.",
+         "ex": "CAQM's pre-emptive November ban."
+        },
+        {
+         "k": "Airshed governance",
+         "t": "Joint targets for NCR states under CAQM.",
+         "ex": ""
+        },
+        {
+         "k": "Crop residue economy",
+         "t": "Ex-situ use and machinery support.",
+         "ex": ""
+        },
+        {
+         "k": "Clean mobility",
+         "t": "Public transport, EVs and BS-VI enforcement.",
+         "ex": ""
+        },
+        {
+         "k": "Dust control",
+         "t": "Mandatory dust norms and green cover.",
+         "ex": ""
+        },
+        {
+         "k": "Citizen participation",
+         "t": "Work from home and awareness.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "Geography sets the stage for Delhi's smog, but governance decides how bad it gets, so anticipatory, regional and enforced action is the answer."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-10-31-06",
+   "title": "After dropping plan for highway, Bihar pushes for tourism project in sanctuary",
+   "section": "Front Page",
+   "page": "Page 1",
+   "where": "Front page Express special, continued on page 2 (Jay Mazoomdaar)",
+   "gs": [
+    "GS3",
+    "GS2",
+    "GS4"
+   ],
+   "syllabus": "GS3 › Conservation; Environmental impact assessment · GS2 › Statutory bodies (National Board for Wildlife); Judiciary · GS4 › Environmental ethics; Conflict of interest",
+   "themes": [
+    "biodiv",
+    "bodies",
+    "judiciary",
+    "g4env",
+    "g4integrity"
+   ],
+   "summary": "A Bihar Forest Department society has floated a ₹62.87-crore, 60-year tourism tender with cottages and a helipad inside Bhimbandh Wildlife Sanctuary, despite legal restrictions.",
+   "ideas": [
+    [
+     "The guardian as developer: the Bihar Eco Tourism Development Society, under the Forest Department, is promoting commercial construction in a sanctuary that department must protect.",
+     "GS4 · Conflict of interest / GS3 · Conservation",
+     "When the forest department becomes a developer, the regulator's role and the promoter's role collide."
+    ],
+    [
+     "The law sets clear limits: under the Wild Life (Protection) Act, tourist lodges or hotels in a sanctuary need prior approval of the National Board for Wildlife, and the Supreme Court in 2023 restrained construction in protected areas.",
+     "GS2 · Statutory bodies / Judiciary",
+     "Commercial tourism in sanctuaries needs NBWL approval and must respect the Supreme Court's 2023 restraint."
+    ],
+    [
+     "Ownership is not a licence: land owned by government departments still lies within notified sanctuary limits, so it gets no exemption from the Act.",
+     "GS3 · Protected-area law",
+     "Notified sanctuary boundaries, not land titles, decide what can be built."
+    ],
+    [
+     "A pattern, not a one-off: in September the same department inked an MoU to ease forest clearance for a highway widening; flagged for conflict of interest, it was cancelled this month.",
+     "GS3 · Development vs conservation",
+     "Repeated attempts to fast-track projects inside forests show the pressure of development on protected areas."
+    ],
+    [
+     "Eco-tourism or real estate: 104 cottages, a helipad, banquet halls and an auditorium for weddings are mass tourism, not low-impact eco-tourism; the tender is also unclear on who gets clearances.",
+     "GS3 · Eco-tourism / EIA",
+     "Eco-tourism must be low-impact and community-based; banquet halls and helipads in a sanctuary are not."
+    ]
+   ],
+   "keywords": [
+    [
+     "National Board for Wildlife (NBWL)",
+     "Statutory body whose prior approval is needed for commercial tourism in protected areas",
+     "GS2 · Statutory bodies",
+     "NBWL approval is the legal gate for commercial construction inside sanctuaries."
+    ],
+    [
+     "Regulatory capture",
+     "A regulator acting for the interests it should restrain",
+     "GS2 · Governance / GS4",
+     "A forest department promoting construction in its own sanctuary is a case of regulatory capture."
+    ],
+    [
+     "Carrying capacity",
+     "The level of use an ecosystem can sustain without degrading",
+     "GS3 · Eco-tourism",
+     "Tourism in sanctuaries must stay within ecological carrying capacity."
+    ],
+    [
+     "Eco-tourism vs mass tourism",
+     "Low-impact, community-led tourism versus high-footprint commercial tourism",
+     "GS3 · Conservation",
+     "Helipads and banquet halls turn eco-tourism into mass tourism."
+    ],
+    [
+     "Salami slicing",
+     "Clearing projects piece by piece to avoid scrutiny",
+     "GS3 · EIA",
+     "Starting construction where clearances are not needed risks salami slicing of a protected area."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "Bhimbandh Wildlife Sanctuary",
+     "About 682 sq km in Bihar's Kharagpur Hills; hot springs; leopard, sloth bear, hyena, wolf",
+     "GS4",
+     "GS3 · Conservation / GS4 · Environmental ethics",
+     "Bhimbandh shows how tourism projects can threaten protected areas when the regulator becomes the promoter."
+    ],
+    [
+     "Buxa tiger relocation",
+     "A tigress moved from Bihar to Bengal's Buxa Tiger Reserve strayed into Assam (page 9)",
+     "",
+     "GS3 · Conservation",
+     "The Buxa tigress straying into Assam shows that reintroduction fails without restored habitat and prey."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS1-2023/Q15",
+     "Significance of wildlife sanctuaries."
+    ],
+    [
+     "GS3-2018/Q17",
+     "Biodiversity and the legal framework for conservation."
+    ],
+    [
+     "GS1-2015/Q17",
+     "Tourism and the limits of ecological carrying capacity in Himalayan states."
+    ],
+    [
+     "GS3-2024/Q8",
+     "Environmental NGOs and activists in EIA outcomes for major projects."
+    ]
+   ],
+   "trend": {
+    "t": "Conservation questions moved from biodiversity law (2018) and wetlands (2018, 2023) to sanctuaries in rainforest regions (2023) and the role of civil society in EIA (2024). Tourism's ecological limits appeared in GS1 (2015), and GS4 now asks about clearances in sensitive areas (2025).",
+    "watch": "Questions now test the institutions of conservation (EIA, civil society, clearances), not just facts about species. Prepare the legal process along with the ecology.",
+    "focus": [
+     "Protected-area law: WPA, NBWL, Supreme Court orders",
+     "EIA and public participation",
+     "Eco-tourism and carrying capacity",
+     "Development vs conservation dilemmas"
+    ]
+   },
+   "potential": [
+    "\"Eco-tourism in protected areas often becomes a gateway for commercialisation.\" Critically examine with reference to India's legal safeguards. (15 marks)",
+    "Discuss the role of the National Board for Wildlife in balancing development and conservation. (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "\"Eco-tourism in protected areas often becomes a gateway for commercialisation.\" Critically examine with reference to India's legal safeguards.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction: the Bhimbandh tender, with facts",
+      "Benefits of eco-tourism",
+      "How it becomes commercialisation",
+      "Way forward",
+      "Conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "Bihar's forest department has floated a ₹62.87-crore, 60-year tender for 104 cottages and a helipad inside Bhimbandh Wildlife Sanctuary, though commercial lodges need NBWL approval."
+      },
+      {
+       "h": "Benefits of eco-tourism",
+       "pts": [
+        {
+         "k": "Local livelihoods",
+         "t": "Guides, homestays and crafts give communities a stake in conservation.",
+         "ex": ""
+        },
+        {
+         "k": "Conservation finance",
+         "t": "Entry fees fund protection.",
+         "ex": ""
+        },
+        {
+         "k": "Awareness",
+         "t": "Visitors build public support for wildlife.",
+         "ex": ""
+        },
+        {
+         "k": "Monitoring presence",
+         "t": "Regular visitors can deter poaching.",
+         "ex": ""
+        },
+        {
+         "k": "Soft power",
+         "t": "Wildlife tourism brands a region.",
+         "ex": ""
+        },
+        {
+         "k": "Alternative to extraction",
+         "t": "Tourism income can replace mining or logging.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "How it becomes commercialisation",
+       "pts": [
+        {
+         "k": "Mass-tourism infrastructure",
+         "t": "Helipads, banquet halls and auditoriums exceed carrying capacity.",
+         "ex": "Bhimbandh tender."
+        },
+        {
+         "k": "Regulator as promoter",
+         "t": "The forest department's society is the developer.",
+         "ex": ""
+        },
+        {
+         "k": "Bypassing approvals",
+         "t": "Starting work where clearances are 'not needed'.",
+         "ex": ""
+        },
+        {
+         "k": "Long concessions",
+         "t": "A 60-year lease locks in private use.",
+         "ex": ""
+        },
+        {
+         "k": "Habitat disturbance",
+         "t": "Noise, lights and roads fragment habitats.",
+         "ex": ""
+        },
+        {
+         "k": "Benefits leak out",
+         "t": "Private operators capture income, not locals.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "Enforce NBWL approval",
+         "t": "No commercial lodges without it.",
+         "ex": ""
+        },
+        {
+         "k": "Respect court orders",
+         "t": "The 2023 Supreme Court restraint on construction.",
+         "ex": ""
+        },
+        {
+         "k": "Carrying-capacity studies",
+         "t": "Cap visitors and structures.",
+         "ex": ""
+        },
+        {
+         "k": "Community-run models",
+         "t": "Eco-development committees share revenue.",
+         "ex": ""
+        },
+        {
+         "k": "Separate roles",
+         "t": "Independent regulator from promoter.",
+         "ex": ""
+        },
+        {
+         "k": "Transparent EIA",
+         "t": "Public hearings and disclosure.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "Eco-tourism can protect sanctuaries only if it stays small, community-led and within the law; otherwise it becomes real estate in a forest."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-10-31-07",
+   "title": "Tactical calculations should not overlook dangers of terror: EAM",
+   "section": "Politics",
+   "page": "Page 7",
+   "where": "Politics, page 7 (Shubhajit Roy); The World page for the G20 photo row and the Canada–EU summit",
+   "gs": [
+    "GS2",
+    "GS3"
+   ],
+   "syllabus": "GS2 › Bilateral, regional and global groupings; Important international institutions · GS3 › Terrorism; Security of sea lanes",
+   "themes": [
+    "groupings",
+    "terror",
+    "indopac",
+    "intl",
+    "powers"
+   ],
+   "summary": "At the G20 foreign ministers' meeting in Atlanta, Jaishankar warned against tolerating terrorism for tactical gain and spoke for seafarers, freedom of navigation and fair access to markets.",
+   "ideas": [
+    [
+     "Terror is not a tool: Jaishankar said tactical calculations should not hide the dangers of terrorism, which has hurt even its practitioners; a veiled reference to US engagement with Pakistan.",
+     "GS2 · India's foreign policy / GS3 · Terrorism",
+     "India argues that tolerating terrorism for short-term strategic gain backfires on those who use it."
+    ],
+    [
+     "Diplomacy over force: on the wars in Ukraine and West Asia, he said military solutions will not work and diplomacy must be given a chance.",
+     "GS2 · India's global role",
+     "India positions itself as a voice for dialogue and diplomacy in today's conflicts."
+    ],
+    [
+     "The Global South pays for shipping attacks: attacks on civilian shipping and seafarers raise the cost of fuel, food and fertiliser; at least 22 Indians, including 14 seafarers, have died in West Asia since February.",
+     "GS2 · Global South / GS3 · Maritime security",
+     "Attacks on sea lanes hit the Global South hardest through fuel, food and fertiliser prices."
+    ],
+    [
+     "Law of the sea: India called for freedom of navigation and an end to attacks under international law, especially UNCLOS, and has launched a joint initiative with Liberia to protect seafarers.",
+     "GS2 · International law / Maritime",
+     "India backs a rules-based maritime order under UNCLOS and acts on seafarer safety with Liberia."
+    ],
+    [
+     "Weaponised trade: he said the right to industrialise is being denied by flooding markets, weaponising supply chains and restricting market access, and urged resilient, alternative connectivity.",
+     "GS2 · Groupings / GS3 · Supply chains",
+     "India links economic security to de-risking supply chains and building alternative connectivity."
+    ]
+   ],
+   "keywords": [
+    [
+     "Weaponisation of interdependence",
+     "Using trade, supply chains or market access as coercion",
+     "GS2 · IR / GS3 · Economy",
+     "The weaponisation of interdependence makes supply-chain diversification a security need."
+    ],
+    [
+     "Right to industrialise",
+     "Developing countries' claim to build manufacturing without coercion",
+     "GS2 · Global South",
+     "India frames fair market access as the Global South's right to industrialise."
+    ],
+    [
+     "Freedom of navigation",
+     "Right of ships to sail international waters without interference",
+     "GS2 · Maritime law",
+     "Freedom of navigation under UNCLOS is central to India's maritime and trade interests."
+    ],
+    [
+     "De-risking",
+     "Reducing over-dependence on single suppliers or partners",
+     "GS2 · Groupings / GS3 · Economy",
+     "As the world de-risks, India pitches itself as a resilient alternative supply base."
+    ],
+    [
+     "Strategic hedging",
+     "Keeping multiple partners to reduce dependence on any one",
+     "GS2 · IR",
+     "Canada and the EU seeking closer ties beyond the US reflects strategic hedging."
+    ]
+   ],
+   "data": [
+    [
+     "22 Indians (14 seafarers)",
+     "Killed in West Asia since the war began in February",
+     "IE, page 7",
+     "GS2 · Diaspora / GS3 · Maritime security",
+     "At least 22 Indians, including 14 seafarers, have died in West Asia since February."
+    ]
+   ],
+   "examples": [
+    [
+     "India–Liberia seafarer initiative",
+     "A joint initiative to safeguard seafarers",
+     "GS4",
+     "GS2 · Maritime diplomacy / GS4 · Care for workers",
+     "India and Liberia's seafarer initiative shows diplomacy protecting ordinary workers at sea."
+    ],
+    [
+     "G20 'family photo' cancelled",
+     "The US scrapped the ministers' photo after Europeans objected to being pictured with Russia's Lavrov",
+     "",
+     "GS2 · Groupings",
+     "The scrapped G20 photo shows how the Ukraine war divides the grouping."
+    ],
+    [
+     "Canada–EU 'Alliance for the Future'",
+     "Canada and the EU discuss associate membership to cut dependence on the US",
+     "",
+     "GS2 · Groupings / Effect of other countries' policies",
+     "Canada's move towards EU associate membership shows middle powers hedging against US unpredictability."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS2-2024/Q9",
+     "The West fostering India as an alternative to China's supply chains."
+    ],
+    [
+     "GS3-2025/Q2",
+     "Challenges as the world moves from multilateralism to protectionism."
+    ],
+    [
+     "GS2-2014/Q16",
+     "Maritime security and freedom of navigation."
+    ],
+    [
+     "GS2-2024/Q19",
+     "Terrorism as a global threat and the UNSC's counter-terror bodies."
+    ],
+    [
+     "GS2-2026/Q10",
+     "BRICS and the voice of the Global South."
+    ]
+   ],
+   "trend": {
+    "t": "Groupings questions moved from SAARC and SCO (2016, 2021, 2023) to the Global South and BRICS as a counterweight (2026). Economic security entered through supply chains (2024) and protectionism (2025), while terrorism moved to a global, UN-level frame (2024).",
+    "watch": "The Global South and supply-chain security have come in each of the last three years. Prepare India's voice in groupings with concrete examples: G20, BRICS, seafarers, de-risking.",
+    "focus": [
+     "India as voice of the Global South",
+     "Supply-chain resilience and economic coercion",
+     "Maritime security, UNCLOS and sea lanes",
+     "Global counter-terrorism cooperation"
+    ]
+   },
+   "potential": [
+    "\"Economic security has become inseparable from national security.\" Discuss with reference to supply chains and sea lanes. (15 marks)",
+    "How has India used the G20 to raise the concerns of the Global South? Illustrate with recent examples. (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "How has India used the G20 to raise the concerns of the Global South? Illustrate with recent examples.",
+     "marks": 10,
+     "words": 150,
+     "parts": [
+      "Introduction: Atlanta, with facts",
+      "Concerns India has raised",
+      "Way forward with conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "At the G20 foreign ministers' meeting in Atlanta, India said the Global South is disproportionately bearing the cost of attacks on shipping and seafarers."
+      },
+      {
+       "h": "Concerns India has raised",
+       "pts": [
+        {
+         "k": "Fuel, food, fertiliser",
+         "t": "Disrupted sea lanes raise costs for developing economies.",
+         "ex": ""
+        },
+        {
+         "k": "Seafarers' safety",
+         "t": "At least 22 Indians, including 14 seafarers, have died in West Asia.",
+         "ex": "India–Liberia seafarer initiative."
+        },
+        {
+         "k": "Rules-based seas",
+         "t": "Freedom of navigation under UNCLOS.",
+         "ex": ""
+        },
+        {
+         "k": "Right to industrialise",
+         "t": "Against market flooding and weaponised supply chains.",
+         "ex": ""
+        },
+        {
+         "k": "Terrorism",
+         "t": "No tactical tolerance for terror.",
+         "ex": ""
+        },
+        {
+         "k": "Dialogue",
+         "t": "Military solutions will not work; diplomacy must get a chance.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "Coalitions",
+         "t": "Work with BRICS, the African Union and like-minded states.",
+         "ex": ""
+        },
+        {
+         "k": "Resilient connectivity",
+         "t": "Alternative corridors and diversified supply chains.",
+         "ex": ""
+        },
+        {
+         "k": "Maritime capacity",
+         "t": "Naval and coast-guard cooperation for sea lanes.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "India's G20 voice turns the Global South's everyday costs into an agenda for rules, routes and fair trade."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-10-31-08",
+   "title": "Members of EAC-PM meet House panel, flag costs of staggered polls",
+   "section": "Politics",
+   "page": "Page 7",
+   "where": "Politics, page 7 (Express News Service)",
+   "gs": [
+    "GS2",
+    "GS3"
+   ],
+   "syllabus": "GS2 › Salient features of the Representation of People's Act; Parliament (committees); Federalism · GS3 › Investment models; Growth",
+   "themes": [
+    "elections",
+    "parl",
+    "federal",
+    "growth"
+   ],
+   "summary": "EAC-PM economists told the Joint Parliamentary Committee on the simultaneous elections Bills that staggered polls cost more than the money spent on conducting them.",
+   "ideas": [
+    [
+     "Costs beyond the ballot: the economic cost of separate elections is higher than the accounting cost of holding them, the EAC-PM members argued.",
+     "GS2 · Electoral reform",
+     "The true cost of frequent elections includes lost investment and stalled governance, not just polling expenses."
+    ],
+    [
+     "Uncertainty hurts investment: uncertainty around general elections has been linked to a contraction in corporate capital expenditure; staggered polls discourage private investment.",
+     "GS3 · Investment / Growth",
+     "Election-related policy uncertainty can depress private capital expenditure."
+    ],
+    [
+     "Governance disruption: the Model Code of Conduct, higher revenue spending and deployment of personnel recur with every election.",
+     "GS2 · Governance",
+     "Repeated Model Codes of Conduct pause decisions and divert administrative personnel."
+    ],
+    [
+     "Federal coordination and the poor: frequent polls disrupt Centre-State coordination and long-term capital formation, with effects on low-income families.",
+     "GS2 · Federalism",
+     "Frequent polls strain Centre-State coordination, which long-term projects need."
+    ],
+    [
+     "Parliamentary scrutiny in action: a JPC chaired by P P Chaudhary is taking expert evidence on the Bills, the stage where costs and trade-offs are weighed.",
+     "GS2 · Parliamentary committees",
+     "Joint Parliamentary Committees let experts test the case for constitutional changes before they pass."
+    ]
+   ],
+   "keywords": [
+    [
+     "Policy paralysis",
+     "Stalled decisions during long electoral cycles",
+     "GS2 · Governance",
+     "Back-to-back elections and Model Codes of Conduct can cause policy paralysis."
+    ],
+    [
+     "Electoral business cycle",
+     "Economic decisions shaped by the timing of elections",
+     "GS3 · Growth",
+     "Staggered polls create a near-permanent electoral business cycle."
+    ],
+    [
+     "Accountability–efficiency trade-off",
+     "Frequent elections keep governments answerable but cost efficiency",
+     "GS2 · Electoral reform",
+     "Simultaneous polls gain efficiency but may weaken mid-term accountability."
+    ],
+    [
+     "Joint Parliamentary Committee (JPC)",
+     "Committee of both Houses for detailed scrutiny of a Bill",
+     "GS2 · Parliament",
+     "The JPC route lets complex Bills get expert and cross-party scrutiny."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "EAC-PM testimony to the JPC",
+     "Economists' evidence on staggered polls and investment",
+     "",
+     "GS2 · Electoral reform",
+     "EAC-PM's evidence to the JPC shows how economic arguments now drive the simultaneous-elections debate."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS2-2017/Q3",
+     "Simultaneous elections: time and money saved versus accountability."
+    ],
+    [
+     "GS2-2024/Q1",
+     "Electoral reforms by various committees, with reference to 'one nation – one election'."
+    ],
+    [
+     "GS2-2022/Q15",
+     "The Election Commission and the evolution of the Model Code of Conduct."
+    ]
+   ],
+   "trend": {
+    "t": "Simultaneous elections came as a trade-off (time and money vs accountability, 2017) and returned as part of electoral reform by committees (2024). The Model Code of Conduct was asked in 2022.",
+    "watch": "One nation, one election has been asked twice (2017, 2024). Expect a question on its economic case, federal concerns and the constitutional amendments involved.",
+    "focus": [
+     "Economic and administrative costs of staggered polls",
+     "Accountability and federal concerns",
+     "Constitutional amendments and the JPC process",
+     "Model Code of Conduct"
+    ]
+   },
+   "potential": [
+    "\"The case for simultaneous elections rests as much on economics as on administrative convenience.\" Critically examine. (15 marks)",
+    "Discuss the federal concerns raised by the proposal for simultaneous elections in India. (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "\"The case for simultaneous elections rests as much on economics as on administrative convenience.\" Critically examine.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction: the JPC hearing, with facts",
+      "Economic and administrative case",
+      "Concerns",
+      "Way forward",
+      "Conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "EAC-PM economists told the JPC on the simultaneous elections Bills that the economic cost of staggered polls exceeds their accounting cost."
+      },
+      {
+       "h": "Economic and administrative case",
+       "pts": [
+        {
+         "k": "Investment certainty",
+         "t": "Election uncertainty is linked to lower corporate capex.",
+         "ex": ""
+        },
+        {
+         "k": "Fiscal discipline",
+         "t": "Fewer pre-poll spending spikes and lower revenue expenditure.",
+         "ex": ""
+        },
+        {
+         "k": "Governance continuity",
+         "t": "Fewer Model Code of Conduct pauses.",
+         "ex": ""
+        },
+        {
+         "k": "Personnel savings",
+         "t": "Security forces and staff deployed once.",
+         "ex": ""
+        },
+        {
+         "k": "Centre-State coordination",
+         "t": "Long-term projects face fewer disruptions.",
+         "ex": ""
+        },
+        {
+         "k": "Voter fatigue",
+         "t": "Fewer elections may raise turnout and engagement.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Concerns",
+       "pts": [
+        {
+         "k": "Accountability",
+         "t": "Governments face voters less often.",
+         "ex": ""
+        },
+        {
+         "k": "Federalism",
+         "t": "State issues may be drowned by national campaigns.",
+         "ex": ""
+        },
+        {
+         "k": "Premature dissolution",
+         "t": "Mid-term collapse raises legal and practical questions.",
+         "ex": ""
+        },
+        {
+         "k": "Constitutional change",
+         "t": "Amendments to terms of Houses are needed.",
+         "ex": ""
+        },
+        {
+         "k": "Logistics",
+         "t": "EVMs and personnel at a much larger scale.",
+         "ex": ""
+        },
+        {
+         "k": "Smaller parties",
+         "t": "Resources favour larger players.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "Consensus",
+         "t": "Wide consultation with states and parties.",
+         "ex": ""
+        },
+        {
+         "k": "Phased synchronisation",
+         "t": "Align cycles gradually.",
+         "ex": ""
+        },
+        {
+         "k": "Clear rules",
+         "t": "Constructive no-confidence or unexpired-term provisions.",
+         "ex": ""
+        },
+        {
+         "k": "Evidence",
+         "t": "Independent study of economic costs.",
+         "ex": ""
+        },
+        {
+         "k": "Strengthen the ECI",
+         "t": "Capacity and EVM/VVPAT supply.",
+         "ex": ""
+        },
+        {
+         "k": "Protect local polls",
+         "t": "Keep panchayat elections' distinct agenda.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "Simultaneous elections may save money and spur investment, but they must be designed to keep governments accountable and states heard."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-10-31-09",
+   "title": "The intricate system to elect MLCs",
+   "section": "Explained",
+   "page": "Page 20",
+   "where": "Explained, page 20 (Chakshu Roy & Yashika Kedia, PRS Legislative Research); with 'Ballot papers in Indian elections' (Vikas Pathak)",
+   "gs": [
+    "GS2"
+   ],
+   "syllabus": "GS2 › State legislature: structure, functioning, conduct of business, powers · Representation of People's Act · Comparison of the Indian constitutional scheme",
+   "themes": [
+    "parl",
+    "federal",
+    "elections"
+   ],
+   "summary": "After elections to 28 Legislative Council seats in four states, PRS explains how MLCs are chosen by MLAs, local bodies, graduates, teachers and the Governor.",
+   "ideas": [
+    [
+     "An optional second chamber: the Constituent Assembly split on state upper houses (voice of reason, check on haste vs cost, delay and patronage), so states were allowed to choose. Six states have Councils.",
+     "GS2 · State legislature",
+     "Legislative Councils were made optional because the Constituent Assembly was divided on their value."
+    ],
+    [
+     "A mixed electorate by design: under Article 171, MLAs elect one-third, local bodies one-third, graduates one-twelfth, teachers one-twelfth, and the Governor nominates the rest.",
+     "GS2 · Constitutional design",
+     "Article 171 builds functional representation of local bodies, graduates and teachers into the Council."
+    ],
+    [
+     "Roots in functional representation: the idea comes from the Government of India Act, 1935; Shibban Lal Saxena suggested Councils represent the intelligentsia.",
+     "GS2 · Constitutional history",
+     "Graduate and teacher seats reflect the founders' wish to bring expertise into legislatures."
+    ],
+    [
+     "Limited powers, uncertain life: Councils lack the constitutional mandate to shape legislation passed by the Assembly, and Assemblies can recommend their creation or abolition.",
+     "GS2 · Bicameralism",
+     "A Council can only delay, not block, an Assembly's Bills, so its value lies in deliberation."
+    ],
+    [
+     "Need for a national policy: a 2013 parliamentary panel said Councils should not be abolished at the whim of a new government and a national policy is needed.",
+     "GS2 · Federalism / Reform",
+     "A national policy on creating and abolishing Councils would end their use as political tools."
+    ]
+   ],
+   "keywords": [
+    [
+     "Single transferable vote (STV)",
+     "Voters rank candidates; surplus and eliminated votes transfer",
+     "GS2 · Elections",
+     "MLC and Rajya Sabha elections use STV, which needs ballot papers, not EVMs."
+    ],
+    [
+     "Functional representation",
+     "Seats for occupational or social groups rather than territory alone",
+     "GS2 · Constitutional design",
+     "Graduate and teacher constituencies are India's main experiment in functional representation."
+    ],
+    [
+     "Revising chamber",
+     "An upper house that reviews and delays rather than vetoes",
+     "GS2 · Bicameralism",
+     "Legislative Councils act as revising chambers, adding deliberation without veto power."
+    ],
+    [
+     "Article 169",
+     "Parliament creates or abolishes a Council on the Assembly's resolution",
+     "GS2 · Federalism",
+     "Under Article 169, a Council's existence depends on the Assembly's resolution and Parliament's law."
+    ]
+   ],
+   "data": [
+    [
+     "6 states",
+     "Have Legislative Councils: Andhra Pradesh, Bihar, Karnataka, Maharashtra, Telangana, Uttar Pradesh",
+     "PRS, via IE Explained",
+     "GS2 · State legislature",
+     "Only six states have Legislative Councils."
+    ],
+    [
+     "Min 40; max one-third",
+     "Size limits of a Council relative to the Assembly (Article 171)",
+     "Constitution, via IE Explained",
+     "GS2 · State legislature",
+     "A Council must have at least 40 members and at most one-third of the Assembly's strength."
+    ],
+    [
+     "53%",
+     "Share of states conducting gram panchayat elections with ballot papers (IIPA study, 2023)",
+     "IIPA via IE Explained",
+     "GS2 · Local government / Elections",
+     "53% of states still hold gram panchayat polls on ballot papers (IIPA, 2023)."
+    ]
+   ],
+   "examples": [
+    [
+     "Graduate and teacher rolls",
+     "Prepared afresh before every election; voters must re-apply",
+     "",
+     "GS2 · Elections",
+     "Graduate and teacher constituencies show a special electorate with its own rolls and qualifying date."
+    ],
+    [
+     "Kerala, Sikkim, DNH&DD",
+     "Only places using EVMs in all gram panchayat constituencies",
+     "",
+     "GS2 · Local government",
+     "Kerala and Sikkim show EVM use in panchayat polls is possible despite cost and awareness concerns."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS2-2021/Q14",
+     "Constitutional provisions for Legislative Councils and their working and status."
+    ],
+    [
+     "GS2-2020/Q14",
+     "The Rajya Sabha's transformation into a useful supporting chamber."
+    ]
+   ],
+   "trend": {
+    "t": "Upper houses are asked in pairs: the Rajya Sabha's role (2020) and the Chairman's role (2022) at the Centre, and Legislative Councils' provisions and working (2021) in the states. State legislatures also came through presiding officers (2023).",
+    "watch": "Bicameralism comes every two or three years. Councils were asked directly in 2021, so prepare their powers, composition and the debate on their usefulness.",
+    "focus": [
+     "Article 169 and 171: creation and composition",
+     "Usefulness vs cost of Councils",
+     "Functional representation: graduates and teachers",
+     "Comparison with the Rajya Sabha"
+    ]
+   },
+   "potential": [
+    "\"Legislative Councils are a useful revising chamber but an uneven presence in Indian federalism.\" Discuss. (15 marks)",
+    "Examine the rationale for graduate and teacher constituencies in Legislative Councils. Are they still relevant? (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "Examine the rationale for graduate and teacher constituencies in Legislative Councils. Are they still relevant?",
+     "marks": 10,
+     "words": 150,
+     "parts": [
+      "Introduction: Article 171, with facts",
+      "Rationale",
+      "Relevance today: for and against",
+      "Way forward with conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "Under Article 171, graduates and teachers each elect one-twelfth of a Legislative Council, a feature found in the six states that have Councils."
+      },
+      {
+       "h": "Rationale",
+       "pts": [
+        {
+         "k": "Intelligentsia in law-making",
+         "t": "Shibban Lal Saxena wanted Councils to represent educated opinion.",
+         "ex": ""
+        },
+        {
+         "k": "Functional representation",
+         "t": "Drawn from the Government of India Act, 1935.",
+         "ex": ""
+        },
+        {
+         "k": "Expert deliberation",
+         "t": "Teachers and graduates bring knowledge to debate.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Relevance today",
+       "pts": [
+        {
+         "k": "For: voice for education",
+         "t": "Teachers' seats bring education issues to the House.",
+         "ex": ""
+        },
+        {
+         "k": "For: deliberation",
+         "t": "A revising chamber can slow hasty laws.",
+         "ex": ""
+        },
+        {
+         "k": "Against: mass education",
+         "t": "Graduates are no longer a small elite.",
+         "ex": ""
+        },
+        {
+         "k": "Against: partisan contests",
+         "t": "Party politics dominates these seats.",
+         "ex": ""
+        },
+        {
+         "k": "Against: elitist franchise",
+         "t": "Some citizens get an extra vote.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Way forward and conclusion",
+       "pts": [
+        {
+         "k": "National policy",
+         "t": "As a 2013 parliamentary panel urged.",
+         "ex": ""
+        },
+        {
+         "k": "Widen expertise",
+         "t": "Consider other professional groups.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "Graduate and teacher seats still add expert voice, but only if they rise above party contests and Councils are reformed through a national policy."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-10-31-10",
+   "title": "CBIC mandates immediate halt on GST arrests",
+   "section": "Economy",
+   "page": "Page 23",
+   "where": "Economy, page 23 (Aanchal Magazine); letter on Reforms 3.0, page 13",
+   "gs": [
+    "GS3",
+    "GS2",
+    "GS4"
+   ],
+   "syllabus": "GS3 › Government budgeting; Tax reform · GS2 › Government policies; Transparency and accountability · GS4 › Trust in governance",
+   "themes": [
+    "fiscal",
+    "egov",
+    "g4transparency",
+    "civserv"
+   ],
+   "summary": "CBIC has told its field offices to stop GST arrests and to apply the GST Council's relaxed rules on e-way bill checks and show-cause notices before the law is amended.",
+   "ideas": [
+    [
+     "From suspicion to trust: the GST Council recommended removing the power of arrest by omitting Section 69 of the CGST Act; CBIC has stopped arrests now, ahead of the amendments due from April 1, 2027.",
+     "GS3 · Tax reform",
+     "Removing arrest powers moves GST towards trust-based tax administration."
+    ],
+    [
+     "Inspection only on intelligence: vehicles can be stopped only on specific intelligence authorised in writing by an officer not below Joint Commissioner, and only by the supplier's or recipient's state.",
+     "GS2 · Accountability",
+     "Written reasons and senior authorisation curb harassment through random roadside checks."
+    ],
+    [
+     "Small cases out of litigation: a minimum ₹10,000 threshold for show-cause notices aims to cut low-value disputes and compliance costs.",
+     "GS3 · Ease of doing business",
+     "Thresholds for notices reduce low-value litigation and compliance costs."
+    ],
+    [
+     "Law must follow intent: experts warned the Council's recommendations lack legal force until Parliament and states amend their GST laws, so the interim order fills the gap.",
+     "GS2 · Rule of law / Cooperative federalism",
+     "Council recommendations need legislative backing in Parliament and states to bind officers."
+    ],
+    [
+     "Part of a wider trust agenda: readers urge self-declaration, deemed approvals and statutory timelines for routine permissions, with time-bound grievance redress.",
+     "GS2 · Governance reform",
+     "Trust-based governance treats citizens as honest stakeholders through self-declaration and deemed approvals."
+    ]
+   ],
+   "keywords": [
+    [
+     "Trust-based compliance",
+     "Assuming honesty and targeting enforcement at risk",
+     "GS2 · Governance / GS3 · Tax",
+     "Trust-based compliance focuses enforcement on high-risk cases, not every taxpayer."
+    ],
+    [
+     "Risk-based enforcement",
+     "Using intelligence and data to choose whom to inspect",
+     "GS3 · Tax administration",
+     "Risk-based enforcement replaces random checks with intelligence-led action."
+    ],
+    [
+     "Deemed approval",
+     "Permission treated as granted if not decided in time",
+     "GS2 · Governance",
+     "Deemed approvals shift the cost of delay from citizens to the state."
+    ],
+    [
+     "Inspector raj",
+     "Discretionary inspection powers that invite harassment",
+     "GS2 · Governance / GS4 · Probity",
+     "Curbing roadside GST checks reduces inspector raj."
+    ],
+    [
+     "Cooperative federalism",
+     "Centre and states deciding jointly",
+     "GS2 · Federalism",
+     "The GST Council is India's leading example of cooperative federalism."
+    ]
+   ],
+   "data": [
+    [
+     "₹10,000",
+     "Minimum threshold for issuing GST show-cause notices",
+     "CBIC / GST Council, via IE",
+     "GS3 · Tax administration",
+     "A ₹10,000 floor on show-cause notices will cut low-value GST disputes."
+    ],
+    [
+     "42.1%",
+     "Centre's fiscal deficit in April-September as a share of the full-year target (36.5% a year ago)",
+     "CGA via IE (Briefly, page 23)",
+     "GS3 · Fiscal policy",
+     "The Centre used 42.1% of its full-year fiscal deficit target in the first half (CGA)."
+    ]
+   ],
+   "examples": [
+    [
+     "Omission of Section 69, CGST Act",
+     "Removal of the power to arrest under GST",
+     "",
+     "GS3 · Tax reform / GS2 · Rights",
+     "Dropping GST arrest powers is an example of decriminalising economic offences."
+    ],
+    [
+     "Interim executive order",
+     "CBIC applying reforms before the law is amended",
+     "GS4",
+     "GS2 · Executive action / GS4 · Spirit of the law",
+     "CBIC's interim order shows administrators acting on the spirit of a reform before the letter arrives."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS2-2026/Q16",
+     "Transparency and accountability as building stakeholders' trust through the rule of law."
+    ],
+    [
+     "GS2-2017/Q11",
+     "The 101st Amendment and GST's aims."
+    ],
+    [
+     "GS3-2019/Q1",
+     "Taxes subsumed in GST and its revenue implications."
+    ]
+   ],
+   "potential": [
+    "\"Trust-based governance is the next frontier of tax reform in India.\" Discuss with reference to GST. (10 marks)"
+   ]
+  },
+  {
+   "id": "2026-10-31-11",
+   "title": "Social Security Board for gig workers notified, RSS-linked unions dominate",
+   "section": "Economy",
+   "page": "Page 23",
+   "where": "Economy, page 23 (Ravi Dutta Mishra)",
+   "gs": [
+    "GS3",
+    "GS2",
+    "GS1"
+   ],
+   "syllabus": "GS3 › Employment; Labour reforms · GS2 › Welfare schemes for vulnerable sections; Statutory bodies · GS1 › Effects of globalisation on society",
+   "themes": [
+    "jobs",
+    "welfare",
+    "digital",
+    "vulnerable"
+   ],
+   "summary": "The Labour Ministry has notified a 40-member National Social Security Board for unorganised, gig and platform workers under the Code on Social Security.",
+   "ideas": [
+    [
+     "Closing the social security gap: the board will design, monitor and recommend targeted welfare schemes for unorganised, gig and platform workers, as mandated by the Code on Social Security.",
+     "GS3 · Labour reforms",
+     "The Code on Social Security for the first time recognises gig and platform workers in law."
+    ],
+    [
+     "Tripartite in form: the board has seven union and seven employer representatives, with the rest from governments and Parliament, and includes aggregators, civil society and platform associations.",
+     "GS2 · Statutory bodies",
+     "Tripartite boards bring workers, employers and government to one table on welfare design."
+    ],
+    [
+     "Representation matters: the report notes that most of the 12 government-recognised central trade unions are not on the board, raising questions of inclusiveness.",
+     "GS2 · Governance / GS3 · Labour",
+     "A welfare board's legitimacy depends on how widely it represents workers."
+    ],
+    [
+     "Why it is urgent: platform work is growing while employment, per the World Bank, is concentrated in low-productivity activities with flat real earnings.",
+     "GS3 · Employment",
+     "Social security for gig work is key when job growth is in low-productivity, informal work."
+    ],
+    [
+     "Who pays and how benefits move: welfare for workers with many platforms needs portable benefits and aggregator contributions.",
+     "GS3 · Labour / GS2 · Welfare",
+     "Portable, aggregator-funded benefits suit workers who serve many platforms."
+    ]
+   ],
+   "keywords": [
+    [
+     "Platform worker",
+     "Works through an online platform outside a traditional employer-employee relationship",
+     "GS3 · Labour",
+     "Platform workers fall outside classic labour law, so they need special social security."
+    ],
+    [
+     "Portable benefits",
+     "Entitlements that move with the worker across jobs",
+     "GS3 · Labour",
+     "Portable benefits suit gig workers who switch between platforms."
+    ],
+    [
+     "Tripartism",
+     "Workers, employers and government deciding together",
+     "GS2 · Governance",
+     "Tripartism builds consent for labour welfare policies."
+    ],
+    [
+     "Algorithmic management",
+     "Work allocation and pay set by apps",
+     "GS3 · Digital economy",
+     "Algorithmic management makes transparency rights as important as wages for gig workers."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "National Social Security Board",
+     "40 members for three years, chaired by the Union Labour Minister",
+     "",
+     "GS2 · Statutory bodies / GS3 · Labour",
+     "The NSSB shows the Code on Social Security turning into institutions for gig workers."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS1-2021/Q10",
+     "The gig economy and women's empowerment."
+    ],
+    [
+     "GS3-2024/Q11",
+     "The four Labour Codes: merits, demerits and progress."
+    ],
+    [
+     "GS3-2016/Q1",
+     "Globalisation, formal employment and informalisation."
+    ]
+   ],
+   "trend": {
+    "t": "Labour questions moved from globalisation and informalisation (2016) to the gig economy and women (2021) and the four Labour Codes (2024). The thread is the shift from formal jobs to flexible, platform-based work.",
+    "watch": "Labour Codes and gig work are recent and linked. Expect a question on social security for gig and platform workers under the Code.",
+    "focus": [
+     "Code on Social Security and gig workers",
+     "Informality and job quality",
+     "Women in the gig economy",
+     "Aggregator responsibility and algorithmic management"
+    ]
+   },
+   "potential": [
+    "Discuss the challenges in extending social security to gig and platform workers in India. How does the Code on Social Security address them? (15 marks)"
+   ],
+   "practice": [
+    {
+     "q": "Discuss the challenges in extending social security to gig and platform workers in India. How does the Code on Social Security address them?",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction: the NSSB, with facts",
+      "Challenges",
+      "How the Code addresses them",
+      "Way forward",
+      "Conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "The Labour Ministry has notified a 40-member National Social Security Board for unorganised, gig and platform workers under the Code on Social Security."
+      },
+      {
+       "h": "Challenges",
+       "pts": [
+        {
+         "k": "Unclear employer",
+         "t": "Platforms call workers 'partners', not employees.",
+         "ex": ""
+        },
+        {
+         "k": "Multiple platforms",
+         "t": "Workers serve several apps, so contributions are hard to assign.",
+         "ex": ""
+        },
+        {
+         "k": "Volatile incomes",
+         "t": "Earnings vary daily.",
+         "ex": ""
+        },
+        {
+         "k": "Low registration",
+         "t": "Many workers stay outside databases.",
+         "ex": ""
+        },
+        {
+         "k": "Algorithmic control",
+         "t": "Opaque pay and deactivation.",
+         "ex": ""
+        },
+        {
+         "k": "Representation",
+         "t": "Weak unions for dispersed workers.",
+         "ex": "Most recognised central unions are not on the board."
+        }
+       ]
+      },
+      {
+       "h": "How the Code addresses them",
+       "pts": [
+        {
+         "k": "Legal recognition",
+         "t": "Defines gig and platform workers.",
+         "ex": ""
+        },
+        {
+         "k": "Aggregator contribution",
+         "t": "Platforms contribute to a social security fund.",
+         "ex": ""
+        },
+        {
+         "k": "National board",
+         "t": "To design and monitor schemes.",
+         "ex": "The NSSB."
+        },
+        {
+         "k": "Registration",
+         "t": "Registration of workers for benefits.",
+         "ex": ""
+        },
+        {
+         "k": "Scheme coverage",
+         "t": "Life, disability, health and old-age cover.",
+         "ex": ""
+        },
+        {
+         "k": "Tripartite inputs",
+         "t": "Union, employer and government members.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "Portable benefits",
+         "t": "Linked to a universal ID.",
+         "ex": ""
+        },
+        {
+         "k": "Wider representation",
+         "t": "Include diverse unions and platform associations.",
+         "ex": ""
+        },
+        {
+         "k": "Algorithmic transparency",
+         "t": "Rights to know how pay and ratings work.",
+         "ex": ""
+        },
+        {
+         "k": "State schemes",
+         "t": "Learn from state-level gig worker laws.",
+         "ex": ""
+        },
+        {
+         "k": "Women's safety",
+         "t": "Insurance and safe-work norms.",
+         "ex": ""
+        },
+        {
+         "k": "Data",
+         "t": "Regular surveys of platform work.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "The Code gives gig workers a legal identity; boards that represent them widely and fund benefits fairly will decide whether it gives them security."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-10-31-12",
+   "title": "'The opportunity for India is leveraging AI to reimagine how we use machines'",
+   "section": "Nation",
+   "page": "Page 14",
+   "where": "Nation, page 14 (Express Rendezvous with Kris Gopalakrishnan); TRAI draft on AI governance, Economy page 23",
+   "gs": [
+    "GS3",
+    "GS2",
+    "GS4"
+   ],
+   "syllabus": "GS3 › Science and technology: developments and their effects; Employment · GS2 › Education and skills; Regulatory bodies · GS4 › Ethics of technology",
+   "themes": [
+    "techai",
+    "jobs",
+    "education",
+    "bodies",
+    "g4applied"
+   ],
+   "summary": "Infosys co-founder Kris Gopalakrishnan says AI will automate coding and freeze entry-level hiring for now, while TRAI proposes board-level accountability for AI in telecom networks.",
+   "ideas": [
+    [
+     "A horizontal technology: like computing, AI affects every sector; its first effect is the 'democratisation of intelligent productivity', starting with software coding, though a human is still needed in the loop.",
+     "GS3 · Emerging technology",
+     "AI, as a horizontal technology, will reshape every sector, starting with knowledge work like coding."
+    ],
+    [
+     "The entry-level squeeze: IT revenues still grow and there are no mass layoffs, but entry-level hiring is almost zero; graduates without AI skills will struggle, and universities lag three to four years.",
+     "GS3 · Employment / GS2 · Education",
+     "AI is hitting entry-level jobs first, so curricula must catch up quickly."
+    ],
+    [
+     "India's edge is reskilling at scale: low-cost reskilling keeps margins high, and global capability centres are moving research to India.",
+     "GS3 · Industry / Human capital",
+     "Reskilling at low cost and global capability centres can turn AI disruption into an Indian advantage."
+    ],
+    [
+     "Products need risk capital: India built services without venture capital; product firms need risk capital and market access, and society needs a bigger appetite for risk.",
+     "GS3 · Startups / Investment",
+     "India's shift from services to products depends on risk capital and a culture that accepts failure."
+    ],
+    [
+     "Accountability for AI: TRAI's draft asks telecom operators to adopt board-approved AI policies and governance committees and to report AI incidents, staying liable even when AI is outsourced.",
+     "GS2 · Regulatory bodies / GS3 · Critical infrastructure",
+     "AI governance must keep humans and boards accountable, even when systems are bought from vendors."
+    ]
+   ],
+   "keywords": [
+    [
+     "Human in the loop",
+     "A person checks or approves AI outputs",
+     "GS3 · AI / GS4 · Accountability",
+     "Keeping a human in the loop preserves accountability in AI-driven decisions."
+    ],
+    [
+     "Global capability centres (GCCs)",
+     "Multinationals' in-house tech and research hubs",
+     "GS3 · Industry",
+     "The growth of GCCs shows India moving up from outsourcing to research."
+    ],
+    [
+     "Model drift",
+     "AI performance degrading as data change over time",
+     "GS3 · AI risks",
+     "TRAI flags model drift as a risk when AI runs critical networks."
+    ],
+    [
+     "Adversarial attack",
+     "Inputs designed to fool an AI system",
+     "GS3 · Cyber security",
+     "Adversarial attacks on AI can threaten critical infrastructure."
+    ],
+    [
+     "Jobless growth risk",
+     "Output rises while hiring stalls",
+     "GS3 · Employment",
+     "Near-zero entry-level IT hiring is a warning of AI-led jobless growth."
+    ]
+   ],
+   "data": [
+    [
+     "~6 million",
+     "Employed by the IT industry, out of a population of 1.4-1.5 billion",
+     "Kris Gopalakrishnan, via IE",
+     "GS3 · Employment",
+     "IT employs about six million people: a high-income niche, not a mass employer."
+    ]
+   ],
+   "examples": [
+    [
+     "TRAI's draft AI framework for telecom",
+     "Board-approved AI policies, governance committees, incident reporting",
+     "GS4",
+     "GS2 · Regulation / GS4 · Accountability",
+     "TRAI's draft shows regulators making boards answerable for AI failures."
+    ],
+    [
+     "Binance hack",
+     "About $6.3 billion stolen in some 20 minutes via a compromised engineer's laptop (Explained, page 20)",
+     "",
+     "GS3 · Cyber security",
+     "The Binance hack shows how one compromised device can expose a whole financial system."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS3-2026/Q16",
+     "Agentic AI: applications, risks and challenges."
+    ],
+    [
+     "GS3-2014/Q2",
+     "Demographic dividend and falling employability: where will jobs come from?"
+    ],
+    [
+     "GS3-2026/Q12",
+     "Startups, innovation and employment, and their challenges."
+    ],
+    [
+     "GS4-2024/Q1a",
+     "AI as an input for administrative decision-making: an ethical view."
+    ]
+   ],
+   "potential": [
+    "\"Artificial Intelligence will shrink entry-level jobs before it creates new ones.\" Discuss the implications for India's demographic dividend. (15 marks)",
+    "Why is board-level accountability necessary for the use of AI in critical infrastructure such as telecom? (10 marks)"
+   ]
+  },
+  {
+   "id": "2026-10-31-13",
+   "title": "Assam, north Bengal districts on high alert; 12,000 evacuated from areas along Sankosh",
+   "section": "Nation",
+   "page": "Page 11",
+   "where": "Nation, page 11 (Sweety Kumari & Shinjini Ghosh); Odisha cyclone report (Sujit Bisoyi), same page",
+   "gs": [
+    "GS1",
+    "GS3",
+    "GS2"
+   ],
+   "syllabus": "GS1 › Important geophysical phenomena; Changes in glaciers · GS3 › Disaster and disaster management · GS2 › India and its neighbourhood (Bhutan)",
+   "themes": [
+    "disaster",
+    "physgeo",
+    "climate",
+    "neighbour"
+   ],
+   "summary": "A glacial lake outburst in Bhutan's Gasa region put Assam and north Bengal on alert along the Sankosh, while cyclone Arnab's rains caused landslides and floods in Odisha.",
+   "ideas": [
+    [
+     "Hazards cross borders: a glacial lake burst in Bhutan's Gasa region, sending water, mud and debris downstream into Indian river systems along the Sankosh.",
+     "GS1 · Geophysical phenomena / GS2 · Neighbourhood",
+     "Glacial lake outbursts in the Himalaya are transboundary hazards needing shared early warning."
+    ],
+    [
+     "Early action saved lives: about 12,000 people along the Sankosh in Alipurduar were moved to safety, with public announcements and disaster forces on standby; no major damage was reported.",
+     "GS3 · Disaster preparedness",
+     "Timely evacuation turns a hazard into a non-disaster."
+    ],
+    [
+     "Cyclone impacts reach far inland: under cyclone Arnab, torrential rain set off landslides in Odisha's Kandhamal and Ganjam, killing a family, and left about 300 villages marooned in Ganjam.",
+     "GS3 · Disaster management / GS1 · Cyclones",
+     "Cyclone risk is not only coastal: inland landslides and floods follow the rain."
+    ],
+    [
+     "Recovery needs administrators: Odisha deputed more than 30 senior OAS officers to Ganjam for relief and restoration of roads, power and health services.",
+     "GS3 · Disaster response / GS2 · Governance",
+     "Disaster recovery depends on surge administrative capacity on the ground."
+    ],
+    [
+     "Warming raises the risk: as Himalayan glaciers melt, glacial lakes grow, so monitoring them is now part of climate adaptation.",
+     "GS1 · Glaciers / GS3 · Climate",
+     "Shrinking glaciers and growing lakes make GLOF monitoring a climate-adaptation priority."
+    ]
+   ],
+   "keywords": [
+    [
+     "Glacial lake outburst flood (GLOF)",
+     "Sudden release of water from a glacier-fed lake",
+     "GS1 · Geophysical phenomena",
+     "GLOFs are rising with Himalayan glacier melt and can strike far downstream."
+    ],
+    [
+     "Transboundary early warning",
+     "Sharing hazard data across national borders",
+     "GS2 · Neighbourhood / GS3 · DM",
+     "The Sankosh alert shows the need for transboundary early warning with Bhutan."
+    ],
+    [
+     "Cascading hazards",
+     "One hazard triggering others (cyclone → rain → landslide → flood)",
+     "GS3 · Disaster management",
+     "Cyclone Arnab's landslides show how disasters cascade."
+    ],
+    [
+     "Surge capacity",
+     "Extra staff and resources deployed in a crisis",
+     "GS3 · Disaster response",
+     "Deploying senior officers to Ganjam is surge capacity in action."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "Sankosh evacuation",
+     "About 12,000 people moved after a GLOF in Bhutan; no major disaster",
+     "",
+     "GS3 · Disaster preparedness / GS2 · India–Bhutan",
+     "The Sankosh evacuation shows how early warning and quick action prevent a transboundary flood disaster."
+    ],
+    [
+     "Cyclone Arnab, Odisha",
+     "Landslides in Kandhamal; 300 villages marooned in Ganjam",
+     "GS4",
+     "GS3 · Disaster management / GS4 · Compassion in public service",
+     "Cyclone Arnab's inland landslides show that cyclone preparedness must extend to the hills."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS1-2020/Q6",
+     "Melting Himalayan glaciers and India's water resources."
+    ],
+    [
+     "GS1-2014/Q20",
+     "Shrinking Himalayan glaciers and climate change."
+    ],
+    [
+     "GS3-2024/Q17",
+     "Disaster resilience and the Sendai Framework."
+    ],
+    [
+     "GS3-2026/Q7",
+     "Infrastructure development vs disaster-risk reduction in ecologically sensitive areas."
+    ]
+   ],
+   "potential": [
+    "Glacial lake outburst floods are an emerging transboundary hazard in the Himalaya. Discuss the measures India should take, including cooperation with neighbours. (15 marks)"
+   ]
+  },
+  {
+   "id": "2026-10-31-14",
+   "title": "Ashoke Sen's journey shows why science must make room for ideas yet to be tested",
+   "section": "The Ideas Page",
+   "page": "Page 13",
+   "where": "The Ideas Page, page 13 (Sunil Mukhi)",
+   "gs": [
+    "GS3",
+    "GS4"
+   ],
+   "syllabus": "GS3 › Science and technology: achievements of Indians; Indigenisation of technology · GS4 › Work culture and institutions",
+   "themes": [
+    "techai",
+    "education",
+    "g4workculture"
+   ],
+   "summary": "String theorist Ashoke Sen is the first Indian to receive the Oskar Klein Medal; a colleague argues his career shows the value of freedom for untested theory.",
+   "ideas": [
+    [
+     "Theory ahead of proof: the Klein-Gordon equation (1926) looked unconnected to nature until the Higgs boson was found in 2012; ideas can wait decades for confirmation.",
+     "GS3 · Science and technology",
+     "Basic science often pays off decades later, so it cannot be judged by immediate use."
+    ],
+    [
+     "An Indian at the frontier: Sen's 1994 work on electric-magnetic duality helped unify string theory; he is the first Indian among Oskar Klein Medal winners such as Hawking and Bethe.",
+     "GS3 · Achievements of Indians",
+     "Ashoke Sen's work shows Indian science leading at the global frontier of theory."
+    ],
+    [
+     "Institutions made it possible: Sen worked at DAE's autonomous institutes (TIFR, HRI, ICTS), where Homi Bhabha's legacy gave freedom to think and a supportive ecosystem.",
+     "GS3 · Research ecosystem / GS4 · Institutions",
+     "Autonomous institutions with freedom to think produce world-class science."
+    ],
+    [
+     "Against short-termism: string theory has faced negativity in India, partly from not understanding how frontier physics works; impatience can starve long-horizon research.",
+     "GS3 · Science policy",
+     "Science policy that demands quick results can starve long-horizon research."
+    ]
+   ],
+   "keywords": [
+    [
+     "Blue-sky research",
+     "Research driven by curiosity, without immediate application",
+     "GS3 · Science policy",
+     "Blue-sky research, like string theory, builds knowledge whose uses come later."
+    ],
+    [
+     "Institutional autonomy",
+     "Freedom of research bodies from day-to-day control",
+     "GS3 / GS4 · Institutions",
+     "Institutional autonomy at TIFR and ICTS let Indian science take long bets."
+    ],
+    [
+     "Long-horizon research",
+     "Work whose results take decades",
+     "GS3 · Science policy",
+     "Funding must protect long-horizon research from demands for quick returns."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "Klein-Gordon equation and the Higgs boson",
+     "A 1926 equation confirmed by a 2012 discovery",
+     "",
+     "GS3 · Science / Essay",
+     "The Klein-Gordon equation waited 86 years for the Higgs boson: patience is a scientific virtue."
+    ],
+    [
+     "Homi Bhabha's DAE ecosystem",
+     "Autonomous institutes with freedom to think",
+     "GS4",
+     "GS3 · Research / GS4 · Leadership",
+     "Bhabha's DAE shows how visionary leadership builds institutions that outlast their founders."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS3-2014/Q10",
+     "Declining scientific research in Indian universities and its causes."
+    ]
+   ],
+   "potential": [
+    "Why is investment in basic research important for a developing country like India? Discuss the institutional conditions it needs. (10 marks)"
+   ]
+  }
+ ],
+ "ethics": [
+  {
+   "id": "2026-10-31-e1",
+   "area": "public",
+   "themes": [
+    "g4probity",
+    "g4transparency",
+    "g4workculture"
+   ],
+   "card": "2026-10-31-10",
+   "src": "IE p. 13 (Usha Rai)",
+   "title": "Nine months and five bribes for a death certificate",
+   "news": "An octogenarian in Gurugram needed nine months and repeated bribe demands, from ₹4,000 to ₹25,000, to get her sister's death certificate, whose official fee was ₹30.",
+   "syllabus": "Probity in governance: citizen's charters, quality of service delivery, challenges of corruption",
+   "link": "Petty corruption at the counter turns a citizen's right into a favour and hits the old and the grieving hardest; trust-based reforms mean little if service delivery stays extractive.",
+   "pyq": [
+    "GS4-2023/Q2a",
+    "GS4-2022/Q5b"
+   ],
+   "question": "\"Petty corruption in routine services erodes trust in the State more than grand scams do.\" Discuss with examples.",
+   "keywords": [
+    "Citizen's charter",
+    "Rent-seeking",
+    "Time-bound service delivery",
+    "Empathy for the vulnerable"
+   ]
+  },
+  {
+   "id": "2026-10-31-e2",
+   "area": "public",
+   "themes": [
+    "g4values",
+    "g4integrity"
+   ],
+   "card": "",
+   "src": "IE p. 13 (Arif)",
+   "title": "Justice, not vengeance",
+   "news": "The film Prahaar, on prosecutor Ujjwal Nikam, shows Kasab's defence lawyer branded a 'terrorist lawyer' for doing his job, and backs due process even for the despised.",
+   "syllabus": "Constitutional morality; Rule of law; Professional ethics; Courage of conviction",
+   "link": "The rule of law is tested when public anger demands revenge; a fair trial for the worst accused, and respect for those who defend them, is what separates justice from vengeance.",
+   "pyq": [
+    "GS4-2025/Q1b",
+    "GS4-2020/Q2a"
+   ],
+   "question": "\"The true test of the rule of law lies in how it treats those society despises.\" Examine in the context of public service.",
+   "keywords": [
+    "Constitutional morality",
+    "Due process",
+    "Professional duty",
+    "Mob justice"
+   ]
+  },
+  {
+   "id": "2026-10-31-e3",
+   "area": "env",
+   "themes": [
+    "g4env",
+    "g4integrity"
+   ],
+   "card": "2026-10-31-06",
+   "src": "IE p. 1 (Jay Mazoomdaar)",
+   "title": "When the guardian builds in the forest",
+   "news": "A society under Bihar's Forest Department floated a tender for cottages, a helipad and banquet halls inside Bhimbandh Wildlife Sanctuary, weeks after a highway MoU was cancelled for conflict of interest.",
+   "syllabus": "Environmental ethics · Conflict of interest in public institutions",
+   "link": "A forest department that promotes construction in a sanctuary it must protect faces a conflict of interest; stewardship means putting the ecosystem's long-term interest above revenue.",
+   "pyq": [
+    "GS4-2015/Q4",
+    "GS4-2018/Q1",
+    "GS4-2015/Q1a"
+   ],
+   "question": "A state forest department wants to raise revenue through tourism inside a wildlife sanctuary. As its head, what ethical issues would you weigh and how would you decide?",
+   "keywords": [
+    "Stewardship",
+    "Conflict of interest",
+    "Intergenerational equity",
+    "Precautionary principle"
+   ]
+  },
+  {
+   "id": "2026-10-31-e4",
+   "area": "work",
+   "themes": [
+    "g4leadership",
+    "g4ei"
+   ],
+   "card": "2026-10-31-04",
+   "src": "IE p. 12 (Editorial); p. 4 (Tabshir Shams)",
+   "title": "Dialogue ended what discipline could not",
+   "news": "Jamia's 18-day student protest ended after seven hours of talks, a fixed date for union elections and withdrawal of disciplinary cases.",
+   "syllabus": "Leadership in public institutions; Emotional intelligence; Dialogue and trust",
+   "link": "Punitive action deepened mistrust; credible, time-bound commitments and listening restored it. Leaders of institutions win authority by sharing voice, not by suppressing it.",
+   "pyq": [
+    "GS4-2014/Q1"
+   ],
+   "question": "As the head of a university facing a prolonged student protest, how would you use dialogue and emotional intelligence to resolve it?",
+   "keywords": [
+    "Trust deficit",
+    "Participative leadership",
+    "Credible commitment",
+    "Conflict resolution"
+   ]
+  },
+  {
+   "id": "2026-10-31-e5",
+   "area": "intl",
+   "themes": [
+    "g4intl"
+   ],
+   "card": "2026-10-31-07",
+   "src": "IE p. 7 (Shubhajit Roy)",
+   "title": "No tactical discount on terror",
+   "news": "At the G20 in Atlanta, India warned that tactical calculations should not lead nations to overlook the dangers of terrorism.",
+   "syllabus": "Ethical issues in international relations: interest versus principle",
+   "link": "Tolerating terror sponsors for strategic gain trades principle for short-term interest, and often backfires; consistency on terrorism is both ethical and prudent.",
+   "pyq": [
+    "GS4-2026/Q5b",
+    "GS4-2015/Q11"
+   ],
+   "question": "\"In international relations, a principled stand against terrorism is also the prudent one.\" Discuss.",
+   "keywords": [
+    "Realpolitik vs principle",
+    "Moral consistency",
+    "Collective security"
+   ]
+  },
+  {
+   "id": "2026-10-31-e6",
+   "area": "gender",
+   "themes": [
+    "g4gender",
+    "g4attitude"
+   ],
+   "card": "2026-10-31-01",
+   "src": "IE p. 21 (Shubham Tigga)",
+   "title": "Running for a uniform",
+   "news": "Thousands of Jharkhand women, many young mothers, ran trials in sarees and shorts for a few Home Guard posts, backed by husbands who coached them and families who minded children.",
+   "syllabus": "Social influence and attitude change; Gender justice",
+   "link": "Women's work needs a change of attitude at home as much as jobs outside; supportive husbands and families show how social influence can widen women's choices.",
+   "pyq": [
+    "GS4-2020/Q5a"
+   ],
+   "question": "How can families and communities change attitudes that limit women's participation in paid work? Illustrate with examples.",
+   "keywords": [
+    "Social influence",
+    "Financial independence",
+    "Shared care work",
+    "Aspiration"
+   ]
+  },
+  {
+   "id": "2026-10-31-e7",
+   "area": "env",
+   "themes": [
+    "g4env",
+    "g4psv"
+   ],
+   "card": "2026-10-31-05",
+   "src": "IE p. 1 (Nikhil Ghanekar)",
+   "title": "Acting before the air turns severe",
+   "news": "CAQM banned dust-raising construction and allowed work from home across NCR before November's pollution peak, citing eight years of data.",
+   "syllabus": "Environmental ethics; Duty towards public health",
+   "link": "Acting on evidence before harm peaks reflects the precautionary principle; it puts the health of children, the elderly and outdoor workers ahead of short-term convenience.",
+   "pyq": [
+    "GS4-2015/Q1a",
+    "GS4-2022/Q12"
+   ],
+   "question": "\"Precaution is a moral duty when the evidence of harm is clear.\" Discuss with reference to air pollution.",
+   "keywords": [
+    "Precautionary principle",
+    "Public health",
+    "Shared responsibility"
+   ]
+  },
+  {
+   "id": "2026-10-31-e8",
+   "area": "lives",
+   "themes": [
+    "g4leadership",
+    "g4workculture"
+   ],
+   "card": "2026-10-31-14",
+   "src": "IE p. 13 (Sunil Mukhi)",
+   "title": "Freedom to think",
+   "news": "Ashoke Sen, the first Indian to win the Oskar Klein Medal, did his life's work in DAE institutes built by Homi Bhabha with freedom to think.",
+   "syllabus": "Leadership and institution-building; Work culture",
+   "link": "Leaders who build autonomous, trusting institutions let others take long, risky bets that may pay off decades later.",
+   "pyq": [
+    "GS4-2025/Q6a"
+   ],
+   "question": "\"Great institutions are built by leaders who give others the freedom to fail.\" Comment with examples.",
+   "keywords": [
+    "Institution-building",
+    "Intellectual freedom",
+    "Patience",
+    "Excellence"
+   ]
+  }
+ ],
+ "essay": [
+  {
+   "id": "e-2026-10-31-01",
+   "type": "Argument",
+   "title": "The power of the powerless",
+   "text": "From France to Chile, Serbia to Indonesia, citizens who feel they have no control over the institutions that shape their lives are protesting. Political scientist John Keane calls these revolts of the powerless: the powerful always depend on the cooperation of the many, and power is exposed as contingent the moment the powerless refuse to cooperate. He suggests these may be slow-motion democratic revolutions rather than passing outrages.",
+   "use": "For 'When two elephants fight, it is the grass that gets trampled' (2026) and 'Nearly all men can stand adversity, but to test the character, give him power' (2024).",
+   "themes": [
+    "power",
+    "justice"
+   ],
+   "src": "IE p. 12 (John Keane)",
+   "topics": [
+    "2026A4",
+    "2024B2"
+   ]
+  },
+  {
+   "id": "e-2026-10-31-02",
+   "type": "Example",
+   "title": "An equation that waited 86 years",
+   "text": "Oskar Klein's 1926 equation described spinless particles, yet every particle found for 80 years had spin. Physicists kept studying it as a 'toy model' until the Higgs boson, found in 2012, proved it right. Ashoke Sen, the first Indian to win the Oskar Klein Medal, has spent four decades on string theory, another idea not yet tested by experiment.",
+   "use": "For 'A well-educated mind will always have more questions than answers' (2026), 'The doubter is a true man of science' (2024) and 'What is research, but a blind date with knowledge!' (2021).",
+   "themes": [
+    "reason",
+    "learning"
+   ],
+   "src": "IE p. 13 (Sunil Mukhi)",
+   "topics": [
+    "2026B2",
+    "2024A4",
+    "2021B2"
+   ]
+  },
+  {
+   "id": "e-2026-10-31-03",
+   "type": "Example",
+   "title": "Running in a saree",
+   "text": "In Ramgarh, Jharkhand, about 6,000 women ran trial races for a few Home Guard posts; some in shorts changed at the stadium because they cannot wear them in the village, others ran in sarees. Meena Kumari, 24, who left college when her parents could not afford it, said people will talk behind her back, but one day they will praise her.",
+   "use": "For 'Girls are weighed down by restrictions, boys with demands' (2023), 'If development is not engendered, it is endangered' (2016) and 'Hand that rocks the cradle rules the world' (2021).",
+   "themes": [
+    "justice",
+    "journey"
+   ],
+   "src": "IE p. 21 (Shubham Tigga)",
+   "topics": [
+    "2023B1",
+    "2016A1",
+    "2021B1"
+   ]
+  },
+  {
+   "id": "e-2026-10-31-04",
+   "type": "Example",
+   "title": "Due process for the despised",
+   "text": "The film Prahaar revisits the 26/11 trial: why should a man who attacked innocents get a trial at all? Its answer is that the law must hold even when public anger demands otherwise, and that a democracy is tested by how it protects those it despises. Kasab's defence lawyer was branded a 'terrorist lawyer' simply for doing his job.",
+   "use": "For 'A society that has more justice is a society that needs less charity' (2023) and 'Truth knows no colour' (2025).",
+   "themes": [
+    "justice",
+    "ethics"
+   ],
+   "src": "IE p. 13 (Arif)",
+   "topics": [
+    "2023B3",
+    "2025A1"
+   ]
+  },
+  {
+   "id": "e-2026-10-31-05",
+   "type": "Data",
+   "title": "Poverty halved, earnings flat",
+   "text": "The World Bank says extreme poverty fell from 27.1% in 2011 to 2.6% in 2023, lifting about 496 million people above the $4.2 line. Yet real earnings stayed broadly flat, the top 10% of workers earn about 13 times the bottom 10%, and 57% of the poor live in one belt from UP to West Bengal.",
+   "use": "For 'There can be no social justice without economic prosperity, but economic prosperity without social justice is meaningless' (2020) and 'Poverty anywhere is a threat to prosperity everywhere' (2018).",
+   "themes": [
+    "justice",
+    "policy"
+   ],
+   "src": "IE p. 1 (Siddharth Upasani)",
+   "topics": [
+    "2020B2",
+    "2018A3"
+   ]
+  }
+ ]
+}
