@@ -1282,6 +1282,206 @@
     ]
    ],
    "potential": []
+  },
+  {
+   "id": "2026-11-03-08",
+   "title": "53 of top 100 companies fail to disclose whistleblower complaints, says report",
+   "section": "Economy",
+   "page": "Page 13",
+   "where": "Economy, page 13 (George Mathew)",
+   "gs": [
+    "GS4",
+    "GS2",
+    "GS3"
+   ],
+   "syllabus": "GS4 › Corporate governance; Probity; Ethical issues in business · GS2 › Transparency and accountability; Statutory bodies (SEBI) · GS3 › Capital markets",
+   "themes": [
+    "g4integrity",
+    "g4transparency",
+    "g4applied",
+    "bodies"
+   ],
+   "summary": "A governance survey of Nifty 100 companies found 53 did not disclose whistleblower complaints in FY26 annual reports, showing a gap between compliance on paper and accountability in practice.",
+   "ideas": [
+    [
+     "Silence on whistleblowers: more than half of India's top 100 listed companies did not disclose information on whistleblower complaints in their FY26 annual reports.",
+     "GS4 · Corporate governance",
+     "Non-disclosure of whistleblower complaints weakens the most important early-warning system in a company."
+    ],
+    [
+     "Unresolved complaints: of the complaints that were reported, a significant share remained unresolved at the end of the year.",
+     "GS4 · Accountability",
+     "Whistleblower systems work only if complaints are resolved, not just recorded."
+    ],
+    [
+     "Paper compliance vs real accountability: governance frameworks look impressive in annual reports and filings, but disclosures reveal gaps in board oversight and the functioning of independent directors.",
+     "GS2 · Transparency / GS4 · Integrity",
+     "Corporate governance in India is often compliance on paper rather than accountability in practice."
+    ],
+    [
+     "Why it matters: whistleblower mechanisms let employees and stakeholders flag financial irregularities and misconduct without fear of retaliation.",
+     "GS4 · Whistleblowing / Probity",
+     "Protecting whistleblowers is protecting the integrity of the market itself."
+    ]
+   ],
+   "keywords": [
+    [
+     "Whistleblower mechanism",
+     "Channel to report wrongdoing without retaliation",
+     "GS4 · Corporate governance",
+     "A credible whistleblower mechanism is the first line of defence against fraud."
+    ],
+    [
+     "Box-ticking compliance",
+     "Meeting the letter of rules, not their purpose",
+     "GS4 · Integrity",
+     "Box-ticking compliance hides governance failures behind good paperwork."
+    ],
+    [
+     "Independent directors",
+     "Board members meant to check management",
+     "GS3 · Corporate governance",
+     "Weak independent directors turn board oversight into formality."
+    ],
+    [
+     "Culture of speaking up",
+     "An organisation where raising concerns is safe and valued",
+     "GS4 · Work culture",
+     "A culture of speaking up matters more than the policy on paper."
+    ]
+   ],
+   "data": [
+    [
+     "53 of 100",
+     "Nifty 100 companies that did not disclose whistleblower complaints in FY26 annual reports; of 1,129 complaints reported, 13.37% unresolved",
+     "Excellence Enablers Annual Corporate Governance Survey (7th edition), via IE",
+     "GS4 · Corporate governance",
+     "53 of India's top 100 listed companies did not disclose whistleblower complaints in FY26 (Excellence Enablers survey)."
+    ]
+   ],
+   "examples": [
+    [
+     "Nifty 100 governance survey",
+     "Gap between impressive governance reports and real accountability",
+     "GS4",
+     "GS4 · Corporate governance, probity · GS2 · Transparency · Essay",
+     "The whistleblower survey shows that governance written in reports is not the same as governance lived in boardrooms."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS2-2015/Q14",
+     "Corporate governance changes after the Satyam scandal."
+    ],
+    [
+     "GS4-2023/Q1a",
+     "Moral integrity and professional efficiency in corporate governance."
+    ],
+    [
+     "GS4-2022/Q6a",
+     "Risks faced by whistleblowers and protection."
+    ],
+    [
+     "GS2-2015/Q15",
+     "Amendments to the Whistleblowers Protection Act."
+    ]
+   ],
+   "potential": [
+    "\"Corporate governance in India suffers more from weak practice than from weak rules.\" Discuss with reference to whistleblower mechanisms. (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "\"Corporate governance in India suffers more from weak practice than from weak rules.\" Discuss with reference to whistleblower mechanisms.",
+     "marks": 10,
+     "words": 150,
+     "parts": [
+      "Introduction",
+      "Rules in place",
+      "Weak practice",
+      "Way forward with conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "A survey of Nifty 100 companies found 53 did not disclose whistleblower complaints in FY26, and 13.37% of reported complaints were unresolved (Excellence Enablers)."
+      },
+      {
+       "h": "Rules in place",
+       "pts": [
+        {
+         "k": "Company law and SEBI norms",
+         "t": "Mandate vigil mechanisms and board committees.",
+         "ex": ""
+        },
+        {
+         "k": "Independent directors",
+         "t": "Meant to check management.",
+         "ex": ""
+        },
+        {
+         "k": "Disclosure requirements",
+         "t": "Annual reports must cover governance practices.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Weak practice",
+       "pts": [
+        {
+         "k": "Non-disclosure",
+         "t": "Many firms stay silent on complaints.",
+         "ex": ""
+        },
+        {
+         "k": "Unresolved complaints",
+         "t": "Mechanisms record but do not resolve.",
+         "ex": ""
+        },
+        {
+         "k": "Captive boards",
+         "t": "Independent directors often defer to promoters.",
+         "ex": ""
+        },
+        {
+         "k": "Fear of retaliation",
+         "t": "Employees hesitate to speak.",
+         "ex": "Satyam showed the cost of silence."
+        }
+       ]
+      },
+      {
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "Mandatory standard disclosure",
+         "t": "Uniform reporting of complaints and outcomes.",
+         "ex": ""
+        },
+        {
+         "k": "Independent ombudsman",
+         "t": "External channel for complaints.",
+         "ex": ""
+        },
+        {
+         "k": "Board accountability",
+         "t": "Audit committees answerable for resolution.",
+         "ex": ""
+        },
+        {
+         "k": "Speak-up culture",
+         "t": "Leadership that protects whistleblowers.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "India has the rules for good governance; what it needs is boards that practise them."
+      }
+     ]
+    }
+   ]
   }
  ],
  "ethics": [
@@ -1307,6 +1507,31 @@
     "Solidarity",
     "Fraternity",
     "Compassion"
+   ]
+  },
+  {
+   "id": "2026-11-03-e2",
+   "area": "work",
+   "themes": [
+    "g4integrity",
+    "g4transparency"
+   ],
+   "card": "2026-11-03-08",
+   "src": "IE p. 13 (George Mathew)",
+   "title": "Governance on paper, silence in practice",
+   "news": "53 of India's top 100 listed companies did not disclose whistleblower complaints in their FY26 annual reports.",
+   "syllabus": "Ethics in business; Corporate governance; Probity; Transparency and accountability",
+   "link": "Integrity in an organisation is tested by how it treats those who raise uncomfortable truths; a whistleblower system that is hidden or ignored is compliance without conscience.",
+   "pyq": [
+    "GS4-2023/Q1a",
+    "GS4-2022/Q6a"
+   ],
+   "question": "\"An organisation that silences its whistleblowers silences its own conscience.\" Discuss.",
+   "keywords": [
+    "Whistleblower protection",
+    "Corporate conscience",
+    "Moral courage",
+    "Accountability"
    ]
   }
  ],
