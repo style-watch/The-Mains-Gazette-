@@ -259,6 +259,228 @@
      ]
     }
    ]
+  },
+  {
+   "id": "2026-11-03-02",
+   "title": "Smaller cities can lead the way on climate resilience",
+   "section": "The Ideas Page",
+   "page": "Page 11",
+   "where": "The Ideas Page, page 11 (Vaishnavi T G Shankar, Vasudha Foundation & Sanjay Sridhar)",
+   "gs": [
+    "GS1",
+    "GS3",
+    "GS2"
+   ],
+   "syllabus": "GS1 › Urbanisation, its problems and remedies · GS3 › Climate change; Disaster management; Conservation · GS2 › Local self-government (urban local bodies)",
+   "themes": [
+    "urban",
+    "climate",
+    "disaster",
+    "localgov"
+   ],
+   "summary": "The writers argue that heat and floods in cities stem from the same planning decisions, and that smaller cities, still growing, can build climate resilience into how they expand.",
+   "ideas": [
+    [
+     "One root, two hazards: urban heat and flooding are shaped by the same decisions on land, buildings and infrastructure, yet are handled separately; the IPCC's 'climate-resilient development' joins adaptation, emissions cuts and development.",
+     "GS3 · Climate change / GS1 · Urbanisation",
+     "Heat and floods in Indian cities share a root in land use and building design, so they need one integrated plan."
+    ],
+    [
+     "Frameworks exist, practice lags: India's long-term low-emissions strategy (UNFCCC), the National Mission on Sustainable Habitat, the Urban Flood Risk Management Programme and heat's status as a notified disaster must now enter routine planning and investment.",
+     "GS3 · Disaster management / Climate policy",
+     "Recognising heat as a notified disaster opens disaster funds for heat resilience; the next step is routine planning."
+    ],
+    [
+     "Smaller cities can shape growth, not retrofit it: much of urban India and its future housing are in cities still expanding, where today's decisions on roads, drainage and buildings can lock in either vulnerability or resilience.",
+     "GS1 · Urbanisation",
+     "Smaller cities can avoid the costly retrofits of metros by building resilience into how they grow."
+    ],
+    [
+     "Cooling is a planning question: land use, density, expansion and green cover shape cooling demand; building design and efficiency can cut it substantially.",
+     "GS3 · Energy / Climate",
+     "Urban form, not just temperature, decides how much cooling a city needs."
+    ],
+    [
+     "Coordination and smart money: master plans, roads, utilities and building rules sit in separate departments; climate must enter project appraisal, existing budgets and grants, with CSR and development finance for pilots and local knowledge guiding data.",
+     "GS2 · Urban governance",
+     "Climate resilience in cities needs inter-departmental coordination more than new funding streams."
+    ]
+   ],
+   "keywords": [
+    [
+     "Climate-resilient development",
+     "IPCC idea joining adaptation, mitigation and development",
+     "GS3 · Climate change",
+     "Climate-resilient development treats heat, floods and growth as one planning problem."
+    ],
+    [
+     "Urban heat island",
+     "Cities hotter than surroundings due to built surfaces",
+     "GS1 · Urbanisation / GS3",
+     "Dense, grey urban form intensifies the urban heat island."
+    ],
+    [
+     "Lock-in",
+     "Early infrastructure choices fixing long-term outcomes",
+     "GS3 · Infrastructure",
+     "Roads and drainage built today create climate lock-in for decades."
+    ],
+    [
+     "Mainstreaming",
+     "Building climate into routine plans and budgets",
+     "GS2 · Governance / GS3",
+     "Mainstreaming climate into master plans matters more than standalone projects."
+    ],
+    [
+     "Heat as a notified disaster",
+     "Heat recognised for disaster-fund use",
+     "GS3 · Disaster management",
+     "Notifying heat as a disaster lets states use disaster funds for heat action."
+    ]
+   ],
+   "data": [
+    [
+     "20% by 2037-38",
+     "Possible cut in cooling demand through building design, energy efficiency and thermal comfort practices",
+     "India Cooling Action Plan, via IE",
+     "GS3 · Energy / Climate",
+     "The India Cooling Action Plan estimates better building design and efficiency could cut cooling demand by 20% by 2037-38."
+    ]
+   ],
+   "examples": [
+    [
+     "Heat notified as a disaster",
+     "Disaster funds can now be used for heat resilience",
+     "",
+     "GS3 · Disaster management · GS2 · Governance innovation",
+     "Notifying heat as a disaster shows policy adapting to new climate risks."
+    ],
+    [
+     "Urban Flood Risk Management Programme",
+     "Covers 18 cities",
+     "",
+     "GS1 · Urban floods · GS3 · Disaster management",
+     "The Urban Flood Risk Management Programme marks a shift from flood relief to flood-risk planning in cities."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS1-2020/Q15",
+     "Flooding of million cities, including smart ones, and remedies."
+    ],
+    [
+     "GS1-2013/Q20a",
+     "Causes of urban heat islands."
+    ],
+    [
+     "GS1-2022/Q9",
+     "Growth of Tier 2 cities."
+    ],
+    [
+     "GS3-2024/Q18",
+     "Urban flooding as a climate-induced disaster and the policy frameworks."
+    ],
+    [
+     "GS3-2026/Q7",
+     "Infrastructure development vs disaster-risk reduction in sensitive areas."
+    ]
+   ],
+   "trend": {
+    "t": "Urban questions moved from social problems of urbanisation (2013) and smart cities (2015, 2016, 2025) to urban floods (2016, 2020, GS3 2024) and Tier 2 cities (2022). Climate-linked urban risk is now asked in GS1 and GS3, and the infrastructure–disaster trade-off came in 2026.",
+    "watch": "Urban flooding has been asked in 2016, 2020 and 2024. Expect heat and smaller cities next: prepare integrated urban climate planning with examples.",
+    "focus": [
+     "Urban floods and heat as linked climate risks",
+     "Smaller and Tier 2 cities",
+     "Master planning and inter-departmental coordination",
+     "Disaster funds and frameworks for cities"
+    ]
+   },
+   "potential": [
+    "\"Smaller cities offer India its best chance to build climate resilience into urbanisation.\" Discuss. (15 marks)",
+    "Why should urban heat and urban flooding be addressed together? Suggest planning measures. (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "Why should urban heat and urban flooding be addressed together? Suggest planning measures.",
+     "marks": 10,
+     "words": 150,
+     "parts": [
+      "Introduction",
+      "Why together",
+      "Planning measures with conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "Indian cities face heat and floods every season; India has notified heat as a disaster and runs an Urban Flood Risk Management Programme in 18 cities, yet the two are planned separately."
+      },
+      {
+       "h": "Why together",
+       "pts": [
+        {
+         "k": "Common causes",
+         "t": "Concrete cover, lost wetlands and poor drainage worsen both.",
+         "ex": ""
+        },
+        {
+         "k": "Shared solutions",
+         "t": "Green cover and water bodies cool cities and absorb rain.",
+         "ex": ""
+        },
+        {
+         "k": "Same institutions",
+         "t": "Master plans, roads and building rules shape both risks.",
+         "ex": ""
+        },
+        {
+         "k": "Energy link",
+         "t": "Heat raises cooling demand and power use.",
+         "ex": ""
+        },
+        {
+         "k": "Same vulnerable people",
+         "t": "Informal settlements suffer both.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Planning measures",
+       "pts": [
+        {
+         "k": "Integrated master plans",
+         "t": "Climate risk in zoning and project appraisal.",
+         "ex": ""
+        },
+        {
+         "k": "Blue-green infrastructure",
+         "t": "Protect lakes, wetlands and tree cover.",
+         "ex": ""
+        },
+        {
+         "k": "Building codes",
+         "t": "Cool roofs and passive design.",
+         "ex": "India Cooling Action Plan: 20% cut in cooling demand by 2037-38."
+        },
+        {
+         "k": "Coordination",
+         "t": "Development authorities, public works and municipalities plan jointly.",
+         "ex": ""
+        },
+        {
+         "k": "Smaller cities first",
+         "t": "Plan growth before it locks in.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "One plan for heat and floods, made early in smaller cities, is cheaper and safer than two crises handled late."
+      }
+     ]
+    }
+   ]
   }
  ],
  "ethics": [],
