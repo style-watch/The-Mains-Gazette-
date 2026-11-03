@@ -1010,8 +1010,305 @@
      ]
     }
    ]
+  },
+  {
+   "id": "2026-11-03-06",
+   "title": "Andhra braces for landfall, rescue teams mobilised in Odisha as Murasu approaches",
+   "section": "Nation",
+   "page": "Page 9",
+   "where": "Nation, page 9 (Sreenivas Janyala & Sujit Bisoyi)",
+   "gs": [
+    "GS3",
+    "GS2",
+    "GS1",
+    "GS4"
+   ],
+   "syllabus": "GS3 › Disaster and disaster management · GS2 › Federalism: inter-state cooperation · GS1 › Cyclones · GS4 › Empathy and compassion",
+   "themes": [
+    "disaster",
+    "federal",
+    "physgeo",
+    "g4aptitude"
+   ],
+   "summary": "Days after Cyclone Arnab, Andhra Pradesh and Odisha prepared for Cyclone Murasu; Tamil Nadu sent 500 electricity staff to help Andhra restore power.",
+   "evolution": [
+    [
+     "31 Oct 2026",
+     "Cyclone Arnab's rains cause landslides in Odisha; 300 villages marooned in Ganjam (page 11)."
+    ],
+    [
+     "2 Nov 2026",
+     "Andhra braces for a second cyclone, Murasu (page 7)."
+    ],
+    [
+     "3 Nov 2026",
+     "Murasu nears landfall; Tamil Nadu sends power crews to Andhra."
+    ]
+   ],
+   "ideas": [
+    [
+     "Back-to-back cyclones: less than a week after Arnab, a severe cyclonic storm forced a second round of evacuations and school closures in Andhra Pradesh and Odisha.",
+     "GS1 · Cyclones / GS3 · Disaster management",
+     "Back-to-back cyclones test whether preparedness can be sustained, not just mounted once."
+    ],
+    [
+     "States help states: at Andhra's request, Tamil Nadu deployed 500 electricity department personnel in 25 teams to restore power.",
+     "GS2 · Cooperative federalism",
+     "Tamil Nadu's power crews for Andhra show cooperative federalism working horizontally, state to state."
+    ],
+    [
+     "Turning a hazard into a resource: Andhra's CM asked officials to use the heavy rainfall to fill tanks and reservoirs through efficient water management, and to finish restoration within 48 hours.",
+     "GS3 · Water management / DM",
+     "Linking flood response with reservoir filling turns a disaster into water security."
+    ],
+    [
+     "Impact beyond landfall: though landfall was in Andhra, Odisha's southern districts were put on high alert and evacuations prioritised.",
+     "GS3 · Disaster preparedness",
+     "Cyclone preparedness must cover neighbouring regions, not just the landfall zone."
+    ]
+   ],
+   "keywords": [
+    [
+     "Horizontal federalism",
+     "Cooperation directly between states",
+     "GS2 · Federalism",
+     "Inter-state help in disasters is horizontal federalism in action."
+    ],
+    [
+     "Mutual aid",
+     "States lending personnel and equipment in emergencies",
+     "GS3 · Disaster management",
+     "Mutual-aid arrangements speed up restoration after disasters."
+    ],
+    [
+     "Restoration window",
+     "Time target to restore essential services",
+     "GS3 · Disaster response",
+     "A 48-hour restoration target keeps recovery accountable."
+    ]
+   ],
+   "data": [
+    [
+     "100–110 km/h (gusts 120)",
+     "Wind speed of Severe Cyclonic Storm Murasu at landfall",
+     "IMD, via IE",
+     "GS1 · Cyclones",
+     "Murasu crossed the Andhra coast as a severe cyclonic storm with winds of 100–110 km/h (IMD)."
+    ],
+    [
+     "500 staff, 25 teams",
+     "Tamil Nadu electricity personnel sent to restore Andhra's power",
+     "Tamil Nadu Electricity Minister, via IE",
+     "GS2 · Cooperative federalism",
+     "Tamil Nadu sent 500 electricity staff in 25 teams to restore power in cyclone-hit Andhra."
+    ]
+   ],
+   "examples": [
+    [
+     "Tamil Nadu's power crews for Andhra",
+     "One state's workers restoring another state's grid after a cyclone",
+     "GS4",
+     "GS2 · Cooperative federalism · GS3 · Disaster management · GS4 · Empathy beyond borders",
+     "Tamil Nadu's crews in Andhra show empathy crossing state lines, the human face of cooperative federalism."
+    ],
+    [
+     "Rain to reservoirs",
+     "Using cyclone rainfall to fill tanks and reservoirs",
+     "",
+     "GS3 · Water management · GS3 · Disaster management",
+     "Andhra's plan to fill reservoirs from cyclone rain shows disasters can be managed for long-term gain."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS1-2022/Q5",
+     "Colour-coded weather warnings for cyclone-prone areas."
+    ],
+    [
+     "GS1-2024/Q4",
+     "Sea surface temperature rise and tropical cyclones."
+    ],
+    [
+     "GS3-2024/Q17",
+     "Disaster resilience and the Sendai Framework."
+    ],
+    [
+     "GS2-2024/Q13",
+     "Building trust between the Centre and the States."
+    ]
+   ],
+   "potential": [
+    "\"Disasters reveal the strength of cooperative federalism in India.\" Discuss with recent examples. (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "\"Disasters reveal the strength of cooperative federalism in India.\" Discuss with recent examples.",
+     "marks": 10,
+     "words": 150,
+     "parts": [
+      "Introduction",
+      "How disasters strengthen cooperation",
+      "Gaps",
+      "Way forward with conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "As Cyclone Murasu hit Andhra Pradesh days after Cyclone Arnab, Tamil Nadu sent 500 electricity staff in 25 teams to restore its neighbour's power."
+      },
+      {
+       "h": "How disasters strengthen cooperation",
+       "pts": [
+        {
+         "k": "Horizontal help",
+         "t": "States lend personnel and equipment.",
+         "ex": "Tamil Nadu's power crews in Andhra."
+        },
+        {
+         "k": "Central support",
+         "t": "NDRF, armed forces and disaster funds.",
+         "ex": ""
+        },
+        {
+         "k": "Shared warnings",
+         "t": "IMD alerts reach all coastal states.",
+         "ex": ""
+        },
+        {
+         "k": "Joint evacuation",
+         "t": "Neighbouring states prepare together.",
+         "ex": "Odisha's alert for Murasu."
+        }
+       ]
+      },
+      {
+       "h": "Gaps",
+       "pts": [
+        {
+         "k": "Ad hoc arrangements",
+         "t": "Help depends on requests, not standing pacts.",
+         "ex": ""
+        },
+        {
+         "k": "Funding disputes",
+         "t": "Centre–state rows over relief funds.",
+         "ex": ""
+        },
+        {
+         "k": "Capacity gaps",
+         "t": "Uneven state disaster forces.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "Standing mutual-aid compacts",
+         "t": "Pre-agreed inter-state support.",
+         "ex": ""
+        },
+        {
+         "k": "Regional disaster councils",
+         "t": "Coastal states plan jointly.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "When a cyclone crosses a coastline, it erases state borders; India's federalism is strongest when its states respond as one."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-11-03-07",
+   "title": "NSA Doval, Vietnamese ministers hold bilateral talks to boost security",
+   "section": "Nation",
+   "page": "Page 9",
+   "where": "Nation, page 9 (Briefly, PTI)",
+   "gs": [
+    "GS2",
+    "GS3"
+   ],
+   "syllabus": "GS2 › Bilateral relations; Act East; Indo-Pacific · GS3 › Security cooperation",
+   "themes": [
+    "indopac",
+    "powers",
+    "border"
+   ],
+   "summary": "Minor topic: NSA Ajit Doval held talks in Hanoi with Vietnam's defence, public security and foreign ministers to strengthen 'multifaceted' ties.",
+   "ideas": [
+    [
+     "Security at the core of Act East: Doval met Vietnam's Defence Minister, Public Security Minister and Foreign Minister; both sides reviewed defence cooperation and agreed to strengthen it.",
+     "GS2 · India–Vietnam / Act East",
+     "Security and defence cooperation with Vietnam anchors India's Act East policy."
+    ],
+    [
+     "A partner in the Indo-Pacific: Vietnam, a key ASEAN state on the South China Sea, is central to India's maritime and regional strategy.",
+     "GS2 · Indo-Pacific",
+     "Close ties with Vietnam strengthen India's position in a contested South China Sea."
+    ]
+   ],
+   "keywords": [
+    [
+     "Act East Policy",
+     "India's strategic engagement with South-East Asia",
+     "GS2 · Foreign policy",
+     "Defence ties with Vietnam give substance to the Act East Policy."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "NSA Doval in Hanoi",
+     "Talks with Vietnam's defence, security and foreign ministers",
+     "",
+     "GS2 · Act East, Indo-Pacific · GS3 · Security cooperation",
+     "Doval's Hanoi visit shows India deepening security partnerships in South-East Asia."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS2-2014/Q16",
+     "Maritime security and freedom of navigation in the South China Sea."
+    ],
+    [
+     "GS1-2016/Q16",
+     "Geopolitical significance of the South China Sea."
+    ]
+   ],
+   "potential": []
   }
  ],
- "ethics": [],
+ "ethics": [
+  {
+   "id": "2026-11-03-e1",
+   "area": "care",
+   "themes": [
+    "g4aptitude",
+    "g4psv"
+   ],
+   "card": "2026-11-03-06",
+   "src": "IE p. 9 (Sreenivas Janyala & Sujit Bisoyi)",
+   "title": "Empathy across state lines",
+   "news": "When Cyclone Murasu struck Andhra Pradesh, Tamil Nadu sent 500 electricity workers in 25 teams to restore its neighbour's power.",
+   "syllabus": "Empathy, compassion and tolerance towards the weaker sections; Public service values",
+   "link": "Public service that ends at the state border is incomplete; helping a neighbouring state's people in a crisis shows empathy and solidarity as public values, beyond political rivalries.",
+   "pyq": [
+    "GS4-2022/Q1b"
+   ],
+   "question": "\"In a disaster, empathy must not stop at administrative boundaries.\" Discuss with examples.",
+   "keywords": [
+    "Empathy",
+    "Solidarity",
+    "Fraternity",
+    "Compassion"
+   ]
+  }
+ ],
  "essay": []
 }
