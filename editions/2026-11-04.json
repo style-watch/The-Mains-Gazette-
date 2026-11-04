@@ -1,0 +1,643 @@
+{
+ "date": "2026-11-04",
+ "paper": "The Indian Express",
+ "items": [
+  {
+   "id": "2026-11-04-01",
+   "title": "Navy rescues hijacked vessel with Iran crew, IAF lends helping hand",
+   "section": "Front page",
+   "page": "Page 1",
+   "where": "Front page, continued on page 2 (Amrita Nayak Dutta)",
+   "gs": [
+    "GS3",
+    "GS2",
+    "GS4"
+   ],
+   "syllabus": "GS3 › Security challenges and their management in border areas (maritime security); Various security forces and their mandate · GS2 › India's bilateral relations (Iran); Effect of policies of other countries on India's interests (West Asia) · GS4 › Ethical issues in international relations",
+   "themes": [
+    "border",
+    "indopac",
+    "regions"
+   ],
+   "summary": "The Indian Navy, backed by an IAF C-17 airdrop of Marine Commandos, freed the fishing vessel Azini and its 20 Iranian crew, hijacked by pirates off Somalia last month, in an operation of over 48 hours.",
+   "evolution": [],
+   "ideas": [
+    [
+     "Piracy as a regional threat: the Navy saw the hijacked vessel as a likely 'mother ship' for launching pirate attacks on merchant shipping, so freeing it protects the sea lanes as well as the crew.",
+     "GS3 · Maritime security",
+     "Hijacked fishing vessels used as pirate mother ships make piracy a threat to the whole sea lane, not to one crew."
+    ],
+    [
+     "Jointness in action: a mission-deployed warship, a maritime reconnaissance aircraft and Marine Commandos airdropped by an IAF C-17 worked together.",
+     "GS3 · Security forces and their mandate",
+     "The Azini rescue shows inter-service jointness turning surveillance into swift action at sea."
+    ],
+    [
+     "Restraint as strategy: after persistent surveillance, the Navy used 'calibrated non-kinetic measures' to contain the vessel before its tactical intervention, and all 20 crew were released.",
+     "GS3 · Maritime security / GS4 · Proportionality",
+     "Calibrated, non-kinetic force secured the hostages' release without escalation: security achieved with restraint."
+    ],
+    [
+     "First responder and preferred security partner: the Navy framed the operation as proof of India's role in the Indian Ocean Region, regardless of the crew's nationality.",
+     "GS2 · India and the IOR / GS3 · Security",
+     "Rescuing foreign crews builds India's credibility as the Indian Ocean's first responder and preferred security partner."
+    ],
+    [
+     "Diplomacy through rescue: Iran's Embassy praised India's HADR commitment and called the rescue a testament to Iran–India friendship and cooperation.",
+     "GS2 · India–Iran relations",
+     "Maritime help to Iranian sailors turns hard naval capability into soft-power goodwill with Iran."
+    ]
+   ],
+   "keywords": [
+    [
+     "Mother ship",
+     "A captured vessel used by pirates as a floating base to attack ships far from shore",
+     "GS3 · Maritime security",
+     "Captured mother ships let pirates strike far out at sea, so freeing them is preventive security."
+    ],
+    [
+     "Non-kinetic measures",
+     "Using surveillance, blocking and pressure instead of firepower",
+     "GS3 · Security / GS4 · Ethics of force",
+     "Non-kinetic containment let the Navy secure the crew while keeping force to the minimum."
+    ],
+    [
+     "Preferred security partner",
+     "A country others in a region turn to first for maritime help",
+     "GS2 · IR / GS3 · Security",
+     "Every rescue at sea strengthens India's claim to be the Indian Ocean's preferred security partner."
+    ],
+    [
+     "Net security provider",
+     "A state whose capabilities provide security for the wider region, not only itself",
+     "GS2 · IR / GS3 · Security",
+     "Anti-piracy operations for other nations' crews show India acting as a net security provider."
+    ],
+    [
+     "HADR",
+     "Humanitarian Assistance and Disaster Relief",
+     "GS2 · IR / GS3 · Disaster management",
+     "HADR operations let India's armed forces win friends without firing a shot."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "Rescue of the Iranian crew of the Azini",
+     "Navy and IAF free 20 Iranian fishermen from pirates",
+     "GS4",
+     "GS3 · Maritime security · GS2 · India–Iran · GS4 · Compassion beyond borders",
+     "India's rescue of 20 Iranian fishermen shows that compassion and duty at sea do not depend on the victim's nationality."
+    ],
+    [
+     "Navy–IAF airdrop of Marine Commandos",
+     "C-17 precision airdrop to a vessel far at sea",
+     "",
+     "GS3 · Security forces · jointness",
+     "The C-17 airdrop of Marine Commandos is a ready example of jointness among the armed forces."
+    ],
+    [
+     "Calibrated force against pirates",
+     "Surveillance and non-kinetic containment before intervention",
+     "GS4",
+     "GS3 · Security · GS4 · Means and ends · Essay",
+     "Containing pirates without escalation shows that the most effective use of power is often the most restrained."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS3-2025/Q20",
+     "Why maritime security is vital for India's sea trade; challenges and way forward."
+    ],
+    [
+     "GS3-2022/Q10",
+     "Maritime security challenges and India's organisational, technical and procedural initiatives."
+    ],
+    [
+     "GS2-2026/Q9",
+     "IPMDA as a bridge between SAGAR and the Quad's Indo-Pacific strategy."
+    ],
+    [
+     "GS2-2023/Q20",
+     "Role of the IMO in the marine environment and maritime safety and security."
+    ],
+    [
+     "GS3-2014/Q19",
+     "IMO's shift of the piracy high-risk area in the Arabian Sea and India's concerns."
+    ]
+   ],
+   "trend": {
+    "t": "Maritime questions began with a narrow piracy-zone issue (2014), widened to India's overall maritime security architecture (2022) and the link between security and sea trade (2025). In 2023 and 2026 the frame moved to institutions and partnerships: the IMO, then IPMDA, SAGAR and the Quad.",
+    "watch": "Maritime security has been asked in 2022, 2023, 2025 and 2026, so it is a must-study area. Questions now ask how India secures the seas through partnerships, not only its own navy.",
+    "focus": [
+     "Threats at sea: piracy, attacks on shipping, chokepoints",
+     "India's institutions and initiatives for maritime security",
+     "SAGAR and India as a first responder in the IOR",
+     "Partnerships: Quad, IPMDA, IMO"
+    ]
+   },
+   "potential": [
+    "\"The Indian Navy's role in the Indian Ocean Region is shifting from guarding India's coasts to securing the region's sea lanes.\" Discuss. (15 marks)",
+    "Humanitarian Assistance and Disaster Relief (HADR) has become a tool of India's maritime diplomacy. Examine with examples. (10 marks)",
+    "What challenges does the resurgence of piracy and attacks on merchant shipping pose to India's sea trade? Suggest measures. (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "\"The Indian Navy's role in the Indian Ocean Region is shifting from guarding India's coasts to securing the region's sea lanes.\" Discuss.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction",
+      "Shift to a regional role",
+      "Limits and challenges",
+      "Way forward",
+      "Conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "In November 2026 the Indian Navy freed the Iranian fishing vessel Azini and its 20 crew from pirates, calling itself the 'first responder and preferred security partner' in the IOR."
+      },
+      {
+       "h": "Shift to a regional role",
+       "pts": [
+        {
+         "k": "Anti-piracy beyond national waters",
+         "t": "The Navy now acts against pirates far from India's coast because piracy threatens the sea lanes that carry India's trade.",
+         "ex": "Freeing the Azini, which could have been used as a pirate mother ship (2026)."
+        },
+        {
+         "k": "Protecting the shipping of all nations",
+         "t": "Rescues are carried out irrespective of the flag or the crew's nationality, building trust across the region.",
+         "ex": "20 Iranian crew rescued; Iran's Embassy thanked India."
+        },
+        {
+         "k": "Mission-based deployments",
+         "t": "Warships are kept on station in key areas round the year, so the Navy can respond quickly to incidents.",
+         "ex": "A mission-deployed warship intervened in the Azini rescue."
+        },
+        {
+         "k": "Jointness and reach",
+         "t": "Joint operations with the IAF extend the Navy's reach far out to sea.",
+         "ex": "Marine Commandos airdropped by an IAF C-17."
+        },
+        {
+         "k": "Maritime domain awareness",
+         "t": "Surveillance and information sharing let the Navy track threats across the region.",
+         "ex": "Information Fusion Centre – IOR at Gurugram; IPMDA with the Quad."
+        },
+        {
+         "k": "HADR as diplomacy",
+         "t": "Relief missions make India the first responder in crises across the IOR.",
+         "ex": "Operation Samudra Setu (2020) brought Indians home by sea during Covid."
+        }
+       ]
+      },
+      {
+       "h": "Limits and challenges",
+       "pts": [
+        {
+         "k": "Threats near chokepoints",
+         "t": "Attacks on merchant shipping in West Asia show how exposed India's trade and seafarers remain.",
+         "ex": "Indian-flagged sailing vessels attacked off Oman during the West Asia war (IE, 4 Nov 2026)."
+        },
+        {
+         "k": "Vast area, limited fleet",
+         "t": "The Navy's ships and aircraft are stretched across a huge ocean.",
+         "ex": ""
+        },
+        {
+         "k": "Extra-regional powers",
+         "t": "China's growing presence, including its base at Djibouti, competes for influence.",
+         "ex": ""
+        },
+        {
+         "k": "Small and traditional vessels",
+         "t": "Fishing boats and sailing cargo vessels are hard to track and protect.",
+         "ex": ""
+        },
+        {
+         "k": "Coordination with others",
+         "t": "Sharing intelligence and responsibility with littoral states and partners is still uneven.",
+         "ex": ""
+        },
+        {
+         "k": "Legal gaps",
+         "t": "Prosecuting captured pirates across jurisdictions remains difficult, though India enacted the Maritime Anti-Piracy Act in 2022.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "Expand the fleet and surveillance",
+         "t": "More ships, maritime patrol aircraft and unmanned systems for persistent watch.",
+         "ex": ""
+        },
+        {
+         "k": "Deepen information sharing",
+         "t": "Strengthen IFC-IOR and IPMDA links with littoral states.",
+         "ex": ""
+        },
+        {
+         "k": "Build partner capacity",
+         "t": "Train and equip smaller IOR navies and coast guards under SAGAR.",
+         "ex": ""
+        },
+        {
+         "k": "Protect seafarers",
+         "t": "Advisories, tracking and insurance support for small Indian vessels in risky waters.",
+         "ex": ""
+        },
+        {
+         "k": "Use the law",
+         "t": "Apply the Maritime Anti-Piracy Act and work through the IMO for common rules.",
+         "ex": ""
+        },
+        {
+         "k": "Keep force calibrated",
+         "t": "Continue non-kinetic, proportionate methods that resolve crises without escalation.",
+         "ex": "The Azini rescue."
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "From the Azini rescue to HADR missions, India's Navy is becoming the IOR's first responder; capacity and partnerships will decide how far that role can grow."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-11-04-02",
+   "title": "On Govt agenda: New Rs 2,800-cr capex scheme for critical minerals",
+   "section": "Front page",
+   "page": "Page 1",
+   "where": "Front page, continued on page 2 (Pratyush Deep), with an Explained box",
+   "gs": [
+    "GS3",
+    "GS1",
+    "GS2",
+    "GS4"
+   ],
+   "syllabus": "GS3 › Industrial policy and its effects on industrial growth; Infrastructure: energy; Mobilisation of resources · GS1 › Distribution of key natural resources across the world and India · GS2 › Effect of policies of other countries on India's interests (China) · GS4 › Ethical issues in international relations",
+   "themes": [
+    "mining",
+    "industry",
+    "energy",
+    "powers"
+   ],
+   "summary": "The Union Cabinet is likely to take up a scheme of about Rs 2,800 crore that offers a 30% capital subsidy for two lithium and two nickel processing plants, to build India's domestic critical mineral processing base.",
+   "evolution": [
+    [
+     "3 Nov 2026",
+     "PM sets a 500 GW non-fossil capacity goal; storage needs batteries (energy thread)."
+    ],
+    [
+     "4 Nov 2026",
+     "Cabinet to consider a capex scheme for lithium and nickel processing."
+    ]
+   ],
+   "ideas": [
+    [
+     "The gap is processing, not only mining: India has little processing capacity and is almost fully import-dependent for cobalt, lithium, nickel, rare earths and silicon.",
+     "GS3 · Industry / GS1 · Resources",
+     "India's critical mineral weakness lies in processing; mining ore is of little use without the capacity to refine it."
+    ],
+    [
+     "Concentration as a strategic risk: China dominates global critical mineral processing and has used it as leverage in trade tensions, leaving India open to supply disruptions.",
+     "GS2 · India–China / GS3 · Economy",
+     "China's hold over mineral processing turns supply chains into tools of pressure, so diversification is national security."
+    ],
+    [
+     "Capex support to start a domestic base: a 30% capital subsidy for four plants (two lithium, two nickel) aims to turn ores into high-purity compounds, with cobalt recovered from nickel.",
+     "GS3 · Industrial policy",
+     "Capital subsidies for processing plants target the costliest, riskiest link in India's mineral value chain."
+    ],
+    [
+     "Clean-energy and strategic sectors depend on it: the minerals feed electric mobility, battery storage, electronics, defence and speciality steel.",
+     "GS3 · Energy / Defence industry",
+     "Without lithium, nickel and cobalt, India's EV and battery ambitions rest on imported inputs."
+    ],
+    [
+     "Cluster approach: processing parks in four states, each built as an ecosystem for one mineral, backed by a planned stockpile under the National Critical Minerals Mission.",
+     "GS1 · Location of industries / GS3 · Industrial policy",
+     "Mineral-specific parks link resource geography to industry, and a strategic stockpile insures against shocks."
+    ]
+   ],
+   "keywords": [
+    [
+     "Mid-stream processing",
+     "Refining ores into high-purity chemicals used by battery and electronics makers",
+     "GS3 · Industry",
+     "India's critical mineral challenge is mid-stream: refining, not just mining."
+    ],
+    [
+     "Weaponisation of supply chains",
+     "Using dominance over a resource to pressure other countries",
+     "GS2 · IR / GS3 · Economy",
+     "China's control of mineral processing shows how supply chains can be weaponised in trade disputes."
+    ],
+    [
+     "Strategic stockpile",
+     "A government reserve held to ride out supply disruptions",
+     "GS3 · Economy / Security",
+     "A critical mineral stockpile works like a strategic oil reserve for the battery age."
+    ],
+    [
+     "Value-chain localisation",
+     "Building each stage of production at home",
+     "GS3 · Industrial policy",
+     "Localising the mineral value chain cuts import dependence from mine to battery."
+    ],
+    [
+     "Resource-based clusters",
+     "Industrial parks placed near the raw material they use",
+     "GS1 · Location of industries",
+     "Odisha's nickel and Gujarat's heavy rare earths show resource-based clustering in practice."
+    ]
+   ],
+   "data": [
+    [
+     "Rs 500 crore",
+     "Allocation committed for a National Critical Mineral Stockpile Programme, 2024-25 to 2030-31",
+     "National Critical Minerals Mission (Government of India), via IE",
+     "GS3 · Mineral security",
+     "The government has committed Rs 500 crore (2024-25 to 2030-31) for a critical mineral stockpile under the NCMM."
+    ]
+   ],
+   "examples": [
+    [
+     "Four mineral-specific processing parks",
+     "Gujarat and Andhra Pradesh for rare earths, Odisha for nickel, Maharashtra for lithium",
+     "",
+     "GS1 · Distribution of resources · GS3 · Industrial policy",
+     "Matching parks to state resources (Odisha's nickel, Gujarat's heavy rare earths) is a model of resource-based industrialisation."
+    ],
+    [
+     "China's leverage over mineral processing",
+     "Dominance used as leverage in trade tensions",
+     "GS4",
+     "GS2 · India–China · GS3 · Economy · GS4 · Ethics in IR",
+     "China's use of mineral processing as leverage is a clear example of economic interdependence turned into coercion."
+    ],
+    [
+     "Odisha as a gateway for imported nickel",
+     "Eastern location suits imports from Indonesia",
+     "",
+     "GS1 · Location of industries · GS2 · Act East",
+     "Odisha's eastern coast lets India process nickel imported from Indonesia, linking resources to the Act East region."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS2-2024/Q9",
+     "The West fostering India as an alternative to China's supply chains."
+    ],
+    [
+     "GS3-2025/Q2",
+     "Challenges for India as the world moves from free trade to protectionism; how to meet them."
+    ],
+    [
+     "GS3-2025/Q12",
+     "Rationale, achievements and improvements of the PLI scheme."
+    ],
+    [
+     "GS1-2021/Q5",
+     "Why India's mining contributes little to GDP despite its Gondwana origin."
+    ],
+    [
+     "GS1-2019/Q6",
+     "Regional resource-based manufacturing and employment."
+    ],
+    [
+     "GS3-2025/Q17",
+     "Why mining is an environmental hazard; remedial measures."
+    ]
+   ],
+   "trend": {
+    "t": "Mineral questions began in physical geography (resource distribution, mining's low GDP share, 2017–2022) and industrial location (2019, 2020). From 2024 the frame shifted to supply chains and geopolitics: India as an alternative to China (2024), protectionism and industrial incentives such as PLI (2025).",
+    "watch": "Supply-chain resilience and China-plus-one questions are rising since 2024, while mining's environmental cost was asked again in 2025. Critical minerals sit where these meet, so expect a direct question soon.",
+    "focus": [
+     "Critical minerals and supply-chain security",
+     "Industrial policy tools: PLI, capex subsidies, parks",
+     "Resource geography and location of processing",
+     "Environmental cost of mining and processing"
+    ]
+   },
+   "potential": [
+    "\"Critical minerals are to the 21st century what oil was to the 20th.\" Discuss India's vulnerabilities and the steps needed to secure its critical mineral supply chains. (15 marks)",
+    "Why has India remained import-dependent for critical minerals despite its resource base? Examine the role of processing capacity. (10 marks)",
+    "How can mineral-specific processing parks promote regional industrial development in India? (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "\"Critical minerals are to the 21st century what oil was to the 20th.\" Discuss India's vulnerabilities and the steps needed to secure its critical mineral supply chains.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction",
+      "Why critical minerals matter",
+      "India's vulnerabilities",
+      "Steps taken and needed (way forward)",
+      "Conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "In November 2026 the Union Cabinet is set to consider a Rs 2,800-crore capex scheme for lithium and nickel processing, as India remains almost fully import-dependent for key critical minerals."
+      },
+      {
+       "h": "Why critical minerals matter",
+       "pts": [
+        {
+         "k": "Energy transition",
+         "t": "Lithium, nickel and cobalt are core to Li-ion batteries for EVs and grid storage.",
+         "ex": "Needed for India's 500 GW non-fossil goal."
+        },
+        {
+         "k": "Electronics and digital economy",
+         "t": "Smartphones, semiconductors and electronics depend on these minerals.",
+         "ex": ""
+        },
+        {
+         "k": "Defence and strategic steel",
+         "t": "Defence systems and speciality steels need rare earths and alloys.",
+         "ex": ""
+        },
+        {
+         "k": "Geopolitical leverage",
+         "t": "Like oil, control of supply gives power over others.",
+         "ex": "China's processing dominance used in trade tensions."
+        }
+       ]
+      },
+      {
+       "h": "India's vulnerabilities",
+       "pts": [
+        {
+         "k": "Import dependence",
+         "t": "India relies almost completely on imports for cobalt, lithium, nickel, rare earths and silicon.",
+         "ex": ""
+        },
+        {
+         "k": "Processing gap",
+         "t": "Even where ore exists, India lacks refining capacity to make battery-grade compounds.",
+         "ex": ""
+        },
+        {
+         "k": "Concentrated supply",
+         "t": "Global processing is concentrated in China, which has curbed exports of some minerals in the past.",
+         "ex": "Export curbs on gallium and germanium (2023)."
+        },
+        {
+         "k": "Limited exploration",
+         "t": "Large parts of India's mineral potential remain unexplored.",
+         "ex": ""
+        },
+        {
+         "k": "High capital and technology barriers",
+         "t": "Processing plants are costly and technology-intensive, deterring private investment.",
+         "ex": ""
+        },
+        {
+         "k": "Environmental cost",
+         "t": "Mining and chemical processing can damage land, water and local communities.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Steps taken and needed (way forward)",
+       "pts": [
+        {
+         "k": "Capex support for processing",
+         "t": "30% capital subsidy for lithium and nickel plants under the proposed scheme.",
+         "ex": "Rs 500–900 crore cap per beneficiary."
+        },
+        {
+         "k": "National Critical Minerals Mission",
+         "t": "A mission-mode approach to exploration, processing and overseas assets, with a planned stockpile.",
+         "ex": "Rs 500 crore committed for stockpiling (2024-25 to 2030-31)."
+        },
+        {
+         "k": "Mineral-specific parks",
+         "t": "Ecosystems in four states matched to their resources.",
+         "ex": "Odisha for nickel, Gujarat and AP for rare earths."
+        },
+        {
+         "k": "Overseas assets and partnerships",
+         "t": "Secure supplies abroad through state firms and partners.",
+         "ex": "KABIL; India's membership of the Minerals Security Partnership."
+        },
+        {
+         "k": "Recycling and urban mining",
+         "t": "Recover minerals from used batteries and e-waste to reduce fresh demand.",
+         "ex": ""
+        },
+        {
+         "k": "Responsible processing",
+         "t": "Strict environmental norms and benefit-sharing with mining communities.",
+         "ex": "District Mineral Foundations."
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "Just as oil security shaped the last century, building domestic processing, diverse partners and a strategic stockpile will decide India's energy and strategic autonomy in this one."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "ethics": [
+  {
+   "id": "2026-11-04-e1",
+   "area": "intl",
+   "themes": [
+    "g4intl",
+    "g4aptitude"
+   ],
+   "card": "2026-11-04-01",
+   "src": "IE p. 1 (Amrita Nayak Dutta)",
+   "title": "Rescue beyond borders",
+   "news": "The Indian Navy and IAF freed 20 Iranian fishermen from pirates, using calibrated non-kinetic measures; Iran called it a testament to friendship.",
+   "syllabus": "Ethical issues in international relations; Compassion; Means and ends (use of force)",
+   "link": "Saving foreign sailors shows that duty to human life does not stop at nationality, and choosing calibrated, minimum force shows that even security operations can be guided by proportionality. Ethics here also serves interest: compassion builds trust between nations.",
+   "pyq": [
+    "GS4-2026/Q5b",
+    "GS4-2015/Q11",
+    "GS4-2023/Q1b"
+   ],
+   "question": "\"Humanitarian action can be the meeting point of ethics and national interest in international relations.\" Discuss with examples.",
+   "keywords": [
+    "Common humanity",
+    "Proportionality",
+    "Soft power",
+    "Vasudhaiva Kutumbakam"
+   ]
+  },
+  {
+   "id": "2026-11-04-e2",
+   "area": "intl",
+   "themes": [
+    "g4intl",
+    "g4env"
+   ],
+   "card": "2026-11-04-02",
+   "src": "IE p. 1 (Pratyush Deep)",
+   "title": "When supply chains become weapons",
+   "news": "China dominates global critical mineral processing and has used it as leverage in trade tensions; India plans a scheme to build its own processing base.",
+   "syllabus": "Ethical issues in international relations; Environmental ethics",
+   "link": "Using control over resources the whole world needs to coerce others turns interdependence into a weapon, raising a question of fairness between nations. As India builds its own base, it also owes a duty to its mineral regions: self-reliance should not come at the cost of land, water and local communities.",
+   "pyq": [
+    "GS4-2026/Q5b",
+    "GS4-2020/Q3b",
+    "GS4-2025/Q2b"
+   ],
+   "question": "Is it ethical for nations to use their control over critical resources as leverage in international relations? Discuss.",
+   "keywords": [
+    "Weaponised interdependence",
+    "Fairness between nations",
+    "Strategic autonomy",
+    "Intergenerational equity"
+   ]
+  }
+ ],
+ "essay": [
+  {
+   "id": "e-2026-11-04-01",
+   "type": "Example",
+   "title": "Pirates contained without escalation",
+   "text": "Freeing 20 Iranian fishermen from pirates, the Indian Navy first tracked the vessel and contained it with calibrated non-kinetic measures, then intervened swiftly; all the crew came home.",
+   "use": "For 'The supreme art of war is to subdue the enemy without fighting' (2025) and 'With greater power comes greater responsibility' (2014).",
+   "themes": [
+    "power"
+   ],
+   "src": "IE p. 1 (Amrita Nayak Dutta)",
+   "topics": [
+    "2025A2",
+    "2014A1"
+   ]
+  },
+  {
+   "id": "e-2026-11-04-02",
+   "type": "Example",
+   "title": "Minerals as the new leverage",
+   "text": "China's dominance over critical mineral processing, used as leverage in trade tensions, shows that power between nations now flows through batteries and supply chains, not only armies.",
+   "use": "For 'Technology as the silent factor in international relations' (2020).",
+   "themes": [
+    "tech",
+    "power"
+   ],
+   "src": "IE p. 1 (Pratyush Deep)",
+   "topics": [
+    "2020B4"
+   ]
+  }
+ ]
+}
