@@ -552,6 +552,272 @@
      ]
     }
    ]
+  },
+  {
+   "id": "2026-11-04-03",
+   "title": "KPSC scam: ED says ex-chairman building Rs 35-cr 'dream project'",
+   "section": "Nation",
+   "page": "Page 8",
+   "where": "Nation, page 8 (Johnson T A)",
+   "gs": [
+    "GS2",
+    "GS4"
+   ],
+   "syllabus": "GS2 › Constitutional bodies (State Public Service Commissions, Art. 315); Role of civil services in a democracy; Transparency and accountability · GS4 › Probity in governance; Integrity; Conflict of interest",
+   "themes": [
+    "bodies",
+    "civserv"
+   ],
+   "summary": "The ED told a special court that former KPSC chairman Shivashankarappa Sahukar, arrested in a veterinary doctors' recruitment scam, was building a Rs 35-crore complex; the Karnataka HC has reconstituted the SIT probing the scam.",
+   "evolution": [
+    [
+     "3 Nov 2026",
+     "NTA overhaul: 5,000 experts empanelled to set and vet papers (exam integrity)."
+    ],
+    [
+     "4 Nov 2026",
+     "KPSC ex-chairman accused of selling answer keys; HC reconstitutes SIT."
+    ]
+   ],
+   "ideas": [
+    [
+     "Capture at the top: the chairman and a member of a constitutional recruiting body are accused of leaking answer keys to nine aspirants for bribes, with the exam controller, an IAS officer, also implicated.",
+     "GS2 · Constitutional bodies / GS4 · Probity",
+     "When those who guard merit sell it, the corruption is institutional, not individual."
+    ],
+    [
+     "A pattern, not a lapse: aspirants flagged withheld marks, manipulated interview panels, altered tabulation records, tampered answer sheets and leaked papers.",
+     "GS2 · Recruitment and civil services",
+     "Recruitment fraud runs through every stage, from paper-setting to interviews, so reform must cover the whole chain."
+    ],
+    [
+     "Conflict of interest: the chairman was suspended in a separate case of illegal recruitment of his own daughter by the KPSC.",
+     "GS4 · Conflict of interest",
+     "Hiring one's own relative through the body one heads is the textbook case of conflict of interest."
+    ],
+    [
+     "Political cover weakens independence: the IE found the chairman was handpicked by one party in 2019 and shielded by the next government after 2023.",
+     "GS2 · Independence of constitutional bodies",
+     "Bipartisan protection of a compromised appointee shows why PSC appointments need insulation from politics."
+    ],
+    [
+     "Accountability through many agencies: ED under the PMLA, the CID and a court-monitored SIT probe the case, and the HC kept CID officers out of the new SIT.",
+     "GS2 · Accountability / Judiciary",
+     "Court-monitored probes help restore credibility when investigating agencies themselves face doubts."
+    ]
+   ],
+   "keywords": [
+    [
+     "Meritocracy",
+     "Selection on ability alone",
+     "GS2 · Civil services / GS4 · Justice",
+     "Paper leaks replace meritocracy with a market where public posts go to the highest bidder."
+    ],
+    [
+     "Institutional capture",
+     "Control of an independent body by private or partisan interests",
+     "GS2 · Constitutional bodies",
+     "Political patronage of PSC chiefs risks institutional capture of recruitment."
+    ],
+    [
+     "Proceeds of crime",
+     "Money gained through a criminal act, the basis of action under the PMLA",
+     "GS3 · Money laundering",
+     "The ED treats bribe money from recruitment as proceeds of crime under the PMLA."
+    ],
+    [
+     "Nepotism",
+     "Favouring relatives in public appointments",
+     "GS4 · Probity",
+     "The chairman's suspension for his daughter's selection is a clear case of nepotism."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "KPSC veterinary doctors' recruitment scam",
+     "Answer keys allegedly sold by the PSC chairman and a member",
+     "GS4",
+     "GS2 · State PSCs · GS4 · Probity and integrity",
+     "The KPSC scam shows how corruption at the top of a recruiting body betrays every honest aspirant."
+    ],
+    [
+     "PSC chief's daughter recruited",
+     "Chairman suspended over his own daughter's selection",
+     "GS4",
+     "GS4 · Conflict of interest · nepotism",
+     "A recruiting body's head selecting his own daughter is a ready example of conflict of interest."
+    ],
+    [
+     "Court-monitored SIT",
+     "Karnataka HC reconstitutes the SIT and keeps CID officers out",
+     "",
+     "GS2 · Judiciary · accountability",
+     "The HC's control over the SIT is an example of the judiciary protecting the credibility of an investigation."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS2-2024/Q11",
+     "Aims of the Public Examination (Prevention of Unfair Means) Act, 2024."
+    ],
+    [
+     "GS2-2024/Q8",
+     "Public perception of civil servants' integrity in democratic governance."
+    ],
+    [
+     "GS2-2026/Q16",
+     "Transparency and accountability as building stakeholders' trust."
+    ],
+    [
+     "GS2-2020/Q7",
+     "Institutional quality and civil service reform."
+    ]
+   ],
+   "trend": {
+    "t": "Civil service questions moved from structure (cadre system 2014, neutrality 2017) to institutional quality (2020) and public trust in civil servants' integrity (2024). In 2024 UPSC also asked directly about the law against unfair means in public examinations, and in 2026 about transparency building trust.",
+    "watch": "The integrity of public recruitment is now tested directly, as the 2024 question on the Public Examination Act showed. Prepare paper leaks, PSC independence and trust in institutions.",
+    "focus": [
+     "Integrity of public examinations and laws against leaks",
+     "Independence and appointments of PSCs",
+     "Probity and conflict of interest",
+     "Trust in institutions"
+    ]
+   },
+   "potential": [
+    "\"Recurring recruitment scams in State Public Service Commissions threaten both meritocracy and public trust.\" Discuss and suggest reforms. (15 marks)",
+    "Examine the constitutional safeguards for the independence of State Public Service Commissions. Are they adequate? (10 marks)",
+    "What is conflict of interest? Illustrate with an example from public recruitment and suggest how it can be prevented. (10 marks, GS4)"
+   ],
+   "practice": [
+    {
+     "q": "\"Recurring recruitment scams in State Public Service Commissions threaten both meritocracy and public trust.\" Discuss and suggest reforms.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction",
+      "How scams threaten meritocracy and trust",
+      "Why they recur",
+      "Reforms (way forward)",
+      "Conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "In November 2026 the ED told a court that former KPSC chairman Shivashankarappa Sahukar, accused of selling answer keys, was building a Rs 35-crore complex: the guardian of merit stands accused of selling it."
+      },
+      {
+       "h": "How scams threaten meritocracy and trust",
+       "pts": [
+        {
+         "k": "Merit replaced by money",
+         "t": "Leaked papers and answer keys hand posts to those who pay, not those who perform.",
+         "ex": "Bribes for answer keys in the KPSC veterinary officers' exam."
+        },
+        {
+         "k": "Injustice to aspirants",
+         "t": "Years of preparation by honest candidates are wasted, hurting the young and the poor most.",
+         "ex": ""
+        },
+        {
+         "k": "Weaker public services",
+         "t": "Officers selected through bribes may treat office as a means to recover their investment.",
+         "ex": ""
+        },
+        {
+         "k": "Loss of faith in institutions",
+         "t": "Each scam makes citizens doubt every result, even honest ones.",
+         "ex": ""
+        },
+        {
+         "k": "Delays and litigation",
+         "t": "Cancelled exams and court cases freeze recruitment for years.",
+         "ex": ""
+        },
+        {
+         "k": "Social cost",
+         "t": "Frustration among unemployed youth can turn into protest and alienation.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Why they recur",
+       "pts": [
+        {
+         "k": "Political appointments",
+         "t": "Members are often chosen for loyalty, not integrity, and then shielded.",
+         "ex": "KPSC chief handpicked in 2019, shielded after 2023 (IE)."
+        },
+        {
+         "k": "Conflict of interest",
+         "t": "Relatives of insiders sit the very exams the body conducts.",
+         "ex": "KPSC chairman suspended over his daughter's recruitment."
+        },
+        {
+         "k": "Weak internal controls",
+         "t": "Manual tabulation, discretionary interviews and poor custody of papers invite tampering.",
+         "ex": "Altered tabulation records, manipulated interview panels."
+        },
+        {
+         "k": "Collusion inside",
+         "t": "Members, exam controllers and middlemen work together.",
+         "ex": "IAS exam controller also implicated."
+        },
+        {
+         "k": "Slow, divided investigations",
+         "t": "Multiple agencies and long trials weaken deterrence.",
+         "ex": "ED, CID and a reconstituted SIT in the KPSC case."
+        },
+        {
+         "k": "Difficult removal",
+         "t": "Members can be removed only on a reference to the Supreme Court under Article 317, so action is slow.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Reforms (way forward)",
+       "pts": [
+        {
+         "k": "Transparent appointments",
+         "t": "Fix eligibility and integrity criteria and use a selection committee for PSC members.",
+         "ex": ""
+        },
+        {
+         "k": "Technology in exams",
+         "t": "Encrypted digital papers, CCTV custody chains and computer-based tests.",
+         "ex": ""
+        },
+        {
+         "k": "Less discretion in interviews",
+         "t": "Reduce interview weightage, use mixed panels and record proceedings.",
+         "ex": ""
+        },
+        {
+         "k": "Strict anti-leak laws",
+         "t": "Apply the Public Examinations (Prevention of Unfair Means) Act, 2024 model and similar state laws, with fast-track courts.",
+         "ex": ""
+        },
+        {
+         "k": "Conflict-of-interest rules",
+         "t": "Compulsory disclosure and recusal where a relative is a candidate.",
+         "ex": ""
+        },
+        {
+         "k": "Independent audits and grievance redress",
+         "t": "Publish answer keys and marks, and allow time-bound challenges.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "A PSC's legitimacy rests on its integrity; insulating appointments and making every stage of recruitment transparent is the only way to restore faith in merit."
+      }
+     ]
+    }
+   ]
   }
  ],
  "ethics": [
@@ -605,6 +871,32 @@
     "Fairness between nations",
     "Strategic autonomy",
     "Intergenerational equity"
+   ]
+  },
+  {
+   "id": "2026-11-04-e3",
+   "area": "public",
+   "themes": [
+    "g4probity",
+    "g4integrity"
+   ],
+   "card": "2026-11-04-03",
+   "src": "IE p. 8 (Johnson T A)",
+   "title": "Selling the gate to public service",
+   "news": "A former KPSC chairman, accused of leaking answer keys for bribes, was also suspended over the commission's recruitment of his own daughter.",
+   "syllabus": "Probity in governance; Integrity; Conflict of interest; Impartiality",
+   "link": "A recruiting body is the gate to public service: when its head sells answer keys and selects his own daughter, it betrays the impartiality and trust on which the whole civil service rests. Corruption at the entry point corrupts every service that follows.",
+   "pyq": [
+    "GS4-2019/Q5a",
+    "GS4-2023/Q5b",
+    "GS4-2022/Q5b"
+   ],
+   "question": "\"Corruption in public recruitment is the most damaging form of corruption because it corrupts the system at its source.\" Discuss.",
+   "keywords": [
+    "Conflict of interest",
+    "Nepotism",
+    "Impartiality",
+    "Institutional integrity"
    ]
   }
  ],
