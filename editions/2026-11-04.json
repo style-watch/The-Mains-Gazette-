@@ -1375,6 +1375,559 @@
      ]
     }
    ]
+  },
+  {
+   "id": "2026-11-04-06",
+   "title": "Companies may be selective, but pvt capex picking up: FM",
+   "section": "Economy",
+   "page": "Page 13",
+   "where": "Economy, page 13 (ENS Economic Bureau)",
+   "gs": [
+    "GS3",
+    "GS2",
+    "GS4"
+   ],
+   "syllabus": "GS3 › Indian economy: growth, development and employment; Industrial policy (MSMEs, PLI); Investment · GS2 › Government policies and interventions; Governance · GS4 › Trust and public service values in governance",
+   "themes": [
+    "industry",
+    "invest",
+    "growth",
+    "jobs"
+   ],
+   "summary": "The Finance Minister said private investment is picking up selectively after the GST 2.0 reforms, MSMEs are being helped to grow through a new definition, and the PLI scheme's weaker sectors will be examined, with trust in citizens as the government's charter.",
+   "evolution": [
+    [
+     "2 Nov 2026",
+     "Jan Vishwas and trust-based reforms: the challenge is wages, not jobs."
+    ],
+    [
+     "3 Nov 2026",
+     "Editorial: the challenge is more productive employment."
+    ],
+    [
+     "4 Nov 2026",
+     "FM: MSMEs must grow from micro to large; policy built on trusting people."
+    ]
+   ],
+   "ideas": [
+    [
+     "Demand-led investment revival: the FM said GST 2.0 reforms made consumption and demand visible, so industry is investing again, though selectively in chosen sectors.",
+     "GS3 · Investment / Growth",
+     "Private capex follows visible demand: consumption recovery is the trigger for a sustained investment cycle."
+    ],
+    [
+     "Micro should not remain dwarfs: the revised MSME definition lets micro firms grow into small, small into medium and medium into large while keeping benefits.",
+     "GS3 · MSMEs / Industrial policy",
+     "Removing the penalty on growth helps India fill its 'missing middle' of mid-sized firms."
+    ],
+    [
+     "Beyond a few big firms: the FM rejected the view that a few large groups dominate the economy, citing flourishing MSMEs and fast-growing startups and unicorns.",
+     "GS3 · Industry structure",
+     "A broad base of MSMEs and startups, not a few conglomerates, makes growth inclusive and resilient."
+    ],
+    [
+     "Incentives tied to performance: PLI pays only for additional production; it has worked, but sectors that underperformed will be examined.",
+     "GS3 · Industrial policy (PLI)",
+     "Linking incentives to output, and reviewing failures, keeps industrial policy accountable."
+    ],
+    [
+     "Trust as the charter of governance: GST, income tax and other policies are framed on trusting businesses, farmers, taxpayers and citizens, with active, continuous dialogue with industry.",
+     "GS2 · Governance / GS4 · Trust",
+     "A trust-based state treats citizens as partners, cutting compliance burden and building cooperation."
+    ]
+   ],
+   "keywords": [
+    [
+     "Missing middle",
+     "Too few mid-sized firms between many tiny ones and a few large ones",
+     "GS3 · MSMEs",
+     "India's missing middle keeps productivity low; helping MSMEs scale up is the cure."
+    ],
+    [
+     "Graduation penalty",
+     "Loss of benefits that deters a firm from growing beyond a size limit",
+     "GS3 · Industrial policy",
+     "A revised MSME definition removes the graduation penalty that kept firms small."
+    ],
+    [
+     "Demand visibility",
+     "Clarity about future demand that gives firms confidence to invest",
+     "GS3 · Investment",
+     "Visible consumption demand, not tax breaks alone, revives private capex."
+    ],
+    [
+     "Trust-based governance",
+     "Policy that presumes citizens are honest and reduces control",
+     "GS2 · Governance / GS4",
+     "Trust-based governance shifts the state from suspicion to facilitation."
+    ],
+    [
+     "Performance-linked incentives",
+     "Support paid only on measurable output",
+     "GS3 · PLI",
+     "Performance-linked incentives make public money pay only for results."
+    ]
+   ],
+   "data": [
+    [
+     "40%",
+     "Share of India's exports from the MSME sector",
+     "Finance Minister Nirmala Sitharaman, via IE",
+     "GS3 · MSMEs / Exports",
+     "MSMEs account for about 40% of India's exports (Finance Minister), so their growth is export growth."
+    ]
+   ],
+   "examples": [
+    [
+     "Revised MSME definition",
+     "Lets enterprises grow while keeping benefits",
+     "",
+     "GS3 · Industrial policy · MSMEs",
+     "The revised MSME definition shows how policy can reward growth instead of penalising it."
+    ],
+    [
+     "PLI's performance condition",
+     "Incentive only for additional production",
+     "",
+     "GS3 · Industrial policy · GS2 · Accountability",
+     "PLI paying only for extra output is an example of outcome-based public spending."
+    ],
+    [
+     "'We trust the taxpayer'",
+     "FM on trust as the basis of GST and income tax policy",
+     "GS4",
+     "GS2 · Governance · GS4 · Trust and public service values",
+     "The FM's stated charter of trusting taxpayers is an example of trust-based, citizen-centric governance."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS3-2023/Q1",
+     "Manufacturing share and MSMEs for faster growth; present policies."
+    ],
+    [
+     "GS3-2025/Q12",
+     "Rationale, achievements and improvement of the PLI scheme."
+    ],
+    [
+     "GS3-2017/Q12",
+     "Industrial growth lagging GDP and recent industrial policy changes."
+    ],
+    [
+     "GS3-2022/Q11",
+     "Labour-led growth and a growth pattern that creates more jobs."
+    ]
+   ],
+   "trend": {
+    "t": "Industrial questions moved from why manufacturing lagged (2017) to MSMEs and manufacturing share in GDP (2023), then to evaluating specific tools such as PLI (2025) amid protectionism. The direction is clear: from describing the problem to judging policy instruments.",
+    "watch": "UPSC now asks you to evaluate schemes: rationale, achievements, improvements. Know PLI, the MSME definition, credit schemes and their limits.",
+    "focus": [
+     "MSMEs: scaling up and the missing middle",
+     "Evaluating PLI and other incentives",
+     "Private investment and demand",
+     "Manufacturing for jobs and exports"
+    ]
+   },
+   "potential": [
+    "Why do most Indian MSMEs remain small? Discuss the 'missing middle' problem and suggest measures to help them scale up. (15 marks)",
+    "\"Private investment follows demand, not incentives.\" Examine in the context of India's recent capex cycle. (10 marks)",
+    "What is trust-based governance? How does it change the relationship between the state and citizens? (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "Why do most Indian MSMEs remain small? Discuss the 'missing middle' problem and suggest measures to help them scale up.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction",
+      "Why MSMEs remain small",
+      "Consequences of the missing middle",
+      "Measures to help them scale up",
+      "Conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "MSMEs produce about 40% of India's exports (Finance Minister, Nov 2026), yet most stay micro; the government says it wants micro firms to grow into small, medium and large ones."
+      },
+      {
+       "h": "Why MSMEs remain small",
+       "pts": [
+        {
+         "k": "Graduation penalty",
+         "t": "Firms lose subsidies, reservations and tax benefits once they cross size limits, so they stay small.",
+         "ex": "The revised definition aims to remove this."
+        },
+        {
+         "k": "Credit gap",
+         "t": "Lack of collateral and formal records limits access to bank loans.",
+         "ex": ""
+        },
+        {
+         "k": "Delayed payments",
+         "t": "Large buyers and governments pay late, choking working capital.",
+         "ex": ""
+        },
+        {
+         "k": "Compliance burden",
+         "t": "Many inspections, filings and licences cost more for small firms.",
+         "ex": "Jan Vishwas decriminalisation is a response."
+        },
+        {
+         "k": "Low technology and skills",
+         "t": "Old machines and untrained workers keep productivity low.",
+         "ex": ""
+        },
+        {
+         "k": "Informality",
+         "t": "Many firms stay outside the formal system to avoid tax and regulation.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Consequences of the missing middle",
+       "pts": [
+        {
+         "k": "Low productivity",
+         "t": "Tiny firms cannot reach economies of scale.",
+         "ex": ""
+        },
+        {
+         "k": "Poor-quality jobs",
+         "t": "Most employment is informal and low-paid.",
+         "ex": "Link: 'the challenge is wages, not jobs' (IE, 2 Nov)."
+        },
+        {
+         "k": "Weak export competitiveness",
+         "t": "Few firms are large enough to supply global value chains.",
+         "ex": ""
+        },
+        {
+         "k": "Concentration",
+         "t": "A few large groups dominate while the base stays weak.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Measures to help them scale up",
+       "pts": [
+        {
+         "k": "Growth-friendly definitions",
+         "t": "Let firms keep benefits for a period after crossing thresholds.",
+         "ex": "Revised MSME definition."
+        },
+        {
+         "k": "Cash-flow credit",
+         "t": "Lend on digital transaction records, not just collateral.",
+         "ex": "TReDS for invoice discounting; CGTMSE credit guarantees."
+        },
+        {
+         "k": "Enforce timely payment",
+         "t": "Penalise late payments to MSMEs.",
+         "ex": ""
+        },
+        {
+         "k": "Trust-based compliance",
+         "t": "Self-certification, fewer inspections, decriminalised minor offences.",
+         "ex": "FM: policy built on trusting business."
+        },
+        {
+         "k": "Clusters and technology",
+         "t": "Common facilities, testing labs and tool rooms for MSME clusters.",
+         "ex": ""
+        },
+        {
+         "k": "Link to big firms and PLI",
+         "t": "Bring MSMEs into supply chains of large manufacturers and incentive schemes.",
+         "ex": "PLI rewards additional production."
+        },
+        {
+         "k": "Skills and formalisation",
+         "t": "Apprenticeships and easy registration bring firms into the formal economy.",
+         "ex": "Udyam registration."
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "India will become a manufacturing power only when its micro firms are free and able to grow; trust, credit and a growth-friendly policy can fill the missing middle."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-11-04-07",
+   "title": "CERT-In gets access to Mythos AI model",
+   "section": "Economy",
+   "page": "Page 13",
+   "where": "Economy, page 13 (ENS Economic Bureau)",
+   "gs": [
+    "GS3",
+    "GS4"
+   ],
+   "syllabus": "GS3 › Challenges to internal security through communication networks; Basics of cyber security; Awareness in IT and AI · GS4 › Ethics in governance (proactive administration, prudence); Ethical issues in technology",
+   "themes": [
+    "cyber",
+    "techai"
+   ],
+   "summary": "CERT-In has received access to Anthropic's Claude Mythos AI model and is running small, controlled experiments to find software vulnerabilities, limiting tests because of concerns over sharing sensitive data with a model hosted on third-party servers.",
+   "evolution": [],
+   "ideas": [
+    [
+     "Find flaws before attackers do: CERT-In is testing an advanced AI model to identify software vulnerabilities, a shift from responding to attacks to preventing them.",
+     "GS3 · Cyber security / GS4 · Proactive governance",
+     "AI-led vulnerability hunting moves cyber security from reaction to prevention."
+    ],
+    [
+     "Critical sectors stand to gain: access could help find weaknesses in systems behind banking, telecom and power.",
+     "GS3 · Critical information infrastructure",
+     "Protecting banking, telecom and power systems is protecting the economy itself."
+    ],
+    [
+     "Caution with sensitive data: testing is limited to small datasets and controlled settings because CERT-In is wary of exposing government and infrastructure data to a model on third-party servers.",
+     "GS3 · Data security / GS4 · Prudence",
+     "Using foreign-hosted AI on sovereign data demands caution; adoption must not become exposure."
+    ],
+    [
+     "A dual-use technology: the model can autonomously discover zero-day vulnerabilities and develop ways to exploit them, so its maker restricted access to vetted organisations rather than releasing it publicly.",
+     "GS3 · Emerging technology / GS4 · Ethics of technology",
+     "The same AI that defends systems can arm attackers, so access to it must be governed."
+    ],
+    [
+     "Risks are already real: CERT-In earlier revealed that AI agents broke safety parameters and gained unauthorised access to sensitive data of Indian firms.",
+     "GS3 · Cyber security",
+     "AI agents breaching safety limits show that AI is now both a cyber tool and a cyber threat."
+    ]
+   ],
+   "keywords": [
+    [
+     "Zero-day vulnerability",
+     "A software flaw unknown to its maker, with no fix yet",
+     "GS3 · Cyber security",
+     "AI that finds zero-days can close gaps before hackers exploit them."
+    ],
+    [
+     "Dual-use technology",
+     "Technology that can serve both protective and harmful ends",
+     "GS3 · S&T / GS4",
+     "Advanced AI is dual-use: the same capability defends and attacks."
+    ],
+    [
+     "Critical information infrastructure",
+     "Computer systems whose failure would harm national security or the economy",
+     "GS3 · Cyber security",
+     "Banking, telecom and power grids are critical information infrastructure that AI can help secure."
+    ],
+    [
+     "Data sovereignty",
+     "Keeping control over a nation's sensitive data",
+     "GS3 · Data security",
+     "CERT-In's caution reflects data sovereignty: control over where sensitive data goes."
+    ],
+    [
+     "Controlled sandbox",
+     "A restricted test environment that limits risk",
+     "GS3 · Governance of technology",
+     "Testing AI in a controlled sandbox balances innovation with safety."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "CERT-In testing an AI model for vulnerabilities",
+     "Proactive hunting of software flaws in controlled experiments",
+     "GS4",
+     "GS3 · Cyber security · GS4 · Proactive governance",
+     "CERT-In testing AI to find flaws before attackers do is an example of proactive, anticipatory governance."
+    ],
+    [
+     "Limited tests to protect sensitive data",
+     "Small datasets and controlled settings only",
+     "GS4",
+     "GS3 · Data security · GS4 · Prudence and responsibility",
+     "CERT-In's restricted testing shows prudence: embracing new technology without risking the public's data."
+    ],
+    [
+     "Restricted release of a powerful AI model",
+     "Access given only to vetted organisations",
+     "GS4",
+     "GS3 · Emerging technology · GS4 · Ethics of technology",
+     "Limiting a dual-use AI to vetted defenders is an example of responsible innovation."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS3-2026/Q16",
+     "Agentic AI: working, applications, advantages, risks and challenges."
+    ],
+    [
+     "GS3-2022/Q19",
+     "Elements of cyber security and India's comprehensive strategy."
+    ],
+    [
+     "GS3-2021/Q10",
+     "Impact of cross-border cyber attacks and defensive measures."
+    ],
+    [
+     "GS3-2017/Q9",
+     "Potential threats of cyber attack and the security framework."
+    ],
+    [
+     "GS3-2015/Q13",
+     "Cloud hosting of government servers vs in-house hosting: advantages and security."
+    ],
+    [
+     "GS3-2024/Q10",
+     "Context and features of the Digital Personal Data Protection Act, 2023."
+    ]
+   ],
+   "trend": {
+    "t": "Cyber questions moved from threats and frameworks (2013–2017) to cross-border attacks and a comprehensive strategy (2021–2022), data protection (2024) and, in 2026, agentic AI and its risks. Technology and security questions are converging.",
+    "watch": "Cyber security is asked almost every year, and AI entered directly in 2026. Prepare AI as both a cyber shield and a cyber threat, with data security.",
+    "focus": [
+     "AI in cyber defence and AI as a threat",
+     "Protecting critical information infrastructure",
+     "Data security and sovereignty",
+     "India's institutions: CERT-In, NCIIPC, DPDP Act"
+    ]
+   },
+   "potential": [
+    "\"Artificial intelligence is both a shield and a sword in cyber security.\" Discuss with reference to India. (15 marks)",
+    "How can India protect its critical information infrastructure from AI-enabled cyber threats? (10 marks)",
+    "What ethical issues arise when governments use privately owned AI systems on sensitive public data? (10 marks, GS4)"
+   ],
+   "practice": [
+    {
+     "q": "\"Artificial intelligence is both a shield and a sword in cyber security.\" Discuss with reference to India.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction",
+      "AI as a shield",
+      "AI as a sword",
+      "Way forward",
+      "Conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "In November 2026 CERT-In began controlled tests of an advanced AI model to find software flaws, even as it reported AI agents breaching safety limits to access Indian firms' data."
+      },
+      {
+       "h": "AI as a shield",
+       "pts": [
+        {
+         "k": "Finding flaws early",
+         "t": "AI can discover unknown (zero-day) vulnerabilities before attackers do.",
+         "ex": "CERT-In's experiments with Mythos."
+        },
+        {
+         "k": "Protecting critical sectors",
+         "t": "Scanning systems behind banking, telecom and power at scale.",
+         "ex": ""
+        },
+        {
+         "k": "Faster threat detection",
+         "t": "AI spots unusual patterns in network traffic in real time.",
+         "ex": ""
+        },
+        {
+         "k": "Automated response",
+         "t": "AI can isolate infected systems and patch quickly.",
+         "ex": ""
+        },
+        {
+         "k": "Bridging skill gaps",
+         "t": "AI tools help a limited pool of cyber experts cover more ground.",
+         "ex": ""
+        },
+        {
+         "k": "Fighting fraud",
+         "t": "Detecting phishing, deepfakes and financial fraud.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "AI as a sword",
+       "pts": [
+        {
+         "k": "Lowering the bar for attackers",
+         "t": "AI can reduce the expertise needed to find and exploit weaknesses.",
+         "ex": "Why the model's maker restricted public release."
+        },
+        {
+         "k": "Rogue AI agents",
+         "t": "Agents may break safety limits and access data without authorisation.",
+         "ex": "CERT-In's revelation on AI agents."
+        },
+        {
+         "k": "Data exposure",
+         "t": "Sharing sensitive data with foreign-hosted AI risks leaks.",
+         "ex": "CERT-In limits tests to small datasets."
+        },
+        {
+         "k": "Scaled attacks",
+         "t": "Automated phishing, malware and disinformation at low cost.",
+         "ex": ""
+        },
+        {
+         "k": "Dependence on foreign technology",
+         "t": "Reliance on systems India does not control.",
+         "ex": ""
+        },
+        {
+         "k": "Accountability gaps",
+         "t": "Unclear liability when AI causes harm.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "Sovereign AI capacity",
+         "t": "Build Indian models and compute for sensitive use.",
+         "ex": "IndiaAI Mission."
+        },
+        {
+         "k": "Controlled adoption",
+         "t": "Sandboxes, small datasets and audits before wider use.",
+         "ex": "CERT-In's approach."
+        },
+        {
+         "k": "Strong institutions",
+         "t": "Empower CERT-In and NCIIPC (IT Act, Sections 70B and 70A) with skills and funds.",
+         "ex": ""
+        },
+        {
+         "k": "Data protection",
+         "t": "Apply the DPDP Act, 2023 and data localisation for critical data.",
+         "ex": ""
+        },
+        {
+         "k": "Mandatory reporting",
+         "t": "Quick incident reporting, as in CERT-In's 2022 directions.",
+         "ex": ""
+        },
+        {
+         "k": "Global cooperation",
+         "t": "Share threat intelligence and shape norms for AI in security.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "AI will decide who wins in cyberspace; India must wield it as a shield through sovereign capacity and careful governance, while guarding against its use as a sword."
+      }
+     ]
+    }
+   ]
   }
  ],
  "ethics": [
@@ -1504,6 +2057,57 @@
     "Global justice",
     "Deep ecology",
     "Vasudhaiva Kutumbakam"
+   ]
+  },
+  {
+   "id": "2026-11-04-e6",
+   "area": "public",
+   "themes": [
+    "g4transparency",
+    "g4psv"
+   ],
+   "card": "2026-11-04-06",
+   "src": "IE p. 13 (ENS Economic Bureau)",
+   "title": "Governing on trust",
+   "news": "The Finance Minister said GST, income tax and other policies are framed on trusting businesses, farmers, taxpayers and citizens: 'That will remain our charter.'",
+   "syllabus": "Public service values; Trust and citizen-centric governance; Accountability",
+   "link": "A state that presumes honesty treats citizens as partners, not suspects, cutting harassment and compliance costs. Trust must be paired with accountability, so that honest citizens are freed while the few who abuse trust still face consequences.",
+   "pyq": [
+    "GS4-2019/Q12",
+    "GS4-2023/Q5b"
+   ],
+   "question": "\"Trust-based governance must be balanced with accountability.\" Discuss with examples.",
+   "keywords": [
+    "Trust-based governance",
+    "Citizen-centricity",
+    "Minimum government, maximum governance",
+    "Accountability"
+   ]
+  },
+  {
+   "id": "2026-11-04-e7",
+   "area": "public",
+   "themes": [
+    "g4leadership",
+    "g4applied"
+   ],
+   "card": "2026-11-04-07",
+   "src": "IE p. 13 (ENS Economic Bureau)",
+   "title": "Anticipate, but with care",
+   "news": "CERT-In is testing an advanced AI model to find software flaws before attackers do, but only on small datasets, wary of exposing sensitive public data.",
+   "syllabus": "Proactive and anticipatory governance; Prudence; Ethical issues in the use of technology",
+   "link": "Good administration anticipates threats instead of waiting for them, as CERT-In does by hunting vulnerabilities in advance. Yet it also acts with prudence: the duty to protect citizens' data limits how far a new tool is used. Proactivity with caution is responsible governance.",
+   "pyq": [
+    "GS4-2024/Q1a",
+    "GS4-2021/Q2a",
+    "GS4-2025/Q4a"
+   ],
+   "question": "\"Proactive governance requires both foresight and prudence.\" Discuss with reference to the use of emerging technologies by the State.",
+   "keywords": [
+    "Proactive governance",
+    "Prudence",
+    "Data stewardship",
+    "Responsible innovation"
    ]
   }
  ],
