@@ -1928,6 +1928,826 @@
      ]
     }
    ]
+  },
+  {
+   "id": "2026-11-04-08",
+   "title": "Rooftop solar and grid instability: Lessons for India from Sri Lanka blackout",
+   "section": "Explained",
+   "page": "Page 15",
+   "where": "Explained, page 15 (Pratyush Deep)",
+   "gs": [
+    "GS3",
+    "GS1"
+   ],
+   "syllabus": "GS3 › Infrastructure: energy; Disaster and disaster management (grid failure) · GS1 › Distribution of key natural resources (solar energy)",
+   "themes": [
+    "energy",
+    "climate",
+    "disaster"
+   ],
+   "summary": "Sri Lanka's grid collapsed on October 17 after a sudden loss of supply triggered mass disconnection of rooftop solar inverters, a warning for India as it rapidly expands rooftop solar.",
+   "evolution": [
+    [
+     "2 Nov 2026",
+     "Editorial page: energy security depends on how we electrify."
+    ],
+    [
+     "3 Nov 2026",
+     "PM sets a 500 GW non-fossil goal; storage and grids are the missing link."
+    ],
+    [
+     "4 Nov 2026",
+     "Sri Lanka blackout shows rooftop solar can destabilise a grid."
+    ]
+   ],
+   "ideas": [
+    [
+     "The cascade: a large coal plant's sudden output drop pulled down grid frequency; rooftop inverters then disconnected together, deepening the supply loss until the whole grid failed.",
+     "GS3 · Energy infrastructure / Disaster management",
+     "When thousands of rooftop inverters trip together, a local fault can cascade into a national blackout."
+    ],
+    [
+     "Non-dispatchable power is hard to manage: solar and wind depend on the weather and cannot be ramped up or down by grid operators like conventional plants.",
+     "GS3 · Energy",
+     "The more non-dispatchable power a grid carries, the more flexibility and backup it needs."
+    ],
+    [
+     "The fix exists but is not enforced: ride-through settings keep inverters connected during disturbances, yet under half of Sri Lanka's rooftop capacity adopted them because of old inverters, unupdatable firmware and weak enforcement.",
+     "GS3 · Regulation / Infrastructure",
+     "Grid safety standards protect only when they are enforced on every inverter, old and new."
+    ],
+    [
+     "India's warning: CERC recorded 68 disturbances in renewable complexes in three and a half years; stricter enforcement helped at utility scale, but distributed rooftop solar is the next challenge.",
+     "GS3 · Energy security",
+     "India has tamed utility-scale renewable disturbances; rooftop solar is the next frontier of grid risk."
+    ],
+    [
+     "Plan for the worst day: states should test grids on days of lowest demand and highest solar, study how much rooftop solar each feeder can hold, and plan for losing the biggest supply source.",
+     "GS3 · Infrastructure planning / Disaster preparedness",
+     "Grid planning must test the worst case: low demand, peak solar and the loss of the largest plant."
+    ]
+   ],
+   "keywords": [
+    [
+     "Non-dispatchable generation",
+     "Power that operators cannot schedule on demand (solar, wind)",
+     "GS3 · Energy",
+     "Rising non-dispatchable generation demands storage and flexible backup."
+    ],
+    [
+     "Grid frequency",
+     "The measure of balance between electricity supply and demand",
+     "GS3 · Energy",
+     "A sudden fall in frequency is the first warning that supply has dropped below demand."
+    ],
+    [
+     "Ride-through capability",
+     "Inverter setting that keeps solar connected during voltage or frequency dips",
+     "GS3 · Grid standards",
+     "Mandating ride-through settings stops rooftop solar from deserting the grid in a crisis."
+    ],
+    [
+     "Hosting capacity",
+     "How much distributed generation a local feeder can safely absorb",
+     "GS3 · Infrastructure planning",
+     "Mapping feeder hosting capacity lets rooftop solar grow without overloading the grid."
+    ],
+    [
+     "Distributed energy resources (DERs)",
+     "Small, dispersed power sources such as rooftop solar and batteries",
+     "GS3 · Energy transition",
+     "DERs democratise power but must be coordinated to keep the grid stable."
+    ]
+   ],
+   "data": [
+    [
+     "68 disturbances; 1–7 GW losses",
+     "Disturbances in India's renewable energy complexes, January 2022–June 2025",
+     "Central Electricity Regulatory Commission (CERC), via IE",
+     "GS3 · Energy security",
+     "CERC recorded 68 renewable-complex disturbances (2022–25), with generation losses of 1 to 7 GW."
+    ]
+   ],
+   "examples": [
+    [
+     "Sri Lanka's October 2026 blackout",
+     "Rooftop inverters' mass disconnection deepened a nationwide grid collapse",
+     "",
+     "GS3 · Energy · Disaster management · Essay",
+     "Sri Lanka's blackout shows that clean energy without grid safeguards can turn a fault into a national crisis."
+    ],
+    [
+     "Weak enforcement of inverter standards",
+     "Under half of rooftop capacity adopted ride-through settings",
+     "GS4",
+     "GS3 · Regulation · GS4 · Rule of law",
+     "Rules on paper but not on rooftops show that enforcement, not drafting, decides safety."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS3-2022/Q12",
+     "Can India meet 50% of energy needs from renewables by 2030; shifting subsidies."
+    ],
+    [
+     "GS1-2025/Q6",
+     "Ecological and economic benefits of solar energy generation in India."
+    ],
+    [
+     "GS3-2021/Q6",
+     "Purpose of the Green Grid Initiative launched at COP26."
+    ],
+    [
+     "GS1-2020/Q16",
+     "India's solar potential and regional variations in its development."
+    ],
+    [
+     "GS3-2016/Q11",
+     "Status and targets of renewable energy."
+    ]
+   ],
+   "trend": {
+    "t": "Solar questions moved from falling costs (2015) and status and targets (2016) to regional potential (2020), the Green Grid Initiative (2021) and whether India can meet its renewable goals (2022). In 2025 UPSC asked about solar's ecological and economic benefits in GS1.",
+    "watch": "Solar is asked in both GS1 and GS3, from potential and benefits to targets and grids. The next likely step is integration: storage, grids and stability.",
+    "focus": [
+     "Solar potential and benefits",
+     "Renewable targets and delivery",
+     "Grid integration, storage and stability",
+     "Global initiatives (Green Grids, ISA)"
+    ]
+   },
+   "potential": [
+    "Rapid expansion of rooftop solar is essential for India's energy transition but poses risks to grid stability. Discuss and suggest measures. (15 marks)",
+    "Explain the challenge of integrating non-dispatchable renewable energy into the power grid. (10 marks)",
+    "What lessons does Sri Lanka's 2026 blackout hold for India's power sector? (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "Rapid expansion of rooftop solar is essential for India's energy transition but poses risks to grid stability. Discuss and suggest measures.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction",
+      "Why rooftop solar is essential",
+      "Risks to grid stability",
+      "Way forward",
+      "Conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "On October 17, 2026, Sri Lanka's grid collapsed for over five hours as rooftop solar inverters disconnected en masse; India, rapidly expanding rooftop solar, faces the same test."
+      },
+      {
+       "h": "Why rooftop solar is essential",
+       "pts": [
+        {
+         "k": "Decentralised clean power",
+         "t": "Generation at the point of use cuts transmission losses.",
+         "ex": ""
+        },
+        {
+         "k": "Household empowerment",
+         "t": "Homes become 'prosumers', lowering bills.",
+         "ex": "PM Surya Ghar Muft Bijli Yojana for one crore households."
+        },
+        {
+         "k": "No land acquisition",
+         "t": "Uses existing rooftops instead of farmland.",
+         "ex": ""
+        },
+        {
+         "k": "Climate goals",
+         "t": "Helps meet non-fossil capacity targets.",
+         "ex": "500 GW goal for the next decade."
+        },
+        {
+         "k": "Energy security",
+         "t": "Reduces reliance on imported fuels.",
+         "ex": ""
+        },
+        {
+         "k": "Local jobs",
+         "t": "Installation and maintenance create skilled work.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Risks to grid stability",
+       "pts": [
+        {
+         "k": "Non-dispatchable supply",
+         "t": "Output varies with weather and cannot be scheduled.",
+         "ex": ""
+        },
+        {
+         "k": "Mass disconnection",
+         "t": "Inverters trip together when voltage or frequency dips, deepening a fault.",
+         "ex": "Sri Lanka's blackouts in 2025 and 2026."
+        },
+        {
+         "k": "Invisible to operators",
+         "t": "Thousands of small systems are hard to monitor and control.",
+         "ex": ""
+        },
+        {
+         "k": "Low-demand, high-solar days",
+         "t": "Surplus power at midday strains the grid.",
+         "ex": ""
+        },
+        {
+         "k": "Weak standards and enforcement",
+         "t": "Old inverters and firmware that cannot be updated.",
+         "ex": "Under half of Sri Lanka's rooftop capacity had ride-through settings."
+        },
+        {
+         "k": "Distribution grids not ready",
+         "t": "Local feeders were designed for one-way power flow.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "Mandatory ride-through settings",
+         "t": "Enforce grid standards on all inverters, with firmware updates.",
+         "ex": ""
+        },
+        {
+         "k": "Hosting-capacity maps",
+         "t": "Assess how much solar each feeder can take.",
+         "ex": ""
+        },
+        {
+         "k": "Storage",
+         "t": "Batteries and pumped hydro to balance supply.",
+         "ex": "Viability gap funding for battery storage."
+        },
+        {
+         "k": "Smart grids and meters",
+         "t": "Real-time visibility and control of distributed sources.",
+         "ex": "Smart meters under the RDSS."
+        },
+        {
+         "k": "Worst-case planning",
+         "t": "Simulate the loss of the largest supply source and low-demand peaks.",
+         "ex": ""
+        },
+        {
+         "k": "Regulatory oversight",
+         "t": "CERC and state commissions to monitor distributed disturbances.",
+         "ex": "CERC recorded 68 renewable disturbances (2022–25)."
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "Rooftop solar can power India's transition only if the grid evolves with it; standards, storage and smart planning will turn a risk into resilience."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-11-04-09",
+   "title": "Flagship fest ahead, why Nagaland wants permit regime scrapped",
+   "section": "Explained",
+   "page": "Page 15",
+   "where": "Explained, page 15 (Shinjini Ghosh)",
+   "gs": [
+    "GS3",
+    "GS2",
+    "GS1",
+    "GS4"
+   ],
+   "syllabus": "GS3 › Security challenges and their management in border areas; Linkages of development and security · GS2 › Federalism and Centre–state relations; Issues relating to the Northeast · GS1 › Tribal culture · GS4 › Citizen-friendly administration",
+   "themes": [
+    "border",
+    "federal",
+    "tribal"
+   ],
+   "summary": "Nagaland has urged the Centre to completely withdraw the Protected Area Permit for foreigners, reimposed in December 2024 for security reasons, saying it hurts tourism ahead of the Hornbill Festival.",
+   "evolution": [],
+   "ideas": [
+    [
+     "Two permits, two purposes: the PAP (Foreigners (Protected Areas) Order, 1958) controls foreigners' entry to border states, while the colonial-era ILP regulates Indian citizens to protect indigenous hill cultures.",
+     "GS3 · Border management / GS1 · Tribal culture",
+     "India's permit regimes serve two aims: security at the border (PAP) and protection of tribal cultures (ILP)."
+    ],
+    [
+     "Security versus development: relaxed in 2011 and reimposed in December 2024 for security reasons, the PAP now clashes with the state's push for tourism and investment.",
+     "GS3 · Linkages of security and development",
+     "In peaceful border states, rigid security rules can choke the development that itself secures the region."
+    ],
+    [
+     "A rule from another era: the CM argues that a regulation designed for a different security environment should not hold back a peaceful state's aspirations.",
+     "GS2 · Governance / Policy review",
+     "Rules must be reviewed as conditions change; regulations that outlive their purpose become obstacles."
+    ],
+    [
+     "Process matters as much as policy: bureaucracy, a convoluted application process and last-minute relaxations deter foreign tourists who plan months ahead.",
+     "GS2 · Governance / GS4 · Citizen-friendly administration",
+     "Predictable, simple procedures matter as much as the rule itself for tourism and trust."
+    ],
+    [
+     "Federal voice: the state wants a central rule changed and has taken it to the Union Home Minister, but awaits a decision.",
+     "GS2 · Federalism",
+     "Nagaland's appeal on the PAP shows states seeking a voice in central rules that shape their development."
+    ]
+   ],
+   "keywords": [
+    [
+     "Protected Area Permit (PAP)",
+     "Central permit for foreigners to visit designated border areas",
+     "GS3 · Border management",
+     "The PAP balances border security against openness to foreign visitors."
+    ],
+    [
+     "Inner Line Permit (ILP)",
+     "Permit for Indian citizens to enter certain northeastern states",
+     "GS1 · Tribal protection / GS2",
+     "The ILP protects indigenous cultures from demographic and economic pressures."
+    ],
+    [
+     "Security–development nexus",
+     "The idea that development and security reinforce each other",
+     "GS3 · Internal security",
+     "In the Northeast, tourism-led development can strengthen peace as much as security controls."
+    ],
+    [
+     "Regulatory sunset",
+     "Reviewing or ending a rule once its purpose has passed",
+     "GS2 · Governance",
+     "A sunset review would test whether the PAP still serves security in peaceful states."
+    ],
+    [
+     "Cultural tourism",
+     "Tourism built on a region's living culture and festivals",
+     "GS1 · Culture / GS3 · Economy",
+     "Festivals like Hornbill turn culture into livelihoods and soft power."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "Hornbill Festival, Kohima",
+     "Flagship festival drawing visitors from across the world",
+     "",
+     "GS1 · Culture · GS3 · Tourism · Act East",
+     "The Hornbill Festival is an example of the Northeast's cultural soft power and tourism potential."
+    ],
+    [
+     "PAP relaxed in 2011, reimposed in 2024",
+     "Security rule swinging with the security assessment",
+     "",
+     "GS3 · Border management · GS2 · Federalism",
+     "The PAP's relaxation and reimposition show security policy shifting with threat perceptions."
+    ],
+    [
+     "Last-minute relaxations",
+     "Relaxation announced only around the festival gives tourists no certainty",
+     "GS4",
+     "GS2 · Governance · GS4 · Citizen-centric administration",
+     "A relaxation that comes too late to plan for is an example of form over substance in administration."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS3-2025/Q19",
+     "Internal security challenges and peace accords in the North-Eastern States."
+    ],
+    [
+     "GS3-2019/Q20",
+     "Security challenges in policing the border in North-East India beyond insurgency."
+    ],
+    [
+     "GS3-2026/Q10",
+     "Border Area Development Programmes and civic action in Ladakh."
+    ],
+    [
+     "GS3-2016/Q19",
+     "Challenges and strategies for effective border management."
+    ],
+    [
+     "GS1-2015/Q17",
+     "Hill states reaching the limits of ecological carrying capacity due to tourism."
+    ]
+   ],
+   "trend": {
+    "t": "Northeast questions moved from insurgency and border policing (2017, 2019) to peace accords (2025), while border questions shifted in 2026 to development programmes that win hearts and minds. The direction is from security alone to security through development.",
+    "watch": "The Northeast and border management are asked almost every year. Prepare the balance of security and development, peace processes and border-area development.",
+    "focus": [
+     "Security and development in border areas",
+     "Northeast: peace processes and special arrangements",
+     "Permit regimes (PAP, ILP) and tribal protection",
+     "Tourism and the Act East policy"
+    ]
+   },
+   "potential": [
+    "\"In India's border states, development is itself a security strategy.\" Discuss with reference to the Northeast. (15 marks)",
+    "Distinguish between the Inner Line Permit and the Protected Area Permit. Should the PAP be relaxed in peaceful northeastern states? (10 marks)",
+    "Examine the potential of cultural tourism in the economic development of the Northeast. (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "\"In India's border states, development is itself a security strategy.\" Discuss with reference to the Northeast.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction",
+      "How development strengthens security",
+      "Why security controls remain necessary",
+      "Way forward",
+      "Conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "In November 2026 Nagaland asked the Centre to withdraw the Protected Area Permit, reimposed in 2024, arguing that a rule from another security era holds back a peaceful state's development."
+      },
+      {
+       "h": "How development strengthens security",
+       "pts": [
+        {
+         "k": "Jobs reduce alienation",
+         "t": "Livelihoods cut the pool of youth drawn to insurgency.",
+         "ex": ""
+        },
+        {
+         "k": "Tourism and culture",
+         "t": "Visitors bring income and integrate the region with the world.",
+         "ex": "Hornbill Festival draws visitors from many countries."
+        },
+        {
+         "k": "Connectivity",
+         "t": "Roads, rail and air links bind border areas to the mainland.",
+         "ex": "Act East connectivity projects."
+        },
+        {
+         "k": "Presence of the state",
+         "t": "Schools, health and services build trust in government.",
+         "ex": ""
+        },
+        {
+         "k": "Border villages as first line",
+         "t": "Thriving villages deter infiltration better than empty borders.",
+         "ex": "Vibrant Villages Programme."
+        },
+        {
+         "k": "Peace dividends",
+         "t": "Development sustains peace accords.",
+         "ex": "Peace accords in the Northeast in the past decade."
+        }
+       ]
+      },
+      {
+       "h": "Why security controls remain necessary",
+       "pts": [
+        {
+         "k": "Porous borders",
+         "t": "Movement of insurgents, arms and drugs across international borders.",
+         "ex": ""
+        },
+        {
+         "k": "Unsettled neighbourhood",
+         "t": "Instability in Myanmar affects the region.",
+         "ex": ""
+        },
+        {
+         "k": "Strategic sensitivity",
+         "t": "Proximity to China calls for caution on foreign access.",
+         "ex": ""
+        },
+        {
+         "k": "Protection of tribal cultures",
+         "t": "The ILP shields indigenous identity from outside pressure.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "Review rules regularly",
+         "t": "Relax the PAP where conditions are peaceful, with safeguards.",
+         "ex": ""
+        },
+        {
+         "k": "Simple, digital permits",
+         "t": "Online, time-bound approvals that foreigners can plan for.",
+         "ex": ""
+        },
+        {
+         "k": "Federal consultation",
+         "t": "Involve states in decisions on central rules that shape their economies.",
+         "ex": ""
+        },
+        {
+         "k": "Smart surveillance",
+         "t": "Technology at borders so that security does not depend on blanket restrictions.",
+         "ex": ""
+        },
+        {
+         "k": "Invest in livelihoods",
+         "t": "Tourism, crafts and agro-processing for local youth.",
+         "ex": ""
+        },
+        {
+         "k": "Protect culture with development",
+         "t": "Community-led tourism that respects indigenous ways of life.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "In the Northeast, a confident state secures its borders by opening its doors with care; balancing permits with prosperity is the surest path to lasting peace."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-11-04-10",
+   "title": "How New York is regulating the way chatbots interact with children",
+   "section": "Explained",
+   "page": "Page 15",
+   "where": "Explained, page 15 (Amaal Sheikh)",
+   "gs": [
+    "GS3",
+    "GS2",
+    "GS1",
+    "GS4"
+   ],
+   "syllabus": "GS3 › Awareness in IT and AI; Cyber security · GS2 › Mechanisms for the protection of vulnerable sections (children) · GS1 › Effects of technology on society · GS4 › Ethics of technology; Duty of care",
+   "themes": [
+    "techai",
+    "children",
+    "cyber"
+   ],
+   "summary": "New York has enacted a law, effective January 2027, banning AI companion chatbots from posing as human, claiming relationships, flattering, or encouraging self-harm or isolation among minors, with age checks and fines up to $25,000 per violation.",
+   "evolution": [
+    [
+     "4 Nov 2026",
+     "CERT-In tests an AI model with caution (AI governance)."
+    ],
+    [
+     "4 Nov 2026",
+     "New York regulates AI companions for children."
+    ]
+   ],
+   "ideas": [
+    [
+     "Safety by design: the law bans 12 categories of 'unsafe AI companion features' for minors, regulating how chatbots are built, not just what they say.",
+     "GS3 · Regulation of technology",
+     "Regulating design features, not just content, puts child safety at the heart of AI products."
+    ],
+    [
+     "No deception about being a machine: chatbots must not claim to be human, alive or emotional, or pose as a friend, professional or authority figure.",
+     "GS3 · AI / GS4 · Honesty",
+     "Honesty about being a machine protects children from forming false bonds with software."
+    ],
+    [
+     "Against emotional manipulation: the law bars flattery, sycophancy, emotional appeals and encouraging secrecy or isolation from trusted adults.",
+     "GS1 · Technology and society / GS4",
+     "AI companions built to please can manipulate children; the law treats engagement tricks as harm."
+    ],
+    [
+     "Age assurance with privacy: operators must offer more than one way to verify age, including one without government ID that keeps users anonymous.",
+     "GS2 · Child protection / Privacy",
+     "Child safety need not cost privacy: age checks can protect without identifying users."
+    ],
+    [
+     "Why now: rising scrutiny follows teenagers' deaths after heavy chatbot use, and wide use of AI companions among teenagers.",
+     "GS2 · Vulnerable sections / GS3",
+     "Wide teenage use of AI companions makes their regulation a child-rights issue."
+    ]
+   ],
+   "keywords": [
+    [
+     "AI companion",
+     "A chatbot designed for ongoing personal, emotional conversation",
+     "GS3 · AI",
+     "AI companions blur the line between tool and relationship."
+    ],
+    [
+     "Safety by design",
+     "Building protections into a product from the start",
+     "GS3 · Regulation",
+     "Safety by design shifts responsibility from users to makers."
+    ],
+    [
+     "Age assurance",
+     "Methods to estimate or verify a user's age",
+     "GS2 · Child protection",
+     "Age assurance lets platforms protect children without blanket bans."
+    ],
+    [
+     "Anthropomorphism",
+     "Giving human traits to machines",
+     "GS1 · Technology and society",
+     "Anthropomorphic chatbots can make children trust machines like people."
+    ],
+    [
+     "Duty of care",
+     "The responsibility to avoid foreseeable harm to others",
+     "GS4 · Ethics / GS3",
+     "Tech firms owe a duty of care to the children who use their products."
+    ]
+   ],
+   "data": [
+    [
+     "72% / 52%",
+     "Teenagers who have used an AI companion / who use one regularly",
+     "Common Sense Media research, via IE",
+     "GS1 · Technology and society / GS2 · Children",
+     "72% of teenagers have used an AI companion and 52% use one regularly (Common Sense Media)."
+    ]
+   ],
+   "examples": [
+    [
+     "New York's AI companion law",
+     "Bans chatbots posing as human or manipulating minors",
+     "GS4",
+     "GS3 · AI regulation · GS2 · Child protection · GS4 · Ethics of technology",
+     "New York's law is an example of regulating AI design to protect children's well-being."
+    ],
+    [
+     "Anonymous age assurance",
+     "Age check without government ID",
+     "",
+     "GS2 · Privacy · Child rights",
+     "Allowing anonymous age checks shows how child safety and privacy can be balanced."
+    ],
+    [
+     "Ban on chatbot flattery",
+     "Sycophancy treated as a design harm",
+     "GS4",
+     "GS1 · Technology and society · GS4 · Honesty",
+     "Banning flattery shows that technology which only pleases can harm, especially the young."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS2-2025/Q18",
+     "Challenges for the NCPCR in the digital era; policies and measures."
+    ],
+    [
+     "GS1-2023/Q10",
+     "Child cuddling replaced by mobile phones: impact on children's socialisation."
+    ],
+    [
+     "GS3-2026/Q16",
+     "Agentic AI: working, applications, advantages, risks and challenges."
+    ],
+    [
+     "GS3-2024/Q10",
+     "Context and features of the Digital Personal Data Protection Act, 2023."
+    ]
+   ],
+   "trend": {
+    "t": "Questions on children and technology moved from socialisation and screens (GS1, 2023) to child rights in the digital era (GS2, 2025), while AI entered GS3 directly in 2026 with agentic AI and its risks. Technology is now examined through its social and rights impact.",
+    "watch": "Children in the digital world now appear across GS1, GS2 and GS3. Prepare AI's risks to children, data protection and the role of child-rights bodies.",
+    "focus": [
+     "Children's safety online and AI companions",
+     "Data protection and parental consent",
+     "Role of NCPCR and child-rights institutions",
+     "Social impact of technology on families"
+    ]
+   },
+   "potential": [
+    "AI companions pose new risks to children's emotional and mental well-being. Discuss and suggest a regulatory framework for India. (15 marks)",
+    "\"Safety by design is better than safety by enforcement.\" Examine with reference to children and digital technology. (10 marks)",
+    "What ethical duties do technology companies owe to children who use their products? (10 marks, GS4)"
+   ],
+   "practice": [
+    {
+     "q": "AI companions pose new risks to children's emotional and mental well-being. Discuss and suggest a regulatory framework for India.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction",
+      "Risks AI companions pose to children",
+      "Existing safeguards in India",
+      "Regulatory framework (way forward)",
+      "Conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "In October 2026 New York banned AI companions from posing as human or manipulating minors, as research shows 72% of teenagers have used one (Common Sense Media)."
+      },
+      {
+       "h": "Risks AI companions pose to children",
+       "pts": [
+        {
+         "k": "False relationships",
+         "t": "Chatbots that pose as friends can create emotional dependence.",
+         "ex": ""
+        },
+        {
+         "k": "Manipulation for engagement",
+         "t": "Flattery and emotional appeals keep children hooked.",
+         "ex": ""
+        },
+        {
+         "k": "Isolation",
+         "t": "Children may withdraw from family and friends.",
+         "ex": "New York bans encouraging secrecy or isolation."
+        },
+        {
+         "k": "Self-harm risk",
+         "t": "Poor responses to distress can endanger vulnerable users.",
+         "ex": "Lawsuits after teenagers' deaths in the US."
+        },
+        {
+         "k": "Inappropriate content",
+         "t": "Exposure to sexual or harmful content.",
+         "ex": ""
+        },
+        {
+         "k": "Data exploitation",
+         "t": "Children's personal and health data can be misused.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Existing safeguards in India",
+       "pts": [
+        {
+         "k": "DPDP Act, 2023",
+         "t": "Verifiable parental consent for children's data; bars tracking and targeted ads to children.",
+         "ex": ""
+        },
+        {
+         "k": "IT Rules, 2021",
+         "t": "Due diligence duties for intermediaries.",
+         "ex": ""
+        },
+        {
+         "k": "POCSO Act",
+         "t": "Penalises sexual content involving children.",
+         "ex": ""
+        },
+        {
+         "k": "NCPCR",
+         "t": "Statutory body to protect child rights, including online.",
+         "ex": "GS2 2025 question on NCPCR in the digital era."
+        }
+       ]
+      },
+      {
+       "h": "Regulatory framework (way forward)",
+       "pts": [
+        {
+         "k": "Safety by design",
+         "t": "Ban unsafe features: posing as human, manipulation, unprompted emotional questions.",
+         "ex": "New York's 12 categories."
+        },
+        {
+         "k": "Clear disclosure",
+         "t": "Remind children regularly that they are talking to a machine.",
+         "ex": ""
+        },
+        {
+         "k": "Privacy-friendly age assurance",
+         "t": "Multiple methods, including anonymous ones.",
+         "ex": ""
+        },
+        {
+         "k": "Distress protocols",
+         "t": "Detect signs of self-harm and direct to helplines and adults.",
+         "ex": ""
+        },
+        {
+         "k": "Accountability",
+         "t": "Penalties per violation and independent audits.",
+         "ex": ""
+        },
+        {
+         "k": "Digital literacy",
+         "t": "Teach children and parents how AI works and its limits.",
+         "ex": ""
+        },
+        {
+         "k": "Role of NCPCR",
+         "t": "Monitor AI platforms and handle complaints.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "Children deserve technology that serves them, not exploits them; India can learn from New York to build AI that is safe by design."
+      }
+     ]
+    }
+   ]
   }
  ],
  "ethics": [
@@ -2109,6 +2929,56 @@
     "Data stewardship",
     "Responsible innovation"
    ]
+  },
+  {
+   "id": "2026-11-04-e8",
+   "area": "care",
+   "themes": [
+    "g4applied",
+    "g4aptitude"
+   ],
+   "card": "2026-11-04-10",
+   "src": "IE p. 15 (Amaal Sheikh)",
+   "title": "A machine must not pretend",
+   "news": "New York's new law bars AI chatbots from claiming to be human, flattering minors, or encouraging self-harm or isolation.",
+   "syllabus": "Ethical issues in technology; Compassion towards the vulnerable; Honesty",
+   "link": "Children trust easily, so technology built to win their attention carries a duty of care. Honesty about being a machine and refusing to manipulate are basic ethical limits; profit from engagement cannot justify harm to the vulnerable.",
+   "pyq": [
+    "GS4-2024/Q1a",
+    "GS4-2025/Q1a"
+   ],
+   "question": "\"Technology that is designed only to please can harm those it claims to serve.\" Discuss with reference to children and AI.",
+   "keywords": [
+    "Duty of care",
+    "Honesty",
+    "Vulnerability",
+    "Responsible innovation"
+   ]
+  },
+  {
+   "id": "2026-11-04-e9",
+   "area": "public",
+   "themes": [
+    "g4workculture",
+    "g4psv"
+   ],
+   "card": "2026-11-04-09",
+   "src": "IE p. 15 (Shinjini Ghosh)",
+   "title": "When rules outlive their purpose",
+   "news": "Nagaland says the Protected Area Permit, framed for a different security era, and its convoluted process now keep tourists away from a peaceful state.",
+   "syllabus": "Citizen-friendly administration; Efficiency in public service; Form versus substance",
+   "link": "A rule is a means, not an end: when conditions change, administrators must review whether it still serves its purpose. Delays and last-minute relaxations show form winning over substance, and a citizen-centric administration fixes the process, not just the policy.",
+   "pyq": [
+    "GS4-2024/Q4b",
+    "GS4-2022/Q2a"
+   ],
+   "question": "\"Rules that outlive their purpose become obstacles to good governance.\" Discuss with examples.",
+   "keywords": [
+    "Form over substance",
+    "Citizen-centricity",
+    "Responsiveness",
+    "Red tape"
+   ]
   }
  ],
  "essay": [
@@ -2156,6 +3026,21 @@
    "topics": [
     "2017A4",
     "2026A4"
+   ]
+  },
+  {
+   "id": "e-2026-11-04-04",
+   "type": "Example",
+   "title": "Clean power, fragile grid",
+   "text": "Sri Lanka's grid collapsed in October 2026 when rooftop solar inverters disconnected together: clean technology without the systems to support it can turn a small fault into a national blackout.",
+   "use": "For 'Alternative technologies for a climate change resilient India' (2018).",
+   "themes": [
+    "nature",
+    "tech"
+   ],
+   "src": "IE p. 15 (Pratyush Deep)",
+   "topics": [
+    "2018A1"
    ]
   }
  ]
