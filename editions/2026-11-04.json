@@ -818,6 +818,563 @@
      ]
     }
    ]
+  },
+  {
+   "id": "2026-11-04-04",
+   "title": "Attracting foreign capital needs more than tax cuts",
+   "section": "Editorial",
+   "page": "Page 10",
+   "where": "Editorial page, page 10 (editorial)",
+   "gs": [
+    "GS3",
+    "GS4"
+   ],
+   "syllabus": "GS3 › Indian economy and issues relating to mobilisation of resources; Investment models; Effects of liberalisation on the economy · GS4 › Fairness and impartiality in public policy",
+   "themes": [
+    "invest",
+    "growth",
+    "techai"
+   ],
+   "summary": "With foreign portfolio investors pulling money out of Indian equities, the editorial argues that capital gains tax cuts alone will not bring them back; India needs a competitive regulatory and tax framework, without discriminating against domestic investors or curbing outflows.",
+   "evolution": [],
+   "ideas": [
+    [
+     "Global pull factors, not just tax: capital is chasing companies across the AI value chain, where India has no significant presence, while rising US bond yields raise the risk-free return.",
+     "GS3 · Investment / Globalisation",
+     "FPI outflows reflect global shifts, AI-led allocation and higher US yields, more than India's tax rates."
+    ],
+    [
+     "Valuations and earnings matter: corporate earnings expectations and high valuations also drove investors out, so tax concessions cannot be the main driver of market performance.",
+     "GS3 · Capital markets",
+     "Tax cuts cannot fix markets where earnings growth and valuations fail to justify the price."
+    ],
+    [
+     "Compete as a jurisdiction: to attract capital and become a global financial centre, India needs a regulatory and tax framework competitive with friendlier jurisdictions.",
+     "GS3 · Mobilisation of resources",
+     "Predictable regulation and a competitive tax regime, not one-off sops, make a country a global financial centre."
+    ],
+    [
+     "Some steps taken: in June the government exempted interest income and capital gains and eased norms to draw foreign investors into government bonds.",
+     "GS3 · Government borrowing / Investment",
+     "Opening government bonds to foreign investors widens the pool of finance for the state."
+    ],
+    [
+     "Fairness and openness: favouring dollar investors over rupee investors would be discriminatory, and curbing Indians' outward remittances to hold capital in would be a step backwards.",
+     "GS3 · Liberalisation / GS4 · Fairness",
+     "Policy for foreign capital must stay fair to domestic investors and keep India open in both directions."
+    ]
+   ],
+   "keywords": [
+    [
+     "Risk-free rate",
+     "Return on the safest asset, usually US government bonds",
+     "GS3 · Capital flows",
+     "When the US risk-free rate rises, emerging markets must offer more to keep foreign capital."
+    ],
+    [
+     "Hot money",
+     "Short-term portfolio capital that moves quickly across borders",
+     "GS3 · External sector",
+     "Dependence on hot money makes markets and the rupee vulnerable to sudden outflows."
+    ],
+    [
+     "Jurisdictional competitiveness",
+     "How a country's rules and taxes compare with rival destinations for capital",
+     "GS3 · Investment",
+     "Capital flows to jurisdictions that are predictable, not only cheap."
+    ],
+    [
+     "Liberalised Remittance Scheme (LRS)",
+     "RBI route that lets residents send money abroad up to a limit",
+     "GS3 · Capital account",
+     "Curbs on LRS outflows would reverse India's gradual capital account liberalisation."
+    ],
+    [
+     "Tax neutrality",
+     "Treating similar income alike regardless of who earns it",
+     "GS3 · Taxation / GS4 · Fairness",
+     "Tax neutrality between dollar and rupee investors keeps policy fair and credible."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "AI-led capital allocation",
+     "Investors funding Nvidia, Google, Samsung, SK Hynix and TSMC across the AI chain",
+     "",
+     "GS3 · Investment · Science and technology",
+     "Global capital chasing the AI value chain shows why technology capability now decides investment flows."
+    ],
+    [
+     "Opening government bonds to foreign investors",
+     "June tax exemptions and eased norms",
+     "",
+     "GS3 · Mobilisation of resources",
+     "Easing foreign access to government bonds is an example of tapping global savings for public finance."
+    ],
+    [
+     "'If you pitch for dollar investors, what about rupee investors?'",
+     "Finance Minister's caution on tax concessions",
+     "GS4",
+     "GS3 · Taxation · GS4 · Fairness in policy",
+     "The FM's question captures the ethical test of fairness in policy: favouring one group must not wrong another."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS3-2016/Q5",
+     "Need for FDI, the gap between MoUs and actual FDI, and remedies."
+    ],
+    [
+     "GS3-2025/Q2",
+     "Challenges as the world moves from free trade and multilateralism to protectionism."
+    ],
+    [
+     "GS3-2020/Q11",
+     "Investment as capital formation; designing concession agreements."
+    ],
+    [
+     "GS3-2021/Q12",
+     "Infrastructure investment for rapid and inclusive growth."
+    ]
+   ],
+   "trend": {
+    "t": "Investment questions began with FDI in specific sectors (retail and defence, 2013–2014) and the FDI implementation gap (2016), then moved to investment as capital formation and PPP design (2020–2022). In 2025 the frame widened to a deglobalising world of protectionism.",
+    "watch": "UPSC asks about foreign capital through FDI and the global economic climate, not market details. Link FPI flows to global shifts, competitiveness and reforms.",
+    "focus": [
+     "FDI vs FPI: role and risks",
+     "What makes India attractive: regulation, tax, stability",
+     "Global headwinds: deglobalisation, rising US yields, AI race",
+     "Capital account openness"
+    ]
+   },
+   "potential": [
+    "\"Tax incentives alone cannot make India a preferred destination for global capital.\" Discuss with reference to recent foreign portfolio outflows. (15 marks)",
+    "Distinguish between FDI and FPI. Why is excessive reliance on portfolio flows a risk for an emerging economy? (10 marks)",
+    "What reforms are needed for India to become a global financial centre? (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "\"Tax incentives alone cannot make India a preferred destination for global capital.\" Discuss with reference to recent foreign portfolio outflows.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction",
+      "Why capital has left (beyond tax)",
+      "Role and limits of tax incentives",
+      "Way forward",
+      "Conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "Foreign portfolio investors have pulled large sums out of Indian equities since 2024-25, prompting calls to cut capital gains tax; the Finance Minister has cautioned that tax is not the main driver of markets."
+      },
+      {
+       "h": "Why capital has left (beyond tax)",
+       "pts": [
+        {
+         "k": "AI-led allocation",
+         "t": "Global capital is flowing to companies across the AI chain, where India has little presence.",
+         "ex": "Nvidia, Google, Samsung, SK Hynix, TSMC."
+        },
+        {
+         "k": "Rising US yields",
+         "t": "Higher returns on US bonds raise the risk-free rate and pull money back to developed markets.",
+         "ex": ""
+        },
+        {
+         "k": "Earnings and valuations",
+         "t": "Indian stocks priced high relative to earnings growth lose appeal.",
+         "ex": ""
+        },
+        {
+         "k": "Global uncertainty",
+         "t": "Wars, tariffs and protectionism make investors cautious about emerging markets.",
+         "ex": "West Asia war; US tariffs."
+        },
+        {
+         "k": "Currency risk",
+         "t": "A weakening rupee cuts dollar returns for foreign investors.",
+         "ex": ""
+        },
+        {
+         "k": "Policy predictability",
+         "t": "Past episodes such as retrospective taxation (2012, repealed in 2021) still shape perceptions of risk.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Role and limits of tax incentives",
+       "pts": [
+        {
+         "k": "Useful at the margin",
+         "t": "Exemptions can tilt decisions in targeted areas.",
+         "ex": "June exemptions to draw foreign investors into government bonds."
+        },
+        {
+         "k": "Cannot beat fundamentals",
+         "t": "No tax cut compensates for weak earnings or a missing AI ecosystem.",
+         "ex": ""
+        },
+        {
+         "k": "Fiscal cost",
+         "t": "Concessions reduce revenue without assured inflows.",
+         "ex": ""
+        },
+        {
+         "k": "Unfair to domestic investors",
+         "t": "Favouring dollar over rupee investors breaks tax neutrality.",
+         "ex": "FM: 'what about rupee investors?'"
+        },
+        {
+         "k": "Race to the bottom",
+         "t": "Competing on tax alone invites a contest that small, low-tax jurisdictions win.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "Competitive regulation",
+         "t": "Simple, stable rules comparable to leading financial centres.",
+         "ex": "GIFT City IFSC as a test bed."
+        },
+        {
+         "k": "Build the tech ecosystem",
+         "t": "Semiconductors, data centres and AI firms give investors India-linked AI exposure.",
+         "ex": "India Semiconductor Mission."
+        },
+        {
+         "k": "Deepen bond markets",
+         "t": "Inclusion and easier access widen stable, long-term foreign participation.",
+         "ex": ""
+        },
+        {
+         "k": "Prefer stable capital",
+         "t": "Encourage FDI and long-term funds over hot money.",
+         "ex": ""
+        },
+        {
+         "k": "Policy stability",
+         "t": "Avoid retrospective or sudden changes in tax and rules.",
+         "ex": ""
+        },
+        {
+         "k": "Stay open both ways",
+         "t": "Do not curb outward remittances under the LRS; openness signals confidence.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "Capital follows growth, predictability and technology; India wins it back by being a competitive, fair and open jurisdiction, not by tax cuts alone."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-11-04-05",
+   "title": "An alliance for multilateralism by other means",
+   "section": "Editorial page (opinion)",
+   "page": "Page 10",
+   "where": "Editorial page, page 10 (Amrita Narlikar)",
+   "gs": [
+    "GS2",
+    "GS4"
+   ],
+   "syllabus": "GS2 › Important international institutions, agencies and fora: their structure and mandate; Bilateral, regional and global groupings and agreements involving India · GS4 › Ethical issues in international relations; Environmental ethics",
+   "themes": [
+    "intl",
+    "groupings",
+    "glob",
+    "powers"
+   ],
+   "summary": "The Partners for Multilateralism (P4M), launched at the 81st UNGA week and co-sponsored by India among others, commits to strengthening multilateral cooperation; the author argues it needs a concrete plan, clear principles and public engagement to succeed.",
+   "evolution": [
+    [
+     "28 Oct 2026",
+     "BRICS Parliamentary Forum seeks UNSC reform."
+    ],
+    [
+     "4 Nov 2026",
+     "P4M, co-sponsored by India, pledges to strengthen multilateral cooperation."
+    ]
+   ],
+   "ideas": [
+    [
+     "Multilateralism under severe pressure: the US, a principal founder and long-time guarantor of the system, is rejecting it in word and deed, and other major players flout rules with impunity.",
+     "GS2 · International institutions",
+     "With the system's own guarantor walking away, middle and smaller powers must carry multilateralism."
+    ],
+    [
+     "A bridge across divides: co-sponsored by Australia, Brazil, Barbados, Canada, the EU, India and Kenya and signed by 18 more, P4M joins large and small countries of the Global South and North.",
+     "GS2 · Groupings involving India",
+     "P4M's mixed membership makes it a rare bridge between the Global North and South."
+    ],
+    [
+     "Reform language reflects a power shift: its pledge of cooperation that is 'open, fair, equitable, inclusive' echoes the South's long demand, now heard in a North weakened by Western turmoil and Transatlantic strain.",
+     "GS2 · Global order / Global South",
+     "The North's new receptiveness to reform reflects the Global South's growing clout and the West's own turmoil."
+    ],
+    [
+     "Plan and principles, or failure: P4M needs an action plan with costs and how they are shared, and clear principles that set it apart from efforts such as China's four Global Initiatives.",
+     "GS2 · Effect of policies of other countries",
+     "Coalitions without costed plans and clear principles join the list of well-intended but failed initiatives."
+    ],
+    [
+     "Engage people and the planet: reform drives fail when they ignore affected populations; P4M's diversity could offer ideas on deep ecology and interspecies coexistence for a new framework.",
+     "GS2 · Global governance / GS4 · Environmental ethics",
+     "Multilateralism will regain legitimacy only when it engages the public and protects the planet, not just states."
+    ]
+   ],
+   "keywords": [
+    [
+     "Minilateralism / coalition of the willing",
+     "Small, flexible groups of like-minded states acting where universal bodies stall",
+     "GS2 · Groupings",
+     "When universal institutions stall, coalitions of the willing like P4M keep cooperation alive."
+    ],
+    [
+     "Rules-based order",
+     "An international system governed by agreed norms rather than power",
+     "GS2 · International order",
+     "P4M's commitment to institutions and rule of law defends the rules-based order."
+    ],
+    [
+     "Reformed multilateralism",
+     "India's call to update global institutions to reflect today's realities",
+     "GS2 · India's foreign policy",
+     "India's co-sponsorship of P4M fits its long call for reformed multilateralism."
+    ],
+    [
+     "Bridging power",
+     "A country able to connect rival blocs",
+     "GS2 · India's global role",
+     "India's presence in P4M, BRICS and the Quad shows its role as a bridging power."
+    ],
+    [
+     "Deep ecology",
+     "A view that nature has value in itself, not only for human use",
+     "GS4 · Environmental ethics",
+     "Deep ecology asks global institutions to protect the planet for its own sake."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "Partners for Multilateralism (P4M)",
+     "Launched at the 81st UNGA week, co-sponsored by India",
+     "",
+     "GS2 · International institutions · groupings · Essay",
+     "P4M shows middle powers trying to save multilateralism as the great powers turn away from it."
+    ],
+    [
+     "US rejection of the system it built",
+     "A founder and guarantor turning away",
+     "",
+     "GS2 · Global order · Essay",
+     "The US turning against institutions it founded shows that even the architects of an order can abandon it."
+    ],
+    [
+     "China's four Global Initiatives",
+     "Rival visions of global governance",
+     "",
+     "GS2 · India–China · global order",
+     "China's Global Initiatives show the contest over who will write the next rules of global governance."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS2-2025/Q20",
+     "Unresolved UN reform amid East–West imbalance and the US vs Russo-Chinese entanglement."
+    ],
+    [
+     "GS2-2026/Q10",
+     "BRICS as a counterweight in global governance amplifying the Global South."
+    ],
+    [
+     "GS3-2025/Q2",
+     "Challenges as the world moves from free trade and multilateralism to protectionism and bilateralism."
+    ],
+    [
+     "GS2-2018/Q19",
+     "Key areas of WTO reform amid trade war, keeping India's interests in mind."
+    ],
+    [
+     "GS2-2019/Q19",
+     "Has India's image as leader of the marginalised nations faded in the new global order?"
+    ],
+    [
+     "GS2-2025/Q10",
+     "Waning globalisation and the rise of sovereign nationalism."
+    ]
+   ],
+   "trend": {
+    "t": "Questions moved from the mandates of specific bodies (WTO, Bretton Woods, UNESCO, 2013–2019) to the crisis of the system itself: WTO reform amid trade war (2018), unresolved UN reform and great-power rivalry (2025), the retreat from multilateralism (2025) and BRICS as a voice of the Global South (2026).",
+    "watch": "Since 2025 UPSC asks about the crisis of multilateralism almost every year. Prepare why the order is weakening, who is reshaping it and India's role as a bridge for the Global South.",
+    "focus": [
+     "Crisis of multilateralism and great-power retreat",
+     "Reform of the UN, WTO and other institutions",
+     "New coalitions and groupings (BRICS, P4M)",
+     "India and the Global South"
+    ]
+   },
+   "potential": [
+    "\"Multilateralism is under severe pressure, yet new coalitions are emerging to rescue it.\" Discuss with reference to India's role. (15 marks)",
+    "What are the limits of coalitions of the willing in reforming global governance? (10 marks)",
+    "\"In international relations, the strong do what they can and the weak suffer what they must.\" How can a rules-based order change this? (10 marks, GS4)"
+   ],
+   "practice": [
+    {
+     "q": "\"Multilateralism is under severe pressure, yet new coalitions are emerging to rescue it.\" Discuss with reference to India's role.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction",
+      "Why multilateralism is under pressure",
+      "New coalitions and their promise",
+      "Limits and challenges",
+      "India's role (way forward)",
+      "Conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "In September 2026, India, the EU, Brazil, Canada, Kenya, Australia and Barbados co-sponsored the Partners for Multilateralism (P4M) at the 81st UNGA, just as the US, the system's founder, turns away from it."
+      },
+      {
+       "h": "Why multilateralism is under pressure",
+       "pts": [
+        {
+         "k": "Retreat of the guarantor",
+         "t": "The US rejects institutions it built, in word and deed.",
+         "ex": "Withdrawals from the WHO and the Paris Agreement."
+        },
+        {
+         "k": "Impunity of major powers",
+         "t": "Rules are flouted with frequency and impunity.",
+         "ex": "Wars in Europe and West Asia."
+        },
+        {
+         "k": "Paralysed institutions",
+         "t": "Key bodies cannot act or reform.",
+         "ex": "WTO Appellate Body non-functional since 2019; UNSC reform stalled."
+        },
+        {
+         "k": "Unrepresentative structures",
+         "t": "Institutions reflect 1945, not today's balance of power.",
+         "ex": ""
+        },
+        {
+         "k": "Rival visions",
+         "t": "Competing models of global governance divide states.",
+         "ex": "China's four Global Initiatives."
+        },
+        {
+         "k": "Public discontent",
+         "t": "Institutions seem distant from the people they affect.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "New coalitions and their promise",
+       "pts": [
+        {
+         "k": "Bridging North and South",
+         "t": "Mixed membership builds trust across old divides.",
+         "ex": "P4M joins large and small states of both."
+        },
+        {
+         "k": "Reform-oriented language",
+         "t": "Commitment to cooperation that is open, fair, equitable and inclusive.",
+         "ex": ""
+        },
+        {
+         "k": "Flexibility",
+         "t": "Small coalitions act faster than universal bodies.",
+         "ex": ""
+        },
+        {
+         "k": "Global South voice",
+         "t": "Groupings amplify developing countries' demands.",
+         "ex": "BRICS; India's Voice of the Global South summits."
+        }
+       ]
+      },
+      {
+       "h": "Limits and challenges",
+       "pts": [
+        {
+         "k": "No action plan",
+         "t": "Declarations without costed plans fade.",
+         "ex": ""
+        },
+        {
+         "k": "Unclear principles",
+         "t": "Without clarity, they overlap with rival initiatives.",
+         "ex": ""
+        },
+        {
+         "k": "Weak public engagement",
+         "t": "Ignoring affected people breeds discontent.",
+         "ex": ""
+        },
+        {
+         "k": "Fragmentation",
+         "t": "Many small coalitions can weaken universal institutions.",
+         "ex": ""
+        }
+       ]
+      },
+      {
+       "h": "India's role (way forward)",
+       "pts": [
+        {
+         "k": "Bridging power",
+         "t": "India sits in the Quad, BRICS, SCO and P4M and can link rival blocs.",
+         "ex": ""
+        },
+        {
+         "k": "Voice of the Global South",
+         "t": "Push the South's agenda on finance, climate and technology.",
+         "ex": "African Union's G20 membership under India's 2023 presidency."
+        },
+        {
+         "k": "Reformed multilateralism",
+         "t": "Press for UNSC and WTO reform with like-minded partners.",
+         "ex": "G4 for UNSC reform."
+        },
+        {
+         "k": "Practical cooperation",
+         "t": "Back P4M with concrete projects, costs and burden-sharing.",
+         "ex": ""
+        },
+        {
+         "k": "People and planet",
+         "t": "Bring civilisational ideas such as Vasudhaiva Kutumbakam and LiFE into global norms.",
+         "ex": "G20 theme 'One Earth, One Family, One Future'."
+        },
+        {
+         "k": "Lead by example",
+         "t": "Keep commitments, as on climate targets met early.",
+         "ex": "Paris capacity target met in 2025."
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "As great powers retreat, coalitions like P4M can keep multilateralism alive; India, as a bridging power, can help turn declarations into a fairer, workable order."
+      }
+     ]
+    }
+   ]
   }
  ],
  "ethics": [
@@ -898,6 +1455,56 @@
     "Impartiality",
     "Institutional integrity"
    ]
+  },
+  {
+   "id": "2026-11-04-e4",
+   "area": "public",
+   "themes": [
+    "g4aptitude",
+    "g4psv"
+   ],
+   "card": "2026-11-04-04",
+   "src": "IE p. 10 (editorial)",
+   "title": "Dollar investors, rupee investors",
+   "news": "Amid calls to cut taxes for foreign investors, the Finance Minister asked: 'If you pitch for dollar investors, what about rupee investors?'",
+   "syllabus": "Impartiality and non-partisanship; Fairness in public policy",
+   "link": "Public policy must treat like cases alike: concessions that favour foreign over domestic investors for the same income break fairness and impartiality, even when the aim of attracting capital is legitimate. Good ends do not justify unequal means.",
+   "pyq": [
+    "GS4-2021/Q5b"
+   ],
+   "question": "\"Fairness in public policy means treating like cases alike.\" Examine with an example from economic policy.",
+   "keywords": [
+    "Impartiality",
+    "Fairness",
+    "Equal treatment",
+    "Means and ends"
+   ]
+  },
+  {
+   "id": "2026-11-04-e5",
+   "area": "justice",
+   "themes": [
+    "g4intl",
+    "g4env"
+   ],
+   "card": "2026-11-04-05",
+   "src": "IE p. 10 (Amrita Narlikar)",
+   "title": "When the strong flout the rules",
+   "news": "P4M, co-sponsored by India, pledges a fair, equitable and inclusive multilateralism as major powers reject or flout the rules.",
+   "syllabus": "Ethical issues in international relations; Environmental ethics",
+   "link": "A rules-based order protects the weak from the strong; when powerful states flout rules with impunity, justice between nations gives way to power. Fair institutions, public engagement and care for the planet are the ethical basis for a renewed multilateralism.",
+   "pyq": [
+    "GS4-2015/Q11",
+    "GS4-2020/Q3b",
+    "GS4-2017/Q13"
+   ],
+   "question": "\"Multilateralism is the ethics of international relations put into practice.\" Discuss.",
+   "keywords": [
+    "Rules-based order",
+    "Global justice",
+    "Deep ecology",
+    "Vasudhaiva Kutumbakam"
+   ]
   }
  ],
  "essay": [
@@ -929,6 +1536,22 @@
    "src": "IE p. 1 (Pratyush Deep)",
    "topics": [
     "2020B4"
+   ]
+  },
+  {
+   "id": "e-2026-11-04-03",
+   "type": "Argument",
+   "title": "When the architect walks away",
+   "text": "The US, founder and guarantor of the multilateral order, now rejects it, while a coalition of large and small states from the Global North and South steps in to defend it: the P4M.",
+   "use": "For 'Has the Non-Alignment Movement (NAM) lost its relevance in a multipolar world' (2017) and 'When two elephants fight, it is the grass that gets trampled' (2026).",
+   "themes": [
+    "power",
+    "justice"
+   ],
+   "src": "IE p. 10 (Amrita Narlikar)",
+   "topics": [
+    "2017A4",
+    "2026A4"
    ]
   }
  ]
