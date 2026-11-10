@@ -321,6 +321,92 @@
    "potential": [
     "\"Special laws cannot suspend fundamental rights.\" Discuss with reference to recent Supreme Court rulings on detention and bail. (10 marks)"
    ]
+  },
+  {
+   "id": "2026-11-10-04",
+   "title": "AI power rush: Data centres eye used turbines, jet engines",
+   "section": "Economy",
+   "page": "Page 15",
+   "where": "Economy, page 15 (Reuters)",
+   "gs": [
+    "GS3"
+   ],
+   "syllabus": "GS3 › Infrastructure: energy · GS3 › Science and technology (AI) · GS3 › Environment",
+   "themes": [
+    "energy",
+    "techai",
+    "climate"
+   ],
+   "summary": "AI data centres are buying second-hand gas turbines and converted jet engines because new turbines are back-ordered into the next decade; global orders top 100 GW against annual production capacity of 60–70 GW (Wood Mackenzie).",
+   "evolution": [
+    [
+     "9 Nov 2026",
+     "Environmental groups warn of data-centre electricity and water use (AI and environment card)."
+    ]
+   ],
+   "ideas": [
+    [
+     "Power, not chips, is now AI's bottleneck: turbine orders exceed 100 GW vs 60–70 GW capacity (Wood Mackenzie).",
+     "GS3 · Energy infrastructure",
+     "Whoever has power will run AI."
+    ],
+    [
+     "Rush to used gas turbines and jet engines locks in fossil-fuel power.",
+     "GS3 · Climate / energy transition",
+     "AI growth can slow the clean-energy shift."
+    ]
+   ],
+   "keywords": [
+    [
+     "Energy-compute nexus",
+     "The link between AI computing growth and electricity demand",
+     "GS3 · Energy and technology",
+     "The energy-compute nexus makes power planning part of AI strategy."
+    ],
+    [
+     "Supply bottleneck",
+     "Demand outrunning production capacity",
+     "GS3 · Infrastructure",
+     "Turbine backlogs into the 2030s are a supply bottleneck for the AI boom."
+    ]
+   ],
+   "data": [
+    [
+     "100+ GW vs 60–70 GW",
+     "Global gas turbine orders against annual manufacturing capacity",
+     "Wood Mackenzie (cited by Reuters)",
+     "GS3 · Energy",
+     "Global turbine orders exceed 100 GW against yearly production of 60–70 GW, says Wood Mackenzie."
+    ]
+   ],
+   "examples": [
+    [
+     "Jet engines as power plants",
+     "AI data centres running on converted aero turbines",
+     "",
+     "GS3 · Energy and AI",
+     "Jet engines as power plants: AI data centres running on converted aero turbines."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS3-2026/Q11",
+     "Energy security challenges."
+    ],
+    [
+     "GS3-2026/Q16",
+     "Agentic AI: working, uses, risks."
+    ]
+   ],
+   "trend": {
+    "t": "Energy security was asked in 2026, and AI entered the paper in 2026 as well.",
+    "watch": "AI's power demand links both themes; useful as data in energy and technology answers.",
+    "focus": [
+     "AI's electricity demand",
+     "Gas vs renewables for data centres"
+    ]
+   },
+   "potential": []
   }
  ],
  "ethics": [
