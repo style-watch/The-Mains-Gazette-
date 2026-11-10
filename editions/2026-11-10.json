@@ -213,6 +213,114 @@
     ]
    },
    "potential": []
+  },
+  {
+   "id": "2026-11-10-03",
+   "title": "Court's relook at detention protects liberty",
+   "section": "Editorial",
+   "page": "Page 10",
+   "where": "Editorial, page 10",
+   "gs": [
+    "GS2",
+    "GS3",
+    "GS4"
+   ],
+   "syllabus": "GS2 › Fundamental rights (Articles 21, 22); judiciary · GS3 › Internal security laws (UAPA, NDPS) · GS4 › Justice; rule of law",
+   "themes": [
+    "rights",
+    "judiciary",
+    "g4intl"
+   ],
+   "summary": "In Sujit Das v Union of India, the SC held there is 'no such thing called temporary disruption of liberty': anyone held by the state must be produced before a magistrate within 24 hours, whether called detention or arrest.",
+   "evolution": [],
+   "ideas": [
+    [
+     "Detention or arrest, the 24-hour clock starts when police take custody.",
+     "GS2 · Article 22",
+     "Labels cannot dodge constitutional safeguards."
+    ],
+    [
+     "Fundamental rights apply even under special laws like UAPA and NDPS.",
+     "GS2 · Article 21 / GS3 · Security laws",
+     "Security laws do not suspend the Constitution."
+    ],
+    [
+     "The magistrate is the first check on police excesses.",
+     "GS2 · Judiciary / criminal justice",
+     "Liberty is protected at the thana and the magistrate's desk."
+    ]
+   ],
+   "keywords": [
+    [
+     "Due process",
+     "Fair legal procedure before liberty is taken away",
+     "GS2 · Article 21",
+     "Sujit Das restores due process from the first moment of custody."
+    ],
+    [
+     "Bail is the rule, jail the exception",
+     "Principle that pre-trial liberty should be the norm",
+     "GS2 · Criminal justice",
+     "K A Najeeb applied 'bail is the rule' even under UAPA when trials drag on."
+    ],
+    [
+     "Prima facie standard (Watali)",
+     "Courts must accept the state's version at the bail stage under UAPA",
+     "GS3 · Anti-terror law",
+     "Later rulings have narrowed Watali's prima facie rule to protect liberty."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "Sujit Das v Union of India (2026)",
+     "no 'temporary disruption' of liberty",
+     "",
+     "GS2 · Article 22",
+     "Sujit Das v Union of India (2026): no 'temporary disruption' of liberty."
+    ],
+    [
+     "Prabir Purkayastha (2024)",
+     "UAPA arrest voided for not following procedure",
+     "",
+     "GS2 · Due process",
+     "Prabir Purkayastha (2024): UAPA arrest voided for not following procedure."
+    ],
+    [
+     "Two Baramulla youths",
+     "acquitted after six years in jail under UAPA",
+     "GS4",
+     "GS2 · Undertrials · GS4 · Justice delayed",
+     "Two Baramulla youths: acquitted after six years in jail under UAPA."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS2-2023/Q11",
+     "Constitution as living instrument; expanding life and personal liberty."
+    ],
+    [
+     "GS3-2019/Q19",
+     "UAPA and NIA Act amendments."
+    ],
+    [
+     "GS4-2026/Q2b",
+     "Discuss how national security can be balanced with concerns of human rights."
+    ]
+   ],
+   "trend": {
+    "t": "Personal liberty under Article 21 was asked as the 'living Constitution' (2023); UAPA amendments in 2019; GS4 asked about balancing national security with human rights in 2026.",
+    "watch": "Liberty versus security was asked in GS4 in 2026, so landmark bail and detention rulings are strong examples for GS2 and GS4.",
+    "focus": [
+     "Article 21 and 22 safeguards",
+     "Bail under UAPA and NDPS",
+     "Undertrials and delayed trials",
+     "Liberty vs security"
+    ]
+   },
+   "potential": [
+    "\"Special laws cannot suspend fundamental rights.\" Discuss with reference to recent Supreme Court rulings on detention and bail. (10 marks)"
+   ]
   }
  ],
  "ethics": [
