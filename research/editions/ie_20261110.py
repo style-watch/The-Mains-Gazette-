@@ -162,6 +162,12 @@ items.append({
  "potential": ["\"Special laws cannot suspend fundamental rights.\" Discuss with reference to recent Supreme Court rulings on detention and bail. (10 marks)"]
 })
 
+
+essay.append({"id": f"e-{D}-01", "type": "Anecdote", "title": "When 'I' became 'we'",
+ "text": "A friend announced 'we are finally going to write a novel'; the co-author was not his wife but AI. The writer, who earns a living writing ads, refuses AI: once 'a storyteller in everyone' meant imagination, now it may mean the power of AI.",
+ "use": "For 'The process of self-discovery has now been technologically outsourced' (2021) and 'Inspiration for creativity springs from the effort to look for the magical in the mundane' (2023).",
+ "themes": ["tech", "learning"], "src": "IE p. 11 (Anees Salim)", "topics": ["2021A1", "2023A4"]})
+
 edition = {"date": D, "paper": "The Indian Express", "items": items, "ethics": ethics, "essay": essay}
 with open(f"editions/{D}.json", "w") as f:
     json.dump(edition, f, ensure_ascii=False, indent=1)
