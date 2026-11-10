@@ -36,29 +36,24 @@
    ],
    "ideas": [
     [
-     "From security problem to near-elimination: LWE-affected districts shrank from nearly 200 in the early 2000s to 38 by end-2025 and seven in February 2026; incidents and deaths fell by over four-fifths since 2010.",
-     "GS3 · Internal security / LWE",
-     "LWE has shrunk from nearly 200 districts to seven, showing that sustained state action can roll back insurgency."
+     "LWE districts: ~200 (early 2000s) → 7 (Feb 2026).",
+     "GS3 · LWE",
+     "Sustained action can roll back insurgency."
     ],
     [
-     "Two-pronged strategy: security forces given the 'freedom to take every necessary decision', paired with development: roads, mobile towers, Eklavya schools and ITIs in affected areas.",
-     "GS3 · Linkages between development and extremism",
-     "The fall of LWE rests on two legs: firm security operations and the arrival of roads, towers and schools in the forest."
+     "Two-pronged strategy: firm operations plus roads, towers, schools.",
+     "GS3 · Development and extremism",
+     "Security clears; development holds."
     ],
     [
-     "Restoring the state's reach: in affected areas 'life would come to a standstill after sunset' and Naxalites 'snatched away the people's right to vote'; their removal restores citizenship, not just order.",
-     "GS3 · LWE / GS2 · Democracy at the grassroots",
-     "Ending LWE restores the right to vote and move freely: security here is a precondition for democracy."
+     "Restoring the state: free movement and the right to vote return.",
+     "GS2 · Grassroots democracy",
+     "Security is a precondition for democracy."
     ],
     [
-     "The ideological front: the PM said 'intellectual (dimagi) Naxalites' have infiltrated parties and organisations and are 'provoking people against the Constitution'; the battle shifts from forests to ideas.",
-     "GS3 · Role of non-state actors / ideology",
-     "With armed cadres defeated, the contest over LWE moves to ideas, where the state must win trust, not just territory."
-    ],
-    [
-     "Sacrifice and cost: 76 CRPF personnel were killed in Dantewada in 2010; for the first time in 47 years, no CRPF jawan lost his life on duty over the past year.",
-     "GS3 · Security forces / GS4 · Public service values",
-     "Not one CRPF jawan killed on duty in a year, a first in 47 years, shows how far the LWE theatre has changed."
+     "Next battle is of ideas: win trust, protect dissent.",
+     "GS3 · Ideology / GS4",
+     "Territory is won by force; trust by governance."
     ]
    ],
    "keywords": [
@@ -105,25 +100,25 @@
    ],
    "examples": [
     [
-     "Dantewada, 2010",
-     "76 CRPF personnel killed in a single encounter with Naxalites",
+     "Dantewada 2010",
+     "76 CRPF jawans killed, the peak of LWE",
      "",
-     "GS3 · LWE as a security threat",
-     "The killing of 76 CRPF personnel in Dantewada in 2010 marked the peak of the LWE threat."
+     "GS3 · Internal security",
+     "Dantewada 2010: 76 CRPF jawans killed, the peak of LWE."
     ],
     [
-     "Eklavya schools and ITIs in LWE areas",
-     "Education and skilling as part of the counter-LWE strategy",
+     "Eklavya schools in Bastar",
+     "classrooms as counter-insurgency",
      "GS4",
-     "GS3 · Development and extremism · GS4 · Inclusive governance",
-     "Eklavya schools and ITIs in Bastar show inclusive governance: the state wins tribal youth with classrooms, not only guns."
+     "GS3 · Development · GS4 · Inclusive governance",
+     "Eklavya schools in Bastar: classrooms as counter-insurgency."
     ],
     [
-     "Mobile towers and roads in the forest",
-     "Connectivity extended to remote villages after operations",
+     "Mobile towers in forests",
+     "connectivity as security",
      "",
-     "GS3 · Infrastructure for security",
-     "Roads and mobile towers in former Naxal areas turn military gains into lasting state presence."
+     "GS3 · Infrastructure",
+     "Mobile towers in forests: connectivity as security."
     ]
    ],
    "pyqs": [
@@ -317,29 +312,19 @@
    "evolution": [],
    "ideas": [
     [
-     "The law's design: the 2006 Act gives enforcement to state Commissioners of Food Safety, who appoint Food Safety Officers (FSOs); FSSAI licenses large and inter-state businesses.",
-     "GS2 · Statutory bodies / federal structure",
-     "The 2006 Act makes the state Commissioner the enforcer; FSSAI's role is to set standards and license big players."
+     "Act gives enforcement to states; FSSAI sets standards and licenses big firms.",
+     "GS2 · Statutory bodies",
+     "National standards, local enforcement."
     ],
     [
-     "Parallel enforcement: a May 2023 FSSAI order said centrally licensed premises would be inspected by 'central food safety officers', even when a complaint reaches the state; states say the Act has no provision for central FSOs.",
-     "GS2 · Centre–state friction in regulation",
-     "Maharashtra's plea shows how a regulator's executive order can quietly redraw the federal division of work."
+     "FSSAI's central inspectors and wider licensing seen as a parallel mechanism.",
+     "GS2 · Federal friction",
+     "Regulators can redraw federalism by executive order."
     ],
     [
-     "Expanding central jurisdiction: five-star hotels, all e-commerce platforms, nutraceuticals and 'proprietary foods' have been brought under central licensing.",
-     "GS2 · Regulatory overreach",
-     "Bringing e-commerce and proprietary foods under central licence shrinks the field left to state food officers."
-    ],
-    [
-     "Process matters: the petition says a March 13, 2026 order raising the central licence threshold from Rs 20 crore to Rs 50 crore came without public consultation, violating the General Clauses Act.",
+     "Rules changed without public consultation weaken legitimacy.",
      "GS2 · Rule of law / GS4 · Transparency",
-     "Changing licence thresholds without public consultation weakens the legitimacy of even a well-meant rule."
-    ],
-    [
-     "The Centre's case: enforcement has been inconsistent across and within states; a central mechanism ensures that 'at least bigger businesses always remain under the scanner'.",
-     "GS2 · Cooperative federalism",
-     "Uneven state enforcement is the Centre's argument; the answer is cooperative standards, not parallel inspectors."
+     "Process matters as much as purpose."
     ]
    ],
    "keywords": [
@@ -371,18 +356,25 @@
    "data": [],
    "examples": [
     [
-     "Licensing tiers under FSSAI",
-     "Registration up to Rs 1.5 crore turnover; state licence up to Rs 50 crore; central licence above Rs 50 crore or for inter-state, high-risk and export units",
+     "GST Council",
+     "Centre and states decide together",
      "",
-     "GS2 · Regulatory design",
-     "FSSAI's tiered licensing is an example of matching regulatory burden to business size."
+     "GS2 · Cooperative federalism",
+     "GST Council: Centre and states decide together."
     ],
     [
-     "'Proprietary foods' and Indian snacks",
-     "Inclusion first caught small samosa and mixture makers; FSSAI later added an exception",
+     "Maggi ban, 2015",
+     "FSSAI and states acting on one food safety scare",
+     "",
+     "GS2 · Regulation · GS3 · Food safety",
+     "Maggi ban, 2015: FSSAI and states acting on one food safety scare."
+    ],
+    [
+     "Pre-legislative consultation",
+     "public comment before rules",
      "GS4",
-     "GS2 · Regulation and small business · GS4 · Proportionality",
-     "The samosa-maker exception shows why rules must be proportionate to the size of the business they hit."
+     "GS2 · Governance · GS4 · Transparency",
+     "Pre-legislative consultation: public comment before rules."
     ]
    ],
    "pyqs": [
@@ -521,24 +513,14 @@
    "evolution": [],
    "ideas": [
     [
-     "Policy goal vs quality control: ethanol blending cuts oil imports, but fuel above the E20 limit hurts vehicle performance and efficiency, and consumers bear the cost.",
-     "GS3 · Biofuels / energy security",
-     "Ethanol blending serves energy security only if blending norms are enforced; over-blending shifts the cost to motorists."
+     "Over-blending (up to 31.2% vs E20) hurts vehicles; consumers pay.",
+     "GS3 · Biofuels",
+     "Targets need quality control."
     ],
     [
-     "Evidence-led governance: samples from 67 locations were tested at NABL-accredited labs after oil companies allegedly did not share ethanol-content data.",
-     "GS2 · Transparency / consumer protection",
-     "Karnataka turned to independent NABL labs when data was not shared: testing as a tool of accountability."
-    ],
-    [
-     "Federal friction: fuel standards are central, but consumer complaints land on states; the CM said the Centre 'cannot shirk responsibility'.",
-     "GS2 · Centre–state relations",
-     "Fuel standards are set in Delhi but complaints reach state capitals, a gap that needs joint enforcement."
-    ],
-    [
-     "Consumer remedies proposed: action against violators, mandatory display of ethanol content at fuel stations, and compensation for vehicle damage linked to over-blending.",
-     "GS2 · Consumer rights / GS4 · Transparency",
-     "Displaying ethanol content at the pump is a simple transparency fix that restores consumer choice."
+     "Standards are central, complaints are local: needs joint enforcement.",
+     "GS2 · Centre–state",
+     "Shared domains need shared accountability."
     ]
    ],
    "keywords": [
@@ -553,22 +535,16 @@
      "Certification of testing laboratories for reliable results",
      "GS2 · Regulation",
      "NABL-accredited testing gives a state's findings evidentiary weight against large oil companies."
-    ],
-    [
-     "Mandatory disclosure",
-     "Requiring sellers to display key product information",
-     "GS2 · Consumer protection",
-     "Mandatory disclosure of ethanol content would let motorists, not just regulators, hold sellers to account."
     ]
    ],
    "data": [],
    "examples": [
     [
-     "Karnataka's 67-location fuel test",
-     "Up to 31.2% ethanol in an Indian Oil sample and 30.5% in an HPCL sample",
+     "Ethanol % displayed at the pump",
+     "transparency for the consumer",
      "GS4",
-     "GS2 · Evidence-based regulation · GS4 · Accountability",
-     "Karnataka's lab tests on petrol are an example of a state using evidence to hold big firms to account for consumers."
+     "GS2 · Consumer rights · GS4 · Transparency",
+     "Ethanol % displayed at the pump: transparency for the consumer."
     ]
    ],
    "pyqs": [
@@ -629,29 +605,24 @@
    ],
    "ideas": [
     [
-     "From pledges to delivery: COP30 at Belém secured outcomes on finance, adaptation and transition away from fossil fuels but fell short of the 1.5°C goal; overshooting 1.5°C now looks nearly inevitable.",
-     "GS3 · Climate change / GS2 · UNFCCC",
-     "The 'Implementation COP' label is an admission that the gap is now delivery, not ambition."
+     "From pledges to delivery: 1.5°C overshoot now near-certain.",
+     "GS3 · Climate / GS2 · UNFCCC",
+     "The gap is implementation, not ambition."
     ],
     [
-     "Unequal transition: emerging and developing economies outside China, with nearly two-thirds of the world's population, received just 18% of global clean-energy investment in 2025.",
-     "GS3 · Climate finance / equity",
-     "Two-thirds of humanity got 18% of clean-energy investment in 2025: the transition is unequal by design of finance."
-    ],
-    [
-     "Cost of capital: renewable projects in developing countries cost several times more to finance; high borrowing costs and public debt limit their transition.",
+     "Developing economies (ex-China) got 18% of clean-energy investment in 2025.",
      "GS3 · Climate finance",
-     "High cost of capital, not technology, is now the main barrier to clean energy in the Global South."
+     "The transition is unequal by finance."
     ],
     [
-     "Just transition: countries like India cannot be expected to abandon fossil fuels at the pace of advanced economies without support; COP31 should remove barriers, not just urge higher targets.",
-     "GS2 · India's climate diplomacy",
-     "Just transition means barriers to deployment are removed before targets are raised."
+     "High cost of capital, not technology, blocks Southern clean energy.",
+     "GS3 · Climate finance",
+     "Lower the cost of money, not just of panels."
     ],
     [
-     "Adaptation and loss and damage: early warning, resilient infrastructure and a Loss and Damage Fund with predictable, sufficient finance; the Nepal floods show least-emitting countries bear the steepest costs.",
-     "GS3 · Adaptation / disaster management",
-     "The Nepal floods show the injustice at climate's core: those who emitted least pay the most."
+     "Adaptation and a funded Loss and Damage Fund are now urgent.",
+     "GS3 · Adaptation / GS4 · Climate justice",
+     "Those who emitted least pay most."
     ]
    ],
    "keywords": [
@@ -699,17 +670,24 @@
    "examples": [
     [
      "Nepal floods",
-     "Countries that contributed least to emissions face the steepest disaster costs",
+     "least emitters, highest costs",
      "GS4",
      "GS3 · Loss and damage · GS4 · Climate justice",
-     "The Nepal floods are an example of climate injustice: the least responsible pay the highest price."
+     "Nepal floods: least emitters, highest costs."
     ],
     [
-     "Africa's energy paradox",
-     "Vast renewable potential, yet a fraction of investment and 600 million without power",
+     "Africa",
+     "huge solar potential, 600 million without power",
      "",
-     "GS3 · Energy access / GS2 · India–Africa",
-     "Africa's energy paradox shows that resources without finance do not light homes."
+     "GS3 · Energy access",
+     "Africa: huge solar potential, 600 million without power."
+    ],
+    [
+     "International Solar Alliance",
+     "South–South climate cooperation",
+     "",
+     "GS2 · India's climate diplomacy",
+     "International Solar Alliance: South–South climate cooperation."
     ]
    ],
    "pyqs": [
@@ -887,29 +865,19 @@
    "evolution": [],
    "ideas": [
     [
-     "Atmanirbharta is more than assembly: manufacturing equipment while importing process know-how, materials, catalysts, designs and IP creates jobs but not technological independence.",
-     "GS3 · Indigenisation of technology",
-     "True atmanirbharta means owning the know-why and IP, not just assembling imported designs."
+     "Atmanirbharta means owning know-why and IP, not just assembly.",
+     "GS3 · Indigenisation",
+     "Make in India must become Make by India."
     ],
     [
-     "The 'valley of death': Indian academia works up to about TRL 3–4 while industry enters around TRL 7; the gap between lab validation and industrial demonstration is underfunded.",
-     "GS3 · R&D and innovation",
-     "Ideas die between TRL 4 and TRL 7, where neither academia nor industry is willing to pay."
+     "Ideas die between lab (TRL 4) and industry (TRL 7).",
+     "GS3 · R&D",
+     "Fund the valley of death."
     ],
     [
-     "Five recurring reasons: technology takes time and patient capital; industry wants proven technology; scale-up is complex; collaboration is weak; and nobody owns the journey.",
-     "GS3 · Innovation ecosystem",
-     "Technology development stalls because no one owns the journey from lab to plant."
-    ],
-    [
-     "Shared risk: government should carry more early-stage risk, industry's share should rise as uncertainty falls; deep-tech incubators and demonstration centres can bridge the gap.",
-     "GS3 · Industrial policy",
-     "Sharing development risk, with government taking the earliest bets, is how a new Indian technology gets proven."
-    ],
-    [
-     "Net Zero as an opening: green hydrogen, carbon capture, storage, sustainable fuels and circular manufacturing will reshape steel, cement, chemicals, fertilisers, transport and power; India can build new plants on new processes.",
-     "GS3 · Energy transition / industry",
-     "As India builds new steel, cement and fertiliser plants, it can build them on Indian technology rather than imported designs."
+     "Net Zero lets India build new plants on its own technology.",
+     "GS3 · Energy transition",
+     "New assets, new Indian processes."
     ]
    ],
    "keywords": [
@@ -941,18 +909,18 @@
    "data": [],
    "examples": [
     [
-     "India's atomic energy programme",
-     "Facing technology denial, India built its own capabilities through scientific leadership, freedom for scientists and acceptance of failure",
+     "Atomic energy programme",
+     "technology denial made India self-reliant",
      "GS4",
      "GS3 · Indigenisation · GS4 · Leadership",
-     "The atomic programme shows that scientific leadership and tolerance of failure build indigenous technology."
+     "Atomic energy programme: technology denial made India self-reliant."
     ],
     [
-     "Coal gasification for high-ash coal",
-     "Needs resources and commitment far beyond a successful R&D pilot plant",
+     "ISRO",
+     "patient public funding that built world-class tech",
      "",
-     "GS3 · Energy technology",
-     "Coal gasification suited to India's high-ash coal shows how scale-up, not invention, is the bottleneck."
+     "GS3 · S&T",
+     "ISRO: patient public funding that built world-class tech."
     ]
    ],
    "pyqs": [
@@ -1007,29 +975,24 @@
    "evolution": [],
    "ideas": [
     [
-     "Three vulnerabilities: IT and entry-level cognitive work built India's middle class and consuming class; India has the world's largest youth population; and rich-country tools like UBI or public stakes in AI firms are not available.",
-     "GS3 · Employment / technology",
-     "AI threatens the very ladder, entry-level IT work, that built India's post-1991 middle class."
+     "AI threatens entry-level IT work that built India's middle class.",
+     "GS3 · Employment",
+     "The ladder, not just jobs, is at risk."
     ],
     [
-     "The broken pipeline: routine tasks AI now does are how inexperienced workers become experienced; cutting junior hiring weakens tomorrow's professionals.",
-     "GS3 · Skilling / labour market",
-     "If AI does junior work, the pipeline that produces senior professionals dries up."
+     "Fewer junior hires break the pipeline to tomorrow's professionals.",
+     "GS3 · Skilling",
+     "Juniors learn by doing routine tasks."
     ],
     [
-     "Growth without jobs: offshored coding and support may move back in-house with AI; YouthPOWER analysis shows software exports growing while employment and real earnings weaken.",
+     "Exports may grow without jobs: growth and earnings diverging.",
      "GS3 · Jobless growth",
-     "Software exports rising while jobs and real earnings fall is AI-era jobless growth."
+     "Measure AI by work created."
     ],
     [
-     "Policy response: a national AI and Work Observatory; paid sectoral apprenticeships; human review of automated workplace decisions; portable social protection; a parliamentary committee hearing young people, workers, small firms and states.",
-     "GS2 · Policy design / participatory governance",
-     "Workers and young people must have a voice in setting the terms of AI adoption."
-    ],
-    [
-     "Demand for labour: 90% of young workers earn under Rs 20,000 a month; public investment in health, care, education, housing and urban services can create work where needs are unmet.",
-     "GS3 · Inclusive growth",
-     "Skilling improves access to work; only demand creates new work, through public investment in care and services."
+     "Fixes: AI and Work Observatory, paid apprenticeships, portable social protection.",
+     "GS2 · Policy design",
+     "Give workers a voice in AI adoption."
     ]
    ],
    "keywords": [
@@ -1058,22 +1021,21 @@
      "Workers should have a human in the loop when algorithms decide on hiring or firing."
     ]
    ],
-   "data": [
-    [
-     "90% (85% all ages)",
-     "Share of young Indian workers earning less than Rs 20,000 a month",
-     "Ruchi Gupta, The Indian Express",
-     "GS3 · Wages and employment",
-     "Ninety per cent of young Indian workers earn under Rs 20,000 a month, which limits demand and hiring."
-    ]
-   ],
+   "data": [],
    "examples": [
     [
      "Work as dignity",
-     "Work gives competence, independence, social standing and a stake in the future",
+     "competence, independence and a stake in the future",
      "GS4",
      "GS3 · Employment · GS4 · Dignity of labour",
-     "Work gives people competence, independence and standing, so an AI strategy must be judged by the work it creates."
+     "Work as dignity: competence, independence and a stake in the future."
+    ],
+    [
+     "Paid apprenticeships",
+     "earn while you learn with AI",
+     "",
+     "GS2 · Skilling",
+     "Paid apprenticeships: earn while you learn with AI."
     ]
    ],
    "pyqs": [
@@ -1251,29 +1213,19 @@
    ],
    "ideas": [
     [
-     "AI as a double-edged sword: AI-assisted techniques uncovered exploits first theorised in 2004, but the same tools help attackers.",
-     "GS3 · Cyber security / emerging tech",
-     "AI finds old flaws faster, for defenders and attackers alike, making cyber security a race."
-    ],
-    [
-     "Scale of exposure: around 70% of websites reportedly run some version of PHP, so PHP2Shell could affect innumerable sites; exploit details leaked before a patch.",
-     "GS3 · Critical information infrastructure",
-     "One flaw in a language used by 70% of websites shows how concentrated digital risk has become."
-    ],
-    [
-     "Fragile commons: much patching of open-source software is done by volunteers, while attackers can target hundreds of millions of systems.",
+     "AI finds old flaws fast, for defenders and attackers alike.",
      "GS3 · Cyber security",
-     "The internet rests on volunteer-maintained open-source code, a public good that needs public support."
+     "Patching speed is now security."
     ],
     [
-     "Limits of proof: formal verification can prove systems meet requirements, but proofs are only as good as their assumptions; a proof of correctness is not freedom from all flaws.",
-     "GS3 · Technology",
-     "Even mathematically verified code is only as safe as the assumptions behind it."
+     "Global code rests on volunteer-maintained open source.",
+     "GS3 · Critical infrastructure",
+     "A digital commons needs public support."
     ],
     [
-     "Conflict of interest and costs: AI firms that expose vulnerabilities could also sell protection; data centres raise environmental concerns.",
+     "Firms finding flaws may also sell the fix: a conflict of interest.",
      "GS4 · Applied ethics",
-     "When the firm that finds a flaw also sells the fix, cyber security becomes an ethics question."
+     "Responsible disclosure is a duty."
     ]
    ],
    "keywords": [
@@ -1299,18 +1251,18 @@
    "data": [],
    "examples": [
     [
-     "'Black October' 2026",
-     "eMudhra weak keys, PHP2Shell, the LiteLLM hack and a GitLab flaw within days",
+     "PHP2Shell (Oct 2026)",
+     "one flaw, millions of websites",
      "",
      "GS3 · Cyber threats",
-     "'Black October' 2026 shows how AI has speeded up the discovery of serious cyber flaws."
+     "PHP2Shell (Oct 2026): one flaw, millions of websites."
     ],
     [
-     "Volunteer patching of PHP",
-     "Much of the fix was done by volunteers like Czech programmer Ondřej Surý",
+     "Volunteer patchers",
+     "public spirit keeping the internet safe",
      "GS4",
      "GS3 · Open source · GS4 · Public spirit",
-     "Volunteers patching global code show public-spirited service sustaining a digital commons."
+     "Volunteer patchers: public spirit keeping the internet safe."
     ]
    ],
    "pyqs": [
@@ -1365,24 +1317,14 @@
    "evolution": [],
    "ideas": [
     [
-     "AI for conservation: real-time wildfire alerts to community patrols in Cambodia; AI analysis of 200,000 aerial images in hours in Kenya instead of nine people over nine months.",
-     "GS3 · Biodiversity / technology",
-     "AI turns months of wildlife counting into hours, making conservation faster and cheaper."
+     "AI counts wildlife and flags fires in hours, not months.",
+     "GS3 · Biodiversity",
+     "Measurable nature becomes investable nature."
     ],
     [
-     "Better data, better protection: AI surveys found human counts had missed about a third of elephants and roughly half of zebras and giraffes; accurate data can secure conservation finance.",
-     "GS3 · Conservation finance",
-     "Better wildlife data makes 'nature measurable and therefore investable'."
-    ],
-    [
-     "The footprint: the IEA estimates data centres will use about 945 TWh of electricity a year by 2030, equal to over 300 million tonnes of CO2; water use could rise from 560 billion litres (2023) to 1.2 trillion litres by 2030.",
+     "Data centres: ~945 TWh electricity by 2030 (IEA).",
      "GS3 · Climate / water",
-     "AI's promise for the planet comes with a planetary bill in electricity and water."
-    ],
-    [
-     "Disclosure: the UN Secretary-General wants AI companies to disclose their systems' environmental impact.",
-     "GS2 · Global governance / GS4 · Transparency",
-     "Mandatory disclosure of AI's energy and water use is the first step to sustainable AI."
+     "AI for the planet has a planetary bill."
     ]
    ],
    "keywords": [
@@ -1417,18 +1359,11 @@
    ],
    "examples": [
     [
-     "Save the Elephants, Kenya",
-     "Machine learning to count wildlife and study elephant communication",
+     "Kenya's AI wildlife census",
+     "200,000 images analysed in hours",
      "",
-     "GS3 · Technology for biodiversity",
-     "Kenya's AI-led wildlife census shows technology strengthening conservation at scale."
-    ],
-    [
-     "Gombe chimpanzee notes",
-     "AI used to digitise decades of Jane Goodall's field notes",
-     "",
-     "GS3 · Science and conservation",
-     "Digitising Gombe's field notes shows AI preserving and reusing scientific knowledge."
+     "GS3 · Technology for conservation",
+     "Kenya's AI wildlife census: 200,000 images analysed in hours."
     ]
    ],
    "pyqs": [
@@ -1480,29 +1415,19 @@
    "evolution": [],
    "ideas": [
     [
-     "Climate-wise tradition: thick mud, local stone and slate kitchens stay cool in summer and warm in winter; concrete rooms trap heat and become 'damp iceboxes'.",
-     "GS1 · Vernacular architecture / GS3 · Climate adaptation",
-     "Kangra's mud kitchen is passive climate control that needs no AC or heater."
+     "Mud, stone and slate homes suit climate; concrete traps heat and damp.",
+     "GS1 · Vernacular architecture",
+     "Tradition as climate adaptation."
     ],
     [
-     "Disaster-resilient heritage: kath-kuni (deodar timber and dry stone), dhajji-dewari (timber and mud) and Spiti's rammed earth evolved for earthquakes; stone foundations drain water while concrete blocks it.",
-     "GS3 · Disaster management / GS1 · Heritage",
-     "Kath-kuni and dhajji-dewari are earthquake engineering inherited from Himalayan ancestors."
+     "Kath-kuni and dhajji-dewari resist quakes; concrete loads slopes.",
+     "GS3 · Disaster management",
+     "What bends survives."
     ],
     [
-     "Unplanned concrete boom: CEC figures show hotels grew 90% and homestays 670% (2016–2025); GSI linked 2023 landslides in Kullu, Mandi and Shimla to blocked drainage, multi-storey weight and 90-degree hill cuts.",
-     "GS3 · Landslides / carrying capacity",
-     "The 2023 Himachal landslides show concrete without carrying-capacity studies turning rain into disaster."
-    ],
-    [
-     "Systems biased against tradition: building codes, PWD schedules, bylaws, PMAY rules and bank loans favour cement; forest laws trap bartandari timber rights; the 'pucca vs kutcha' mindset stigmatises mud.",
-     "GS2 · Policy design / GS1 · Social attitudes",
-     "Labelling mud homes 'kutcha' has pushed an ecological wisdom out of codes, loans and minds."
-    ],
-    [
-     "Fixes: recognise engineered mud, kath-kuni and dhajji-dewari as pucca, insurable and loan-eligible; ITIs to teach earth building and pay thawis (master masons) to train.",
-     "GS2 · Housing policy / GS3 · Resilient infrastructure",
-     "Making traditional homes loan-eligible under PMAY would align housing policy with disaster resilience."
+     "Codes, PMAY and banks favour cement; recognise traditional homes as pucca.",
+     "GS2 · Housing policy",
+     "Align schemes with resilience."
     ]
    ],
    "keywords": [
@@ -1542,18 +1467,25 @@
    ],
    "examples": [
     [
-     "Thawis of Himachal",
-     "Traditional master masons and woodcarvers who are disappearing",
-     "GS4",
-     "GS1 · Heritage · GS4 · Dignity of labour",
-     "Young helpers calling mudwork 'dirty' shows how lost dignity of labour erodes traditional skills."
+     "2023 Himachal landslides",
+     "blocked drainage and heavy buildings (GSI)",
+     "",
+     "GS3 · Landslides",
+     "2023 Himachal landslides: blocked drainage and heavy buildings (GSI)."
     ],
     [
-     "GSI on 2023 Himachal landslides",
-     "Linked to blocked drainage, heavy buildings and 90-degree hill cuts",
+     "Kath-kuni houses",
+     "Himalayan earthquake engineering",
      "",
-     "GS3 · Landslides / Himalayan disasters",
-     "The GSI's 2023 findings show landslides in Himachal are partly man-made."
+     "GS1 · Heritage · GS3 · DRR",
+     "Kath-kuni houses: Himalayan earthquake engineering."
+    ],
+    [
+     "'Mudwork is dirty'",
+     "lost dignity of labour, lost skills",
+     "GS4",
+     "GS1 · Society · GS4 · Dignity of labour",
+     "'Mudwork is dirty': lost dignity of labour, lost skills."
     ]
    ],
    "pyqs": [
@@ -1756,29 +1688,24 @@
    ],
    "ideas": [
     [
-     "Additive and subtractive reform: unlike Reagan or Thatcher, India had to build basic state capacity (toilets, bank accounts, IDs, roads, ports) while reforming institutions (GST, IBC), facing 19th- and 21st-century problems at once.",
-     "GS2 · Governance / GS3 · Reforms",
-     "India's reform has been additive and subtractive: building the state's reach while removing barriers."
+     "Extreme poverty: 27.1% (2011) → 2.6% (2023), World Bank.",
+     "GS3 · Poverty",
+     "Growth plus transfers worked."
     ],
     [
-     "Poverty decline, as per the World Bank: extreme poverty fell from 27.1% (2011) to 2.6% (2023), and close to 50 crore people crossed the lower-middle-income line, credited to consumption growth, rising employment (especially women) and social transfers.",
-     "GS3 · Poverty / inclusive growth",
-     "Extreme poverty fell from 27.1% to 2.6% between 2011 and 2023, according to the World Bank."
+     "India built state capacity and reformed at once: toilets to GST.",
+     "GS2 · Governance",
+     "Additive and subtractive reform."
     ],
     [
-     "Delivery architecture: DBT was revived and scaled on identity, bank accounts and payment rails across hundreds of schemes, cutting leakages; digital public infrastructure enabled social protection.",
-     "GS2 · E-governance / welfare delivery",
-     "DBT on Aadhaar, Jan Dhan and payment rails turned leaky subsidies into direct transfers."
+     "DBT on Aadhaar, Jan Dhan and payment rails cut leakages.",
+     "GS2 · Welfare delivery",
+     "Digital public infrastructure for welfare."
     ],
     [
-     "The next frontier lies with states: reforms in power, land, urban planning and agricultural markets are in state hands, but states spend over Rs 3 lakh crore on subsidies, and with salaries, pensions and interest, over 90% of revenue receipts.",
-     "GS2 · Fiscal federalism / GS3 · Fiscal policy",
-     "Productive jobs need state reforms, but subsidies and committed spending leave states little fiscal space."
-    ],
-    [
-     "Counterpoint: HSBC says falling real rural wages 'cannot be ignored', with investment intentions rising only in value terms; job quality, not just poverty counts, is the real test.",
-     "GS3 · Employment and wages",
-     "Poverty is down, but falling real rural wages show that productive jobs remain the unfinished task."
+     "Next task: productive jobs; but real rural wages are falling (HSBC).",
+     "GS3 · Employment",
+     "Poverty is down; job quality is the test."
     ]
    ],
    "keywords": [
@@ -1825,18 +1752,18 @@
    ],
    "examples": [
     [
-     "Karnataka's subsidy bill",
-     "Over Rs 1 lakh crore budgeted for subsidies, close to a third of revenue receipts (authors' figure)",
-     "",
-     "GS3 · State finances",
-     "Karnataka's subsidy bill, about a third of its revenue, shows how welfare can crowd out investment."
-    ],
-    [
-     "DBT for cooking gas",
-     "Started reluctantly, abandoned before 2014, then revived and scaled",
+     "JAM trinity",
+     "Jan Dhan, Aadhaar, Mobile for direct transfers",
      "GS4",
      "GS2 · Welfare delivery · GS4 · Good governance",
-     "The revival of DBT shows good governance: plugging leakages so benefits reach the intended citizen."
+     "JAM trinity: Jan Dhan, Aadhaar, Mobile for direct transfers."
+    ],
+    [
+     "Ujjwala / LPG DBT",
+     "subsidy reaching the right kitchen",
+     "",
+     "GS2 · Schemes",
+     "Ujjwala / LPG DBT: subsidy reaching the right kitchen."
     ]
    ],
    "pyqs": [
@@ -1896,29 +1823,24 @@
    "evolution": [],
    "ideas": [
     [
-     "Inflection point 2004: poverty ($4.20/day) fell only 0.2% a year in 1983–2004 but about 7.2% a year after; drivers were growth, falling population growth and agriculture.",
+     "Poverty fell faster after 2004: growth up, population growth down.",
      "GS3 · Growth and poverty",
-     "India's poverty decline accelerated after 2004 as growth rose and population growth slowed."
+     "Fewer mouths share each rupee of growth."
     ],
     [
-     "Agriculture reduces poverty most: per capita agricultural GVA growth more than doubled; the World Development Report 2008 found farm growth at least 2.5 times more potent in reducing poverty.",
-     "GS3 · Agriculture and poverty",
-     "Growth from agriculture cuts poverty at least 2.5 times faster than growth from other sectors."
+     "Farm growth cuts poverty 2.5x more (World Development Report 2008).",
+     "GS3 · Agriculture",
+     "Invest in farms to cut poverty."
     ],
     [
-     "A paradox: farm employment rose to 46.5% in 2020-21 before settling at 43%; real farm wages are broadly flat and new jobs are in low-productivity work, limiting rural demand.",
-     "GS3 · Employment / rural economy",
-     "When labour cannot leave farming, wages stagnate and rural demand for manufactured goods stays weak."
+     "Free grain to ~81 crore needs rationalising at 2.6% extreme poverty.",
+     "GS3 · Food subsidies",
+     "Target the poorest, price the rest."
     ],
     [
-     "Rationalise PM-GKY: free grain to about 81 crore people (Rs 2.27 lakh crore in 2026-27) is hard to justify with extreme poverty at 2.6%; the authors suggest Vajpayee's formula, free for Antyodaya and at least half the procurement price for others.",
-     "GS3 · Food subsidies / PDS",
-     "Free grain for more than half the population needs rationalisation now that extreme poverty is 2.6%."
-    ],
-    [
-     "From calories to nutrition: child malnutrition remains high; wheat and rice lack iron and zinc due to impoverished soils (SOC about 0.3% vs a desirable 1.5–2.0%); give food coupons for millets, pulses, milk and eggs and biofortify staples.",
-     "GS3 · Nutrition security / soil health",
-     "Nutrition security begins in the soil: depleted organic carbon gives us staples poor in iron and zinc."
+     "From calories to nutrition: coupons, biofortified staples, healthier soils.",
+     "GS3 · Nutrition security",
+     "Nutrition starts in the soil."
     ]
    ],
    "keywords": [
@@ -1949,13 +1871,6 @@
    ],
    "data": [
     [
-     "~81 crore; Rs 2.27 lakh crore",
-     "PM-GKY beneficiaries and budget for 2026-27",
-     "Authors' figures (ICRIER)",
-     "GS3 · Food subsidies",
-     "PM-GKY gives free grain to about 81 crore people at Rs 2.27 lakh crore in 2026-27."
-    ],
-    [
      "0.3% vs 1.5–2.0%",
      "India's soil organic carbon against the desirable level",
      "World Food Laureate Rattan Lal (cited by the authors)",
@@ -1972,18 +1887,25 @@
    ],
    "examples": [
     [
-     "China's farm reforms, 1978–84",
-     "Raised rural incomes, which created demand for manufactured goods through town and village enterprises",
+     "Millets",
+     "nutrition-rich, climate-hardy staple",
      "",
-     "GS3 · Agriculture-led industrialisation",
-     "China's 1978–84 farm reforms show rural incomes fuelling a manufacturing revolution."
+     "GS3 · Nutrition · GS1 · Climate",
+     "Millets: nutrition-rich, climate-hardy staple."
     ],
     [
-     "'Teach a man to fish'",
-     "Better to build capability than hand out free food every day",
+     "Biofortified wheat and rice",
+     "iron and zinc through the PDS",
+     "",
+     "GS3 · Agri-tech",
+     "Biofortified wheat and rice: iron and zinc through the PDS."
+    ],
+    [
+     "'Teach to fish'",
+     "empower, don't create dependence",
      "GS4",
-     "GS3 · Welfare design · GS4 · Dignity and self-reliance",
-     "Welfare should empower people to earn, not create permanent dependence."
+     "GS2 · Welfare · GS4 · Dignity",
+     "'Teach to fish': empower, don't create dependence."
     ]
    ],
    "pyqs": [
@@ -2176,29 +2098,19 @@
    ],
    "ideas": [
     [
-     "The law: Maharashtra's 1995 amendment disqualifies anyone with more than two children from Gram Panchayat office; Haryana, Rajasthan, Odisha, Andhra Pradesh and Madhya Pradesh have similar rules.",
-     "GS2 · Local self-government",
-     "Several states bar people with more than two children from panchayat office, a population-control tool from the 1990s."
+     "Two-child bar on panchayat office upheld in Javed (2003).",
+     "GS2 · Local government",
+     "Contesting is a statutory right."
     ],
     [
-     "Javed (2003): a three-judge Bench upheld the rule; there is no Article 21 right to procreate without consequence for holding office, and contesting an election is a statutory, not fundamental, right.",
-     "GS2 · Fundamental rights / judiciary",
-     "Javed held that contesting elections is a statutory right that legislatures may condition."
+     "TFR now 1.9, below replacement: the law's basis has gone.",
+     "GS1 · Population",
+     "Laws must change when facts change."
     ],
     [
-     "Changed facts: TFR fell from 3.0 in 2003 to 1.9, below replacement (2.1); ignoring this would be 'dangerously complacent'; policies must be 'in tune with the present realities'.",
-     "GS1 · Population / GS2 · Evolving jurisprudence",
-     "With TFR at 1.9, a law built on fear of overpopulation has lost its basis."
-    ],
-    [
-     "Unequal application: the Bench asked why such conditions apply only to panchayat representatives and not to MPs or MLAs.",
-     "GS2 · Equality / grassroots democracy",
-     "Barring only panchayat candidates places a burden on grassroots democracy that Parliament does not bear."
-    ],
-    [
-     "Gendered harm: unlike Javed, which saw equal effects on men and women, the Bench said in a patriarchal society the norm 'tended to weaken the position of women rather than empowering them'.",
+     "In a patriarchy it shuts women out of panchayats.",
      "GS1 · Women / GS4 · Inclusive governance",
-     "In a patriarchal society, a two-child bar shuts women out of panchayats rather than empowering them."
+     "Neutral law, unequal effect."
     ]
    ],
    "keywords": [
@@ -2226,11 +2138,11 @@
    ],
    "examples": [
     [
-     "Maharashtra woman sarpanch's plea",
-     "Led to the referral of Javed to a larger Bench",
+     "Woman sarpanch's plea",
+     "led the SC to rethink the bar",
      "GS4",
-     "GS2 · Local democracy · GS4 · Inclusion of women",
-     "A woman sarpanch challenging the two-child bar shows why inclusive governance must open, not narrow, the gates of local office."
+     "GS2 · Local democracy · GS4 · Inclusion",
+     "Woman sarpanch's plea: led the SC to rethink the bar."
     ]
    ],
    "pyqs": [
@@ -2287,29 +2199,19 @@
    "evolution": [],
    "ideas": [
     [
-     "Diversity of Indian society: the Siddis, of East African descent, speak Gujarati with a Kathiawadi accent and share local food and dress; their faith blends Sufi Islam with local Hindu elements.",
-     "GS1 · Diversity / syncretism",
-     "The Siddis of Kathiawad show India's diversity: African roots, Gujarati culture and a Sufi-Hindu blend."
+     "Siddis: African-origin, Gujarati-speaking PVTG; Sufi-Hindu blend.",
+     "GS1 · Diversity",
+     "India's syncretic diversity."
     ],
     [
-     "History of arrival: views differ, Portuguese colonists as slaves, overland via invaders, or as bodyguards invited by the nawabs of Junagadh; there is no definitive record.",
-     "GS1 · History / migration",
-     "The Siddis' many origin stories show how slavery, trade and princely courts shaped Indian society."
+     "ST in Saurashtra, SEBC elsewhere: protection by geography.",
+     "GS2 · ST classification",
+     "Inconsistent status fragments rights."
     ],
     [
-     "Classification and inclusion: declared ST in 1956 and a 'primitive tribal group' in 1982; Siddis in Saurashtra are STs but those outside are SEBC, so the same community gets different protection by place.",
-     "GS2 · Scheduled Tribes / PVTGs",
-     "Siddis are STs in Saurashtra but SEBC elsewhere in Gujarat: classification by geography can fragment protection."
-    ],
-    [
-     "Sport as a ladder: young Siddis are selected for sports camps, but many drop out, unable to cope with the discipline; the Darjada sisters show what sustained support can achieve.",
-     "GS2 · Vulnerable sections / GS4 · Inclusive governance",
-     "Sports camps open a door for Siddi youth; mentoring and support must keep it open."
-    ],
-    [
-     "Education as change: Afsana Makwa became the first Siddi woman to clear the Gujarat PSC exam; more youths are completing higher education, though such families are still few.",
-     "GS1 · Social change / GS4 · Equity",
-     "The first Siddi woman to clear the state PSC shows education turning a marginalised community into a participating one."
+     "Sport and education as ladders, if support continues.",
+     "GS2 · Vulnerable sections / GS4 · Equity",
+     "Inclusion needs follow-through."
     ]
    ],
    "keywords": [
@@ -2335,18 +2237,18 @@
    "data": [],
    "examples": [
     [
-     "Khushbu Darjada, Youth Olympics 2026",
-     "First Siddi athlete, and only the second Indian, to win a Youth Olympics judo medal",
+     "Khushbu Darjada",
+     "first Siddi Youth Olympics medallist",
      "GS4",
      "GS2 · Vulnerable sections · GS4 · Inclusive governance",
-     "Khushbu Darjada's medal shows that inclusive governance, giving opportunity to the margins, enriches the nation."
+     "Khushbu Darjada: first Siddi Youth Olympics medallist."
     ],
     [
      "Afsana Makwa",
-     "First woman from the Siddi community to clear the Gujarat Public Service Commission exam",
+     "first Siddi woman to clear Gujarat PSC",
      "GS4",
-     "GS1 · Women and social change · GS4 · Equity",
-     "Afsana Makwa's success shows education as the surest ladder for marginalised women."
+     "GS1 · Women · GS4 · Equity",
+     "Afsana Makwa: first Siddi woman to clear Gujarat PSC."
     ]
    ],
    "pyqs": [
@@ -2407,29 +2309,19 @@
    "evolution": [],
    "ideas": [
     [
-     "The petition: a women's group argues that recognising trans women as females could affect sex-based reservation, sporting categories, women-only spaces and safeguards for women.",
+     "Petition seeks to stop recognising trans women as 'females'.",
      "GS2 · Rights in conflict",
-     "The petition sets women's sex-based protections against trans women's legal recognition."
+     "Women's protections vs trans recognition."
     ],
     [
-     "Feminism's own critique: feminist movements contested the idea that biology or reproductive capacity determines women's social position, which in turn helped the transgender movement.",
+     "Feminism itself argued biology is not destiny.",
      "GS1 · Women's movements",
-     "Feminism argued anatomy is not destiny, a principle that also underpins transgender recognition."
+     "Shared roots of both struggles."
     ],
     [
-     "History of solidarity: trans and cis feminists worked together on bodily autonomy in the 1970s; in November 2019 Indian women's groups opposed making recognition depend on certification by authorities and medical documents.",
-     "GS1 · Social movements / GS2 · Self-identification",
-     "In 2019, Indian women's groups stood with trans persons for self-determined gender identity."
-    ],
-    [
-     "Equality is indivisible: the constitutional guarantee of equality cannot be upheld if one marginalised group's protection is secured at the expense of another.",
-     "GS2 · Equality (Art 14) / GS4 · Social justice",
-     "Rights secured by excluding another marginalised group weaken equality for all."
-    ],
-    [
-     "Debate, but on equal terms: the issues of gender identity, sex-based classification and legal protections need reasoned debate premised on recognising transgender persons as equal rights-bearing subjects.",
-     "GS2 · Rights / GS4 · Inclusive governance",
-     "Hard questions on gender and law deserve debate, but only one that begins from equal dignity."
+     "Equality fails if one marginalised group gains at another's cost.",
+     "GS2 · Art 14 / GS4 · Social justice",
+     "Debate, but from equal dignity."
     ]
    ],
    "keywords": [
@@ -2455,11 +2347,18 @@
    "data": [],
    "examples": [
     [
-     "Women's groups' statement, November 2019",
-     "Opposed provisions making transgender recognition depend on state and medical certification",
+     "NALSA judgment, 2014",
+     "right to self-identify gender",
+     "",
+     "GS2 · Rights",
+     "NALSA judgment, 2014: right to self-identify gender."
+    ],
+    [
+     "Women's groups, 2019",
+     "stood with trans persons on self-identity",
      "GS4",
-     "GS1 · Social movements · GS4 · Solidarity and empathy",
-     "The 2019 statement by women's groups shows empathy across struggles, a value inclusive governance needs."
+     "GS1 · Movements · GS4 · Solidarity",
+     "Women's groups, 2019: stood with trans persons on self-identity."
     ]
    ],
    "pyqs": [
@@ -2514,24 +2413,14 @@
    "evolution": [],
    "ideas": [
     [
-     "A pattern, not a one-off: a 21-year-old from Bilaspur also went to Russia on a tourist visa after a Telegram job offer; neither family knew the nature of the work.",
-     "GS2 · Protection of Indians abroad",
-     "Repeated Telegram job offers that end in Russian detention point to an organised recruitment racket."
+     "Telegram job offers lure Indians to Russia; some pressured to fight.",
+     "GS2 · Indians abroad",
+     "Regulate online recruiters."
     ],
     [
-     "War's reach into Indian homes: men lured by jobs are allegedly pressured to sign consent to join the Russian military in the war against Ukraine.",
-     "GS2 · India–Russia relations / effect of conflicts on India",
-     "Indians forced into Russia's war show how distant conflicts reach poor families in India."
-    ],
-    [
-     "Slow and layered response: the complaint moves from the police commissionerate to the state home department to the MEA; the embassy said it was 'trying to ascertain the details'.",
-     "GS2 · Consular services / federal coordination",
-     "A family's plea passes through police, state and MEA, while a detained man waits."
-    ],
-    [
-     "Prevention gaps: tourist visas used for jobs, unregulated recruiters on social media and lack of pre-departure awareness among job seekers.",
-     "GS2 · Migration governance",
-     "Unregulated online recruitment needs the same scrutiny as licensed overseas recruiters."
+     "Families face a slow chain: police, state, MEA.",
+     "GS4 · Citizen-centric governance",
+     "One window for distress abroad."
     ]
    ],
    "keywords": [
@@ -2546,22 +2435,16 @@
      "A state's duty to assist its citizens in trouble abroad",
      "GS2 · Diplomacy",
      "Swift consular protection is the most visible duty a state owes its citizens abroad."
-    ],
-    [
-     "Citizen-centric governance",
-     "Administration designed around the citizen's needs, not files",
-     "GS4 · Good governance",
-     "A detained citizen's family should not have to knock on every door: that is the test of citizen-centric governance."
     ]
    ],
    "data": [],
    "examples": [
     [
-     "Telegram job offers to Russia",
-     "Two Chhattisgarh men travelled on tourist visas and ended up detained or pressured to join the military",
+     "Indians in Russia's army",
+     "distant wars reaching poor homes",
      "GS4",
-     "GS2 · Diaspora protection · GS4 · Compassion towards the weaker sections",
-     "The Chhattisgarh cases show why compassion towards the weaker sections must include citizens trapped abroad."
+     "GS2 · Diaspora · GS4 · Compassion",
+     "Indians in Russia's army: distant wars reaching poor homes."
     ]
    ],
    "pyqs": [
@@ -2615,19 +2498,14 @@
    ],
    "ideas": [
     [
-     "Widening war: the Houthi front reopened in July as part of the Middle East war reignited by US and Israeli attacks on Iran in February, shattering a 2022 UN-brokered truce.",
+     "Houthi attacks on Saudi oil sites widen the West Asia war.",
      "GS2 · West Asia",
-     "The collapse of the 2022 Yemen truce shows how one war in West Asia spreads to many fronts."
+     "One war, many fronts."
     ],
     [
-     "Energy infrastructure as target: Saudi airports, ports and oil facilities are being hit; Aramco's headquarters suffered extensive damage in October and a Riyadh airport attack killed 13.",
+     "Gulf strikes reach India through crude prices.",
      "GS3 · Energy security",
-     "Attacks on Saudi oil infrastructure put India's crude supply and prices at risk."
-    ],
-    [
-     "For India: crude oil prices are seen as the biggest factor for Indian markets; a recent rally coincided with crude falling to about $90 a barrel (p. 2).",
-     "GS3 · Energy security / economy",
-     "Every strike on Gulf oil assets travels to India through the price of crude."
+     "Diversify sources, build reserves."
     ]
    ],
    "keywords": [
@@ -2647,11 +2525,11 @@
    "data": [],
    "examples": [
     [
-     "Collapse of the 2022 Yemen truce",
-     "UN-brokered truce shattered by renewed Houthi–Saudi fighting since July",
+     "Strategic petroleum reserves",
+     "India's buffer against Gulf shocks",
      "",
-     "GS2 · West Asia / role of the UN",
-     "The breakdown of Yemen's 2022 truce shows the fragility of UN-brokered ceasefires."
+     "GS3 · Energy security",
+     "Strategic petroleum reserves: India's buffer against Gulf shocks."
     ]
    ],
    "pyqs": [
@@ -2715,24 +2593,19 @@
    ],
    "ideas": [
     [
-     "What safe harbour is: Section 79 of the IT Act, 2000 gives intermediaries conditional immunity for third-party content if they do not initiate, select the recipient of, or modify a transmission, and follow due diligence.",
-     "GS3 · Regulation of intermediaries",
-     "Section 79 shields platforms that act as neutral carriers and follow due diligence."
+     "Section 79: immunity for neutral intermediaries that follow due diligence.",
+     "GS3 · Intermediary regulation",
+     "Safe harbour is earned."
     ],
     [
-     "Not absolute: immunity is lost for involvement in unlawful activity or failure to act on lawful directions; Shreya Singhal (2015) tied takedowns under Section 79(3)(b) to a court order or government notification.",
-     "GS2 · Free speech / judiciary",
-     "Shreya Singhal ensured takedowns follow law, not private complaints, protecting free speech."
-    ],
-    [
-     "The core question: platforms use recommendation algorithms and their own community standards; can they still be called neutral intermediaries?",
+     "Algorithms that amplify content weaken the 'neutral' claim.",
      "GS3 · Platform accountability",
-     "A platform that curates feeds with algorithms is more than a passive pipe."
+     "Curators are not pipes."
     ],
     [
-     "Options and limits: confine safe harbour to passive services (ISPs, telecom, some messaging); any broad withdrawal would need IT Act amendments and Parliament's approval.",
+     "Withdrawal needs IT Act amendment by Parliament.",
      "GS2 · Legislative process",
-     "Withdrawing safe harbour is a matter for Parliament, not an executive order."
+     "Not by executive order."
     ]
    ],
    "keywords": [
@@ -2758,11 +2631,18 @@
    "data": [],
    "examples": [
     [
-     "Shreya Singhal v. Union of India (2015)",
-     "Read down takedown obligations to court orders or government notifications",
+     "Shreya Singhal (2015)",
+     "takedowns only by court or government order",
      "",
-     "GS2 · Free speech / judicial review",
-     "Shreya Singhal shows the judiciary balancing platform regulation with free speech."
+     "GS2 · Free speech",
+     "Shreya Singhal (2015): takedowns only by court or government order."
+    ],
+    [
+     "Digital arrest scams",
+     "online harm platforms must curb",
+     "",
+     "GS3 · Cyber crime",
+     "Digital arrest scams: online harm platforms must curb."
     ]
    ],
    "pyqs": [
@@ -2812,24 +2692,14 @@
    "evolution": [],
    "ideas": [
     [
-     "Investment-led boom: investments rose 26.36% year-on-year and accounted for almost half of Taiwan's 14.36% Q3 growth; investment and exports together explained almost 80%.",
-     "GS3 · Growth / investment",
-     "Taiwan's AI boom is investment-led: capital spending explains half its record growth."
+     "Taiwan grew 14.36% in Q3 2026 on AI investment and chip exports.",
+     "GS3 · Growth",
+     "Investment-led growth."
     ],
     [
-     "One firm, one nation: TSMC, the world's largest chip manufacturer, was estimated to account for nearly a tenth of Taiwan's GDP; its 2026 revenue is seen at $175 billion, 43% higher.",
-     "GS3 · Semiconductors / industrial policy",
-     "TSMC alone is about a tenth of Taiwan's GDP, showing the value of owning a strategic technology."
-    ],
-    [
-     "Spillover: OCBC notes the AI upcycle is spilling from exports into local equipment spending and capacity expansion; South Korea and the US also posted strong AI-driven growth.",
-     "GS3 · Global value chains",
-     "The AI boom rewards economies that sit inside the hardware value chain."
-    ],
-    [
-     "For India: India's GDP grew 8.6% and 7.8% in the first two quarters of 2026; Indian markets were 'largely bypassed by the AI investment boom' (front page, p. 2).",
-     "GS3 · India's growth strategy",
-     "India grows fast on domestic demand, but Taiwan shows the premium of being in the AI hardware chain."
+     "TSMC alone ~a tenth of Taiwan's GDP.",
+     "GS3 · Semiconductors",
+     "Owning strategic tech pays."
     ]
    ],
    "keywords": [
@@ -2858,10 +2728,10 @@
    "examples": [
     [
      "TSMC",
-     "World's largest chip maker, central to the global AI investment boom",
+     "why India Semiconductor Mission targets fabs",
      "",
-     "GS3 · Semiconductor strategy",
-     "TSMC shows why India's Semiconductor Mission aims at chip making, not just assembly."
+     "GS3 · Industrial policy",
+     "TSMC: why India Semiconductor Mission targets fabs."
     ]
    ],
    "pyqs": [
@@ -2910,19 +2780,14 @@
    "evolution": [],
    "ideas": [
     [
-     "Centre–state cooperation at the border: West Bengal shares over 2,200 km with Bangladesh; the state will facilitate more police stations in frontier areas with infrastructure, logistics and manpower.",
+     "Seema Mitra award and frontier police stations for the Bangladesh border.",
      "GS3 · Border management",
-     "Border management needs state police and central forces working as one, as West Bengal's frontier police stations aim to do."
+     "Centre–state teamwork at borders."
     ],
     [
-     "Morale and recognition: an award for exceptional contributions by BSF, SSB and state police acknowledges hard frontier duty.",
-     "GS3 · Security forces / GS4 · Motivation",
-     "Recognition like the Seema Mitra award sustains morale in forces guarding remote borders."
-    ],
-    [
-     "Sacrifice remembered: at the Sherathang war memorial on the India–China border, the Defence Minister said 'every generation of Indians will remember your sacrifice'.",
+     "War memorials keep alive duty and sacrifice.",
      "GS4 · Public service values",
-     "War memorials keep alive the values of duty and sacrifice that public service rests on."
+     "Honouring service sustains it."
     ]
    ],
    "keywords": [
@@ -2937,10 +2802,10 @@
    "examples": [
     [
      "BSF and SSB",
-     "BSF guards the India–Bangladesh border; SSB the borders with Nepal and Bhutan",
+     "one force for each frontier",
      "",
-     "GS3 · Security forces and their mandate",
-     "BSF and SSB show India's border-specific force design: one force, one frontier."
+     "GS3 · Security forces",
+     "BSF and SSB: one force for each frontier."
     ]
    ],
    "pyqs": [

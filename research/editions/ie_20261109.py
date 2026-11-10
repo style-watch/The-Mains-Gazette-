@@ -1540,6 +1540,155 @@ essay = [
   ["power", "justice"], "IE p. 5", ["2026A4"]),
 ]
 
+
+# ================================================================ REWORK (10 Nov 2026, owner's feedback)
+# Ideas: brief, scaled to the story's importance (major 4, middle 3, minor 2).
+# Examples: one-liners, simple and quotable across papers. Data only with a named source.
+I = lambda t, tag, use: [t, tag, use]
+E = lambda name, line, g4, tag: [name, line, g4, tag, f"{name}: {line}."]
+REWORK = {
+ "01": {"ideas": [
+   I("LWE districts: ~200 (early 2000s) → 7 (Feb 2026).", "GS3 · LWE", "Sustained action can roll back insurgency."),
+   I("Two-pronged strategy: firm operations plus roads, towers, schools.", "GS3 · Development and extremism", "Security clears; development holds."),
+   I("Restoring the state: free movement and the right to vote return.", "GS2 · Grassroots democracy", "Security is a precondition for democracy."),
+   I("Next battle is of ideas: win trust, protect dissent.", "GS3 · Ideology / GS4", "Territory is won by force; trust by governance.")],
+  "examples": [
+   E("Dantewada 2010", "76 CRPF jawans killed, the peak of LWE", "", "GS3 · Internal security"),
+   E("Eklavya schools in Bastar", "classrooms as counter-insurgency", "GS4", "GS3 · Development · GS4 · Inclusive governance"),
+   E("Mobile towers in forests", "connectivity as security", "", "GS3 · Infrastructure")]},
+ "02": {"ideas": [
+   I("Act gives enforcement to states; FSSAI sets standards and licenses big firms.", "GS2 · Statutory bodies", "National standards, local enforcement."),
+   I("FSSAI's central inspectors and wider licensing seen as a parallel mechanism.", "GS2 · Federal friction", "Regulators can redraw federalism by executive order."),
+   I("Rules changed without public consultation weaken legitimacy.", "GS2 · Rule of law / GS4 · Transparency", "Process matters as much as purpose.")],
+  "examples": [
+   E("GST Council", "Centre and states decide together", "", "GS2 · Cooperative federalism"),
+   E("Maggi ban, 2015", "FSSAI and states acting on one food safety scare", "", "GS2 · Regulation · GS3 · Food safety"),
+   E("Pre-legislative consultation", "public comment before rules", "GS4", "GS2 · Governance · GS4 · Transparency")]},
+ "03": {"ideas": [
+   I("Over-blending (up to 31.2% vs E20) hurts vehicles; consumers pay.", "GS3 · Biofuels", "Targets need quality control."),
+   I("Standards are central, complaints are local: needs joint enforcement.", "GS2 · Centre–state", "Shared domains need shared accountability.")],
+  "examples": [
+   E("Ethanol % displayed at the pump", "transparency for the consumer", "GS4", "GS2 · Consumer rights · GS4 · Transparency")]},
+ "04": {"ideas": [
+   I("From pledges to delivery: 1.5°C overshoot now near-certain.", "GS3 · Climate / GS2 · UNFCCC", "The gap is implementation, not ambition."),
+   I("Developing economies (ex-China) got 18% of clean-energy investment in 2025.", "GS3 · Climate finance", "The transition is unequal by finance."),
+   I("High cost of capital, not technology, blocks Southern clean energy.", "GS3 · Climate finance", "Lower the cost of money, not just of panels."),
+   I("Adaptation and a funded Loss and Damage Fund are now urgent.", "GS3 · Adaptation / GS4 · Climate justice", "Those who emitted least pay most.")],
+  "examples": [
+   E("Nepal floods", "least emitters, highest costs", "GS4", "GS3 · Loss and damage · GS4 · Climate justice"),
+   E("Africa", "huge solar potential, 600 million without power", "", "GS3 · Energy access"),
+   E("International Solar Alliance", "South–South climate cooperation", "", "GS2 · India's climate diplomacy")]},
+ "05": {"ideas": [
+   I("Atmanirbharta means owning know-why and IP, not just assembly.", "GS3 · Indigenisation", "Make in India must become Make by India."),
+   I("Ideas die between lab (TRL 4) and industry (TRL 7).", "GS3 · R&D", "Fund the valley of death."),
+   I("Net Zero lets India build new plants on its own technology.", "GS3 · Energy transition", "New assets, new Indian processes.")],
+  "examples": [
+   E("Atomic energy programme", "technology denial made India self-reliant", "GS4", "GS3 · Indigenisation · GS4 · Leadership"),
+   E("ISRO", "patient public funding that built world-class tech", "", "GS3 · S&T")]},
+ "06": {"ideas": [
+   I("AI threatens entry-level IT work that built India's middle class.", "GS3 · Employment", "The ladder, not just jobs, is at risk."),
+   I("Fewer junior hires break the pipeline to tomorrow's professionals.", "GS3 · Skilling", "Juniors learn by doing routine tasks."),
+   I("Exports may grow without jobs: growth and earnings diverging.", "GS3 · Jobless growth", "Measure AI by work created."),
+   I("Fixes: AI and Work Observatory, paid apprenticeships, portable social protection.", "GS2 · Policy design", "Give workers a voice in AI adoption.")],
+  "examples": [
+   E("Work as dignity", "competence, independence and a stake in the future", "GS4", "GS3 · Employment · GS4 · Dignity of labour"),
+   E("Paid apprenticeships", "earn while you learn with AI", "", "GS2 · Skilling")]},
+ "07": {"ideas": [
+   I("AI finds old flaws fast, for defenders and attackers alike.", "GS3 · Cyber security", "Patching speed is now security."),
+   I("Global code rests on volunteer-maintained open source.", "GS3 · Critical infrastructure", "A digital commons needs public support."),
+   I("Firms finding flaws may also sell the fix: a conflict of interest.", "GS4 · Applied ethics", "Responsible disclosure is a duty.")],
+  "examples": [
+   E("PHP2Shell (Oct 2026)", "one flaw, millions of websites", "", "GS3 · Cyber threats"),
+   E("Volunteer patchers", "public spirit keeping the internet safe", "GS4", "GS3 · Open source · GS4 · Public spirit")]},
+ "08": {"ideas": [
+   I("AI counts wildlife and flags fires in hours, not months.", "GS3 · Biodiversity", "Measurable nature becomes investable nature."),
+   I("Data centres: ~945 TWh electricity by 2030 (IEA).", "GS3 · Climate / water", "AI for the planet has a planetary bill.")],
+  "examples": [
+   E("Kenya's AI wildlife census", "200,000 images analysed in hours", "", "GS3 · Technology for conservation")]},
+ "09": {"ideas": [
+   I("Mud, stone and slate homes suit climate; concrete traps heat and damp.", "GS1 · Vernacular architecture", "Tradition as climate adaptation."),
+   I("Kath-kuni and dhajji-dewari resist quakes; concrete loads slopes.", "GS3 · Disaster management", "What bends survives."),
+   I("Codes, PMAY and banks favour cement; recognise traditional homes as pucca.", "GS2 · Housing policy", "Align schemes with resilience.")],
+  "examples": [
+   E("2023 Himachal landslides", "blocked drainage and heavy buildings (GSI)", "", "GS3 · Landslides"),
+   E("Kath-kuni houses", "Himalayan earthquake engineering", "", "GS1 · Heritage · GS3 · DRR"),
+   E("'Mudwork is dirty'", "lost dignity of labour, lost skills", "GS4", "GS1 · Society · GS4 · Dignity of labour")]},
+ "10": {"ideas": [
+   I("Extreme poverty: 27.1% (2011) → 2.6% (2023), World Bank.", "GS3 · Poverty", "Growth plus transfers worked."),
+   I("India built state capacity and reformed at once: toilets to GST.", "GS2 · Governance", "Additive and subtractive reform."),
+   I("DBT on Aadhaar, Jan Dhan and payment rails cut leakages.", "GS2 · Welfare delivery", "Digital public infrastructure for welfare."),
+   I("Next task: productive jobs; but real rural wages are falling (HSBC).", "GS3 · Employment", "Poverty is down; job quality is the test.")],
+  "examples": [
+   E("JAM trinity", "Jan Dhan, Aadhaar, Mobile for direct transfers", "GS4", "GS2 · Welfare delivery · GS4 · Good governance"),
+   E("Ujjwala / LPG DBT", "subsidy reaching the right kitchen", "", "GS2 · Schemes")]},
+ "11": {"ideas": [
+   I("Poverty fell faster after 2004: growth up, population growth down.", "GS3 · Growth and poverty", "Fewer mouths share each rupee of growth."),
+   I("Farm growth cuts poverty 2.5x more (World Development Report 2008).", "GS3 · Agriculture", "Invest in farms to cut poverty."),
+   I("Free grain to ~81 crore needs rationalising at 2.6% extreme poverty.", "GS3 · Food subsidies", "Target the poorest, price the rest."),
+   I("From calories to nutrition: coupons, biofortified staples, healthier soils.", "GS3 · Nutrition security", "Nutrition starts in the soil.")],
+  "examples": [
+   E("Millets", "nutrition-rich, climate-hardy staple", "", "GS3 · Nutrition · GS1 · Climate"),
+   E("Biofortified wheat and rice", "iron and zinc through the PDS", "", "GS3 · Agri-tech"),
+   E("'Teach to fish'", "empower, don't create dependence", "GS4", "GS2 · Welfare · GS4 · Dignity")]},
+ "12": {"ideas": [
+   I("Two-child bar on panchayat office upheld in Javed (2003).", "GS2 · Local government", "Contesting is a statutory right."),
+   I("TFR now 1.9, below replacement: the law's basis has gone.", "GS1 · Population", "Laws must change when facts change."),
+   I("In a patriarchy it shuts women out of panchayats.", "GS1 · Women / GS4 · Inclusive governance", "Neutral law, unequal effect.")],
+  "examples": [
+   E("Woman sarpanch's plea", "led the SC to rethink the bar", "GS4", "GS2 · Local democracy · GS4 · Inclusion")]},
+ "13": {"ideas": [
+   I("Siddis: African-origin, Gujarati-speaking PVTG; Sufi-Hindu blend.", "GS1 · Diversity", "India's syncretic diversity."),
+   I("ST in Saurashtra, SEBC elsewhere: protection by geography.", "GS2 · ST classification", "Inconsistent status fragments rights."),
+   I("Sport and education as ladders, if support continues.", "GS2 · Vulnerable sections / GS4 · Equity", "Inclusion needs follow-through.")],
+  "examples": [
+   E("Khushbu Darjada", "first Siddi Youth Olympics medallist", "GS4", "GS2 · Vulnerable sections · GS4 · Inclusive governance"),
+   E("Afsana Makwa", "first Siddi woman to clear Gujarat PSC", "GS4", "GS1 · Women · GS4 · Equity")]},
+ "14": {"ideas": [
+   I("Petition seeks to stop recognising trans women as 'females'.", "GS2 · Rights in conflict", "Women's protections vs trans recognition."),
+   I("Feminism itself argued biology is not destiny.", "GS1 · Women's movements", "Shared roots of both struggles."),
+   I("Equality fails if one marginalised group gains at another's cost.", "GS2 · Art 14 / GS4 · Social justice", "Debate, but from equal dignity.")],
+  "examples": [
+   E("NALSA judgment, 2014", "right to self-identify gender", "", "GS2 · Rights"),
+   E("Women's groups, 2019", "stood with trans persons on self-identity", "GS4", "GS1 · Movements · GS4 · Solidarity")]},
+ "15": {"ideas": [
+   I("Telegram job offers lure Indians to Russia; some pressured to fight.", "GS2 · Indians abroad", "Regulate online recruiters."),
+   I("Families face a slow chain: police, state, MEA.", "GS4 · Citizen-centric governance", "One window for distress abroad.")],
+  "examples": [
+   E("Indians in Russia's army", "distant wars reaching poor homes", "GS4", "GS2 · Diaspora · GS4 · Compassion")]},
+ "16": {"ideas": [
+   I("Houthi attacks on Saudi oil sites widen the West Asia war.", "GS2 · West Asia", "One war, many fronts."),
+   I("Gulf strikes reach India through crude prices.", "GS3 · Energy security", "Diversify sources, build reserves.")],
+  "examples": [
+   E("Strategic petroleum reserves", "India's buffer against Gulf shocks", "", "GS3 · Energy security")]},
+ "17": {"ideas": [
+   I("Section 79: immunity for neutral intermediaries that follow due diligence.", "GS3 · Intermediary regulation", "Safe harbour is earned."),
+   I("Algorithms that amplify content weaken the 'neutral' claim.", "GS3 · Platform accountability", "Curators are not pipes."),
+   I("Withdrawal needs IT Act amendment by Parliament.", "GS2 · Legislative process", "Not by executive order.")],
+  "examples": [
+   E("Shreya Singhal (2015)", "takedowns only by court or government order", "", "GS2 · Free speech"),
+   E("Digital arrest scams", "online harm platforms must curb", "", "GS3 · Cyber crime")]},
+ "18": {"ideas": [
+   I("Taiwan grew 14.36% in Q3 2026 on AI investment and chip exports.", "GS3 · Growth", "Investment-led growth."),
+   I("TSMC alone ~a tenth of Taiwan's GDP.", "GS3 · Semiconductors", "Owning strategic tech pays.")],
+  "examples": [
+   E("TSMC", "why India Semiconductor Mission targets fabs", "", "GS3 · Industrial policy")]},
+ "19": {"ideas": [
+   I("Seema Mitra award and frontier police stations for the Bangladesh border.", "GS3 · Border management", "Centre–state teamwork at borders."),
+   I("War memorials keep alive duty and sacrifice.", "GS4 · Public service values", "Honouring service sustains it.")],
+  "examples": [
+   E("BSF and SSB", "one force for each frontier", "", "GS3 · Security forces")]},
+}
+for it in items:
+    r = REWORK.get(it["id"][-2:])
+    if r: it.update(r)
+    if it["id"][-2:] in ("03", "08", "15", "16", "18", "19"):
+        it["keywords"] = it["keywords"][:2]
+# data only with a named source
+for it in items:
+    it["data"] = [d for d in it["data"] if not d[2].startswith(("Ruchi Gupta", "Authors'"))]
+    for d in it["data"]:
+        if d[0].startswith("~81 crore"): d[2] = "PM-GKY budget for 2026-27 (cited by Gulati, Juneja and Rao)"
+
 edition = {"date": D, "paper": "The Indian Express", "items": items, "ethics": ethics, "essay": essay}
 with open(f"editions/{D}.json", "w") as f:
     json.dump(edition, f, ensure_ascii=False, indent=1)
