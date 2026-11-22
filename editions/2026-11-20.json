@@ -1535,6 +1535,288 @@
      ]
     }
    ]
+  },
+  {
+   "id": "2026-11-20-06",
+   "title": "Why fixing India's air pollution crisis requires more than technical solutions",
+   "section": "Explained",
+   "page": "Page 12",
+   "where": "Explained page, 'Expert Explains' (Shahzad Gani, Centre for Atmospheric Sciences, IIT Delhi)",
+   "gs": [
+    "GS3",
+    "GS2",
+    "GS4"
+   ],
+   "syllabus": "GS3 › Conservation, environmental pollution and degradation · GS2 › Government policies and interventions; vulnerable sections · GS4 › Environmental ethics; probity in use of public funds",
+   "themes": [
+    "pollution",
+    "health",
+    "urban",
+    "women",
+    "g4env"
+   ],
+   "summary": "An IIT Delhi atmospheric scientist argues that India knows the sources of its air pollution and must act on them through transport, clean cooking, waste management and regulation, rather than wait for more data or chase technological spectacles.",
+   "evolution": [
+    [
+     "27 Oct 2026",
+     "Punjab farm fires concentrated in Tarn Taran and Amritsar."
+    ],
+    [
+     "28 Oct 2026",
+     "Clean air needs targets, timelines, accountability; NCAP 2.0 being drafted."
+    ],
+    [
+     "31 Oct 2026",
+     "Acting before the air turns severe."
+    ],
+    [
+     "20 Nov 2026",
+     "Expert view: sources known, act now; look beyond technical fixes."
+    ]
+   ],
+   "ideas": [
+    [
+     "A year-round, all-India problem: air pollution is not just Delhi-NCR in winter; transport, household fuels, waste burning, industry and construction pollute all year, while weather only disperses or traps emissions.",
+     "GS3 · Pollution",
+     "Treating air pollution as a seasonal Delhi issue misses its year-round, nationwide sources."
+    ],
+    [
+     "Sources are known, so act: reducing pollution needs two things, fewer emission sources and cleaner remaining ones; public transport, clean cooking and heating, alternatives to stubble burning, working waste management and industrial regulation.",
+     "GS3 · Pollution control / GS2 · Policy",
+     "Research should refine interventions, not become a prerequisite for action."
+    ],
+    [
+     "Beyond technical fixes: stubble burning needs an understanding of farmers' economic constraints; firecracker pollution needs changes in social attitudes and community action, not only bans.",
+     "GS3 · Agriculture / GS1 · Society",
+     "Stubble and firecrackers are social and economic problems, not merely technical ones."
+    ],
+    [
+     "Measure what people breathe: rooftop monitors miss indoor exposure from solid-fuel cooking, which falls mostly on women; street vendors, construction and sanitation workers, and farmers face the highest exposure.",
+     "GS2 · Vulnerable sections / GS1 · Women",
+     "Exposure, not ambient readings alone, should guide policy so that the most vulnerable are protected."
+    ],
+    [
+     "Spectacle vs substance: smog towers and artificial rain offer the optics of action despite doubts over effectiveness; institutional fixes such as transport, waste and clean energy need sustained funding, coordination and confronting vested interests.",
+     "GS3 · Governance of environment / GS4 · Probity",
+     "Public money should fund what cuts emissions, not what looks like action."
+    ]
+   ],
+   "keywords": [
+    [
+     "Exposure-centred policy",
+     "Judging success by what people actually breathe, indoors and outdoors",
+     "GS3 · Pollution",
+     "An exposure-centred clean air policy would cover kitchens and workplaces, not just rooftop monitors."
+    ],
+    [
+     "Techno-solutionism",
+     "Belief that a gadget can fix a complex social problem",
+     "GS3 · Governance / GS4 · Probity",
+     "Smog towers reflect techno-solutionism: visible, costly and of doubtful effect."
+    ],
+    [
+     "Optics of action",
+     "Visible measures that signal effort without reducing harm",
+     "GS4 · Probity in public spending",
+     "Spectacular projects can give governments the optics of action without cutting emissions."
+    ],
+    [
+     "Environmental justice",
+     "Fair sharing of environmental burdens and protection",
+     "GS4 · Environmental ethics",
+     "Those with the least choice, such as street vendors and women cooking on solid fuels, bear the most exposure: an environmental justice gap."
+    ],
+    [
+     "Plural expertise",
+     "Valuing economists, social scientists and practitioners alongside scientists",
+     "GS2 · Policymaking",
+     "Clean air needs plural expertise, from agricultural economists to community workers."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "Smog towers and artificial rain",
+     "spectacle over substance in pollution control",
+     "GS4",
+     "GS3 · Pollution · GS4 · Probity",
+     "Smog towers and artificial rain: the optics of action without real emission cuts."
+    ],
+    [
+     "Rooftop monitor vs smoky kitchen",
+     "ambient readings miss indoor exposure",
+     "",
+     "GS3 · Pollution · GS1 · Women",
+     "A rooftop monitor cannot see a smoky kitchen: indoor exposure falls mostly on women."
+    ],
+    [
+     "Street vendors and sanitation workers",
+     "highest exposure, least choice",
+     "GS4",
+     "GS2 · Vulnerable sections · GS4 · Environmental justice",
+     "Street vendors and sanitation workers: highest exposure, least choice."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS3-2020/Q17",
+     "Key features of the National Clean Air Programme (NCAP)."
+    ],
+    [
+     "GS3-2021/Q7",
+     "WHO's revised Air Quality Guidelines and changes needed in NCAP."
+    ],
+    [
+     "GS3-2022/Q7",
+     "Photochemical smog: formation, effects, mitigation; Gothenburg Protocol."
+    ],
+    [
+     "GS1-2015/Q15",
+     "Why air pollution is worse in Delhi than in Mumbai and Kolkata."
+    ],
+    [
+     "GS3-2026/Q17",
+     "Challenges to solid waste management; policy framework."
+    ],
+    [
+     "GS3-2014/Q8",
+     "National Urban Transport Policy: 'moving people' not 'moving vehicles'."
+    ]
+   ],
+   "trend": {
+    "t": "Air pollution questions began with geography (why Delhi is worse, 2015), moved to policy (NCAP features 2020, WHO guidelines and NCAP changes 2021) and science (photochemical smog 2022). Related sources are asked separately: urban transport (2014) and solid waste management (2026).",
+    "watch": "Air quality was asked three years in a row (2020, 2021, 2022), each time linking science or standards to NCAP, so NCAP and its revision (NCAP 2.0) are must-study, along with source-sectors such as transport and waste.",
+    "focus": [
+     "NCAP: features, gaps and NCAP 2.0",
+     "Sector-wise sources: transport, household fuels, waste, stubble",
+     "Health and vulnerable groups' exposure",
+     "Governance: coordination, funding and accountability"
+    ]
+   },
+   "potential": [
+    "\"India's air pollution crisis is less a problem of knowledge than of implementation.\" Discuss. (15 marks)",
+    "Why have technological fixes such as smog towers failed to address air pollution? Suggest a more effective approach. (10 marks)",
+    "Examine how air pollution affects vulnerable sections disproportionately. (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "\"India's air pollution crisis is less a problem of knowledge than of implementation.\" Discuss.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction",
+      "Why it is a problem of implementation",
+      "Where knowledge gaps still matter",
+      "Way forward",
+      "Conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "The sources of India's air pollution, from transport and household fuels to waste and stubble burning, are well established, yet unhealthy air persists across the country all year round."
+      },
+      {
+       "h": "Why it is a problem of implementation",
+       "pts": [
+        {
+         "k": "Known sources, slow action",
+         "t": "Sources are mapped, but cleaner transport, fuels and waste systems lag.",
+         "ex": "Year-round emissions from transport, waste burning and construction."
+        },
+        {
+         "k": "Spectacle over substance",
+         "t": "Funds flow to visible gadgets of doubtful effect.",
+         "ex": "Smog towers and artificial rain."
+        },
+        {
+         "k": "Weak institutions",
+         "t": "Pollution control boards are short of staff and powers.",
+         "ex": "Patchy enforcement on industry and construction dust."
+        },
+        {
+         "k": "Fragmented governance",
+         "t": "Airsheds cross state boundaries, but action is state-bound.",
+         "ex": "Stubble burning in Punjab, smog in Delhi."
+        },
+        {
+         "k": "Paperwork over outcomes",
+         "t": "Rankings reward spending and plans, not cleaner air.",
+         "ex": "Critique of clean-air rankings (Oct 2026)."
+        },
+        {
+         "k": "Vested interests",
+         "t": "Reform hits powerful lobbies in transport, industry and energy.",
+         "ex": "Resistance to stricter industrial norms."
+        }
+       ]
+      },
+      {
+       "h": "Where knowledge gaps still matter",
+       "pts": [
+        {
+         "k": "Personal exposure",
+         "t": "Ambient monitors miss what people breathe indoors and at work.",
+         "ex": "Women cooking on solid fuels."
+        },
+        {
+         "k": "Smaller cities",
+         "t": "Monitoring is thin outside metros.",
+         "ex": "Air pollution is all-India, not only Delhi-NCR."
+        },
+        {
+         "k": "Social drivers",
+         "t": "Farmers' and households' choices are under-studied.",
+         "ex": "Economic constraints behind stubble burning."
+        },
+        {
+         "k": "Atmospheric chemistry",
+         "t": "Secondary pollutant formation remains uncertain.",
+         "ex": "Winter smog episodes."
+        }
+       ]
+      },
+      {
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "Act on what is known",
+         "t": "Public transport, clean cooking, waste management and industrial regulation.",
+         "ex": "'Moving people, not vehicles' (National Urban Transport Policy)."
+        },
+        {
+         "k": "Exposure-based targets",
+         "t": "Measure success by reduced exposure, with deadlines and accountability.",
+         "ex": "NCAP 2.0."
+        },
+        {
+         "k": "Airshed governance",
+         "t": "Regional bodies with powers across states.",
+         "ex": "Commission for Air Quality Management in NCR."
+        },
+        {
+         "k": "Support farmers",
+         "t": "Make alternatives to burning economically viable.",
+         "ex": "Crop residue management machines, diversification."
+        },
+        {
+         "k": "Protect the vulnerable",
+         "t": "Safer workplaces and clean fuels for the poorest.",
+         "ex": "Clean cooking access for poor households."
+        },
+        {
+         "k": "Scrutinise spending",
+         "t": "Independent evaluation of costly interventions.",
+         "ex": "Civil society questioning smog tower spending."
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "India does not need to know everything to act on what it already knows; clean air depends on institutions, not gadgets."
+      }
+     ]
+    }
+   ]
   }
  ],
  "ethics": [
@@ -1663,6 +1945,30 @@
     "Climate justice",
     "Moral courage",
     "CBDR-RC"
+   ]
+  },
+  {
+   "id": "2026-11-20-e6",
+   "area": "env",
+   "themes": [
+    "g4env",
+    "g4gender"
+   ],
+   "card": "2026-11-20-06",
+   "src": "IE p. 12",
+   "title": "Clean air for whom? Optics, spending and the most exposed",
+   "news": "An IIT Delhi scientist says smog towers and artificial rain give governments the optics of action, while street vendors, sanitation workers and women cooking on solid fuels bear the highest exposure.",
+   "syllabus": "Environmental ethics; probity in use of public funds; concern for the vulnerable",
+   "link": "Spending public money on visible but ineffective fixes is a failure of probity and stewardship. Fair policy puts those with the least choice and the most exposure first.",
+   "pyq": [
+    "GS4-2024/Q2b"
+   ],
+   "question": "\"Public spending on environmental problems must be judged by outcomes, not optics.\" Discuss with reference to air pollution control.",
+   "keywords": [
+    "Environmental justice",
+    "Stewardship",
+    "Probity",
+    "Compassion for the vulnerable"
    ]
   }
  ],
