@@ -1205,6 +1205,336 @@
      ]
     }
    ]
+  },
+  {
+   "id": "2026-11-20-05",
+   "title": "COP31: Future of fossil fuels exposes sharp divides among countries, yet again",
+   "section": "Nation",
+   "page": "Page 9",
+   "where": "Nation page anchor (Amitabh Sinha)",
+   "gs": [
+    "GS2",
+    "GS3",
+    "GS4"
+   ],
+   "syllabus": "GS3 › Conservation, environmental pollution and degradation; climate change and international negotiations · GS2 › Important international institutions (UNFCCC); agreements affecting India's interests · GS4 › Environmental ethics",
+   "themes": [
+    "climate",
+    "energy",
+    "intl",
+    "g4env"
+   ],
+   "summary": "COP31's latest draft text in Antalya dropped every mention of fossil fuels, softened the 1.5°C language and left out a US$120 billion adaptation finance target, a day before the talks were due to end.",
+   "evolution": [
+    [
+     "2023",
+     "COP28, Dubai: 'fossil fuels' named in the main agreement for the first time."
+    ],
+    [
+     "2025",
+     "COP30, Brazil: fossil fuels left out of the final decision despite 80+ countries pressing."
+    ],
+    [
+     "5 Nov 2026",
+     "India not committed to the '35 by 35' electrification target (COP31 preview card)."
+    ],
+    [
+     "9–10 Nov 2026",
+     "COP31 opens in Antalya as the 'Implementation COP'; WMO says 2026 among the warmest years."
+    ],
+    [
+     "19 Nov 2026",
+     "Latest draft drops all fossil fuel references and the adaptation finance target."
+    ]
+   ],
+   "ideas": [
+    [
+     "Fossil fuels erased again: the first draft called for 'accelerated action to phase out fossil fuels'; the latest drops every mention, repeating Brazil (COP30).",
+     "GS3 · Climate negotiations",
+     "Dropping fossil fuels from COP texts shows that the core cause of warming remains the hardest issue to negotiate."
+    ],
+    [
+     "Three camps: the EU and over 80 countries want a phase-out roadmap; oil producers oppose it; major consumers such as India and China are not enthusiastic.",
+     "GS2 · International negotiations / GS3 · Energy security",
+     "Climate talks divide producers, consumers and ambitious blocs, so consensus language on fossil fuels stays weak."
+    ],
+    [
+     "1.5°C quietly slipping: the new text only pursues efforts toward 1.5°C and limits the overshoot, after a 1.7–1.8°C rise was judged inevitable; the 1.5°C work programme was dropped.",
+     "GS3 · Climate change",
+     "The shift from 'return to 1.5°C' to 'limit the overshoot' marks a quiet retreat from the Paris goal."
+    ],
+    [
+     "Developing countries lose on finance: the US$120 billion adaptation finance target was dropped from the draft.",
+     "GS3 · Climate finance / GS2 · Global South",
+     "Without finance targets, an 'Implementation COP' risks leaving developing countries to adapt on their own."
+    ],
+    [
+     "Electrification enters the text: the host Türkiye's push to raise electricity's share of final energy from 23% to 35% moved from a voluntary pledge into the negotiated decision.",
+     "GS3 · Energy transition",
+     "Electrification targets, though easier to agree than phase-outs, raise questions of finance and national circumstances for India."
+    ]
+   ],
+   "keywords": [
+    [
+     "Overshoot",
+     "Temporarily exceeding 1.5°C before trying to bring temperatures back down",
+     "GS3 · Climate science",
+     "COP31's draft accepts an overshoot and only seeks to limit its duration and magnitude."
+    ],
+    [
+     "Transition away from fossil fuels",
+     "Phrase from COP28 for moving energy systems off coal, oil and gas",
+     "GS3 · Climate negotiations",
+     "The COP28 call to transition away from fossil fuels has proved hard to repeat in later COP texts."
+    ],
+    [
+     "Phase-out roadmap",
+     "A timeline for ending fossil fuel use, pushed by the EU",
+     "GS3 · Energy transition",
+     "At least eight European countries have their own phase-out roadmaps, but no global one exists."
+    ],
+    [
+     "Common but differentiated responsibilities",
+     "UNFCCC principle that rich and poor countries owe different efforts",
+     "GS2 · Climate justice",
+     "India's caution on phase-out targets rests on common but differentiated responsibilities and respective capabilities."
+    ],
+    [
+     "Lowest-common-denominator consensus",
+     "Outcomes diluted so every party can agree",
+     "GS2 · Multilateralism",
+     "Consensus-based COPs often produce lowest-common-denominator texts on contested issues like fossil fuels."
+    ]
+   ],
+   "data": [
+    [
+     "23% → 35%",
+     "Electricity's share of global final energy consumption: present level and proposed target",
+     "COP31 draft text",
+     "GS3 · Energy transition",
+     "COP31's draft calls for raising electricity's share of global final energy use from 23% to 35%."
+    ],
+    [
+     "US$120 billion",
+     "Proposed adaptation finance target dropped from the COP31 draft",
+     "COP31 draft text",
+     "GS3 · Climate finance",
+     "A proposed US$120 billion adaptation finance target was dropped from the COP31 draft."
+    ]
+   ],
+   "examples": [
+    [
+     "COP28 Dubai, 2023",
+     "first COP text to name fossil fuels",
+     "",
+     "GS3 · Climate negotiations",
+     "COP28 Dubai, 2023: first COP decision to name fossil fuels."
+    ],
+    [
+     "COP31 Antalya draft, 2026",
+     "fossil fuels erased again",
+     "GS4",
+     "GS3 · Climate negotiations · GS4 · Environmental ethics",
+     "COP31 Antalya draft, 2026: every mention of fossil fuels erased."
+    ],
+    [
+     "'35 by 35' electrification goal",
+     "Türkiye's showpiece target",
+     "",
+     "GS3 · Energy transition",
+     "'35 by 35': Türkiye's push to raise electricity's share of final energy."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS3-2025/Q18",
+     "India's Paris commitments, COP26 and the updated NDC."
+    ],
+    [
+     "GS3-2021/Q17",
+     "Major outcomes of COP26 and India's commitments."
+    ],
+    [
+     "GS2-2022/Q20",
+     "India's changing climate policy in international fora."
+    ],
+    [
+     "GS3-2022/Q12",
+     "50% renewables by 2030; shifting subsidies from fossil fuels."
+    ],
+    [
+     "GS3-2022/Q17",
+     "Global warming and control measures under the Kyoto Protocol."
+    ],
+    [
+     "GS3-2014/Q13",
+     "Carbon credits and CDM under the UNFCCC."
+    ],
+    [
+     "GS4-2024/Q2b",
+     "Global warming as an outcome of human greed in the name of development."
+    ]
+   ],
+   "trend": {
+    "t": "Climate negotiation questions began with UNFCCC mechanisms (carbon credits 2014, Kyoto 2022), moved to specific COP outcomes and India's pledges (COP26 in 2021, Paris and NDCs in 2025), and to India's evolving stance in global fora (2022). The energy-transition side appears through renewables targets and fossil fuel subsidies (2022) and, in GS4, through greed and development (2024).",
+    "watch": "UPSC asked India's COP commitments in 2021 and again in 2025, each time pairing a specific COP outcome with India's pledges, so COP outcomes and India's position on fossil fuel transition are a must-study.",
+    "focus": [
+     "India's position on fossil fuel phase-out vs phase-down",
+     "Climate finance and adaptation for developing countries",
+     "1.5°C goal, overshoot and the Paris Agreement",
+     "Energy transition: electrification, renewables and subsidies"
+    ]
+   },
+   "potential": [
+    "\"The phase-out of fossil fuels remains the most divisive issue in climate negotiations.\" Discuss in the context of recent COP meetings and India's position. (15 marks)",
+    "Why has climate finance for adaptation remained elusive for developing countries? Suggest measures. (10 marks)",
+    "\"Keeping the 1.5°C goal alive now means managing an overshoot.\" Examine. (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "\"The phase-out of fossil fuels remains the most divisive issue in climate negotiations.\" Discuss in the context of recent COP meetings and India's position.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction",
+      "Why fossil fuels divide nations",
+      "India's position",
+      "Consequences of the deadlock",
+      "Way forward",
+      "Conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "Named in a COP decision for the first time only at COP28 (2023), fossil fuels were dropped again from COP30's final text and from COP31's latest draft in Antalya (November 2026)."
+      },
+      {
+       "h": "Why fossil fuels divide nations",
+       "pts": [
+        {
+         "k": "Producer economies",
+         "t": "Oil and gas exporters depend on fossil revenue and resist any phase-out timeline.",
+         "ex": "Major oil producers oppose an EU-led roadmap at COP31."
+        },
+        {
+         "k": "Development needs",
+         "t": "Growing economies still rely on coal and oil for affordable energy.",
+         "ex": "India and China 'not too enthusiastic' about phase-out."
+        },
+        {
+         "k": "Historical responsibility",
+         "t": "Developing countries argue the rich, who emitted most, must cut first and pay.",
+         "ex": "CBDR-RC principle of the UNFCCC."
+        },
+        {
+         "k": "Finance gap",
+         "t": "Transition costs are high, and promised finance has fallen short.",
+         "ex": "US$120 billion adaptation finance target dropped at COP31."
+        },
+        {
+         "k": "Consensus rule",
+         "t": "Any party can block, so texts shrink to agreed minimums.",
+         "ex": "Over 80 countries pressed at COP30, yet fossil fuels were left out."
+        },
+        {
+         "k": "Energy security",
+         "t": "Wars and supply shocks make countries cling to secure fuels.",
+         "ex": "Disruptions to global energy supply highlighted by India."
+        }
+       ]
+      },
+      {
+       "h": "India's position",
+       "pts": [
+        {
+         "k": "Phase-down, not phase-out",
+         "t": "India prefers gradual, nationally determined transition.",
+         "ex": "COP26 (2021): 'phase down' of unabated coal."
+        },
+        {
+         "k": "Strong clean energy action",
+         "t": "India pairs caution on targets with rapid renewable growth.",
+         "ex": "Net zero by 2070; 50% non-fossil power capacity target."
+        },
+        {
+         "k": "Sovereignty and poverty",
+         "t": "India resists global targets that ignore development needs.",
+         "ex": "Not committed to the '35 by 35' electrification target."
+        },
+        {
+         "k": "Climate justice",
+         "t": "India demands finance and technology from developed countries.",
+         "ex": "India's support for the Loss and Damage Fund."
+        }
+       ]
+      },
+      {
+       "h": "Consequences of the deadlock",
+       "pts": [
+        {
+         "k": "Paris goal slipping",
+         "t": "Without curbing fossil fuels, 1.5°C becomes unreachable.",
+         "ex": "COP31 draft accepts overshoot to 1.7–1.8°C."
+        },
+        {
+         "k": "Credibility of COPs",
+         "t": "Repeated dilution erodes trust in multilateral climate action.",
+         "ex": "Harjeet Singh: a 'glaring regression'."
+        },
+        {
+         "k": "Fragmented action",
+         "t": "Countries act alone, creating uneven standards.",
+         "ex": "Eight European countries with their own roadmaps."
+        },
+        {
+         "k": "Burden on the vulnerable",
+         "t": "Poor and island nations face rising losses.",
+         "ex": "Nepal's Loss and Damage payout covering a fraction of need."
+        }
+       ]
+      },
+      {
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "Differentiated timelines",
+         "t": "Rich nations phase out first; developing nations follow with support.",
+         "ex": "Equity under CBDR-RC."
+        },
+        {
+         "k": "Finance at scale",
+         "t": "Firm adaptation and transition finance targets.",
+         "ex": "Restore the dropped adaptation target."
+        },
+        {
+         "k": "Just transition",
+         "t": "Protect coal-dependent workers and regions.",
+         "ex": "Just Energy Transition Partnerships."
+        },
+        {
+         "k": "Sectoral pathways",
+         "t": "Agree on achievable steps such as electrification and efficiency.",
+         "ex": "Electricity share from 23% to 35% in the draft."
+        },
+        {
+         "k": "Technology sharing",
+         "t": "Cheaper access to storage, green hydrogen and CCUS.",
+         "ex": "International Solar Alliance as a model."
+        },
+        {
+         "k": "Subsidy reform",
+         "t": "Shift fossil fuel subsidies to renewables.",
+         "ex": "GS3-2022 question on subsidy shift."
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "From Dubai to Antalya, fossil fuels remain the elephant in the room; only a transition that is fair, financed and differentiated can bring every country to the table."
+      }
+     ]
+    }
+   ]
   }
  ],
  "ethics": [
@@ -1309,6 +1639,30 @@
     "Reliability",
     "Rule of law",
     "Sovereign equality"
+   ]
+  },
+  {
+   "id": "2026-11-20-e5",
+   "area": "env",
+   "themes": [
+    "g4env"
+   ],
+   "card": "2026-11-20-05",
+   "src": "IE p. 9",
+   "title": "Silence on the cause: fossil fuels dropped from COP31's draft",
+   "news": "COP31's latest draft removed every mention of fossil fuels, the main source of greenhouse gas emissions, along with an adaptation finance target for developing countries.",
+   "syllabus": "Environmental ethics; intergenerational equity; climate justice",
+   "link": "Avoiding the main cause of warming to protect present interests shifts the cost onto future generations and the most vulnerable countries. Honesty about causes and fairness in sharing burdens are the ethical tests of climate diplomacy.",
+   "pyq": [
+    "GS4-2024/Q2b",
+    "GS4-2026/Q5b"
+   ],
+   "question": "\"Climate negotiations that avoid naming the cause of the problem fail both future generations and the vulnerable.\" Discuss the ethical issues involved.",
+   "keywords": [
+    "Intergenerational equity",
+    "Climate justice",
+    "Moral courage",
+    "CBDR-RC"
    ]
   }
  ],
