@@ -1,0 +1,1007 @@
+{
+ "date": "2026-11-20",
+ "paper": "The Indian Express",
+ "items": [
+  {
+   "id": "2026-11-20-01",
+   "title": "India Inc not passing on gains: PM flags salary, sub-par goods",
+   "section": "Front page",
+   "page": "Page 1",
+   "where": "Front page lead, continued on page 2 (Dheeraj Mishra)",
+   "gs": [
+    "GS3",
+    "GS4"
+   ],
+   "syllabus": "GS4 › Ethical concerns and dilemmas in private institutions; corporate governance · GS3 › Industrial policy; effects of liberalisation; Make in India · GS2 › Consumer protection",
+   "themes": [
+    "g4applied",
+    "g4values",
+    "industry",
+    "jobs",
+    "agri"
+   ],
+   "summary": "At FICCI's annual convention, the PM said industry had not passed on the corporate tax cut to workers through higher salaries or jobs, and said he was 'ashamed' of sub-par goods sold to Indian consumers.",
+   "evolution": [],
+   "ideas": [
+    [
+     "Tax relief without sharing: corporate tax cut from 30% to 22%, yet the PM asked whether salaries or headcount had risen.",
+     "GS4 · Corporate governance / GS3 · Fiscal policy",
+     "A tax cut is a public sacrifice; corporate governance demands that its gains reach workers, not only shareholders."
+    ],
+    [
+     "Quality as an ethical duty: a captive market of 1.4 billion breeds complacency; 'our own people' are entitled to good-quality products.",
+     "GS4 · Business ethics / GS2 · Consumer protection",
+     "Selling sub-par goods because 'it will sell anyway' treats citizens as captive buyers, not stakeholders."
+    ],
+    [
+     "Self-reliance in an era of 'weaponisation of resources': India imports APIs despite being the 'Pharmacy of the World', exports iron ore but imports finished steel, has bauxite but imports aluminium alloys.",
+     "GS3 · Industrial policy / Supply chains",
+     "Raw-material exports with value-added imports show the gap between resource wealth and manufacturing depth."
+    ],
+    [
+     "Agriculture neglected by capital: India's share of global agri exports is only 2–2.5% as corporates hesitate to invest.",
+     "GS3 · Agriculture and food processing",
+     "Corporate investment in processing, procurement and export markets can turn India's farm output into an export identity."
+    ],
+    [
+     "Stakeholder nation: larger firms should lift small ones in quality and scale; a country progresses only when it respects farmers, small entrepreneurs, wealth creators and taxpayers.",
+     "GS4 · Values / GS3 · MSMEs",
+     "Growth that is shared across farmers, MSMEs and workers is both an economic and an ethical idea of progress."
+    ]
+   ],
+   "keywords": [
+    [
+     "Stakeholder capitalism",
+     "Firms answer to workers, consumers and society, not only shareholders",
+     "GS4 · Corporate governance",
+     "The PM's question on salaries is a call for stakeholder capitalism over shareholder primacy."
+    ],
+    [
+     "Fiduciary duty to society",
+     "Trust owed in return for public concessions such as tax cuts",
+     "GS4 · Business ethics",
+     "A tax concession creates a fiduciary duty to society: the benefit is held in trust for wider welfare."
+    ],
+    [
+     "Captive-market complacency",
+     "Quality slips when demand is assured",
+     "GS4 · Business ethics / GS3 · Industry",
+     "Captive-market complacency erodes quality; competitiveness abroad begins with respect for buyers at home."
+    ],
+    [
+     "Weaponisation of resources",
+     "Using control of inputs and supply chains as leverage",
+     "GS3 · Supply chains",
+     "In an era of weaponisation of resources, import dependence on APIs and alloys is a strategic risk."
+    ],
+    [
+     "Value-chain deepening",
+     "Moving from raw exports to finished, high-value goods",
+     "GS3 · Industrial policy",
+     "Exporting iron ore and importing steel signals the need for value-chain deepening."
+    ]
+   ],
+   "data": [
+    [
+     "30% → 22%",
+     "Corporate tax rate cut since 2014",
+     "PM at FICCI",
+     "GS3 · Fiscal policy · GS4 · Corporate governance",
+     "Despite the corporate tax cut from 30% to 22%, wage growth has lagged, the PM noted."
+    ],
+    [
+     "2–2.5%",
+     "India's share of global agricultural exports",
+     "PM at FICCI",
+     "GS3 · Agriculture exports",
+     "India's share of global agri exports is only 2–2.5%, far below its farm output."
+    ]
+   ],
+   "examples": [
+    [
+     "Modi at FICCI 2026",
+     "a PM asking industry to share tax gains with workers",
+     "GS4",
+     "GS4 · Corporate governance · GS3 · Industry",
+     "Modi at FICCI 2026: a PM asking industry to share tax gains with workers."
+    ],
+    [
+     "'Pharmacy of the World' imports APIs",
+     "strength in finished medicines, dependence in ingredients",
+     "",
+     "GS3 · Industrial policy",
+     "'Pharmacy of the World' imports APIs: strength in finished medicines, dependence in ingredients."
+    ],
+    [
+     "Iron ore out, steel in",
+     "resource wealth without manufacturing depth",
+     "",
+     "GS3 · Value chains",
+     "Iron ore out, steel in: resource wealth without manufacturing depth."
+    ],
+    [
+     "'I feel ashamed' of sub-par goods",
+     "consumer dignity as a business value",
+     "GS4",
+     "GS4 · Business ethics · GS2 · Consumer protection",
+     "PM 'ashamed' of sub-par goods: consumer dignity as a business value."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS4-2023/Q1a",
+     "Moral integrity and professional efficiency in corporate governance."
+    ],
+    [
+     "GS4-2022/Q6b",
+     "Is CSR efficient and sufficient for the corporate sector's social role?"
+    ],
+    [
+     "GS4-2017/Q12",
+     "CSR makes companies more profitable and sustainable."
+    ],
+    [
+     "GS4-2021/Q11",
+     "Case: food company sells rejected export products in the domestic market."
+    ],
+    [
+     "GS2-2015/Q14",
+     "Satyam scandal and changes in corporate governance."
+    ],
+    [
+     "GS3-2013/Q1",
+     "Companies Act 2013, CSR and inclusive growth."
+    ],
+    [
+     "GS2-2026/Q15",
+     "Corporate lobbies, pluralism and the convergence of wealth and power."
+    ]
+   ],
+   "trend": {
+    "t": "Corporate ethics questions began with law and compliance (Companies Act CSR 2013, Satyam 2015), moved to whether CSR pays or suffices (2017, 2022), and then to the character of business itself: moral integrity in corporate governance (2023) and corporate wealth's hold on democracy (GS2, 2026). Case studies (2016, 2018, 2020, 2021, 2024) repeatedly test profit against people: workers, consumers, environment.",
+    "watch": "CSR and corporate governance recur almost every alternate year in GS4, and 2021's case on selling export rejects at home is the same quality-for-own-citizens issue the PM raised.",
+    "focus": [
+     "Stakeholder vs shareholder model of corporate governance",
+     "Fair wages and sharing of gains with workers",
+     "Consumer rights and quality as business ethics",
+     "Limits of mandated CSR vs voluntary corporate conscience"
+    ]
+   },
+   "potential": [
+    "\"Corporate governance is not only about compliance with law but about the moral obligation to share gains with stakeholders.\" Discuss with reference to recent concerns over wages and product quality. (10 marks)",
+    "What ethical issues arise when businesses sell lower-quality products in a captive domestic market? Suggest measures to build a culture of quality. (10 marks)",
+    "Examine the ethical responsibilities of industry when it receives public concessions such as tax cuts. (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "\"Corporate governance is not only about compliance with law but about the moral obligation to share gains with stakeholders.\" Discuss with reference to recent concerns over wages and product quality.",
+     "marks": 10,
+     "words": 150,
+     "parts": [
+      "Introduction",
+      "Beyond compliance: the moral obligation",
+      "Why gains are not shared: challenges",
+      "Way forward and conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "Addressing FICCI in November 2026, the PM said industry had not passed on the corporate tax cut (30% to 22%) to workers and was selling sub-par goods at home."
+      },
+      {
+       "h": "Beyond compliance: the moral obligation",
+       "pts": [
+        {
+         "k": "Stakeholder capitalism",
+         "t": "A firm draws on workers, consumers and public resources, so it owes them a fair share, not only its shareholders.",
+         "ex": "PM: 'Have you increased the salaries of your employees?'"
+        },
+        {
+         "k": "Reciprocity for public concessions",
+         "t": "Tax relief is a sacrifice by the public exchequer; using it only for profit breaks an implicit social contract.",
+         "ex": "Corporate tax cut to 22% without matching wage gains."
+        },
+        {
+         "k": "Consumer dignity",
+         "t": "Quality is respect for the buyer; a captive market is not a licence for poor goods.",
+         "ex": "PM: 'Are our own people not entitled to good-quality products?'"
+        },
+        {
+         "k": "Integrity over the letter of law",
+         "t": "Legal minimums such as mandated CSR can coexist with unfair wages; conscience must go further.",
+         "ex": "Satyam (2009): compliant on paper, fraudulent in substance."
+        },
+        {
+         "k": "Inclusive value chains",
+         "t": "Large firms can mentor MSMEs on quality and scale.",
+         "ex": "PM asks big companies to help smaller ones develop quality."
+        }
+       ]
+      },
+      {
+       "h": "Why gains are not shared: challenges",
+       "pts": [
+        {
+         "k": "Shareholder primacy",
+         "t": "Quarterly profit pressure favours buybacks and dividends over wages.",
+         "ex": "Tax savings retained as profit, not shared as pay."
+        },
+        {
+         "k": "Labour surplus",
+         "t": "Abundant labour keeps bargaining power and wages low.",
+         "ex": "Informal and contract work in manufacturing."
+        },
+        {
+         "k": "Weak quality enforcement",
+         "t": "Patchy standards and testing let poor goods pass.",
+         "ex": "GS4-2021 case: export rejects sold domestically."
+        }
+       ]
+      },
+      {
+       "h": "Way forward and conclusion",
+       "pts": [
+        {
+         "k": "Link incentives to outcomes",
+         "t": "Tie concessions to jobs, wages and quality benchmarks, as in output-linked schemes.",
+         "ex": "Performance-linked incentive design."
+        },
+        {
+         "k": "Culture of quality",
+         "t": "Mandatory standards, consumer redress and 'zero defect' as a value.",
+         "ex": "Consumer Protection Act, 2019 and BIS standards."
+        },
+        {
+         "k": "Ethical leadership",
+         "t": "Boards that measure fair wages and customer trust, not only profit.",
+         "ex": "Gandhi's idea of trusteeship, recalled by the PM."
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "Good corporate governance is measured by who shares in the gains; profit with fair wages and fair goods is the ethic India's growth needs."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-11-20-02",
+   "title": "First SCO Civilisational Dialogue Forum opens in New Delhi",
+   "section": "National / Politics",
+   "page": "Page 8 (20 Nov); Page 6 (22 Nov)",
+   "where": "'PM Modi to open SCO Civilisational Dialogue today' (Divya A, 20 Nov, p. 8); 'Shekhawat: Youth, artists, digital push can preserve shared heritage' (Divya A, 22 Nov, p. 6)",
+   "gs": [
+    "GS1",
+    "GS2",
+    "GS4"
+   ],
+   "syllabus": "GS2 › Regional groupings involving India (SCO); India and its neighbourhood · GS1 › Indian culture: art forms, literature and architecture · GS4 › Ethics in international relations; soft power",
+   "themes": [
+    "groupings",
+    "heritage",
+    "regions",
+    "neighbour",
+    "g4intl"
+   ],
+   "summary": "PM Modi inaugurated the first SCO Civilisational Dialogue Forum at Purana Qila, with about 20 countries including Pakistan, whose minister attended an official event in Delhi for the first time since Operation Sindoor.",
+   "evolution": [
+    [
+     "2025",
+     "Modi proposes a dedicated platform for civilisational dialogue at the SCO Summit, Tianjin."
+    ],
+    [
+     "2026",
+     "Proposal welcomed in the SCO's Bishkek Declaration."
+    ],
+    [
+     "20 Nov 2026",
+     "Modi inaugurates the first SCO Civilisational Dialogue Forum at Purana Qila; exhibition 'Astitva' on Delhi's history."
+    ],
+    [
+     "21 Nov 2026",
+     "Thematic sessions; 13 ministers speak; Iran proposes three heritage initiatives."
+    ]
+   ],
+   "ideas": [
+    [
+     "India's initiative inside the SCO: born of Modi's Tianjin (2025) proposal and welcomed in the Bishkek Declaration, it adds a cultural pillar to a security-heavy grouping.",
+     "GS2 · SCO / Groupings",
+     "The Civilisational Dialogue Forum gives the SCO a people-to-people pillar beyond security and counter-terrorism."
+    ],
+    [
+     "Heritage as diplomacy: sessions on music, textiles, cuisine, scripts, manuscripts and monastic trails; 'Astitva' traces Delhi's history from 1200 BCE to 1200 CE.",
+     "GS1 · Culture / GS2 · Soft power",
+     "Shared heritage, from scripts to monastic trails, is soft power that builds trust where politics divides."
+    ],
+    [
+     "Multilateral room for adversaries: Pakistan's minister attended, and Delhi framed it as 'not a bilateral setting', asking all to extend due courtesy.",
+     "GS2 · India–Pakistan",
+     "Multilateral platforms let India engage Pakistan without changing its bilateral position."
+    ],
+    [
+     "Heritage is also contested: Pakistan has been asserting its Indus claim through Mohenjo-daro and Harappa; its minister invoked Taxila, Gandhara and Ghalib.",
+     "GS1 · Indus Valley / GS2 · Neighbourhood",
+     "Shared heritage can unite or be claimed; civilisational diplomacy must turn common roots into common ground."
+    ],
+    [
+     "Preserving heritage together: Shekhawat stressed youth, artisans, cultural tourism, digital initiatives and joint research; Iran proposed networks for manuscripts, translation and youth dialogue.",
+     "GS1 · Heritage conservation / GS2 · Central Asia",
+     "Digitising manuscripts and joint research make heritage a living bridge with Central Asia and West Asia."
+    ]
+   ],
+   "keywords": [
+    [
+     "Civilisational diplomacy",
+     "Using shared history and culture to build ties between states",
+     "GS2 · Soft power",
+     "Through the SCO forum, India practises civilisational diplomacy, turning shared heritage into strategic goodwill."
+    ],
+    [
+     "Track 1.5 cultural engagement",
+     "Ministers, scholars and artists together in one dialogue",
+     "GS2 · Diplomacy",
+     "Bringing ministers and scholars together, the forum blends official and cultural tracks of diplomacy."
+    ],
+    [
+     "Contested heritage",
+     "Rival national claims over a shared past",
+     "GS1 · Culture / GS2 · India–Pakistan",
+     "The Indus Valley is contested heritage; dialogue can turn it from a claim into a shared legacy."
+    ],
+    [
+     "Vasudhaiva Kutumbakam",
+     "'The world is one family', the forum's cultural theme",
+     "GS4 · Values in IR",
+     "The forum's theme, Vasudhaiva Kutumbakam, frames India's foreign policy as dialogue, not domination."
+    ]
+   ],
+   "data": [],
+   "examples": [
+    [
+     "SCO Civilisational Dialogue Forum, 2026",
+     "India's cultural pillar for the SCO",
+     "",
+     "GS2 · SCO · GS1 · Culture",
+     "SCO Civilisational Dialogue Forum, 2026: India's cultural pillar for the SCO."
+    ],
+    [
+     "Purana Qila, Delhi",
+     "Humayun from Central Asia, Sher Shah from Afghanistan: one fort, many roots",
+     "",
+     "GS1 · Heritage · GS2 · Central Asia",
+     "Purana Qila: built by Humayun and Sher Shah Suri, a symbol of Delhi's shared Central Asian roots."
+    ],
+    [
+     "Pakistan minister at Delhi forum",
+     "dialogue continues on multilateral platforms despite tensions",
+     "GS4",
+     "GS2 · India–Pakistan · GS4 · Ethics in IR",
+     "Pakistan minister at the Delhi SCO forum: dialogue survives on multilateral platforms despite tensions."
+    ],
+    [
+     "Iran's manuscript network proposal",
+     "joint digitisation and translation of shared texts",
+     "",
+     "GS1 · Heritage conservation",
+     "Iran's proposal to digitise and translate shared manuscripts: heritage conservation through cooperation."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS2-2021/Q19",
+     "Aims and objectives of the SCO; importance for India."
+    ],
+    [
+     "GS2-2023/Q9",
+     "'Virus of Conflict' and the SCO; India's role."
+    ],
+    [
+     "GS2-2024/Q10",
+     "India's relations with the Central Asian Republics."
+    ],
+    [
+     "GS2-2015/Q20",
+     "Soft power (sports, culture) and India–Pakistan goodwill."
+    ],
+    [
+     "GS1-2019/Q1",
+     "Central Asian and Greco-Bactrian elements in Gandhara art."
+    ],
+    [
+     "GS4-2020/Q1a",
+     "Ethics and values in Comprehensive National Power, including soft power."
+    ]
+   ],
+   "trend": {
+    "t": "SCO questions moved from basics (aims and importance for India, 2021) to its internal frictions (2023's 'virus of conflict'), while Central Asia appeared on its own (2018, 2024). Soft power has been asked as a tool for India–Pakistan goodwill (2015) and as an ethical component of national power (GS4, 2020).",
+    "watch": "The SCO has come up twice in three years (2021, 2023), and both times the question asked what India can do inside a divided grouping, so India's initiatives within the SCO are a must-study.",
+    "focus": [
+     "India's role and initiatives within the SCO",
+     "Cultural and civilisational links with Central Asia",
+     "Soft power and people-to-people ties in neighbourhood policy",
+     "Engaging Pakistan on multilateral platforms"
+    ]
+   },
+   "potential": [
+    "\"Civilisational dialogue can serve as a bridge where political dialogue fails.\" Discuss in the context of India's initiative within the SCO. (15 marks)",
+    "How can shared cultural heritage strengthen India's relations with Central Asia? (10 marks)",
+    "Examine the role of soft power in India's engagement with regional groupings. (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "\"Civilisational dialogue can serve as a bridge where political dialogue fails.\" Discuss in the context of India's initiative within the SCO.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction",
+      "How civilisational dialogue builds bridges",
+      "Limits and challenges",
+      "Way forward",
+      "Conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "Proposed by India at the SCO's Tianjin Summit (2025) and welcomed in the Bishkek Declaration, the first SCO Civilisational Dialogue Forum opened in New Delhi in November 2026 with about 20 countries, including Pakistan."
+      },
+      {
+       "h": "How civilisational dialogue builds bridges",
+       "pts": [
+        {
+         "k": "Common roots, common ground",
+         "t": "Shared art, scripts and faith traditions remind states of what unites them beyond current disputes.",
+         "ex": "Sessions on monastic trails, manuscripts and shared architecture."
+        },
+        {
+         "k": "Space for adversaries",
+         "t": "A multilateral, cultural setting allows engagement without political concessions.",
+         "ex": "Pakistan's minister attended; Delhi called it 'not a bilateral setting'."
+        },
+        {
+         "k": "People-to-people trust",
+         "t": "Artists, scholars and youth build ties that outlast governments.",
+         "ex": "Iran's proposed Network for Dialogue Among Youths."
+        },
+        {
+         "k": "Balancing a security-heavy SCO",
+         "t": "A cultural pillar softens a grouping known for counter-terrorism and rivalry.",
+         "ex": "India's initiative adds culture to the SCO's agenda."
+        },
+        {
+         "k": "Central Asian connect",
+         "t": "History provides a natural bridge to Central Asia where connectivity is limited.",
+         "ex": "Purana Qila: Humayun from Central Asia, Sher Shah from Afghanistan."
+        },
+        {
+         "k": "India's soft power",
+         "t": "Positions India as a civilisational state offering dialogue.",
+         "ex": "Cultural theme 'Vasudhaiva Kutumbakam'."
+        }
+       ]
+      },
+      {
+       "h": "Limits and challenges",
+       "pts": [
+        {
+         "k": "Heritage can divide",
+         "t": "A shared past can become a rival claim.",
+         "ex": "Pakistan asserting its Indus claim through Mohenjo-daro and Harappa."
+        },
+        {
+         "k": "Security trumps culture",
+         "t": "Terrorism and border disputes limit how far goodwill travels.",
+         "ex": "First Pakistani minister in Delhi since Operation Sindoor; Dargah visit not cleared."
+        },
+        {
+         "k": "Great-power rivalry",
+         "t": "China–India and Russia–West tensions shape the SCO's agenda.",
+         "ex": "GS2-2023: 'virus of conflict' in the SCO."
+        },
+        {
+         "k": "Symbolism over substance",
+         "t": "Forums risk becoming photo-ops without follow-up.",
+         "ex": "Need for institutional networks, not one-off events."
+        },
+        {
+         "k": "Low representation",
+         "t": "States send non-culture ministers, signalling politics over culture.",
+         "ex": "Pakistan sent its Climate Change minister, not its culture minister."
+        },
+        {
+         "k": "Limited connectivity",
+         "t": "Weak transport and visa links limit exchanges with Central Asia.",
+         "ex": "Land access to Central Asia blocked through Pakistan."
+        }
+       ]
+      },
+      {
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "Institutionalise the forum",
+         "t": "Annual meetings with a secretariat-backed work plan.",
+         "ex": "Build on the Bishkek Declaration."
+        },
+        {
+         "k": "Joint heritage projects",
+         "t": "Digitise and translate shared manuscripts.",
+         "ex": "Iran's manuscript and translation proposals."
+        },
+        {
+         "k": "Youth and artisans",
+         "t": "Exchanges, scholarships and cultural tourism.",
+         "ex": "Shekhawat's focus on youth, artisans and digital initiatives."
+        },
+        {
+         "k": "Separate culture from disputes",
+         "t": "Keep cultural tracks open even when political ties are frozen.",
+         "ex": "Due courtesy to all delegations at the forum."
+        },
+        {
+         "k": "Link to connectivity",
+         "t": "Pair cultural ties with Chabahar and INSTC links to Central Asia.",
+         "ex": "India–Central Asia engagement."
+        },
+        {
+         "k": "Shared research",
+         "t": "Joint archaeology and museum exchanges on common sites.",
+         "ex": "Gandhara and Taxila as shared heritage."
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "As Pakistan's minister said at the forum, 'When history discovers us, it should find that we were talking'; civilisational dialogue keeps that conversation alive while politics catches up."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-11-20-03",
+   "title": "Shenzhen Peace Declaration: Trump, Xi, Putin agree on boosting oil supplies, reducing nuclear risks",
+   "section": "Front page",
+   "page": "Page 1",
+   "where": "Front page, continued on page 2 (AP); editorial 'G3 claims common ground, strikes no bargain' (p. 10); op-eds by Sujan Chinoy and Surupa Gupta (p. 11)",
+   "gs": [
+    "GS2",
+    "GS3",
+    "GS4"
+   ],
+   "syllabus": "GS2 › Effect of policies and politics of developed countries on India's interests; important international institutions (UN, ICC) · GS3 › Energy security · GS4 › Ethics in international relations",
+   "themes": [
+    "powers",
+    "intl",
+    "energy",
+    "groupings",
+    "g4intl"
+   ],
+   "summary": "Meeting in Shenzhen on the APEC sidelines, Trump, Xi and Putin agreed to push UN reform, raise refined petroleum supplies, curb the ICC's reach and hold dialogue on nuclear risks.",
+   "evolution": [
+    [
+     "17 Nov 2026",
+     "Quad leaders meet in Manila; Trump returns to the Quad table before Shenzhen."
+    ],
+    [
+     "19 Nov 2026",
+     "Trump–Xi–Putin trilateral in Shenzhen on the sidelines of the 33rd APEC Economic Leaders' Meeting."
+    ]
+   ],
+   "ideas": [
+    [
+     "Four-point agenda: UN reform, more refined petroleum, curbs on the ICC and 'similar bodies', and dialogue on nuclear risks and proliferation.",
+     "GS2 · Great powers / International institutions",
+     "The Shenzhen statement shows great powers setting a global agenda outside multilateral institutions."
+    ],
+    [
+     "Common ground, no grand bargain: compared with Yalta (1945), but the Express editorial and Sujan Chinoy see optics over substance, with no breakthrough on Ukraine.",
+     "GS2 · World order",
+     "Shenzhen is no Yalta: three rivals sought common ground, not a carve-up of the world."
+    ],
+    [
+     "Weakening of rules-based multilateralism: all three leaders prefer personalised, transactional deals over institutions such as the WTO, NATO or the ICC.",
+     "GS2 · Multilateralism",
+     "Personalised summitry by great powers erodes rules-based multilateralism that protects middle powers."
+    ],
+    [
+     "Accountability bypassed: none of the three is a party to the Rome Statute, and the ICC has a warrant against Putin.",
+     "GS2 · International institutions / GS4 · Ethics in IR",
+     "Curbing the ICC shields the powerful from accountability, a core ethical concern in international relations."
+    ],
+    [
+     "India's stake: as one of the world's largest refining hubs it gains from steadier fuel supply, but must guard against great-power hegemony through like-minded partnerships and 'strength within'.",
+     "GS2 · India's interests / GS3 · Energy security",
+     "India's answer to great-power deals is multi-alignment abroad and industrial strength at home."
+    ]
+   ],
+   "keywords": [
+    [
+     "G3 / troika diplomacy",
+     "Three great powers setting the agenda outside institutions",
+     "GS2 · World order",
+     "The Shenzhen troika risks great-power hegemony over rules-based multilateralism."
+    ],
+    [
+     "Strategic stability",
+     "Arms balance that removes incentives for a first strike",
+     "GS2 · Nuclear diplomacy",
+     "The leaders committed to strategic stability, not to cutting their own arsenals."
+    ],
+    [
+     "Spheres of influence",
+     "Great powers claiming zones of control over smaller states",
+     "GS2 · Great-power politics",
+     "Russia's call for negotiated spheres of influence threatens the sovereignty of smaller states."
+    ],
+    [
+     "Multi-alignment",
+     "Engaging all powers without joining any bloc",
+     "GS2 · India's foreign policy",
+     "Through multi-alignment, India engages the Quad, ASEAN and the SCO without choosing sides."
+    ]
+   ],
+   "data": [
+    [
+     "600+ vs ~5,000 each",
+     "China's nuclear warheads vs those of the US and Russia",
+     "Arms Control Association (Daryl Kimball)",
+     "GS2 · Nuclear diplomacy",
+     "China has over 600 warheads against about 5,000 each for the US and Russia, so it resists arms limits."
+    ]
+   ],
+   "examples": [
+    [
+     "Shenzhen trilateral, 2026",
+     "great powers bypassing multilateral institutions",
+     "GS4",
+     "GS2 · World order · GS4 · Ethics in IR",
+     "Shenzhen trilateral, 2026: great powers bypassing multilateral institutions."
+    ],
+    [
+     "Yalta, 1945",
+     "great powers shaping the world order over others' heads",
+     "",
+     "GS2 · World order",
+     "Yalta, 1945: three powers shaped the post-war order over others' heads."
+    ],
+    [
+     "New START expired, Feb 2026",
+     "the end of the last US–Russia arms control pact",
+     "",
+     "GS2 · Nuclear diplomacy",
+     "New START expired in February 2026, ending the last US–Russia nuclear arms pact."
+    ],
+    [
+     "ICC warrant against Putin",
+     "limits of international justice against the powerful",
+     "GS4",
+     "GS2 · International institutions · GS4 · Accountability",
+     "ICC warrant against Putin: limits of international justice against the powerful."
+    ]
+   ],
+   "pyqs": [
+    [
+     "GS2-2025/Q20",
+     "UN reform stalled by the USA vs Russo-Chinese alliance."
+    ],
+    [
+     "GS3-2025/Q2",
+     "Economy's challenges as the world moves from multilateralism to protectionism and bilateralism."
+    ],
+    [
+     "GS2-2019/Q19",
+     "India's image as leader of the oppressed in the emerging global order."
+    ],
+    [
+     "GS2-2026/Q10",
+     "BRICS as a counterweight in global governance."
+    ],
+    [
+     "GS2-2018/Q20",
+     "US–Iran nuclear pact controversy and India's interests."
+    ],
+    [
+     "GS4-2026/Q5b",
+     "Ethics subjugated to strategic interests in international relations."
+    ],
+    [
+     "GS4-2020/Q3b",
+     "Taming the will to power with moral duty in international relations."
+    ],
+    [
+     "GS4-2022/Q5a",
+     "Ethical issues in launching and continuing the Russia–Ukraine war."
+    ]
+   ],
+   "trend": {
+    "t": "Questions on the world order moved from India's image in a changing order (2019) to great-power rivalry blocking UN reform (2025), the retreat from multilateralism to bilateralism in trade (GS3, 2025) and alternatives such as BRICS (2026). GS4 has paired this with ethics in IR: war (2022), power and moral duty (2020) and strategic interest over ethics (2026).",
+    "watch": "Great-power rivalry and the decline of multilateralism appeared in both GS2 and GS3 in 2025 and again in 2026, so the shift from rules to power-based deals is a must-study theme across papers.",
+    "focus": [
+     "Decline of multilateralism and great-power deals",
+     "UN reform and the role of the P5",
+     "India's strategic autonomy and multi-alignment",
+     "Ethics vs power in international relations"
+    ]
+   },
+   "potential": [
+    "\"Great-power summitry outside multilateral institutions threatens the rules-based order.\" Discuss with reference to the recent US–China–Russia trilateral and its implications for India. (15 marks)",
+    "\"In international relations, power often decides what is just.\" Examine the ethical issues raised when major powers seek to limit international courts. (10 marks)",
+    "How should India navigate a world order shaped by transactional great-power diplomacy? (10 marks)"
+   ],
+   "practice": [
+    {
+     "q": "\"Great-power summitry outside multilateral institutions threatens the rules-based order.\" Discuss with reference to the recent US–China–Russia trilateral and its implications for India.",
+     "marks": 15,
+     "words": 250,
+     "parts": [
+      "Introduction",
+      "How such summitry threatens the rules-based order",
+      "The other side: why it may not",
+      "Implications for India",
+      "Way forward",
+      "Conclusion"
+     ],
+     "answer": [
+      {
+       "h": "Introduction",
+       "t": "On 19 November 2026 in Shenzhen, Trump, Xi and Putin agreed on UN reform, more refined petroleum, curbs on the ICC and dialogue on nuclear risks, prompting comparisons with Yalta (1945)."
+      },
+      {
+       "h": "How such summitry threatens the rules-based order",
+       "pts": [
+        {
+         "k": "Bypassing institutions",
+         "t": "Decisions taken by three leaders sideline the UN, WTO and other forums where all states have a voice.",
+         "ex": "Agenda set at a trilateral, not in the UN General Assembly."
+        },
+        {
+         "k": "Undermining accountability",
+         "t": "Limiting international courts shields powerful states and leaders.",
+         "ex": "Joint call that the ICC 'must not abuse' its jurisdiction; ICC warrant against Putin."
+        },
+        {
+         "k": "Spheres of influence",
+         "t": "Great-power deals revive the idea that big states decide for small ones.",
+         "ex": "Russia's argument for negotiated spheres of influence."
+        },
+        {
+         "k": "Personalised diplomacy",
+         "t": "Leader-to-leader bargains replace stable, rule-based processes.",
+         "ex": "Surupa Gupta: all three epitomise personalised, transactional leadership."
+        },
+        {
+         "k": "Arms control vacuum",
+         "t": "Dialogue replaces binding limits.",
+         "ex": "New START expired in February; no commitment to cut arsenals."
+        },
+        {
+         "k": "Selective UN reform",
+         "t": "Reform defined by the P5 may freeze out aspirants.",
+         "ex": "GS2-2025: UN reform stalled by East–West entanglement."
+        }
+       ]
+      },
+      {
+       "h": "The other side: why it may not",
+       "pts": [
+        {
+         "k": "No grand bargain",
+         "t": "The three met to find common ground, not to divide the world.",
+         "ex": "Editorial: 'claims common ground, strikes no bargain'."
+        },
+        {
+         "k": "Optics over substance",
+         "t": "None can deliver its core aims, limiting real impact.",
+         "ex": "Sujan Chinoy: 'Shenzhen is no Yalta'."
+        },
+        {
+         "k": "Middle powers' agency",
+         "t": "Indo-Pacific states increasingly write their own rules.",
+         "ex": "ASEAN centrality and multi-alignment on display in Manila."
+        },
+        {
+         "k": "Risk reduction is a gain",
+         "t": "Even talk on nuclear risks lowers the chance of miscalculation.",
+         "ex": "Commitment to 'strategic stability and international security'."
+        }
+       ]
+      },
+      {
+       "h": "Implications for India",
+       "pts": [
+        {
+         "k": "Energy",
+         "t": "Steadier refined fuel supply helps India as a major refining hub.",
+         "ex": "Plan to raise refined petroleum output and supply."
+        },
+        {
+         "k": "UN reform",
+         "t": "P5-led reform may sideline India's claim to a permanent seat.",
+         "ex": "Vague call for 'UN reform' by three P5 members."
+        },
+        {
+         "k": "China's leverage",
+         "t": "A US–China thaw can reduce India's weight in US strategy.",
+         "ex": "Trump–Xi one-on-one in Shenzhen, their third substantial meeting this year."
+        },
+        {
+         "k": "Russia ties",
+         "t": "A US–Russia opening may ease pressure on India's Russia links.",
+         "ex": "Trump–Putin sit-down in Shenzhen."
+        }
+       ]
+      },
+      {
+       "h": "Way forward",
+       "pts": [
+        {
+         "k": "Multi-alignment",
+         "t": "Engage all poles through the Quad, ASEAN, BRICS and the SCO.",
+         "ex": "India's engagement across Manila forums."
+        },
+        {
+         "k": "Strength within",
+         "t": "Build industrial and technological capacity so others cannot dictate terms.",
+         "ex": "Editorial: India's ability depends on 'the strength within'."
+        },
+        {
+         "k": "Champion the Global South",
+         "t": "Push inclusive reform of the UN and global finance.",
+         "ex": "India's voice for the Global South."
+        },
+        {
+         "k": "Like-minded coalitions",
+         "t": "Partner middle powers to defend rules on trade and the seas.",
+         "ex": "ASEAN, Japan, Australia."
+        },
+        {
+         "k": "Energy diversification",
+         "t": "Spread sources and build reserves against supply shocks.",
+         "ex": "Strategic petroleum reserves."
+        },
+        {
+         "k": "Uphold international law",
+         "t": "Back institutions that protect smaller states.",
+         "ex": "Support for UNCLOS and freedom of navigation."
+        }
+       ]
+      },
+      {
+       "h": "Conclusion",
+       "t": "Shenzhen shows power seeking to set rules for all; India's answer lies in multi-alignment abroad and strength at home."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "ethics": [
+  {
+   "id": "2026-11-20-e1",
+   "area": "work",
+   "themes": [
+    "g4applied",
+    "g4values"
+   ],
+   "card": "2026-11-20-01",
+   "src": "IE pp. 1–2",
+   "title": "Tax cuts, fair wages and the duty to share",
+   "news": "The PM told FICCI that industry had not passed on the corporate tax cut to workers and was selling sub-par goods to Indian consumers.",
+   "syllabus": "Ethical concerns in private institutions; corporate governance",
+   "link": "A tax concession is a public sacrifice; keeping all its gains, underpaying workers and selling poor goods at home breaks the trust between business and society. Stakeholder fairness and quality are corporate governance values, not just economic choices.",
+   "pyq": [
+    "GS4-2023/Q1a",
+    "GS4-2022/Q6b",
+    "GS4-2021/Q11",
+    "GS4-2017/Q12"
+   ],
+   "question": "\"Profit made from public concessions carries a moral duty to workers and consumers.\" Discuss with reference to corporate governance in India.",
+   "keywords": [
+    "Stakeholder capitalism",
+    "Trusteeship",
+    "Consumer dignity",
+    "Fair wages"
+   ]
+  },
+  {
+   "id": "2026-11-20-e2",
+   "area": "intl",
+   "themes": [
+    "g4intl",
+    "g4values"
+   ],
+   "card": "2026-11-20-02",
+   "src": "IE p. 8 (20 Nov); p. 6 (22 Nov)",
+   "title": "Courtesy for an adversary: dialogue at the SCO forum",
+   "news": "At the SCO Civilisational Dialogue Forum in Delhi, India asked all participants to extend due courtesy to Pakistan's delegation, and Pakistan's minister spoke of shared heritage.",
+   "syllabus": "Ethics in international relations; tolerance and respect",
+   "link": "Extending courtesy to an adversary's delegation shows civility and tolerance without giving up a principled stand on terrorism. Dialogue on shared culture keeps the door to peace open: 'when history discovers us, it should find that we were talking'.",
+   "pyq": [
+    "GS4-2020/Q1a",
+    "GS4-2026/Q5b",
+    "GS4-2017/Q13"
+   ],
+   "question": "How can cultural dialogue serve as an ethical tool for peace between nations in conflict?",
+   "keywords": [
+    "Civility",
+    "Tolerance",
+    "Soft power",
+    "Vasudhaiva Kutumbakam"
+   ]
+  },
+  {
+   "id": "2026-11-20-e3",
+   "area": "intl",
+   "themes": [
+    "g4intl"
+   ],
+   "card": "2026-11-20-03",
+   "src": "IE pp. 1–2, 10–11",
+   "title": "Power above accountability: the Shenzhen call to curb the ICC",
+   "news": "Trump, Xi and Putin said the ICC and similar bodies must not abuse their jurisdiction; none of the three is party to the Rome Statute.",
+   "syllabus": "Ethics in international relations; accountability",
+   "link": "When the most powerful states seek to limit international courts, accountability becomes a rule only for the weak. The ethical test of a world order is whether law binds the strong as well.",
+   "pyq": [
+    "GS4-2026/Q5b",
+    "GS4-2020/Q3b",
+    "GS4-2022/Q5a"
+   ],
+   "question": "\"International justice that cannot reach the powerful is not justice.\" Examine with reference to recent attempts to limit international courts.",
+   "keywords": [
+    "Accountability",
+    "Rule of law",
+    "Impunity",
+    "Moral duty in IR"
+   ]
+  }
+ ],
+ "essay": [
+  {
+   "id": "e-2026-11-20-01",
+   "type": "Anecdote",
+   "title": "One fort, many roots",
+   "text": "At Purana Qila, Pakistan's minister said Delhi 'has not been diminished' by peoples from outside but grew stronger: the fort was begun by Humayun of Central Asia and carried forward by Sher Shah Suri from Afghanistan.",
+   "use": "For 'South Asian societies are woven not around the state, but around their plural cultures and plural identities' (2019) and 'Culture is what we are, civilization is what we have' (2020).",
+   "themes": [
+    "history",
+    "policy"
+   ],
+   "src": "IE p. 6, 22 Nov (Divya A)",
+   "topics": [
+    "2019B1",
+    "2020B1"
+   ]
+  },
+  {
+   "id": "e-2026-11-20-02",
+   "type": "Quote",
+   "title": "'Kitna hi khilao, pet bharta nahin'",
+   "text": "Telling industry it had not shared the tax cut with workers, the PM said: 'aap ki bhookh itni hai, kitna hi khilao pet bharta nahin hai' (your appetite is such that it is never satisfied).",
+   "use": "For 'Need brings greed, if greed increases it spoils breed' (2016).",
+   "themes": [
+    "ethics",
+    "inner"
+   ],
+   "src": "IE p. 1, 20 Nov (Dheeraj Mishra)",
+   "topics": [
+    "2016A2"
+   ]
+  },
+  {
+   "id": "e-2026-11-20-03",
+   "type": "Quote",
+   "title": "Power that will not disarm",
+   "text": "After the Shenzhen trilateral, Trump said 'once you have the nuclear weapons it's very hard to not have them'; the three powers agreed only to dialogue on nuclear risks, not to cut their own arsenals.",
+   "use": "For 'With greater power comes greater responsibility' (2014).",
+   "themes": [
+    "power"
+   ],
+   "src": "IE p. 10, 20 Nov (editorial)",
+   "topics": [
+    "2014A1"
+   ]
+  }
+ ]
+}
