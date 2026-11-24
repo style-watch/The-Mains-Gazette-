@@ -1970,6 +1970,35 @@
     "Probity",
     "Compassion for the vulnerable"
    ]
+  },
+  {
+   "id": "2026-11-20-e7",
+   "area": "work",
+   "themes": [
+    "g4leadership",
+    "g4ei",
+    "g4workculture"
+   ],
+   "card": null,
+   "src": "IE p. 19 (Sandip G)",
+   "title": "A band of brothers, not a gallery of stars",
+   "news": "New Manchester United manager Mauricio Pochettino, spotted at 13 by Marcelo Bielsa and mentored by Sir Alex Ferguson, built his best teams on 'respect and love', trust and camaraderie.",
+   "syllabus": "Leadership; emotional intelligence; mentorship and work culture",
+   "link": "Pochettino's teams succeeded where he built trust and team spirit, and struggled where there was 'too much greatness' and too many egos. Leadership rooted in respect, mentorship and patience gets more from the same people than leadership by command, a lesson for heads of public offices.",
+   "pyq": [
+    "GS4-2017/Q8",
+    "GS4-2020/Q2b",
+    "GS4-2014/Q16",
+    "GS4-2015/Q6"
+   ],
+   "question": "\"Teams are built on trust, not authority.\" How can a civil servant use emotional intelligence and mentorship to transform the work culture of an office?",
+   "keywords": [
+    "Servant leadership",
+    "Mentorship",
+    "Team spirit",
+    "Emotional intelligence",
+    "Trust"
+   ]
   }
  ],
  "essay": [
@@ -2016,6 +2045,52 @@
    "src": "IE p. 10, 20 Nov (editorial)",
    "topics": [
     "2014A1"
+   ]
+  },
+  {
+   "id": "e-2026-11-20-04",
+   "type": "Anecdote",
+   "title": "A knock on a farmhouse door",
+   "text": "Marcelo Bielsa knocked on the door of a farm family in Murphy, Argentina, and asked to take their 13-year-old son to Rosario. The boy, Mauricio Pochettino, learned from Bielsa and later from Maradona, and now manages Manchester United, building teams on 'respect and love'.",
+   "use": "For 'A good leader is one who follows the followers' (2026) and 'Character of an institution is reflected in its leader' (2015): leaders who spot, trust and nurture talent shape institutions.",
+   "themes": [
+    "power",
+    "journey"
+   ],
+   "src": "IE p. 19, 20 Nov (Sandip G)",
+   "topics": [
+    "2026B4",
+    "2015A3"
+   ]
+  },
+  {
+   "id": "e-2026-11-20-05",
+   "type": "Anecdote",
+   "title": "Band of brothers vs 'too much greatness'",
+   "text": "Pochettino's most successful sides, Southampton and Tottenham, were built on trust and camaraderie; at star-studded PSG and Chelsea he struggled because he could not make the team a band of brothers, as there was 'too much greatness'.",
+   "use": "For 'A good leader is one who follows the followers' (2026): teams outperform collections of stars when leaders build trust.",
+   "themes": [
+    "power"
+   ],
+   "src": "IE p. 19, 20 Nov (Sandip G)",
+   "topics": [
+    "2026B4"
+   ]
+  },
+  {
+   "id": "e-2026-11-20-06",
+   "type": "Anecdote",
+   "title": "Ferguson's patient path",
+   "text": "Sir Alex Ferguson told Pochettino he had restructured everything on arriving at United; his teams finished 11th twice in his first three years, then 13th, sixth and second, before he won the league. The talk reassured Pochettino to follow his own path.",
+   "use": "For 'The years teach much which the days never know' (2025) and 'Courage to accept and dedication to improve are two keys to success' (2019).",
+   "themes": [
+    "journey",
+    "history"
+   ],
+   "src": "IE p. 19, 20 Nov (Sandip G)",
+   "topics": [
+    "2025B2",
+    "2019A4"
    ]
   }
  ]
